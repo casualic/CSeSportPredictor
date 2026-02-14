@@ -18,6 +18,7 @@ Walk-forward (WF) results use the best single-model accuracy unless noted.
 |   10 |       75 | XGB_tuned_lean       | 64.17% | 0.6275 | 62.55% | +2.60%  |  59.95% (WF dyn)  | Deeper trees, SVM, multi-model WF |
 |   11 |       82 | XGB_tuned_lean       | 64.17% | 0.6262 | 63.23% | +3.27%  |  59.95% (WF dyn)  | Rank volatility + upset detector |
 |   12 |       82 | XGB_lean_d15         | 66.00% | 0.7152 | 63.23% | +3.27%  |  59.95% (WF dyn)  | Deeper trees (d10, d15, d20 grid) |
+|   13 |       83 | XGB_lean_d15         | 65.00% | 0.7208 | 63.50% | +3.55%  |  59.95% (WF dyn)  | Pistol round win rate feature |
 
 ### Walk-Forward Ensemble Highlights
 
@@ -26,11 +27,12 @@ Walk-forward (WF) results use the best single-model accuracy unless noted.
 |   10 | Ens_rank_blend_a0.2    | 63.05%  | +3.10%  |
 |   11 | Ens_rank_blend_a0.1    | 64.36%  | +4.41%  |
 |   12 | Ens_rank_blend_a0.1    | 64.36%  | +4.41%  |
+|   13 | Ens_rank_blend_a0.1    | 63.95%  | +4.00%  |
 
 ### Key Observations
 
 - **Best test accuracy**: 66.58% (Iter 7, LR_minimal) and 66.00% (Iter 12, XGB_lean_d15)
-- **Best walk-forward single model**: 63.23% (Iter 11-12, XGB_tuned_lean d=3, +3.27% edge)
+- **Best walk-forward single model**: 63.50% (Iter 13, XGB_tuned_lean d=3, +3.55% edge)
 - **Best walk-forward ensemble**: 64.36% (Iter 11-12, Ens_rank_blend_a0.1, +4.41% edge)
 - **Target**: 70% accuracy (not yet met)
 - Rank-only baseline outperformed ML models in Iters 1-4

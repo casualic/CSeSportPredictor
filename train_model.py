@@ -55,6 +55,16 @@ def load_map_results():
     return df
 
 
+def load_pistol_rounds():
+    """Load pistol round data CSV."""
+    path = os.path.join(DATA_DIR, "pistol_rounds.csv")
+    if not os.path.exists(path):
+        return None
+    df = pd.read_csv(path)
+    df["match_id"] = df["match_id"].astype(str)
+    return df
+
+
 def get_dynamic_rank(team, match_date, rankings_df):
     """Look up team's HLTV rank from the most recent ranking date <= match_date."""
     if rankings_df is None or match_date is None:
@@ -358,6 +368,29 @@ class MapStatsTracker:
 
 
 # ---------------------------------------------------------------------------
+# Pistol round tracker
+# ---------------------------------------------------------------------------
+
+class PistolTracker:
+    """Track per-team rolling pistol round win rates."""
+
+    def __init__(self, window=30):
+        self.window = window
+        # team -> list of bools (True = won pistol)
+        self.history = defaultdict(list)
+
+    def get_pistol_winrate(self, team):
+        hist = self.history.get(team, [])
+        if not hist:
+            return 0.5
+        recent = hist[-self.window:]
+        return sum(recent) / len(recent)
+
+    def update(self, team, won_pistol):
+        self.history[team].append(won_pistol)
+
+
+# ---------------------------------------------------------------------------
 # Team chemistry tracker (pairwise days together)
 # ---------------------------------------------------------------------------
 
@@ -575,11 +608,12 @@ def load_match_details():
 
 
 def build_features(df, top_teams, player_stats_df=None, match_details_df=None,
-                    rankings_df=None, map_results_df=None):
+                    rankings_df=None, map_results_df=None, pistol_rounds_df=None):
     """Build rich feature matrix combining team-level and player-level features."""
     has_player_data = player_stats_df is not None and not player_stats_df.empty
     has_rankings = rankings_df is not None and not rankings_df.empty
     has_maps = map_results_df is not None and not map_results_df.empty
+    has_pistol = pistol_rounds_df is not None and not pistol_rounds_df.empty
 
     elo = EloSystem(k=32)
     form = FormTracker(window=10)
@@ -588,6 +622,7 @@ def build_features(df, top_teams, player_stats_df=None, match_details_df=None,
     mtracker = MapStatsTracker(window=MAP_WINDOW)
     chem = ChemistryTracker()
     upset_detector = UpsetDetector()
+    pistol_tracker = PistolTracker(window=30)
 
     # Pre-build rankings index for O(1) lookups
     rankings_index = build_rankings_index(rankings_df) if has_rankings else {}
@@ -609,6 +644,12 @@ def build_features(df, top_teams, player_stats_df=None, match_details_df=None,
     if has_maps:
         for mid, group in map_results_df.groupby("match_id"):
             match_maps[str(mid)] = group
+
+    # Build match_id -> pistol rounds lookup
+    match_pistol = {}
+    if has_pistol:
+        for mid, group in pistol_rounds_df.groupby("match_id"):
+            match_pistol[str(mid)] = group.to_dict("records")
 
     features = []
     labels = []
@@ -852,6 +893,11 @@ def build_features(df, top_teams, player_stats_df=None, match_details_df=None,
         feat["upset_prob"] = upset_prob
         feat["upset_prob_x_rank_diff"] = upset_prob * dyn_rank_diff_val
 
+        # --- Pistol round features ---
+        pistol_wr1 = pistol_tracker.get_pistol_winrate(t1)
+        pistol_wr2 = pistol_tracker.get_pistol_winrate(t2)
+        feat["pistol_wr_diff"] = pistol_wr1 - pistol_wr2
+
         features.append(feat)
         label = 1 if winner == t1 else 0
         labels.append(label)
@@ -898,6 +944,20 @@ def build_features(df, top_teams, player_stats_df=None, match_details_df=None,
                 map_winner_name = mp["map_winner"]
                 mtracker.update(t1, map_name, map_winner_name == t1)
                 mtracker.update(t2, map_name, map_winner_name == t2)
+
+        # Update pistol tracker
+        pistol_data = match_pistol.get(match_id)
+        if pistol_data is not None:
+            for pr in pistol_data:
+                for pw_key in ["pistol1_winner", "pistol2_winner"]:
+                    pw = str(pr.get(pw_key, "")).strip()
+                    if pw:
+                        pt1 = str(pr.get("team1", "")).strip()
+                        pt2 = str(pr.get("team2", "")).strip()
+                        if pt1:
+                            pistol_tracker.update(pt1, pw == pt1)
+                        if pt2:
+                            pistol_tracker.update(pt2, pw == pt2)
 
     print(f"  Matches with player data: {matches_with_players}/{len(df)}")
     return pd.DataFrame(features), np.array(labels), np.array(has_player_mask)
@@ -1014,6 +1074,7 @@ def run_training(iteration=5):
     match_details_df = load_match_details()
     rankings_df = load_rankings_history()
     map_results_df = load_map_results()
+    pistol_rounds_df = load_pistol_rounds()
 
     if player_stats_df is not None:
         print(f"Player stats: {len(player_stats_df)} rows, "
@@ -1026,11 +1087,14 @@ def run_training(iteration=5):
     if map_results_df is not None:
         print(f"Map results: {len(map_results_df)} rows, "
               f"{map_results_df['map_name'].nunique()} unique maps")
+    if pistol_rounds_df is not None:
+        print(f"Pistol rounds: {len(pistol_rounds_df)} rows, "
+              f"{pistol_rounds_df['match_id'].nunique()} matches")
 
     # Build features
     print("\nBuilding features...")
     X, y, has_players = build_features(df, top_teams, player_stats_df, match_details_df,
-                                        rankings_df, map_results_df)
+                                        rankings_df, map_results_df, pistol_rounds_df)
     feature_names = list(X.columns)
     print(f"  Features: {len(feature_names)}")
     print(f"  Samples: {len(X)}")
@@ -1038,7 +1102,8 @@ def run_training(iteration=5):
 
     # Summary stats for new features
     new_feats = ["rank_vol_diff", "rank_vol_max", "rank_trajectory_diff",
-                 "rank_confidence", "rank_conf_x_rank_diff", "upset_prob", "upset_prob_x_rank_diff"]
+                 "rank_confidence", "rank_conf_x_rank_diff", "upset_prob", "upset_prob_x_rank_diff",
+                 "pistol_wr_diff"]
     print("\n  New feature summary:")
     for f in new_feats:
         if f in X.columns:
@@ -1081,7 +1146,8 @@ def run_training(iteration=5):
                     "h2h_winrate", "diff_avg_rating", "log_elo_rank_ratio",
                     "momentum_diff", "vs_strong_diff",
                     "map_pool_depth_diff", "map_wr_overlap", "diff_chemistry",
-                    "rank_confidence", "rank_trajectory_diff", "upset_prob"]
+                    "rank_confidence", "rank_trajectory_diff", "upset_prob",
+                    "pistol_wr_diff"]
     minimal_cols = [c for c in minimal_cols if c in feature_names]
 
     # Lean: differences + team-level (includes dynamic rank + map features + volatility + upset)
@@ -1097,6 +1163,7 @@ def run_training(iteration=5):
         "rank_vol_diff", "rank_vol_max", "rank_trajectory_diff",
         "rank_confidence", "rank_conf_x_rank_diff",
         "upset_prob", "upset_prob_x_rank_diff",
+        "pistol_wr_diff",
     ]]
 
     print(f"\n  Minimal features ({len(minimal_cols)}): {minimal_cols}")

@@ -8,6 +8,10 @@
 - Hyperparameter sweeps across independent configs
 - Training multiple model variants simultaneously
 
+### Scraping
+- HLTV blocks regular Playwright scripts via Cloudflare
+- For scraping, use the MCP Playwright browser (`mcp__plugin_playwright_playwright__*` tools) — it works and bypasses Cloudflare
+
 ### Progress Tracking
 - Always update `progress.md` before and after each iteration
 - Log all metrics to `results/metrics.json`

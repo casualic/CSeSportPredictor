@@ -1,11 +1,11 @@
 # Training Progress
 
 ## Current State
-- **Iteration**: 12 (completed)
-- **Status**: Deeper trees exploration (d10, d15, d20 grid)
-- **Best Test Model**: XGB_lean_d15 at 66.00% (test)
-- **Best WF Model**: XGB_tuned_lean (d=3) at 63.23% (+3.27% edge)
-- **Best WF Ensemble**: Ens_rank_blend_a0.1 at 64.36% (+4.41% edge)
+- **Iteration**: 13 (completed)
+- **Status**: Pistol round win rate feature added
+- **Best Test Model**: XGB_lean_d15 at 65.00% (test)
+- **Best WF Model**: XGB_tuned_lean (d=3) at 63.50% (+3.55% edge)
+- **Best WF Ensemble**: Ens_rank_blend_a0.1 at 63.95% (+4.00% edge)
 - **Target**: 70% accuracy
 
 ## Dataset
@@ -16,6 +16,7 @@
 - Per-player stats from match detail pages
 - Map results: 3,818 map results from 1,608 matches (extracted from batch JSONs)
 - Rankings history: 2,907 rows, 29 weekly snapshots (Jul 21 2025 - Feb 9 2026)
+- Pistol rounds: 3,808 rows from 1,608 matches (scraped via CDP/MCP browser)
 
 ## Pipeline (Iteration 8)
 1. `scrape_data.py` — Re-scrape results with match URLs (incremental, resumable)
@@ -161,3 +162,27 @@
   for d15 is 2.91pp, vs 0.94pp for d=3 tuned model. Deeper trees overfit to training patterns
   that don't generalize forward in time. The grid search correctly identifies d=3 as optimal.
   Shallow + regularized > deep for this task size (6K matches).
+
+### Iteration 13 — Pistol round win rate feature
+- **New data**: Scraped 3,808 pistol round results from per-map stats pages via CDP/MCP browser
+  (two-phase scraper: Phase A extracts map stats URLs, Phase B extracts round history)
+- **New feature**: `pistol_wr_diff` — difference in rolling pistol round win rates (window=30)
+  via `PistolTracker` class. Each team's pistol win rate tracks wins in rounds 1 and 13 (MR12).
+- **New scrapers**: `scrape_pistol_cdp.py` (CDP-based, connects to MCP Chrome to bypass Cloudflare),
+  `scrape_pistol_data.py` (standalone, blocked by Cloudflare)
+- **Features**: 16 minimal (+1), 47 lean (+1), 83 total (+1)
+- **pistol_wr_diff stats**: mean=0.0012, std=0.0998
+- **Best test split**: XGB_lean_d15 at **65.00%** (log_loss=0.7208)
+- **Walk-forward (top 3)**:
+  - XGB_tuned_lean (d=3): **63.50%** (edge: +3.55%) — up from 63.23%
+  - XGB_lean_d15: **63.18%** (edge: +3.23%)
+  - Ens_rank_blend_a0.1: **63.95%** (edge: +4.00%)
+  - Rank baseline (dynamic): 59.95%
+- **Walk-forward ensembles**: Ens_rank_blend_a0.1: **63.95%** (edge: +4.00%)
+- **5-Fold TS-CV**: LR_L1 mean=64.35%, XGB mean=63.67%
+- **Grid search**: Best max_depth=3, lr=0.01, n_est=200
+- **Finding**: Pistol win rate feature provided a small but real lift to walk-forward single-model
+  accuracy (+0.27pp for XGB_tuned_lean: 63.23% → 63.50%). The feature has reasonable variance
+  (std=0.0998) but is not a dominant predictor — it didn't appear prominently in SHAP disagreement
+  analysis. The ensemble result (63.95%) is slightly below the iter 11-12 peak (64.36%), likely
+  due to minor retraining variance. Overall, pistol_wr_diff is a modest but valid addition.

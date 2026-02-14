@@ -1,0 +1,3809 @@
+match_id,map_name,map_number,team1,team2,pistol1_winner,pistol2_winner
+2390129,Ence,1,ENCE,fnatic,ENCE,fnatic
+2390129,Fnatic,2,ENCE,fnatic,fnatic,fnatic
+2390129,Fnatic,3,ENCE,fnatic,fnatic,ENCE
+2390128,Speeds,1,Johnny Speeds,SINNERS,Johnny Speeds,SINNERS
+2390128,Sinners,2,Johnny Speeds,SINNERS,SINNERS,SINNERS
+2390124,Sinners,1,BetBoom,SINNERS,BetBoom,SINNERS
+2390124,Betboom,2,BetBoom,SINNERS,SINNERS,SINNERS
+2390124,Betboom,3,BetBoom,SINNERS,SINNERS,BetBoom
+2390125,Fnatic,1,fnatic,BET-M,BET-M,fnatic
+2390125,Fnatic,2,fnatic,BET-M,BET-M,fnatic
+2390125,M,3,fnatic,BET-M,BET-M,BET-M
+2390144,Boss,1,Voca,BOSS,BOSS,BOSS
+2390144,Voca,2,Voca,BOSS,BOSS,Voca
+2390127,Mirage,1,ENCE,Alliance,ENCE,ENCE
+2390127,Overpass,2,ENCE,Alliance,ENCE,ENCE
+2390126,Overpass,1,Inner Circle,Johnny Speeds,Johnny Speeds,Inner Circle
+2390126,Dust2,2,Inner Circle,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2389851,Dust2,1,FAVBET,los kogutos,los kogutos,FAVBET
+2389851,Nuke,2,FAVBET,los kogutos,los kogutos,FAVBET
+2389851,Anubis,3,FAVBET,los kogutos,los kogutos,FAVBET
+2390122,Overpass,1,Alliance,OG,OG,OG
+2390122,Ancient,2,Alliance,OG,OG,Alliance
+2390122,Inferno,3,Alliance,OG,OG,Alliance
+2390121,Overpass,1,Johnny Speeds,K27,Johnny Speeds,Johnny Speeds
+2390121,Dust2,2,Johnny Speeds,K27,K27,K27
+2390120,Dust2,1,CYBERSHOKE,Inner Circle,Inner Circle,Inner Circle
+2390120,Mirage,2,CYBERSHOKE,Inner Circle,Inner Circle,CYBERSHOKE
+2390123,Nuke,1,ENCE,EYEBALLERS,ENCE,ENCE
+2390123,Mirage,2,ENCE,EYEBALLERS,ENCE,ENCE
+2390118,Inferno,1,OG,Nemesis,Nemesis,OG
+2390118,Ancient,2,OG,Nemesis,OG,Nemesis
+2390118,Nuke,3,OG,Nemesis,OG,OG
+2390117,Ancient,1,Inner Circle,BET-M,BET-M,BET-M
+2390117,Dust2,2,Inner Circle,BET-M,Inner Circle,Inner Circle
+2390117,Mirage,3,Inner Circle,BET-M,Inner Circle,Inner Circle
+2390119,Overpass,1,Tricked,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2390119,Ancient,2,Tricked,EYEBALLERS,Tricked,Tricked
+2390119,Mirage,3,Tricked,EYEBALLERS,Tricked,EYEBALLERS
+2390136,Mirage,1,Wildcard,Voca,Voca,Wildcard
+2390136,Dust2,2,Wildcard,Voca,Voca,Voca
+2390136,Overpass,3,Wildcard,Voca,Voca,Voca
+2390116,Dust2,1,fnatic,K27,fnatic,K27
+2390116,Mirage,2,fnatic,K27,K27,K27
+2390116,Overpass,3,fnatic,K27,fnatic,K27
+2390113,Overpass,1,Alliance,SINNERS,Alliance,SINNERS
+2390113,Mirage,2,Alliance,SINNERS,Alliance,SINNERS
+2389848,Overpass,1,GenOne,WHITEBIRD,GenOne,GenOne
+2389848,Dust2,2,GenOne,WHITEBIRD,GenOne,WHITEBIRD
+2390115,Inferno,1,Johnny Speeds,Nuclear TigeRES,Johnny Speeds,Johnny Speeds
+2390115,Nuke,2,Johnny Speeds,Nuclear TigeRES,Johnny Speeds,Johnny Speeds
+2390110,Anubis,1,Inner Circle,Tricked,Inner Circle,Inner Circle
+2390110,Ancient,2,Inner Circle,Tricked,Inner Circle,Inner Circle
+2390110,Nuke,3,Inner Circle,Tricked,Inner Circle,Tricked
+2390111,Ancient,1,BET-M,EYEBALLERS,BET-M,EYEBALLERS
+2390111,Dust2,2,BET-M,EYEBALLERS,BET-M,EYEBALLERS
+2390111,Inferno,3,BET-M,EYEBALLERS,EYEBALLERS,BET-M
+2390112,Nuke,1,BetBoom,ENCE,ENCE,BetBoom
+2390112,Ancient,2,BetBoom,ENCE,ENCE,BetBoom
+2390109,Ancient,1,Nemesis,K27,K27,K27
+2390109,Dust2,2,Nemesis,K27,Nemesis,K27
+2390108,Inferno,1,fnatic,OG,fnatic,fnatic
+2390108,Dust2,2,fnatic,OG,fnatic,fnatic
+2390105,Nuke,1,ENCE,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2390105,Dust2,2,ENCE,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2390105,Anubis,3,ENCE,CYBERSHOKE,CYBERSHOKE,ENCE
+2390107,Ancient,1,Nuclear TigeRES,SINNERS,Nuclear TigeRES,SINNERS
+2390107,Dust2,2,Nuclear TigeRES,SINNERS,SINNERS,Nuclear TigeRES
+2390107,Nuke,3,Nuclear TigeRES,SINNERS,Nuclear TigeRES,Nuclear TigeRES
+2390106,Dust2,1,Alliance,Johnny Speeds,Alliance,Alliance
+2390106,Inferno,2,Alliance,Johnny Speeds,Alliance,Alliance
+2389666,Mirage,1,FURIA,Vitality,FURIA,FURIA
+2389666,Inferno,2,FURIA,Vitality,Vitality,Vitality
+2389666,Nuke,3,FURIA,Vitality,Vitality,Vitality
+2389666,Overpass,4,FURIA,Vitality,Vitality,FURIA
+2390086,Dust2,1,MOUZ NXT,Nuclear TigeRES,Nuclear TigeRES,MOUZ NXT
+2390086,Ancient,2,MOUZ NXT,Nuclear TigeRES,MOUZ NXT,MOUZ NXT
+2389917,Nuke,1,NRG,Passion UA,NRG,NRG
+2389917,Mirage,2,NRG,Passion UA,NRG,NRG
+2389924,Overpass,1,9z,Sharks,Sharks,Sharks
+2389924,Inferno,2,9z,Sharks,Sharks,9z
+2389946,Nuke,1,Ninjas in Pyjamas,GamerLegion,GamerLegion,Ninjas in Pyjamas
+2389946,Mirage,2,Ninjas in Pyjamas,GamerLegion,Ninjas in Pyjamas,GamerLegion
+2389946,Ancient,3,Ninjas in Pyjamas,GamerLegion,Ninjas in Pyjamas,Ninjas in Pyjamas
+2389939,Nuke,1,Lynn Vision,TYLOO,TYLOO,Lynn Vision
+2389939,Overpass,2,Lynn Vision,TYLOO,Lynn Vision,Lynn Vision
+2389665,Dust2,1,Spirit,MOUZ,Spirit,Spirit
+2389665,Mirage,2,Spirit,MOUZ,Spirit,Spirit
+2389916,Overpass,1,M80,Passion UA,M80,M80
+2389916,Mirage,2,M80,Passion UA,Passion UA,M80
+2389916,Inferno,3,M80,Passion UA,M80,M80
+2389923,Nuke,1,RED Canids,Sharks,RED Canids,RED Canids
+2389923,Inferno,2,RED Canids,Sharks,RED Canids,RED Canids
+2389923,Mirage,3,RED Canids,Sharks,RED Canids,RED Canids
+2389915,Mirage,1,NRG,Voca,Voca,Voca
+2389915,Dust2,2,NRG,Voca,Voca,NRG
+2389915,Ancient,3,NRG,Voca,Voca,NRG
+2389664,Nuke,1,Vitality,MOUZ,Vitality,Vitality
+2389664,Dust2,2,Vitality,MOUZ,MOUZ,Vitality
+2389922,Nuke,1,Imperial,9z,Imperial,Imperial
+2389922,Inferno,2,Imperial,9z,9z,9z
+2389922,Dust2,3,Imperial,9z,9z,9z
+2389663,Mirage,1,Spirit,FURIA,Spirit,Spirit
+2389663,Dust2,2,Spirit,FURIA,FURIA,Spirit
+2389663,Nuke,3,Spirit,FURIA,FURIA,Spirit
+2389945,Nuke,1,GamerLegion,BC.Game,GamerLegion,BC.Game
+2389945,Inferno,2,GamerLegion,BC.Game,GamerLegion,BC.Game
+2389938,Overpass,1,Rare Atom,TYLOO,TYLOO,Rare Atom
+2389938,Inferno,2,Rare Atom,TYLOO,TYLOO,Rare Atom
+2389937,Ancient,1,Morningstar,Lynn Vision,Morningstar,Morningstar
+2389937,Dust2,2,Morningstar,Lynn Vision,Morningstar,Morningstar
+2389913,Mirage,1,M80,Wildcard,Wildcard,M80
+2389913,Dust2,2,M80,Wildcard,Wildcard,Wildcard
+2389914,Mirage,1,Passion UA,BOSS,BOSS,Passion UA
+2389914,Overpass,2,Passion UA,BOSS,Passion UA,Passion UA
+2389780,Overpass,1,Fake do Biru,9z,Fake do Biru,9z
+2389780,Dust2,2,Fake do Biru,9z,Fake do Biru,9z
+2389912,Mirage,1,Marsborne,Voca,Marsborne,Marsborne
+2389912,Anubis,2,Marsborne,Voca,Marsborne,Marsborne
+2389912,Overpass,3,Marsborne,Voca,Marsborne,Voca
+2389943,Ancient,1,BC.Game,Alliance,BC.Game,Alliance
+2389943,Nuke,2,BC.Game,Alliance,BC.Game,BC.Game
+2389920,Ancient,1,RED Canids,Bounty Hunters,RED Canids,RED Canids
+2389920,Nuke,2,RED Canids,Bounty Hunters,RED Canids,Bounty Hunters
+2389572,Mirage,1,BetBoom,magic,magic,BetBoom
+2389572,Ancient,2,BetBoom,magic,magic,BetBoom
+2389572,Overpass,3,BetBoom,magic,BetBoom,magic
+2389662,Overpass,1,G2,MOUZ,MOUZ,MOUZ
+2389662,Dust2,2,G2,MOUZ,G2,MOUZ
+2389942,Ancient,1,Ninjas in Pyjamas,Gentle Mates,Ninjas in Pyjamas,Gentle Mates
+2389942,Anubis,2,Ninjas in Pyjamas,Gentle Mates,Gentle Mates,Gentle Mates
+2389942,Nuke,3,Ninjas in Pyjamas,Gentle Mates,Gentle Mates,Gentle Mates
+2389919,Nuke,1,Gaimin Gladiators,9z,Gaimin Gladiators,9z
+2389919,Dust2,2,Gaimin Gladiators,9z,Gaimin Gladiators,9z
+2389571,Anubis,1,magic,FAVBET,magic,FAVBET
+2389571,Ancient,2,magic,FAVBET,FAVBET,FAVBET
+2389571,Inferno,3,magic,FAVBET,FAVBET,magic
+2389661,Dust2,1,FURIA,Aurora,FURIA,Aurora
+2389661,Mirage,2,FURIA,Aurora,FURIA,FURIA
+2389941,Dust2,1,GamerLegion,ex-RUBY,ex-RUBY,ex-RUBY
+2389941,Mirage,2,GamerLegion,ex-RUBY,GamerLegion,GamerLegion
+2389941,Ancient,3,GamerLegion,ex-RUBY,ex-RUBY,ex-RUBY
+2389910,Overpass,1,NEXVOID,The Huns,NEXVOID,The Huns
+2389910,Ancient,2,NEXVOID,The Huns,The Huns,NEXVOID
+2389910,Inferno,3,NEXVOID,The Huns,NEXVOID,NEXVOID
+2389570,Dust2,1,BetBoom,ex-RUBY,BetBoom,ex-RUBY
+2389570,Overpass,2,BetBoom,ex-RUBY,ex-RUBY,ex-RUBY
+2389933,Ancient,1,The Huns,Morningstar,The Huns,The Huns
+2389933,Dust2,2,The Huns,Morningstar,Morningstar,Morningstar
+2389569,Anubis,1,FAVBET,ECSTATIC,FAVBET,FAVBET
+2389569,Overpass,2,FAVBET,ECSTATIC,ECSTATIC,ECSTATIC
+2389828,Dust2,1,los kogutos,WHITEBIRD,WHITEBIRD,los kogutos
+2389828,Ancient,2,los kogutos,WHITEBIRD,los kogutos,los kogutos
+2389238,Mirage,1,ECSTATIC,illwill,ECSTATIC,ECSTATIC
+2389238,Overpass,2,ECSTATIC,illwill,illwill,ECSTATIC
+2389238,Nuke,3,ECSTATIC,illwill,ECSTATIC,ECSTATIC
+2389568,Ancient,1,EYEBALLERS,magic,EYEBALLERS,magic
+2389568,Mirage,2,EYEBALLERS,magic,magic,magic
+2389567,Overpass,1,ex-RUBY,9INE,ex-RUBY,ex-RUBY
+2389567,Nuke,2,ex-RUBY,9INE,9INE,ex-RUBY
+2389567,Ancient,3,ex-RUBY,9INE,9INE,ex-RUBY
+2389237,Nuke,1,Nuclear TigeRES,illwill,illwill,illwill
+2389237,Inferno,2,Nuclear TigeRES,illwill,Nuclear TigeRES,illwill
+2389907,Overpass,1,NEXVOID,The Huns,NEXVOID,NEXVOID
+2389907,Ancient,2,NEXVOID,The Huns,NEXVOID,The Huns
+2389566,Mirage,1,BetBoom,KOLESIE,BetBoom,BetBoom
+2389566,Nuke,2,BetBoom,KOLESIE,BetBoom,KOLESIE
+2389236,Anubis,1,ECSTATIC,GenOne,ECSTATIC,GenOne
+2389236,Inferno,2,ECSTATIC,GenOne,ECSTATIC,ECSTATIC
+2389565,Ancient,1,9INE,los kogutos,9INE,9INE
+2389565,Dust2,2,9INE,los kogutos,9INE,9INE
+2389235,Mirage,1,Betclic,illwill,illwill,Betclic
+2389235,Overpass,2,Betclic,illwill,illwill,Betclic
+2389564,Overpass,1,BetBoom,FORZE Reload,FORZE Reload,BetBoom
+2389564,Dust2,2,BetBoom,FORZE Reload,FORZE Reload,FORZE Reload
+2389564,Ancient,3,BetBoom,FORZE Reload,FORZE Reload,BetBoom
+2389234,Ancient,1,9INE,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2389234,Nuke,2,9INE,Nuclear TigeRES,9INE,Nuclear TigeRES
+2389058,Inferno,1,Oramond,FAVBET,Oramond,FAVBET
+2389058,Nuke,2,Oramond,FAVBET,Oramond,FAVBET
+2389058,Train,3,Oramond,FAVBET,FAVBET,Oramond
+2389058,Ancient,4,Oramond,FAVBET,FAVBET,FAVBET
+2389058,Dust2,5,Oramond,FAVBET,Oramond,Oramond
+2389563,Anubis,1,ENCE,ex-RUBY,ex-RUBY,ex-RUBY
+2389563,Mirage,2,ENCE,ex-RUBY,ENCE,ex-RUBY
+2389233,Nuke,1,ECSTATIC,Sangal,Sangal,ECSTATIC
+2389233,Ancient,2,ECSTATIC,Sangal,Sangal,Sangal
+2389562,Ancient,1,Nuclear TigeRES,KOLESIE,Nuclear TigeRES,Nuclear TigeRES
+2389562,Nuke,2,Nuclear TigeRES,KOLESIE,KOLESIE,Nuclear TigeRES
+2389562,Mirage,3,Nuclear TigeRES,KOLESIE,Nuclear TigeRES,KOLESIE
+2389731,Anubis,1,Nemiga,K27,K27,Nemiga
+2389731,Nuke,2,Nemiga,K27,Nemiga,Nemiga
+2389660,Inferno,1,Falcons,MOUZ,MOUZ,Falcons
+2389660,Dust2,2,Falcons,MOUZ,Falcons,Falcons
+2389561,Ancient,1,SINNERS,magic,magic,SINNERS
+2389561,Mirage,2,SINNERS,magic,SINNERS,SINNERS
+2389561,Dust2,3,SINNERS,magic,magic,SINNERS
+2389658,Ancient,1,Vitality,Aurora,Aurora,Aurora
+2389658,Overpass,2,Vitality,Aurora,Vitality,Aurora
+2389730,Anubis,1,ARCRED,K27,ARCRED,K27
+2389730,Nuke,2,ARCRED,K27,K27,ARCRED
+2389730,Dust2,3,ARCRED,K27,ARCRED,ARCRED
+2389765,Overpass,1,ShindeN,9z,9z,ShindeN
+2389765,Ancient,2,ShindeN,9z,9z,ShindeN
+2389765,Nuke,3,ShindeN,9z,ShindeN,9z
+2389659,Anubis,1,G2,Spirit,Spirit,G2
+2389659,Overpass,2,G2,Spirit,G2,Spirit
+2389659,Dust2,3,G2,Spirit,Spirit,G2
+2389657,Overpass,1,Astralis,FURIA,Astralis,FURIA
+2389657,Mirage,2,Astralis,FURIA,FURIA,FURIA
+2389657,Nuke,3,Astralis,FURIA,Astralis,FURIA
+2389560,Anubis,1,HOTU,FAVBET,HOTU,FAVBET
+2389560,Overpass,2,HOTU,FAVBET,HOTU,FAVBET
+2389729,Ancient,1,K27,Nuclear TigeRES,K27,K27
+2389729,Dust2,2,K27,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2389729,Nuke,3,K27,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2389728,Ancient,1,ARCRED,Nemiga,Nemiga,ARCRED
+2389728,Nuke,2,ARCRED,Nemiga,Nemiga,ARCRED
+2389728,Anubis,3,ARCRED,Nemiga,Nemiga,ARCRED
+2389229,Inferno,1,SINNERS,GenOne,GenOne,SINNERS
+2389229,Nuke,2,SINNERS,GenOne,SINNERS,GenOne
+2389229,Dust2,3,SINNERS,GenOne,SINNERS,GenOne
+2389655,Mirage,1,MOUZ,FaZe,MOUZ,FaZe
+2389655,Inferno,2,MOUZ,FaZe,FaZe,FaZe
+2389656,Anubis,1,3DMAX,Falcons,Falcons,Falcons
+2389656,Dust2,2,3DMAX,Falcons,3DMAX,Falcons
+2389559,Mirage,1,ECSTATIC,Oramond,Oramond,ECSTATIC
+2389559,Inferno,2,ECSTATIC,Oramond,ECSTATIC,ECSTATIC
+2389726,Dust2,1,WHITEBIRD,Nuclear TigeRES,WHITEBIRD,Nuclear TigeRES
+2389726,Inferno,2,WHITEBIRD,Nuclear TigeRES,WHITEBIRD,Nuclear TigeRES
+2389726,Nuke,3,WHITEBIRD,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2389558,Dust2,1,EYEBALLERS,1win,EYEBALLERS,EYEBALLERS
+2389558,Ancient,2,EYEBALLERS,1win,1win,1win
+2389558,Mirage,3,EYEBALLERS,1win,1win,1win
+2389727,Dust2,1,K27,Nemesis,K27,K27
+2389727,Nuke,2,K27,Nemesis,K27,K27
+2389727,Mirage,3,K27,Nemesis,K27,K27
+2389057,Mirage,1,magic,ex-RUBY,ex-RUBY,ex-RUBY
+2389057,Dust2,2,magic,ex-RUBY,ex-RUBY,ex-RUBY
+2389724,Dust2,1,Nemiga,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2389724,Ancient,2,Nemiga,Nuclear TigeRES,Nemiga,Nuclear TigeRES
+2389724,Anubis,3,Nemiga,Nuclear TigeRES,Nemiga,Nemiga
+2389653,Mirage,1,FURIA,Natus Vincere,Natus Vincere,Natus Vincere
+2389653,Inferno,2,FURIA,Natus Vincere,FURIA,Natus Vincere
+2389653,Dust2,3,FURIA,Natus Vincere,Natus Vincere,FURIA
+2389654,Mirage,1,FUT,Astralis,FUT,Astralis
+2389654,Overpass,2,FUT,Astralis,Astralis,FUT
+2389654,Nuke,3,FUT,Astralis,Astralis,Astralis
+2389725,Nuke,1,BET-M,Nemesis,Nemesis,Nemesis
+2389725,Mirage,2,BET-M,Nemesis,Nemesis,Nemesis
+2389725,Ancient,3,BET-M,Nemesis,BET-M,Nemesis
+2389226,Dust2,1,Inner Circle,Betclic,Betclic,Inner Circle
+2389226,Mirage,2,Inner Circle,Betclic,Inner Circle,Betclic
+2389226,Overpass,3,Inner Circle,Betclic,Betclic,Inner Circle
+2389652,Inferno,1,NRG,Falcons,Falcons,NRG
+2389652,Ancient,2,NRG,Falcons,NRG,Falcons
+2389652,Dust2,3,NRG,Falcons,NRG,Falcons
+2389650,Dust2,1,FaZe,BC.Game,BC.Game,BC.Game
+2389650,Nuke,2,FaZe,BC.Game,FaZe,BC.Game
+2389650,Ancient,3,FaZe,BC.Game,BC.Game,BC.Game
+2389723,Nuke,1,WHITEBIRD,RUSTEC,WHITEBIRD,WHITEBIRD
+2389723,Overpass,2,WHITEBIRD,RUSTEC,WHITEBIRD,RUSTEC
+2389722,Anubis,1,ARCRED,K27,ARCRED,ARCRED
+2389722,Ancient,2,ARCRED,K27,K27,ARCRED
+2389225,Anubis,1,9INE,MOUZ NXT,MOUZ NXT,9INE
+2389225,Overpass,2,9INE,MOUZ NXT,MOUZ NXT,MOUZ NXT
+2389225,Nuke,3,9INE,MOUZ NXT,9INE,9INE
+2389651,Dust2,1,MOUZ,Aurora,Aurora,Aurora
+2389651,Inferno,2,MOUZ,Aurora,MOUZ,Aurora
+2389649,Inferno,1,3DMAX,Vitality,3DMAX,3DMAX
+2389649,Dust2,2,3DMAX,Vitality,Vitality,3DMAX
+2389721,Mirage,1,Nuclear TigeRES,Nemesis,Nuclear TigeRES,Nuclear TigeRES
+2389721,Inferno,2,Nuclear TigeRES,Nemesis,Nemesis,Nuclear TigeRES
+2389555,Overpass,1,1win,Johnny Speeds,1win,Johnny Speeds
+2389555,Dust2,2,1win,Johnny Speeds,1win,Johnny Speeds
+2389720,Ancient,1,K27,RUSTEC,K27,K27
+2389720,Anubis,2,K27,RUSTEC,RUSTEC,K27
+2389055,Ancient,1,FAVBET,ex-RUBY,FAVBET,ex-RUBY
+2389055,Dust2,2,FAVBET,ex-RUBY,ex-RUBY,ex-RUBY
+2389055,Overpass,3,FAVBET,ex-RUBY,ex-RUBY,FAVBET
+2389719,Nuke,1,Nemiga,BET-M,Nemiga,BET-M
+2389719,Anubis,2,Nemiga,BET-M,Nemiga,Nemiga
+2389719,Ancient,3,Nemiga,BET-M,BET-M,Nemiga
+2389718,Mirage,1,ARCRED,WHITEBIRD,ARCRED,WHITEBIRD
+2389718,Inferno,2,ARCRED,WHITEBIRD,ARCRED,ARCRED
+2389224,Mirage,1,Nuclear TigeRES,UNiTY,Nuclear TigeRES,Nuclear TigeRES
+2389224,Ancient,2,Nuclear TigeRES,UNiTY,UNiTY,Nuclear TigeRES
+2389697,Nuke,1,MIBR,RED Canids,MIBR,RED Canids
+2389697,Mirage,2,MIBR,RED Canids,MIBR,MIBR
+2389697,Ancient,3,MIBR,RED Canids,MIBR,MIBR
+2389696,Nuke,1,RED Canids,BESTIA,RED Canids,BESTIA
+2389696,Ancient,2,RED Canids,BESTIA,BESTIA,BESTIA
+2389696,Inferno,3,RED Canids,BESTIA,BESTIA,RED Canids
+2389887,Ancient,1,ex-RUBY,MOUZ NXT,MOUZ NXT,ex-RUBY
+2389887,Nuke,2,ex-RUBY,MOUZ NXT,ex-RUBY,ex-RUBY
+2389648,Overpass,1,PARIVISION,Astralis,Astralis,PARIVISION
+2389648,Dust2,2,PARIVISION,Astralis,Astralis,Astralis
+2389648,Ancient,3,PARIVISION,Astralis,Astralis,PARIVISION
+2389647,Mirage,1,Natus Vincere,Spirit,Natus Vincere,Natus Vincere
+2389647,Dust2,2,Natus Vincere,Spirit,Spirit,Spirit
+2389646,Mirage,1,The MongolZ,FURIA,The MongolZ,FURIA
+2389646,Inferno,2,The MongolZ,FURIA,FURIA,The MongolZ
+2389646,Nuke,3,The MongolZ,FURIA,FURIA,FURIA
+2389695,Anubis,1,ODDIK,MIBR,MIBR,MIBR
+2389695,Inferno,2,ODDIK,MIBR,ODDIK,ODDIK
+2389695,Ancient,3,ODDIK,MIBR,ODDIK,MIBR
+2389645,Mirage,1,G2,FUT,G2,FUT
+2389645,Dust2,2,G2,FUT,G2,G2
+2389645,Ancient,3,G2,FUT,FUT,G2
+2389553,Dust2,1,ex-RUBY,FORZE Reload,ex-RUBY,FORZE Reload
+2389553,Ancient,2,ex-RUBY,FORZE Reload,ex-RUBY,ex-RUBY
+2389715,Mirage,1,Nuclear TigeRES,BET-M,Nuclear TigeRES,Nuclear TigeRES
+2389715,Inferno,2,Nuclear TigeRES,BET-M,BET-M,Nuclear TigeRES
+2389715,Ancient,3,Nuclear TigeRES,BET-M,BET-M,BET-M
+2389644,Anubis,1,Falcons,Aurora,Aurora,Falcons
+2389644,Mirage,2,Falcons,Aurora,Aurora,Falcons
+2389644,Inferno,3,Falcons,Aurora,Aurora,Aurora
+2389710,Dust2,1,Nemesis,Nemiga,Nemiga,Nemesis
+2389710,Nuke,2,Nemesis,Nemiga,Nemiga,Nemiga
+2389643,Dust2,1,MOUZ,NRG,MOUZ,MOUZ
+2389643,Ancient,2,MOUZ,NRG,NRG,MOUZ
+2389054,Mirage,1,Sashi,Oramond,Oramond,Oramond
+2389054,Inferno,2,Sashi,Oramond,Sashi,Oramond
+2389054,Ancient,3,Sashi,Oramond,Oramond,Sashi
+2389053,Overpass,1,1win,magic,magic,magic
+2389053,Mirage,2,1win,magic,1win,magic
+2389053,Inferno,3,1win,magic,1win,magic
+2389693,Inferno,1,BESTIA,Marsborne,Marsborne,Marsborne
+2389693,Ancient,2,BESTIA,Marsborne,BESTIA,BESTIA
+2389693,Nuke,3,BESTIA,Marsborne,BESTIA,Marsborne
+2389694,Nuke,1,MIBR,9z,MIBR,9z
+2389694,Inferno,2,MIBR,9z,MIBR,9z
+2389702,Overpass,1,WHITEBIRD,FORZE Reload,WHITEBIRD,WHITEBIRD
+2389702,Ancient,2,WHITEBIRD,FORZE Reload,WHITEBIRD,WHITEBIRD
+2389702,Dust2,3,WHITEBIRD,FORZE Reload,FORZE Reload,WHITEBIRD
+2389692,Overpass,1,Sharks,9z,Sharks,9z
+2389692,Inferno,2,Sharks,9z,9z,9z
+2389692,Nuke,3,Sharks,9z,9z,Sharks
+2389689,Ancient,1,ODDIK,Bounty Hunters,ODDIK,ODDIK
+2389689,Anubis,2,ODDIK,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2389689,Overpass,3,ODDIK,Bounty Hunters,ODDIK,ODDIK
+2389641,Dust2,1,Vitality,BC.Game,BC.Game,Vitality
+2389641,Overpass,2,Vitality,BC.Game,Vitality,Vitality
+2389642,Inferno,1,FaZe,3DMAX,3DMAX,3DMAX
+2389642,Nuke,2,FaZe,3DMAX,3DMAX,3DMAX
+2389640,Dust2,1,Spirit,Astralis,Astralis,Spirit
+2389640,Overpass,2,Spirit,Astralis,Astralis,Spirit
+2389051,Ancient,1,ex-RUBY,KOLESIE,KOLESIE,KOLESIE
+2389051,Mirage,2,ex-RUBY,KOLESIE,ex-RUBY,KOLESIE
+2389051,Nuke,3,ex-RUBY,KOLESIE,KOLESIE,ex-RUBY
+2389690,Nuke,1,ShindeN,RED Canids,RED Canids,RED Canids
+2389690,Mirage,2,ShindeN,RED Canids,ShindeN,RED Canids
+2389705,Nuke,1,RUSTEC,ARCRED,RUSTEC,RUSTEC
+2389705,Dust2,2,RUSTEC,ARCRED,RUSTEC,RUSTEC
+2389705,Anubis,3,RUSTEC,ARCRED,ARCRED,ARCRED
+2389637,Mirage,1,FURIA,FUT,FURIA,FURIA
+2389637,Dust2,2,FURIA,FUT,FUT,FUT
+2389639,Dust2,1,Natus Vincere,PARIVISION,Natus Vincere,PARIVISION
+2389639,Anubis,2,Natus Vincere,PARIVISION,Natus Vincere,PARIVISION
+2389639,Ancient,3,Natus Vincere,PARIVISION,PARIVISION,PARIVISION
+2389687,Nuke,1,Imperial,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2389687,Overpass,2,Imperial,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2389700,Overpass,1,K27,WHITEBIRD,K27,K27
+2389700,Mirage,2,K27,WHITEBIRD,WHITEBIRD,K27
+2389700,Dust2,3,K27,WHITEBIRD,K27,K27
+2389688,Nuke,1,Fluxo,RED Canids,Fluxo,Fluxo
+2389688,Dust2,2,Fluxo,RED Canids,RED Canids,RED Canids
+2389052,Nuke,1,Inner Circle,FAVBET,Inner Circle,Inner Circle
+2389052,Ancient,2,Inner Circle,FAVBET,Inner Circle,Inner Circle
+2389052,Dust2,3,Inner Circle,FAVBET,Inner Circle,FAVBET
+2389638,Dust2,1,The MongolZ,G2,G2,G2
+2389638,Ancient,2,The MongolZ,G2,The MongolZ,The MongolZ
+2389699,Ancient,1,FORZE Reload,WHITEBIRD,WHITEBIRD,FORZE Reload
+2389699,Overpass,2,FORZE Reload,WHITEBIRD,FORZE Reload,WHITEBIRD
+2389703,Dust2,1,Virtus.pro,RUSTEC,RUSTEC,RUSTEC
+2389703,Overpass,2,Virtus.pro,RUSTEC,Virtus.pro,RUSTEC
+2389685,Inferno,1,Sharks,MIBR,MIBR,MIBR
+2389685,Nuke,2,Sharks,MIBR,Sharks,Sharks
+2389685,Ancient,3,Sharks,MIBR,MIBR,MIBR
+2389684,Overpass,1,MIBR,9z,9z,MIBR
+2389684,Mirage,2,MIBR,9z,9z,MIBR
+2389684,Ancient,3,MIBR,9z,9z,9z
+2389146,Ancient,1,SINNERS,Nemiga,SINNERS,SINNERS
+2389146,Nuke,2,SINNERS,Nemiga,SINNERS,Nemiga
+2389548,Inferno,1,Oramond,magic,magic,magic
+2389548,Mirage,2,Oramond,magic,magic,Oramond
+2389635,Ancient,1,FUT,Liquid,Liquid,FUT
+2389635,Nuke,2,FUT,Liquid,FUT,Liquid
+2389633,Inferno,1,GamerLegion,Astralis,GamerLegion,Astralis
+2389633,Overpass,2,GamerLegion,Astralis,Astralis,Astralis
+2389681,Inferno,1,Marsborne,BESTIA,Marsborne,BESTIA
+2389681,Ancient,2,Marsborne,BESTIA,Marsborne,BESTIA
+2389681,Nuke,3,Marsborne,BESTIA,BESTIA,Marsborne
+2389636,Mirage,1,paiN,Aurora,Aurora,Aurora
+2389636,Overpass,2,paiN,Aurora,paiN,Aurora
+2389145,Anubis,1,Nemiga,BIG,BIG,BIG
+2389145,Ancient,2,Nemiga,BIG,Nemiga,BIG
+2389145,Dust2,3,Nemiga,BIG,Nemiga,Nemiga
+2389634,Dust2,1,BC.Game,Ninjas in Pyjamas,Ninjas in Pyjamas,BC.Game
+2389634,Nuke,2,BC.Game,Ninjas in Pyjamas,BC.Game,BC.Game
+2389628,Mirage,1,Astralis,NRG,NRG,Astralis
+2389628,Overpass,2,Astralis,NRG,NRG,NRG
+2389628,Inferno,3,Astralis,NRG,NRG,NRG
+2389629,Overpass,1,GamerLegion,HEROIC,HEROIC,GamerLegion
+2389629,Mirage,2,GamerLegion,HEROIC,GamerLegion,HEROIC
+2389219,Nuke,1,FAVBET,Betclic,FAVBET,Betclic
+2389219,Anubis,2,FAVBET,Betclic,FAVBET,Betclic
+2389219,Overpass,3,FAVBET,Betclic,FAVBET,Betclic
+2389144,Dust2,1,1win,SINNERS,1win,SINNERS
+2389144,Ancient,2,1win,SINNERS,1win,SINNERS
+2389144,Overpass,3,1win,SINNERS,SINNERS,1win
+2389677,Nuke,1,Fluxo,ShindeN,ShindeN,ShindeN
+2389677,Ancient,2,Fluxo,ShindeN,Fluxo,Fluxo
+2389676,Mirage,1,RED Canids,ShindeN,RED Canids,RED Canids
+2389676,Ancient,2,RED Canids,ShindeN,RED Canids,ShindeN
+2389143,Mirage,1,BET-M,BIG,BIG,BET-M
+2389143,Dust2,2,BET-M,BIG,BIG,BIG
+2389143,Ancient,3,BET-M,BIG,BET-M,BET-M
+2389626,Mirage,1,Liquid,G2,Liquid,G2
+2389626,Inferno,2,Liquid,G2,Liquid,G2
+2389626,Anubis,3,Liquid,G2,G2,Liquid
+2389673,Anubis,1,Imperial,ODDIK,ODDIK,ODDIK
+2389673,Overpass,2,Imperial,ODDIK,ODDIK,ODDIK
+2389673,Dust2,3,Imperial,ODDIK,ODDIK,Imperial
+2389631,Dust2,1,Legacy,FUT,FUT,FUT
+2389631,Ancient,2,Legacy,FUT,Legacy,FUT
+2389543,Mirage,1,Johnny Speeds,Ursa,Johnny Speeds,Johnny Speeds
+2389543,Dust2,2,Johnny Speeds,Ursa,Johnny Speeds,Ursa
+2389543,Inferno,3,Johnny Speeds,Ursa,Johnny Speeds,Ursa
+2389630,Overpass,1,Ninjas in Pyjamas,Passion UA,Passion UA,Passion UA
+2389630,Nuke,2,Ninjas in Pyjamas,Passion UA,Ninjas in Pyjamas,Passion UA
+2389630,Anubis,3,Ninjas in Pyjamas,Passion UA,Ninjas in Pyjamas,Passion UA
+2389142,Dust2,1,ENCE,Nemiga,ENCE,Nemiga
+2389142,Ancient,2,ENCE,Nemiga,Nemiga,Nemiga
+2389627,Overpass,1,BC.Game,3DMAX,3DMAX,3DMAX
+2389627,Anubis,2,BC.Game,3DMAX,3DMAX,3DMAX
+2389672,Ancient,1,ODDIK,Bounty Hunters,ODDIK,ODDIK
+2389672,Anubis,2,ODDIK,Bounty Hunters,ODDIK,Bounty Hunters
+2389141,Mirage,1,1win,illwill,1win,1win
+2389141,Dust2,2,1win,illwill,1win,1win
+2389141,Inferno,3,1win,illwill,1win,1win
+2389625,Mirage,1,Aurora,PARIVISION,Aurora,PARIVISION
+2389625,Anubis,2,Aurora,PARIVISION,PARIVISION,PARIVISION
+2389625,Dust2,3,Aurora,PARIVISION,PARIVISION,Aurora
+2389632,Dust2,1,paiN,B8,paiN,paiN
+2389632,Mirage,2,paiN,B8,paiN,paiN
+2389048,Overpass,1,Johnny Speeds,magic,Johnny Speeds,magic
+2389048,Dust2,2,Johnny Speeds,magic,Johnny Speeds,magic
+2389047,Inferno,1,1win,UNiTY,UNiTY,UNiTY
+2389047,Ancient,2,1win,UNiTY,UNiTY,UNiTY
+2389047,Overpass,3,1win,UNiTY,1win,1win
+2389140,Mirage,1,Nemesis,SINNERS,SINNERS,Nemesis
+2389140,Ancient,2,Nemesis,SINNERS,SINNERS,SINNERS
+2389472,Overpass,1,Passion UA,G2,G2,Passion UA
+2389472,Dust2,2,Passion UA,G2,Passion UA,Passion UA
+2389472,Mirage,3,Passion UA,G2,G2,G2
+2389214,Nuke,1,ex-RUBY,illwill,ex-RUBY,ex-RUBY
+2389214,Dust2,2,ex-RUBY,illwill,ex-RUBY,ex-RUBY
+2389214,Mirage,3,ex-RUBY,illwill,illwill,illwill
+2389471,Nuke,1,Liquid,Ninjas in Pyjamas,Ninjas in Pyjamas,Liquid
+2389471,Mirage,2,Liquid,Ninjas in Pyjamas,Ninjas in Pyjamas,Liquid
+2389474,Ancient,1,FUT,3DMAX,FUT,FUT
+2389474,Anubis,2,FUT,3DMAX,3DMAX,FUT
+2389474,Dust2,3,FUT,3DMAX,FUT,3DMAX
+2389624,Anubis,1,BetBoom,HOTU,HOTU,BetBoom
+2389624,Dust2,2,BetBoom,HOTU,BetBoom,HOTU
+2389624,Mirage,3,BetBoom,HOTU,HOTU,BetBoom
+2389473,Overpass,1,Legacy,BC.Game,BC.Game,Legacy
+2389473,Inferno,2,Legacy,BC.Game,BC.Game,BC.Game
+2389138,Inferno,1,EYEBALLERS,1win,EYEBALLERS,1win
+2389138,Anubis,2,EYEBALLERS,1win,EYEBALLERS,1win
+2389476,Dust2,1,NRG,B8,NRG,B8
+2389476,Mirage,2,NRG,B8,NRG,B8
+2389476,Inferno,3,NRG,B8,B8,B8
+2389137,Anubis,1,ENCE,ex-RUBY,ENCE,ex-RUBY
+2389137,Mirage,2,ENCE,ex-RUBY,ex-RUBY,ex-RUBY
+2389137,Nuke,3,ENCE,ex-RUBY,ENCE,ex-RUBY
+2389046,Nuke,1,FAVBET,MOUZ NXT,MOUZ NXT,MOUZ NXT
+2389046,Dust2,2,FAVBET,MOUZ NXT,MOUZ NXT,MOUZ NXT
+2389046,Ancient,3,FAVBET,MOUZ NXT,FAVBET,FAVBET
+2389475,Dust2,1,Astralis,paiN,Astralis,Astralis
+2389475,Overpass,2,Astralis,paiN,paiN,paiN
+2389470,Inferno,1,HEROIC,PARIVISION,PARIVISION,HEROIC
+2389470,Dust2,2,HEROIC,PARIVISION,HEROIC,HEROIC
+2389470,Ancient,3,HEROIC,PARIVISION,PARIVISION,HEROIC
+2389537,Mirage,1,KOLESIE,ex-RUBY,KOLESIE,KOLESIE
+2389537,Nuke,2,KOLESIE,ex-RUBY,ex-RUBY,ex-RUBY
+2389537,Ancient,3,KOLESIE,ex-RUBY,ex-RUBY,KOLESIE
+2389211,Ancient,1,UNiTY,Betclic,Betclic,UNiTY
+2389211,Dust2,2,UNiTY,Betclic,Betclic,Betclic
+2389211,Mirage,3,UNiTY,Betclic,UNiTY,Betclic
+2389469,Nuke,1,Aurora,GamerLegion,GamerLegion,GamerLegion
+2389469,Dust2,2,Aurora,GamerLegion,Aurora,Aurora
+2389621,Anubis,1,BetBoom,HOTU,BetBoom,HOTU
+2389621,Mirage,2,BetBoom,HOTU,HOTU,BetBoom
+2389621,Nuke,3,BetBoom,HOTU,HOTU,BetBoom
+2389136,Ancient,1,SINNERS,Nuclear TigeRES,Nuclear TigeRES,SINNERS
+2389136,Dust2,2,SINNERS,Nuclear TigeRES,SINNERS,Nuclear TigeRES
+2389536,Overpass,1,1win,Ursa,1win,1win
+2389536,Inferno,2,1win,Ursa,Ursa,1win
+2389135,Nuke,1,GamerLegion,BET-M,GamerLegion,BET-M
+2389135,Mirage,2,GamerLegion,BET-M,BET-M,GamerLegion
+2389209,Dust2,1,MOUZ NXT,FAVBET,FAVBET,FAVBET
+2389209,Nuke,2,MOUZ NXT,FAVBET,MOUZ NXT,FAVBET
+2389134,Default,1,Virtus.pro,Nemiga,Nemiga,Nemiga
+2389534,Overpass,1,Johnny Speeds,los kogutos,Johnny Speeds,Johnny Speeds
+2389534,Mirage,2,Johnny Speeds,los kogutos,los kogutos,Johnny Speeds
+2389534,Nuke,3,Johnny Speeds,los kogutos,los kogutos,los kogutos
+2389133,Mirage,1,Inner Circle,Nemesis,Inner Circle,Inner Circle
+2389133,Nuke,2,Inner Circle,Nemesis,Inner Circle,Nemesis
+2389533,Dust2,1,FAVBET,FORZE Reload,FAVBET,FAVBET
+2389533,Ancient,2,FAVBET,FORZE Reload,FAVBET,FORZE Reload
+2389533,Anubis,3,FAVBET,FORZE Reload,FORZE Reload,FORZE Reload
+2389132,Inferno,1,ECSTATIC,illwill,illwill,illwill
+2389132,Mirage,2,ECSTATIC,illwill,ECSTATIC,ECSTATIC
+2389132,Nuke,3,ECSTATIC,illwill,illwill,ECSTATIC
+2389532,Overpass,1,Johnny Speeds,ex-RUBY,Johnny Speeds,ex-RUBY
+2389532,Dust2,2,Johnny Speeds,ex-RUBY,ex-RUBY,Johnny Speeds
+2389532,Mirage,3,Johnny Speeds,ex-RUBY,ex-RUBY,Johnny Speeds
+2389531,Mirage,1,KOLESIE,los kogutos,KOLESIE,KOLESIE
+2389531,Ancient,2,KOLESIE,los kogutos,los kogutos,KOLESIE
+2389130,Inferno,1,Nemesis,FAVBET,Nemesis,Nemesis
+2389130,Ancient,2,Nemesis,FAVBET,FAVBET,FAVBET
+2389130,Dust2,3,Nemesis,FAVBET,FAVBET,Nemesis
+2389205,Nuke,1,GenOne,Betclic,Betclic,GenOne
+2389205,Ancient,2,GenOne,Betclic,Betclic,Betclic
+2389530,Mirage,1,Oramond,FORZE Reload,FORZE Reload,Oramond
+2389530,Ancient,2,Oramond,FORZE Reload,Oramond,Oramond
+2389530,Dust2,3,Oramond,FORZE Reload,Oramond,Oramond
+2389129,Dust2,1,Sangal,1win,1win,Sangal
+2389129,Mirage,2,Sangal,1win,Sangal,1win
+2389203,Anubis,1,Nemiga,illwill,Nemiga,Nemiga
+2389203,Nuke,2,Nemiga,illwill,Nemiga,illwill
+2389454,Anubis,1,Gaimin Gladiators,MIBR,Gaimin Gladiators,MIBR
+2389454,Ancient,2,Gaimin Gladiators,MIBR,MIBR,MIBR
+2389454,Inferno,3,Gaimin Gladiators,MIBR,MIBR,Gaimin Gladiators
+2389128,Overpass,1,1win,Nemiga,Nemiga,1win
+2389128,Ancient,2,1win,Nemiga,1win,1win
+2389202,Ancient,1,MOUZ NXT,UNiTY,UNiTY,UNiTY
+2389202,Dust2,2,MOUZ NXT,UNiTY,MOUZ NXT,MOUZ NXT
+2389127,Anubis,1,Nuclear TigeRES,BET-M,BET-M,BET-M
+2389127,Mirage,2,Nuclear TigeRES,BET-M,Nuclear TigeRES,BET-M
+2389127,Ancient,3,Nuclear TigeRES,BET-M,Nuclear TigeRES,Nuclear TigeRES
+2389281,Mirage,1,Falcons,PARIVISION,Falcons,PARIVISION
+2389281,Dust2,2,Falcons,PARIVISION,Falcons,PARIVISION
+2389281,Inferno,3,Falcons,PARIVISION,PARIVISION,PARIVISION
+2389453,Nuke,1,9z,RED Canids,RED Canids,9z
+2389453,Overpass,2,9z,RED Canids,9z,9z
+2389453,Inferno,3,9z,RED Canids,9z,9z
+2389126,Mirage,1,Sangal,ex-RUBY,ex-RUBY,Sangal
+2389126,Ancient,2,Sangal,ex-RUBY,Sangal,Sangal
+2389371,Ancient,1,FlyQuest,JiJieHao,FlyQuest,FlyQuest
+2389371,Anubis,2,FlyQuest,JiJieHao,FlyQuest,JiJieHao
+2389371,Dust2,3,FlyQuest,JiJieHao,JiJieHao,JiJieHao
+2389452,Inferno,1,MIBR,RED Canids,MIBR,MIBR
+2389452,Ancient,2,MIBR,RED Canids,MIBR,MIBR
+2389452,Mirage,3,MIBR,RED Canids,MIBR,MIBR
+2389451,Dust2,1,9z,Gaimin Gladiators,Gaimin Gladiators,Gaimin Gladiators
+2389451,Overpass,2,9z,Gaimin Gladiators,Gaimin Gladiators,9z
+2389125,Dust2,1,Nemesis,GenOne,GenOne,GenOne
+2389125,Ancient,2,Nemesis,GenOne,GenOne,Nemesis
+2389280,Mirage,1,PARIVISION,FURIA,FURIA,PARIVISION
+2389280,Inferno,2,PARIVISION,FURIA,PARIVISION,FURIA
+2389608,Dust2,1,BIG,Alliance,BIG,Alliance
+2389608,Ancient,2,BIG,Alliance,Alliance,BIG
+2389124,Inferno,1,Oramond,FAVBET,FAVBET,Oramond
+2389124,Nuke,2,Oramond,FAVBET,FAVBET,Oramond
+2389124,Dust2,3,Oramond,FAVBET,Oramond,FAVBET
+2389279,Inferno,1,Vitality,Falcons,Vitality,Vitality
+2389279,Anubis,2,Vitality,Falcons,Vitality,Falcons
+2389279,Mirage,3,Vitality,Falcons,Falcons,Vitality
+2389523,Nuke,1,Ursa,illwill,Ursa,illwill
+2389523,Dust2,2,Ursa,illwill,Ursa,Ursa
+2389448,Inferno,1,Gaimin Gladiators,Sharks,Sharks,Sharks
+2389448,Nuke,2,Gaimin Gladiators,Sharks,Sharks,Gaimin Gladiators
+2389448,Ancient,3,Gaimin Gladiators,Sharks,Gaimin Gladiators,Sharks
+2389447,Dust2,1,Fake do Biru,9z,Fake do Biru,Fake do Biru
+2389447,Overpass,2,Fake do Biru,9z,Fake do Biru,9z
+2389196,Anubis,1,GenOne,ARCRED,GenOne,GenOne
+2389196,Ancient,2,GenOne,ARCRED,GenOne,ARCRED
+2389038,Train,1,MOUZ NXT,magic,MOUZ NXT,MOUZ NXT
+2389038,Ancient,2,MOUZ NXT,magic,magic,magic
+2389604,Dust2,1,Johnny Speeds,BIG,BIG,Johnny Speeds
+2389604,Overpass,2,Johnny Speeds,BIG,BIG,BIG
+2389370,Dust2,1,JiJieHao,Lynn Vision,JiJieHao,JiJieHao
+2389370,Inferno,2,JiJieHao,Lynn Vision,JiJieHao,Lynn Vision
+2389370,Anubis,3,JiJieHao,Lynn Vision,JiJieHao,JiJieHao
+2389195,Nuke,1,FAVBET,illwill,FAVBET,illwill
+2389195,Inferno,2,FAVBET,illwill,FAVBET,illwill
+2389195,Dust2,3,FAVBET,illwill,illwill,illwill
+2389369,Ancient,1,Morningstar,FlyQuest,Morningstar,Morningstar
+2389369,Dust2,2,Morningstar,FlyQuest,Morningstar,Morningstar
+2388939,Nuke,1,RED Canids,BESTIA,BESTIA,BESTIA
+2388939,Ancient,2,RED Canids,BESTIA,RED Canids,RED Canids
+2388939,Inferno,3,RED Canids,BESTIA,BESTIA,RED Canids
+2388925,Nuke,1,BetBoom,Gentle Mates,Gentle Mates,Gentle Mates
+2388925,Mirage,2,BetBoom,Gentle Mates,BetBoom,BetBoom
+2388925,Overpass,3,BetBoom,Gentle Mates,Gentle Mates,BetBoom
+2389278,Overpass,1,PARIVISION,Spirit,Spirit,Spirit
+2389278,Mirage,2,PARIVISION,Spirit,PARIVISION,PARIVISION
+2389278,Ancient,3,PARIVISION,Spirit,Spirit,Spirit
+2389122,Anubis,1,ex-RUBY,ARCRED,ex-RUBY,ARCRED
+2389122,Dust2,2,ex-RUBY,ARCRED,ARCRED,ARCRED
+2388924,Overpass,1,Gentle Mates,9INE,Gentle Mates,9INE
+2388924,Nuke,2,Gentle Mates,9INE,9INE,Gentle Mates
+2388924,Ancient,3,Gentle Mates,9INE,9INE,9INE
+2388923,Overpass,1,HOTU,BetBoom,HOTU,HOTU
+2388923,Dust2,2,HOTU,BetBoom,HOTU,HOTU
+2389120,Dust2,1,Sangal,FAVBET,FAVBET,Sangal
+2389120,Nuke,2,Sangal,FAVBET,FAVBET,Sangal
+2389120,Overpass,3,Sangal,FAVBET,FAVBET,Sangal
+2389519,Mirage,1,MOUZ NXT,illwill,illwill,illwill
+2389519,Anubis,2,MOUZ NXT,illwill,illwill,illwill
+2389368,Ancient,1,Eruption,Lynn Vision,Lynn Vision,Eruption
+2389368,Dust2,2,Eruption,Lynn Vision,Lynn Vision,Lynn Vision
+2389277,Inferno,1,GamerLegion,Vitality,GamerLegion,Vitality
+2389277,Dust2,2,GamerLegion,Vitality,GamerLegion,GamerLegion
+2389365,Ancient,1,FlyQuest,Chinggis Warriors,Chinggis Warriors,Chinggis Warriors
+2389365,Dust2,2,FlyQuest,Chinggis Warriors,FlyQuest,Chinggis Warriors
+2389121,Mirage,1,BET-M,illwill,BET-M,illwill
+2389121,Inferno,2,BET-M,illwill,BET-M,illwill
+2389367,Dust2,1,Rare Atom,JiJieHao,Rare Atom,JiJieHao
+2389367,Mirage,2,Rare Atom,JiJieHao,Rare Atom,JiJieHao
+2389367,Anubis,3,Rare Atom,JiJieHao,Rare Atom,JiJieHao
+2389119,Mirage,1,Nuclear TigeRES,Oramond,Nuclear TigeRES,Oramond
+2389119,Anubis,2,Nuclear TigeRES,Oramond,Nuclear TigeRES,Nuclear TigeRES
+2389366,Dust2,1,Morningstar,The Huns,The Huns,Morningstar
+2389366,Inferno,2,Morningstar,The Huns,The Huns,The Huns
+2388938,Nuke,1,BESTIA,ShindeN,BESTIA,ShindeN
+2388938,Dust2,2,BESTIA,ShindeN,ShindeN,ShindeN
+2388937,Nuke,1,Imperial,ShindeN,ShindeN,ShindeN
+2388937,Overpass,2,Imperial,ShindeN,ShindeN,Imperial
+2388921,Ancient,1,9INE,Nuclear TigeRES,Nuclear TigeRES,9INE
+2388921,Nuke,2,9INE,Nuclear TigeRES,Nuclear TigeRES,9INE
+2388921,Dust2,3,9INE,Nuclear TigeRES,9INE,9INE
+2388936,Nuke,1,RED Canids,BESTIA,BESTIA,RED Canids
+2388936,Ancient,2,RED Canids,BESTIA,BESTIA,BESTIA
+2388922,Mirage,1,Ursa,Gentle Mates,Ursa,Gentle Mates
+2388922,Nuke,2,Ursa,Gentle Mates,Gentle Mates,Gentle Mates
+2389276,Mirage,1,HEROIC,FURIA,HEROIC,HEROIC
+2389276,Dust2,2,HEROIC,FURIA,FURIA,FURIA
+2389276,Nuke,3,HEROIC,FURIA,HEROIC,FURIA
+2388934,Dust2,1,9z,ShindeN,ShindeN,ShindeN
+2388934,Nuke,2,9z,ShindeN,9z,9z
+2388920,Ancient,1,Gentle Mates,Nemesis,Gentle Mates,Nemesis
+2388920,Nuke,2,Gentle Mates,Nemesis,Nemesis,Gentle Mates
+2388935,Anubis,1,ODDIK,Imperial,ODDIK,ODDIK
+2388935,Overpass,2,ODDIK,Imperial,Imperial,Imperial
+2388919,Inferno,1,EYEBALLERS,Nuclear TigeRES,Nuclear TigeRES,EYEBALLERS
+2388919,Mirage,2,EYEBALLERS,Nuclear TigeRES,Nuclear TigeRES,EYEBALLERS
+2388919,Anubis,3,EYEBALLERS,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2388918,Dust2,1,BetBoom,Ursa,BetBoom,Ursa
+2388918,Mirage,2,BetBoom,Ursa,Ursa,BetBoom
+2389515,Nuke,1,los kogutos,illwill,los kogutos,illwill
+2389515,Mirage,2,los kogutos,illwill,illwill,illwill
+2388917,Overpass,1,HOTU,9INE,HOTU,9INE
+2388917,Dust2,2,HOTU,9INE,HOTU,HOTU
+2389275,Nuke,1,Liquid,Falcons,Liquid,Liquid
+2389275,Dust2,2,Liquid,Falcons,Liquid,Liquid
+2388916,Ancient,1,BIG Academy,Nemesis,Nemesis,Nemesis
+2388916,Nuke,2,BIG Academy,Nemesis,Nemesis,Nemesis
+2388916,Dust2,3,BIG Academy,Nemesis,BIG Academy,Nemesis
+2388914,Ancient,1,Nuclear TigeRES,KOLESIE,KOLESIE,KOLESIE
+2388914,Nuke,2,Nuclear TigeRES,KOLESIE,Nuclear TigeRES,Nuclear TigeRES
+2388913,Anubis,1,FUT,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2388913,Dust2,2,FUT,EYEBALLERS,FUT,EYEBALLERS
+2388915,Ancient,1,Gentle Mates,GenOne,GenOne,Gentle Mates
+2388915,Nuke,2,Gentle Mates,GenOne,GenOne,Gentle Mates
+2389115,Overpass,1,GenOne,UNiTY,GenOne,GenOne
+2389115,Inferno,2,GenOne,UNiTY,UNiTY,GenOne
+2389115,Ancient,3,GenOne,UNiTY,GenOne,GenOne
+2388912,Nuke,1,BC.Game,Nemesis,Nemesis,BC.Game
+2388912,Inferno,2,BC.Game,Nemesis,Nemesis,BC.Game
+2388912,Ancient,3,BC.Game,Nemesis,BC.Game,Nemesis
+2388933,Dust2,1,BESTIA,ShindeN,ShindeN,BESTIA
+2388933,Nuke,2,BESTIA,ShindeN,ShindeN,BESTIA
+2388933,Overpass,3,BESTIA,ShindeN,ShindeN,BESTIA
+2388932,Nuke,1,Imperial,RED Canids,RED Canids,RED Canids
+2388932,Overpass,2,Imperial,RED Canids,RED Canids,Imperial
+2388932,Mirage,3,Imperial,RED Canids,RED Canids,Imperial
+2388911,Ancient,1,fnatic,GenOne,fnatic,fnatic
+2388911,Anubis,2,fnatic,GenOne,GenOne,GenOne
+2388911,Dust2,3,fnatic,GenOne,fnatic,GenOne
+2388905,Ancient,1,9INE,BIG Academy,9INE,9INE
+2388905,Nuke,2,9INE,BIG Academy,BIG Academy,BIG Academy
+2388905,Dust2,3,9INE,BIG Academy,9INE,9INE
+2388931,Anubis,1,ODDIK,Fluxo,ODDIK,ODDIK
+2388931,Nuke,2,ODDIK,Fluxo,ODDIK,Fluxo
+2388931,Ancient,3,ODDIK,Fluxo,Fluxo,ODDIK
+2388910,Nuke,1,Ursa,EYEBALLERS,Ursa,Ursa
+2388910,Mirage,2,Ursa,EYEBALLERS,Ursa,Ursa
+2388910,Anubis,3,Ursa,EYEBALLERS,Ursa,EYEBALLERS
+2388930,Overpass,1,9z,Sharks,9z,9z
+2388930,Nuke,2,9z,Sharks,9z,Sharks
+2388909,Nuke,1,KOLESIE,BetBoom,BetBoom,KOLESIE
+2388909,Nuke,1,,,,
+2388909,Mirage,2,,,,
+2388909,Anubis,3,,,,
+2388906,Anubis,1,,,,
+2388930,Nuke,2,,,,
+2388909,Mirage,2,KOLESIE,BetBoom,BetBoom,BetBoom
+2388909,Anubis,3,KOLESIE,BetBoom,KOLESIE,BetBoom
+2388906,Anubis,1,Gentle Mates,HOTU,Gentle Mates,HOTU
+2388906,Ancient,2,Gentle Mates,HOTU,HOTU,Gentle Mates
+2388927,Nuke,1,RED Canids,Sharks,RED Canids,RED Canids
+2388927,Inferno,2,RED Canids,Sharks,Sharks,Sharks
+2388929,Nuke,1,ShindeN,Fluxo,ShindeN,Fluxo
+2388929,Ancient,2,ShindeN,Fluxo,ShindeN,ShindeN
+2388908,Ancient,1,Nuclear TigeRES,Sangal,Nuclear TigeRES,Nuclear TigeRES
+2388908,Mirage,2,Nuclear TigeRES,Sangal,Sangal,Nuclear TigeRES
+2388908,Anubis,3,Nuclear TigeRES,Sangal,Nuclear TigeRES,Nuclear TigeRES
+2388903,Ancient,1,EYEBALLERS,Nemesis,EYEBALLERS,Nemesis
+2388903,Anubis,2,EYEBALLERS,Nemesis,EYEBALLERS,EYEBALLERS
+2388903,Inferno,3,EYEBALLERS,Nemesis,EYEBALLERS,Nemesis
+2388928,Dust2,1,BESTIA,ODDIK,ODDIK,BESTIA
+2388928,Ancient,2,BESTIA,ODDIK,ODDIK,BESTIA
+2388901,Ancient,1,BetBoom,GenOne,BetBoom,BetBoom
+2388901,Nuke,2,BetBoom,GenOne,GenOne,BetBoom
+2388901,Dust2,3,BetBoom,GenOne,GenOne,GenOne
+2388907,Nuke,1,K27,FUT,K27,K27
+2388907,Mirage,2,K27,FUT,FUT,FUT
+2389113,Ancient,1,Oramond,BET-M,Oramond,Oramond
+2389113,Mirage,2,Oramond,BET-M,Oramond,BET-M
+2388904,Dust2,1,Ursa,BC.Game,Ursa,Ursa
+2388904,Anubis,2,Ursa,BC.Game,Ursa,BC.Game
+2388902,Ancient,1,KOLESIE,fnatic,fnatic,fnatic
+2388902,Mirage,2,KOLESIE,fnatic,KOLESIE,KOLESIE
+2389112,Dust2,1,Nemiga,ex-RUBY,ex-RUBY,ex-RUBY
+2389112,Ancient,2,Nemiga,ex-RUBY,ex-RUBY,ex-RUBY
+2389112,Mirage,3,Nemiga,ex-RUBY,ex-RUBY,Nemiga
+2388897,Ancient,1,FUT,BIG Academy,BIG Academy,FUT
+2388897,Mirage,2,FUT,BIG Academy,BIG Academy,BIG Academy
+2388897,Overpass,3,FUT,BIG Academy,FUT,FUT
+2388898,Ancient,1,9INE,K27,9INE,K27
+2388898,Overpass,2,9INE,K27,9INE,9INE
+2388898,Dust2,3,9INE,K27,K27,9INE
+2388899,Mirage,1,HOTU,Sangal,Sangal,Sangal
+2388899,Overpass,2,HOTU,Sangal,HOTU,HOTU
+2388899,Ancient,3,HOTU,Sangal,HOTU,HOTU
+2388900,Ancient,1,Nuclear TigeRES,Gentle Mates,Nuclear TigeRES,Gentle Mates
+2388900,Nuke,2,Nuclear TigeRES,Gentle Mates,Gentle Mates,Nuclear TigeRES
+2388900,Inferno,3,Nuclear TigeRES,Gentle Mates,Nuclear TigeRES,Nuclear TigeRES
+2389509,Mirage,1,MOUZ NXT,los kogutos,MOUZ NXT,los kogutos
+2389509,Overpass,2,MOUZ NXT,los kogutos,MOUZ NXT,MOUZ NXT
+2389509,Anubis,3,MOUZ NXT,los kogutos,MOUZ NXT,los kogutos
+2389111,Ancient,1,Nemesis,ARCRED,ARCRED,Nemesis
+2389111,Dust2,2,Nemesis,ARCRED,ARCRED,Nemesis
+2389110,Inferno,1,1win,GenOne,GenOne,GenOne
+2389110,Overpass,2,1win,GenOne,1win,GenOne
+2389109,Mirage,1,Sangal,FORZE Reload,Sangal,Sangal
+2389109,Ancient,2,Sangal,FORZE Reload,FORZE Reload,Sangal
+2389107,Anubis,1,Nuclear TigeRES,UNiTY,Nuclear TigeRES,UNiTY
+2389107,Ancient,2,Nuclear TigeRES,UNiTY,Nuclear TigeRES,UNiTY
+2389106,Dust2,1,Nemesis,FORZE Reload,Nemesis,FORZE Reload
+2389106,Ancient,2,Nemesis,FORZE Reload,FORZE Reload,FORZE Reload
+2389105,Inferno,1,BET-M,FAVBET,BET-M,BET-M
+2389105,Ancient,2,BET-M,FAVBET,BET-M,BET-M
+2389104,Ancient,1,Nemiga,GenOne,GenOne,Nemiga
+2389104,Nuke,2,Nemiga,GenOne,GenOne,GenOne
+2389103,Mirage,1,Nuclear TigeRES,ARCRED,Nuclear TigeRES,Nuclear TigeRES
+2389103,Inferno,2,Nuclear TigeRES,ARCRED,Nuclear TigeRES,ARCRED
+2389103,Anubis,3,Nuclear TigeRES,ARCRED,Nuclear TigeRES,ARCRED
+2389385,Inferno,1,Sharks,MIBR,MIBR,Sharks
+2389385,Ancient,2,Sharks,MIBR,Sharks,MIBR
+2389385,Mirage,3,Sharks,MIBR,MIBR,Sharks
+2389385,Overpass,4,Sharks,MIBR,Sharks,MIBR
+2389385,Dust2,5,Sharks,MIBR,Sharks,Sharks
+2389274,Anubis,1,FUT,FURIA,FURIA,FUT
+2389274,Overpass,2,FUT,FURIA,FUT,FUT
+2389274,Dust2,3,FUT,FURIA,FUT,FUT
+2389308,Train,1,Betclic,BIG,BIG,BIG
+2389308,Ancient,2,Betclic,BIG,Betclic,BIG
+2389273,Anubis,1,EYEBALLERS,Vitality,Vitality,EYEBALLERS
+2389273,Overpass,2,EYEBALLERS,Vitality,Vitality,Vitality
+2389272,Ancient,1,Inner Circle,Spirit,Inner Circle,Inner Circle
+2389272,Dust2,2,Inner Circle,Spirit,Inner Circle,Inner Circle
+2389100,Mirage,1,Sangal,illwill,illwill,illwill
+2389100,Nuke,2,Sangal,illwill,Sangal,illwill
+2389306,Nuke,1,MOUZ NXT,Betclic,Betclic,MOUZ NXT
+2389306,Ancient,2,MOUZ NXT,Betclic,Betclic,MOUZ NXT
+2389306,Mirage,3,MOUZ NXT,Betclic,Betclic,Betclic
+2389271,Dust2,1,PARIVISION,Astralis,PARIVISION,PARIVISION
+2389271,Ancient,2,PARIVISION,Astralis,PARIVISION,Astralis
+2389099,Dust2,1,1win,ex-RUBY,ex-RUBY,ex-RUBY
+2389099,Ancient,2,1win,ex-RUBY,1win,1win
+2389384,Ancient,1,Legacy,MIBR,MIBR,MIBR
+2389384,Inferno,2,Legacy,MIBR,Legacy,Legacy
+2389384,Nuke,3,Legacy,MIBR,MIBR,MIBR
+2389426,Train,1,Tricked,Johnny Speeds,Tricked,Johnny Speeds
+2389426,Overpass,2,Tricked,Johnny Speeds,Johnny Speeds,Tricked
+2389426,Inferno,3,Tricked,Johnny Speeds,Tricked,Tricked
+2389497,Nuke,1,MIBR,ShindeN,ShindeN,ShindeN
+2389497,Inferno,2,MIBR,ShindeN,ShindeN,ShindeN
+2389490,Mirage,1,ShindeN,Fake do Biru,ShindeN,Fake do Biru
+2389488,Inferno,1,Nemesis,Ursa,Nemesis,Ursa
+2389488,Dust2,2,Nemesis,Ursa,Nemesis,Nemesis
+2389488,Nuke,3,Nemesis,Ursa,Nemesis,Nemesis
+2389270,Nuke,1,Monte,Falcons,Falcons,Monte
+2389270,Mirage,2,Monte,Falcons,Falcons,Falcons
+2389383,Inferno,1,MIBR,Imperial,Imperial,Imperial
+2389383,Nuke,2,MIBR,Imperial,Imperial,Imperial
+2389487,Ancient,1,Nuclear TigeRES,ENCE,ENCE,Nuclear TigeRES
+2389487,Anubis,2,Nuclear TigeRES,ENCE,Nuclear TigeRES,ENCE
+2389487,Dust2,3,Nuclear TigeRES,ENCE,Nuclear TigeRES,Nuclear TigeRES
+2389485,Nuke,1,Sangal,KOLESIE,Sangal,Sangal
+2389485,Mirage,2,Sangal,KOLESIE,KOLESIE,Sangal
+2389486,Ancient,1,BIG Academy,GenOne,GenOne,BIG Academy
+2389486,Dust2,2,BIG Academy,GenOne,BIG Academy,BIG Academy
+2389269,Inferno,1,GamerLegion,Aurora,Aurora,GamerLegion
+2389269,Dust2,2,GamerLegion,Aurora,Aurora,GamerLegion
+2389269,Mirage,3,GamerLegion,Aurora,GamerLegion,Aurora
+2389089,Mirage,1,FORZE Reload,los kogutos,los kogutos,los kogutos
+2389089,Anubis,2,FORZE Reload,los kogutos,los kogutos,los kogutos
+2389089,Nuke,3,FORZE Reload,los kogutos,los kogutos,FORZE Reload
+2389483,Inferno,1,Nemesis,1win,1win,1win
+2389482,Inferno,1,Virtus.pro,Nuclear TigeRES,Nuclear TigeRES,Virtus.pro
+2389268,Inferno,1,Gentle Mates,Liquid,Gentle Mates,Liquid
+2389268,Mirage,2,Gentle Mates,Liquid,Gentle Mates,Liquid
+2389268,Nuke,3,Gentle Mates,Liquid,Liquid,Gentle Mates
+2389088,Nuke,1,Ursa,illwill,illwill,illwill
+2389088,Inferno,2,Ursa,illwill,illwill,Ursa
+2389267,Nuke,1,paiN,HEROIC,HEROIC,HEROIC
+2389267,Mirage,2,paiN,HEROIC,paiN,HEROIC
+2389419,Overpass,1,Sashi,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2389419,Inferno,2,Sashi,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2389382,Nuke,1,Sharks,Legacy,Legacy,Legacy
+2389382,Inferno,2,Sharks,Legacy,Sharks,Legacy
+2389382,Mirage,3,Sharks,Legacy,Legacy,Sharks
+2389381,Inferno,1,Gaimin Gladiators,Imperial,Gaimin Gladiators,Imperial
+2389381,Nuke,2,Gaimin Gladiators,Imperial,Imperial,Imperial
+2389380,Inferno,1,Fake do Biru,MIBR,Fake do Biru,MIBR
+2389380,Mirage,2,Fake do Biru,MIBR,MIBR,MIBR
+2389261,Anubis,1,9INE,FURIA,FURIA,FURIA
+2389261,Inferno,2,9INE,FURIA,FURIA,9INE
+2389396,Nuke,1,Sashi,Tricked,Sashi,Tricked
+2389251,Mirage,1,BetBoom,paiN,paiN,paiN
+2389251,Nuke,2,BetBoom,paiN,paiN,paiN
+2389393,Mirage,1,Sashi,HEROIC Academy,Sashi,Sashi
+2389265,Mirage,1,SINNERS,Spirit,SINNERS,Spirit
+2389265,Nuke,2,SINNERS,Spirit,Spirit,Spirit
+2389262,Overpass,1,ENCE,PARIVISION,PARIVISION,ENCE
+2389262,Anubis,2,ENCE,PARIVISION,ENCE,PARIVISION
+2389389,Nuke,1,Tricked,HEROIC Academy,Tricked,Tricked
+2389379,Mirage,1,MIBR,Legacy,Legacy,Legacy
+2389379,Inferno,2,MIBR,Legacy,Legacy,MIBR
+2389378,Inferno,1,Imperial,Sharks,Sharks,Sharks
+2389378,Mirage,2,Imperial,Sharks,Sharks,Imperial
+2389266,Inferno,1,ECSTATIC,Falcons,ECSTATIC,ECSTATIC
+2389266,Mirage,2,ECSTATIC,Falcons,ECSTATIC,ECSTATIC
+2389082,Inferno,1,UNiTY,illwill,UNiTY,illwill
+2389082,Mirage,2,UNiTY,illwill,illwill,illwill
+2389256,Nuke,1,Ninjas in Pyjamas,Liquid,Liquid,Ninjas in Pyjamas
+2389256,Mirage,2,Ninjas in Pyjamas,Liquid,Liquid,Ninjas in Pyjamas
+2389256,Ancient,3,Ninjas in Pyjamas,Liquid,Liquid,Liquid
+2389081,Dust2,1,FORZE Reload,ARCRED,ARCRED,FORZE Reload
+2389081,Nuke,2,FORZE Reload,ARCRED,ARCRED,FORZE Reload
+2389259,Ancient,1,Inner Circle,3DMAX,3DMAX,3DMAX
+2389259,Nuke,2,Inner Circle,3DMAX,3DMAX,Inner Circle
+2389259,Dust2,3,Inner Circle,3DMAX,Inner Circle,3DMAX
+2389253,Mirage,1,M80,Gentle Mates,M80,Gentle Mates
+2389253,Inferno,2,M80,Gentle Mates,M80,Gentle Mates
+2389373,Inferno,1,Imperial,Fake do Biru,Fake do Biru,Imperial
+2389373,Mirage,2,Imperial,Fake do Biru,Imperial,Fake do Biru
+2389263,Overpass,1,Virtus.pro,Vitality,Vitality,Virtus.pro
+2389263,Dust2,2,Virtus.pro,Vitality,Virtus.pro,Virtus.pro
+2389264,Nuke,1,Monte,Natus Vincere,Natus Vincere,Natus Vincere
+2389264,Mirage,2,Monte,Natus Vincere,Monte,Monte
+2389264,Dust2,3,Monte,Natus Vincere,Monte,Monte
+2389372,Inferno,1,MIBR,Gaimin Gladiators,Gaimin Gladiators,Gaimin Gladiators
+2389372,Anubis,2,MIBR,Gaimin Gladiators,MIBR,MIBR
+2389257,Nuke,1,Friendly Campers,HEROIC,HEROIC,HEROIC
+2389257,Mirage,2,Friendly Campers,HEROIC,HEROIC,HEROIC
+2389254,Dust2,1,Passion UA,GamerLegion,Passion UA,Passion UA
+2389254,Mirage,2,Passion UA,GamerLegion,GamerLegion,GamerLegion
+2389254,Inferno,3,Passion UA,GamerLegion,GamerLegion,GamerLegion
+2389255,Mirage,1,HOTU,Aurora,HOTU,Aurora
+2389255,Nuke,2,HOTU,Aurora,HOTU,HOTU
+2389255,Overpass,3,HOTU,Aurora,HOTU,Aurora
+2389252,Mirage,1,fnatic,Astralis,fnatic,Astralis
+2389252,Overpass,2,fnatic,Astralis,fnatic,fnatic
+2389252,Ancient,3,fnatic,Astralis,Astralis,Astralis
+2389258,Ancient,1,EYEBALLERS,FaZe,FaZe,FaZe
+2389258,Mirage,2,EYEBALLERS,FaZe,FaZe,EYEBALLERS
+2389258,Inferno,3,EYEBALLERS,FaZe,EYEBALLERS,FaZe
+2389260,Ancient,1,OG,FUT,OG,FUT
+2389260,Mirage,2,OG,FUT,FUT,FUT
+2388998,Mirage,1,M80,NRG,M80,NRG
+2388998,Dust2,2,M80,NRG,M80,M80
+2388997,Inferno,1,NRG,Marsborne,Marsborne,Marsborne
+2388997,Mirage,2,NRG,Marsborne,Marsborne,NRG
+2388997,Overpass,3,NRG,Marsborne,Marsborne,NRG
+2388996,Mirage,1,M80,Voca,Voca,Voca
+2388996,Ancient,2,M80,Voca,M80,M80
+2388995,Nuke,1,BOSS,Marsborne,BOSS,BOSS
+2388995,Inferno,2,BOSS,Marsborne,Marsborne,Marsborne
+2388992,Train,1,M80,BOSS,M80,BOSS
+2388992,Ancient,2,M80,BOSS,M80,BOSS
+2388990,Mirage,1,NRG,Voca,NRG,NRG
+2388990,Dust2,2,NRG,Voca,NRG,Voca
+2388988,Nuke,1,Marsborne,BOSS,BOSS,BOSS
+2388988,Inferno,2,Marsborne,BOSS,BOSS,Marsborne
+2388988,Overpass,3,Marsborne,BOSS,BOSS,BOSS
+2388853,Train,1,ASTRAL,MOUZ NXT,ASTRAL,MOUZ NXT
+2388853,Ancient,2,ASTRAL,MOUZ NXT,ASTRAL,MOUZ NXT
+2388851,Nuke,1,MOUZ NXT,Friendly Campers,Friendly Campers,MOUZ NXT
+2388851,Dust2,2,MOUZ NXT,Friendly Campers,Friendly Campers,MOUZ NXT
+2388985,Dust2,1,NRG,9INE,NRG,9INE
+2388985,Overpass,2,NRG,9INE,9INE,9INE
+2388985,Inferno,3,NRG,9INE,9INE,NRG
+2388985,Train,4,NRG,9INE,9INE,9INE
+2388984,Mirage,1,GamerLegion,M80,M80,GamerLegion
+2388984,Inferno,2,GamerLegion,M80,M80,M80
+2388983,Inferno,1,9INE,M80,M80,M80
+2388983,Ancient,2,9INE,M80,M80,9INE
+2388983,Train,3,9INE,M80,9INE,9INE
+2388982,Dust2,1,NRG,GamerLegion,NRG,NRG
+2388982,Inferno,2,NRG,GamerLegion,GamerLegion,NRG
+2388980,Inferno,1,M80,Marsborne,Marsborne,M80
+2388980,Mirage,2,M80,Marsborne,M80,Marsborne
+2388980,Train,3,M80,Marsborne,M80,Marsborne
+2388981,Dust2,1,9INE,Wildcard,Wildcard,9INE
+2388981,Inferno,2,9INE,Wildcard,Wildcard,9INE
+2388981,Train,3,9INE,Wildcard,Wildcard,Wildcard
+2388979,Mirage,1,NRG,Voca,NRG,Voca
+2388979,Dust2,2,NRG,Voca,Voca,Voca
+2388979,Train,3,NRG,Voca,NRG,Voca
+2388820,Train,1,BetBoom,HOTU,BetBoom,HOTU
+2388820,Dust2,2,BetBoom,HOTU,HOTU,BetBoom
+2388830,Ancient,1,ASTRAL,Friendly Campers,ASTRAL,ASTRAL
+2388817,Dust2,1,BetBoom,HOTU,BetBoom,BetBoom
+2388817,Mirage,2,BetBoom,HOTU,HOTU,BetBoom
+2388817,Ancient,3,BetBoom,HOTU,BetBoom,BetBoom
+2388976,Mirage,1,Wildcard,Sharks,Sharks,Sharks
+2388976,Nuke,2,Wildcard,Sharks,Wildcard,Wildcard
+2388972,Ancient,1,GamerLegion,Sharks,Sharks,Sharks
+2388972,Inferno,2,GamerLegion,Sharks,Sharks,Sharks
+2388969,Nuke,1,Wildcard,Sharks,Wildcard,Sharks
+2388969,Train,2,Wildcard,Sharks,Wildcard,Wildcard
+2388964,Inferno,1,Marsborne,NRG,Marsborne,NRG
+2388964,Mirage,2,Marsborne,NRG,NRG,Marsborne
+2388964,Train,3,Marsborne,NRG,Marsborne,Marsborne
+2388962,Train,1,M80,Voca,M80,M80
+2388962,Mirage,2,M80,Voca,M80,Voca
+2388962,Ancient,3,M80,Voca,M80,M80
+2388955,Ancient,1,Morningstar,Rare Atom,Rare Atom,Rare Atom
+2388955,Dust2,2,Morningstar,Rare Atom,Morningstar,Morningstar
+2388955,Inferno,3,Morningstar,Rare Atom,Morningstar,Morningstar
+2388955,Mirage,4,Morningstar,Rare Atom,Morningstar,Rare Atom
+2388952,Ancient,1,Rare Atom,Morningstar,Rare Atom,Morningstar
+2388952,Dust2,2,Rare Atom,Morningstar,Rare Atom,Rare Atom
+2388952,Inferno,3,Rare Atom,Morningstar,Morningstar,Morningstar
+2388806,Overpass,1,GenOne,Nemesis,GenOne,GenOne
+2388806,Dust2,2,GenOne,Nemesis,Nemesis,GenOne
+2388805,Overpass,1,Nemesis,FORZE Reload,Nemesis,FORZE Reload
+2388805,Ancient,2,Nemesis,FORZE Reload,FORZE Reload,FORZE Reload
+2388805,Mirage,3,Nemesis,FORZE Reload,Nemesis,Nemesis
+2388803,Dust2,1,FORZE Reload,los kogutos,los kogutos,los kogutos
+2388803,Ancient,2,FORZE Reload,los kogutos,FORZE Reload,FORZE Reload
+2388800,Dust2,1,Sangal,Nemesis,Sangal,Sangal
+2388800,Inferno,2,Sangal,Nemesis,Nemesis,Nemesis
+2388871,Nuke,1,ShindeN,9z,9z,ShindeN
+2388871,Overpass,2,ShindeN,9z,9z,9z
+2388871,Ancient,3,ShindeN,9z,ShindeN,ShindeN
+2388736,Mirage,1,Gentle Mates,Ninjas in Pyjamas,Ninjas in Pyjamas,Gentle Mates
+2388736,Train,2,Gentle Mates,Ninjas in Pyjamas,Gentle Mates,Ninjas in Pyjamas
+2388706,Dust2,1,CYBERSHOKE,BESTIA,CYBERSHOKE,BESTIA
+2388706,Ancient,2,CYBERSHOKE,BESTIA,BESTIA,BESTIA
+2388637,Dust2,1,K27,WHITEBIRD,K27,K27
+2388637,Ancient,2,K27,WHITEBIRD,WHITEBIRD,K27
+2388637,Mirage,3,K27,WHITEBIRD,K27,K27
+2388734,Ancient,1,Sharks,ASTRAL,Sharks,Sharks
+2388734,Inferno,2,Sharks,ASTRAL,Sharks,ASTRAL
+2388705,Ancient,1,Friendly Campers,BESTIA,BESTIA,BESTIA
+2388705,Nuke,2,Friendly Campers,BESTIA,Friendly Campers,BESTIA
+2388773,Dust2,1,JiJieHao,Chinggis Warriors,JiJieHao,JiJieHao
+2388773,Inferno,2,JiJieHao,Chinggis Warriors,JiJieHao,JiJieHao
+2388773,Ancient,3,JiJieHao,Chinggis Warriors,JiJieHao,JiJieHao
+2388771,Dust2,1,Eruption,JiJieHao,JiJieHao,JiJieHao
+2388771,Train,2,Eruption,JiJieHao,JiJieHao,Eruption
+2388729,Nuke,1,ASTRAL,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2388729,Ancient,2,ASTRAL,Ninjas in Pyjamas,Ninjas in Pyjamas,ASTRAL
+2388703,Dust2,1,CYBERSHOKE,BESTIA,BESTIA,BESTIA
+2388703,Ancient,2,CYBERSHOKE,BESTIA,BESTIA,BESTIA
+2388703,Mirage,3,CYBERSHOKE,BESTIA,CYBERSHOKE,CYBERSHOKE
+2388704,Mirage,1,Friendly Campers,fnatic,fnatic,fnatic
+2388704,Inferno,2,Friendly Campers,fnatic,Friendly Campers,fnatic
+2388704,Ancient,3,Friendly Campers,fnatic,Friendly Campers,Friendly Campers
+2388702,Mirage,1,fnatic,illwill,illwill,illwill
+2388702,Inferno,2,fnatic,illwill,illwill,fnatic
+2388702,Train,3,fnatic,illwill,fnatic,illwill
+2388770,Ancient,1,Rare Atom,Chinggis Warriors,Chinggis Warriors,Rare Atom
+2388770,Dust2,2,Rare Atom,Chinggis Warriors,Chinggis Warriors,Rare Atom
+2388793,Mirage,1,Nemesis,UNiTY,Nemesis,UNiTY
+2388793,Overpass,2,Nemesis,UNiTY,Nemesis,UNiTY
+2388701,Inferno,1,Friendly Campers,9INE,9INE,Friendly Campers
+2388701,Nuke,2,Friendly Campers,9INE,Friendly Campers,9INE
+2388768,Ancient,1,Lynn Vision,JiJieHao,Lynn Vision,JiJieHao
+2388768,Nuke,2,Lynn Vision,JiJieHao,Lynn Vision,JiJieHao
+2388768,Dust2,3,Lynn Vision,JiJieHao,Lynn Vision,JiJieHao
+2388744,Ancient,1,BOSS,Voca,BOSS,Voca
+2388744,Train,2,BOSS,Voca,Voca,BOSS
+2388698,Mirage,1,illwill,BESTIA,illwill,BESTIA
+2388698,Dust2,2,illwill,BESTIA,BESTIA,BESTIA
+2388700,Mirage,1,Lazer Cats,fnatic,Lazer Cats,Lazer Cats
+2388700,Train,2,Lazer Cats,fnatic,fnatic,fnatic
+2388697,Nuke,1,CYBERSHOKE,Friendly Campers,CYBERSHOKE,CYBERSHOKE
+2388697,Dust2,2,CYBERSHOKE,Friendly Campers,CYBERSHOKE,CYBERSHOKE
+2388697,Ancient,3,CYBERSHOKE,Friendly Campers,CYBERSHOKE,Friendly Campers
+2388694,Overpass,1,The Huns,9INE,The Huns,The Huns
+2388694,Ancient,2,The Huns,9INE,The Huns,9INE
+2388696,Dust2,1,MOUZ NXT,fnatic,fnatic,MOUZ NXT
+2388696,Mirage,2,MOUZ NXT,fnatic,MOUZ NXT,fnatic
+2388696,Train,3,MOUZ NXT,fnatic,fnatic,fnatic
+2388695,Inferno,1,Lazer Cats,ENCE,Lazer Cats,Lazer Cats
+2388695,Dust2,2,Lazer Cats,ENCE,ENCE,ENCE
+2388695,Ancient,3,Lazer Cats,ENCE,ENCE,ENCE
+2388691,Dust2,1,BESTIA,9INE,9INE,BESTIA
+2388691,Overpass,2,BESTIA,9INE,9INE,9INE
+2388691,Nuke,3,BESTIA,9INE,BESTIA,9INE
+2388690,Nuke,1,ENCE,Friendly Campers,ENCE,Friendly Campers
+2388690,Dust2,2,ENCE,Friendly Campers,Friendly Campers,ENCE
+2388689,Dust2,1,CYBERSHOKE,fnatic,fnatic,fnatic
+2388689,Train,2,CYBERSHOKE,fnatic,CYBERSHOKE,fnatic
+2388688,Ancient,1,MOUZ NXT,Inner Circle,Inner Circle,Inner Circle
+2388688,Train,2,MOUZ NXT,Inner Circle,Inner Circle,Inner Circle
+2388688,Overpass,3,MOUZ NXT,Inner Circle,MOUZ NXT,MOUZ NXT
+2388686,Default,1,The Huns,HEROIC Academy,The Huns,The Huns
+2388686,Inferno,2,The Huns,HEROIC Academy,HEROIC Academy,The Huns
+2388684,Mirage,1,Inner Circle,illwill,illwill,Inner Circle
+2388684,Train,2,Inner Circle,illwill,Inner Circle,Inner Circle
+2388684,Nuke,3,Inner Circle,illwill,illwill,illwill
+2388509,Mirage,1,Oramond,magic,magic,magic
+2388509,Inferno,2,Oramond,magic,Oramond,Oramond
+2388509,Train,3,Oramond,magic,magic,Oramond
+2388681,Nuke,1,BESTIA,Lazer Cats,Lazer Cats,BESTIA
+2388681,Dust2,2,BESTIA,Lazer Cats,BESTIA,BESTIA
+2388508,Ancient,1,ARCRED,magic,ARCRED,ARCRED
+2388508,Mirage,2,ARCRED,magic,ARCRED,magic
+2388677,Dust2,1,fnatic,G2 Ares,G2 Ares,G2 Ares
+2388677,Train,2,fnatic,G2 Ares,fnatic,G2 Ares
+2388677,Inferno,3,fnatic,G2 Ares,fnatic,fnatic
+2388679,Ancient,1,ENCE,The Huns,ENCE,The Huns
+2388679,Dust2,2,ENCE,The Huns,ENCE,ENCE
+2388680,Inferno,1,Friendly Campers,HEROIC Academy,HEROIC Academy,Friendly Campers
+2388680,Mirage,2,Friendly Campers,HEROIC Academy,HEROIC Academy,Friendly Campers
+2388758,Ancient,1,JiJieHao,Eruption,Eruption,JiJieHao
+2388506,Dust2,1,Johnny Speeds,magic,Johnny Speeds,Johnny Speeds
+2388506,Overpass,2,Johnny Speeds,magic,Johnny Speeds,Johnny Speeds
+2388506,Mirage,3,Johnny Speeds,magic,magic,magic
+2388504,Mirage,1,EYEBALLERS,Oramond,Oramond,Oramond
+2388504,Inferno,2,EYEBALLERS,Oramond,Oramond,EYEBALLERS
+2388504,Dust2,3,EYEBALLERS,Oramond,Oramond,Oramond
+2388667,Nuke,1,illwill,MOUZ NXT,MOUZ NXT,MOUZ NXT
+2388666,Train,1,HEROIC Academy,The Huns,The Huns,The Huns
+2388495,Ancient,1,CYBERSHOKE,Nuclear TigeRES,Nuclear TigeRES,CYBERSHOKE
+2388495,Dust2,2,CYBERSHOKE,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2388495,Nuke,3,CYBERSHOKE,Nuclear TigeRES,CYBERSHOKE,CYBERSHOKE
+2388130,Nuke,1,Vitality,FaZe,FaZe,FaZe
+2388130,Dust2,2,Vitality,FaZe,Vitality,Vitality
+2388130,Inferno,3,Vitality,FaZe,FaZe,FaZe
+2388130,Overpass,4,Vitality,FaZe,Vitality,FaZe
+2388454,Ancient,1,9INE,BIG,9INE,BIG
+2388454,Overpass,2,9INE,BIG,BIG,BIG
+2388454,Dust2,3,9INE,BIG,BIG,BIG
+2388129,Ancient,1,FaZe,Natus Vincere,FaZe,FaZe
+2388129,Nuke,2,FaZe,Natus Vincere,Natus Vincere,FaZe
+2388129,Inferno,3,FaZe,Natus Vincere,FaZe,Natus Vincere
+2388452,Dust2,1,Oramond,BIG,BIG,Oramond
+2388452,Mirage,2,Oramond,BIG,Oramond,BIG
+2388452,Train,3,Oramond,BIG,Oramond,BIG
+2388128,Mirage,1,Spirit,Vitality,Spirit,Spirit
+2388128,Dust2,2,Spirit,Vitality,Vitality,Spirit
+2388449,Nuke,1,9INE,Alliance,Alliance,9INE
+2388449,Inferno,2,9INE,Alliance,Alliance,Alliance
+2388127,Mirage,1,FURIA,Natus Vincere,Natus Vincere,Natus Vincere
+2388127,Inferno,2,FURIA,Natus Vincere,FURIA,Natus Vincere
+2388127,Train,3,FURIA,Natus Vincere,Natus Vincere,Natus Vincere
+2388448,Inferno,1,BetBoom,Johnny Speeds,BetBoom,Johnny Speeds
+2388448,Train,2,BetBoom,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2388448,Mirage,3,BetBoom,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2388447,Train,1,BIG,Sangal,BIG,BIG
+2388447,Mirage,2,BIG,Sangal,BIG,Sangal
+2388447,Overpass,3,BIG,Sangal,Sangal,Sangal
+2388126,Nuke,1,MOUZ,FaZe,FaZe,MOUZ
+2388126,Inferno,2,MOUZ,FaZe,FaZe,FaZe
+2388124,Mirage,1,Vitality,The MongolZ,Vitality,Vitality
+2388124,Dust2,2,Vitality,The MongolZ,Vitality,Vitality
+2388125,Nuke,1,Spirit,Falcons,Falcons,Spirit
+2388125,Dust2,2,Spirit,Falcons,Spirit,Falcons
+2388442,Nuke,1,ECSTATIC,Oramond,ECSTATIC,ECSTATIC
+2388442,Train,2,ECSTATIC,Oramond,ECSTATIC,ECSTATIC
+2388442,Ancient,3,ECSTATIC,Oramond,ECSTATIC,ECSTATIC
+2387487,Mirage,1,FUT,ECSTATIC,FUT,ECSTATIC
+2387487,Train,2,FUT,ECSTATIC,ECSTATIC,FUT
+2387487,Ancient,3,FUT,ECSTATIC,ECSTATIC,ECSTATIC
+2388435,Mirage,1,Johnny Speeds,Oramond,Johnny Speeds,Johnny Speeds
+2388435,Dust2,2,Johnny Speeds,Oramond,Oramond,Johnny Speeds
+2388628,Default,1,Ursa,Nemiga,Ursa,Ursa
+2388433,Train,1,Nemiga,FORZE Reload,Nemiga,FORZE Reload
+2388433,Overpass,2,Nemiga,FORZE Reload,Nemiga,FORZE Reload
+2388433,Ancient,3,Nemiga,FORZE Reload,FORZE Reload,Nemiga
+2387485,Nuke,1,BetBoom,FUT,FUT,BetBoom
+2387485,Mirage,2,BetBoom,FUT,FUT,FUT
+2388314,Train,1,Johnny Speeds,EYEBALLERS,EYEBALLERS,Johnny Speeds
+2388314,Mirage,2,Johnny Speeds,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2388123,Ancient,1,G2,Falcons,Falcons,G2
+2388123,Inferno,2,G2,Falcons,Falcons,Falcons
+2388123,Dust2,3,G2,Falcons,Falcons,Falcons
+2388431,Nuke,1,CYBERSHOKE,Oramond,CYBERSHOKE,CYBERSHOKE
+2388431,Dust2,2,CYBERSHOKE,Oramond,Oramond,CYBERSHOKE
+2388122,Overpass,1,FaZe,Passion UA,Passion UA,Passion UA
+2388122,Mirage,2,FaZe,Passion UA,FaZe,FaZe
+2387483,Mirage,1,CYBERSHOKE,ECSTATIC,CYBERSHOKE,ECSTATIC
+2387483,Train,2,CYBERSHOKE,ECSTATIC,CYBERSHOKE,CYBERSHOKE
+2387483,Ancient,3,CYBERSHOKE,ECSTATIC,ECSTATIC,ECSTATIC
+2388121,Ancient,1,B8,Natus Vincere,Natus Vincere,Natus Vincere
+2388121,Train,2,B8,Natus Vincere,Natus Vincere,Natus Vincere
+2388312,Mirage,1,EYEBALLERS,Sangal,Sangal,Sangal
+2388312,Ancient,2,EYEBALLERS,Sangal,Sangal,Sangal
+2388312,Inferno,3,EYEBALLERS,Sangal,Sangal,Sangal
+2387482,Mirage,1,FUT,Inner Circle,FUT,FUT
+2387482,Ancient,2,FUT,Inner Circle,FUT,Inner Circle
+2387481,Train,1,BetBoom,Oramond,BetBoom,BetBoom
+2387481,Mirage,2,BetBoom,Oramond,BetBoom,Oramond
+2388119,Ancient,1,G2,The MongolZ,The MongolZ,The MongolZ
+2388119,Dust2,2,G2,The MongolZ,G2,The MongolZ
+2388120,Dust2,1,3DMAX,FaZe,3DMAX,FaZe
+2388120,Inferno,2,3DMAX,FaZe,FaZe,FaZe
+2388117,Mirage,1,MOUZ,Falcons,MOUZ,MOUZ
+2388117,Inferno,2,MOUZ,Falcons,MOUZ,MOUZ
+2388117,Nuke,3,MOUZ,Falcons,MOUZ,MOUZ
+2388118,Inferno,1,Passion UA,Imperial,Passion UA,Imperial
+2388118,Dust2,2,Passion UA,Imperial,Passion UA,Imperial
+2388426,Overpass,1,Sashi,Sangal,Sashi,Sangal
+2388426,Nuke,2,Sashi,Sangal,Sangal,Sashi
+2388116,Dust2,1,B8,paiN,paiN,paiN
+2388116,Ancient,2,B8,paiN,B8,paiN
+2388115,Inferno,1,Natus Vincere,Vitality,Vitality,Natus Vincere
+2388115,Train,2,Natus Vincere,Vitality,Vitality,Vitality
+2387477,Overpass,1,9INE,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2387477,Ancient,2,9INE,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2387477,Nuke,3,9INE,CYBERSHOKE,9INE,CYBERSHOKE
+2388113,Inferno,1,FURIA,G2,FURIA,FURIA
+2388113,Overpass,2,FURIA,G2,FURIA,G2
+2388114,Dust2,1,PARIVISION,3DMAX,3DMAX,PARIVISION
+2388114,Inferno,2,PARIVISION,3DMAX,PARIVISION,PARIVISION
+2388114,Ancient,3,PARIVISION,3DMAX,3DMAX,PARIVISION
+2388111,Mirage,1,MOUZ,Spirit,MOUZ,Spirit
+2388111,Train,2,MOUZ,Spirit,Spirit,Spirit
+2388111,Overpass,3,MOUZ,Spirit,MOUZ,Spirit
+2388422,Dust2,1,Alliance,Sangal,Sangal,Alliance
+2388422,Overpass,2,Alliance,Sangal,Sangal,Alliance
+2388112,Train,1,Passion UA,Liquid,Liquid,Passion UA
+2388112,Mirage,2,Passion UA,Liquid,Passion UA,Liquid
+2388109,Dust2,1,paiN,Natus Vincere,paiN,paiN
+2388110,Mirage,1,Imperial,Falcons,Falcons,Falcons
+2388107,Mirage,1,FaZe,The MongolZ,FaZe,The MongolZ
+2388108,Inferno,1,B8,Vitality,Vitality,Vitality
+2388308,Inferno,1,Sangal,Oramond,Oramond,Oramond
+2388308,Mirage,2,Sangal,Oramond,Sangal,Sangal
+2387473,Mirage,1,Inner Circle,FORZE Reload,Inner Circle,FORZE Reload
+2387473,Overpass,2,Inner Circle,FORZE Reload,FORZE Reload,FORZE Reload
+2388307,Mirage,1,EYEBALLERS,Nuclear TigeRES,EYEBALLERS,Nuclear TigeRES
+2388307,Inferno,2,EYEBALLERS,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2388307,Train,3,EYEBALLERS,Nuclear TigeRES,EYEBALLERS,EYEBALLERS
+2388105,Dust2,1,FURIA,Imperial,FURIA,Imperial
+2388106,Ancient,1,PARIVISION,Natus Vincere,PARIVISION,Natus Vincere
+2388104,Inferno,1,Liquid,The MongolZ,The MongolZ,The MongolZ
+2388103,Overpass,1,MOUZ,B8,MOUZ,MOUZ
+2388102,Dust2,1,FaZe,Spirit,FaZe,FaZe
+2388101,Nuke,1,Passion UA,Falcons,Falcons,Passion UA
+2388100,Nuke,1,3DMAX,Vitality,Vitality,Vitality
+2388099,Dust2,1,paiN,G2,G2,paiN
+2388418,Overpass,1,Johnny Speeds,FORZE Reload,Johnny Speeds,Johnny Speeds
+2388418,Nuke,2,Johnny Speeds,FORZE Reload,FORZE Reload,FORZE Reload
+2388418,Mirage,3,Johnny Speeds,FORZE Reload,Johnny Speeds,FORZE Reload
+2388098,Ancient,1,B8,Falcons,B8,Falcons
+2388097,Nuke,1,FURIA,Natus Vincere,FURIA,Natus Vincere
+2388095,Nuke,1,Vitality,FaZe,FaZe,FaZe
+2388096,Nuke,1,paiN,3DMAX,3DMAX,paiN
+2388093,Train,1,Spirit,Liquid,Spirit,Liquid
+2388094,Mirage,1,Passion UA,G2,G2,Passion UA
+2388092,Dust2,1,Imperial,The MongolZ,The MongolZ,The MongolZ
+2388091,Overpass,1,MOUZ,PARIVISION,MOUZ,MOUZ
+2388415,Nuke,1,Sashi,FORZE Reload,FORZE Reload,FORZE Reload
+2388415,Ancient,2,Sashi,FORZE Reload,Sashi,Sashi
+2388471,Train,1,Oramond,Nuclear TigeRES,Oramond,Oramond
+2388471,Nuke,2,Oramond,Nuclear TigeRES,Oramond,Nuclear TigeRES
+2388090,Ancient,1,Ninjas in Pyjamas,3DMAX,Ninjas in Pyjamas,Ninjas in Pyjamas
+2388090,Train,2,Ninjas in Pyjamas,3DMAX,3DMAX,3DMAX
+2388089,Nuke,1,Liquid,Astralis,Liquid,Astralis
+2388089,Mirage,2,Liquid,Astralis,Astralis,Astralis
+2388088,Mirage,1,Passion UA,M80,Passion UA,M80
+2388088,Inferno,2,Passion UA,M80,Passion UA,Passion UA
+2388088,Train,3,Passion UA,M80,Passion UA,M80
+2388409,Inferno,1,Nemiga,Oramond,Nemiga,Nemiga
+2388409,Mirage,2,Nemiga,Oramond,Nemiga,Oramond
+2388086,Train,1,B8,3DMAX,B8,3DMAX
+2388086,Ancient,2,B8,3DMAX,B8,B8
+2388086,Dust2,3,B8,3DMAX,B8,3DMAX
+2388087,Ancient,1,Liquid,TYLOO,TYLOO,TYLOO
+2388087,Train,2,Liquid,TYLOO,Liquid,Liquid
+2388087,Inferno,3,Liquid,TYLOO,TYLOO,Liquid
+2388084,Mirage,1,Imperial,M80,M80,M80
+2388084,Dust2,2,Imperial,M80,M80,M80
+2388084,Train,3,Imperial,M80,M80,M80
+2388085,Nuke,1,Aurora,Astralis,Aurora,Astralis
+2388085,Train,2,Aurora,Astralis,Aurora,Astralis
+2388085,Mirage,3,Aurora,Astralis,Aurora,Astralis
+2388082,Dust2,1,PARIVISION,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2388082,Train,2,PARIVISION,Ninjas in Pyjamas,Ninjas in Pyjamas,PARIVISION
+2388406,Train,1,FORZE Reload,ARCRED,FORZE Reload,ARCRED
+2388406,Nuke,2,FORZE Reload,ARCRED,FORZE Reload,ARCRED
+2388083,Overpass,1,fnatic,Passion UA,Passion UA,fnatic
+2388083,Inferno,2,fnatic,Passion UA,Passion UA,fnatic
+2388080,Train,1,Natus Vincere,B8,Natus Vincere,Natus Vincere
+2388080,Mirage,2,Natus Vincere,B8,Natus Vincere,Natus Vincere
+2388079,Inferno,1,MIBR,Liquid,Liquid,MIBR
+2388079,Mirage,2,MIBR,Liquid,Liquid,MIBR
+2388078,Inferno,1,FaZe,Ninjas in Pyjamas,Ninjas in Pyjamas,FaZe
+2388078,Nuke,2,FaZe,Ninjas in Pyjamas,FaZe,FaZe
+2388081,Mirage,1,FlyQuest,Astralis,FlyQuest,Astralis
+2388081,Overpass,2,FlyQuest,Astralis,Astralis,FlyQuest
+2388546,Nuke,1,FUT,Monte,Monte,FUT
+2388546,Ancient,2,FUT,Monte,Monte,FUT
+2388546,Dust2,3,FUT,Monte,FUT,Monte
+2388077,Overpass,1,PARIVISION,Aurora,Aurora,PARIVISION
+2388076,Dust2,1,fnatic,Imperial,Imperial,Imperial
+2388075,Train,1,M80,TYLOO,TYLOO,M80
+2388074,Train,1,Passion UA,3DMAX,3DMAX,3DMAX
+2388545,Dust2,1,Monte,OG,OG,OG
+2388545,Inferno,2,Monte,OG,OG,OG
+2388545,Mirage,3,Monte,OG,Monte,Monte
+2388544,Mirage,1,FUT,Inner Circle,FUT,FUT
+2388544,Ancient,2,FUT,Inner Circle,FUT,FUT
+2388544,Dust2,3,FUT,Inner Circle,Inner Circle,Inner Circle
+2388531,Ancient,1,1win,FORZE Reload,FORZE Reload,FORZE Reload
+2388531,Dust2,2,1win,FORZE Reload,1win,FORZE Reload
+2388531,Mirage,3,1win,FORZE Reload,FORZE Reload,FORZE Reload
+2388073,Ancient,1,fnatic,B8,fnatic,fnatic
+2388072,Dust2,1,PARIVISION,Liquid,PARIVISION,PARIVISION
+2388540,Nuke,1,Sashi,Inner Circle,Inner Circle,Sashi
+2388540,Mirage,2,Sashi,Inner Circle,Inner Circle,Inner Circle
+2388540,Ancient,3,Sashi,Inner Circle,Sashi,Inner Circle
+2388070,Dust2,1,Aurora,FaZe,Aurora,Aurora
+2388071,Mirage,1,Passion UA,MIBR,MIBR,MIBR
+2388543,Inferno,1,GenOne,Monte,Monte,Monte
+2388543,Train,2,GenOne,Monte,Monte,Monte
+2388069,Ancient,1,M80,Astralis,M80,Astralis
+2388068,Mirage,1,Natus Vincere,Imperial,Imperial,Imperial
+2388541,Overpass,1,FUT,EYEBALLERS,FUT,EYEBALLERS
+2388541,Mirage,2,FUT,EYEBALLERS,FUT,EYEBALLERS
+2388067,Inferno,1,FlyQuest,3DMAX,3DMAX,3DMAX
+2388066,Nuke,1,Ninjas in Pyjamas,TYLOO,TYLOO,Ninjas in Pyjamas
+2388534,Dust2,1,ECSTATIC,EYEBALLERS,EYEBALLERS,ECSTATIC
+2388534,Ancient,2,ECSTATIC,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2388534,Nuke,3,ECSTATIC,EYEBALLERS,EYEBALLERS,ECSTATIC
+2388064,Nuke,1,MIBR,Imperial,Imperial,Imperial
+2388065,Mirage,1,Liquid,B8,Liquid,B8
+2388539,Train,1,9INE,GenOne,GenOne,9INE
+2388539,Ancient,2,9INE,GenOne,9INE,GenOne
+2388062,Train,1,Natus Vincere,FlyQuest,Natus Vincere,FlyQuest
+2388063,Dust2,1,Aurora,M80,M80,Aurora
+2388060,Dust2,1,Passion UA,FaZe,FaZe,Passion UA
+2388061,Mirage,1,PARIVISION,TYLOO,PARIVISION,TYLOO
+2388059,Inferno,1,3DMAX,fnatic,fnatic,fnatic
+2388058,Nuke,1,Astralis,Ninjas in Pyjamas,Astralis,Astralis
+2388012,Ancient,1,SINNERS,UNiTY,UNiTY,SINNERS
+2388012,Overpass,2,SINNERS,UNiTY,UNiTY,UNiTY
+2388057,Ancient,1,PARIVISION,Legacy,PARIVISION,PARIVISION
+2388057,Inferno,2,PARIVISION,Legacy,Legacy,PARIVISION
+2388057,Dust2,3,PARIVISION,Legacy,PARIVISION,Legacy
+2388056,Nuke,1,NRG,Imperial,NRG,Imperial
+2388056,Train,2,NRG,Imperial,Imperial,NRG
+2388055,Inferno,1,Fluxo,FaZe,FaZe,Fluxo
+2388055,Nuke,2,Fluxo,FaZe,Fluxo,FaZe
+2388055,Mirage,3,Fluxo,FaZe,FaZe,Fluxo
+2388053,Overpass,1,PARIVISION,GamerLegion,GamerLegion,PARIVISION
+2388053,Ancient,2,PARIVISION,GamerLegion,GamerLegion,PARIVISION
+2388054,Nuke,1,Imperial,The Huns,The Huns,The Huns
+2388054,Mirage,2,Imperial,The Huns,Imperial,The Huns
+2388051,Mirage,1,RED Canids,FaZe,RED Canids,FaZe
+2388051,Nuke,2,RED Canids,FaZe,FaZe,RED Canids
+2388051,Inferno,3,RED Canids,FaZe,RED Canids,FaZe
+2388052,Mirage,1,NRG,fnatic,NRG,NRG
+2388052,Inferno,2,NRG,fnatic,fnatic,NRG
+2388052,Dust2,3,NRG,fnatic,fnatic,NRG
+2388347,Overpass,1,K27,CYBERSHOKE,CYBERSHOKE,K27
+2388347,Dust2,2,K27,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2388347,Nuke,3,K27,CYBERSHOKE,CYBERSHOKE,K27
+2388050,Dust2,1,B8,Legacy,Legacy,B8
+2388050,Mirage,2,B8,Legacy,B8,Legacy
+2388049,Nuke,1,Fluxo,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2388049,Train,2,Fluxo,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2388346,Ancient,1,Sangal,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2388346,Overpass,2,Sangal,CYBERSHOKE,CYBERSHOKE,Sangal
+2388346,Nuke,3,Sangal,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2388290,Mirage,1,Oramond,FORZE Reload,Oramond,Oramond
+2388290,Train,2,Oramond,FORZE Reload,Oramond,FORZE Reload
+2388048,Ancient,1,The Huns,Lynn Vision,Lynn Vision,The Huns
+2388048,Dust2,2,The Huns,Lynn Vision,Lynn Vision,The Huns
+2388047,Dust2,1,M80,NRG,M80,NRG
+2388047,Mirage,2,M80,NRG,M80,M80
+2388344,Overpass,1,Sangal,Nemiga,Nemiga,Sangal
+2388344,Train,2,Sangal,Nemiga,Sangal,Nemiga
+2388046,Inferno,1,GamerLegion,Rare Atom,GamerLegion,GamerLegion
+2388046,Overpass,2,GamerLegion,Rare Atom,Rare Atom,GamerLegion
+2388045,Overpass,1,FlyQuest,Fluxo,FlyQuest,FlyQuest
+2388045,Inferno,2,FlyQuest,Fluxo,FlyQuest,FlyQuest
+2388043,Overpass,1,FaZe,Ninjas in Pyjamas,FaZe,FaZe
+2388044,Train,1,fnatic,Imperial,fnatic,fnatic
+2388042,Inferno,1,B8,PARIVISION,B8,PARIVISION
+2388041,Nuke,1,Legacy,RED Canids,RED Canids,Legacy
+2388039,Dust2,1,FaZe,NRG,FaZe,NRG
+2388037,Train,1,fnatic,Fluxo,fnatic,fnatic
+2388040,Train,1,Ninjas in Pyjamas,Lynn Vision,Ninjas in Pyjamas,Ninjas in Pyjamas
+2388329,Overpass,1,K27,Nemiga,Nemiga,Nemiga
+2388329,Train,2,K27,Nemiga,Nemiga,K27
+2388035,Mirage,1,PARIVISION,M80,M80,M80
+2388038,Train,1,GamerLegion,RED Canids,RED Canids,RED Canids
+2388036,Ancient,1,B8,The Huns,The Huns,B8
+2388033,Inferno,1,Imperial,FlyQuest,FlyQuest,Imperial
+2388034,Dust2,1,Legacy,Rare Atom,Rare Atom,Legacy
+2387852,Ancient,1,fnatic,RED Canids,fnatic,fnatic
+2387853,Nuke,1,FaZe,Lynn Vision,Lynn Vision,Lynn Vision
+2387857,Nuke,1,GamerLegion,Fluxo,Fluxo,Fluxo
+2387856,Overpass,1,Ninjas in Pyjamas,NRG,Ninjas in Pyjamas,NRG
+2387854,Mirage,1,PARIVISION,The Huns,The Huns,PARIVISION
+2387851,Train,1,Legacy,FlyQuest,FlyQuest,Legacy
+2387855,Mirage,1,B8,M80,M80,B8
+2387858,Dust2,1,Imperial,Rare Atom,Imperial,Rare Atom
+2387841,Mirage,1,EYEBALLERS,BetBoom,BetBoom,EYEBALLERS
+2387841,Overpass,2,EYEBALLERS,BetBoom,EYEBALLERS,BetBoom
+2387841,Dust2,3,EYEBALLERS,BetBoom,EYEBALLERS,BetBoom
+2388212,Train,1,ECSTATIC,FUT,FUT,ECSTATIC
+2388212,Dust2,2,ECSTATIC,FUT,FUT,FUT
+2388267,Dust2,1,1win,FAVBET,1win,FAVBET
+2388267,Inferno,2,1win,FAVBET,FAVBET,FAVBET
+2388211,Mirage,1,Passion UA,FUT,FUT,FUT
+2388211,Train,2,Passion UA,FUT,FUT,FUT
+2388266,Ancient,1,Oramond,FAVBET,FAVBET,FAVBET
+2388266,Overpass,2,Oramond,FAVBET,FAVBET,Oramond
+2388266,Train,3,Oramond,FAVBET,Oramond,FAVBET
+2387840,Mirage,1,BetBoom,HEROIC,BetBoom,BetBoom
+2387840,Nuke,2,BetBoom,HEROIC,BetBoom,HEROIC
+2388210,Ancient,1,ENCE,FUT,ENCE,FUT
+2388210,Mirage,2,ENCE,FUT,FUT,FUT
+2387838,Dust2,1,HEROIC,Nuclear TigeRES,HEROIC,Nuclear TigeRES
+2387838,Ancient,2,HEROIC,Nuclear TigeRES,HEROIC,HEROIC
+2388209,Inferno,1,ECSTATIC,Passion UA,ECSTATIC,ECSTATIC
+2388209,Overpass,2,ECSTATIC,Passion UA,ECSTATIC,ECSTATIC
+2388208,Train,1,Tricked,FUT,Tricked,FUT
+2388208,Mirage,2,Tricked,FUT,Tricked,FUT
+2388208,Nuke,3,Tricked,FUT,FUT,Tricked
+2387837,Train,1,BetBoom,Oramond,BetBoom,BetBoom
+2387837,Mirage,2,BetBoom,Oramond,BetBoom,Oramond
+2388262,Dust2,1,Alliance,1win,Alliance,1win
+2388262,Ancient,2,Alliance,1win,1win,Alliance
+2388262,Overpass,3,Alliance,1win,Alliance,1win
+2388206,Mirage,1,FUT,Inner Circle,Inner Circle,FUT
+2388206,Train,2,FUT,Inner Circle,Inner Circle,Inner Circle
+2388206,Nuke,3,FUT,Inner Circle,FUT,Inner Circle
+2388205,Nuke,1,illwill,ENCE,illwill,illwill
+2388205,Dust2,2,illwill,ENCE,ENCE,ENCE
+2388204,Nuke,1,Tricked,ECSTATIC,ECSTATIC,Tricked
+2388204,Inferno,2,Tricked,ECSTATIC,Tricked,ECSTATIC
+2388261,Mirage,1,Nemiga,Oramond,Oramond,Oramond
+2388261,Dust2,2,Nemiga,Oramond,Nemiga,Oramond
+2388261,Train,3,Nemiga,Oramond,Oramond,Oramond
+2388202,Ancient,1,Inner Circle,GenOne,GenOne,GenOne
+2388202,Dust2,2,Inner Circle,GenOne,GenOne,Inner Circle
+2388201,Ancient,1,FUT,Friendly Campers,FUT,FUT
+2388201,Mirage,2,FUT,Friendly Campers,FUT,Friendly Campers
+2388195,Overpass,1,Passion UA,GenOne,Passion UA,Passion UA
+2388195,Train,2,Passion UA,GenOne,GenOne,GenOne
+2388198,Mirage,1,Tricked,illwill,illwill,illwill
+2388198,Inferno,2,Tricked,illwill,Tricked,Tricked
+2388258,Train,1,Alliance,ARCRED,ARCRED,ARCRED
+2388258,Nuke,2,Alliance,ARCRED,ARCRED,Alliance
+2388193,Ancient,1,UNiTY,FUT,FUT,UNiTY
+2388193,Mirage,2,UNiTY,FUT,UNiTY,FUT
+2388193,Train,3,UNiTY,FUT,UNiTY,UNiTY
+2387831,Train,1,EYEBALLERS,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2387831,Dust2,2,EYEBALLERS,CYBERSHOKE,EYEBALLERS,CYBERSHOKE
+2387831,Mirage,3,EYEBALLERS,CYBERSHOKE,EYEBALLERS,EYEBALLERS
+2388190,Nuke,1,Inner Circle,illwill,illwill,illwill
+2388187,Inferno,1,ECSTATIC,UNiTY,ECSTATIC,ECSTATIC
+2388222,Train,1,9z,Gaimin Gladiators,9z,Gaimin Gladiators
+2388222,Ancient,2,9z,Gaimin Gladiators,Gaimin Gladiators,Gaimin Gladiators
+2388222,Dust2,3,9z,Gaimin Gladiators,Gaimin Gladiators,Gaimin Gladiators
+2388222,Inferno,4,9z,Gaimin Gladiators,Gaimin Gladiators,Gaimin Gladiators
+2388222,Overpass,5,9z,Gaimin Gladiators,Gaimin Gladiators,Gaimin Gladiators
+2387830,Dust2,1,BetBoom,JiJieHao,JiJieHao,BetBoom
+2387830,Nuke,2,BetBoom,JiJieHao,JiJieHao,JiJieHao
+2387830,Ancient,3,BetBoom,JiJieHao,BetBoom,BetBoom
+2388219,Overpass,1,PARIVISION,SINNERS,PARIVISION,PARIVISION
+2388219,Inferno,2,PARIVISION,SINNERS,PARIVISION,PARIVISION
+2388219,Mirage,3,PARIVISION,SINNERS,SINNERS,PARIVISION
+2388216,Inferno,1,Rare Atom,Lynn Vision,Rare Atom,Rare Atom
+2388216,Dust2,2,Rare Atom,Lynn Vision,Rare Atom,Lynn Vision
+2388216,Ancient,3,Rare Atom,Lynn Vision,Lynn Vision,Lynn Vision
+2388216,Train,4,Rare Atom,Lynn Vision,Rare Atom,Rare Atom
+2388216,Overpass,5,Rare Atom,Lynn Vision,Rare Atom,Rare Atom
+2388254,Ancient,1,BC.Game,FORZE Reload,FORZE Reload,BC.Game
+2388254,Mirage,2,BC.Game,FORZE Reload,FORZE Reload,FORZE Reload
+2388178,Nuke,1,ASTRAL,Lazer Cats,ASTRAL,ASTRAL
+2388178,Ancient,2,ASTRAL,Lazer Cats,ASTRAL,Lazer Cats
+2388178,Inferno,3,ASTRAL,Lazer Cats,ASTRAL,ASTRAL
+2388260,Nuke,1,CYBERSHOKE,Oramond,CYBERSHOKE,CYBERSHOKE
+2388260,Dust2,2,CYBERSHOKE,Oramond,Oramond,CYBERSHOKE
+2388260,Ancient,3,CYBERSHOKE,Oramond,Oramond,Oramond
+2387828,Ancient,1,BC.Game,K27,K27,K27
+2387828,Dust2,2,BC.Game,K27,K27,K27
+2387828,Mirage,3,BC.Game,K27,K27,K27
+2388166,Train,1,Tricked,ASTRAL,Tricked,Tricked
+2388221,Dust2,1,BESTIA,Gaimin Gladiators,BESTIA,Gaimin Gladiators
+2388221,Overpass,2,BESTIA,Gaimin Gladiators,Gaimin Gladiators,BESTIA
+2388221,Ancient,3,BESTIA,Gaimin Gladiators,BESTIA,Gaimin Gladiators
+2388218,Inferno,1,SINNERS,Friendly Campers,SINNERS,Friendly Campers
+2388218,Nuke,2,SINNERS,Friendly Campers,Friendly Campers,SINNERS
+2388217,Ancient,1,PARIVISION,BC.Game,BC.Game,PARIVISION
+2388217,Mirage,2,PARIVISION,BC.Game,BC.Game,PARIVISION
+2387821,Dust2,1,JiJieHao,K27,K27,JiJieHao
+2387821,Train,2,JiJieHao,K27,JiJieHao,K27
+2388027,Dust2,1,Voca,Marsborne,Voca,Voca
+2388027,Nuke,2,Voca,Marsborne,Voca,Voca
+2387233,Nuke,1,SINNERS,Monte,SINNERS,SINNERS
+2387233,Dust2,2,SINNERS,Monte,SINNERS,Monte
+2387454,Train,1,ARCRED,Sangal,ARCRED,ARCRED
+2387454,Nuke,2,ARCRED,Sangal,ARCRED,ARCRED
+2387454,Ancient,3,ARCRED,Sangal,ARCRED,Sangal
+2387815,Ancient,1,FAVBET,Nuclear TigeRES,FAVBET,FAVBET
+2387815,Inferno,2,FAVBET,Nuclear TigeRES,FAVBET,Nuclear TigeRES
+2387550,Inferno,1,FURIA,Falcons,Falcons,Falcons
+2387550,Nuke,2,FURIA,Falcons,FURIA,FURIA
+2387550,Train,3,FURIA,Falcons,FURIA,Falcons
+2387550,Mirage,4,FURIA,Falcons,Falcons,Falcons
+2387850,Inferno,1,Rare Atom,Lynn Vision,Rare Atom,Lynn Vision
+2387850,Dust2,2,Rare Atom,Lynn Vision,Lynn Vision,Rare Atom
+2387850,Train,3,Rare Atom,Lynn Vision,Rare Atom,Rare Atom
+2387849,Train,1,Gentle Mates,9INE,Gentle Mates,Gentle Mates
+2387849,Nuke,2,Gentle Mates,9INE,9INE,9INE
+2387277,Overpass,1,Sharks,9z,9z,9z
+2387277,Nuke,2,Sharks,9z,9z,Sharks
+2387690,Overpass,1,BESTIA,Gaimin Gladiators,BESTIA,BESTIA
+2387690,Ancient,2,BESTIA,Gaimin Gladiators,BESTIA,BESTIA
+2388004,Inferno,1,Sharks,Fake do Biru,Sharks,Fake do Biru
+2388004,Nuke,2,Sharks,Fake do Biru,Sharks,Sharks
+2387689,Ancient,1,9z,ODDIK,9z,ODDIK
+2387689,Nuke,2,9z,ODDIK,9z,9z
+2387999,Nuke,1,Johnny Speeds,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2387999,Ancient,2,Johnny Speeds,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2387549,Inferno,1,Falcons,Vitality,Falcons,Vitality
+2387549,Nuke,2,Falcons,Vitality,Falcons,Falcons
+2387548,Nuke,1,FURIA,paiN,FURIA,FURIA
+2387548,Overpass,2,FURIA,paiN,paiN,paiN
+2387848,Nuke,1,9INE,Lynn Vision,Lynn Vision,Lynn Vision
+2387848,Ancient,2,9INE,Lynn Vision,Lynn Vision,Lynn Vision
+2387847,Mirage,1,Gentle Mates,Rare Atom,Gentle Mates,Rare Atom
+2387847,Ancient,2,Gentle Mates,Rare Atom,Rare Atom,Gentle Mates
+2387847,Inferno,3,Gentle Mates,Rare Atom,Rare Atom,Rare Atom
+2387318,Train,1,Marsborne,Voca,Voca,Voca
+2387318,Nuke,2,Marsborne,Voca,Voca,Voca
+2387688,Dust2,1,ODDIK,Fake do Biru,ODDIK,Fake do Biru
+2387688,Nuke,2,ODDIK,Fake do Biru,Fake do Biru,Fake do Biru
+2387276,Nuke,1,Bounty Hunters,9z,9z,9z
+2387276,Train,2,Bounty Hunters,9z,Bounty Hunters,9z
+2387997,Dust2,1,Alliance,EYEBALLERS,EYEBALLERS,Alliance
+2387997,Ancient,2,Alliance,EYEBALLERS,Alliance,Alliance
+2387809,Default,1,Oramond,JiJieHao,Oramond,Oramond
+2387809,Ancient,2,Oramond,JiJieHao,Oramond,Oramond
+2387686,Overpass,1,Sharks,Gaimin Gladiators,Gaimin Gladiators,Sharks
+2387686,Nuke,2,Sharks,Gaimin Gladiators,Sharks,Sharks
+2387686,Inferno,3,Sharks,Gaimin Gladiators,Gaimin Gladiators,Sharks
+2387450,Train,1,CYBERSHOKE,FORZE Reload,CYBERSHOKE,FORZE Reload
+2387450,Ancient,2,CYBERSHOKE,FORZE Reload,FORZE Reload,CYBERSHOKE
+2387547,Dust2,1,Spirit,Vitality,Vitality,Spirit
+2387547,Nuke,2,Spirit,Vitality,Spirit,Spirit
+2387547,Mirage,3,Spirit,Vitality,Vitality,Spirit
+2387546,Nuke,1,Passion UA,paiN,paiN,paiN
+2387546,Inferno,2,Passion UA,paiN,paiN,paiN
+2387275,Overpass,1,9z,Sharks,Sharks,Sharks
+2387275,Inferno,2,9z,Sharks,Sharks,9z
+2387275,Ancient,3,9z,Sharks,9z,Sharks
+2387643,Ancient,1,Nuclear TigeRES,Monte,Monte,Nuclear TigeRES
+2387643,Nuke,2,Nuclear TigeRES,Monte,Nuclear TigeRES,Nuclear TigeRES
+2387681,Nuke,1,ShindeN,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2387681,Mirage,2,ShindeN,Bounty Hunters,ShindeN,ShindeN
+2387545,Nuke,1,FURIA,Vitality,Vitality,Vitality
+2387545,Overpass,2,FURIA,Vitality,Vitality,Vitality
+2387545,Inferno,3,FURIA,Vitality,FURIA,Vitality
+2387641,Mirage,1,JiJieHao,Nuclear TigeRES,Nuclear TigeRES,JiJieHao
+2387641,Ancient,2,JiJieHao,Nuclear TigeRES,Nuclear TigeRES,JiJieHao
+2387544,Nuke,1,paiN,TYLOO,paiN,TYLOO
+2387544,Ancient,2,paiN,TYLOO,paiN,TYLOO
+2387544,Overpass,3,paiN,TYLOO,paiN,TYLOO
+2387543,Train,1,Passion UA,Falcons,Falcons,Falcons
+2387543,Mirage,2,Passion UA,Falcons,Falcons,Passion UA
+2387316,Ancient,1,Marsborne,BOSS,Marsborne,BOSS
+2387316,Inferno,2,Marsborne,BOSS,Marsborne,BOSS
+2387542,Dust2,1,The MongolZ,Spirit,The MongolZ,The MongolZ
+2387542,Ancient,2,The MongolZ,Spirit,Spirit,The MongolZ
+2387274,Nuke,1,BESTIA,Bounty Hunters,BESTIA,BESTIA
+2387274,Ancient,2,BESTIA,Bounty Hunters,BESTIA,Bounty Hunters
+2387274,Dust2,3,BESTIA,Bounty Hunters,BESTIA,BESTIA
+2387994,Nuke,1,EYEBALLERS,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2387994,Train,2,EYEBALLERS,Johnny Speeds,EYEBALLERS,EYEBALLERS
+2387994,Mirage,3,EYEBALLERS,Johnny Speeds,Johnny Speeds,EYEBALLERS
+2387228,Train,1,Monte,Nemiga,Monte,Nemiga
+2387228,Mirage,2,Monte,Nemiga,Monte,Nemiga
+2387228,Dust2,3,Monte,Nemiga,Nemiga,Monte
+2387639,Default,1,K27,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2387506,Overpass,1,Vitality,TYLOO,TYLOO,Vitality
+2387506,Nuke,2,Vitality,TYLOO,Vitality,TYLOO
+2387506,Inferno,3,Vitality,TYLOO,Vitality,Vitality
+2387637,Mirage,1,Monte,CYBERSHOKE,Monte,Monte
+2387637,Nuke,2,Monte,CYBERSHOKE,CYBERSHOKE,Monte
+2387637,Train,3,Monte,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2387505,Nuke,1,FURIA,paiN,paiN,FURIA
+2387505,Overpass,2,FURIA,paiN,FURIA,paiN
+2387505,Mirage,3,FURIA,paiN,paiN,paiN
+2387504,Dust2,1,Spirit,Falcons,Falcons,Falcons
+2387504,Nuke,2,Spirit,Falcons,Falcons,Falcons
+2387503,Overpass,1,The MongolZ,Passion UA,The MongolZ,The MongolZ
+2387503,Inferno,2,The MongolZ,Passion UA,The MongolZ,Passion UA
+2387503,Nuke,3,The MongolZ,Passion UA,The MongolZ,The MongolZ
+2387272,Nuke,1,Bounty Hunters,ShindeN,ShindeN,Bounty Hunters
+2387272,Mirage,2,Bounty Hunters,ShindeN,ShindeN,Bounty Hunters
+2387272,Dust2,3,Bounty Hunters,ShindeN,ShindeN,ShindeN
+2387226,Dust2,1,1win,Nemiga,Nemiga,Nemiga
+2387226,Ancient,2,1win,Nemiga,Nemiga,Nemiga
+2387225,Mirage,1,SINNERS,Monte,SINNERS,SINNERS
+2387225,Ancient,2,SINNERS,Monte,SINNERS,Monte
+2387442,Ancient,1,Betclic,FORZE Reload,Betclic,Betclic
+2387442,Dust2,2,Betclic,FORZE Reload,FORZE Reload,Betclic
+2387442,Mirage,3,Betclic,FORZE Reload,Betclic,FORZE Reload
+2387634,Dust2,1,Nemiga,JiJieHao,Nemiga,JiJieHao
+2387634,Ancient,2,Nemiga,JiJieHao,JiJieHao,Nemiga
+2387311,Train,1,Voca,Marsborne,Voca,Marsborne
+2387311,Overpass,2,Voca,Marsborne,Voca,Voca
+2387269,Nuke,1,Sharks,ShindeN,ShindeN,ShindeN
+2387269,Inferno,2,Sharks,ShindeN,ShindeN,Sharks
+2387269,Ancient,3,Sharks,ShindeN,Sharks,ShindeN
+2387223,Train,1,K27,Sangal,K27,K27
+2387223,Nuke,2,K27,Sangal,K27,K27
+2387630,Nuke,1,Monte,Oramond,Monte,Oramond
+2387630,Train,2,Monte,Oramond,Oramond,Monte
+2387790,Ancient,1,GenOne,Nuclear TigeRES,GenOne,GenOne
+2387790,Dust2,2,GenOne,Nuclear TigeRES,Nuclear TigeRES,GenOne
+2387790,Inferno,3,GenOne,Nuclear TigeRES,GenOne,Nuclear TigeRES
+2387984,Mirage,1,M80,NRG,NRG,M80
+2387984,Dust2,2,M80,NRG,M80,NRG
+2387984,Overpass,3,M80,NRG,NRG,M80
+2387984,Inferno,4,M80,NRG,NRG,NRG
+2387984,Train,5,M80,NRG,NRG,NRG
+2387759,Overpass,1,Sharks,Fluxo,Sharks,Fluxo
+2387759,Inferno,2,Sharks,Fluxo,Sharks,Fluxo
+2387759,Mirage,3,Sharks,Fluxo,Sharks,Fluxo
+2387759,Train,4,Sharks,Fluxo,Sharks,Sharks
+2387097,Mirage,1,Oramond,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2387097,Train,2,Oramond,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2387097,Ancient,3,Oramond,Nuclear TigeRES,Oramond,Oramond
+2387950,Train,1,FORZE Reload,Ursa,Ursa,Ursa
+2387950,Dust2,2,FORZE Reload,Ursa,Ursa,Ursa
+2387982,Inferno,1,M80,Marsborne,M80,M80
+2387982,Ancient,2,M80,Marsborne,M80,M80
+2387628,Ancient,1,JiJieHao,GenOne,GenOne,JiJieHao
+2387628,Dust2,2,JiJieHao,GenOne,JiJieHao,GenOne
+2387628,Nuke,3,JiJieHao,GenOne,JiJieHao,JiJieHao
+2387095,Dust2,1,Nemiga,Oramond,Nemiga,Nemiga
+2387095,Mirage,2,Nemiga,Oramond,Oramond,Nemiga
+2387095,Ancient,3,Nemiga,Oramond,Nemiga,Nemiga
+2387414,Ancient,1,Vitality,FURIA,FURIA,Vitality
+2387414,Inferno,2,Vitality,FURIA,Vitality,FURIA
+2387414,Overpass,3,Vitality,FURIA,FURIA,FURIA
+2387413,Ancient,1,MOUZ,Falcons,Falcons,MOUZ
+2387413,Inferno,2,MOUZ,Falcons,MOUZ,MOUZ
+2387413,Mirage,3,MOUZ,Falcons,Falcons,Falcons
+2387756,Overpass,1,Imperial,Sharks,Sharks,Sharks
+2387756,Inferno,2,Imperial,Sharks,Sharks,Sharks
+2387756,Nuke,3,Imperial,Sharks,Imperial,Imperial
+2387929,Mirage,1,EYEBALLERS,BetBoom,EYEBALLERS,BetBoom
+2387929,Ancient,2,EYEBALLERS,BetBoom,EYEBALLERS,BetBoom
+2387929,Train,3,EYEBALLERS,BetBoom,EYEBALLERS,BetBoom
+2387094,Ancient,1,Nemiga,FAVBET,FAVBET,FAVBET
+2387094,Inferno,2,Nemiga,FAVBET,Nemiga,FAVBET
+2387094,Dust2,3,Nemiga,FAVBET,Nemiga,Nemiga
+2387754,Inferno,1,Fluxo,9z,9z,Fluxo
+2387754,Overpass,2,Fluxo,9z,Fluxo,9z
+2387753,Nuke,1,Sharks,Gaimin Gladiators,Sharks,Gaimin Gladiators
+2387753,Train,2,Sharks,Gaimin Gladiators,Sharks,Sharks
+2387753,Inferno,3,Sharks,Gaimin Gladiators,Sharks,Gaimin Gladiators
+2387927,Overpass,1,BetBoom,Sashi,Sashi,BetBoom
+2387927,Train,2,BetBoom,Sashi,BetBoom,BetBoom
+2387411,Inferno,1,Falcons,FURIA,FURIA,Falcons
+2387411,Mirage,2,Falcons,FURIA,Falcons,FURIA
+2387091,Ancient,1,Nuclear TigeRES,JiJieHao,JiJieHao,JiJieHao
+2387091,Mirage,2,Nuclear TigeRES,JiJieHao,JiJieHao,JiJieHao
+2387926,Dust2,1,EYEBALLERS,ENCE,EYEBALLERS,ENCE
+2387926,Inferno,2,EYEBALLERS,ENCE,EYEBALLERS,ENCE
+2387924,Overpass,1,Alliance,Sashi,Sashi,Sashi
+2387924,Ancient,2,Alliance,Sashi,Alliance,Sashi
+2387412,Nuke,1,MOUZ,Vitality,MOUZ,Vitality
+2387412,Train,2,MOUZ,Vitality,MOUZ,MOUZ
+2387412,Inferno,3,MOUZ,Vitality,MOUZ,Vitality
+2387749,Inferno,1,9z,Sharks,Sharks,Sharks
+2387749,Nuke,2,9z,Sharks,9z,9z
+2387749,Ancient,3,9z,Sharks,Sharks,Sharks
+2387920,Mirage,1,Sashi,BC.Game,BC.Game,Sashi
+2387920,Nuke,2,Sashi,BC.Game,BC.Game,Sashi
+2387922,Ancient,1,Johnny Speeds,ENCE,ENCE,ENCE
+2387922,Mirage,2,Johnny Speeds,ENCE,ENCE,Johnny Speeds
+2387745,Dust2,1,Gaimin Gladiators,Bounty Hunters,Bounty Hunters,Gaimin Gladiators
+2387745,Ancient,2,Gaimin Gladiators,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2387910,Nuke,1,Inner Circle,Johnny Speeds,Inner Circle,Johnny Speeds
+2387913,Mirage,1,ENCE,EYEBALLERS,EYEBALLERS,ENCE
+2387916,Ancient,1,Alliance,BC.Game,BC.Game,Alliance
+2387907,Nuke,1,BetBoom,Sashi,Sashi,BetBoom
+2387901,Nuke,1,ENCE,MOUZ NXT,MOUZ NXT,MOUZ NXT
+2387895,Mirage,1,BetBoom,Betclic,BetBoom,BetBoom
+2387873,Mirage,1,Sashi,Betclic,Sashi,Sashi
+2387621,Dust2,1,Oramond,K27,K27,K27
+2387621,Mirage,2,Oramond,K27,K27,K27
+2387879,Dust2,1,EYEBALLERS,MOUZ NXT,MOUZ NXT,EYEBALLERS
+2387409,Mirage,1,FURIA,The MongolZ,The MongolZ,FURIA
+2387409,Overpass,2,FURIA,The MongolZ,The MongolZ,The MongolZ
+2387620,Dust2,1,Nuclear TigeRES,GenOne,Nuclear TigeRES,GenOne
+2387620,Ancient,2,Nuclear TigeRES,GenOne,GenOne,Nuclear TigeRES
+2387410,Inferno,1,Vitality,Astralis,Astralis,Astralis
+2387410,Nuke,2,Vitality,Astralis,Astralis,Vitality
+2387410,Mirage,3,Vitality,Astralis,Astralis,Vitality
+2387743,Nuke,1,Fluxo,Bounty Hunters,Bounty Hunters,Fluxo
+2387743,Ancient,2,Fluxo,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2387743,Train,3,Fluxo,Bounty Hunters,Fluxo,Fluxo
+2387727,Overpass,1,Gaimin Gladiators,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2387727,Nuke,2,Gaimin Gladiators,Bounty Hunters,Gaimin Gladiators,Bounty Hunters
+2387727,Ancient,3,Gaimin Gladiators,Bounty Hunters,Gaimin Gladiators,Bounty Hunters
+2387086,Mirage,1,Monte,Nuclear TigeRES,Nuclear TigeRES,Monte
+2387086,Inferno,2,Monte,Nuclear TigeRES,Monte,Monte
+2387024,Ancient,1,SINNERS,ECSTATIC,ECSTATIC,SINNERS
+2387024,Nuke,2,SINNERS,ECSTATIC,SINNERS,ECSTATIC
+2387532,Inferno,1,Alliance,Tricked,Tricked,Alliance
+2387532,Nuke,2,Alliance,Tricked,Tricked,Alliance
+2387514,Overpass,1,Marsborne,Voca,Voca,Marsborne
+2387514,Train,2,Marsborne,Voca,Voca,Voca
+2387514,Ancient,3,Marsborne,Voca,Voca,Marsborne
+2387022,Nuke,1,Sangal,ECSTATIC,Sangal,ECSTATIC
+2387022,Train,2,Sangal,ECSTATIC,ECSTATIC,ECSTATIC
+2387022,Ancient,3,Sangal,ECSTATIC,Sangal,Sangal
+2387408,Dust2,1,Spirit,The MongolZ,The MongolZ,The MongolZ
+2387408,Ancient,2,Spirit,The MongolZ,The MongolZ,The MongolZ
+2387408,Mirage,3,Spirit,The MongolZ,The MongolZ,Spirit
+2387613,Dust2,1,Oramond,1win,1win,1win
+2387613,Mirage,2,Oramond,1win,1win,1win
+2387407,Nuke,1,Astralis,Falcons,Astralis,Falcons
+2387407,Mirage,2,Astralis,Falcons,Astralis,Falcons
+2387405,Inferno,1,FURIA,MOUZ,MOUZ,MOUZ
+2387405,Overpass,2,FURIA,MOUZ,MOUZ,MOUZ
+2387405,Train,3,FURIA,MOUZ,FURIA,FURIA
+2387406,Train,1,Vitality,G2,G2,Vitality
+2387406,Mirage,2,Vitality,G2,Vitality,Vitality
+2387404,Nuke,1,The MongolZ,paiN,The MongolZ,The MongolZ
+2387404,Ancient,2,The MongolZ,paiN,paiN,paiN
+2387404,Inferno,3,The MongolZ,paiN,paiN,The MongolZ
+2387403,Overpass,1,HEROIC,Spirit,Spirit,Spirit
+2387403,Dust2,2,HEROIC,Spirit,Spirit,HEROIC
+2387403,Ancient,3,HEROIC,Spirit,Spirit,Spirit
+2387402,Overpass,1,G2,Virtus.pro,Virtus.pro,G2
+2387402,Inferno,2,G2,Virtus.pro,G2,Virtus.pro
+2387402,Dust2,3,G2,Virtus.pro,G2,G2
+2387401,Dust2,1,Lynn Vision,Vitality,Vitality,Lynn Vision
+2387401,Nuke,2,Lynn Vision,Vitality,Vitality,Lynn Vision
+2387020,Train,1,ECSTATIC,EYEBALLERS,EYEBALLERS,ECSTATIC
+2387020,Dust2,2,ECSTATIC,EYEBALLERS,ECSTATIC,EYEBALLERS
+2387594,Dust2,1,ARCRED,K27,ARCRED,ARCRED
+2387594,Mirage,2,ARCRED,K27,ARCRED,ARCRED
+2387594,Nuke,3,ARCRED,K27,K27,K27
+2387400,Nuke,1,TYLOO,paiN,TYLOO,paiN
+2387400,Inferno,2,TYLOO,paiN,TYLOO,TYLOO
+2387397,Dust2,1,Falcons,Spirit,Spirit,Falcons
+2387397,Ancient,2,Falcons,Spirit,Falcons,Falcons
+2387593,Train,1,Oramond,FORZE Reload,FORZE Reload,Oramond
+2387593,Nuke,2,Oramond,FORZE Reload,Oramond,Oramond
+2387593,Ancient,3,Oramond,FORZE Reload,Oramond,Oramond
+2387399,Nuke,1,The MongolZ,Astralis,Astralis,Astralis
+2387399,Inferno,2,The MongolZ,Astralis,Astralis,Astralis
+2387398,Nuke,1,HEROIC,Natus Vincere,Natus Vincere,Natus Vincere
+2387398,Ancient,2,HEROIC,Natus Vincere,Natus Vincere,Natus Vincere
+2387398,Inferno,3,HEROIC,Natus Vincere,Natus Vincere,HEROIC
+2387395,Train,1,MOUZ,Vitality,Vitality,MOUZ
+2387395,Nuke,2,MOUZ,Vitality,Vitality,MOUZ
+2387395,Inferno,3,MOUZ,Vitality,MOUZ,MOUZ
+2387396,Overpass,1,FaZe,Virtus.pro,FaZe,Virtus.pro
+2387396,Mirage,2,FaZe,Virtus.pro,FaZe,Virtus.pro
+2387396,Inferno,3,FaZe,Virtus.pro,Virtus.pro,Virtus.pro
+2387394,Dust2,1,Lynn Vision,3DMAX,3DMAX,Lynn Vision
+2387394,Inferno,2,Lynn Vision,3DMAX,Lynn Vision,3DMAX
+2387394,Train,3,Lynn Vision,3DMAX,Lynn Vision,3DMAX
+2387393,Train,1,FURIA,G2,G2,FURIA
+2387393,Overpass,2,FURIA,G2,G2,G2
+2387017,Mirage,1,SINNERS,JiJieHao,SINNERS,SINNERS
+2387017,Nuke,2,SINNERS,JiJieHao,SINNERS,JiJieHao
+2387380,Nuke,1,Astralis,Natus Vincere,Natus Vincere,Astralis
+2387380,Mirage,2,Astralis,Natus Vincere,Astralis,Natus Vincere
+2387380,Inferno,3,Astralis,Natus Vincere,Astralis,Natus Vincere
+2387528,Overpass,1,G2 Ares,Tricked,Tricked,G2 Ares
+2387528,Mirage,2,G2 Ares,Tricked,G2 Ares,Tricked
+2387379,Ancient,1,paiN,Spirit,Spirit,paiN
+2387379,Nuke,2,paiN,Spirit,paiN,paiN
+2387384,Inferno,1,G2,3DMAX,G2,G2
+2387384,Train,2,G2,3DMAX,G2,G2
+2387378,Overpass,1,The MongolZ,HEROIC,HEROIC,The MongolZ
+2387378,Inferno,2,The MongolZ,HEROIC,HEROIC,The MongolZ
+2387378,Ancient,3,The MongolZ,HEROIC,The MongolZ,The MongolZ
+2387383,Overpass,1,Vitality,Virtus.pro,Vitality,Virtus.pro
+2387383,Dust2,2,Vitality,Virtus.pro,Virtus.pro,Virtus.pro
+2387383,Mirage,3,Vitality,Virtus.pro,Vitality,Vitality
+2387382,Ancient,1,MOUZ,FaZe,FaZe,MOUZ
+2387382,Inferno,2,MOUZ,FaZe,MOUZ,FaZe
+2387381,Dust2,1,FURIA,Lynn Vision,Lynn Vision,FURIA
+2387381,Overpass,2,FURIA,Lynn Vision,FURIA,FURIA
+2387377,Inferno,1,TYLOO,Falcons,TYLOO,Falcons
+2387377,Ancient,2,TYLOO,Falcons,Falcons,Falcons
+2387603,Dust2,1,M80,BIG,M80,M80
+2387603,Mirage,2,M80,BIG,BIG,BIG
+2386940,Mirage,1,FUT,Nemiga,Nemiga,FUT
+2386940,Ancient,2,FUT,Nemiga,Nemiga,FUT
+2386940,Dust2,3,FUT,Nemiga,Nemiga,Nemiga
+2387571,Ancient,1,1win,K27,K27,K27
+2387571,Dust2,2,1win,K27,1win,1win
+2387571,Train,3,1win,K27,1win,K27
+2387525,Nuke,1,Tricked,Alliance,Alliance,Alliance
+2387525,Inferno,2,Tricked,Alliance,Alliance,Alliance
+2387601,Train,1,BIG,Imperial,BIG,BIG
+2387601,Mirage,2,BIG,Imperial,BIG,Imperial
+2387601,Overpass,3,BIG,Imperial,BIG,BIG
+2387602,Inferno,1,Marsborne,M80,Marsborne,Marsborne
+2387602,Ancient,2,Marsborne,M80,Marsborne,M80
+2387602,Train,3,Marsborne,M80,Marsborne,M80
+2387069,Ancient,1,ARCRED,Nuclear TigeRES,ARCRED,ARCRED
+2387069,Mirage,2,ARCRED,Nuclear TigeRES,ARCRED,ARCRED
+2387069,Inferno,3,ARCRED,Nuclear TigeRES,ARCRED,Nuclear TigeRES
+2387352,Dust2,1,Aurora,Legacy,Aurora,Aurora
+2387352,Mirage,2,Aurora,Legacy,Aurora,Aurora
+2387352,Train,3,Aurora,Legacy,Legacy,Aurora
+2387352,Inferno,4,Aurora,Legacy,Legacy,Aurora
+2387352,Nuke,5,Aurora,Legacy,Aurora,Legacy
+2386937,Inferno,1,ECSTATIC,BC.Game,ECSTATIC,ECSTATIC
+2386937,Dust2,2,ECSTATIC,BC.Game,ECSTATIC,BC.Game
+2386937,Ancient,3,ECSTATIC,BC.Game,ECSTATIC,BC.Game
+2387568,Nuke,1,Nuclear TigeRES,FORZE Reload,Nuclear TigeRES,FORZE Reload
+2387568,Ancient,2,Nuclear TigeRES,FORZE Reload,Nuclear TigeRES,FORZE Reload
+2387568,Train,3,Nuclear TigeRES,FORZE Reload,Nuclear TigeRES,Nuclear TigeRES
+2387582,Nuke,1,Nuclear TigeRES,FORZE Reload,Nuclear TigeRES,FORZE Reload
+2387582,Ancient,2,Nuclear TigeRES,FORZE Reload,Nuclear TigeRES,Nuclear TigeRES
+2387064,Nuke,1,ARCRED,FAVBET,ARCRED,FAVBET
+2387064,Train,2,ARCRED,FAVBET,FAVBET,ARCRED
+2387064,Overpass,3,ARCRED,FAVBET,ARCRED,FAVBET
+2386933,Ancient,1,BC.Game,EYEBALLERS,EYEBALLERS,BC.Game
+2386933,Mirage,2,BC.Game,EYEBALLERS,EYEBALLERS,BC.Game
+2386933,Overpass,3,BC.Game,EYEBALLERS,EYEBALLERS,BC.Game
+2387349,Overpass,1,GamerLegion,Aurora,Aurora,Aurora
+2387349,Dust2,2,GamerLegion,Aurora,GamerLegion,Aurora
+2387347,Inferno,1,paiN,Legacy,paiN,Legacy
+2387347,Dust2,2,paiN,Legacy,Legacy,Legacy
+2387347,Nuke,3,paiN,Legacy,paiN,paiN
+2387346,Dust2,1,B8,Aurora,B8,B8
+2387346,Mirage,2,B8,Aurora,B8,B8
+2387346,Overpass,3,B8,Aurora,Aurora,Aurora
+2387345,Ancient,1,HEROIC,GamerLegion,GamerLegion,HEROIC
+2387345,Dust2,2,HEROIC,GamerLegion,HEROIC,HEROIC
+2387345,Nuke,3,HEROIC,GamerLegion,GamerLegion,HEROIC
+2387512,Inferno,1,Marsborne,BOSS,Marsborne,BOSS
+2387512,Ancient,2,Marsborne,BOSS,BOSS,BOSS
+2387014,Nuke,1,EYEBALLERS,JiJieHao,EYEBALLERS,EYEBALLERS
+2387014,Inferno,2,EYEBALLERS,JiJieHao,EYEBALLERS,JiJieHao
+2387344,Nuke,1,Aurora,Astralis,Astralis,Astralis
+2387344,Train,2,Aurora,Astralis,Astralis,Aurora
+2387344,Mirage,3,Aurora,Astralis,Astralis,Aurora
+2386928,Nuke,1,Monte,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2386928,Dust2,2,Monte,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2387519,Train,1,K27,Tricked,Tricked,Tricked
+2387519,Nuke,2,K27,Tricked,K27,K27
+2387343,Overpass,1,Legacy,FlyQuest,Legacy,FlyQuest
+2387343,Dust2,2,Legacy,FlyQuest,Legacy,Legacy
+2387342,Train,1,GamerLegion,Gentle Mates,GamerLegion,GamerLegion
+2387342,Inferno,2,GamerLegion,Gentle Mates,GamerLegion,GamerLegion
+2387340,Dust2,1,B8,Legacy,Legacy,Legacy
+2387340,Ancient,2,B8,Legacy,Legacy,B8
+2387340,Train,3,B8,Legacy,Legacy,Legacy
+2387341,Train,1,GamerLegion,fnatic,GamerLegion,fnatic
+2387341,Overpass,2,GamerLegion,fnatic,fnatic,GamerLegion
+2387338,Mirage,1,Liquid,FlyQuest,FlyQuest,Liquid
+2387338,Train,2,Liquid,FlyQuest,FlyQuest,FlyQuest
+2387339,Ancient,1,BetBoom,Gentle Mates,BetBoom,Gentle Mates
+2387339,Mirage,2,BetBoom,Gentle Mates,BetBoom,Gentle Mates
+2387339,Nuke,3,BetBoom,Gentle Mates,BetBoom,Gentle Mates
+2387337,Ancient,1,3DMAX,Astralis,Astralis,Astralis
+2387337,Inferno,2,3DMAX,Astralis,3DMAX,Astralis
+2387335,Inferno,1,fnatic,MIBR,MIBR,fnatic
+2387335,Mirage,2,fnatic,MIBR,MIBR,MIBR
+2387215,Dust2,1,K27,Monte,Monte,Monte
+2387215,Nuke,2,K27,Monte,Monte,K27
+2387218,Nuke,1,FORZE Reload,ARCRED,ARCRED,FORZE Reload
+2387218,Mirage,2,FORZE Reload,ARCRED,FORZE Reload,FORZE Reload
+2387333,Inferno,1,Ninjas in Pyjamas,Gentle Mates,Ninjas in Pyjamas,Ninjas in Pyjamas
+2387333,Train,2,Ninjas in Pyjamas,Gentle Mates,Ninjas in Pyjamas,Ninjas in Pyjamas
+2387333,Ancient,3,Ninjas in Pyjamas,Gentle Mates,Ninjas in Pyjamas,Ninjas in Pyjamas
+2387052,Mirage,1,Oramond,Nuclear TigeRES,Oramond,Nuclear TigeRES
+2387052,Ancient,2,Oramond,Nuclear TigeRES,Oramond,Nuclear TigeRES
+2387334,Dust2,1,B8,paiN,paiN,B8
+2387334,Mirage,2,B8,paiN,B8,B8
+2387331,Train,1,3DMAX,FlyQuest,FlyQuest,3DMAX
+2387331,Inferno,2,3DMAX,FlyQuest,3DMAX,FlyQuest
+2387331,Dust2,3,3DMAX,FlyQuest,3DMAX,FlyQuest
+2387332,Mirage,1,Aurora,HEROIC,HEROIC,HEROIC
+2387332,Inferno,2,Aurora,HEROIC,HEROIC,HEROIC
+2386921,Nuke,1,Johnny Speeds,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2386921,Mirage,2,Johnny Speeds,CYBERSHOKE,Johnny Speeds,Johnny Speeds
+2387330,Inferno,1,Astralis,Legacy,Astralis,Astralis
+2387330,Nuke,2,Astralis,Legacy,Legacy,Legacy
+2387328,Mirage,1,Liquid,BetBoom,BetBoom,Liquid
+2387328,Nuke,2,Liquid,BetBoom,BetBoom,BetBoom
+2387328,Ancient,3,Liquid,BetBoom,BetBoom,Liquid
+2387267,Mirage,1,Fake do Biru,BESTIA,BESTIA,Fake do Biru
+2387267,Inferno,2,Fake do Biru,BESTIA,BESTIA,Fake do Biru
+2387267,Dust2,3,Fake do Biru,BESTIA,Fake do Biru,Fake do Biru
+2387204,Inferno,1,1win,JiJieHao,1win,1win
+2387204,Dust2,2,1win,JiJieHao,JiJieHao,1win
+2387326,Ancient,1,3DMAX,B8,3DMAX,3DMAX
+2387326,Inferno,2,3DMAX,B8,B8,B8
+2387327,Inferno,1,Astralis,MIBR,MIBR,Astralis
+2387327,Nuke,2,Astralis,MIBR,MIBR,MIBR
+2387324,Mirage,1,Aurora,Liquid,Liquid,Liquid
+2387324,Train,2,Aurora,Liquid,Aurora,Liquid
+2387324,Dust2,3,Aurora,Liquid,Liquid,Liquid
+2387325,Inferno,1,fnatic,FlyQuest,FlyQuest,fnatic
+2387325,Mirage,2,fnatic,FlyQuest,fnatic,FlyQuest
+2387322,Nuke,1,HEROIC,BetBoom,HEROIC,HEROIC
+2387322,Mirage,2,HEROIC,BetBoom,HEROIC,BetBoom
+2387320,Nuke,1,GamerLegion,paiN,GamerLegion,GamerLegion
+2387320,Overpass,2,GamerLegion,paiN,paiN,paiN
+2387320,Dust2,3,GamerLegion,paiN,GamerLegion,paiN
+2387321,Ancient,1,Legacy,Gentle Mates,Legacy,Legacy
+2387321,Inferno,2,Legacy,Gentle Mates,Legacy,Gentle Mates
+2387258,Inferno,1,Sharks,Gaimin Gladiators,Sharks,Sharks
+2387258,Nuke,2,Sharks,Gaimin Gladiators,Sharks,Sharks
+2387258,Train,3,Sharks,Gaimin Gladiators,Sharks,Sharks
+2387259,Mirage,1,BESTIA,ShindeN,ShindeN,BESTIA
+2387259,Dust2,2,BESTIA,ShindeN,BESTIA,ShindeN
+2387259,Ancient,3,BESTIA,ShindeN,ShindeN,BESTIA
+2387376,Overpass,1,NRG,Marsborne,NRG,Marsborne
+2387376,Train,2,NRG,Marsborne,NRG,NRG
+2387376,Nuke,3,NRG,Marsborne,Marsborne,Marsborne
+2387198,Overpass,1,Nemiga,FORZE Reload,Nemiga,FORZE Reload
+2387198,Train,2,Nemiga,FORZE Reload,FORZE Reload,FORZE Reload
+2387203,Mirage,1,JiJieHao,Monte,JiJieHao,Monte
+2387203,Train,2,JiJieHao,Monte,Monte,JiJieHao
+2387104,Mirage,1,Aurora,fnatic,Aurora,Aurora
+2387104,Dust2,2,Aurora,fnatic,Aurora,Aurora
+2387105,Mirage,1,Astralis,B8,Astralis,B8
+2387105,Ancient,2,Astralis,B8,B8,B8
+2387362,Nuke,1,BESTIA,Bounty Hunters,Bounty Hunters,BESTIA
+2387362,Ancient,2,BESTIA,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2386915,Overpass,1,Sashi,Sangal,Sashi,Sangal
+2386915,Nuke,2,Sashi,Sangal,Sashi,Sangal
+2386915,Inferno,3,Sashi,Sangal,Sangal,Sangal
+2387374,Nuke,1,NRG,Voca,NRG,NRG
+2387374,Mirage,2,NRG,Voca,Voca,NRG
+2387103,Overpass,1,BetBoom,MIBR,BetBoom,BetBoom
+2387103,Nuke,2,BetBoom,MIBR,MIBR,MIBR
+2387103,Ancient,3,BetBoom,MIBR,BetBoom,BetBoom
+2387100,Dust2,1,GamerLegion,FlyQuest,FlyQuest,GamerLegion
+2387100,Overpass,2,GamerLegion,FlyQuest,GamerLegion,FlyQuest
+2387101,Nuke,1,HEROIC,Ninjas in Pyjamas,HEROIC,Ninjas in Pyjamas
+2387101,Dust2,2,HEROIC,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2387098,Mirage,1,Legacy,Liquid,Liquid,Legacy
+2387098,Inferno,2,Legacy,Liquid,Liquid,Legacy
+2387098,Nuke,3,Legacy,Liquid,Legacy,Liquid
+2387099,Ancient,1,paiN,Gentle Mates,Gentle Mates,Gentle Mates
+2387099,Mirage,2,paiN,Gentle Mates,paiN,Gentle Mates
+2387370,Train,1,Voca,BOSS,BOSS,Voca
+2387370,Mirage,2,Voca,BOSS,Voca,Voca
+2387188,Inferno,1,1win,ECSTATIC,1win,ECSTATIC
+2387188,Ancient,2,1win,ECSTATIC,1win,1win
+2387192,Mirage,1,Johnny Speeds,ARCRED,Johnny Speeds,ARCRED
+2387192,Inferno,2,Johnny Speeds,ARCRED,ARCRED,ARCRED
+2387359,Nuke,1,BESTIA,Sharks,Sharks,Sharks
+2387359,Ancient,2,BESTIA,Sharks,Sharks,BESTIA
+2387246,Nuke,1,Gaimin Gladiators,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2387246,Overpass,2,Gaimin Gladiators,Bounty Hunters,Bounty Hunters,Gaimin Gladiators
+2387246,Dust2,3,Gaimin Gladiators,Bounty Hunters,Bounty Hunters,Gaimin Gladiators
+2387355,Mirage,1,BESTIA,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2387355,Ancient,2,BESTIA,Bounty Hunters,BESTIA,BESTIA
+2387181,Mirage,1,ARCRED,SINNERS,SINNERS,SINNERS
+2387181,Nuke,2,ARCRED,SINNERS,SINNERS,SINNERS
+2387009,Train,1,CYBERSHOKE,ECSTATIC,ECSTATIC,CYBERSHOKE
+2387009,Mirage,2,CYBERSHOKE,ECSTATIC,ECSTATIC,CYBERSHOKE
+2387358,Dust2,1,Fake do Biru,ODDIK,ODDIK,ODDIK
+2387358,Train,2,Fake do Biru,ODDIK,ODDIK,ODDIK
+2387358,Nuke,3,Fake do Biru,ODDIK,Fake do Biru,ODDIK
+2387177,Train,1,FORZE Reload,Oramond,Oramond,Oramond
+2387177,Mirage,2,FORZE Reload,Oramond,FORZE Reload,FORZE Reload
+2387008,Train,1,Nemiga,Sangal,Nemiga,Nemiga
+2387008,Overpass,2,Nemiga,Sangal,Sangal,Sangal
+2387008,Inferno,3,Nemiga,Sangal,Sangal,Nemiga
+2387007,Inferno,1,ECSTATIC,SINNERS,SINNERS,ECSTATIC
+2387007,Dust2,2,ECSTATIC,SINNERS,SINNERS,SINNERS
+2387120,Train,1,BOSS,Voca,Voca,Voca
+2387120,Mirage,2,BOSS,Voca,Voca,Voca
+2386901,Train,1,Johnny Speeds,ARCRED,ARCRED,Johnny Speeds
+2386901,Nuke,2,Johnny Speeds,ARCRED,ARCRED,Johnny Speeds
+2387118,Overpass,1,BIG,BC.Game,BC.Game,BIG
+2387118,Mirage,2,BIG,BC.Game,BIG,BC.Game
+2387000,Nuke,1,CYBERSHOKE,SINNERS,CYBERSHOKE,SINNERS
+2387000,Ancient,2,CYBERSHOKE,SINNERS,CYBERSHOKE,CYBERSHOKE
+2386895,Nuke,1,CYBERSHOKE,Sangal,Sangal,Sangal
+2386895,Mirage,2,CYBERSHOKE,Sangal,Sangal,Sangal
+2386998,Mirage,1,Johnny Speeds,Sangal,Sangal,Johnny Speeds
+2386998,Overpass,2,Johnny Speeds,Sangal,Sangal,Sangal
+2386606,Inferno,1,RED Canids,Gaimin Gladiators,RED Canids,Gaimin Gladiators
+2386606,Nuke,2,RED Canids,Gaimin Gladiators,RED Canids,Gaimin Gladiators
+2386606,Overpass,3,RED Canids,Gaimin Gladiators,Gaimin Gladiators,RED Canids
+2386809,Mirage,1,FURIA,Natus Vincere,Natus Vincere,FURIA
+2386809,Inferno,2,FURIA,Natus Vincere,Natus Vincere,FURIA
+2386809,Nuke,3,FURIA,Natus Vincere,Natus Vincere,FURIA
+2386809,Dust2,4,FURIA,Natus Vincere,Natus Vincere,FURIA
+2386809,Train,5,FURIA,Natus Vincere,FURIA,FURIA
+2386752,Dust2,1,Nemiga,ENCE,Nemiga,Nemiga
+2386752,Inferno,2,Nemiga,ENCE,Nemiga,Nemiga
+2386751,Train,1,ENCE,1win,ENCE,1win
+2386751,Ancient,2,ENCE,1win,ENCE,1win
+2386751,Dust2,3,ENCE,1win,ENCE,1win
+2386808,Inferno,1,Aurora,The MongolZ,Aurora,The MongolZ
+2386808,Mirage,2,Aurora,The MongolZ,The MongolZ,The MongolZ
+2386808,Nuke,3,Aurora,The MongolZ,The MongolZ,Aurora
+2386750,Train,1,9INE,Nemiga,Nemiga,9INE
+2386750,Inferno,2,9INE,Nemiga,9INE,9INE
+2386750,Ancient,3,9INE,Nemiga,9INE,Nemiga
+2386848,Nuke,1,3DMAX,Legacy,Legacy,Legacy
+2386848,Dust2,2,3DMAX,Legacy,3DMAX,Legacy
+2386848,Inferno,3,3DMAX,Legacy,3DMAX,3DMAX
+2386848,Train,4,3DMAX,Legacy,3DMAX,Legacy
+2386848,Ancient,5,3DMAX,Legacy,Legacy,3DMAX
+2386847,Mirage,1,Liquid,HEROIC,Liquid,Liquid
+2386847,Dust2,2,Liquid,HEROIC,Liquid,Liquid
+2386715,Train,1,Bounty Hunters,Sharks,Sharks,Sharks
+2386715,Mirage,2,Bounty Hunters,Sharks,Sharks,Bounty Hunters
+2386713,Nuke,1,Fake do Biru,Sharks,Fake do Biru,Fake do Biru
+2386713,Mirage,2,Fake do Biru,Sharks,Sharks,Sharks
+2386807,Mirage,1,Natus Vincere,The MongolZ,Natus Vincere,The MongolZ
+2386807,Nuke,2,Natus Vincere,The MongolZ,Natus Vincere,The MongolZ
+2386807,Ancient,3,Natus Vincere,The MongolZ,Natus Vincere,Natus Vincere
+2386748,Inferno,1,BIG,1win,BIG,1win
+2386748,Overpass,2,BIG,1win,BIG,BIG
+2386806,Train,1,FURIA,Aurora,FURIA,FURIA
+2386806,Overpass,2,FURIA,Aurora,FURIA,FURIA
+2386846,Dust2,1,HEROIC,Legacy,HEROIC,HEROIC
+2386846,Ancient,2,HEROIC,Legacy,HEROIC,Legacy
+2386846,Inferno,3,HEROIC,Legacy,Legacy,HEROIC
+2386746,Ancient,1,Nemiga,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2386746,Train,2,Nemiga,Nuclear TigeRES,Nemiga,Nemiga
+2386746,Dust2,3,Nemiga,Nuclear TigeRES,Nemiga,Nuclear TigeRES
+2386845,Dust2,1,Liquid,3DMAX,3DMAX,Liquid
+2386845,Nuke,2,Liquid,3DMAX,Liquid,3DMAX
+2386845,Inferno,3,Liquid,3DMAX,3DMAX,3DMAX
+2386573,Overpass,1,Alliance,Johnny Speeds,Alliance,Johnny Speeds
+2386573,Inferno,2,Alliance,Johnny Speeds,Alliance,Alliance
+2386530,Ancient,1,The Huns,Rare Atom,The Huns,Rare Atom
+2386530,Dust2,2,The Huns,Rare Atom,Rare Atom,Rare Atom
+2386530,Mirage,3,The Huns,Rare Atom,Rare Atom,Rare Atom
+2386804,Nuke,1,The MongolZ,9z,9z,9z
+2386804,Ancient,2,The MongolZ,9z,9z,The MongolZ
+2386844,Mirage,1,Legacy,FUT,Legacy,FUT
+2386844,Inferno,2,Legacy,FUT,FUT,Legacy
+2386844,Dust2,3,Legacy,FUT,Legacy,Legacy
+2386742,Dust2,1,FAVBET,1win,1win,1win
+2386742,Inferno,2,FAVBET,1win,FAVBET,1win
+2386843,Inferno,1,fnatic,3DMAX,3DMAX,3DMAX
+2386843,Train,2,fnatic,3DMAX,3DMAX,fnatic
+2386843,Dust2,3,fnatic,3DMAX,3DMAX,3DMAX
+2386603,Mirage,1,ODDIK,Gaimin Gladiators,ODDIK,ODDIK
+2386603,Overpass,2,ODDIK,Gaimin Gladiators,Gaimin Gladiators,ODDIK
+2386603,Train,3,ODDIK,Gaimin Gladiators,Gaimin Gladiators,ODDIK
+2386802,Nuke,1,Natus Vincere,Aurora,Aurora,Aurora
+2386802,Mirage,2,Natus Vincere,Aurora,Aurora,Natus Vincere
+2386802,Dust2,3,Natus Vincere,Aurora,Aurora,Aurora
+2386705,Mirage,1,RED Canids,Bounty Hunters,Bounty Hunters,RED Canids
+2386705,Nuke,2,RED Canids,Bounty Hunters,Bounty Hunters,RED Canids
+2386801,Train,1,OG,9z,OG,9z
+2386801,Nuke,2,OG,9z,9z,OG
+2386801,Ancient,3,OG,9z,9z,OG
+2386740,Ancient,1,1win,UNiTY,UNiTY,UNiTY
+2386740,Dust2,2,1win,UNiTY,1win,UNiTY
+2386740,Train,3,1win,UNiTY,UNiTY,1win
+2386834,Overpass,1,Virtus.pro,3DMAX,Virtus.pro,Virtus.pro
+2386834,Inferno,2,Virtus.pro,3DMAX,Virtus.pro,3DMAX
+2386834,Train,3,Virtus.pro,3DMAX,3DMAX,Virtus.pro
+2386842,Ancient,1,FUT,FaZe,FUT,FaZe
+2386842,Mirage,2,FUT,FaZe,FaZe,FUT
+2386842,Dust2,3,FUT,FaZe,FUT,FUT
+2386800,Dust2,1,FURIA,The MongolZ,The MongolZ,FURIA
+2386800,Mirage,2,FURIA,The MongolZ,The MongolZ,The MongolZ
+2386841,Inferno,1,fnatic,HEROIC,fnatic,HEROIC
+2386841,Dust2,2,fnatic,HEROIC,fnatic,HEROIC
+2386841,Mirage,3,fnatic,HEROIC,fnatic,HEROIC
+2386833,Mirage,1,Liquid,Legacy,Liquid,Legacy
+2386833,Dust2,2,Liquid,Legacy,Liquid,Legacy
+2386833,Inferno,3,Liquid,Legacy,Liquid,Legacy
+2386840,Nuke,1,FaZe,TYLOO,FaZe,FaZe
+2386840,Inferno,2,FaZe,TYLOO,FaZe,FaZe
+2386840,Mirage,3,FaZe,TYLOO,TYLOO,FaZe
+2386839,Mirage,1,paiN,FUT,FUT,paiN
+2386839,Dust2,2,paiN,FUT,FUT,FUT
+2386602,Nuke,1,ODDIK,ShindeN,ODDIK,ShindeN
+2386602,Overpass,2,ODDIK,ShindeN,ODDIK,ODDIK
+2386602,Ancient,3,ODDIK,ShindeN,ODDIK,ShindeN
+2386570,Overpass,1,Sangal,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2386570,Inferno,2,Sangal,Johnny Speeds,Sangal,Johnny Speeds
+2386570,Train,3,Sangal,Johnny Speeds,Sangal,Sangal
+2386798,Mirage,1,Natus Vincere,Imperial,Imperial,Imperial
+2386798,Nuke,2,Natus Vincere,Imperial,Natus Vincere,Natus Vincere
+2386798,Dust2,3,Natus Vincere,Imperial,Imperial,Imperial
+2386528,Ancient,1,The Huns,Rare Atom,Rare Atom,Rare Atom
+2386528,Mirage,2,The Huns,Rare Atom,The Huns,Rare Atom
+2386797,Dust2,1,The MongolZ,9z,The MongolZ,The MongolZ
+2386797,Ancient,2,The MongolZ,9z,The MongolZ,The MongolZ
+2386832,Dust2,1,Lynn Vision,3DMAX,3DMAX,Lynn Vision
+2386832,Inferno,2,Lynn Vision,3DMAX,Lynn Vision,3DMAX
+2386831,Ancient,1,Virtus.pro,MIBR,MIBR,Virtus.pro
+2386831,Train,2,Virtus.pro,MIBR,MIBR,MIBR
+2386796,Nuke,1,FURIA,OG,FURIA,OG
+2386796,Inferno,2,FURIA,OG,OG,FURIA
+2386837,Train,1,fnatic,TYLOO,TYLOO,TYLOO
+2386837,Inferno,2,fnatic,TYLOO,TYLOO,fnatic
+2386838,Ancient,1,FUT,HEROIC,FUT,HEROIC
+2386838,Overpass,2,FUT,HEROIC,FUT,FUT
+2386836,Dust2,1,FaZe,B8,B8,FaZe
+2386836,Mirage,2,FaZe,B8,B8,FaZe
+2386836,Ancient,3,FaZe,B8,FaZe,FaZe
+2386835,Ancient,1,paiN,Fluxo,Fluxo,Fluxo
+2386835,Nuke,2,paiN,Fluxo,Fluxo,paiN
+2386835,Inferno,3,paiN,Fluxo,paiN,paiN
+2386628,Train,1,Marsborne,Wildcard,Marsborne,Marsborne
+2386628,Mirage,2,Marsborne,Wildcard,Marsborne,Marsborne
+2386599,Inferno,1,Gaimin Gladiators,Fake do Biru,Gaimin Gladiators,Gaimin Gladiators
+2386599,Dust2,2,Gaimin Gladiators,Fake do Biru,Fake do Biru,Fake do Biru
+2386599,Train,3,Gaimin Gladiators,Fake do Biru,Gaimin Gladiators,Fake do Biru
+2386597,Nuke,1,ODDIK,RED Canids,ODDIK,ODDIK
+2386597,Overpass,2,ODDIK,RED Canids,RED Canids,RED Canids
+2386563,Mirage,1,SINNERS,Monte,Monte,Monte
+2386563,Dust2,2,SINNERS,Monte,SINNERS,Monte
+2386563,Ancient,3,SINNERS,Monte,SINNERS,Monte
+2386565,Train,1,ARCRED,Alliance,ARCRED,ARCRED
+2386565,Ancient,2,ARCRED,Alliance,ARCRED,Alliance
+2386829,Dust2,1,3DMAX,Legacy,Legacy,Legacy
+2386829,Nuke,2,3DMAX,Legacy,Legacy,3DMAX
+2386829,Inferno,3,3DMAX,Legacy,Legacy,3DMAX
+2386830,Mirage,1,Liquid,MIBR,MIBR,Liquid
+2386830,Nuke,2,Liquid,MIBR,Liquid,Liquid
+2386828,Overpass,1,GamerLegion,Lynn Vision,GamerLegion,Lynn Vision
+2386828,Train,2,GamerLegion,Lynn Vision,Lynn Vision,Lynn Vision
+2386828,Inferno,3,GamerLegion,Lynn Vision,GamerLegion,Lynn Vision
+2386827,Inferno,1,The Huns,Virtus.pro,The Huns,The Huns
+2386827,Dust2,2,The Huns,Virtus.pro,The Huns,Virtus.pro
+2386825,Dust2,1,HEROIC,B8,B8,HEROIC
+2386826,Mirage,1,FaZe,FUT,FaZe,FUT
+2386823,Train,1,TYLOO,Fluxo,TYLOO,Fluxo
+2386824,Overpass,1,paiN,fnatic,fnatic,fnatic
+2386822,Nuke,1,Lynn Vision,MIBR,MIBR,Lynn Vision
+2386821,Inferno,1,GamerLegion,Liquid,Liquid,GamerLegion
+2386820,Mirage,1,Virtus.pro,Legacy,Legacy,Legacy
+2386819,Nuke,1,3DMAX,The Huns,3DMAX,The Huns
+2386434,Nuke,1,BetBoom,SINNERS,SINNERS,SINNERS
+2386434,Mirage,2,BetBoom,SINNERS,SINNERS,SINNERS
+2386732,Ancient,1,1win,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2386732,Dust2,2,1win,Nuclear TigeRES,Nuclear TigeRES,1win
+2386433,Dust2,1,ECSTATIC,SINNERS,SINNERS,ECSTATIC
+2386433,Inferno,2,ECSTATIC,SINNERS,ECSTATIC,SINNERS
+2386433,Nuke,3,ECSTATIC,SINNERS,ECSTATIC,SINNERS
+2386730,Ancient,1,FAVBET,UNiTY,UNiTY,FAVBET
+2386730,Inferno,2,FAVBET,UNiTY,FAVBET,FAVBET
+2386781,Dust2,1,9z,BESTIA,BESTIA,9z
+2386781,Ancient,2,9z,BESTIA,BESTIA,BESTIA
+2386781,Inferno,3,9z,BESTIA,BESTIA,BESTIA
+2386781,Nuke,4,9z,BESTIA,BESTIA,9z
+2386781,Overpass,5,9z,BESTIA,BESTIA,BESTIA
+2386431,Ancient,1,9INE,SINNERS,SINNERS,SINNERS
+2386431,Nuke,2,9INE,SINNERS,SINNERS,SINNERS
+2385970,Inferno,1,Falcons,Vitality,Falcons,Vitality
+2385970,Train,2,Falcons,Vitality,Vitality,Vitality
+2385970,Dust2,3,Falcons,Vitality,Vitality,Falcons
+2386345,Dust2,1,BetBoom,1win,1win,BetBoom
+2386345,Ancient,2,BetBoom,1win,1win,BetBoom
+2386215,Overpass,1,PARIVISION,Inner Circle,Inner Circle,PARIVISION
+2386215,Mirage,2,PARIVISION,Inner Circle,PARIVISION,PARIVISION
+2386215,Ancient,3,PARIVISION,Inner Circle,PARIVISION,PARIVISION
+2385969,Ancient,1,MOUZ,FaZe,MOUZ,MOUZ
+2385969,Overpass,2,MOUZ,FaZe,MOUZ,MOUZ
+2386428,Nuke,1,BetBoom,Johnny Speeds,Johnny Speeds,BetBoom
+2386428,Overpass,2,BetBoom,Johnny Speeds,Johnny Speeds,BetBoom
+2386428,Mirage,3,BetBoom,Johnny Speeds,Johnny Speeds,BetBoom
+2385968,Mirage,1,FaZe,Vitality,FaZe,Vitality
+2385968,Inferno,2,FaZe,Vitality,FaZe,FaZe
+2385968,Dust2,3,FaZe,Vitality,Vitality,Vitality
+2386214,Train,1,Inner Circle,Nemiga,Nemiga,Nemiga
+2386214,Mirage,2,Inner Circle,Nemiga,Nemiga,Nemiga
+2386213,Mirage,1,PARIVISION,Gentle Mates,Gentle Mates,PARIVISION
+2386213,Inferno,2,PARIVISION,Gentle Mates,Gentle Mates,PARIVISION
+2385967,Inferno,1,MOUZ,Falcons,MOUZ,Falcons
+2385967,Ancient,2,MOUZ,Falcons,MOUZ,Falcons
+2386425,Nuke,1,Sashi,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2386425,Dust2,2,Sashi,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2386776,Dust2,1,BESTIA,ShindeN,ShindeN,ShindeN
+2386561,Overpass,1,Alliance,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2386561,Inferno,2,Alliance,Johnny Speeds,Alliance,Johnny Speeds
+2386561,Nuke,3,Alliance,Johnny Speeds,Alliance,Alliance
+2385966,Overpass,1,FURIA,Vitality,Vitality,FURIA
+2385966,Inferno,2,FURIA,Vitality,Vitality,Vitality
+2385966,Nuke,3,FURIA,Vitality,Vitality,FURIA
+2386212,Nuke,1,Gentle Mates,Betclic,Gentle Mates,Betclic
+2386212,Train,2,Gentle Mates,Betclic,Gentle Mates,Gentle Mates
+2386212,Overpass,3,Gentle Mates,Betclic,Gentle Mates,Gentle Mates
+2386555,Dust2,1,FAVBET,Monte,Monte,Monte
+2386555,Nuke,2,FAVBET,Monte,FAVBET,Monte
+2386555,Ancient,3,FAVBET,Monte,Monte,Monte
+2386423,Nuke,1,ECSTATIC,Oramond,Oramond,ECSTATIC
+2386423,Train,2,ECSTATIC,Oramond,ECSTATIC,ECSTATIC
+2385965,Nuke,1,Spirit,FaZe,FaZe,Spirit
+2385965,Mirage,2,Spirit,FaZe,Spirit,FaZe
+2386422,Nuke,1,BetBoom,Sangal,BetBoom,Sangal
+2386422,Overpass,2,BetBoom,Sangal,Sangal,Sangal
+2386422,Ancient,3,BetBoom,Sangal,BetBoom,BetBoom
+2386338,Dust2,1,Sashi,CYBERSHOKE,Sashi,Sashi
+2386338,Nuke,2,Sashi,CYBERSHOKE,Sashi,Sashi
+2386211,Nuke,1,Monte,Inner Circle,Inner Circle,Monte
+2386211,Ancient,2,Monte,Inner Circle,Inner Circle,Inner Circle
+2385964,Ancient,1,MOUZ,Natus Vincere,Natus Vincere,MOUZ
+2385964,Inferno,2,MOUZ,Natus Vincere,Natus Vincere,MOUZ
+2385964,Train,3,MOUZ,Natus Vincere,MOUZ,MOUZ
+2385963,Inferno,1,3DMAX,Falcons,3DMAX,3DMAX
+2385963,Ancient,2,3DMAX,Falcons,3DMAX,3DMAX
+2385963,Nuke,3,3DMAX,Falcons,3DMAX,3DMAX
+2386547,Ancient,1,CYBERSHOKE,Monte,CYBERSHOKE,Monte
+2386547,Nuke,2,CYBERSHOKE,Monte,Monte,Monte
+2386547,Train,3,CYBERSHOKE,Monte,Monte,CYBERSHOKE
+2386548,Nuke,1,FAVBET,EYEBALLERS,FAVBET,EYEBALLERS
+2386548,Overpass,2,FAVBET,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2386548,Dust2,3,FAVBET,EYEBALLERS,FAVBET,FAVBET
+2386209,Dust2,1,Nemiga,JiJieHao,Nemiga,Nemiga
+2386209,Train,2,Nemiga,JiJieHao,JiJieHao,Nemiga
+2386209,Ancient,3,Nemiga,JiJieHao,JiJieHao,Nemiga
+2386334,Train,1,ECSTATIC,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2386334,Ancient,2,ECSTATIC,EYEBALLERS,ECSTATIC,EYEBALLERS
+2386334,Dust2,3,ECSTATIC,EYEBALLERS,EYEBALLERS,ECSTATIC
+2386723,Ancient,1,Tricked,UNiTY,Tricked,Tricked
+2386723,Dust2,2,Tricked,UNiTY,Tricked,Tricked
+2386723,Mirage,3,Tricked,UNiTY,UNiTY,Tricked
+2386417,Train,1,Sangal,JiJieHao,JiJieHao,Sangal
+2386417,Nuke,2,Sangal,JiJieHao,Sangal,Sangal
+2386417,Ancient,3,Sangal,JiJieHao,Sangal,Sangal
+2386332,Inferno,1,JiJieHao,Johnny Speeds,Johnny Speeds,JiJieHao
+2386332,Nuke,2,JiJieHao,Johnny Speeds,JiJieHao,Johnny Speeds
+2386332,Mirage,3,JiJieHao,Johnny Speeds,Johnny Speeds,JiJieHao
+2386589,Dust2,1,Gaimin Gladiators,ODDIK,ODDIK,Gaimin Gladiators
+2386589,Ancient,2,Gaimin Gladiators,ODDIK,Gaimin Gladiators,ODDIK
+2386546,Mirage,1,Monte,Sangal,Monte,Monte
+2386546,Nuke,2,Monte,Sangal,Monte,Monte
+2386546,Ancient,3,Monte,Sangal,Sangal,Monte
+2385962,Mirage,1,Aurora,FaZe,Aurora,FaZe
+2385962,Train,2,Aurora,FaZe,FaZe,Aurora
+2385962,Dust2,3,Aurora,FaZe,FaZe,Aurora
+2386720,Dust2,1,Oramond,1win,1win,Oramond
+2386720,Mirage,2,Oramond,1win,1win,Oramond
+2385961,Inferno,1,G2,3DMAX,G2,G2
+2385961,Dust2,2,G2,3DMAX,G2,3DMAX
+2386207,Ancient,1,PARIVISION,FAVBET,FAVBET,PARIVISION
+2386207,Train,2,PARIVISION,FAVBET,PARIVISION,PARIVISION
+2386330,Ancient,1,Tricked,EYEBALLERS,EYEBALLERS,Tricked
+2386330,Mirage,2,Tricked,EYEBALLERS,Tricked,EYEBALLERS
+2385960,Nuke,1,The MongolZ,Natus Vincere,The MongolZ,Natus Vincere
+2385960,Ancient,2,The MongolZ,Natus Vincere,The MongolZ,Natus Vincere
+2386415,Ancient,1,ARCRED,Betclic,ARCRED,Betclic
+2386415,Mirage,2,ARCRED,Betclic,Betclic,Betclic
+2386414,Nuke,1,JiJieHao,Tricked,JiJieHao,Tricked
+2386414,Mirage,2,JiJieHao,Tricked,Tricked,JiJieHao
+2386531,Dust2,1,CYBERSHOKE,Nemiga,CYBERSHOKE,CYBERSHOKE
+2386531,Train,2,CYBERSHOKE,Nemiga,Nemiga,Nemiga
+2386533,Ancient,1,Oramond,Sashi,Oramond,Oramond
+2386533,Inferno,2,Oramond,Sashi,Sashi,Sashi
+2385958,Inferno,1,Vitality,G2,Vitality,Vitality
+2385958,Mirage,2,Vitality,G2,G2,G2
+2385959,Ancient,1,FaZe,Inner Circle,FaZe,FaZe
+2385959,Nuke,2,FaZe,Inner Circle,FaZe,FaZe
+2386203,Nuke,1,Sashi,Monte,Monte,Monte
+2385956,Inferno,1,3DMAX,MOUZ,MOUZ,MOUZ
+2385956,Overpass,2,3DMAX,MOUZ,MOUZ,3DMAX
+2385957,Inferno,1,The MongolZ,Gentle Mates,The MongolZ,The MongolZ
+2385957,Mirage,2,The MongolZ,Gentle Mates,Gentle Mates,The MongolZ
+2386413,Overpass,1,Sangal,SINNERS,Sangal,SINNERS
+2386413,Inferno,2,Sangal,SINNERS,SINNERS,SINNERS
+2385954,Inferno,1,FURIA,Aurora,FURIA,Aurora
+2385954,Mirage,2,FURIA,Aurora,FURIA,Aurora
+2385954,Overpass,3,FURIA,Aurora,FURIA,Aurora
+2386326,Nuke,1,Johnny Speeds,SINNERS,SINNERS,Johnny Speeds
+2386326,Inferno,2,Johnny Speeds,SINNERS,Johnny Speeds,Johnny Speeds
+2386326,Mirage,3,Johnny Speeds,SINNERS,SINNERS,SINNERS
+2385955,Ancient,1,Natus Vincere,HOTU,Natus Vincere,Natus Vincere
+2385955,Train,2,Natus Vincere,HOTU,Natus Vincere,HOTU
+2386201,Overpass,1,Betclic,Alliance,Betclic,Betclic
+2386201,Nuke,2,Betclic,Alliance,Betclic,Alliance
+2386201,Train,3,Betclic,Alliance,Betclic,Betclic
+2386649,Dust2,1,FAVBET,1win,FAVBET,1win
+2386649,Inferno,2,FAVBET,1win,1win,1win
+2385952,Ancient,1,MOUZ,Falcons,MOUZ,MOUZ
+2385952,Inferno,2,MOUZ,Falcons,MOUZ,MOUZ
+2385952,Nuke,3,MOUZ,Falcons,MOUZ,Falcons
+2386456,Train,1,ARCRED,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2386456,Inferno,2,ARCRED,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2386456,Mirage,3,ARCRED,Johnny Speeds,ARCRED,Johnny Speeds
+2386410,Nuke,1,SINNERS,JiJieHao,SINNERS,SINNERS
+2386410,Dust2,2,SINNERS,JiJieHao,JiJieHao,JiJieHao
+2385953,Dust2,1,Spirit,G2,Spirit,G2
+2385953,Mirage,2,Spirit,G2,Spirit,Spirit
+2386461,Overpass,1,HOTU,Sangal,Sangal,Sangal
+2385950,Inferno,1,The MongolZ,GamerLegion,The MongolZ,GamerLegion
+2385950,Ancient,2,The MongolZ,GamerLegion,The MongolZ,The MongolZ
+2385950,Nuke,3,The MongolZ,GamerLegion,The MongolZ,GamerLegion
+2386324,Inferno,1,FAVBET,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2386324,Overpass,2,FAVBET,EYEBALLERS,FAVBET,EYEBALLERS
+2386324,Train,3,FAVBET,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2385951,Ancient,1,Astralis,FaZe,FaZe,FaZe
+2385951,Dust2,2,Astralis,FaZe,FaZe,FaZe
+2385948,Inferno,1,3DMAX,Natus Vincere,3DMAX,3DMAX
+2385948,Train,2,3DMAX,Natus Vincere,3DMAX,Natus Vincere
+2385948,Nuke,3,3DMAX,Natus Vincere,3DMAX,3DMAX
+2386646,Dust2,1,Oramond,FORZE Reload,FORZE Reload,FORZE Reload
+2386646,Nuke,2,Oramond,FORZE Reload,FORZE Reload,Oramond
+2386646,Ancient,3,Oramond,FORZE Reload,Oramond,FORZE Reload
+2385949,Mirage,1,Inner Circle,FURIA,FURIA,FURIA
+2385949,Overpass,2,Inner Circle,FURIA,FURIA,FURIA
+2386407,Inferno,1,ARCRED,EYEBALLERS,ARCRED,EYEBALLERS
+2386407,Ancient,2,ARCRED,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2386407,Mirage,3,ARCRED,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2385947,Nuke,1,Gentle Mates,Aurora,Aurora,Aurora
+2385947,Train,2,Gentle Mates,Aurora,Gentle Mates,Aurora
+2385946,Overpass,1,Vitality,HOTU,HOTU,Vitality
+2385946,Dust2,2,Vitality,HOTU,HOTU,Vitality
+2386668,Dust2,1,fnatic,9INE,9INE,9INE
+2386668,Inferno,2,fnatic,9INE,9INE,9INE
+2386668,Ancient,3,fnatic,9INE,9INE,9INE
+2386668,Overpass,4,fnatic,9INE,fnatic,fnatic
+2386668,Train,5,fnatic,9INE,fnatic,fnatic
+2386402,Overpass,1,RED Canids,MIBR,MIBR,RED Canids
+2386402,Mirage,2,RED Canids,MIBR,MIBR,RED Canids
+2386402,Ancient,3,RED Canids,MIBR,MIBR,MIBR
+2386402,Nuke,4,RED Canids,MIBR,RED Canids,RED Canids
+2386402,Train,5,RED Canids,MIBR,MIBR,MIBR
+2386667,Train,1,OG,ECSTATIC,OG,ECSTATIC
+2386667,Ancient,2,OG,ECSTATIC,ECSTATIC,OG
+2386667,Nuke,3,OG,ECSTATIC,OG,OG
+2386666,Ancient,1,9INE,ECSTATIC,ECSTATIC,ECSTATIC
+2386666,Nuke,2,9INE,ECSTATIC,9INE,9INE
+2386666,Inferno,3,9INE,ECSTATIC,ECSTATIC,9INE
+2386448,Nuke,1,SINNERS,CYBERSHOKE,CYBERSHOKE,SINNERS
+2386448,Dust2,2,SINNERS,CYBERSHOKE,SINNERS,SINNERS
+2385944,Train,1,FaZe,3DMAX,FaZe,FaZe
+2385944,Dust2,2,FaZe,3DMAX,FaZe,FaZe
+2385945,Train,1,FURIA,G2,G2,G2
+2385945,Dust2,2,FURIA,G2,G2,FURIA
+2386401,Mirage,1,ShindeN,Fluxo,Fluxo,ShindeN
+2386401,Inferno,2,ShindeN,Fluxo,Fluxo,ShindeN
+2386404,Overpass,1,Johnny Speeds,Sangal,Sangal,Sangal
+2386404,Inferno,2,Johnny Speeds,Sangal,Johnny Speeds,Sangal
+2386404,Mirage,3,Johnny Speeds,Sangal,Johnny Speeds,Sangal
+2386665,Ancient,1,OG,fnatic,OG,OG
+2386665,Mirage,2,OG,fnatic,OG,fnatic
+2385943,Overpass,1,Vitality,GamerLegion,Vitality,Vitality
+2385943,Dust2,2,Vitality,GamerLegion,Vitality,Vitality
+2385942,Overpass,1,Spirit,HOTU,HOTU,Spirit
+2385942,Dust2,2,Spirit,HOTU,Spirit,HOTU
+2385941,Nuke,1,Aurora,Astralis,Astralis,Aurora
+2385941,Train,2,Aurora,Astralis,Astralis,Astralis
+2385941,Overpass,3,Aurora,Astralis,Astralis,Aurora
+2385940,Inferno,1,MOUZ,Gentle Mates,MOUZ,MOUZ
+2385940,Mirage,2,MOUZ,Gentle Mates,MOUZ,Gentle Mates
+2386319,Ancient,1,Tricked,1win,Tricked,1win
+2386319,Train,2,Tricked,1win,1win,1win
+2386319,Inferno,3,Tricked,1win,Tricked,1win
+2385939,Dust2,1,The MongolZ,Inner Circle,The MongolZ,The MongolZ
+2385939,Mirage,2,The MongolZ,Inner Circle,Inner Circle,The MongolZ
+2385938,Nuke,1,Falcons,Natus Vincere,Falcons,Falcons
+2385938,Ancient,2,Falcons,Natus Vincere,Natus Vincere,Falcons
+2386405,Mirage,1,Oramond,CYBERSHOKE,Oramond,CYBERSHOKE
+2386405,Nuke,2,Oramond,CYBERSHOKE,Oramond,Oramond
+2386664,Nuke,1,ECSTATIC,Sharks,ECSTATIC,Sharks
+2386664,Inferno,2,ECSTATIC,Sharks,ECSTATIC,Sharks
+2386399,Dust2,1,MIBR,Fluxo,MIBR,Fluxo
+2386399,Inferno,2,MIBR,Fluxo,MIBR,MIBR
+2386399,Ancient,3,MIBR,Fluxo,MIBR,Fluxo
+2386661,Overpass,1,fnatic,BIG,BIG,BIG
+2386661,Mirage,2,fnatic,BIG,fnatic,BIG
+2386661,Inferno,3,fnatic,BIG,BIG,fnatic
+2386400,Mirage,1,ShindeN,RED Canids,RED Canids,RED Canids
+2386400,Nuke,2,ShindeN,RED Canids,RED Canids,RED Canids
+2386662,Inferno,1,OG,Wildcard,OG,Wildcard
+2386662,Ancient,2,OG,Wildcard,OG,OG
+2386662,Overpass,3,OG,Wildcard,Wildcard,OG
+2386397,Train,1,Imperial,Fluxo,Imperial,Fluxo
+2386397,Overpass,2,Imperial,Fluxo,Imperial,Imperial
+2386397,Mirage,3,Imperial,Fluxo,Imperial,Fluxo
+2386658,Inferno,1,9INE,9z,9INE,9INE
+2386658,Ancient,2,9INE,9z,9z,9z
+2386658,Train,3,9INE,9z,9INE,9z
+2386398,Inferno,1,MIBR,ODDIK,ODDIK,MIBR
+2386398,Ancient,2,MIBR,ODDIK,MIBR,ODDIK
+2386362,Nuke,1,Betclic,Tricked,Tricked,Tricked
+2386362,Train,2,Betclic,Tricked,Tricked,Betclic
+2386362,Mirage,3,Betclic,Tricked,Betclic,Betclic
+2386660,Dust2,1,ECSTATIC,Bounty Hunters,ECSTATIC,ECSTATIC
+2386660,Train,2,ECSTATIC,Bounty Hunters,Bounty Hunters,ECSTATIC
+2385937,Nuke,1,FURIA,3DMAX,FURIA,FURIA
+2385937,Dust2,2,FURIA,3DMAX,FURIA,3DMAX
+2385935,Nuke,1,Vitality,Gentle Mates,Gentle Mates,Vitality
+2385935,Train,2,Vitality,Gentle Mates,Vitality,Gentle Mates
+2386317,Overpass,1,Johnny Speeds,FAVBET,FAVBET,Johnny Speeds
+2386317,Inferno,2,Johnny Speeds,FAVBET,Johnny Speeds,Johnny Speeds
+2385934,Nuke,1,Aurora,Natus Vincere,Natus Vincere,Natus Vincere
+2385934,Dust2,2,Aurora,Natus Vincere,Natus Vincere,Natus Vincere
+2385933,Overpass,1,The MongolZ,HOTU,HOTU,The MongolZ
+2385933,Mirage,2,The MongolZ,HOTU,HOTU,HOTU
+2385933,Ancient,3,The MongolZ,HOTU,HOTU,HOTU
+2385932,Inferno,1,Falcons,Astralis,Falcons,Falcons
+2385932,Mirage,2,Falcons,Astralis,Astralis,Falcons
+2386359,Nuke,1,JiJieHao,Oramond,JiJieHao,JiJieHao
+2386359,Mirage,2,JiJieHao,Oramond,Oramond,JiJieHao
+2386359,Ancient,3,JiJieHao,Oramond,Oramond,Oramond
+2385931,Ancient,1,Spirit,Inner Circle,Inner Circle,Spirit
+2385931,Nuke,2,Spirit,Inner Circle,Inner Circle,Spirit
+2385931,Mirage,3,Spirit,Inner Circle,Spirit,Spirit
+2385930,Overpass,1,MOUZ,GamerLegion,MOUZ,MOUZ
+2385930,Nuke,2,MOUZ,GamerLegion,MOUZ,GamerLegion
+2386273,Ancient,1,CYBERSHOKE,FAVBET,CYBERSHOKE,CYBERSHOKE
+2386273,Nuke,2,CYBERSHOKE,FAVBET,CYBERSHOKE,CYBERSHOKE
+2386273,Overpass,3,CYBERSHOKE,FAVBET,FAVBET,CYBERSHOKE
+2386389,Mirage,1,Fluxo,RED Canids,Fluxo,RED Canids
+2386389,Ancient,2,Fluxo,RED Canids,RED Canids,RED Canids
+2386356,Mirage,1,Johnny Speeds,ARCRED,Johnny Speeds,Johnny Speeds
+2386356,Inferno,2,Johnny Speeds,ARCRED,Johnny Speeds,Johnny Speeds
+2386386,Inferno,1,Imperial,Gaimin Gladiators,Imperial,Gaimin Gladiators
+2386386,Nuke,2,Imperial,Gaimin Gladiators,Imperial,Imperial
+2386384,Mirage,1,MIBR,ShindeN,MIBR,MIBR
+2386384,Inferno,2,MIBR,ShindeN,MIBR,ShindeN
+2385929,Mirage,1,FURIA,B8,FURIA,FURIA
+2385929,Inferno,2,FURIA,B8,B8,FURIA
+2385929,Overpass,3,FURIA,B8,B8,FURIA
+2385928,Inferno,1,Astralis,Legacy,Astralis,Astralis
+2385928,Overpass,2,Astralis,Legacy,Astralis,Legacy
+2385928,Ancient,3,Astralis,Legacy,Astralis,Legacy
+2386353,Nuke,1,Johnny Speeds,CYBERSHOKE,CYBERSHOKE,Johnny Speeds
+2386353,Mirage,2,Johnny Speeds,CYBERSHOKE,Johnny Speeds,Johnny Speeds
+2386269,Inferno,1,EYEBALLERS,1win,EYEBALLERS,1win
+2386269,Mirage,2,EYEBALLERS,1win,1win,1win
+2386368,Ancient,1,The Huns,Chinggis Warriors,Chinggis Warriors,Chinggis Warriors
+2386368,Mirage,2,The Huns,Chinggis Warriors,The Huns,Chinggis Warriors
+2386195,Overpass,1,Sangal,FAVBET,Sangal,Sangal
+2386195,Inferno,2,Sangal,FAVBET,FAVBET,FAVBET
+2386195,Ancient,3,Sangal,FAVBET,FAVBET,FAVBET
+2385927,Overpass,1,G2,ENCE,G2,G2
+2385927,Train,2,G2,ENCE,ENCE,G2
+2386351,Mirage,1,Oramond,Sangal,Sangal,Oramond
+2386351,Ancient,2,Oramond,Sangal,Oramond,Sangal
+2386006,Ancient,1,CYBERSHOKE,FAVBET,CYBERSHOKE,CYBERSHOKE
+2386006,Nuke,2,CYBERSHOKE,FAVBET,FAVBET,FAVBET
+2386006,Dust2,3,CYBERSHOKE,FAVBET,FAVBET,FAVBET
+2385926,Ancient,1,Legacy,Gentle Mates,Gentle Mates,Legacy
+2385926,Mirage,2,Legacy,Gentle Mates,Gentle Mates,Legacy
+2386350,Inferno,1,Tricked,SINNERS,SINNERS,Tricked
+2386350,Mirage,2,Tricked,SINNERS,SINNERS,SINNERS
+2385925,Overpass,1,FURIA,M80,FURIA,FURIA
+2385925,Inferno,2,FURIA,M80,FURIA,FURIA
+2385924,Dust2,1,3DMAX,ENCE,3DMAX,3DMAX
+2385924,Nuke,2,3DMAX,ENCE,ENCE,3DMAX
+2385924,Ancient,3,3DMAX,ENCE,3DMAX,3DMAX
+2385923,Mirage,1,Astralis,HEROIC,HEROIC,Astralis
+2385923,Inferno,2,Astralis,HEROIC,HEROIC,Astralis
+2385923,Nuke,3,Astralis,HEROIC,Astralis,Astralis
+2386265,Inferno,1,Tricked,SINNERS,SINNERS,SINNERS
+2386265,Mirage,2,Tricked,SINNERS,SINNERS,SINNERS
+2385922,Ancient,1,G2,Fluxo,Fluxo,G2
+2385922,Inferno,2,G2,Fluxo,G2,G2
+2385922,Mirage,3,G2,Fluxo,G2,G2
+2385921,Ancient,1,GamerLegion,B8,GamerLegion,GamerLegion
+2385921,Inferno,2,GamerLegion,B8,GamerLegion,GamerLegion
+2386004,Train,1,BetBoom,CYBERSHOKE,BetBoom,CYBERSHOKE
+2386004,Mirage,2,BetBoom,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2386112,Inferno,1,MIBR,Imperial,Imperial,Imperial
+2386112,Mirage,2,MIBR,Imperial,Imperial,Imperial
+2386112,Nuke,3,MIBR,Imperial,MIBR,MIBR
+2386112,Overpass,4,MIBR,Imperial,MIBR,MIBR
+2386112,Train,5,MIBR,Imperial,Imperial,MIBR
+2386111,Dust2,1,Gaimin Gladiators,ODDIK,ODDIK,ODDIK
+2386111,Train,2,Gaimin Gladiators,ODDIK,Gaimin Gladiators,Gaimin Gladiators
+2386258,Ancient,1,Passion UA,EYEBALLERS,Passion UA,Passion UA
+2386258,Dust2,2,Passion UA,EYEBALLERS,EYEBALLERS,Passion UA
+2386258,Nuke,3,Passion UA,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2386003,Dust2,1,1win,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2386003,Mirage,2,1win,CYBERSHOKE,1win,1win
+2386003,Ancient,3,1win,CYBERSHOKE,1win,CYBERSHOKE
+2386257,Mirage,1,BIG,EYEBALLERS,EYEBALLERS,BIG
+2386257,Overpass,2,BIG,EYEBALLERS,EYEBALLERS,BIG
+2385919,Dust2,1,HEROIC,3DMAX,HEROIC,HEROIC
+2385919,Inferno,2,HEROIC,3DMAX,3DMAX,3DMAX
+2385920,Dust2,1,FURIA,Legacy,Legacy,FURIA
+2385920,Mirage,2,FURIA,Legacy,FURIA,Legacy
+2386253,Inferno,1,Passion UA,EYEBALLERS,Passion UA,Passion UA
+2386253,Nuke,2,Passion UA,EYEBALLERS,EYEBALLERS,Passion UA
+2386253,Overpass,3,Passion UA,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2386256,Mirage,1,MOUZ NXT,BIG,BIG,BIG
+2386190,Mirage,1,Tricked,Johnny Speeds,Tricked,Johnny Speeds
+2386190,Nuke,2,Tricked,Johnny Speeds,Tricked,Tricked
+2385918,Nuke,1,NRG,Fluxo,NRG,NRG
+2385918,Train,2,NRG,Fluxo,Fluxo,Fluxo
+2385917,Nuke,1,Astralis,GamerLegion,GamerLegion,GamerLegion
+2385917,Overpass,2,Astralis,GamerLegion,Astralis,Astralis
+2386284,Dust2,1,1win,FORZE Reload,1win,FORZE Reload
+2386284,Overpass,2,1win,FORZE Reload,FORZE Reload,1win
+2386254,Overpass,1,BIG,OG,OG,OG
+2386187,Dust2,1,Monte,FAVBET,Monte,FAVBET
+2386187,Nuke,2,Monte,FAVBET,Monte,FAVBET
+2386187,Ancient,3,Monte,FAVBET,FAVBET,FAVBET
+2385915,Nuke,1,Inner Circle,Gentle Mates,Inner Circle,Gentle Mates
+2385915,Mirage,2,Inner Circle,Gentle Mates,Inner Circle,Inner Circle
+2385915,Ancient,3,Inner Circle,Gentle Mates,Gentle Mates,Gentle Mates
+2385916,Mirage,1,G2,B8,B8,G2
+2385916,Dust2,2,G2,B8,B8,G2
+2385916,Ancient,3,G2,B8,B8,B8
+2386249,Nuke,1,MOUZ NXT,EYEBALLERS,MOUZ NXT,EYEBALLERS
+2386249,Overpass,2,MOUZ NXT,EYEBALLERS,EYEBALLERS,MOUZ NXT
+2386251,Overpass,1,OG,Alliance,Alliance,OG
+2386250,Inferno,1,Passion UA,BIG,Passion UA,BIG
+2386250,Train,2,Passion UA,BIG,Passion UA,BIG
+2386250,Dust2,3,Passion UA,BIG,Passion UA,Passion UA
+2386259,Dust2,1,Johnny Speeds,1win,1win,Johnny Speeds
+2386259,Overpass,2,Johnny Speeds,1win,Johnny Speeds,Johnny Speeds
+2386259,Train,3,Johnny Speeds,1win,Johnny Speeds,Johnny Speeds
+2386246,Overpass,1,Alliance,EYEBALLERS,Alliance,EYEBALLERS
+2386246,Nuke,2,Alliance,EYEBALLERS,EYEBALLERS,Alliance
+2386246,Train,3,Alliance,EYEBALLERS,Alliance,EYEBALLERS
+2385913,Dust2,1,HOTU,ENCE,ENCE,HOTU
+2385913,Ancient,2,HOTU,ENCE,HOTU,ENCE
+2386245,Mirage,1,OG,MOUZ NXT,MOUZ NXT,MOUZ NXT
+2386245,Ancient,2,OG,MOUZ NXT,MOUZ NXT,MOUZ NXT
+2386109,Overpass,1,MIBR,ODDIK,ODDIK,ODDIK
+2386109,Inferno,2,MIBR,ODDIK,ODDIK,MIBR
+2386109,Nuke,3,MIBR,ODDIK,MIBR,ODDIK
+2386110,Inferno,1,Imperial,Gaimin Gladiators,Imperial,Imperial
+2386110,Nuke,2,Imperial,Gaimin Gladiators,Gaimin Gladiators,Imperial
+2386107,Nuke,1,Sharks,Imperial,Sharks,Imperial
+2386107,Overpass,2,Sharks,Imperial,Imperial,Imperial
+2386105,Nuke,1,RED Canids,ODDIK,ODDIK,ODDIK
+2386105,Overpass,2,RED Canids,ODDIK,RED Canids,ODDIK
+2386105,Ancient,3,RED Canids,ODDIK,RED Canids,ODDIK
+2386106,Inferno,1,BESTIA,MIBR,BESTIA,MIBR
+2386106,Overpass,2,BESTIA,MIBR,MIBR,MIBR
+2385911,Inferno,1,G2,Gentle Mates,G2,G2
+2385911,Mirage,2,G2,Gentle Mates,Gentle Mates,G2
+2385911,Ancient,3,G2,Gentle Mates,Gentle Mates,Gentle Mates
+2385912,Inferno,1,FURIA,Fluxo,FURIA,Fluxo
+2385912,Mirage,2,FURIA,Fluxo,Fluxo,FURIA
+2385910,Mirage,1,Legacy,NRG,NRG,Legacy
+2385910,Nuke,2,Legacy,NRG,NRG,NRG
+2385910,Dust2,3,Legacy,NRG,NRG,NRG
+2385909,Dust2,1,M80,HEROIC,M80,HEROIC
+2385909,Overpass,2,M80,HEROIC,M80,M80
+2385908,Ancient,1,GamerLegion,Inner Circle,Inner Circle,Inner Circle
+2385908,Overpass,2,GamerLegion,Inner Circle,GamerLegion,Inner Circle
+2385908,Dust2,3,GamerLegion,Inner Circle,Inner Circle,Inner Circle
+2385907,Ancient,1,Astralis,ENCE,Astralis,Astralis
+2385907,Nuke,2,Astralis,ENCE,ENCE,Astralis
+2385907,Overpass,3,Astralis,ENCE,ENCE,Astralis
+2385905,Overpass,1,B8,HOTU,B8,B8
+2385905,Mirage,2,B8,HOTU,HOTU,HOTU
+2385905,Ancient,3,B8,HOTU,HOTU,HOTU
+2386103,Dust2,1,9z,Gaimin Gladiators,Gaimin Gladiators,Gaimin Gladiators
+2386103,Train,2,9z,Gaimin Gladiators,9z,Gaimin Gladiators
+2386103,Ancient,3,9z,Gaimin Gladiators,9z,9z
+2386104,Ancient,1,ODDIK,Bounty Hunters,ODDIK,ODDIK
+2386104,Train,2,ODDIK,Bounty Hunters,ODDIK,Bounty Hunters
+2386096,Ancient,1,BESTIA,ODDIK,BESTIA,ODDIK
+2386096,Inferno,2,BESTIA,ODDIK,ODDIK,BESTIA
+2386036,Ancient,1,OG,Passion UA,Passion UA,OG
+2386036,Train,2,OG,Passion UA,Passion UA,OG
+2386036,Nuke,3,OG,Passion UA,Passion UA,OG
+2385995,Ancient,1,Betclic,1win,Betclic,1win
+2385995,Dust2,2,Betclic,1win,Betclic,1win
+2385901,Dust2,1,M80,ENCE,ENCE,M80
+2385901,Mirage,2,M80,ENCE,ENCE,ENCE
+2385901,Ancient,3,M80,ENCE,ENCE,ENCE
+2385897,Nuke,1,HEROIC,Gentle Mates,HEROIC,HEROIC
+2385897,Mirage,2,HEROIC,Gentle Mates,Gentle Mates,HEROIC
+2385897,Ancient,3,HEROIC,Gentle Mates,HEROIC,HEROIC
+2385994,Inferno,1,JiJieHao,FAVBET,FAVBET,FAVBET
+2385994,Dust2,2,JiJieHao,FAVBET,FAVBET,JiJieHao
+2385793,Mirage,1,PARIVISION,BetBoom,BetBoom,BetBoom
+2385793,Dust2,2,PARIVISION,BetBoom,PARIVISION,PARIVISION
+2385793,Ancient,3,PARIVISION,BetBoom,PARIVISION,BetBoom
+2385793,Train,4,PARIVISION,BetBoom,BetBoom,PARIVISION
+2385793,Overpass,5,PARIVISION,BetBoom,PARIVISION,BetBoom
+2385902,Dust2,1,Legacy,B8,Legacy,Legacy
+2385902,Ancient,2,Legacy,B8,Legacy,B8
+2385902,Train,3,Legacy,B8,Legacy,B8
+2385904,Overpass,1,FURIA,HOTU,HOTU,FURIA
+2385904,Dust2,2,FURIA,HOTU,HOTU,HOTU
+2385993,Nuke,1,Sashi,SINNERS,SINNERS,Sashi
+2385993,Dust2,2,Sashi,SINNERS,SINNERS,SINNERS
+2385993,Overpass,3,Sashi,SINNERS,SINNERS,Sashi
+2386082,Dust2,1,Liquid,9INE,Liquid,Liquid
+2386082,Train,2,Liquid,9INE,9INE,Liquid
+2386082,Nuke,3,Liquid,9INE,Liquid,9INE
+2385900,Ancient,1,3DMAX,Inner Circle,Inner Circle,Inner Circle
+2385900,Nuke,2,3DMAX,Inner Circle,Inner Circle,3DMAX
+2385900,Train,3,3DMAX,Inner Circle,3DMAX,Inner Circle
+2385903,Train,1,GamerLegion,NRG,GamerLegion,GamerLegion
+2385903,Overpass,2,GamerLegion,NRG,NRG,GamerLegion
+2385899,Mirage,1,Astralis,Fluxo,Astralis,Astralis
+2385899,Inferno,2,Astralis,Fluxo,Fluxo,Fluxo
+2385899,Nuke,3,Astralis,Fluxo,Astralis,Astralis
+2386079,Inferno,1,9INE,Johnny Speeds,9INE,Johnny Speeds
+2386079,Nuke,2,9INE,Johnny Speeds,9INE,Johnny Speeds
+2386176,Ancient,1,1win,UNiTY,1win,UNiTY
+2386176,Inferno,2,1win,UNiTY,UNiTY,UNiTY
+2386091,Mirage,1,BESTIA,Bounty Hunters,Bounty Hunters,BESTIA
+2386091,Ancient,2,BESTIA,Bounty Hunters,BESTIA,BESTIA
+2386095,Nuke,1,9z,Sharks,9z,Sharks
+2386095,Train,2,9z,Sharks,Sharks,Sharks
+2386093,Mirage,1,MIBR,RED Canids,MIBR,RED Canids
+2386093,Ancient,2,MIBR,RED Canids,MIBR,MIBR
+2386093,Nuke,3,MIBR,RED Canids,RED Canids,RED Canids
+2386090,Overpass,1,Sharks,Gaimin Gladiators,Sharks,Gaimin Gladiators
+2386090,Nuke,2,Sharks,Gaimin Gladiators,Gaimin Gladiators,Sharks
+2385991,Inferno,1,FAVBET,ARCRED,FAVBET,ARCRED
+2385991,Train,2,FAVBET,ARCRED,FAVBET,FAVBET
+2386031,Ancient,1,Passion UA,GenOne,GenOne,Passion UA
+2386031,Inferno,2,Passion UA,GenOne,Passion UA,GenOne
+2386031,Dust2,3,Passion UA,GenOne,Passion UA,GenOne
+2386070,Dust2,1,ENCE,FUT,ENCE,ENCE
+2386070,Mirage,2,ENCE,FUT,FUT,FUT
+2386065,Ancient,1,Monte,fnatic,fnatic,Monte
+2386067,Ancient,1,9INE,Liquid,9INE,Liquid
+2386062,Nuke,1,9INE,Betclic,9INE,Betclic
+2386058,Mirage,1,Monte,BIG,BIG,Monte
+2386059,Nuke,1,ENCE,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2386029,Mirage,1,GenOne,FlyQuest,GenOne,GenOne
+2386029,Overpass,2,GenOne,FlyQuest,FlyQuest,FlyQuest
+2386029,Dust2,3,GenOne,FlyQuest,GenOne,GenOne
+2386055,Overpass,1,Wildcard,Betclic,Wildcard,Betclic
+2386055,Ancient,2,Wildcard,Betclic,Wildcard,Betclic
+2386028,Train,1,ECSTATIC,OG,ECSTATIC,OG
+2386028,Ancient,2,ECSTATIC,OG,OG,ECSTATIC
+2386028,Nuke,3,ECSTATIC,OG,OG,ECSTATIC
+2386051,Nuke,1,Tricked,Betclic,Tricked,Betclic
+2386051,Train,2,Tricked,Betclic,Betclic,Tricked
+2386023,Dust2,1,FlyQuest,SINNERS,FlyQuest,FlyQuest
+2386023,Ancient,2,FlyQuest,SINNERS,SINNERS,FlyQuest
+2386023,Mirage,3,FlyQuest,SINNERS,SINNERS,SINNERS
+2385888,Train,1,FORZE Reload,Sashi,FORZE Reload,FORZE Reload
+2385888,Nuke,2,FORZE Reload,Sashi,Sashi,Sashi
+2385986,Dust2,1,ARCRED,1win,ARCRED,ARCRED
+2385986,Mirage,2,ARCRED,1win,ARCRED,1win
+2385788,Ancient,1,Nemiga,Nuclear TigeRES,Nuclear TigeRES,Nemiga
+2385788,Train,2,Nemiga,Nuclear TigeRES,Nemiga,Nemiga
+2386041,Mirage,1,Betclic,Nemesis,Betclic,Betclic
+2386039,Nuke,1,Wildcard,MOUZ NXT,Wildcard,Wildcard
+2386022,Inferno,1,SINNERS,OG,SINNERS,OG
+2386022,Mirage,2,SINNERS,OG,OG,OG
+2385787,Inferno,1,PARIVISION,Nuclear TigeRES,PARIVISION,PARIVISION
+2385787,Dust2,2,PARIVISION,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2386012,Nuke,1,ECSTATIC,BIG Academy,BIG Academy,BIG Academy
+2386012,Overpass,2,ECSTATIC,BIG Academy,BIG Academy,ECSTATIC
+2386012,Inferno,3,ECSTATIC,BIG Academy,ECSTATIC,BIG Academy
+2385760,Train,1,Sashi,HOTU,Sashi,HOTU
+2385760,Overpass,2,Sashi,HOTU,Sashi,Sashi
+2385760,Nuke,3,Sashi,HOTU,Sashi,Sashi
+2385760,Ancient,4,Sashi,HOTU,HOTU,Sashi
+2385609,Inferno,1,9z,BESTIA,BESTIA,BESTIA
+2385609,Dust2,2,9z,BESTIA,BESTIA,9z
+2385833,Dust2,1,ENCE,FUT,FUT,FUT
+2385833,Mirage,2,ENCE,FUT,ENCE,ENCE
+2385883,Nuke,1,Alliance,Tricked,Alliance,Tricked
+2385883,Train,2,Alliance,Tricked,Alliance,Alliance
+2385883,Ancient,3,Alliance,Tricked,Tricked,Alliance
+2385831,Dust2,1,ENCE,fnatic,ENCE,ENCE
+2385831,Train,2,ENCE,fnatic,fnatic,fnatic
+2385831,Overpass,3,ENCE,fnatic,ENCE,ENCE
+2385841,Mirage,1,Monte,Sangal,Sangal,Monte
+2385841,Nuke,2,Monte,Sangal,Sangal,Sangal
+2385818,Ancient,1,Alliance,BC.Game,Alliance,Alliance
+2385818,Inferno,2,Alliance,BC.Game,Alliance,BC.Game
+2385818,Dust2,3,Alliance,BC.Game,BC.Game,Alliance
+2385830,Ancient,1,fnatic,Nemiga,Nemiga,Nemiga
+2385830,Mirage,2,fnatic,Nemiga,Nemiga,fnatic
+2385881,Train,1,UNiTY,FORZE Reload,FORZE Reload,FORZE Reload
+2385881,Ancient,2,UNiTY,FORZE Reload,UNiTY,FORZE Reload
+2385881,Overpass,3,UNiTY,FORZE Reload,FORZE Reload,UNiTY
+2385855,Nuke,1,Sashi,FORZE Reload,Sashi,Sashi
+2385855,Dust2,2,Sashi,FORZE Reload,Sashi,Sashi
+2385757,Ancient,1,SINNERS,Sashi,Sashi,SINNERS
+2385757,Nuke,2,SINNERS,Sashi,SINNERS,Sashi
+2385757,Overpass,3,SINNERS,Sashi,SINNERS,Sashi
+2385814,Train,1,Marsborne,Wildcard,Marsborne,Wildcard
+2385814,Overpass,2,Marsborne,Wildcard,Marsborne,Wildcard
+2385329,Mirage,1,The MongolZ,FURIA,The MongolZ,FURIA
+2385329,Inferno,2,The MongolZ,FURIA,The MongolZ,The MongolZ
+2385329,Nuke,3,The MongolZ,FURIA,FURIA,FURIA
+2385329,Overpass,4,The MongolZ,FURIA,The MongolZ,FURIA
+2385329,Dust2,5,The MongolZ,FURIA,The MongolZ,FURIA
+2385672,Overpass,1,K27,FORZE Reload,FORZE Reload,K27
+2385672,Train,2,K27,FORZE Reload,K27,K27
+2385822,Overpass,1,Nemiga,Monte,Nemiga,Nemiga
+2385822,Ancient,2,Nemiga,Monte,Monte,Monte
+2385816,Dust2,1,BC.Game,Alliance,Alliance,Alliance
+2385816,Inferno,2,BC.Game,Alliance,BC.Game,Alliance
+2385407,Nuke,1,Natus Vincere,Ninjas in Pyjamas,Natus Vincere,Ninjas in Pyjamas
+2385407,Inferno,2,Natus Vincere,Ninjas in Pyjamas,Ninjas in Pyjamas,Natus Vincere
+2385847,Ancient,1,SINNERS,FORZE Reload,FORZE Reload,FORZE Reload
+2385847,Dust2,2,SINNERS,FORZE Reload,SINNERS,SINNERS
+2385847,Nuke,3,SINNERS,FORZE Reload,FORZE Reload,SINNERS
+2385406,Train,1,Ninjas in Pyjamas,B8,Ninjas in Pyjamas,B8
+2385406,Dust2,2,Ninjas in Pyjamas,B8,Ninjas in Pyjamas,Ninjas in Pyjamas
+2385754,Dust2,1,Sashi,Betclic,Sashi,Sashi
+2385754,Nuke,2,Sashi,Betclic,Sashi,Betclic
+2385754,Train,3,Sashi,Betclic,Betclic,Sashi
+2385542,Nuke,1,Tricked,FAVBET,Tricked,FAVBET
+2385542,Train,2,Tricked,FAVBET,FAVBET,Tricked
+2385542,Inferno,3,Tricked,FAVBET,Tricked,Tricked
+2385820,Overpass,1,ENCE,Sangal,Sangal,Sangal
+2385820,Ancient,2,ENCE,Sangal,ENCE,ENCE
+2385820,Nuke,3,ENCE,Sangal,ENCE,Sangal
+2385616,Default,1,Inner Circle,K27,K27,K27
+2385616,Overpass,2,Inner Circle,K27,K27,K27
+2385616,Mirage,3,Inner Circle,K27,K27,K27
+2385405,Inferno,1,Gentle Mates,B8,B8,B8
+2385405,Mirage,2,Gentle Mates,B8,B8,B8
+2385405,Ancient,3,Gentle Mates,B8,Gentle Mates,Gentle Mates
+2385836,Train,1,Sharks,9z,9z,9z
+2385836,Inferno,2,Sharks,9z,9z,9z
+2385836,Overpass,3,Sharks,9z,9z,Sharks
+2385328,Train,1,FURIA,Falcons,FURIA,Falcons
+2385328,Nuke,2,FURIA,Falcons,FURIA,FURIA
+2385404,Nuke,1,Ninjas in Pyjamas,Natus Vincere,Natus Vincere,Ninjas in Pyjamas
+2385404,Inferno,2,Ninjas in Pyjamas,Natus Vincere,Ninjas in Pyjamas,Natus Vincere
+2385487,Ancient,1,Chinggis Warriors,Rare Atom,Chinggis Warriors,Rare Atom
+2385487,Mirage,2,Chinggis Warriors,Rare Atom,Chinggis Warriors,Chinggis Warriors
+2385487,Inferno,3,Chinggis Warriors,Rare Atom,Chinggis Warriors,Rare Atom
+2385327,Dust2,1,The MongolZ,Liquid,The MongolZ,Liquid
+2385327,Mirage,2,The MongolZ,Liquid,The MongolZ,Liquid
+2385327,Ancient,3,The MongolZ,Liquid,The MongolZ,The MongolZ
+2385403,Train,1,B8,Passion UA,Passion UA,Passion UA
+2385403,Dust2,2,B8,Passion UA,Passion UA,B8
+2385772,Dust2,1,CYBERSHOKE,JiJieHao,JiJieHao,JiJieHao
+2385772,Ancient,2,CYBERSHOKE,JiJieHao,CYBERSHOKE,CYBERSHOKE
+2385635,Train,1,BetBoom,Sashi,BetBoom,BetBoom
+2385635,Nuke,2,BetBoom,Sashi,BetBoom,Sashi
+2385402,Mirage,1,Gentle Mates,PARIVISION,PARIVISION,Gentle Mates
+2385402,Inferno,2,Gentle Mates,PARIVISION,PARIVISION,PARIVISION
+2385402,Ancient,3,Gentle Mates,PARIVISION,Gentle Mates,PARIVISION
+2385807,Inferno,1,RED Canids,BESTIA,BESTIA,RED Canids
+2385807,Mirage,2,RED Canids,BESTIA,RED Canids,BESTIA
+2385326,Inferno,1,Falcons,paiN,paiN,Falcons
+2385326,Ancient,2,Falcons,paiN,Falcons,Falcons
+2385797,Nuke,1,9INE,HOTU,9INE,9INE
+2385797,Train,2,9INE,HOTU,9INE,9INE
+2385401,Train,1,Passion UA,Natus Vincere,Passion UA,Passion UA
+2385401,Inferno,2,Passion UA,Natus Vincere,Natus Vincere,Passion UA
+2385671,Ancient,1,RUSTEC,FORZE Reload,FORZE Reload,FORZE Reload
+2385671,Nuke,2,RUSTEC,FORZE Reload,FORZE Reload,FORZE Reload
+2385325,Train,1,FURIA,Astralis,FURIA,FURIA
+2385325,Nuke,2,FURIA,Astralis,Astralis,Astralis
+2385770,Mirage,1,JiJieHao,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2385770,Inferno,2,JiJieHao,Johnny Speeds,JiJieHao,JiJieHao
+2385770,Dust2,3,JiJieHao,Johnny Speeds,Johnny Speeds,JiJieHao
+2385400,Train,1,PARIVISION,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2385400,Ancient,2,PARIVISION,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2385486,Ancient,1,The Huns,Rare Atom,Rare Atom,The Huns
+2385486,Mirage,2,The Huns,Rare Atom,Rare Atom,The Huns
+2385324,Mirage,1,Aurora,Liquid,Aurora,Liquid
+2385324,Inferno,2,Aurora,Liquid,Liquid,Liquid
+2385399,Ancient,1,Gentle Mates,9INE,9INE,Gentle Mates
+2385399,Nuke,2,Gentle Mates,9INE,9INE,9INE
+2385398,Ancient,1,B8,OG,OG,OG
+2385398,Mirage,2,B8,OG,B8,OG
+2385398,Inferno,3,B8,OG,B8,OG
+2385749,Train,1,HOTU,FAVBET,FAVBET,FAVBET
+2385749,Overpass,2,HOTU,FAVBET,HOTU,FAVBET
+2385749,Nuke,3,HOTU,FAVBET,FAVBET,FAVBET
+2385323,Mirage,1,G2,The MongolZ,The MongolZ,The MongolZ
+2385323,Dust2,2,G2,The MongolZ,G2,The MongolZ
+2385323,Ancient,3,G2,The MongolZ,G2,The MongolZ
+2385397,Ancient,1,Natus Vincere,9INE,Natus Vincere,Natus Vincere
+2385397,Nuke,2,Natus Vincere,9INE,Natus Vincere,Natus Vincere
+2385397,Inferno,3,Natus Vincere,9INE,9INE,9INE
+2385615,Train,1,1win,K27,1win,K27
+2385615,Overpass,2,1win,K27,K27,1win
+2385647,Nuke,1,HOTU,Monte,Monte,HOTU
+2385647,Overpass,2,HOTU,Monte,Monte,Monte
+2385647,Dust2,3,HOTU,Monte,HOTU,HOTU
+2385645,Inferno,1,fnatic,Alliance,fnatic,fnatic
+2385645,Dust2,2,fnatic,Alliance,fnatic,fnatic
+2385645,Train,3,fnatic,Alliance,fnatic,fnatic
+2385396,Inferno,1,Passion UA,Gentle Mates,Gentle Mates,Gentle Mates
+2385396,Train,2,Passion UA,Gentle Mates,Passion UA,Gentle Mates
+2385485,Ancient,1,Chinggis Warriors,Rare Atom,Chinggis Warriors,Rare Atom
+2385485,Mirage,2,Chinggis Warriors,Rare Atom,Chinggis Warriors,Chinggis Warriors
+2385395,Ancient,1,Ninjas in Pyjamas,OG,OG,OG
+2385395,Train,2,Ninjas in Pyjamas,OG,Ninjas in Pyjamas,Ninjas in Pyjamas
+2385627,Ancient,1,FUT,FAVBET,FAVBET,FAVBET
+2385627,Inferno,2,FUT,FAVBET,FAVBET,FUT
+2385766,Nuke,1,CYBERSHOKE,Monte,Monte,Monte
+2385766,Ancient,2,CYBERSHOKE,Monte,Monte,CYBERSHOKE
+2385394,Train,1,B8,PARIVISION,PARIVISION,PARIVISION
+2385394,Inferno,2,B8,PARIVISION,B8,B8
+2385510,Inferno,1,BESTIA,ODDIK,BESTIA,BESTIA
+2385510,Nuke,2,BESTIA,ODDIK,ODDIK,ODDIK
+2385508,Mirage,1,MIBR,RED Canids,MIBR,RED Canids
+2385508,Ancient,2,MIBR,RED Canids,RED Canids,RED Canids
+2385643,Overpass,1,FUT,Sangal,FUT,Sangal
+2385643,Ancient,2,FUT,Sangal,FUT,FUT
+2385643,Mirage,3,FUT,Sangal,FUT,FUT
+2385322,Dust2,1,paiN,Virtus.pro,paiN,Virtus.pro
+2385322,Mirage,2,paiN,Virtus.pro,paiN,Virtus.pro
+2385322,Inferno,3,paiN,Virtus.pro,paiN,paiN
+2385746,Dust2,1,JiJieHao,SINNERS,SINNERS,SINNERS
+2385746,Ancient,2,JiJieHao,SINNERS,SINNERS,JiJieHao
+2385746,Inferno,3,JiJieHao,SINNERS,SINNERS,JiJieHao
+2385321,Overpass,1,Astralis,GamerLegion,Astralis,GamerLegion
+2385321,Nuke,2,Astralis,GamerLegion,GamerLegion,Astralis
+2385685,Nuke,1,Betclic,Monte,Monte,Betclic
+2385685,Mirage,2,Betclic,Monte,Betclic,Betclic
+2385685,Train,3,Betclic,Monte,Betclic,Betclic
+2385320,Ancient,1,FaZe,Liquid,Liquid,FaZe
+2385320,Dust2,2,FaZe,Liquid,Liquid,FaZe
+2385602,Inferno,1,Sharks,BESTIA,BESTIA,Sharks
+2385602,Nuke,2,Sharks,BESTIA,BESTIA,Sharks
+2385601,Inferno,1,BESTIA,RED Canids,BESTIA,BESTIA
+2385601,Mirage,2,BESTIA,RED Canids,RED Canids,RED Canids
+2385319,Mirage,1,Astralis,Legacy,Astralis,Astralis
+2385319,Nuke,2,Astralis,Legacy,Legacy,Astralis
+2385318,Inferno,1,FURIA,paiN,paiN,FURIA
+2385318,Dust2,2,FURIA,paiN,paiN,paiN
+2385600,Ancient,1,ODDIK,Sharks,ODDIK,Sharks
+2385600,Inferno,2,ODDIK,Sharks,ODDIK,Sharks
+2385600,Nuke,3,ODDIK,Sharks,ODDIK,Sharks
+2385621,Ancient,1,Tricked,FAVBET,Tricked,Tricked
+2385621,Dust2,2,Tricked,FAVBET,Tricked,FAVBET
+2385621,Inferno,3,Tricked,FAVBET,FAVBET,Tricked
+2385317,Ancient,1,TYLOO,Liquid,Liquid,Liquid
+2385317,Inferno,2,TYLOO,Liquid,Liquid,Liquid
+2385317,Mirage,3,TYLOO,Liquid,TYLOO,TYLOO
+2385316,Mirage,1,FaZe,The MongolZ,The MongolZ,The MongolZ
+2385316,Inferno,2,FaZe,The MongolZ,FaZe,FaZe
+2385316,Ancient,3,FaZe,The MongolZ,The MongolZ,The MongolZ
+2385315,Train,1,3DMAX,Virtus.pro,Virtus.pro,3DMAX
+2385315,Inferno,2,3DMAX,Virtus.pro,3DMAX,3DMAX
+2385315,Dust2,3,3DMAX,Virtus.pro,Virtus.pro,Virtus.pro
+2385314,Overpass,1,G2,GamerLegion,G2,G2
+2385314,Ancient,2,G2,GamerLegion,G2,G2
+2385314,Inferno,3,G2,GamerLegion,G2,GamerLegion
+2385681,Ancient,1,CYBERSHOKE,Sangal,Sangal,Sangal
+2385681,Overpass,2,CYBERSHOKE,Sangal,Sangal,Sangal
+2385599,Mirage,1,Fluxo,BESTIA,BESTIA,Fluxo
+2385599,Inferno,2,Fluxo,BESTIA,Fluxo,BESTIA
+2385598,Mirage,1,RED Canids,ShindeN,ShindeN,ShindeN
+2385598,Nuke,2,RED Canids,ShindeN,RED Canids,ShindeN
+2385598,Ancient,3,RED Canids,ShindeN,RED Canids,ShindeN
+2385307,Mirage,1,Astralis,paiN,Astralis,paiN
+2385307,Inferno,2,Astralis,paiN,paiN,Astralis
+2385313,Inferno,1,Aurora,FURIA,Aurora,Aurora
+2385313,Dust2,2,Aurora,FURIA,FURIA,FURIA
+2385312,Nuke,1,Falcons,FaZe,Falcons,Falcons
+2385312,Dust2,2,Falcons,FaZe,FaZe,FaZe
+2385463,Overpass,1,Monte,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2385463,Mirage,2,Monte,Johnny Speeds,Johnny Speeds,Monte
+2385463,Train,3,Monte,Johnny Speeds,Monte,Johnny Speeds
+2385309,Train,1,Legacy,G2,G2,G2
+2385309,Ancient,2,Legacy,G2,G2,Legacy
+2385308,Overpass,1,3DMAX,GamerLegion,GamerLegion,GamerLegion
+2385308,Inferno,2,3DMAX,GamerLegion,3DMAX,GamerLegion
+2385308,Dust2,3,3DMAX,GamerLegion,GamerLegion,GamerLegion
+2385310,Ancient,1,Liquid,HEROIC,Liquid,Liquid
+2385310,Dust2,2,Liquid,HEROIC,HEROIC,Liquid
+2385310,Mirage,3,Liquid,HEROIC,HEROIC,HEROIC
+2385306,Mirage,1,TYLOO,The MongolZ,TYLOO,The MongolZ
+2385306,Overpass,2,TYLOO,The MongolZ,The MongolZ,The MongolZ
+2385306,Ancient,3,TYLOO,The MongolZ,TYLOO,TYLOO
+2385311,Dust2,1,Virtus.pro,Lynn Vision,Lynn Vision,Lynn Vision
+2385311,Train,2,Virtus.pro,Lynn Vision,Virtus.pro,Virtus.pro
+2385587,Inferno,1,Wildcard,Marsborne,Wildcard,Marsborne
+2385587,Dust2,2,Wildcard,Marsborne,Marsborne,Marsborne
+2385587,Ancient,3,Wildcard,Marsborne,Wildcard,Wildcard
+2385471,Dust2,1,fnatic,ECSTATIC,ECSTATIC,fnatic
+2385471,Inferno,2,fnatic,ECSTATIC,ECSTATIC,fnatic
+2385471,Train,3,fnatic,ECSTATIC,fnatic,fnatic
+2385585,Ancient,1,Wildcard,BOSS,Wildcard,Wildcard
+2385585,Inferno,2,Wildcard,BOSS,BOSS,BOSS
+2385305,Dust2,1,HEROIC,paiN,HEROIC,HEROIC
+2385305,Mirage,2,HEROIC,paiN,paiN,paiN
+2385305,Nuke,3,HEROIC,paiN,HEROIC,paiN
+2385304,Inferno,1,FURIA,G2,G2,G2
+2385304,Overpass,2,FURIA,G2,FURIA,G2
+2385470,Nuke,1,ECSTATIC,BIG,BIG,BIG
+2385470,Dust2,2,ECSTATIC,BIG,BIG,BIG
+2385470,Train,3,ECSTATIC,BIG,ECSTATIC,ECSTATIC
+2385302,Inferno,1,Aurora,TYLOO,TYLOO,Aurora
+2385302,Mirage,2,Aurora,TYLOO,Aurora,TYLOO
+2385592,Ancient,1,9z,ShindeN,ShindeN,ShindeN
+2385592,Dust2,2,9z,ShindeN,9z,ShindeN
+2385592,Nuke,3,9z,ShindeN,ShindeN,ShindeN
+2385303,Dust2,1,GamerLegion,Liquid,GamerLegion,GamerLegion
+2385303,Inferno,2,GamerLegion,Liquid,Liquid,Liquid
+2384977,Overpass,1,SINNERS,UNiTY,UNiTY,SINNERS
+2384977,Ancient,2,SINNERS,UNiTY,SINNERS,SINNERS
+2385300,Inferno,1,Falcons,Legacy,Falcons,Legacy
+2385300,Ancient,2,Falcons,Legacy,Legacy,Legacy
+2385260,Inferno,1,EYEBALLERS,ARCRED,ARCRED,ARCRED
+2385260,Mirage,2,EYEBALLERS,ARCRED,EYEBALLERS,ARCRED
+2385469,Mirage,1,fnatic,Nemiga,fnatic,fnatic
+2385469,Ancient,2,fnatic,Nemiga,fnatic,Nemiga
+2385301,Ancient,1,Virtus.pro,Astralis,Virtus.pro,Virtus.pro
+2385301,Train,2,Virtus.pro,Astralis,Astralis,Virtus.pro
+2385657,Ancient,1,Chinggis Warriors,The Huns,Chinggis Warriors,Chinggis Warriors
+2385657,Overpass,2,Chinggis Warriors,The Huns,Chinggis Warriors,The Huns
+2385657,Nuke,3,Chinggis Warriors,The Huns,The Huns,The Huns
+2385298,Nuke,1,3DMAX,FaZe,FaZe,FaZe
+2385298,Ancient,2,3DMAX,FaZe,FaZe,FaZe
+2385298,Dust2,3,3DMAX,FaZe,FaZe,3DMAX
+2385299,Dust2,1,The MongolZ,Lynn Vision,The MongolZ,Lynn Vision
+2385299,Ancient,2,The MongolZ,Lynn Vision,Lynn Vision,The MongolZ
+2385590,Train,1,Sharks,Bounty Hunters,Sharks,Bounty Hunters
+2385590,Ancient,2,Sharks,Bounty Hunters,Bounty Hunters,Sharks
+2385590,Nuke,3,Sharks,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2385498,Ancient,1,Sangal,9INE,9INE,9INE
+2385498,Overpass,2,Sangal,9INE,Sangal,Sangal
+2385498,Train,3,Sangal,9INE,9INE,9INE
+2385297,Dust2,1,FURIA,Liquid,Liquid,Liquid
+2385297,Inferno,2,FURIA,Liquid,FURIA,Liquid
+2385297,Train,3,FURIA,Liquid,FURIA,Liquid
+2385500,Mirage,1,HOTU,OG,OG,OG
+2385500,Nuke,2,HOTU,OG,OG,OG
+2385500,Overpass,3,HOTU,OG,HOTU,HOTU
+2385502,Dust2,1,ENCE,FUT,ENCE,ENCE
+2385502,Mirage,2,ENCE,FUT,FUT,FUT
+2385502,Nuke,3,ENCE,FUT,FUT,FUT
+2385296,Nuke,1,FaZe,paiN,paiN,paiN
+2385296,Mirage,2,FaZe,paiN,FaZe,paiN
+2385466,Train,1,Nemiga,ENCE,Nemiga,Nemiga
+2385466,Dust2,2,Nemiga,ENCE,Nemiga,ENCE
+2385524,Inferno,1,Johnny Speeds,ARCRED,ARCRED,ARCRED
+2385524,Mirage,2,Johnny Speeds,ARCRED,Johnny Speeds,ARCRED
+2385524,Ancient,3,Johnny Speeds,ARCRED,ARCRED,ARCRED
+2385258,Overpass,1,FAVBET,EYEBALLERS,FAVBET,EYEBALLERS
+2385258,Nuke,2,FAVBET,EYEBALLERS,EYEBALLERS,FAVBET
+2385258,Inferno,3,FAVBET,EYEBALLERS,EYEBALLERS,FAVBET
+2385295,Dust2,1,G2,Lynn Vision,Lynn Vision,Lynn Vision
+2385295,Inferno,2,G2,Lynn Vision,Lynn Vision,Lynn Vision
+2385294,Nuke,1,HEROIC,Legacy,HEROIC,HEROIC
+2385294,Mirage,2,HEROIC,Legacy,HEROIC,Legacy
+2385294,Dust2,3,HEROIC,Legacy,Legacy,HEROIC
+2385453,Nuke,1,JiJieHao,SINNERS,JiJieHao,SINNERS
+2385453,Dust2,2,JiJieHao,SINNERS,JiJieHao,JiJieHao
+2385505,Ancient,1,Sharks,ODDIK,Sharks,Sharks
+2385505,Inferno,2,Sharks,ODDIK,Sharks,Sharks
+2385492,Inferno,1,Johnny Speeds,FUT,FUT,Johnny Speeds
+2385492,Mirage,2,Johnny Speeds,FUT,Johnny Speeds,FUT
+2385492,Nuke,3,Johnny Speeds,FUT,FUT,Johnny Speeds
+2385493,Nuke,1,Betclic,ENCE,ENCE,Betclic
+2385493,Ancient,2,Betclic,ENCE,ENCE,Betclic
+2385493,Mirage,3,Betclic,ENCE,ENCE,ENCE
+2385293,Nuke,1,Aurora,Astralis,Astralis,Astralis
+2385293,Dust2,2,Aurora,Astralis,Aurora,Aurora
+2385293,Overpass,3,Aurora,Astralis,Aurora,Aurora
+2385494,Inferno,1,Sashi,JiJieHao,Sashi,Sashi
+2385494,Dust2,2,Sashi,JiJieHao,Sashi,Sashi
+2385489,Inferno,1,Tricked,OG,OG,OG
+2385489,Overpass,2,Tricked,OG,Tricked,OG
+2385292,Mirage,1,Falcons,Virtus.pro,Falcons,Falcons
+2385292,Ancient,2,Falcons,Virtus.pro,Falcons,Falcons
+2385482,Dust2,1,Eruption,The Huns,The Huns,The Huns
+2385482,Inferno,2,Eruption,The Huns,The Huns,Eruption
+2385291,Inferno,1,The MongolZ,3DMAX,3DMAX,The MongolZ
+2385291,Ancient,2,The MongolZ,3DMAX,The MongolZ,The MongolZ
+2385291,Nuke,3,The MongolZ,3DMAX,3DMAX,The MongolZ
+2385450,Train,1,Johnny Speeds,Sangal,Sangal,Sangal
+2385450,Nuke,2,Johnny Speeds,Sangal,Johnny Speeds,Johnny Speeds
+2385290,Inferno,1,GamerLegion,TYLOO,TYLOO,TYLOO
+2385290,Ancient,2,GamerLegion,TYLOO,TYLOO,GamerLegion
+2385371,Train,1,RED Canids,ODDIK,ODDIK,ODDIK
+2385371,Ancient,2,RED Canids,ODDIK,RED Canids,RED Canids
+2385371,Nuke,3,RED Canids,ODDIK,RED Canids,RED Canids
+2385374,Inferno,1,BESTIA,Fluxo,BESTIA,BESTIA
+2385374,Mirage,2,BESTIA,Fluxo,BESTIA,BESTIA
+2385435,Dust2,1,Bounty Hunters,ShindeN,ShindeN,ShindeN
+2385435,Mirage,2,Bounty Hunters,ShindeN,ShindeN,ShindeN
+2385356,Ancient,1,Alliance,ENCE,ENCE,ENCE
+2385356,Dust2,2,Alliance,ENCE,ENCE,ENCE
+2385356,Train,3,Alliance,ENCE,ENCE,Alliance
+2385442,Overpass,1,Johnny Speeds,FAVBET,Johnny Speeds,FAVBET
+2385442,Nuke,2,Johnny Speeds,FAVBET,Johnny Speeds,Johnny Speeds
+2385442,Train,3,Johnny Speeds,FAVBET,FAVBET,FAVBET
+2385170,Inferno,1,Legacy,Imperial,Legacy,Legacy
+2385170,Mirage,2,Legacy,Imperial,Imperial,Imperial
+2385360,Mirage,1,OG,BC.Game,BC.Game,BC.Game
+2385360,Ancient,2,OG,BC.Game,OG,BC.Game
+2385169,Nuke,1,BIG,OG,OG,OG
+2385169,Train,2,BIG,OG,BIG,BIG
+2385169,Inferno,3,BIG,OG,OG,OG
+2385426,Dust2,1,Rare Atom,Eruption,Rare Atom,Eruption
+2385426,Inferno,2,Rare Atom,Eruption,Eruption,Rare Atom
+2385448,Ancient,1,FAVBET,FORZE Reload,FORZE Reload,FORZE Reload
+2385448,Nuke,2,FAVBET,FORZE Reload,FAVBET,FORZE Reload
+2385448,Dust2,3,FAVBET,FORZE Reload,FAVBET,FORZE Reload
+2385168,Ancient,1,9z,PARIVISION,9z,9z
+2385168,Train,2,9z,PARIVISION,PARIVISION,9z
+2385439,Train,1,Alliance,ARCRED,Alliance,ARCRED
+2385439,Ancient,2,Alliance,ARCRED,Alliance,ARCRED
+2385520,Dust2,1,1win,Inner Circle,Inner Circle,Inner Circle
+2385520,Mirage,2,1win,Inner Circle,Inner Circle,Inner Circle
+2385348,Train,1,Monte,FAVBET,Monte,Monte
+2385348,Nuke,2,Monte,FAVBET,Monte,FAVBET
+2385110,Train,1,CYBERSHOKE,FAVBET,FAVBET,CYBERSHOKE
+2385110,Ancient,2,CYBERSHOKE,FAVBET,CYBERSHOKE,FAVBET
+2385164,Ancient,1,OG,M80,OG,M80
+2385164,Overpass,2,OG,M80,M80,OG
+2385163,Train,1,ENCE,Nemiga,ENCE,Nemiga
+2385163,Dust2,2,ENCE,Nemiga,ENCE,Nemiga
+2385163,Ancient,3,ENCE,Nemiga,Nemiga,ENCE
+2385219,Mirage,1,Sharks,ShindeN,ShindeN,Sharks
+2385219,Nuke,2,Sharks,ShindeN,ShindeN,Sharks
+2385218,Dust2,1,ODDIK,Bounty Hunters,Bounty Hunters,ODDIK
+2385218,Nuke,2,ODDIK,Bounty Hunters,ODDIK,ODDIK
+2385162,Nuke,1,BetBoom,9z,BetBoom,BetBoom
+2385162,Train,2,BetBoom,9z,9z,9z
+2385162,Dust2,3,BetBoom,9z,9z,BetBoom
+2385189,Overpass,1,Betclic,Sangal,Betclic,Sangal
+2385189,Train,2,Betclic,Sangal,Betclic,Betclic
+2385189,Mirage,3,Betclic,Sangal,Betclic,Betclic
+2385280,Train,1,K27,1win,K27,1win
+2385280,Overpass,2,K27,1win,K27,K27
+2385188,Dust2,1,Johnny Speeds,9INE,9INE,Johnny Speeds
+2385188,Inferno,2,Johnny Speeds,9INE,Johnny Speeds,Johnny Speeds
+2385192,Dust2,1,BC.Game,Sashi,BC.Game,Sashi
+2385192,Nuke,2,BC.Game,Sashi,BC.Game,Sashi
+2385161,Inferno,1,Legacy,JiJieHao,JiJieHao,Legacy
+2385177,Ancient,1,FAVBET,ARCRED,FAVBET,FAVBET
+2385177,Dust2,2,FAVBET,ARCRED,ARCRED,ARCRED
+2385177,Overpass,3,FAVBET,ARCRED,FAVBET,FAVBET
+2385159,Dust2,1,ECSTATIC,PARIVISION,ECSTATIC,ECSTATIC
+2385159,Train,2,ECSTATIC,PARIVISION,PARIVISION,ECSTATIC
+2385159,Ancient,3,ECSTATIC,PARIVISION,ECSTATIC,PARIVISION
+2385183,Train,1,ENCE,FAVBET,FAVBET,FAVBET
+2385183,Dust2,2,ENCE,FAVBET,FAVBET,ENCE
+2385183,Overpass,3,ENCE,FAVBET,ENCE,FAVBET
+2385184,Nuke,1,Monte,Alliance,Alliance,Alliance
+2385184,Ancient,2,Monte,Alliance,Alliance,Alliance
+2385181,Inferno,1,JiJieHao,Tricked,Tricked,JiJieHao
+2385181,Dust2,2,JiJieHao,Tricked,JiJieHao,Tricked
+2385176,Dust2,1,SINNERS,FORZE Reload,SINNERS,SINNERS
+2385176,Nuke,2,SINNERS,FORZE Reload,FORZE Reload,FORZE Reload
+2385289,Nuke,1,NRG,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2385289,Mirage,2,NRG,Ninjas in Pyjamas,NRG,NRG
+2385289,Train,3,NRG,Ninjas in Pyjamas,Ninjas in Pyjamas,Ninjas in Pyjamas
+2385289,Dust2,4,NRG,Ninjas in Pyjamas,NRG,Ninjas in Pyjamas
+2385288,Ancient,1,ODDIK,Wildcard,Wildcard,Wildcard
+2385288,Dust2,2,ODDIK,Wildcard,ODDIK,ODDIK
+2385288,Mirage,3,ODDIK,Wildcard,Wildcard,Wildcard
+2384856,Dust2,1,Vitality,G2,G2,G2
+2384856,Mirage,2,Vitality,G2,Vitality,Vitality
+2384856,Overpass,3,Vitality,G2,Vitality,Vitality
+2384856,Inferno,4,Vitality,G2,Vitality,Vitality
+2384856,Train,5,Vitality,G2,G2,G2
+2385287,Overpass,1,Ninjas in Pyjamas,Wildcard,Ninjas in Pyjamas,Wildcard
+2385287,Nuke,2,Ninjas in Pyjamas,Wildcard,Wildcard,Wildcard
+2385286,Nuke,1,NRG,ODDIK,ODDIK,NRG
+2385286,Dust2,2,NRG,ODDIK,NRG,ODDIK
+2385286,Train,3,NRG,ODDIK,ODDIK,ODDIK
+2385283,Overpass,1,Wildcard,Fluxo,Fluxo,Wildcard
+2385283,Ancient,2,Wildcard,Fluxo,Fluxo,Fluxo
+2385283,Inferno,3,Wildcard,Fluxo,Fluxo,Wildcard
+2385282,Train,1,Ninjas in Pyjamas,Marsborne,Marsborne,Marsborne
+2385282,Nuke,2,Ninjas in Pyjamas,Marsborne,Marsborne,Ninjas in Pyjamas
+2385239,Train,1,K27,Nuclear TigeRES,Nuclear TigeRES,K27
+2385239,Dust2,2,K27,Nuclear TigeRES,Nuclear TigeRES,K27
+2384855,Inferno,1,FURIA,G2,G2,G2
+2384855,Mirage,2,FURIA,G2,FURIA,G2
+2384854,Mirage,1,Vitality,MOUZ,Vitality,MOUZ
+2384854,Inferno,2,Vitality,MOUZ,Vitality,Vitality
+2385094,Mirage,1,EYEBALLERS,ARCRED,EYEBALLERS,EYEBALLERS
+2385094,Overpass,2,EYEBALLERS,ARCRED,EYEBALLERS,ARCRED
+2385124,Inferno,1,Chinggis Warriors,The Huns,Chinggis Warriors,Chinggis Warriors
+2385124,Overpass,2,Chinggis Warriors,The Huns,The Huns,Chinggis Warriors
+2385124,Nuke,3,Chinggis Warriors,The Huns,Chinggis Warriors,The Huns
+2384853,Inferno,1,FaZe,G2,G2,G2
+2384853,Dust2,2,FaZe,G2,FaZe,FaZe
+2385085,Nuke,1,ENCE,Betclic,ENCE,ENCE
+2385085,Train,2,ENCE,Betclic,ENCE,ENCE
+2385042,Train,1,Ursa,Nuclear TigeRES,Ursa,Nuclear TigeRES
+2385042,Dust2,2,Ursa,Nuclear TigeRES,Ursa,Nuclear TigeRES
+2385042,Nuke,3,Ursa,Nuclear TigeRES,Nuclear TigeRES,Nuclear TigeRES
+2384852,Ancient,1,MOUZ,M80,MOUZ,M80
+2384852,Mirage,2,MOUZ,M80,M80,M80
+2384852,Inferno,3,MOUZ,M80,MOUZ,MOUZ
+2385121,Inferno,1,Chinggis Warriors,The Huns,Chinggis Warriors,The Huns
+2385121,Overpass,2,Chinggis Warriors,The Huns,Chinggis Warriors,Chinggis Warriors
+2385121,Nuke,3,Chinggis Warriors,The Huns,The Huns,Chinggis Warriors
+2384930,Overpass,1,1win,FORZE Reload,FORZE Reload,FORZE Reload
+2384930,Dust2,2,1win,FORZE Reload,1win,FORZE Reload
+2385032,Dust2,1,RUSTEC,1win,1win,1win
+2385032,Ancient,2,RUSTEC,1win,RUSTEC,1win
+2385032,Train,3,RUSTEC,1win,RUSTEC,RUSTEC
+2384851,Mirage,1,Spirit,G2,G2,G2
+2384851,Dust2,2,Spirit,G2,G2,G2
+2384851,Ancient,3,Spirit,G2,G2,G2
+2384957,Ancient,1,BetBoom,PARIVISION,BetBoom,PARIVISION
+2384957,Train,2,BetBoom,PARIVISION,PARIVISION,BetBoom
+2384957,Mirage,3,BetBoom,PARIVISION,PARIVISION,PARIVISION
+2384850,Inferno,1,MOUZ,FURIA,FURIA,FURIA
+2384850,Mirage,2,MOUZ,FURIA,FURIA,MOUZ
+2384843,Ancient,1,fnatic,M80,M80,M80
+2384843,Train,2,fnatic,M80,M80,fnatic
+2384842,Mirage,1,Vitality,FaZe,FaZe,FaZe
+2384842,Nuke,2,Vitality,FaZe,FaZe,FaZe
+2384842,Inferno,3,Vitality,FaZe,Vitality,Vitality
+2384834,Dust2,1,Nuclear TigeRES,K27,Nuclear TigeRES,Nuclear TigeRES
+2384834,Train,2,Nuclear TigeRES,K27,Nuclear TigeRES,K27
+2384945,Nuke,1,9z,BESTIA,BESTIA,BESTIA
+2384945,Ancient,2,9z,BESTIA,BESTIA,BESTIA
+2384945,Dust2,3,9z,BESTIA,BESTIA,BESTIA
+2384956,Dust2,1,PARIVISION,9INE,PARIVISION,PARIVISION
+2384956,Ancient,2,PARIVISION,9INE,9INE,PARIVISION
+2384849,Mirage,1,FlyQuest,G2,G2,G2
+2384849,Ancient,2,FlyQuest,G2,G2,FlyQuest
+2384848,Dust2,1,Liquid,Spirit,Liquid,Liquid
+2384848,Mirage,2,Liquid,Spirit,Liquid,Liquid
+2384765,Mirage,1,fnatic,Monte,fnatic,Monte
+2384765,Overpass,2,fnatic,Monte,fnatic,fnatic
+2384840,Ancient,1,M80,Natus Vincere,M80,Natus Vincere
+2384840,Train,2,M80,Natus Vincere,M80,Natus Vincere
+2384840,Inferno,3,M80,Natus Vincere,Natus Vincere,Natus Vincere
+2384764,Mirage,1,ENCE,Monte,Monte,Monte
+2384764,Nuke,2,ENCE,Monte,ENCE,Monte
+2384887,Mirage,1,FUT,BetBoom,BetBoom,BetBoom
+2384887,Overpass,2,FUT,BetBoom,FUT,BetBoom
+2384887,Dust2,3,FUT,BetBoom,BetBoom,FUT
+2384969,Nuke,1,3DMAX,TYLOO,TYLOO,3DMAX
+2384969,Train,2,3DMAX,TYLOO,3DMAX,TYLOO
+2384841,Train,1,fnatic,GamerLegion,GamerLegion,fnatic
+2384841,Ancient,2,fnatic,GamerLegion,fnatic,GamerLegion
+2384832,Overpass,1,CYBERSHOKE,K27,K27,K27
+2384832,Dust2,2,CYBERSHOKE,K27,K27,K27
+2384968,Nuke,1,TYLOO,Lynn Vision,Lynn Vision,TYLOO
+2384968,Inferno,2,TYLOO,Lynn Vision,TYLOO,TYLOO
+2384968,Overpass,3,TYLOO,Lynn Vision,TYLOO,Lynn Vision
+2384944,Mirage,1,BESTIA,RED Canids,RED Canids,BESTIA
+2384944,Ancient,2,BESTIA,RED Canids,RED Canids,BESTIA
+2384762,Overpass,1,Monte,fnatic,Monte,fnatic
+2384762,Mirage,2,Monte,fnatic,Monte,Monte
+2384762,Train,3,Monte,fnatic,fnatic,fnatic
+2384847,Mirage,1,Spirit,FURIA,Spirit,FURIA
+2384847,Nuke,2,Spirit,FURIA,Spirit,Spirit
+2384763,Train,1,ENCE,9INE,9INE,ENCE
+2384763,Dust2,2,ENCE,9INE,ENCE,ENCE
+2384846,Ancient,1,MOUZ,G2,MOUZ,G2
+2384846,Mirage,2,MOUZ,G2,MOUZ,G2
+2384831,Train,1,CYBERSHOKE,1win,CYBERSHOKE,CYBERSHOKE
+2384831,Mirage,2,CYBERSHOKE,1win,1win,1win
+2384831,Overpass,3,CYBERSHOKE,1win,1win,CYBERSHOKE
+2384761,Nuke,1,EYEBALLERS,9INE,EYEBALLERS,EYEBALLERS
+2384761,Inferno,2,EYEBALLERS,9INE,9INE,EYEBALLERS
+2384761,Train,3,EYEBALLERS,9INE,9INE,EYEBALLERS
+2384760,Mirage,1,Gentle Mates,ENCE,ENCE,Gentle Mates
+2384760,Nuke,2,Gentle Mates,ENCE,Gentle Mates,ENCE
+2384845,Mirage,1,FlyQuest,Legacy,Legacy,FlyQuest
+2384845,Nuke,2,FlyQuest,Legacy,Legacy,Legacy
+2384845,Inferno,3,FlyQuest,Legacy,FlyQuest,FlyQuest
+2384884,Ancient,1,BetBoom,OG,OG,BetBoom
+2384884,Train,2,BetBoom,OG,BetBoom,BetBoom
+2384884,Nuke,3,BetBoom,OG,OG,OG
+2384758,Mirage,1,Ninjas in Pyjamas,ENCE,ENCE,ENCE
+2384758,Nuke,2,Ninjas in Pyjamas,ENCE,Ninjas in Pyjamas,ENCE
+2384758,Overpass,3,Ninjas in Pyjamas,ENCE,ENCE,Ninjas in Pyjamas
+2384984,Ancient,1,The Huns,Chinggis Warriors,The Huns,Chinggis Warriors
+2384984,Mirage,2,The Huns,Chinggis Warriors,Chinggis Warriors,Chinggis Warriors
+2384984,Inferno,3,The Huns,Chinggis Warriors,The Huns,The Huns
+2384844,Dust2,1,Imperial,Liquid,Imperial,Liquid
+2384844,Train,2,Imperial,Liquid,Imperial,Liquid
+2384844,Nuke,3,Imperial,Liquid,Liquid,Liquid
+2384759,Ancient,1,Passion UA,9INE,9INE,Passion UA
+2384759,Overpass,2,Passion UA,9INE,Passion UA,9INE
+2384883,Dust2,1,FUT,Alliance,FUT,Alliance
+2384883,Inferno,2,FUT,Alliance,Alliance,Alliance
+2384883,Ancient,3,FUT,Alliance,FUT,FUT
+2384967,Ancient,1,Lynn Vision,B8,Lynn Vision,Lynn Vision
+2384967,Dust2,2,Lynn Vision,B8,Lynn Vision,B8
+2384967,Inferno,3,Lynn Vision,B8,Lynn Vision,Lynn Vision
+2384756,Mirage,1,EYEBALLERS,fnatic,fnatic,EYEBALLERS
+2384756,Train,2,EYEBALLERS,fnatic,EYEBALLERS,fnatic
+2384756,Dust2,3,EYEBALLERS,fnatic,EYEBALLERS,fnatic
+2384983,Ancient,1,Eruption,Chinggis Warriors,Chinggis Warriors,Chinggis Warriors
+2384983,Inferno,2,Eruption,Chinggis Warriors,Eruption,Eruption
+2384757,Mirage,1,Monte,Gentle Mates,Monte,Monte
+2384757,Nuke,2,Monte,Gentle Mates,Monte,Monte
+2384982,Inferno,1,Chinggis Warriors,The Huns,Chinggis Warriors,Chinggis Warriors
+2384982,Nuke,2,Chinggis Warriors,The Huns,The Huns,The Huns
+2384965,Inferno,1,Rare Atom,Lynn Vision,Lynn Vision,Lynn Vision
+2384965,Dust2,2,Rare Atom,Lynn Vision,Rare Atom,Rare Atom
+2384965,Ancient,3,Rare Atom,Lynn Vision,Rare Atom,Lynn Vision
+2384943,Train,1,RED Canids,9z,9z,RED Canids
+2384943,Nuke,2,RED Canids,9z,RED Canids,9z
+2384754,Ancient,1,Gentle Mates,9INE,Gentle Mates,9INE
+2384754,Nuke,2,Gentle Mates,9INE,Gentle Mates,Gentle Mates
+2384754,Inferno,3,Gentle Mates,9INE,9INE,Gentle Mates
+2384755,Dust2,1,fnatic,ENCE,ENCE,fnatic
+2384755,Train,2,fnatic,ENCE,ENCE,fnatic
+2384755,Mirage,3,fnatic,ENCE,ENCE,fnatic
+2384839,Mirage,1,FaZe,Natus Vincere,FaZe,FaZe
+2384839,Dust2,2,FaZe,Natus Vincere,FaZe,FaZe
+2384961,Inferno,1,BIG Academy,G2 Ares,BIG Academy,G2 Ares
+2384961,Train,2,BIG Academy,G2 Ares,BIG Academy,BIG Academy
+2384961,Mirage,3,BIG Academy,G2 Ares,G2 Ares,G2 Ares
+2384838,Train,1,Vitality,GamerLegion,Vitality,GamerLegion
+2384838,Inferno,2,Vitality,GamerLegion,GamerLegion,GamerLegion
+2384838,Nuke,3,Vitality,GamerLegion,GamerLegion,Vitality
+2384752,Mirage,1,Ninjas in Pyjamas,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2384752,Ancient,2,Ninjas in Pyjamas,EYEBALLERS,Ninjas in Pyjamas,Ninjas in Pyjamas
+2384752,Dust2,3,Ninjas in Pyjamas,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2384753,Nuke,1,Passion UA,Monte,Monte,Passion UA
+2384753,Train,2,Passion UA,Monte,Monte,Monte
+2384569,Ancient,1,Lynn Vision,Rare Atom,Lynn Vision,Lynn Vision
+2384569,Dust2,2,Lynn Vision,Rare Atom,Lynn Vision,Rare Atom
+2384837,Overpass,1,M80,Virtus.pro,Virtus.pro,M80
+2384837,Dust2,2,M80,Virtus.pro,Virtus.pro,M80
+2384837,Mirage,3,M80,Virtus.pro,M80,M80
+2384828,Overpass,1,ARCRED,FORZE Reload,FORZE Reload,ARCRED
+2384828,Nuke,2,ARCRED,FORZE Reload,FORZE Reload,ARCRED
+2384828,Train,3,ARCRED,FORZE Reload,ARCRED,FORZE Reload
+2384964,Nuke,1,3DMAX,TYLOO,TYLOO,TYLOO
+2384964,Overpass,2,3DMAX,TYLOO,3DMAX,TYLOO
+2384964,Inferno,3,3DMAX,TYLOO,3DMAX,3DMAX
+2384741,Nuke,1,Monte,Tricked,Monte,Monte
+2384740,Ancient,1,9INE,Inner Circle,Inner Circle,9INE
+2384836,Ancient,1,ECSTATIC,fnatic,ECSTATIC,fnatic
+2384836,Mirage,2,ECSTATIC,fnatic,ECSTATIC,fnatic
+2384963,Mirage,1,TYLOO,B8,TYLOO,TYLOO
+2384963,Overpass,2,TYLOO,B8,TYLOO,TYLOO
+2384963,Train,3,TYLOO,B8,TYLOO,B8
+2384979,Mirage,1,Chinggis Warriors,Eruption,Eruption,Chinggis Warriors
+2384979,Ancient,2,Chinggis Warriors,Eruption,Chinggis Warriors,Chinggis Warriors
+2384979,Overpass,3,Chinggis Warriors,Eruption,Eruption,Eruption
+2384962,Dust2,1,3DMAX,Lynn Vision,3DMAX,3DMAX
+2384962,Nuke,2,3DMAX,Lynn Vision,Lynn Vision,Lynn Vision
+2384942,Ancient,1,Fluxo,BESTIA,Fluxo,BESTIA
+2384942,Inferno,2,Fluxo,BESTIA,Fluxo,Fluxo
+2384942,Mirage,3,Fluxo,BESTIA,BESTIA,BESTIA
+2384814,Inferno,1,FURIA,Legacy,FURIA,FURIA
+2384814,Nuke,2,FURIA,Legacy,Legacy,Legacy
+2384814,Mirage,3,FURIA,Legacy,FURIA,FURIA
+2384952,Train,1,OG,PARIVISION,OG,PARIVISION
+2384952,Mirage,2,OG,PARIVISION,OG,PARIVISION
+2384878,Nuke,1,BetBoom,Monte,BetBoom,BetBoom
+2384878,Mirage,2,BetBoom,Monte,Monte,BetBoom
+2384825,Ancient,1,CYBERSHOKE,Nuclear TigeRES,Nuclear TigeRES,CYBERSHOKE
+2384825,Mirage,2,CYBERSHOKE,Nuclear TigeRES,CYBERSHOKE,CYBERSHOKE
+2384825,Nuke,3,CYBERSHOKE,Nuclear TigeRES,Nuclear TigeRES,CYBERSHOKE
+2384813,Mirage,1,Spirit,FlyQuest,FlyQuest,Spirit
+2384813,Dust2,2,Spirit,FlyQuest,Spirit,Spirit
+2384812,Train,1,G2,Liquid,Liquid,G2
+2384812,Inferno,2,G2,Liquid,Liquid,G2
+2384876,Train,1,ENCE,ARCRED,ARCRED,ENCE
+2384811,Overpass,1,MOUZ,Imperial,Imperial,Imperial
+2384811,Mirage,2,MOUZ,Imperial,MOUZ,MOUZ
+2384811,Nuke,3,MOUZ,Imperial,MOUZ,MOUZ
+2384875,Overpass,1,HOTU,Alliance,HOTU,HOTU
+2384875,Nuke,2,HOTU,Alliance,Alliance,Alliance
+2384875,Dust2,3,HOTU,Alliance,HOTU,HOTU
+2384823,Inferno,1,Sangal,1win,Sangal,1win
+2384823,Overpass,2,Sangal,1win,Sangal,Sangal
+2384823,Mirage,3,Sangal,1win,Sangal,Sangal
+2384810,Train,1,Natus Vincere,fnatic,Natus Vincere,Natus Vincere
+2384810,Mirage,2,Natus Vincere,fnatic,fnatic,Natus Vincere
+2384695,Overpass,1,Johnny Speeds,ENCE,ENCE,Johnny Speeds
+2384695,Dust2,2,Johnny Speeds,ENCE,Johnny Speeds,Johnny Speeds
+2384695,Mirage,3,Johnny Speeds,ENCE,Johnny Speeds,ENCE
+2384693,Dust2,1,PARIVISION,9INE,9INE,9INE
+2384693,Overpass,2,PARIVISION,9INE,PARIVISION,9INE
+2384693,Ancient,3,PARIVISION,9INE,9INE,9INE
+2384822,Train,1,Sangal,FORZE Reload,Sangal,Sangal
+2384822,Overpass,2,Sangal,FORZE Reload,FORZE Reload,Sangal
+2384822,Nuke,3,Sangal,FORZE Reload,Sangal,Sangal
+2384694,Mirage,1,Gentle Mates,OG,OG,Gentle Mates
+2384694,Ancient,2,Gentle Mates,OG,Gentle Mates,OG
+2384809,Overpass,1,FaZe,ECSTATIC,ECSTATIC,FaZe
+2384809,Dust2,2,FaZe,ECSTATIC,FaZe,FaZe
+2384809,Inferno,3,FaZe,ECSTATIC,FaZe,FaZe
+2384567,Ancient,1,Rare Atom,Lynn Vision,Lynn Vision,Lynn Vision
+2384567,Dust2,2,Rare Atom,Lynn Vision,Lynn Vision,Lynn Vision
+2384567,Overpass,3,Rare Atom,Lynn Vision,Rare Atom,Lynn Vision
+2384808,Dust2,1,GamerLegion,Virtus.pro,Virtus.pro,GamerLegion
+2384808,Ancient,2,GamerLegion,Virtus.pro,Virtus.pro,GamerLegion
+2384807,Overpass,1,Vitality,M80,Vitality,M80
+2384807,Dust2,2,Vitality,M80,M80,Vitality
+2384807,Inferno,3,Vitality,M80,M80,M80
+2384579,Nuke,1,BESTIA,9z,BESTIA,BESTIA
+2384579,Ancient,2,BESTIA,9z,9z,BESTIA
+2384579,Dust2,3,BESTIA,9z,BESTIA,BESTIA
+2384581,Nuke,1,Fluxo,ShindeN,ShindeN,Fluxo
+2384581,Inferno,2,Fluxo,ShindeN,Fluxo,Fluxo
+2384689,Mirage,1,OG,BC.Game,BC.Game,BC.Game
+2384689,Nuke,2,OG,BC.Game,OG,BC.Game
+2384689,Ancient,3,OG,BC.Game,OG,OG
+2384688,Inferno,1,Gentle Mates,Nemiga,Gentle Mates,Nemiga
+2384688,Ancient,2,Gentle Mates,Nemiga,Gentle Mates,Nemiga
+2384870,Ancient,1,Betclic,Monte,Betclic,Monte
+2384870,Inferno,2,Betclic,Monte,Betclic,Monte
+2384870,Nuke,3,Betclic,Monte,Betclic,Monte
+2384728,Ancient,1,Sangal,Nuclear TigeRES,Sangal,Nuclear TigeRES
+2384728,Nuke,2,Sangal,Nuclear TigeRES,Sangal,Nuclear TigeRES
+2384388,Mirage,1,The MongolZ,Aurora,The MongolZ,Aurora
+2384388,Dust2,2,The MongolZ,Aurora,Aurora,The MongolZ
+2384388,Nuke,3,The MongolZ,Aurora,The MongolZ,Aurora
+2384800,Nuke,1,Tricked,Monte,Tricked,Tricked
+2384800,Dust2,2,Tricked,Monte,Monte,Monte
+2384725,Ancient,1,CYBERSHOKE,K27,K27,CYBERSHOKE
+2384725,Dust2,2,CYBERSHOKE,K27,K27,K27
+2384725,Overpass,3,CYBERSHOKE,K27,K27,CYBERSHOKE
+2384387,Inferno,1,Vitality,Falcons,Vitality,Vitality
+2384387,Train,2,Vitality,Falcons,Falcons,Falcons
+2384387,Nuke,3,Vitality,Falcons,Vitality,Falcons
+2384386,Inferno,1,Aurora,Falcons,Aurora,Aurora
+2384386,Train,2,Aurora,Falcons,Aurora,Falcons
+2384385,Mirage,1,The MongolZ,Vitality,The MongolZ,The MongolZ
+2384385,Dust2,2,The MongolZ,Vitality,Vitality,The MongolZ
+2384385,Nuke,3,The MongolZ,Vitality,The MongolZ,The MongolZ
+2384599,Overpass,1,Alliance,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2384599,Nuke,2,Alliance,EYEBALLERS,Alliance,Alliance
+2384599,Inferno,3,Alliance,EYEBALLERS,Alliance,Alliance
+2384599,Dust2,4,Alliance,EYEBALLERS,EYEBALLERS,Alliance
+2384599,Train,5,Alliance,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2384857,Inferno,1,Marsborne,BOSS,BOSS,BOSS
+2384383,Ancient,1,Falcons,MOUZ,MOUZ,MOUZ
+2384383,Inferno,2,Falcons,MOUZ,Falcons,Falcons
+2384383,Nuke,3,Falcons,MOUZ,Falcons,Falcons
+2384687,Mirage,1,BC.Game,BetBoom,BetBoom,BetBoom
+2384687,Nuke,2,BC.Game,BetBoom,BC.Game,BetBoom
+2384384,Mirage,1,HEROIC,Aurora,Aurora,Aurora
+2384384,Dust2,2,HEROIC,Aurora,HEROIC,HEROIC
+2384547,Inferno,1,Alliance,ARCRED,Alliance,ARCRED
+2384547,Train,2,Alliance,ARCRED,ARCRED,ARCRED
+2384598,Overpass,1,FORZE Reload,EYEBALLERS,FORZE Reload,EYEBALLERS
+2384598,Nuke,2,FORZE Reload,EYEBALLERS,EYEBALLERS,FORZE Reload
+2384598,Dust2,3,FORZE Reload,EYEBALLERS,FORZE Reload,FORZE Reload
+2384685,Nuke,1,BC.Game,OG,OG,BC.Game
+2384685,Mirage,2,BC.Game,OG,OG,BC.Game
+2384667,Ancient,1,EYEBALLERS,BIG Academy,BIG Academy,BIG Academy
+2384667,Inferno,2,EYEBALLERS,BIG Academy,BIG Academy,EYEBALLERS
+2384381,Inferno,1,TYLOO,Vitality,Vitality,TYLOO
+2384381,Nuke,2,TYLOO,Vitality,TYLOO,Vitality
+2384382,Ancient,1,The MongolZ,3DMAX,3DMAX,The MongolZ
+2384382,Inferno,2,The MongolZ,3DMAX,3DMAX,3DMAX
+2384382,Nuke,3,The MongolZ,3DMAX,The MongolZ,3DMAX
+2384683,Inferno,1,fnatic,OG,OG,OG
+2384683,Ancient,2,fnatic,OG,fnatic,OG
+2384303,Inferno,1,MOUZ,Virtus.pro,MOUZ,Virtus.pro
+2384303,Mirage,2,MOUZ,Virtus.pro,MOUZ,Virtus.pro
+2384303,Overpass,3,MOUZ,Virtus.pro,MOUZ,Virtus.pro
+2384596,Inferno,1,GenOne,EYEBALLERS,GenOne,GenOne
+2384596,Train,2,GenOne,EYEBALLERS,GenOne,EYEBALLERS
+2384304,Ancient,1,G2,Falcons,Falcons,G2
+2384304,Train,2,G2,Falcons,G2,Falcons
+2384597,Nuke,1,Alliance,FORZE Reload,Alliance,FORZE Reload
+2384597,Ancient,2,Alliance,FORZE Reload,FORZE Reload,FORZE Reload
+2384597,Dust2,3,Alliance,FORZE Reload,Alliance,FORZE Reload
+2384681,Train,1,ECSTATIC,BetBoom,BetBoom,BetBoom
+2384681,Nuke,2,ECSTATIC,BetBoom,BetBoom,ECSTATIC
+2384681,Overpass,3,ECSTATIC,BetBoom,ECSTATIC,ECSTATIC
+2384541,Dust2,1,FAVBET,Monte,FAVBET,FAVBET
+2384717,Inferno,1,ARCRED,1win,ARCRED,1win
+2384717,Train,2,ARCRED,1win,ARCRED,ARCRED
+2384572,Ancient,1,Sharks,Fluxo,Fluxo,Fluxo
+2384572,Nuke,2,Sharks,Fluxo,Fluxo,Sharks
+2384305,Inferno,1,FaZe,Aurora,Aurora,FaZe
+2384305,Mirage,2,FaZe,Aurora,Aurora,FaZe
+2384305,Overpass,3,FaZe,Aurora,Aurora,Aurora
+2384306,Ancient,1,Spirit,HEROIC,Spirit,HEROIC
+2384306,Nuke,2,Spirit,HEROIC,HEROIC,HEROIC
+2384306,Mirage,3,Spirit,HEROIC,Spirit,HEROIC
+2384680,Ancient,1,BetBoom,Betclic,BetBoom,BetBoom
+2384680,Nuke,2,BetBoom,Betclic,Betclic,BetBoom
+2384540,Inferno,1,Tricked,ARCRED,ARCRED,Tricked
+2384540,Mirage,2,Tricked,ARCRED,ARCRED,Tricked
+2384299,Mirage,1,Vitality,Liquid,Vitality,Liquid
+2384299,Dust2,2,Vitality,Liquid,Vitality,Vitality
+2384300,Inferno,1,TYLOO,Astralis,TYLOO,Astralis
+2384300,Overpass,2,TYLOO,Astralis,TYLOO,TYLOO
+2384300,Train,3,TYLOO,Astralis,Astralis,TYLOO
+2384715,Nuke,1,CYBERSHOKE,FORZE Reload,CYBERSHOKE,FORZE Reload
+2384715,Dust2,2,CYBERSHOKE,FORZE Reload,FORZE Reload,CYBERSHOKE
+2384301,Ancient,1,Natus Vincere,3DMAX,3DMAX,Natus Vincere
+2384301,Inferno,2,Natus Vincere,3DMAX,3DMAX,Natus Vincere
+2384301,Nuke,3,Natus Vincere,3DMAX,Natus Vincere,Natus Vincere
+2384664,Overpass,1,G2 Ares,BIG Academy,BIG Academy,G2 Ares
+2384664,Inferno,2,G2 Ares,BIG Academy,G2 Ares,BIG Academy
+2384664,Mirage,3,G2 Ares,BIG Academy,BIG Academy,G2 Ares
+2384595,Ancient,1,GenOne,K27,K27,GenOne
+2384595,Dust2,2,GenOne,K27,GenOne,GenOne
+2384595,Nuke,3,GenOne,K27,GenOne,K27
+2384302,Overpass,1,GamerLegion,The MongolZ,GamerLegion,GamerLegion
+2384302,Inferno,2,GamerLegion,The MongolZ,The MongolZ,The MongolZ
+2384678,Mirage,1,ENCE,BC.Game,BC.Game,ENCE
+2384678,Dust2,2,ENCE,BC.Game,ENCE,BC.Game
+2384677,Inferno,1,fnatic,Tricked,fnatic,Tricked
+2384677,Dust2,2,fnatic,Tricked,fnatic,fnatic
+2384778,Ancient,1,Wildcard,BOSS,BOSS,Wildcard
+2384778,Overpass,2,Wildcard,BOSS,Wildcard,BOSS
+2384630,Nuke,1,Fluxo,9z,Fluxo,9z
+2384630,Ancient,2,Fluxo,9z,9z,9z
+2384629,Inferno,1,Sharks,9z,9z,9z
+2384629,Ancient,2,Sharks,9z,9z,Sharks
+2384629,Nuke,3,Sharks,9z,Sharks,9z
+2384592,Overpass,1,K27,FORZE Reload,FORZE Reload,FORZE Reload
+2384592,Dust2,2,K27,FORZE Reload,K27,K27
+2384592,Ancient,3,K27,FORZE Reload,FORZE Reload,FORZE Reload
+2384674,Dust2,1,ECSTATIC,HOTU,HOTU,ECSTATIC
+2384674,Train,2,ECSTATIC,HOTU,ECSTATIC,ECSTATIC
+2384593,Nuke,1,Alliance,EYEBALLERS,Alliance,Alliance
+2384593,Dust2,2,Alliance,EYEBALLERS,EYEBALLERS,EYEBALLERS
+2384627,Ancient,1,BESTIA,Fluxo,Fluxo,BESTIA
+2384627,Inferno,2,BESTIA,Fluxo,BESTIA,Fluxo
+2384627,Mirage,3,BESTIA,Fluxo,BESTIA,Fluxo
+2384647,Dust2,1,Tricked,JiJieHao,JiJieHao,JiJieHao
+2384647,Inferno,2,Tricked,JiJieHao,JiJieHao,Tricked
+2384647,Nuke,3,Tricked,JiJieHao,Tricked,JiJieHao
+2384646,Mirage,1,ARCRED,HOTU,HOTU,HOTU
+2384646,Ancient,2,ARCRED,HOTU,ARCRED,ARCRED
+2384624,Inferno,1,9z,ODDIK,ODDIK,9z
+2384624,Train,2,9z,ODDIK,9z,ODDIK
+2384710,Inferno,1,Fluxo,Imperial,Imperial,Fluxo
+2384710,Mirage,2,Fluxo,Imperial,Imperial,Imperial
+2384622,Nuke,1,Sharks,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2384622,Mirage,2,Sharks,Bounty Hunters,Bounty Hunters,Bounty Hunters
+2384708,Inferno,1,Imperial,BESTIA,BESTIA,Imperial
+2384708,Dust2,2,Imperial,BESTIA,Imperial,BESTIA
+2384708,Mirage,3,Imperial,BESTIA,BESTIA,BESTIA
+2384498,Train,1,PARIVISION,ECSTATIC,PARIVISION,PARIVISION
+2384498,Dust2,2,PARIVISION,ECSTATIC,ECSTATIC,ECSTATIC
+2384498,Inferno,3,PARIVISION,ECSTATIC,PARIVISION,PARIVISION
+2384156,Nuke,1,Spirit,The MongolZ,Spirit,Spirit
+2384156,Mirage,2,Spirit,The MongolZ,Spirit,Spirit
+2384156,Ancient,3,Spirit,The MongolZ,Spirit,Spirit
+2384657,Mirage,1,G2 Ares,EYEBALLERS,G2 Ares,EYEBALLERS
+2384657,Inferno,2,G2 Ares,EYEBALLERS,EYEBALLERS,G2 Ares
+2384657,Train,3,G2 Ares,EYEBALLERS,G2 Ares,G2 Ares
+2384497,Train,1,9INE,BIG,BIG,9INE
+2384497,Inferno,2,9INE,BIG,9INE,BIG
+2384497,Nuke,3,9INE,BIG,BIG,BIG
+2384500,Mirage,1,OG,FUT,OG,FUT
+2384500,Nuke,2,OG,FUT,OG,OG
+2384576,Ancient,1,GenOne,Alliance,Alliance,GenOne
+2384576,Inferno,2,GenOne,Alliance,Alliance,Alliance
+2384602,Dust2,1,9INE,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2384602,Inferno,2,9INE,Johnny Speeds,Johnny Speeds,9INE
+2384602,Overpass,3,9INE,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2384601,Mirage,1,BetBoom,BC.Game,BC.Game,BC.Game
+2384601,Nuke,2,BetBoom,BC.Game,BetBoom,BetBoom
+2384601,Dust2,3,BetBoom,BC.Game,BC.Game,BC.Game
+2384603,Ancient,1,ENCE,PARIVISION,PARIVISION,ENCE
+2384603,Dust2,2,ENCE,PARIVISION,ENCE,PARIVISION
+2384603,Mirage,3,ENCE,PARIVISION,ENCE,PARIVISION
+2384605,Nuke,1,OG,BIG,OG,OG
+2384605,Train,2,OG,BIG,OG,BIG
+2384155,Mirage,1,Vitality,The MongolZ,Vitality,The MongolZ
+2384155,Inferno,2,Vitality,The MongolZ,The MongolZ,Vitality
+2384494,Dust2,1,ENCE,fnatic,fnatic,ENCE
+2384494,Train,2,ENCE,fnatic,ENCE,ENCE
+2384494,Ancient,3,ENCE,fnatic,fnatic,fnatic
+2384154,Ancient,1,MOUZ,Spirit,MOUZ,MOUZ
+2384154,Mirage,2,MOUZ,Spirit,MOUZ,MOUZ
+2384640,Dust2,1,9INE,CYBERSHOKE,9INE,CYBERSHOKE
+2384640,Ancient,2,9INE,CYBERSHOKE,9INE,9INE
+2384639,Ancient,1,BC.Game,ARCRED,BC.Game,ARCRED
+2384639,Inferno,2,BC.Game,ARCRED,ARCRED,ARCRED
+2384495,Mirage,1,JiJieHao,ECSTATIC,JiJieHao,ECSTATIC
+2384495,Inferno,2,JiJieHao,ECSTATIC,ECSTATIC,ECSTATIC
+2384268,Nuke,1,NRG,Wildcard,NRG,NRG
+2384268,Train,2,NRG,Wildcard,Wildcard,Wildcard
+2384328,Nuke,1,Imperial,ODDIK,Imperial,Imperial
+2384328,Inferno,2,Imperial,ODDIK,Imperial,Imperial
+2384455,Default,1,BESTIA,Sharks,BESTIA,Sharks
+2384508,Dust2,1,HOTU,9INE,HOTU,9INE
+2384508,Overpass,2,HOTU,9INE,9INE,HOTU
+2384327,Train,1,ODDIK,Sharks,ODDIK,Sharks
+2384327,Nuke,2,ODDIK,Sharks,Sharks,Sharks
+2384327,Ancient,3,ODDIK,Sharks,Sharks,Sharks
+2384582,Mirage,1,Sangal,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2384582,Overpass,2,Sangal,CYBERSHOKE,CYBERSHOKE,Sangal
+2384582,Nuke,3,Sangal,CYBERSHOKE,Sangal,Sangal
+2384585,Nuke,1,Betclic,BIG,Betclic,BIG
+2384585,Train,2,Betclic,BIG,Betclic,BIG
+2384153,Ancient,1,Spirit,Virtus.pro,Spirit,Spirit
+2384153,Overpass,2,Spirit,Virtus.pro,Spirit,Spirit
+2384152,Train,1,Vitality,Liquid,Vitality,Vitality
+2384152,Nuke,2,Vitality,Liquid,Liquid,Vitality
+2384507,Mirage,1,ARCRED,Sangal,Sangal,ARCRED
+2384507,Inferno,2,ARCRED,Sangal,Sangal,ARCRED
+2384507,Train,3,ARCRED,Sangal,Sangal,Sangal
+2384490,Overpass,1,BetBoom,fnatic,fnatic,BetBoom
+2384490,Train,2,BetBoom,fnatic,fnatic,BetBoom
+2384487,Mirage,1,OG,JiJieHao,OG,OG
+2384487,Nuke,2,OG,JiJieHao,OG,OG
+2384472,Inferno,1,M80,Marsborne,M80,M80
+2384472,Overpass,2,M80,Marsborne,Marsborne,M80
+2384267,Overpass,1,M80,Wildcard,M80,Wildcard
+2384267,Dust2,2,M80,Wildcard,Wildcard,M80
+2384326,Inferno,1,Sharks,RED Canids,Sharks,Sharks
+2384326,Mirage,2,Sharks,RED Canids,Sharks,RED Canids
+2384326,Nuke,3,Sharks,RED Canids,Sharks,Sharks
+2384441,Overpass,1,Johnny Speeds,BIG,BIG,BIG
+2384441,Mirage,2,Johnny Speeds,BIG,BIG,Johnny Speeds
+2384441,Train,3,Johnny Speeds,BIG,Johnny Speeds,Johnny Speeds
+2384504,Mirage,1,Betclic,Tricked,Betclic,Tricked
+2384504,Nuke,2,Betclic,Tricked,Tricked,Betclic
+2384504,Ancient,3,Betclic,Tricked,Betclic,Betclic
+2384439,Dust2,1,BetBoom,HOTU,HOTU,BetBoom
+2384439,Overpass,2,BetBoom,HOTU,BetBoom,HOTU
+2384442,Nuke,1,9INE,OG,OG,9INE
+2384442,Inferno,2,9INE,OG,9INE,OG
+2384437,Train,1,Nemiga,Alliance,Nemiga,Alliance
+2384437,Dust2,2,Nemiga,Alliance,Nemiga,Nemiga
+2384444,Dust2,1,CYBERSHOKE,ENCE,ENCE,ENCE
+2384444,Ancient,2,CYBERSHOKE,ENCE,ENCE,CYBERSHOKE
+2384151,Dust2,1,The MongolZ,Aurora,Aurora,The MongolZ
+2384151,Mirage,2,The MongolZ,Aurora,Aurora,The MongolZ
+2384325,Dust2,1,ODDIK,Imperial,Imperial,ODDIK
+2384325,Train,2,ODDIK,Imperial,Imperial,ODDIK
+2384215,Nuke,1,ENCE,SINNERS,ENCE,SINNERS
+2384215,Dust2,2,ENCE,SINNERS,ENCE,ENCE
+2384215,Mirage,3,ENCE,SINNERS,SINNERS,ENCE
+2384150,Nuke,1,MOUZ,Astralis,Astralis,MOUZ
+2384150,Mirage,2,MOUZ,Astralis,MOUZ,MOUZ
+2384553,Overpass,1,Lynn Vision,The Huns,The Huns,Lynn Vision
+2384553,Dust2,2,Lynn Vision,The Huns,The Huns,Lynn Vision
+2384482,Dust2,1,ECSTATIC,JiJieHao,JiJieHao,JiJieHao
+2384482,Nuke,2,ECSTATIC,JiJieHao,JiJieHao,JiJieHao
+2384213,Ancient,1,ENCE,Betclic,Betclic,ENCE
+2384213,Mirage,2,ENCE,Betclic,ENCE,Betclic
+2384324,Mirage,1,Imperial,RED Canids,Imperial,Imperial
+2384324,Nuke,2,Imperial,RED Canids,RED Canids,Imperial
+2384324,Inferno,3,Imperial,RED Canids,Imperial,RED Canids
+2384264,Inferno,1,M80,Marsborne,M80,Marsborne
+2384264,Ancient,2,M80,Marsborne,M80,M80
+2384486,Dust2,1,ENCE,PARIVISION,PARIVISION,ENCE
+2384486,Mirage,2,ENCE,PARIVISION,ENCE,ENCE
+2384486,Ancient,3,ENCE,PARIVISION,ENCE,PARIVISION
+2384212,Nuke,1,HOTU,SINNERS,SINNERS,SINNERS
+2384212,Dust2,2,HOTU,SINNERS,SINNERS,SINNERS
+2384485,Overpass,1,BIG,9INE,BIG,9INE
+2384485,Dust2,2,BIG,9INE,9INE,9INE
+2384485,Ancient,3,BIG,9INE,9INE,9INE
+2384432,Ancient,1,Betclic,Passion UA,Betclic,Passion UA
+2384432,Dust2,2,Betclic,Passion UA,Passion UA,Betclic
+2384323,Nuke,1,Sharks,ODDIK,ODDIK,Sharks
+2384323,Ancient,2,Sharks,ODDIK,Sharks,ODDIK
+2384480,Ancient,1,fnatic,PARIVISION,PARIVISION,PARIVISION
+2384480,Train,2,fnatic,PARIVISION,PARIVISION,fnatic
+2384480,Mirage,3,fnatic,PARIVISION,PARIVISION,PARIVISION
+2384478,Mirage,1,Ninjas in Pyjamas,9INE,Ninjas in Pyjamas,Ninjas in Pyjamas
+2384478,Ancient,2,Ninjas in Pyjamas,9INE,9INE,Ninjas in Pyjamas
+2384478,Overpass,3,Ninjas in Pyjamas,9INE,9INE,9INE
+2384479,Nuke,1,ENCE,BetBoom,ENCE,ENCE
+2384479,Mirage,2,ENCE,BetBoom,BetBoom,BetBoom
+2384479,Ancient,3,ENCE,BetBoom,ENCE,ENCE
+2384477,Mirage,1,BIG,Passion UA,BIG,BIG
+2384477,Train,2,BIG,Passion UA,BIG,BIG
+2384337,Mirage,1,Imperial,ShindeN,Imperial,ShindeN
+2384337,Nuke,2,Imperial,ShindeN,ShindeN,Imperial
+2384337,Dust2,3,Imperial,ShindeN,ShindeN,Imperial
+2384262,Mirage,1,NRG,BOSS,NRG,BOSS
+2384262,Overpass,2,NRG,BOSS,NRG,BOSS
+2384279,Inferno,1,9INE,Tricked,Tricked,9INE
+2384279,Dust2,2,9INE,Tricked,Tricked,9INE
+2384279,Ancient,3,9INE,Tricked,9INE,9INE
+2384208,Ancient,1,HOTU,ARCRED,HOTU,HOTU
+2384208,Mirage,2,HOTU,ARCRED,HOTU,ARCRED
+2384282,Inferno,1,Sashi,PARIVISION,PARIVISION,Sashi
+2384282,Mirage,2,Sashi,PARIVISION,PARIVISION,PARIVISION
+2384207,Train,1,Betclic,FAVBET,Betclic,FAVBET
+2384207,Nuke,2,Betclic,FAVBET,Betclic,FAVBET
+2384406,Ancient,1,Chinggis Warriors,The Huns,The Huns,The Huns
+2384406,Nuke,2,Chinggis Warriors,The Huns,Chinggis Warriors,Chinggis Warriors
+2384408,Dust2,1,Rare Atom,Eruption,Eruption,Rare Atom
+2384408,Mirage,2,Rare Atom,Eruption,Eruption,Rare Atom
+2384206,Dust2,1,Alliance,SINNERS,Alliance,SINNERS
+2384206,Nuke,2,Alliance,SINNERS,SINNERS,SINNERS
+2384206,Overpass,3,Alliance,SINNERS,SINNERS,SINNERS
+2384286,Mirage,1,UNiTY,MOUZ NXT,MOUZ NXT,MOUZ NXT
+2384286,Ancient,2,UNiTY,MOUZ NXT,UNiTY,UNiTY
+2384286,Train,3,UNiTY,MOUZ NXT,UNiTY,MOUZ NXT
+2384315,Nuke,1,HOTU,Tricked,Tricked,Tricked
+2384315,Dust2,2,HOTU,Tricked,HOTU,Tricked
+2384315,Ancient,3,HOTU,Tricked,Tricked,HOTU
+2384270,Inferno,1,Alliance,Sangal,Alliance,Sangal
+2384270,Overpass,2,Alliance,Sangal,Sangal,Sangal
+2384270,Train,3,Alliance,Sangal,Sangal,Alliance
+2384275,Overpass,1,Betclic,BC.Game,BC.Game,Betclic
+2384275,Mirage,2,Betclic,BC.Game,BC.Game,BC.Game
+2384275,Ancient,3,Betclic,BC.Game,Betclic,Betclic
+2384401,Train,1,GamerLegion,BIG,BIG,GamerLegion
+2384401,Nuke,2,GamerLegion,BIG,BIG,GamerLegion
+2384401,Inferno,3,GamerLegion,BIG,GamerLegion,BIG
+2384402,Ancient,1,HEROIC,Passion UA,Passion UA,HEROIC
+2384402,Dust2,2,HEROIC,Passion UA,HEROIC,Passion UA
+2384402,Overpass,3,HEROIC,Passion UA,Passion UA,HEROIC
+2384403,Nuke,1,Ninjas in Pyjamas,FUT,FUT,Ninjas in Pyjamas
+2384403,Ancient,2,Ninjas in Pyjamas,FUT,FUT,FUT
+2384403,Dust2,3,Ninjas in Pyjamas,FUT,FUT,Ninjas in Pyjamas
+2384313,Train,1,JiJieHao,ARCRED,JiJieHao,ARCRED
+2384313,Inferno,2,JiJieHao,ARCRED,ARCRED,ARCRED
+2384313,Mirage,3,JiJieHao,ARCRED,JiJieHao,ARCRED
+2384404,Train,1,fnatic,ECSTATIC,ECSTATIC,ECSTATIC
+2384404,Dust2,2,fnatic,ECSTATIC,fnatic,fnatic
+2384247,Ancient,1,Alliance,FORZE Reload,Alliance,FORZE Reload
+2384247,Train,2,Alliance,FORZE Reload,FORZE Reload,Alliance
+2384247,Dust2,3,Alliance,FORZE Reload,FORZE Reload,Alliance
+2384311,Overpass,1,Sangal,Tricked,Tricked,Sangal
+2384311,Inferno,2,Sangal,Tricked,Tricked,Tricked
+2384311,Ancient,3,Sangal,Tricked,Sangal,Sangal
+2384180,Train,1,PARIVISION,OG,OG,OG
+2384180,Mirage,2,PARIVISION,OG,OG,OG
+2384399,Mirage,1,FUT,BetBoom,BetBoom,BetBoom
+2384149,Mirage,1,Legacy,Vitality,Legacy,Legacy
+2384149,Dust2,2,Legacy,Vitality,Vitality,Legacy
+2384309,Overpass,1,CYBERSHOKE,BC.Game,CYBERSHOKE,BC.Game
+2384309,Mirage,2,CYBERSHOKE,BC.Game,CYBERSHOKE,BC.Game
+2384309,Ancient,3,CYBERSHOKE,BC.Game,CYBERSHOKE,BC.Game
+2384398,Dust2,1,Nemiga,Passion UA,Passion UA,Passion UA
+2384395,Overpass,1,BetBoom,Sashi,BetBoom,Sashi
+2384400,Train,1,ECSTATIC,Sangal,Sangal,ECSTATIC
+2384394,Mirage,1,Passion UA,1win,1win,1win
+2384393,Mirage,1,BIG,EYEBALLERS,EYEBALLERS,BIG
+2384143,Overpass,1,HEROIC,Aurora,Aurora,HEROIC
+2384143,Dust2,2,HEROIC,Aurora,HEROIC,HEROIC
+2384391,Nuke,1,Inner Circle,Sashi,Sashi,Sashi
+2384392,Overpass,1,HOTU,EYEBALLERS,EYEBALLERS,HOTU
+2384148,Ancient,1,B8,MOUZ,B8,MOUZ
+2384148,Train,2,B8,MOUZ,MOUZ,MOUZ
+2384146,Dust2,1,paiN,The MongolZ,The MongolZ,paiN
+2384146,Ancient,2,paiN,The MongolZ,paiN,The MongolZ
+2384178,Mirage,1,PARIVISION,fnatic,fnatic,fnatic
+2384178,Ancient,2,PARIVISION,fnatic,fnatic,PARIVISION
+2384256,Overpass,1,BOSS,Marsborne,Marsborne,Marsborne
+2384256,Train,2,BOSS,Marsborne,BOSS,BOSS
+2384147,Mirage,1,Liquid,FURIA,FURIA,FURIA
+2384147,Train,2,Liquid,FURIA,FURIA,Liquid
+2384147,Dust2,3,Liquid,FURIA,FURIA,Liquid
+2384142,Mirage,1,G2,Spirit,G2,Spirit
+2384142,Ancient,2,G2,Spirit,G2,G2
+2384142,Dust2,3,G2,Spirit,Spirit,G2
+2384297,Mirage,1,RUSTEC,ARCRED,ARCRED,RUSTEC
+2384297,Nuke,2,RUSTEC,ARCRED,RUSTEC,RUSTEC
+2384144,Overpass,1,Virtus.pro,FaZe,FaZe,FaZe
+2384144,Ancient,2,Virtus.pro,FaZe,Virtus.pro,Virtus.pro
+2384144,Inferno,3,Virtus.pro,FaZe,Virtus.pro,FaZe
+2384176,Dust2,1,9INE,fnatic,9INE,9INE
+2384176,Overpass,2,9INE,fnatic,9INE,fnatic
+2384175,Mirage,1,ENCE,OG,OG,ENCE
+2384175,Nuke,2,ENCE,OG,OG,ENCE
+2384175,Ancient,3,ENCE,OG,OG,ENCE
+2384145,Dust2,1,Astralis,Natus Vincere,Natus Vincere,Natus Vincere
+2384145,Inferno,2,Astralis,Natus Vincere,Astralis,Astralis
+2384145,Nuke,3,Astralis,Natus Vincere,Astralis,Astralis
+2384173,Mirage,1,fnatic,Sashi,Sashi,fnatic
+2384173,Overpass,2,fnatic,Sashi,fnatic,fnatic
+2384140,Mirage,1,NRG,Vitality,Vitality,NRG
+2384140,Dust2,2,NRG,Vitality,NRG,Vitality
+2384134,Inferno,1,FlyQuest,Aurora,FlyQuest,Aurora
+2384134,Nuke,2,FlyQuest,Aurora,FlyQuest,Aurora
+2384171,Train,1,OG,Tricked,OG,Tricked
+2384171,Overpass,2,OG,Tricked,OG,Tricked
+2384170,Dust2,1,PARIVISION,CYBERSHOKE,PARIVISION,PARIVISION
+2384170,Mirage,2,PARIVISION,CYBERSHOKE,PARIVISION,PARIVISION
+2384170,Ancient,3,PARIVISION,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2384136,Mirage,1,ENCE,The MongolZ,The MongolZ,ENCE
+2384136,Dust2,2,ENCE,The MongolZ,ENCE,ENCE
+2384136,Nuke,3,ENCE,The MongolZ,ENCE,The MongolZ
+2384129,Ancient,1,fnatic,Legacy,Legacy,Legacy
+2384129,Inferno,2,fnatic,Legacy,Legacy,fnatic
+2384129,Mirage,3,fnatic,Legacy,fnatic,Legacy
+2384127,Ancient,1,Ninjas in Pyjamas,paiN,paiN,Ninjas in Pyjamas
+2384127,Dust2,2,Ninjas in Pyjamas,paiN,paiN,Ninjas in Pyjamas
+2384127,Nuke,3,Ninjas in Pyjamas,paiN,Ninjas in Pyjamas,Ninjas in Pyjamas
+2384141,Nuke,1,OG,MOUZ,MOUZ,MOUZ
+2384141,Inferno,2,OG,MOUZ,MOUZ,MOUZ
+2384141,Mirage,3,OG,MOUZ,OG,OG
+2384167,Nuke,1,ENCE,Monte,ENCE,Monte
+2384167,Dust2,2,ENCE,Monte,Monte,ENCE
+2384137,Inferno,1,BIG,FURIA,FURIA,FURIA
+2384137,Dust2,2,BIG,FURIA,FURIA,FURIA
+2384135,Ancient,1,Rare Atom,Astralis,Astralis,Astralis
+2384135,Overpass,2,Rare Atom,Astralis,Astralis,Rare Atom
+2384138,Dust2,1,Passion UA,Spirit,Passion UA,Passion UA
+2384138,Mirage,2,Passion UA,Spirit,Passion UA,Passion UA
+2384138,Ancient,3,Passion UA,Spirit,Spirit,Spirit
+2384163,Train,1,Betclic,Monte,Betclic,Monte
+2384163,Ancient,2,Betclic,Monte,Betclic,Monte
+2384163,Dust2,3,Betclic,Monte,Betclic,Monte
+2384126,Train,1,MIBR,Virtus.pro,Virtus.pro,MIBR
+2384126,Overpass,2,MIBR,Virtus.pro,MIBR,Virtus.pro
+2384217,Ancient,1,K27,G2 Ares,K27,G2 Ares
+2384217,Dust2,2,K27,G2 Ares,K27,K27
+2384074,Dust2,1,9z,BESTIA,9z,BESTIA
+2384074,Ancient,2,9z,BESTIA,9z,BESTIA
+2384139,Mirage,1,BetBoom,FaZe,FaZe,FaZe
+2384139,Ancient,2,BetBoom,FaZe,FaZe,FaZe
+2384162,Mirage,1,Betclic,Sashi,Sashi,Sashi
+2384162,Nuke,2,Betclic,Sashi,Sashi,Sashi
+2384162,Overpass,3,Betclic,Sashi,Betclic,Sashi
+2384132,Ancient,1,Nemiga,G2,Nemiga,Nemiga
+2384132,Mirage,2,Nemiga,G2,Nemiga,Nemiga
+2384072,Nuke,1,ShindeN,9z,9z,9z
+2384072,Dust2,2,ShindeN,9z,ShindeN,ShindeN
+2384130,Train,1,ECSTATIC,Liquid,ECSTATIC,ECSTATIC
+2384130,Ancient,2,ECSTATIC,Liquid,Liquid,ECSTATIC
+2384131,Dust2,1,FUT,B8,FUT,FUT
+2384131,Mirage,2,FUT,B8,FUT,FUT
+2384070,Dust2,1,ODDIK,9z,9z,9z
+2384070,Ancient,2,ODDIK,9z,ODDIK,9z
+2384069,Inferno,1,Sharks,BESTIA,BESTIA,BESTIA
+2384069,Ancient,2,Sharks,BESTIA,BESTIA,BESTIA
+2384158,Train,1,Passion UA,Monte,Monte,Monte
+2384158,Mirage,2,Passion UA,Monte,Passion UA,Passion UA
+2384158,Ancient,3,Passion UA,Monte,Monte,Monte
+2384157,Overpass,1,Sangal,ARCRED,Sangal,Sangal
+2384157,Train,2,Sangal,ARCRED,Sangal,ARCRED
+2384157,Ancient,3,Sangal,ARCRED,ARCRED,ARCRED
+2384067,Nuke,1,9z,Bounty Hunters,Bounty Hunters,9z
+2384067,Ancient,2,9z,Bounty Hunters,9z,Bounty Hunters
+2384111,Nuke,1,Betclic,Tricked,Betclic,Tricked
+2384111,Ancient,2,Betclic,Tricked,Betclic,Betclic
+2384093,Ancient,1,FlyQuest,The Huns,FlyQuest,The Huns
+2384093,Inferno,2,FlyQuest,The Huns,The Huns,FlyQuest
+2383844,Mirage,1,Spirit,MOUZ,MOUZ,MOUZ
+2383844,Ancient,2,Spirit,MOUZ,Spirit,Spirit
+2383844,Nuke,3,Spirit,MOUZ,MOUZ,MOUZ
+2384118,Overpass,1,NRG,M80,M80,M80
+2384118,Train,2,NRG,M80,NRG,M80
+2384125,Overpass,1,Legacy,Imperial,Imperial,Legacy
+2384125,Inferno,2,Legacy,Imperial,Legacy,Legacy
+2384109,Dust2,1,9INE,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2384109,Train,2,9INE,Johnny Speeds,Johnny Speeds,9INE
+2384109,Ancient,3,9INE,Johnny Speeds,Johnny Speeds,Johnny Speeds
+2384092,Dust2,1,The Huns,Chinggis Warriors,Chinggis Warriors,Chinggis Warriors
+2384092,Nuke,2,The Huns,Chinggis Warriors,The Huns,The Huns
+2384091,Dust2,1,Eruption,FlyQuest,Eruption,FlyQuest
+2384091,Ancient,2,Eruption,FlyQuest,FlyQuest,FlyQuest
+2384124,Train,1,Imperial,ODDIK,ODDIK,ODDIK
+2384124,Dust2,2,Imperial,ODDIK,Imperial,Imperial
+2384124,Overpass,3,Imperial,ODDIK,ODDIK,ODDIK
+2384116,Train,1,NRG,BOSS,BOSS,NRG
+2384116,Overpass,2,NRG,BOSS,BOSS,BOSS
+2383842,Mirage,1,Vitality,MOUZ,Vitality,MOUZ
+2383842,Train,2,Vitality,MOUZ,Vitality,Vitality
+2384061,Nuke,1,Fluxo,ShindeN,Fluxo,ShindeN
+2384061,Ancient,2,Fluxo,ShindeN,Fluxo,Fluxo
+2384061,Mirage,3,Fluxo,ShindeN,Fluxo,Fluxo
+2384117,Train,1,Marsborne,M80,M80,Marsborne
+2384117,Overpass,2,Marsborne,M80,M80,Marsborne
+2384123,Mirage,1,Legacy,Sharks,Sharks,Sharks
+2384123,Inferno,2,Legacy,Sharks,Legacy,Legacy
+2383992,Train,1,fnatic,ECSTATIC,fnatic,fnatic
+2383992,Inferno,2,fnatic,ECSTATIC,ECSTATIC,fnatic
+2383992,Ancient,3,fnatic,ECSTATIC,fnatic,fnatic
+2383843,Mirage,1,Spirit,Natus Vincere,Natus Vincere,Spirit
+2383843,Nuke,2,Spirit,Natus Vincere,Natus Vincere,Natus Vincere
+2383843,Ancient,3,Spirit,Natus Vincere,Spirit,Spirit
+2384032,Ancient,1,GenOne,G2 Ares,GenOne,G2 Ares
+2384032,Inferno,2,GenOne,G2 Ares,GenOne,G2 Ares
+2383986,Overpass,1,M80,Wildcard,Wildcard,M80
+2383986,Ancient,2,M80,Wildcard,M80,Wildcard
+2384121,Mirage,1,Imperial,ShindeN,Imperial,ShindeN
+2384121,Dust2,2,Imperial,ShindeN,Imperial,ShindeN
+2383840,Train,1,MOUZ,FURIA,MOUZ,MOUZ
+2383840,Mirage,2,MOUZ,FURIA,MOUZ,FURIA
+2383840,Inferno,3,MOUZ,FURIA,MOUZ,FURIA
+2384120,Nuke,1,Sharks,9z,9z,Sharks
+2384120,Train,2,Sharks,9z,9z,Sharks
+2384120,Ancient,3,Sharks,9z,Sharks,Sharks
+2384112,Train,1,Wildcard,Marsborne,Marsborne,Marsborne
+2384112,Inferno,2,Wildcard,Marsborne,Marsborne,Marsborne
+2384081,Inferno,1,Tricked,9INE,9INE,Tricked
+2384081,Ancient,2,Tricked,9INE,9INE,9INE
+2384081,Nuke,3,Tricked,9INE,9INE,9INE
+2383841,Inferno,1,The MongolZ,Natus Vincere,Natus Vincere,The MongolZ
+2383841,Ancient,2,The MongolZ,Natus Vincere,Natus Vincere,Natus Vincere
+2384079,Overpass,1,Sangal,CYBERSHOKE,Sangal,CYBERSHOKE
+2384079,Mirage,2,Sangal,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2384079,Nuke,3,Sangal,CYBERSHOKE,CYBERSHOKE,Sangal
+2383985,Nuke,1,Wildcard,NRG,NRG,Wildcard
+2383985,Dust2,2,Wildcard,NRG,NRG,NRG
+2383985,Overpass,3,Wildcard,NRG,Wildcard,NRG
+2384078,Ancient,1,Johnny Speeds,Monte,Johnny Speeds,Johnny Speeds
+2384078,Mirage,2,Johnny Speeds,Monte,Monte,Johnny Speeds
+2384075,Inferno,1,Sashi,ARCRED,ARCRED,Sashi
+2384075,Ancient,2,Sashi,ARCRED,Sashi,Sashi
+2383950,Dust2,1,Johnny Speeds,CYBERSHOKE,Johnny Speeds,CYBERSHOKE
+2383950,Mirage,2,Johnny Speeds,CYBERSHOKE,CYBERSHOKE,CYBERSHOKE
+2383948,Overpass,1,Tricked,ARCRED,Tricked,Tricked
+2383948,Inferno,2,Tricked,ARCRED,ARCRED,ARCRED
+2383831,Dust2,1,G2,FURIA,FURIA,G2
+2383831,Inferno,2,G2,FURIA,FURIA,G2
+2383946,Ancient,1,9INE,Sashi,Sashi,Sashi
+2383946,Nuke,2,9INE,Sashi,Sashi,9INE
+2383946,Inferno,3,9INE,Sashi,Sashi,9INE
+2383839,Ancient,1,FaZe,Natus Vincere,FaZe,Natus Vincere
+2383839,Inferno,2,FaZe,Natus Vincere,FaZe,FaZe
+2383838,Ancient,1,MOUZ,Spirit,Spirit,MOUZ
+2383838,Mirage,2,MOUZ,Spirit,MOUZ,MOUZ
+2383838,Overpass,3,MOUZ,Spirit,Spirit,Spirit
+2383830,Mirage,1,The MongolZ,Vitality,The MongolZ,Vitality
+2383830,Inferno,2,The MongolZ,Vitality,Vitality,The MongolZ
+2383837,Nuke,1,Ninjas in Pyjamas,Natus Vincere,Ninjas in Pyjamas,Ninjas in Pyjamas
+2383837,Inferno,2,Ninjas in Pyjamas,Natus Vincere,Natus Vincere,Ninjas in Pyjamas
+2383837,Train,3,Ninjas in Pyjamas,Natus Vincere,Natus Vincere,Natus Vincere
+2383836,Nuke,1,FaZe,Aurora,FaZe,FaZe
+2383836,Mirage,2,FaZe,Aurora,FaZe,FaZe
+2383943,Overpass,1,Sangal,Monte,Sangal,Monte
+2383943,Ancient,2,Sangal,Monte,Sangal,Monte
+2383943,Mirage,3,Sangal,Monte,Monte,Sangal
+2384040,Mirage,1,ShindeN,BESTIA,ShindeN,ShindeN
+2384040,Nuke,2,ShindeN,BESTIA,BESTIA,BESTIA
+2383828,Train,1,Falcons,FURIA,FURIA,FURIA
+2383828,Mirage,2,Falcons,FURIA,FURIA,Falcons
+2383828,Dust2,3,Falcons,FURIA,Falcons,FURIA
+2383829,Ancient,1,3DMAX,G2,G2,3DMAX
+2383829,Inferno,2,3DMAX,G2,3DMAX,G2
+2383833,Dust2,1,Aurora,Spirit,Spirit,Aurora
+2383833,Nuke,2,Aurora,Spirit,Aurora,Spirit
+2383834,Mirage,1,FaZe,Liquid,FaZe,FaZe
+2383834,Ancient,2,FaZe,Liquid,Liquid,FaZe
+2383832,Mirage,1,Natus Vincere,MOUZ,Natus Vincere,Natus Vincere
+2383832,Nuke,2,Natus Vincere,MOUZ,Natus Vincere,MOUZ
+2383835,Train,1,Ninjas in Pyjamas,HEROIC,Ninjas in Pyjamas,Ninjas in Pyjamas
+2383835,Nuke,2,Ninjas in Pyjamas,HEROIC,Ninjas in Pyjamas,Ninjas in Pyjamas
+2383938,Train,1,KOLESIE,1win,1win,1win
+2383938,Nuke,2,KOLESIE,1win,KOLESIE,KOLESIE
+2383938,Mirage,3,KOLESIE,1win,KOLESIE,1win
+2383826,Inferno,1,FURIA,Astralis,FURIA,FURIA
+2383826,Dust2,2,FURIA,Astralis,FURIA,FURIA
+2383824,Inferno,1,G2,Vitality,Vitality,Vitality
+2383824,Train,2,G2,Vitality,Vitality,G2
+2383827,Overpass,1,GamerLegion,3DMAX,3DMAX,GamerLegion
+2383827,Inferno,2,GamerLegion,3DMAX,GamerLegion,3DMAX
+2383827,Dust2,3,GamerLegion,3DMAX,GamerLegion,3DMAX
+2383825,Dust2,1,Falcons,The MongolZ,The MongolZ,The MongolZ
+2383825,Mirage,2,Falcons,The MongolZ,Falcons,Falcons
+2383764,Ancient,1,Spirit,HEROIC,Spirit,HEROIC
+2383764,Nuke,2,Spirit,HEROIC,Spirit,Spirit
+2383761,Inferno,1,MOUZ,Liquid,MOUZ,Liquid
+2383761,Train,2,MOUZ,Liquid,MOUZ,Liquid
+2383762,Ancient,1,Natus Vincere,FaZe,FaZe,Natus Vincere
+2383762,Mirage,2,Natus Vincere,FaZe,Natus Vincere,Natus Vincere
+2383762,Nuke,3,Natus Vincere,FaZe,FaZe,Natus Vincere
+2383763,Dust2,1,Aurora,Ninjas in Pyjamas,Ninjas in Pyjamas,Aurora
+2383763,Train,2,Aurora,Ninjas in Pyjamas,Aurora,Ninjas in Pyjamas
+2383757,Nuke,1,Vitality,Astralis,Vitality,Astralis
+2383757,Overpass,2,Vitality,Astralis,Astralis,Vitality
+2383760,Nuke,1,The MongolZ,3DMAX,The MongolZ,The MongolZ
+2383760,Ancient,2,The MongolZ,3DMAX,The MongolZ,3DMAX
+2383758,Dust2,1,G2,FURIA,G2,G2
+2383758,Inferno,2,G2,FURIA,G2,G2
+2383759,Nuke,1,Falcons,GamerLegion,GamerLegion,Falcons
+2383759,Mirage,2,Falcons,GamerLegion,Falcons,GamerLegion
+2383932,Train,1,Alliance,KOLESIE,Alliance,KOLESIE
+2383932,Dust2,2,Alliance,KOLESIE,KOLESIE,Alliance
+2383783,Nuke,1,Astralis,paiN,Astralis,Astralis
+2383783,Ancient,2,Astralis,paiN,paiN,Astralis
+2383783,Inferno,3,Astralis,paiN,paiN,paiN
+2383785,Inferno,1,3DMAX,TYLOO,TYLOO,3DMAX
+2383785,Ancient,2,3DMAX,TYLOO,TYLOO,3DMAX
+2383784,Overpass,1,Virtus.pro,HEROIC,HEROIC,Virtus.pro
+2383784,Mirage,2,Virtus.pro,HEROIC,Virtus.pro,HEROIC
+2383786,Nuke,1,FlyQuest,Liquid,FlyQuest,Liquid
+2383786,Dust2,2,FlyQuest,Liquid,FlyQuest,Liquid
+2383786,Ancient,3,FlyQuest,Liquid,FlyQuest,Liquid
+2383926,Dust2,1,Alliance,1win,Alliance,Alliance
+2383926,Nuke,2,Alliance,1win,Alliance,1win
+2383779,Ancient,1,BIG,paiN,BIG,BIG
+2383779,Nuke,2,BIG,paiN,paiN,BIG
+2383779,Inferno,3,BIG,paiN,BIG,BIG
+2383778,Nuke,1,Astralis,FURIA,FURIA,Astralis
+2383778,Dust2,2,Astralis,FURIA,FURIA,FURIA
+2383775,Mirage,1,FaZe,Liquid,FaZe,Liquid
+2383775,Inferno,2,FaZe,Liquid,FaZe,FaZe
+2383775,Nuke,3,FaZe,Liquid,Liquid,FaZe
+2383780,Train,1,MIBR,HEROIC,HEROIC,MIBR
+2383780,Ancient,2,MIBR,HEROIC,MIBR,MIBR
+2383782,Dust2,1,B8,FlyQuest,B8,B8
+2383782,Mirage,2,B8,FlyQuest,B8,FlyQuest
+2383782,Inferno,3,B8,FlyQuest,B8,FlyQuest
+2383776,Nuke,1,3DMAX,Ninjas in Pyjamas,3DMAX,Ninjas in Pyjamas
+2383776,Dust2,2,3DMAX,Ninjas in Pyjamas,3DMAX,Ninjas in Pyjamas

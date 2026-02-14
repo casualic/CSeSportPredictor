@@ -1,0 +1,29 @@
+[     226ms] [WARNING] jQuery.Deferred exception: Cannot read properties of null (reading 'addEventListener') TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:2153250)
+    at p (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:538558)
+    at u (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:538860)
+    at ft (https://cadmus.script.ac/d23sa75evsxrsv/script.js:1:107976) undefined @ https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0
+[     328ms] Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous> (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:2153249)
+    at p (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:538557)
+    at u (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:538859)
+    at ft (https://cadmus.script.ac/d23sa75evsxrsv/script.js:0:107975)
+[   22963ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://www.hltv.org/stats/matches/performance/mapstatsid/218823/bet-m-vs-fnatic:0
+[   23046ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/favicon.ico:0
+[   23165ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/favicon.ico:0
+[   23661ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9cd85c786e66d90b/1771028023307/8e6c9559b55a0ee86bd11e9579d0b3f33eb8e703de8ed693464933d5278e8d90/vX88GsqO1P8Auz_:0
+[   23737ms] [ERROR]  Note that 'script-src' was not explicitly set, so 'default-src' is used as a fallback. @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/qs0v4/0x4AAAAAAADnOjc0PNeA8qVm/light/fbE/new/normal?lang=auto:0
+[   23891ms] [ERROR] %c%d font-size:0;color:transparent NaN @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/qs0v4/0x4AAAAAAADnOjc0PNeA8qVm/light/fbE/new/normal?lang=auto:0
+[   23891ms] [ERROR] %c%d font-size:0;color:transparent NaN @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/qs0v4/0x4AAAAAAADnOjc0PNeA8qVm/light/fbE/new/normal?lang=auto:0
+[   23892ms] [WARNING] %c%d font-size:0;color:transparent NaN @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/qs0v4/0x4AAAAAAADnOjc0PNeA8qVm/light/fbE/new/normal?lang=auto:0
+[   23892ms] [WARNING] %c%d font-size:0;color:transparent NaN @ https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/qs0v4/0x4AAAAAAADnOjc0PNeA8qVm/light/fbE/new/normal?lang=auto:0
+[   25370ms] [WARNING] jQuery.Deferred exception: Cannot read properties of null (reading 'addEventListener') TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:2153250)
+    at p (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:538558)
+    at u (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:538860)
+    at ft (https://cadmus.script.ac/d23sa75evsxrsv/script.js:1:107976) undefined @ https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0
+[   25430ms] Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous> (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:2153249)
+    at p (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:538557)
+    at u (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:538859)
+    at ft (https://cadmus.script.ac/d23sa75evsxrsv/script.js:0:107975)

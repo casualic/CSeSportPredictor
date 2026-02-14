@@ -1,0 +1,10 @@
+[     471ms] [WARNING] jQuery.Deferred exception: Cannot read properties of null (reading 'addEventListener') TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:2153250)
+    at p (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:538558)
+    at u (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:1:538860)
+    at ft (https://cadmus.script.ac/d23sa75evsxrsv/script.js:1:107976) undefined @ https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0
+[     553ms] Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')
+    at <anonymous> (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:2153249)
+    at p (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:538557)
+    at u (https://resources.hltv.org/hltv.js/3a78e45521e9a340ecdc80dac85b1d73.js:0:538859)
+    at ft (https://cadmus.script.ac/d23sa75evsxrsv/script.js:0:107975)
