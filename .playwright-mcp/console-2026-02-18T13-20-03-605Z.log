@@ -1,0 +1,6 @@
+[    2011ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 1787827ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)

@@ -1,0 +1,150 @@
+[    1763ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[   86309ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[  261447ms] [ERROR] Access to XMLHttpRequest at 'https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[  261448ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org:0
+[  304190ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[  365285ms] [ERROR] Access to XMLHttpRequest at 'https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[  365285ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org:0
+[  604381ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[  639736ms] [ERROR] Access to XMLHttpRequest at 'https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[  639736ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org:0
+[  696354ms] [ERROR] Access to XMLHttpRequest at 'https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[  696354ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org:0
+[  772121ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[  772167ms] [ERROR] Access to XMLHttpRequest at 'https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[  772167ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org:0
+[  772177ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387590/nuclear-tigeres-vs-ence-academy-nodwin-clutch-series-2:0
+[  772178ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[  910455ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 1126630ms] [ERROR] Access to XMLHttpRequest at 'https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=PnnJtON&sid=51827f98-a23b-46e6-b5d7-f279b9662ac8' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387583/lazer-cats-vs-qwentry-cct-season-3-contenders-eastern-europe-series-1:0
+[ 1126630ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=PnnJtON&sid=51827f98-a23b-46e6-b5d7-f279b9662ac8:0
+[ 2537462ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 2593854ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 2593906ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387421/eclot-vs-dziuseppe-galaxy-battle-2025-phase-5-closed-qualifier:0
+[ 2593906ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 2861552ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 3162670ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 3271742ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 3271850ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387046/unity-vs-novaq-cct-season-3-europe-series-10-closed-qualifier:0
+[ 3271850ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 3466271ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 3768928ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 4009533ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 4193875ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 4232671ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 4232723ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387285/incontrol-vs-shimmer-esl-challenger-league-season-50-north-america-cup-4:0
+[ 4232723ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 4395922ms] [ERROR] Access to XMLHttpRequest at 'https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=PnnWLY1&sid=ca14969c-66d0-46ab-8f53-f0dd0613a34c' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387244/9z-vs-yawara-esl-challenger-league-season-50-south-america-cup-4:0
+[ 4395922ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=PnnWLY1&sid=ca14969c-66d0-46ab-8f53-f0dd0613a34c:0
+[ 4452909ms] [ERROR] Access to XMLHttpRequest at 'https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=PnnWZUg&sid=d013fa3f-6e27-402c-bb3b-99f2357e1172' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387248/bestia-vs-procyon-esl-challenger-league-season-50-south-america-cup-4:0
+[ 4452909ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=PnnWZUg&sid=d013fa3f-6e27-402c-bb3b-99f2357e1172:0
+[ 4515357ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 4520574ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 4520618ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386977/shinigami-vs-overpeek-esl-impact-league-season-8-europe:0
+[ 4520618ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 4776363ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 4776418ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387236/yawara-vs-mibr-academy-esl-challenger-league-season-50-south-america-cup-4:0
+[ 4776419ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 4824046ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 4855961ms] [ERROR] Access to XMLHttpRequest at 'https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[ 4855961ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org:0
+[ 5064695ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 5064738ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387113/fut-vs-mousquetaires-skyesports-chennai-esports-global-championship-2025-europe-open-qualifier:0
+[ 5064739ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 5070478ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 5070498ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2387114/molo-vs-aab-skyesports-chennai-esports-global-championship-2025-europe-open-qualifier:0
+[ 5070498ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 5147315ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 5162891ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 5162912ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386875/mana-vs-am-united21-league-season-39:0
+[ 5162912ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 5162971ms] [ERROR] Access to XMLHttpRequest at 'https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[ 5162972ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org:0
+[ 5477049ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 5557936ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5580806ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5604460ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5621816ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5653884ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5759640ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5777119ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 5785016ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5816166ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5861227ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 5861273ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386738/betera-vs-sparta-nodwin-clutch-series-1:0
+[ 5861274ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 5863903ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5878858ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5896247ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5916543ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 5951045ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 6077452ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 6079831ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 6331534ms] [ERROR] Access to XMLHttpRequest at 'https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=Pnndk7C&sid=dc5e9a1d-b842-4c39-9720-73687dc8942e' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386340/1win-vs-jijiehao-cct-season-3-europe-series-8:0
+[ 6331534ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=Pnndk7C&sid=dc5e9a1d-b842-4c39-9720-73687dc8942e:0
+[ 6378958ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 6966617ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 7055144ms] [ERROR] Access to XMLHttpRequest at 'https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=PnngUob&sid=2c95db35-9426-4b7d-8f7f-de2f753dcf59' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386624/full-send-vs-tsg-esl-challenger-league-season-50-north-america-cup-3:0
+[ 7055144ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=PnngUob&sid=2c95db35-9426-4b7d-8f7f-de2f753dcf59:0
+[ 7061789ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.hltv.org/img/static/stats/heatmap/new/null:0
+[ 7289050ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 7416791ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 7416840ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386521/rare-atom-vs-kaleido-esl-challenger-league-season-50-asia-pacific-cup-3:0
+[ 7416840ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 7574834ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 7574909ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386643/underdogs-vs-magicos-cct-season-3-south-america-series-5:0
+[ 7574909ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 7592059ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 7714647ms] [ERROR] Access to XMLHttpRequest at 'https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=Pnni_od&sid=4eb524f9-20fa-4735-8ff7-164896fb4b77' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386412/33-vs-eyeballers-exort-the-proving-grounds-season-5:0
+[ 7714648ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://scorebot-lb.hltv.org/socket.io/?EIO=3&transport=polling&t=Pnni_od&sid=4eb524f9-20fa-4735-8ff7-164896fb4b77:0
+[ 7838430ms] [ERROR] Access to XMLHttpRequest at 'https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:blank:0
+[ 7838431ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https://www.hltv.org:0
+[ 7896218ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)
+[ 8038532ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://consentcdn.cookiebot.com') does not match the recipient window's origin ('https://www.hltv.org'). @ https://consent.cookiebot.com/uc.js:1
+[ 8038595ms] [ERROR] Access to XMLHttpRequest at 'https://consentcdn.cookiebot.com/sdk/bc-v4.min.html' from origin 'https://www.hltv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.hltv.org/matches/2386639/players-vs-r2-cct-season-3-south-america-series-5:0
+[ 8038595ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://consentcdn.cookiebot.com/sdk/bc-v4.min.html:0
+[ 8199011ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://amplify.outbrain.com/cp/obtp.js:0:26123)
+    at <anonymous> (https://tr.outbrain.com/cachedClickId?marketerId=00f0edcdad6d0f430c09d4065d73a383f8:0:6)

@@ -3361,3 +3361,2032 @@ match_id,map_number,map_name,team1,team1_ct_half,team1_t_half,team1_ot,team2,tea
 2387088,1,Ancient,ECSTATIC,5,7,0,500,6,6,0,12,12
 2387088,2,Inferno,ECSTATIC,4,8,0,500,7,5,0,12,12
 2387890,1,Train,MOUZ NXT,12,0,0,FUT Academy,1,3,0,12,4
+2387894,1,Dust2,BC.Game,7,5,0,boomer demons,6,1,0,12,7
+2387891,1,Train,EYEBALLERS,9,3,0,Falcons Force,4,4,0,12,8
+2387889,1,Overpass,ENCE,8,4,0,MASONIC,5,0,0,12,5
+2387884,1,Ancient,Betclic,7,5,0,Lilmix,6,3,0,12,9
+2387885,1,Mirage,Sashi,12,0,0,Boys N Da HUD,1,0,0,12,1
+2387886,1,Dust2,Inner Circle,2,10,0,Young Ninjas,4,3,0,12,7
+2387876,1,Inferno,Johnny Speeds,4,8,8,Metizport,4,7,5,20,16
+2387883,1,Mirage,BetBoom,8,4,0,777,5,3,0,12,8
+2387728,1,Ancient,RED Canids,7,5,0,MIBR Academy,6,6,0,12,12
+2387728,2,Nuke,RED Canids,9,3,0,MIBR Academy,4,1,0,12,5
+2387707,1,Dust2,GANK,4,8,0,YinYang,6,5,0,12,11
+2387707,2,Nuke,GANK,3,9,0,YinYang,0,4,0,12,4
+2387877,1,Ancient,ENCE,5,7,7,FUT Academy,5,4,2,19,11
+2387882,1,Ancient,BC.Game,7,5,0,AM,2,8,0,12,10
+2387874,1,Ancient,Inner Circle,4,8,0,Acend,1,5,0,12,6
+2387878,1,Train,MASONIC,6,6,0,Falcons Force,4,7,0,12,11
+2387871,1,Train,BetBoom,9,3,0,Lilmix,4,1,0,12,5
+2387880,1,Inferno,Alliance,6,6,0,aimclub,7,5,0,12,12
+2387881,1,Overpass,WOPA,11,1,0,boomer demons,2,0,0,12,2
+2387875,1,Ancient,Young Ninjas,7,5,0,Minkens finest,6,1,0,12,7
+2387872,1,Ancient,777,9,3,0,Boys N Da HUD,4,0,0,12,4
+2387860,1,Overpass,Sashi,7,5,5,Lilmix,7,7,4,17,18
+2387552,1,Nuke,BIG,6,6,0,Nemesis SEA,7,2,0,12,9
+2387552,2,Overpass,BIG,6,6,0,Nemesis SEA,7,1,0,12,8
+2387870,1,Overpass,AM,4,8,8,WOPA,4,4,1,20,9
+2387863,1,Ancient,Johnny Speeds,5,7,7,Acend,5,1,4,19,10
+2387774,1,Mirage,ARCRED,4,8,0,HAVU,9,3,0,12,12
+2387774,2,Overpass,ARCRED,4,8,0,HAVU,4,5,0,12,9
+2387774,3,Dust2,ARCRED,4,8,0,HAVU,6,5,0,12,11
+2387765,1,Overpass,GATERON,5,7,0,EGG,0,6,0,12,6
+2387765,2,Inferno,GATERON,5,7,0,EGG,1,6,0,12,7
+2387865,1,Nuke,ENCE,5,7,7,Falcons Force,5,4,1,19,10
+2387087,1,Train,Betera,8,4,4,CYBERSHOKE,8,4,1,16,13
+2387087,2,Dust2,Betera,5,7,7,CYBERSHOKE,5,4,0,19,9
+2387861,1,Overpass,Betclic,6,6,0,777,2,7,0,12,9
+2387864,1,Ancient,Metizport,3,9,0,Young Ninjas,10,2,0,12,12
+2387868,1,Nuke,Alliance,8,4,0,boomer demons,5,1,0,12,6
+2387867,1,Nuke,MOUZ NXT,2,10,0,MASONIC,3,3,0,12,6
+2387706,1,Mirage,ex-Maestro,8,4,0,Wildcard Academy,5,3,0,12,8
+2387706,2,Train,ex-Maestro,2,10,0,Wildcard Academy,4,3,0,12,7
+2387706,3,Ancient,ex-Maestro,4,8,0,Wildcard Academy,2,5,0,12,7
+2387866,1,Overpass,EYEBALLERS,11,1,0,FUT Academy,2,1,0,12,3
+2387869,1,Mirage,BC.Game,8,4,0,aimclub,5,1,0,12,6
+2387862,1,Ancient,Inner Circle,11,1,0,Minkens finest,2,0,0,12,2
+2387859,1,Ancient,BetBoom,11,1,0,Boys N Da HUD,2,0,0,12,2
+2387764,1,Ancient,UR,6,6,0,BORING PLAYERS,7,5,0,12,12
+2387764,2,Inferno,UR,2,10,0,BORING PLAYERS,0,3,0,12,3
+2387764,3,Dust2,UR,6,6,6,BORING PLAYERS,6,2,4,18,12
+2387551,1,Dust2,Mousquetaires,9,3,0,Deep Cross,4,2,0,12,6
+2387551,2,Inferno,Mousquetaires,7,5,0,Deep Cross,6,5,0,12,11
+2387744,1,Inferno,Charrados,8,4,0,Gaimin Gladiators,2,9,0,12,11
+2387744,2,Ancient,Charrados,5,7,0,Gaimin Gladiators,3,6,0,12,9
+2387659,2,Ancient,Galorys,5,7,0,KRÜ,8,0,0,12,8
+2387659,3,Nuke,Galorys,7,5,5,KRÜ,7,4,2,17,13
+2387726,1,Mirage,Fluxo,8,4,0,Charrados,5,7,0,12,12
+2387726,2,Ancient,Fluxo,9,3,0,Charrados,4,1,0,12,5
+2387946,1,Inferno,Fisher College,7,5,5,LAG,7,0,4,17,11
+2387946,2,Nuke,Fisher College,5,7,0,LAG,8,2,0,12,10
+2387946,3,Overpass,Fisher College,6,6,6,LAG,6,5,7,18,18
+2387933,1,Inferno,33,7,5,0,QUAZAR,6,2,0,12,8
+2387933,2,Mirage,33,6,6,0,QUAZAR,2,7,0,12,9
+2387933,3,Nuke,33,10,2,0,QUAZAR,3,1,0,12,4
+2387619,1,Ancient,JiJieHao,4,8,8,AMKAL,4,5,7,20,16
+2387619,2,Dust2,JiJieHao,3,9,9,AMKAL,3,4,2,21,9
+2387619,3,Inferno,JiJieHao,5,7,0,AMKAL,8,2,0,12,10
+2387742,1,Dust2,Fake do Biru,8,4,0,Galorys,5,5,0,12,10
+2387742,2,Overpass,Fake do Biru,7,5,0,Galorys,2,8,0,12,10
+2387742,3,Nuke,Fake do Biru,5,7,0,Galorys,1,6,0,12,7
+2387658,1,Nuke,Dusty Roots,5,7,0,Crashers,8,3,0,12,11
+2387658,2,Inferno,Dusty Roots,6,6,6,Crashers,6,7,5,18,18
+2387938,1,Nuke,FORZE Reload,6,6,0,OLDBOYS,3,7,0,12,10
+2387938,2,Mirage,FORZE Reload,9,3,0,OLDBOYS,4,8,0,12,12
+2387938,3,Dust2,FORZE Reload,6,6,0,OLDBOYS,2,7,0,12,9
+2387781,1,Ancient,HyperSpirit,2,10,0,K27,0,3,0,12,3
+2387781,2,Dust2,HyperSpirit,2,10,0,K27,7,3,0,12,10
+2387657,1,Mirage,GameHunters,4,8,8,LP,4,4,0,20,8
+2387657,2,Inferno,GameHunters,7,5,0,LP,6,1,0,12,7
+2387740,1,Overpass,Imperial,11,1,0,Galorys,2,0,0,12,2
+2387740,2,Dust2,Imperial,6,6,0,Galorys,7,2,0,12,9
+2387714,1,Nuke,Imperial Valkyries,9,3,0,confidence,4,0,0,12,4
+2387714,2,Dust2,Imperial Valkyries,8,4,0,confidence,5,0,0,12,5
+2387741,1,Inferno,ALZON,1,11,0,Fake do Biru,0,2,0,12,2
+2387741,2,Dust2,ALZON,1,11,0,Fake do Biru,0,2,0,12,2
+2387085,1,Nuke,Zero Tenacity,4,8,0,Oramond,3,5,0,12,8
+2387085,2,Dust2,Zero Tenacity,6,6,0,Oramond,3,7,0,12,10
+2387780,1,Nuke,NOVAQ,1,11,0,FORZE Reload,3,2,0,12,5
+2387780,2,Dust2,NOVAQ,8,4,0,FORZE Reload,5,0,0,12,5
+2387780,3,Ancient,NOVAQ,10,2,0,FORZE Reload,3,0,0,12,3
+2387618,1,Ancient,ARCRED,5,7,7,ENCE Academy,5,2,4,19,11
+2387618,2,Inferno,ARCRED,2,10,0,ENCE Academy,5,3,0,12,8
+2387654,1,Ancient,MIBR Academy,8,4,0,Vasco,5,5,0,12,10
+2387654,2,Dust2,MIBR Academy,4,8,0,Vasco,2,5,0,12,7
+2387654,3,Mirage,MIBR Academy,7,5,0,Vasco,3,8,0,12,11
+2387931,1,Train,UNiTY,6,6,0,Flame Sharks,3,7,0,12,10
+2387931,2,Ancient,UNiTY,8,4,0,Flame Sharks,5,0,0,12,5
+2387931,3,Overpass,UNiTY,6,6,0,Flame Sharks,5,7,0,12,12
+2387725,1,Dust2,Fake do Biru,7,5,0,Galorys,6,2,0,12,8
+2387725,2,Overpass,Fake do Biru,6,6,0,Galorys,3,7,0,12,10
+2387725,3,Nuke,Fake do Biru,3,9,0,Galorys,8,4,0,12,12
+2387716,1,Dust2,amateurs,9,3,0,Fingers Crossed fe,4,2,0,12,6
+2387716,2,Ancient,amateurs,5,7,0,Fingers Crossed fe,6,6,0,12,12
+2387716,3,Mirage,amateurs,1,11,0,Fingers Crossed fe,4,2,0,12,6
+2387023,1,Overpass,Spirit Academy,8,4,4,Sangal,8,7,3,16,18
+2387023,2,Train,Spirit Academy,5,7,0,Sangal,6,6,0,12,12
+2387023,3,Mirage,Spirit Academy,7,5,0,Sangal,2,8,0,12,10
+2387724,1,Dust2,Imperial,10,2,0,ALZON,3,4,0,12,7
+2387724,2,Mirage,Imperial,9,3,0,ALZON,4,0,0,12,4
+2387084,1,Dust2,JiJieHao,10,2,0,GUN5,3,6,0,12,9
+2387084,2,Mirage,JiJieHao,10,2,0,GUN5,3,2,0,12,5
+2387617,1,Train,FORZE Reload,4,8,0,SPARTA,6,5,0,12,11
+2387617,2,Overpass,FORZE Reload,6,6,0,SPARTA,3,7,0,12,10
+2387705,1,Ancient,BRUTE,10,2,0,Lilmix,3,6,0,12,9
+2387705,2,Dust2,BRUTE,10,2,0,Lilmix,3,9,0,12,12
+2387779,1,Ancient,Nuclear TigeRES,7,5,0,AaB,6,4,0,12,10
+2387779,2,Inferno,Nuclear TigeRES,8,4,0,AaB,5,2,0,12,7
+2387083,1,Overpass,VP.Prodigy,7,5,5,FAVBET,7,3,7,17,17
+2387083,2,Dust2,VP.Prodigy,5,7,0,FAVBET,4,6,0,12,10
+2387930,1,Ancient,ECLOT,8,4,4,HyperSpirit,8,4,1,16,13
+2387930,2,Nuke,ECLOT,11,1,0,HyperSpirit,2,3,0,12,5
+2387763,1,Mirage,FengDa,8,4,0,EGG,5,2,0,12,7
+2387763,2,Train,FengDa,4,8,0,EGG,4,5,0,12,9
+2387763,3,Ancient,FengDa,9,3,0,EGG,4,0,0,12,4
+2387616,1,Nuke,NOVAQ,6,6,0,K27,7,5,0,12,12
+2387616,2,Dust2,NOVAQ,3,9,0,K27,1,4,0,12,5
+2387616,3,Ancient,NOVAQ,5,7,0,K27,5,6,0,12,11
+2387778,1,Mirage,Phantom,8,4,0,ALLINNERS,5,0,0,12,5
+2387778,2,Nuke,Phantom,3,9,0,ALLINNERS,3,4,0,12,7
+2387778,3,Dust2,Phantom,7,5,0,ALLINNERS,0,8,0,12,8
+2387762,1,Inferno,GATERON,4,8,0,Change The Game,7,5,0,12,12
+2387762,2,Mirage,GATERON,3,9,0,Change The Game,0,4,0,12,4
+2387655,1,Ancient,FURIA fe,5,7,0,paiN Academy,3,6,0,12,9
+2387655,2,Dust2,FURIA fe,3,9,0,paiN Academy,1,4,0,12,5
+2387082,1,Ancient,Nexus,7,5,0,NOVAQ,0,8,0,12,8
+2387082,2,Mirage,Nexus,6,6,6,NOVAQ,6,4,2,18,12
+2387082,3,Train,Nexus,5,7,0,NOVAQ,8,1,0,12,9
+2387734,1,Overpass,FORZE Reload,6,6,0,DRGN,7,5,0,12,12
+2387734,2,Dust2,FORZE Reload,6,6,6,DRGN,6,2,4,18,12
+2387734,3,Inferno,FORZE Reload,7,5,0,DRGN,6,5,0,12,11
+2387656,1,Mirage,Bounty Hunters,7,5,0,Procyon,6,5,0,12,11
+2387656,2,Dust2,Bounty Hunters,8,4,4,Procyon,8,10,6,16,24
+2387773,1,Ancient,K27,6,6,0,AaB,4,7,0,12,11
+2387773,2,Overpass,K27,6,6,0,AaB,7,1,0,12,8
+2387773,3,Dust2,K27,7,5,0,AaB,6,6,0,12,12
+2387615,1,Dust2,BASEMENT BOYS,8,4,0,GenOne,5,7,0,12,12
+2387615,2,Train,BASEMENT BOYS,5,7,0,GenOne,6,6,0,12,12
+2387615,3,Ancient,BASEMENT BOYS,5,7,0,GenOne,3,6,0,12,9
+2387733,1,Nuke,MOUZ NXT,4,8,0,MINLATE,3,5,0,12,8
+2387733,2,Mirage,MOUZ NXT,6,6,0,MINLATE,7,5,0,12,12
+2387733,3,Dust2,MOUZ NXT,6,6,6,MINLATE,6,4,2,18,12
+2387732,1,Mirage,Wildcard Academy,5,7,0,Leo,8,1,0,12,9
+2387732,2,Dust2,Wildcard Academy,5,7,0,Leo,8,2,0,12,10
+2387439,1,Inferno,GUN5,4,8,0,ECLOT,3,5,0,12,8
+2387439,2,Dust2,GUN5,7,5,0,ECLOT,6,2,0,12,8
+2387439,3,Nuke,GUN5,3,9,0,ECLOT,5,4,0,12,9
+2387735,1,Ancient,OLDBOYS,8,4,0,UNiTY,5,2,0,12,7
+2387735,2,Train,OLDBOYS,11,1,0,UNiTY,2,0,0,12,2
+2387507,1,Tuscan,Ninjas in Pyjamas,9,3,0,NIP Legends,4,2,0,12,6
+2387507,2,Cobblestone,Ninjas in Pyjamas,6,6,0,NIP Legends,7,3,0,12,10
+2387507,3,Train,Ninjas in Pyjamas,6,6,0,NIP Legends,5,7,0,12,12
+2387772,1,Dust2,Nuclear TigeRES,8,4,0,HyperSpirit,5,6,0,12,11
+2387772,2,Ancient,Nuclear TigeRES,7,5,5,HyperSpirit,7,5,7,17,19
+2387772,3,Nuke,Nuclear TigeRES,7,5,0,HyperSpirit,3,8,0,12,11
+2387698,1,Inferno,Nemesis Impact,5,7,0,BIG EQUIPA,8,2,0,12,10
+2387698,2,Ancient,Nemesis Impact,5,7,0,BIG EQUIPA,4,6,0,12,10
+2387698,3,Dust2,Nemesis Impact,8,4,0,BIG EQUIPA,5,3,0,12,8
+2387614,1,Ancient,9BOOMPRO,6,6,6,Fire Flux,6,4,2,18,12
+2387614,2,Dust2,9BOOMPRO,5,7,7,Fire Flux,5,16,14,19,35
+2387438,1,Nuke,kONO,6,6,0,NOVAQ,5,7,0,12,12
+2387438,2,Dust2,kONO,6,6,6,NOVAQ,6,8,10,18,24
+2387701,1,Nuke,MASONIC,7,5,0,Wildcard Academy,6,4,0,12,10
+2387701,2,Mirage,MASONIC,5,7,0,Wildcard Academy,3,6,0,12,9
+2387701,3,Train,MASONIC,9,3,3,Wildcard Academy,9,2,4,15,15
+2387081,1,Ancient,SPARTA,1,11,0,500,0,2,0,12,2
+2387081,2,Mirage,SPARTA,4,8,8,500,4,0,4,20,8
+2387080,1,Dust2,ARCRED,11,1,0,AMKAL,2,0,0,12,2
+2387080,2,Train,ARCRED,6,6,0,AMKAL,4,7,0,12,11
+2387080,3,Inferno,ARCRED,5,7,0,AMKAL,8,2,0,12,10
+2387771,1,Train,FORZE Reload,6,6,0,ALLINNERS,4,7,0,12,11
+2387771,2,Ancient,FORZE Reload,7,5,0,ALLINNERS,6,2,0,12,8
+2387771,3,Dust2,FORZE Reload,10,2,0,ALLINNERS,3,0,0,12,3
+2387652,1,Dust2,Fuego,7,5,0,MAGICOS,6,5,0,12,11
+2387652,2,Ancient,Fuego,7,5,0,MAGICOS,6,4,0,12,10
+2387703,1,Ancient,Lilmix,7,5,0,YinYang,0,8,0,12,8
+2387703,2,Dust2,Lilmix,5,7,0,YinYang,3,6,0,12,9
+2387021,1,Ancient,SINNERS,5,7,7,Spirit Academy,5,4,0,19,9
+2387021,2,Nuke,SINNERS,4,8,0,Spirit Academy,9,1,0,12,10
+2387761,1,Ancient,Last Bullet,8,4,0,BORING PLAYERS,5,6,0,12,11
+2387761,2,Dust2,Last Bullet,4,8,0,BORING PLAYERS,7,5,0,12,12
+2387761,3,Inferno,Last Bullet,7,5,5,BORING PLAYERS,7,4,1,17,12
+2387702,1,Dust2,GANK,9,3,0,BRUTE,4,6,0,12,10
+2387702,2,Ancient,GANK,1,11,0,BRUTE,4,2,0,12,6
+2387702,3,Inferno,GANK,8,4,0,BRUTE,5,3,0,12,8
+2387770,1,Inferno,NOVAQ,4,8,0,Phantom,5,5,0,12,10
+2387770,2,Nuke,NOVAQ,6,6,6,Phantom,6,7,5,18,18
+2387770,3,Mirage,NOVAQ,6,6,0,Phantom,7,1,0,12,8
+2387612,1,Ancient,CPH Wolves,2,10,0,Nuclear TigeRES,3,3,0,12,6
+2387612,2,Train,CPH Wolves,5,7,7,Nuclear TigeRES,5,2,4,19,11
+2387531,1,Overpass,Tricked,8,4,0,Wildcard Academy,5,7,0,12,12
+2387531,2,Mirage,Tricked,8,4,0,Wildcard Academy,5,3,0,12,8
+2387760,1,Ancient,Kaleido,6,6,6,UR,6,4,1,18,11
+2387760,2,Inferno,Kaleido,7,5,0,UR,6,4,0,12,10
+2387513,1,Dust2,Voca,7,5,0,SportsBetExpert,6,2,0,12,8
+2387513,2,Train,Voca,6,6,0,SportsBetExpert,7,1,0,12,8
+2387651,1,Train,LP,5,7,0,MIBR Academy,8,1,0,12,9
+2387651,2,Nuke,LP,9,3,0,MIBR Academy,4,6,0,12,10
+2387650,1,Train,FURIA fe,1,11,0,Crashers,0,2,0,12,2
+2387650,2,Nuke,FURIA fe,6,6,0,Crashers,3,7,0,12,10
+2387079,1,Ancient,500,2,10,0,Nuclear TigeRES,3,3,0,12,6
+2387079,2,Dust2,500,4,8,8,Nuclear TigeRES,4,1,4,20,9
+2387437,1,Mirage,Fire Flux,5,7,0,CPH Wolves,2,6,0,12,8
+2387437,2,Train,Fire Flux,0,12,0,CPH Wolves,2,1,0,12,3
+2387596,1,Mirage,JiJieHao,3,9,0,SPARTA,2,4,0,12,6
+2387596,2,Dust2,JiJieHao,2,10,0,SPARTA,8,3,0,12,11
+2387697,1,Nuke,Fingers Crossed fe,5,7,7,confidence,5,0,4,19,9
+2387697,2,Dust2,Fingers Crossed fe,7,5,0,confidence,6,3,0,12,9
+2387697,3,Mirage,Fingers Crossed fe,5,7,0,confidence,3,6,0,12,9
+2387078,1,Nuke,SPARTA,6,6,0,GUN5,1,7,0,12,8
+2387078,2,Dust2,SPARTA,7,5,5,GUN5,7,0,4,17,11
+2387436,1,Overpass,FORZE Reload,8,4,0,MASONIC,5,0,0,12,5
+2387436,2,Nuke,FORZE Reload,8,4,0,MASONIC,5,5,0,12,10
+2387595,1,Dust2,CPH Wolves,2,10,0,9BOOMPRO,0,3,0,12,3
+2387595,2,Ancient,CPH Wolves,1,11,0,9BOOMPRO,6,2,0,12,8
+2387648,1,Ancient,Procyon,4,8,8,Fuego,4,4,2,20,10
+2387648,2,Nuke,Procyon,8,4,0,Fuego,5,0,0,12,5
+2387077,1,Dust2,Oramond,3,9,0,NOVAQ,1,4,0,12,5
+2387077,2,Ancient,Oramond,10,2,0,NOVAQ,3,7,0,12,10
+2387077,3,Mirage,Oramond,8,4,0,NOVAQ,5,6,0,12,11
+2387696,1,Ancient,Imperial Valkyries,7,5,0,amateurs,6,1,0,12,7
+2387696,2,Dust2,Imperial Valkyries,10,2,0,amateurs,3,0,0,12,3
+2387530,1,Train,Wildcard Academy,9,3,0,Alliance,4,8,0,12,12
+2387530,2,Ancient,Wildcard Academy,8,4,0,Alliance,0,9,0,12,9
+2387530,3,Overpass,Wildcard Academy,7,5,0,Alliance,3,8,0,12,11
+2387019,1,Ancient,Sangal,4,8,0,Betera,9,0,0,12,9
+2387019,2,Overpass,Sangal,6,6,0,Betera,7,2,0,12,9
+2387699,1,Mirage,NIP Impact,11,1,0,NoKami,2,5,0,12,7
+2387699,2,Overpass,NIP Impact,5,7,0,NoKami,8,2,0,12,10
+2387529,1,Ancient,Tricked,8,4,0,WOPA,5,2,0,12,7
+2387529,2,Inferno,Tricked,6,6,0,WOPA,7,5,0,12,12
+2387700,1,Mirage,megoshort,6,6,0,ex-Maestro,5,7,0,12,12
+2387700,2,Ancient,megoshort,6,6,0,ex-Maestro,1,7,0,12,8
+2387647,1,Mirage,Bounty Hunters,7,5,0,MAGICOS,6,1,0,12,7
+2387647,2,Ancient,Bounty Hunters,9,3,0,MAGICOS,4,1,0,12,5
+2387646,1,Nuke,Dusty Roots,8,4,0,paiN Academy,5,5,0,12,10
+2387646,2,Mirage,Dusty Roots,7,5,0,paiN Academy,6,6,0,12,12
+2387592,1,Dust2,BASEMENT BOYS,4,8,0,Fire Flux,3,5,0,12,8
+2387592,2,Train,BASEMENT BOYS,4,8,0,Fire Flux,9,1,0,12,10
+2387592,3,Ancient,BASEMENT BOYS,5,7,0,Fire Flux,0,6,0,12,6
+2387435,1,Dust2,ECLOT,6,6,6,Young Ninjas,6,10,6,18,22
+2387435,2,Inferno,ECLOT,10,2,0,Young Ninjas,3,3,0,12,6
+2387076,1,Inferno,AaB,6,6,6,AMKAL,6,2,4,18,12
+2387076,2,Dust2,AaB,2,10,0,AMKAL,0,3,0,12,3
+2387559,1,Ancient,ALGO,5,7,0,Nuclear TigeRES,3,6,0,12,9
+2387559,2,Nuke,ALGO,4,8,0,Nuclear TigeRES,2,5,0,12,7
+2387645,1,Dust2,GameHunters,4,8,0,Vasco,4,5,0,12,9
+2387645,2,Mirage,GameHunters,5,7,0,Vasco,8,4,0,12,12
+2387645,3,Nuke,GameHunters,10,2,0,Vasco,3,1,0,12,4
+2387018,1,Nuke,33,10,2,0,Spirit Academy,3,0,0,12,3
+2387018,2,Dust2,33,4,8,0,Spirit Academy,2,5,0,12,7
+2387018,3,Ancient,33,6,6,6,Spirit Academy,6,6,10,18,22
+2387434,1,Inferno,NOVAQ,11,1,0,premdesant,2,3,0,12,5
+2387434,2,Mirage,NOVAQ,5,7,0,premdesant,6,6,0,12,12
+2387434,3,Ancient,NOVAQ,5,7,0,premdesant,8,1,0,12,9
+2387075,1,Nuke,Nexus,9,3,0,VRSoholics,4,0,0,12,4
+2387560,1,Train,WOPA,7,5,0,Flame Sharks,1,8,0,12,9
+2387560,2,Overpass,WOPA,9,3,0,Flame Sharks,4,1,0,12,5
+2387560,3,Ancient,WOPA,3,9,0,Flame Sharks,2,4,0,12,6
+2387591,1,Overpass,AMKAL,3,9,0,GenOne,5,4,0,12,9
+2387591,2,Ancient,AMKAL,5,7,0,GenOne,4,6,0,12,10
+2387562,1,Dust2,QUAZAR,2,10,0,Fire Flux,2,3,0,12,5
+2387562,2,Overpass,QUAZAR,2,10,0,Fire Flux,3,3,0,12,6
+2387644,1,Dust2,Galorys,4,8,0,Prison Breakers,6,5,0,12,11
+2387644,2,Overpass,Galorys,3,9,0,Prison Breakers,10,2,0,12,12
+2387644,3,Ancient,Galorys,9,3,0,Prison Breakers,4,3,0,12,7
+2387074,1,Inferno,ARCRED,9,3,0,ALLINNERS,4,3,0,12,7
+2387074,2,Mirage,ARCRED,9,3,0,ALLINNERS,4,4,0,12,8
+2387590,1,Nuke,Nuclear TigeRES,8,4,0,ENCE Academy,5,4,0,12,9
+2387590,2,Ancient,Nuclear TigeRES,8,4,0,ENCE Academy,5,1,0,12,6
+2387589,1,Mirage,1win,8,4,0,NOVAQ,5,2,0,12,7
+2387589,2,Dust2,1win,7,5,0,NOVAQ,6,0,0,12,6
+2387527,1,Nuke,K27,5,7,0,WOPA,3,6,0,12,9
+2387527,2,Train,K27,3,9,0,WOPA,0,4,0,12,4
+2387573,1,Dust2,CPH Wolves,3,9,0,GenOne,10,1,0,12,11
+2387573,2,Ancient,CPH Wolves,1,11,0,GenOne,8,2,0,12,10
+2387573,3,Nuke,CPH Wolves,6,6,6,GenOne,6,7,5,18,18
+2386941,1,Train,Venom,4,8,0,Nemiga,1,5,0,12,6
+2386941,2,Dust2,Venom,4,8,0,Nemiga,9,2,0,12,11
+2386941,3,Ancient,Venom,2,10,0,Nemiga,0,3,0,12,3
+2387580,1,Train,XPERION NXT,4,8,0,BIG Academy,9,1,0,12,10
+2387580,2,Mirage,XPERION NXT,2,10,0,BIG Academy,0,3,0,12,3
+2387580,3,Overpass,XPERION NXT,6,6,0,BIG Academy,7,0,0,12,7
+2387073,1,Mirage,AaB,9,3,0,GUN5,2,10,0,12,12
+2387073,2,Inferno,AaB,2,10,0,GUN5,0,3,0,12,3
+2387433,1,Dust2,Dziuseppe,2,10,0,Young Ninjas,0,3,0,12,3
+2387433,2,Ancient,Dziuseppe,4,8,0,Young Ninjas,1,5,0,12,6
+2387072,1,Ancient,CYBERSHOKE,10,2,0,SPARTA,3,6,0,12,9
+2387072,2,Nuke,CYBERSHOKE,8,4,0,SPARTA,5,1,0,12,6
+2387572,1,Dust2,ARCRED,7,5,0,NOVAQ,1,8,0,12,9
+2387572,2,Mirage,ARCRED,1,11,0,NOVAQ,4,2,0,12,6
+2387579,1,Inferno,Wave,7,5,0,BIG Academy,3,8,0,12,11
+2387579,2,Dust2,Wave,4,8,0,BIG Academy,3,5,0,12,8
+2387432,1,Mirage,ECLOT,2,10,0,FORZE Reload,1,3,0,12,4
+2387432,2,Overpass,ECLOT,5,7,0,FORZE Reload,2,6,0,12,8
+2387611,1,Overpass,MINLATE,2,10,0,Nemesis,3,3,0,12,6
+2387611,2,Nuke,MINLATE,4,8,8,Nemesis,4,2,4,20,10
+2387588,1,Dust2,Nuclear TigeRES,4,8,0,Insilio,3,5,0,12,8
+2387588,2,Ancient,Nuclear TigeRES,10,2,0,Insilio,3,0,0,12,3
+2387588,3,Nuke,Nuclear TigeRES,5,7,0,Insilio,5,6,0,12,11
+2387695,1,Ancient,Wicked,3,9,0,Arise,6,4,0,12,10
+2387695,2,Inferno,Wicked,4,8,0,Arise,9,3,0,12,12
+2387695,3,Dust2,Wicked,7,5,0,Arise,6,1,0,12,7
+2387070,1,Inferno,NOVAQ,3,9,0,AMKAL,7,4,0,12,11
+2387070,2,Dust2,NOVAQ,8,4,0,AMKAL,5,4,0,12,9
+2387070,3,Mirage,NOVAQ,8,4,0,AMKAL,5,3,0,12,8
+2386939,1,Train,ECSTATIC,6,6,0,Venom,3,7,0,12,10
+2386939,2,Nuke,ECSTATIC,1,11,0,Venom,0,2,0,12,2
+2387587,1,Ancient,Lazer Cats,4,8,0,Insilio,7,5,0,12,12
+2387587,2,Nuke,Lazer Cats,7,5,0,Insilio,6,2,0,12,8
+2387587,3,Mirage,Lazer Cats,2,10,0,Insilio,7,3,0,12,10
+2387610,1,Inferno,Prestige,9,3,3,Nemesis,9,5,7,15,21
+2387610,2,Train,Prestige,2,10,0,Nemesis,3,3,0,12,6
+2387570,1,Nuke,Oramond,10,2,0,ENCE Academy,3,0,0,12,3
+2387570,2,Ancient,Oramond,7,5,0,ENCE Academy,6,0,0,12,6
+2387586,1,Mirage,Nuclear TigeRES,8,4,0,SPARTA,5,4,0,12,9
+2387586,2,Ancient,Nuclear TigeRES,8,4,0,SPARTA,5,0,0,12,5
+2387511,1,Mirage,SportsBetExpert,8,4,0,Take Flyte,5,2,0,12,7
+2387511,2,Train,SportsBetExpert,4,8,0,Take Flyte,9,3,0,12,12
+2387694,1,Dust2,AaB,4,8,0,Alliance,9,3,0,12,12
+2387694,2,Inferno,AaB,6,6,0,Alliance,5,7,0,12,12
+2387694,3,Ancient,AaB,5,7,7,Alliance,5,0,4,19,9
+2387609,1,Nuke,Phantom,5,7,0,Nemesis,8,3,0,12,11
+2387609,2,Inferno,Phantom,8,4,0,Nemesis,3,9,0,12,12
+2387609,3,Overpass,Phantom,2,10,0,Nemesis,1,3,0,12,4
+2387431,1,Mirage,ALLINNERS,7,5,5,premdesant,7,4,2,17,13
+2387431,2,Inferno,ALLINNERS,5,7,0,premdesant,2,6,0,12,8
+2387431,3,Ancient,ALLINNERS,5,7,0,premdesant,6,6,0,12,12
+2387597,1,Dust2,Imperial,7,5,0,SportsBetExpert,6,6,0,12,12
+2387597,2,Mirage,Imperial,9,3,0,SportsBetExpert,4,5,0,12,9
+2386938,1,Dust2,Spirit Academy,7,5,0,Nemiga,6,6,0,12,12
+2386938,2,Ancient,Spirit Academy,8,4,0,Nemiga,0,9,0,12,9
+2386938,3,Train,Spirit Academy,5,7,0,Nemiga,2,6,0,12,8
+2387692,1,Overpass,Alliance,4,8,0,MASONIC,9,3,0,12,12
+2387692,2,Inferno,Alliance,11,1,0,MASONIC,2,0,0,12,2
+2387569,1,Nuke,BASEMENT BOYS,5,7,0,SPARTA,2,6,0,12,8
+2387569,2,Ancient,BASEMENT BOYS,5,7,0,SPARTA,8,4,0,12,12
+2387569,3,Train,BASEMENT BOYS,11,1,0,SPARTA,2,6,0,12,8
+2387598,1,Mirage,FlyQuest RED,3,9,0,BIG,1,4,0,12,5
+2387598,2,Train,FlyQuest RED,3,9,0,BIG,0,4,0,12,4
+2387600,1,Inferno,Radford University,1,11,0,M80,0,2,0,12,2
+2387600,2,Mirage,Radford University,0,12,0,M80,0,1,0,12,1
+2387599,1,Nuke,Marsborne,10,2,0,Ghost,3,1,0,12,4
+2387599,2,Inferno,Marsborne,11,1,0,Ghost,2,0,0,12,2
+2387578,1,Ancient,XPERION NXT,10,2,0,ProCamp,3,5,0,12,8
+2387578,2,Dust2,XPERION NXT,6,6,0,ProCamp,4,7,0,12,11
+2387578,3,Overpass,XPERION NXT,1,11,0,ProCamp,5,2,0,12,7
+2387606,1,Dust2,Prestige,7,5,5,MINLATE,7,5,7,17,19
+2387606,2,Inferno,Prestige,7,5,0,MINLATE,4,8,0,12,12
+2387608,1,Train,Nemesis,8,4,0,Glitchtech,5,1,0,12,6
+2387608,2,Mirage,Nemesis,9,3,0,Glitchtech,4,2,0,12,6
+2387068,1,Ancient,500,9,3,3,ALLINNERS,9,2,4,15,15
+2387068,2,Nuke,500,9,3,0,ALLINNERS,4,2,0,12,6
+2387068,3,Inferno,500,10,2,0,ALLINNERS,3,5,0,12,8
+2387607,1,Train,8Sins,1,11,0,Phantom,0,2,0,12,2
+2387607,2,Nuke,8Sins,4,8,0,Phantom,1,5,0,12,6
+2387693,1,Ancient,AaB,3,9,0,YinYang,3,4,0,12,7
+2387693,2,Inferno,AaB,9,3,0,YinYang,4,2,0,12,6
+2387693,3,Overpass,AaB,11,1,0,YinYang,2,5,0,12,7
+2387430,1,Train,Fire Flux,5,7,0,NOVAQ,8,4,0,12,12
+2387430,2,Ancient,Fire Flux,4,8,0,NOVAQ,9,0,0,12,9
+2387576,1,Dust2,Reveal,10,2,2,BIG Academy,10,2,4,14,16
+2387576,2,Inferno,Reveal,3,9,0,BIG Academy,7,4,0,12,11
+2387605,1,Nuke,Nemesis,5,7,0,MINLATE,5,6,0,12,11
+2387605,2,Overpass,Nemesis,4,8,0,MINLATE,9,1,0,12,10
+2387605,3,Mirage,Nemesis,4,8,0,MINLATE,7,5,0,12,12
+2387585,1,Train,Insilio,11,1,0,ARCRED,2,0,0,12,2
+2387585,2,Nuke,Insilio,8,4,0,ARCRED,5,0,0,12,5
+2387604,1,Nuke,Prestige,7,5,0,Phantom,6,4,0,12,10
+2387604,2,Train,Prestige,4,8,8,Phantom,4,4,1,20,9
+2387577,1,Ancient,6GPA,3,9,0,Wave,1,4,0,12,5
+2387577,2,Inferno,6GPA,3,9,0,Wave,1,4,0,12,5
+2386936,1,Nuke,Venom,6,6,0,CYBERSHOKE,7,2,0,12,9
+2386936,2,Mirage,Venom,2,10,0,CYBERSHOKE,2,3,0,12,5
+2386936,3,Ancient,Venom,6,6,0,CYBERSHOKE,7,0,0,12,7
+2387584,1,Nuke,SPARTA,6,6,0,NOVAQ,3,7,0,12,10
+2387584,2,Ancient,SPARTA,8,4,0,NOVAQ,5,6,0,12,11
+2387584,3,Mirage,SPARTA,8,4,4,NOVAQ,8,4,2,16,14
+2387567,1,Ancient,JiJieHao,4,8,0,Fire Flux,3,5,0,12,8
+2387567,2,Dust2,JiJieHao,4,8,0,Fire Flux,1,5,0,12,6
+2387561,1,Nuke,MANA,6,6,0,Bushido Wildcats,3,7,0,12,10
+2387561,2,Mirage,MANA,4,8,0,Bushido Wildcats,0,5,0,12,5
+2387066,1,Dust2,VRSoholics,7,5,0,CPH Wolves,6,2,0,12,8
+2387066,2,Ancient,VRSoholics,3,9,0,CPH Wolves,1,4,0,12,5
+2387066,3,Mirage,VRSoholics,8,4,0,CPH Wolves,5,1,0,12,6
+2386935,1,Dust2,FUT,6,6,0,Partizan,2,7,0,12,9
+2386935,2,Mirage,FUT,5,7,0,Partizan,8,0,0,12,8
+2386935,3,Nuke,FUT,7,5,0,Partizan,6,2,0,12,8
+2387351,1,Overpass,GamerLegion,11,1,0,SAW,2,3,0,12,5
+2387351,2,Inferno,GamerLegion,8,4,0,SAW,3,9,0,12,12
+2387351,3,Nuke,GamerLegion,7,5,0,SAW,1,8,0,12,9
+2387566,1,Overpass,9BOOMPRO,4,8,0,AMKAL,9,1,0,12,10
+2387566,2,Dust2,9BOOMPRO,9,3,0,AMKAL,4,0,0,12,4
+2387523,1,Train,K27,4,8,0,Preasy Mix,9,0,0,12,9
+2387523,2,Ancient,K27,7,5,0,Preasy Mix,6,4,0,12,10
+2387583,1,Inferno,Lazer Cats,9,3,0,QWENTRY,4,2,0,12,6
+2387583,2,Nuke,Lazer Cats,9,3,0,QWENTRY,4,3,0,12,7
+2387065,1,Ancient,Oramond,9,3,0,AMKAL,4,8,0,12,12
+2387065,2,Dust2,Oramond,5,7,0,AMKAL,1,6,0,12,7
+2387065,3,Mirage,Oramond,9,3,0,AMKAL,4,5,0,12,9
+2387541,1,Ancient,FOLHA AMARELA,7,5,0,LP,6,6,0,12,12
+2387541,2,Inferno,FOLHA AMARELA,5,7,0,LP,0,6,0,12,6
+2387541,3,Dust2,FOLHA AMARELA,4,8,0,LP,3,5,0,12,8
+2386934,1,Ancient,Nemiga,5,7,0,Nexus,5,6,0,12,11
+2386934,2,Mirage,Nemiga,8,4,0,Nexus,5,0,0,12,5
+2386934,3,Train,Nemiga,6,6,6,Nexus,6,4,0,18,10
+2387575,1,Overpass,ProCamp,10,2,0,BIG Academy,3,1,0,12,4
+2387575,2,Mirage,ProCamp,6,6,0,BIG Academy,7,5,0,12,12
+2387422,1,Overpass,FORZE Reload,3,9,0,Young Ninjas,10,0,0,12,10
+2387422,2,Dust2,FORZE Reload,9,3,0,Young Ninjas,4,3,0,12,7
+2387538,1,Ancient,Fire Flux,8,4,0,ALLINNERS,5,4,0,12,9
+2387538,2,Dust2,Fire Flux,10,2,0,ALLINNERS,3,0,0,12,3
+2387574,1,Dust2,Wave,3,9,0,XPERION NXT,1,4,0,12,5
+2387574,2,Ancient,Wave,7,5,0,XPERION NXT,6,1,0,12,7
+2387574,3,Nuke,Wave,4,8,8,XPERION NXT,4,5,7,20,16
+2387350,1,Inferno,SAW,10,2,0,Legacy,3,5,0,12,8
+2387350,2,Nuke,SAW,5,7,7,Legacy,5,0,4,19,9
+2387350,3,Ancient,SAW,3,9,0,Legacy,0,4,0,12,4
+2387016,1,Dust2,Metizport,8,4,0,JiJieHao,1,9,0,12,10
+2387016,2,Inferno,Metizport,5,7,0,JiJieHao,4,6,0,12,10
+2387537,1,Ancient,SPARTA,6,6,0,AaB,7,4,0,12,11
+2387537,2,Mirage,SPARTA,5,7,0,AaB,8,2,0,12,10
+2387421,1,Ancient,ECLOT,11,1,0,Dziuseppe,2,0,0,12,2
+2387421,2,Inferno,ECLOT,10,2,0,Dziuseppe,3,3,0,12,6
+2387063,1,Train,CYBERSHOKE,9,3,0,GUN5,4,6,0,12,10
+2387063,2,Mirage,CYBERSHOKE,3,9,0,GUN5,2,4,0,12,6
+2387063,3,Dust2,CYBERSHOKE,9,3,0,GUN5,4,4,0,12,8
+2386932,1,Overpass,ECSTATIC,5,7,0,kONO,8,1,0,12,9
+2386932,2,Mirage,ECSTATIC,8,4,4,kONO,8,4,1,16,13
+2387015,1,Dust2,AaB,9,3,3,Betera,9,0,4,15,13
+2387015,2,Ancient,AaB,5,7,0,Betera,3,6,0,12,9
+2387348,1,Ancient,Liquid,10,2,0,SAW,3,2,0,12,5
+2387348,2,Train,Liquid,2,10,0,SAW,0,3,0,12,3
+2387348,3,Inferno,Liquid,1,11,0,SAW,0,2,0,12,2
+2386931,1,Dust2,Venom,6,6,0,Betera,4,7,0,12,11
+2386931,2,Nuke,Venom,5,7,0,Betera,8,3,0,12,11
+2386931,3,Ancient,Venom,5,7,0,Betera,8,2,0,12,10
+2387062,1,Mirage,AaB,8,4,0,SPARTA,3,9,0,12,12
+2387062,2,Ancient,AaB,7,5,5,SPARTA,7,2,4,17,13
+2387521,1,Ancient,G2 Ares,4,8,0,WOPA,1,5,0,12,6
+2387521,2,Overpass,G2 Ares,6,6,0,WOPA,4,7,0,12,11
+2387540,1,Ancient,LP,8,4,0,MIBR Academy,5,4,0,12,9
+2387540,2,Train,LP,8,4,0,MIBR Academy,5,3,0,12,8
+2387510,1,Train,Voca,8,4,0,regain,5,6,0,12,11
+2387510,2,Ancient,Voca,10,2,0,regain,3,2,0,12,5
+2387539,1,Dust2,Procyon,6,6,0,FOLHA AMARELA,7,1,0,12,8
+2387539,2,Ancient,Procyon,6,6,6,FOLHA AMARELA,6,5,7,18,18
+2387539,3,Nuke,Procyon,6,6,0,FOLHA AMARELA,2,7,0,12,9
+2386930,1,Overpass,Partizan,5,7,0,Sangal,8,3,0,12,11
+2386930,2,Inferno,Partizan,5,7,0,Sangal,2,6,0,12,8
+2386930,3,Ancient,Partizan,7,5,0,Sangal,6,6,0,12,12
+2387061,1,Ancient,CPH Wolves,8,4,0,ALLINNERS,3,9,0,12,12
+2387061,2,Mirage,CPH Wolves,3,9,0,ALLINNERS,1,4,0,12,5
+2387420,1,Inferno,NOVAQ,12,0,0,premdesant,1,0,0,12,1
+2387420,2,Mirage,NOVAQ,10,2,0,premdesant,3,0,0,12,3
+2386929,1,Dust2,FUT,9,3,0,33,4,5,0,12,9
+2386929,2,Ancient,FUT,5,7,0,33,8,4,0,12,12
+2387419,1,Mirage,ALLINNERS,2,10,0,Fire Flux,1,3,0,12,4
+2387419,2,Dust2,ALLINNERS,5,7,0,Fire Flux,2,6,0,12,8
+2387522,1,Mirage,Wildcard Academy,9,3,0,MASONIC,4,4,0,12,8
+2387522,2,Train,Wildcard Academy,8,4,0,MASONIC,5,3,0,12,8
+2387534,1,Nuke,Eternal Fire,6,6,0,ENCE Academy,1,7,0,12,8
+2387534,2,Dust2,Eternal Fire,7,5,5,ENCE Academy,7,4,1,17,12
+2387534,3,Mirage,Eternal Fire,7,5,0,ENCE Academy,3,8,0,12,11
+2387059,1,Nuke,VRSoholics,6,6,0,NOVAQ,0,7,0,12,7
+2387059,2,Mirage,VRSoholics,6,6,0,NOVAQ,1,7,0,12,8
+2387520,1,Train,Alliance,7,5,0,Preasy Mix,6,0,0,12,6
+2387520,2,Dust2,Alliance,8,4,0,Preasy Mix,5,6,0,12,11
+2387013,1,Ancient,Spirit Academy,9,3,0,Betera,4,2,0,12,6
+2387013,2,Mirage,Spirit Academy,5,7,0,Betera,8,2,0,12,10
+2386927,1,Dust2,Spirit Academy,5,7,0,Sashi,5,6,0,12,11
+2386927,2,Nuke,Spirit Academy,6,6,0,Sashi,7,5,0,12,12
+2386927,3,Train,Spirit Academy,5,7,0,Sashi,8,4,0,12,12
+2387058,1,Dust2,Nexus,4,8,0,Nuclear TigeRES,2,5,0,12,7
+2387058,2,Train,Nexus,6,6,6,Nuclear TigeRES,6,3,7,18,16
+2387533,1,Inferno,Mousquetaires,4,8,8,AaB,4,1,4,20,9
+2387533,2,Ancient,Mousquetaires,6,6,0,AaB,4,7,0,12,11
+2387509,1,Ancient,BOSS,8,4,0,LAG,5,5,0,12,10
+2387509,2,Inferno,BOSS,8,4,0,LAG,5,2,0,12,7
+2387518,1,Nuke,ENCE Academy,6,6,0,GenOne,7,5,0,12,12
+2387518,2,Overpass,ENCE Academy,4,8,0,GenOne,4,5,0,12,9
+2387518,3,Dust2,ENCE Academy,2,10,0,GenOne,5,3,0,12,8
+2387429,1,Train,illwill,7,5,0,CPH Wolves,2,8,0,12,10
+2387429,2,Dust2,illwill,8,4,0,CPH Wolves,5,6,0,12,11
+2387429,3,Ancient,illwill,3,9,0,CPH Wolves,1,4,0,12,5
+2386926,1,Train,Zero Tenacity,3,9,0,33,0,4,0,12,4
+2386926,2,Inferno,Zero Tenacity,9,3,0,33,4,8,0,12,12
+2386926,3,Nuke,Zero Tenacity,4,8,0,33,5,5,0,12,10
+2387057,1,Ancient,Nexus,4,8,0,AMKAL,1,5,0,12,6
+2387057,2,Train,Nexus,7,5,0,AMKAL,4,8,0,12,12
+2387056,1,Train,CYBERSHOKE,6,6,0,ALLINNERS,5,7,0,12,12
+2387056,2,Mirage,CYBERSHOKE,10,2,0,ALLINNERS,3,0,0,12,3
+2387056,3,Dust2,CYBERSHOKE,11,1,0,ALLINNERS,2,2,0,12,4
+2387428,1,Ancient,ENCE Academy,8,4,0,MASONIC,0,9,0,12,9
+2387428,2,Overpass,ENCE Academy,7,5,0,MASONIC,6,1,0,12,7
+2387428,3,Inferno,ENCE Academy,4,8,0,MASONIC,0,5,0,12,5
+2387517,1,Nuke,Eternal Fire,8,4,4,HAVU,8,13,11,16,32
+2387517,2,Mirage,Eternal Fire,9,3,0,HAVU,4,0,0,12,4
+2387012,1,Nuke,Nexus,6,6,0,Metizport,4,7,0,12,11
+2387012,2,Dust2,Nexus,7,5,0,Metizport,3,8,0,12,11
+2386925,1,Inferno,ARCRED,4,8,0,kONO,1,5,0,12,6
+2386925,2,Train,ARCRED,7,5,0,kONO,1,8,0,12,9
+2387055,1,Inferno,500,6,6,0,GUN5,5,7,0,12,12
+2387055,2,Dust2,500,7,5,0,GUN5,6,1,0,12,7
+2387055,3,Mirage,500,8,4,0,GUN5,2,9,0,12,11
+2387011,1,Overpass,AaB,4,8,0,ARCRED,9,2,0,12,11
+2387011,2,Mirage,AaB,7,5,5,ARCRED,7,7,3,17,17
+2386924,1,Dust2,Johnny Speeds,6,6,0,Nexus,4,7,0,12,11
+2386924,2,Inferno,Johnny Speeds,7,5,0,Nexus,3,8,0,12,11
+2387516,1,Inferno,Mousquetaires,1,11,0,Fire Flux,5,2,0,12,7
+2387516,2,Ancient,Mousquetaires,6,6,0,Fire Flux,1,7,0,12,8
+2387054,1,Train,SPARTA,7,5,0,CPH Wolves,1,8,0,12,9
+2387054,2,Overpass,SPARTA,10,2,0,CPH Wolves,3,3,0,12,6
+2387054,3,Nuke,SPARTA,9,3,0,CPH Wolves,4,2,0,12,6
+2387336,1,Nuke,Aurora,5,7,0,SAW,8,3,0,12,11
+2387336,2,Inferno,Aurora,5,7,7,SAW,5,1,4,19,10
+2387336,3,Train,Aurora,8,4,0,SAW,1,9,0,12,10
+2387515,1,Nuke,AaB,12,0,0,Washington,1,5,0,12,6
+2387515,2,Ancient,AaB,7,5,0,Washington,6,4,0,12,10
+2387508,1,Ancient,Marsborne,8,4,0,OverKnight,5,0,0,12,5
+2387508,2,Nuke,Marsborne,8,4,0,OverKnight,5,3,0,12,8
+2387213,1,Dust2,Nemiga,3,9,0,Venom,10,2,0,12,12
+2387213,2,Train,Nemiga,6,6,0,Venom,3,7,0,12,10
+2387213,3,Ancient,Nemiga,6,6,6,Venom,6,0,4,18,10
+2387053,1,Dust2,FAVBET,5,7,0,VRSoholics,5,6,0,12,11
+2387053,2,Overpass,FAVBET,8,4,0,VRSoholics,5,0,0,12,5
+2387053,3,Train,FAVBET,11,1,0,VRSoholics,2,0,0,12,2
+2387217,1,Mirage,ALLINNERS,9,3,0,Nexus,4,3,0,12,7
+2387217,2,Dust2,ALLINNERS,2,10,0,Nexus,3,3,0,12,6
+2387217,3,Ancient,ALLINNERS,5,7,0,Nexus,8,1,0,12,9
+2387219,1,Mirage,Sangal,2,10,0,9BOOMPRO,0,3,0,12,3
+2387219,2,Overpass,Sangal,8,4,0,9BOOMPRO,5,2,0,12,7
+2387219,3,Nuke,Sangal,8,4,0,9BOOMPRO,5,1,0,12,6
+2387427,1,Train,CPH Wolves,5,7,7,The Glecs,5,4,1,19,10
+2387427,2,Ancient,CPH Wolves,10,2,0,The Glecs,3,2,0,12,5
+2387216,1,Dust2,1win,7,5,0,Eternal Fire,6,3,0,12,9
+2387216,2,Train,1win,7,5,0,Eternal Fire,6,4,0,12,10
+2386923,1,Inferno,Sashi,6,6,0,kONO,7,0,0,12,7
+2386923,2,Nuke,Sashi,7,5,0,kONO,6,0,0,12,6
+2387212,1,Ancient,BASEMENT BOYS,7,5,5,33,7,1,4,17,12
+2387212,2,Train,BASEMENT BOYS,2,10,0,33,0,3,0,12,3
+2387392,1,Ancient,Washington,5,7,0,Fire Flux,0,6,0,12,6
+2387392,2,Train,Washington,4,8,0,Fire Flux,0,5,0,12,5
+2387426,1,Overpass,illwill,5,7,0,kONO,4,6,0,12,10
+2387426,2,Dust2,illwill,10,2,0,kONO,3,6,0,12,9
+2387426,3,Nuke,illwill,6,6,0,kONO,2,7,0,12,9
+2387391,1,Nuke,GenOne,2,10,0,HAVU,3,3,0,12,6
+2387391,2,Inferno,GenOne,6,6,0,HAVU,7,2,0,12,9
+2387391,3,Dust2,GenOne,11,1,0,HAVU,2,1,0,12,3
+2386922,1,Train,Betera,7,5,0,Nexus,6,2,0,12,8
+2386922,2,Ancient,Betera,2,10,0,Nexus,2,3,0,12,5
+2386922,3,Dust2,Betera,5,7,0,Nexus,8,2,0,12,10
+2387004,1,Dust2,JiJieHao,8,4,0,Metizport,5,0,0,12,5
+2387004,2,Nuke,JiJieHao,7,5,0,Metizport,6,4,0,12,10
+2387051,1,Inferno,ARCRED,3,9,9,NOVAQ,3,4,2,21,9
+2387051,2,Train,ARCRED,5,7,0,NOVAQ,6,6,0,12,12
+2387051,3,Mirage,ARCRED,10,2,0,NOVAQ,3,5,0,12,8
+2387390,1,Dust2,AaB,7,5,0,Mousquetaires,6,3,0,12,9
+2387390,2,Ancient,AaB,7,5,0,Mousquetaires,0,8,0,12,8
+2387390,3,Nuke,AaB,2,10,0,Mousquetaires,3,3,0,12,6
+2387003,1,Nuke,EYEBALLERS,11,1,0,Nexus,2,0,0,12,2
+2387003,2,Mirage,EYEBALLERS,4,8,0,Nexus,9,3,0,12,12
+2387050,1,Nuke,AaB,5,7,0,Washington,4,6,0,12,10
+2387050,2,Ancient,AaB,9,3,0,Washington,4,3,0,12,7
+2387050,3,Dust2,AaB,8,4,0,Washington,5,3,0,12,8
+2387329,1,Nuke,GamerLegion,7,5,0,SAW,6,1,0,12,7
+2387329,2,Inferno,GamerLegion,6,6,6,SAW,6,5,7,18,18
+2387329,3,Ancient,GamerLegion,7,5,5,SAW,7,2,4,17,13
+2387389,1,Dust2,Eternal Fire,4,8,0,ENCE Academy,7,5,0,12,12
+2387389,2,Nuke,Eternal Fire,5,7,0,ENCE Academy,6,6,0,12,12
+2387309,1,Mirage,Phoenix,7,5,5,OverKnight,7,0,4,17,11
+2387309,2,Train,Phoenix,8,4,0,OverKnight,5,1,0,12,6
+2387309,3,Overpass,Phoenix,4,8,0,OverKnight,0,5,0,12,5
+2387307,1,Nuke,Mythic,8,4,0,TSG,5,1,0,12,6
+2387307,2,Overpass,Mythic,10,2,0,TSG,3,5,0,12,8
+2387308,1,Dust2,Aether,3,9,0,BOSS,7,4,0,12,11
+2387308,2,Ancient,Aether,4,8,0,BOSS,4,5,0,12,9
+2387306,1,Inferno,InControl,4,8,0,Zomblers,0,5,0,12,5
+2387306,2,Nuke,InControl,6,6,0,Zomblers,5,7,0,12,12
+2387266,1,Ancient,LP,9,3,0,Gaimin Gladiators,4,4,0,12,8
+2387266,2,Train,LP,4,8,0,Gaimin Gladiators,4,5,0,12,9
+2387266,3,Inferno,LP,5,7,7,Gaimin Gladiators,5,4,1,19,10
+2387497,1,Dust2,regain,11,1,0,InControl,2,2,0,12,4
+2387497,2,Train,regain,8,4,0,InControl,5,4,0,12,9
+2387264,1,Ancient,Galorys,3,9,9,Dusty Roots,3,1,4,21,8
+2387264,2,Nuke,Galorys,9,3,0,Dusty Roots,4,0,0,12,4
+2387264,3,Train,Galorys,9,3,0,Dusty Roots,4,0,0,12,4
+2387265,1,Nuke,Bounty Hunters,8,4,0,Keyd Stars,5,1,0,12,6
+2387265,2,Ancient,Bounty Hunters,6,6,0,Keyd Stars,7,5,0,12,12
+2387049,1,Mirage,Nuclear TigeRES,1,11,0,Leo,6,2,0,12,8
+2387049,2,Dust2,Nuclear TigeRES,7,5,0,Leo,6,0,0,12,6
+2387049,3,Train,Nuclear TigeRES,8,4,0,Leo,5,6,0,12,11
+2387208,1,Train,ARCRED,5,7,0,RUBY,8,4,0,12,12
+2387208,2,Nuke,ARCRED,6,6,0,RUBY,2,7,0,12,9
+2387208,3,Overpass,ARCRED,7,5,0,RUBY,6,5,0,12,11
+2387206,1,Ancient,Dziuseppe,6,6,0,Nexus,7,0,0,12,7
+2387206,2,Mirage,Dziuseppe,2,10,0,Nexus,0,3,0,12,3
+2387206,3,Train,Dziuseppe,4,8,0,Nexus,4,5,0,12,9
+2387207,1,Ancient,NOVAQ,5,7,0,ALLINNERS,5,6,0,12,11
+2387207,2,Inferno,NOVAQ,5,7,0,ALLINNERS,3,6,0,12,9
+2387211,1,Nuke,9BOOMPRO,2,10,0,HAVU,1,3,0,12,4
+2387211,2,Mirage,9BOOMPRO,6,6,0,HAVU,7,1,0,12,8
+2387211,3,Dust2,9BOOMPRO,9,3,0,HAVU,4,3,0,12,7
+2387210,1,Mirage,ECLOT,3,9,0,Sangal,7,4,0,12,11
+2387210,2,Overpass,ECLOT,7,5,0,Sangal,4,8,0,12,12
+2387205,1,Mirage,Eternal Fire,6,6,0,AaB,7,5,0,12,12
+2387205,2,Nuke,Eternal Fire,9,3,0,AaB,4,4,0,12,8
+2386920,1,Dust2,Zero Tenacity,11,1,0,SPARTA,2,3,0,12,5
+2386920,2,Mirage,Zero Tenacity,7,5,5,SPARTA,7,4,2,17,13
+2387209,1,Nuke,Washington,6,6,0,FORZE Reload,1,7,0,12,8
+2387209,2,Overpass,Washington,3,9,0,FORZE Reload,7,4,0,12,11
+2387424,1,Dust2,GUN5,9,3,0,ENCE Academy,4,4,0,12,8
+2387424,2,Mirage,GUN5,11,1,0,ENCE Academy,2,0,0,12,2
+2387048,1,Dust2,The Glecs,5,7,0,ALLINNERS,5,6,0,12,11
+2387048,2,Ancient,The Glecs,10,2,0,ALLINNERS,3,6,0,12,9
+2387048,3,Inferno,The Glecs,6,6,0,ALLINNERS,4,7,0,12,11
+2387425,1,Train,MASONIC,2,10,10,ALGO,2,4,2,22,8
+2387425,2,Nuke,MASONIC,5,7,7,ALGO,5,4,0,19,9
+2387002,1,Ancient,Betera,9,3,0,ARCRED,4,3,0,12,7
+2387002,2,Mirage,Betera,6,6,6,ARCRED,6,10,6,18,22
+2386919,1,Dust2,VP.Prodigy,3,9,0,33,1,4,0,12,5
+2386919,2,Train,VP.Prodigy,6,6,0,33,5,7,0,12,12
+2387047,1,Dust2,AMKAL,6,6,0,RUBY,0,7,0,12,7
+2387047,2,Overpass,AMKAL,5,7,0,RUBY,8,3,0,12,11
+2387047,3,Ancient,AMKAL,7,5,0,RUBY,6,0,0,12,6
+2387166,1,Nuke,FengDa,6,6,0,The QUBE,7,3,0,12,10
+2387166,2,Mirage,FengDa,7,5,0,The QUBE,6,6,0,12,12
+2387167,1,Dust2,Change The Game,7,5,0,Eruption,6,2,0,12,8
+2387167,2,Train,Change The Game,8,4,0,Eruption,5,4,0,12,9
+2387501,1,Mirage,Phantom,7,5,0,MOUZ NXT,6,3,0,12,9
+2387501,2,Nuke,Phantom,6,6,0,MOUZ NXT,3,7,0,12,10
+2387501,3,Overpass,Phantom,8,4,0,MOUZ NXT,5,4,0,12,9
+2387001,1,Ancient,Spirit Academy,6,6,0,AaB,7,3,0,12,10
+2387001,2,Dust2,Spirit Academy,2,10,0,AaB,4,3,0,12,7
+2387001,3,Overpass,Spirit Academy,11,1,0,AaB,2,8,0,12,10
+2386918,1,Dust2,ARCRED,5,7,7,Fire Flux,5,7,5,19,17
+2386918,2,Train,ARCRED,6,6,0,Fire Flux,7,1,0,12,8
+2387323,1,Ancient,SAW,8,4,0,Ninjas in Pyjamas,5,1,0,12,6
+2387323,2,Nuke,SAW,3,9,0,Ninjas in Pyjamas,7,4,0,12,11
+2387323,3,Train,SAW,6,6,6,Ninjas in Pyjamas,6,4,2,18,12
+2387500,1,Mirage,ALLINNERS,9,3,0,HubaBuba,4,5,0,12,9
+2387500,2,Train,ALLINNERS,2,10,0,HubaBuba,1,3,0,12,4
+2387500,3,Ancient,ALLINNERS,7,5,0,HubaBuba,6,4,0,12,10
+2387046,1,Ancient,UNiTY,7,5,5,NOVAQ,7,2,4,17,13
+2387046,2,Inferno,UNiTY,2,10,0,NOVAQ,2,3,0,12,5
+2387301,1,Nuke,Marsborne,6,6,0,Phoenix,7,3,0,12,10
+2387301,2,Train,Marsborne,6,6,0,Phoenix,1,7,0,12,8
+2387301,3,Ancient,Marsborne,9,3,0,Phoenix,4,6,0,12,10
+2387299,1,Nuke,LAG,8,4,0,Mythic,5,4,0,12,9
+2387299,2,Train,LAG,5,7,0,Mythic,8,2,0,12,10
+2387300,1,Train,Aether,3,9,0,Voca,7,4,0,12,11
+2387300,2,Mirage,Aether,5,7,0,Voca,6,6,0,12,12
+2387302,1,Inferno,Zomblers,10,2,0,FlyQuest RED,3,4,0,12,7
+2387302,2,Mirage,Zomblers,10,2,0,FlyQuest RED,3,9,0,12,12
+2387303,1,Dust2,regain,4,8,0,TSG,1,5,0,12,6
+2387303,2,Ancient,regain,8,4,0,TSG,2,9,0,12,11
+2387304,1,Inferno,BOSS,9,3,0,Ghost,4,0,0,12,4
+2387304,2,Ancient,BOSS,6,6,0,Ghost,7,2,0,12,9
+2387305,1,Mirage,Shimmer,5,7,0,OverKnight,4,6,0,12,10
+2387305,2,Overpass,Shimmer,3,9,0,OverKnight,8,4,0,12,12
+2387496,1,Ancient,Take Flyte,9,3,0,Money Crew,4,8,0,12,12
+2387496,2,Mirage,Take Flyte,7,5,0,Money Crew,6,2,0,12,8
+2387498,1,Mirage,OverKnight,8,4,0,Outfit 49,5,3,0,12,8
+2387498,2,Overpass,OverKnight,7,5,0,Outfit 49,6,1,0,12,7
+2387256,1,Dust2,KRÜ,11,1,0,Dusty Roots,2,10,0,12,12
+2387256,2,Nuke,KRÜ,4,8,0,Dusty Roots,6,5,0,12,11
+2387256,3,Mirage,KRÜ,6,6,0,Dusty Roots,7,5,0,12,12
+2387257,1,Ancient,Keyd Stars,4,8,0,9z,2,5,0,12,7
+2387257,2,Nuke,Keyd Stars,9,3,0,9z,4,2,0,12,6
+2387257,3,Inferno,Keyd Stars,2,10,0,9z,0,3,0,12,3
+2387260,1,Dust2,Galorys,1,11,0,Procyon,3,2,0,12,5
+2387260,2,Ancient,Galorys,7,5,0,Procyon,6,0,0,12,6
+2387260,3,Overpass,Galorys,7,5,0,Procyon,6,6,0,12,12
+2387261,1,Nuke,Bounty Hunters,6,6,0,UnderDogs,7,2,0,12,9
+2387261,2,Mirage,Bounty Hunters,6,6,0,UnderDogs,7,2,0,12,9
+2387263,1,Inferno,Fake do Biru,11,1,0,Tropa do KinGui,2,7,0,12,9
+2387263,2,Dust2,Fake do Biru,10,2,0,Tropa do KinGui,3,0,0,12,3
+2387262,1,Inferno,GameHunters,1,11,0,LP,4,2,0,12,6
+2387262,2,Dust2,GameHunters,6,6,0,LP,2,7,0,12,9
+2386980,1,Inferno,Flame Sharks fe,5,7,0,Let Her Cook,8,1,0,12,9
+2386980,2,Dust2,Flame Sharks fe,5,7,0,Let Her Cook,5,6,0,12,11
+2386980,3,Ancient,Flame Sharks fe,7,5,0,Let Her Cook,4,8,0,12,12
+2387201,1,Dust2,500,5,7,0,Nexus,5,6,0,12,11
+2387201,2,Inferno,500,6,6,6,Nexus,6,4,0,18,10
+2387201,3,Ancient,500,9,3,0,Nexus,4,5,0,12,9
+2387045,1,Inferno,NOVAQ,9,3,0,ALGO,4,1,0,12,5
+2387045,2,Nuke,NOVAQ,6,6,0,ALGO,3,7,0,12,10
+2387045,3,Mirage,NOVAQ,7,5,0,ALGO,6,4,0,12,10
+2387375,1,Nuke,Rave,5,7,0,Marsborne,2,6,0,12,8
+2387375,2,Dust2,Rave,5,7,0,Marsborne,8,2,0,12,10
+2387375,3,Inferno,Rave,6,6,6,Marsborne,6,1,4,18,11
+2387196,1,Nuke,BASEMENT BOYS,3,9,0,HAVU,7,4,0,12,11
+2387196,2,Inferno,BASEMENT BOYS,7,5,0,HAVU,6,3,0,12,9
+2387196,3,Train,BASEMENT BOYS,6,6,0,HAVU,7,1,0,12,8
+2387418,1,Dust2,kONO,8,4,0,The Glecs,5,6,0,12,11
+2387418,2,Inferno,kONO,9,3,0,The Glecs,4,1,0,12,5
+2387199,1,Dust2,RUBY,7,5,0,Venom,6,0,0,12,6
+2387199,2,Ancient,RUBY,4,8,0,Venom,5,5,0,12,10
+2387199,3,Nuke,RUBY,3,9,0,Venom,0,4,0,12,4
+2387495,1,Train,MOUZ NXT,4,8,0,Dziuseppe,9,1,0,12,10
+2387495,2,Ancient,MOUZ NXT,8,4,0,Dziuseppe,5,2,0,12,7
+2387197,1,Train,33,4,8,0,Sangal,9,3,0,12,12
+2387197,2,Mirage,33,9,3,0,Sangal,4,1,0,12,5
+2387202,1,Ancient,K27,5,7,7,AaB,5,4,1,19,10
+2387202,2,Dust2,K27,11,1,0,AaB,2,3,0,12,5
+2386916,1,Nuke,EYEBALLERS,10,2,0,Betera,3,1,0,12,4
+2386916,2,Mirage,EYEBALLERS,6,6,0,Betera,7,1,0,12,8
+2387200,1,Mirage,ALLINNERS,1,11,0,SINNERS,2,2,0,12,4
+2387200,2,Nuke,ALLINNERS,3,9,0,SINNERS,3,4,0,12,7
+2387502,1,Nuke,Raid,7,5,0,hypewrld,6,3,0,12,9
+2387502,2,Dust2,Raid,6,6,0,hypewrld,7,1,0,12,8
+2387361,1,Dust2,LP,3,9,0,Fake do Biru,3,4,0,12,7
+2387361,2,Inferno,LP,9,3,0,Fake do Biru,4,8,0,12,12
+2387361,3,Train,LP,5,7,0,Fake do Biru,2,6,0,12,8
+2387417,1,Train,CPH Wolves,9,3,0,illwill,4,6,0,12,10
+2387417,2,Dust2,CPH Wolves,8,4,0,illwill,3,9,0,12,12
+2387417,3,Mirage,CPH Wolves,4,8,8,illwill,4,7,10,20,21
+2387494,1,Overpass,kONO,10,2,0,Phantom,3,0,0,12,3
+2387494,2,Inferno,kONO,5,7,0,Phantom,2,6,0,12,8
+2387494,3,Train,kONO,10,2,0,Phantom,3,0,0,12,3
+2387044,1,Overpass,Leo,9,3,0,FORZE Reload,4,2,0,12,6
+2387044,2,Ancient,Leo,11,1,0,FORZE Reload,2,0,0,12,2
+2387493,1,Ancient,HubaBuba,5,7,7,HyperSpirit,5,4,2,19,11
+2387493,2,Train,HubaBuba,3,9,9,HyperSpirit,3,2,4,21,9
+2387493,3,Dust2,HubaBuba,6,6,0,HyperSpirit,7,4,0,12,11
+2387102,1,Ancient,3DMAX,9,3,0,SAW,4,2,0,12,6
+2387102,2,Nuke,3DMAX,7,5,0,SAW,6,3,0,12,9
+2387163,1,Train,Eruption,7,5,0,Kaleido,4,8,0,12,12
+2387163,2,Mirage,Eruption,6,6,0,Kaleido,5,7,0,12,12
+2387164,1,Ancient,The QUBE,8,4,0,BORING PLAYERS,5,1,0,12,6
+2387164,2,Overpass,The QUBE,5,7,7,BORING PLAYERS,5,4,1,19,10
+2387162,1,Mirage,Chinggis Warriors,6,6,0,FengDa,7,0,0,12,7
+2387162,2,Nuke,Chinggis Warriors,8,4,0,FengDa,5,3,0,12,8
+2387165,1,Inferno,Just Swing,3,9,0,Change The Game,2,4,0,12,6
+2387165,2,Mirage,Just Swing,2,10,0,Change The Game,3,3,0,12,6
+2387043,1,Nuke,RUBY,8,4,0,ENCE Academy,5,1,0,12,6
+2387043,2,Dust2,RUBY,6,6,0,ENCE Academy,7,5,0,12,12
+2386917,1,Dust2,CYBERSHOKE,10,2,0,SPARTA,3,0,0,12,3
+2386917,2,Nuke,CYBERSHOKE,9,3,3,SPARTA,9,4,2,15,15
+2387042,1,Train,HubaBuba,7,5,0,ALLINNERS,6,1,0,12,7
+2387042,2,Inferno,HubaBuba,5,7,0,ALLINNERS,5,6,0,12,11
+2387042,3,Mirage,HubaBuba,6,6,0,ALLINNERS,3,7,0,12,10
+2386914,1,Mirage,VP.Prodigy,6,6,0,Nexus,4,7,0,12,11
+2386914,2,Train,VP.Prodigy,8,4,0,Nexus,5,2,0,12,7
+2386914,3,Dust2,VP.Prodigy,4,8,0,Nexus,5,5,0,12,10
+2387499,1,Ancient,OxinGame,9,3,0,Wicked,4,5,0,12,9
+2387499,2,Dust2,OxinGame,8,4,0,Wicked,5,2,0,12,7
+2387365,1,Ancient,LAG,7,5,0,OverKnight,6,5,0,12,11
+2387365,2,Train,LAG,10,2,0,OverKnight,3,1,0,12,4
+2387292,1,Mirage,Zomblers,9,3,0,Nocturnal,4,0,0,12,4
+2387292,2,Nuke,Zomblers,8,4,0,Nocturnal,5,1,0,12,6
+2387297,1,Overpass,NYX,2,10,0,OverKnight,0,3,0,12,3
+2387297,2,Dust2,NYX,2,10,0,OverKnight,0,3,0,12,3
+2387368,1,Ancient,Outfit 49,10,2,0,Shimmer,3,0,0,12,3
+2387368,2,Nuke,Outfit 49,6,6,0,Shimmer,2,7,0,12,9
+2387368,3,Overpass,Outfit 49,9,3,0,Shimmer,4,0,0,12,4
+2387255,1,Inferno,ODDIK,10,2,0,Tropa do KinGui,3,0,0,12,3
+2387255,2,Train,ODDIK,2,10,0,Tropa do KinGui,4,3,0,12,7
+2387255,3,Dust2,ODDIK,6,6,0,Tropa do KinGui,4,7,0,12,11
+2387372,1,Inferno,Marsborne,8,4,0,LAG,5,1,0,12,6
+2387372,2,Train,Marsborne,9,3,0,LAG,4,0,0,12,4
+2387249,1,Nuke,Crashers,5,7,0,Procyon,2,6,0,12,8
+2387249,2,Dust2,Crashers,7,5,5,Procyon,7,0,4,17,11
+2387251,1,Overpass,UnderDogs,7,5,0,MIBR Academy,6,4,0,12,10
+2387251,2,Nuke,UnderDogs,7,5,0,MIBR Academy,6,4,0,12,10
+2387252,1,Nuke,Yawara,6,6,0,LP,2,7,0,12,9
+2387252,2,Ancient,Yawara,2,10,0,LP,6,3,0,12,9
+2387254,1,Overpass,R2,0,12,0,Fake do Biru,0,1,0,12,1
+2387254,2,Dust2,R2,2,10,0,Fake do Biru,3,3,0,12,6
+2387373,1,Ancient,Rave,10,2,0,Kiri,3,7,0,12,10
+2387373,2,Dust2,Rave,10,2,0,Kiri,3,0,0,12,3
+2387371,1,Inferno,NRG,10,2,0,SKDC,3,0,0,12,3
+2387371,2,Mirage,NRG,12,0,0,SKDC,1,0,0,12,1
+2387193,1,Inferno,Washington,4,8,0,AMKAL,5,5,0,12,10
+2387193,2,Dust2,Washington,5,7,0,AMKAL,8,2,0,12,10
+2387193,3,Ancient,Washington,5,7,0,AMKAL,8,4,0,12,12
+2386913,1,Dust2,Zero Tenacity,7,5,0,kONO,6,0,0,12,6
+2386913,2,Overpass,Zero Tenacity,6,6,0,kONO,3,7,0,12,10
+2386913,3,Inferno,Zero Tenacity,4,8,8,kONO,4,0,4,20,8
+2387360,1,Mirage,Bounty Hunters,6,6,6,Dusty Roots,6,0,4,18,10
+2387360,2,Train,Bounty Hunters,8,4,0,Dusty Roots,5,6,0,12,11
+2387360,3,Dust2,Bounty Hunters,7,5,0,Dusty Roots,6,6,0,12,12
+2387416,1,Ancient,ENCE Academy,4,8,0,ALGO,9,2,0,12,11
+2387416,2,Nuke,ENCE Academy,9,3,0,ALGO,4,6,0,12,10
+2386979,1,Mirage,Let Her Cook,1,11,0,Imperial Valkyries,0,2,0,12,2
+2386979,2,Nuke,Let Her Cook,4,8,0,Imperial Valkyries,3,5,0,12,8
+2387191,1,Train,NOVAQ,6,6,0,HubaBuba,7,2,0,12,9
+2387191,2,Inferno,NOVAQ,8,4,0,HubaBuba,5,1,0,12,6
+2387189,1,Dust2,Eternal Fire,10,2,0,SPARTA,3,0,0,12,3
+2387189,2,Train,Eternal Fire,9,3,0,SPARTA,4,7,0,12,11
+2387194,1,Mirage,ECLOT,7,5,0,VP.Prodigy,6,2,0,12,8
+2387194,2,Dust2,ECLOT,4,8,0,VP.Prodigy,9,2,0,12,11
+2387195,1,Nuke,9BOOMPRO,9,3,0,Phantom,4,4,0,12,8
+2387195,2,Dust2,9BOOMPRO,10,2,0,Phantom,3,0,0,12,3
+2386978,1,Dust2,Flame Sharks fe,5,7,0,Overpeek,2,6,0,12,8
+2386978,2,Mirage,Flame Sharks fe,2,10,0,Overpeek,6,3,0,12,9
+2387040,1,Ancient,FORZE Reload,6,6,0,Mousquetaires,4,7,0,12,11
+2387040,2,Dust2,FORZE Reload,9,3,0,Mousquetaires,4,0,0,12,4
+2387040,3,Train,FORZE Reload,7,5,0,Mousquetaires,6,4,0,12,10
+2387160,1,Overpass,Just Swing,7,5,5,ScarX,7,5,7,17,19
+2387160,2,Dust2,Just Swing,8,4,0,ScarX,5,7,0,12,12
+2387160,3,Inferno,Just Swing,6,6,0,ScarX,7,3,0,12,10
+2387415,1,Mirage,GUN5,5,7,0,MASONIC,8,4,0,12,12
+2387415,2,Train,GUN5,5,7,0,MASONIC,8,3,0,12,11
+2387387,1,Nuke,Dziuseppe,5,7,0,Phantom,4,6,0,12,10
+2387387,2,Train,Dziuseppe,6,6,0,Phantom,4,7,0,12,11
+2387423,1,Dust2,Betclic,4,8,0,StoichkovPeek,3,5,0,12,8
+2387423,2,Overpass,Betclic,4,8,0,StoichkovPeek,0,5,0,12,5
+2387491,1,Dust2,Honvéd,9,3,0,WiLD,4,4,0,12,8
+2387491,2,Overpass,Honvéd,10,2,0,WiLD,3,1,0,12,4
+2386911,2,Train,ARCRED,7,5,0,Washington,6,6,0,12,12
+2387159,1,Nuke,BORING PLAYERS,7,5,0,Last Bullet,6,6,0,12,12
+2387159,2,Dust2,BORING PLAYERS,5,7,0,Last Bullet,6,6,0,12,12
+2387159,3,Ancient,BORING PLAYERS,7,5,0,Last Bullet,6,2,0,12,8
+2387161,1,Dust2,IHC,2,10,0,Change The Game,2,3,0,12,5
+2387161,2,Ancient,IHC,9,3,0,Change The Game,4,4,0,12,8
+2387161,3,Inferno,IHC,5,7,0,Change The Game,4,6,0,12,10
+2387158,1,Nuke,The QUBE,10,2,0,GATERON,3,2,0,12,5
+2387158,2,Ancient,The QUBE,9,3,0,GATERON,4,2,0,12,6
+2387490,1,Inferno,WiLD,9,3,0,mXm,4,3,0,12,7
+2387386,1,Ancient,SPARTA,5,7,0,HyperSpirit,3,6,0,12,9
+2387386,2,Mirage,SPARTA,6,6,0,HyperSpirit,7,5,0,12,12
+2387386,3,Dust2,SPARTA,10,2,0,HyperSpirit,3,0,0,12,3
+2387039,1,Nuke,Square Sausages,4,8,0,ALGO,0,5,0,12,5
+2387039,2,Ancient,Square Sausages,2,10,0,ALGO,6,3,0,12,9
+2386912,1,Inferno,Johnny Speeds,7,5,0,33,6,6,0,12,12
+2386912,2,Train,Johnny Speeds,6,6,0,33,7,3,0,12,10
+2387488,1,Mirage,Honvéd,9,3,0,mXm,4,1,0,12,5
+2387488,2,Ancient,Honvéd,8,4,0,mXm,5,7,0,12,12
+2387489,1,Mirage,WiLD,7,5,0,NaturPeek,6,1,0,12,7
+2387136,1,Mirage,Animus Victoria,8,4,0,Mindfreak,5,1,0,12,6
+2387136,2,Dust2,Animus Victoria,3,9,0,Mindfreak,3,4,0,12,7
+2387136,3,Nuke,Animus Victoria,2,10,0,Mindfreak,0,3,0,12,3
+2387038,1,Dust2,Leo,10,2,2,AMKAL,10,7,10,14,27
+2387038,2,Mirage,Leo,3,9,0,AMKAL,5,4,0,12,9
+2387137,1,Overpass,Vantage,3,9,0,Rooster,1,4,0,12,5
+2387137,2,Mirage,Vantage,4,8,0,Rooster,2,5,0,12,7
+2387385,1,Train,kONO,9,3,0,MOUZ NXT,4,1,0,12,5
+2387385,2,Dust2,kONO,5,7,0,MOUZ NXT,3,6,0,12,9
+2387385,3,Nuke,kONO,8,4,0,MOUZ NXT,5,5,0,12,10
+2386910,1,Mirage,Oramond,3,9,0,Fire Flux,5,4,0,12,9
+2386910,2,Dust2,Oramond,4,8,0,Fire Flux,6,5,0,12,11
+2387287,1,Mirage,BOSS,6,6,0,Mythic,3,7,0,12,10
+2387287,2,Ancient,BOSS,10,2,0,Mythic,3,0,0,12,3
+2387287,3,Dust2,BOSS,5,7,0,Mythic,6,6,0,12,12
+2387290,1,Mirage,Phoenix,9,3,0,FlyQuest RED,4,2,0,12,6
+2387290,2,Nuke,Phoenix,7,5,5,FlyQuest RED,7,4,1,17,12
+2387285,1,Nuke,InControl,6,6,0,Shimmer,7,2,0,12,9
+2387285,2,Overpass,InControl,9,3,0,Shimmer,4,3,0,12,7
+2387288,1,Nuke,Voca,8,4,0,TSG,5,0,0,12,5
+2387288,2,Ancient,Voca,10,2,0,TSG,3,0,0,12,3
+2386987,1,Overpass,Nocturnal,6,6,0,Ghost,7,4,0,12,11
+2386987,2,Train,Nocturnal,3,9,0,Ghost,4,4,0,12,8
+2386987,3,Ancient,Nocturnal,3,9,0,Ghost,4,4,0,12,8
+2387366,1,Overpass,Take Flyte,0,12,0,SportsBetExpert,0,1,0,12,1
+2387366,2,Dust2,Take Flyte,4,8,0,SportsBetExpert,1,5,0,12,6
+2386985,1,Mirage,Shimmer,7,5,0,FlyQuest RED,3,8,0,12,11
+2386985,2,Nuke,Shimmer,8,4,0,FlyQuest RED,5,1,0,12,6
+2386985,3,Dust2,Shimmer,1,11,0,FlyQuest RED,0,2,0,12,2
+2387247,1,Overpass,ShindeN,8,4,0,Galorys,2,9,0,12,11
+2387247,2,Mirage,ShindeN,6,6,0,Galorys,7,0,0,12,7
+2387247,3,Nuke,ShindeN,6,6,0,Galorys,7,5,0,12,12
+2387369,1,Ancient,regain,7,5,5,Zomblers,7,7,4,17,18
+2387369,2,Inferno,regain,7,5,0,Zomblers,6,6,0,12,12
+2386982,1,Overpass,Curralzinho,6,6,6,CAPIVARAS,6,4,0,18,10
+2386982,2,Ancient,Curralzinho,6,6,0,CAPIVARAS,7,4,0,12,11
+2387364,1,Mirage,BOSS,9,3,0,Money Crew,4,7,0,12,11
+2387364,2,Inferno,BOSS,8,4,0,Money Crew,5,3,0,12,8
+2386981,1,Ancient,FURIA fe,6,6,0,MIBR fe,2,7,0,12,9
+2386981,2,Mirage,FURIA fe,10,2,0,MIBR fe,3,1,0,12,4
+2386981,3,Inferno,FURIA fe,9,3,0,MIBR fe,4,7,0,12,11
+2387241,1,Dust2,ODDIK,8,4,4,KRÜ,8,0,4,16,12
+2387241,2,Ancient,ODDIK,4,8,0,KRÜ,0,5,0,12,5
+2386983,1,Inferno,Four Magic fe,4,8,0,Atrix,3,5,0,12,8
+2386983,2,Mirage,Four Magic fe,9,3,3,Atrix,9,1,4,15,14
+2387242,1,Nuke,Dusty Roots,9,3,0,Fake do Biru,4,5,0,12,9
+2387242,2,Dust2,Dusty Roots,6,6,6,Fake do Biru,6,4,2,18,12
+2387244,1,Ancient,9z,5,7,0,Yawara,8,2,0,12,10
+2387244,2,Nuke,9z,7,5,0,Yawara,6,0,0,12,6
+2386984,1,Dust2,Dusty Roses,5,7,0,thekillaz fe,6,6,0,12,12
+2386984,2,Ancient,Dusty Roses,7,5,0,thekillaz fe,0,8,0,12,8
+2387243,1,Mirage,Keyd Stars,10,2,0,GameHunters,3,1,0,12,4
+2387243,2,Ancient,Keyd Stars,7,5,5,GameHunters,7,4,2,17,13
+2387245,1,Inferno,Sharks,9,3,0,UnderDogs,4,1,0,12,5
+2387245,2,Nuke,Sharks,12,0,0,UnderDogs,1,0,0,12,1
+2386973,1,Ancient,AKA HERO KAJO,2,10,0,888aura,2,3,0,12,5
+2386973,2,Nuke,AKA HERO KAJO,4,8,8,888aura,4,4,2,20,10
+2386973,3,Dust2,AKA HERO KAJO,7,5,0,888aura,6,2,0,12,8
+2386909,1,Overpass,Zero Tenacity,4,8,0,Sangal,0,5,0,12,5
+2386909,2,Inferno,Zero Tenacity,9,3,0,Sangal,4,0,0,12,4
+2386909,3,Nuke,Zero Tenacity,7,5,0,Sangal,3,8,0,12,11
+2387187,1,Train,Phantom,5,7,0,Monte,0,6,0,12,6
+2387187,2,Nuke,Phantom,7,5,5,Monte,7,4,2,17,13
+2387187,3,Mirage,Phantom,4,8,0,Monte,2,5,0,12,7
+2386975,1,Dust2,Nemesis Impact,5,7,0,Imperial Valkyries,0,6,0,12,6
+2386975,2,Inferno,Nemesis Impact,7,5,0,Imperial Valkyries,2,8,0,12,10
+2386974,1,Dust2,hindsight,5,7,0,Flame Sharks fe,4,6,0,12,10
+2386974,2,Ancient,hindsight,4,8,0,Flame Sharks fe,7,5,0,12,12
+2386972,1,Mirage,NIP Impact,7,5,5,Let Her Cook,7,4,2,17,13
+2386972,2,Overpass,NIP Impact,5,7,0,Let Her Cook,8,0,0,12,8
+2386976,1,Mirage,Peekaboo,8,4,0,BIG EQUIPA,1,9,0,12,10
+2386976,2,Ancient,Peekaboo,3,9,0,BIG EQUIPA,5,4,0,12,9
+2387037,1,Train,ALGO,3,9,9,The Glecs,3,4,7,21,14
+2387037,2,Inferno,ALGO,6,6,0,The Glecs,5,7,0,12,12
+2387186,1,Dust2,JiJieHao,4,8,0,9BOOMPRO,9,3,0,12,12
+2387186,2,Nuke,JiJieHao,1,11,0,9BOOMPRO,3,2,0,12,5
+2387186,3,Mirage,JiJieHao,8,4,0,9BOOMPRO,5,1,0,12,6
+2387184,1,Ancient,VP.Prodigy,3,9,0,AaB,4,4,0,12,8
+2387184,2,Dust2,VP.Prodigy,5,7,0,AaB,8,3,0,12,11
+2387184,3,Nuke,VP.Prodigy,3,9,0,AaB,4,4,0,12,8
+2387185,1,Dust2,K27,7,5,0,ECLOT,6,6,0,12,12
+2387185,2,Nuke,K27,11,1,0,ECLOT,2,4,0,12,6
+2387182,1,Ancient,Nexus,4,8,0,AMKAL,9,2,0,12,11
+2387182,2,Train,Nexus,5,7,0,AMKAL,8,0,0,12,8
+2387356,1,Nuke,Sharks,8,4,0,Dusty Roots,5,3,0,12,8
+2387356,2,Train,Sharks,6,6,0,Dusty Roots,7,3,0,12,10
+2386908,1,Dust2,Betera,8,4,4,Johnny Speeds,8,4,1,16,13
+2386908,2,Overpass,Betera,5,7,0,Johnny Speeds,4,6,0,12,10
+2386908,3,Nuke,Betera,9,3,0,Johnny Speeds,4,7,0,12,11
+2387010,1,Ancient,33,4,8,0,Nemiga,1,5,0,12,6
+2387010,2,Dust2,33,4,8,0,Nemiga,9,2,0,12,11
+2387010,3,Train,33,11,1,0,Nemiga,2,0,0,12,2
+2387152,1,Mirage,Last Bullet,6,6,0,Kaleido,7,5,0,12,12
+2387152,2,Inferno,Last Bullet,5,7,0,Kaleido,0,6,0,12,6
+2387152,3,Ancient,Last Bullet,5,7,7,Kaleido,5,3,7,19,15
+2387151,1,Inferno,FengDa,6,6,0,ScarX,7,3,0,12,10
+2387151,2,Dust2,FengDa,8,4,0,ScarX,5,0,0,12,5
+2387153,1,Ancient,Eruption,8,4,0,GATERON,5,6,0,12,11
+2387153,2,Dust2,Eruption,7,5,0,GATERON,6,0,0,12,6
+2387155,1,Ancient,BORING PLAYERS,6,6,0,NomadS,7,5,0,12,12
+2387155,2,Inferno,BORING PLAYERS,7,5,0,NomadS,6,6,0,12,12
+2387157,1,Inferno,Change The Game,8,4,0,Legion,5,1,0,12,6
+2387157,2,Dust2,Change The Game,7,5,0,Legion,6,3,0,12,9
+2387156,1,Ancient,Just Swing,4,8,0,Arise,9,3,0,12,12
+2387150,1,Inferno,Chinggis Warriors,8,4,0,IHC,5,3,0,12,8
+2387150,2,Nuke,Chinggis Warriors,10,2,0,IHC,3,0,0,12,3
+2387154,1,Ancient,DQZS,1,11,0,The QUBE,0,2,0,12,2
+2387154,2,Overpass,DQZS,3,9,0,The QUBE,0,4,0,12,4
+2387035,1,Inferno,AMKAL,6,6,6,Mousquetaires,6,4,1,18,11
+2387035,2,Ancient,AMKAL,8,4,0,Mousquetaires,5,3,0,12,8
+2386907,1,Inferno,EYEBALLERS,7,5,5,Nexus,7,4,2,17,13
+2386907,2,Nuke,EYEBALLERS,5,7,0,Nexus,8,4,0,12,12
+2387133,1,Nuke,Ground Zero,4,8,0,Mindfreak,7,5,0,12,12
+2387133,2,Inferno,Ground Zero,4,8,0,Mindfreak,9,2,0,12,11
+2387133,3,Train,Ground Zero,12,0,0,Mindfreak,1,1,0,12,2
+2387034,1,Ancient,FORZE Reload,10,2,0,Leo,3,0,0,12,3
+2387034,2,Overpass,FORZE Reload,5,7,0,Leo,3,6,0,12,9
+2387034,3,Train,FORZE Reload,6,6,0,Leo,5,7,0,12,12
+2386906,1,Train,Sashi,6,6,6,SPARTA,6,7,3,18,16
+2386906,2,Nuke,Sashi,3,9,0,SPARTA,3,4,0,12,7
+2386906,3,Ancient,Sashi,6,6,0,SPARTA,7,4,0,12,11
+2387135,1,Train,FURY,2,10,0,Rooster,1,3,0,12,4
+2387135,2,Overpass,FURY,3,9,0,Rooster,5,4,0,12,9
+2387134,1,Mirage,Animus Victoria,10,2,0,Underground,3,1,0,12,4
+2387134,2,Nuke,Animus Victoria,9,3,0,Underground,4,0,0,12,4
+2387132,1,Mirage,SemperFi,12,0,0,Vantage,1,0,0,12,1
+2387132,2,Overpass,SemperFi,7,5,0,Vantage,6,0,0,12,6
+2387367,1,Nuke,Phoenix,7,5,0,InControl,6,6,0,12,12
+2387367,2,Train,Phoenix,6,6,0,InControl,5,7,0,12,12
+2387367,3,Mirage,Phoenix,6,6,6,InControl,6,5,7,18,18
+2387278,1,Mirage,OverKnight,8,4,0,Zomblers,5,3,0,12,8
+2387278,2,Ancient,OverKnight,11,1,0,Zomblers,2,4,0,12,6
+2387282,1,Inferno,regain,8,4,0,Ghost,5,5,0,12,10
+2387282,2,Ancient,regain,10,2,0,Ghost,3,1,0,12,4
+2387283,1,Overpass,Nocturnal,9,3,0,NYX,4,2,0,12,6
+2387283,2,Mirage,Nocturnal,10,2,0,NYX,3,3,0,12,6
+2387234,1,Inferno,Crashers,6,6,0,KRÜ,7,3,0,12,10
+2387234,2,Dust2,Crashers,6,6,0,KRÜ,5,7,0,12,12
+2387234,3,Ancient,Crashers,7,5,5,KRÜ,7,0,4,17,11
+2387237,1,Nuke,UnderDogs,9,3,0,LP,4,6,0,12,10
+2387237,2,Inferno,UnderDogs,8,4,4,LP,8,4,2,16,14
+2387240,1,Dust2,Procyon,6,6,0,Tropa do KinGui,7,2,0,12,9
+2387240,2,Inferno,Procyon,6,6,0,Tropa do KinGui,7,5,0,12,12
+2387239,1,Overpass,R2,6,6,6,Galorys,6,1,4,18,11
+2387239,2,Ancient,R2,6,6,0,Galorys,0,7,0,12,7
+2387235,1,Dust2,Vasco,7,5,0,GameHunters,0,8,0,12,8
+2387235,2,Mirage,Vasco,5,7,0,GameHunters,6,6,0,12,12
+2387236,1,Mirage,Yawara,8,4,0,MIBR Academy,5,6,0,12,11
+2387236,2,Ancient,Yawara,10,2,0,MIBR Academy,3,3,0,12,6
+2387238,1,Ancient,Bounty Hunters,11,1,0,MAGICOS,2,0,0,12,2
+2387238,2,Mirage,Bounty Hunters,7,5,0,MAGICOS,6,1,0,12,7
+2387172,1,Nuke,ECSTATIC,7,5,0,HAVU,2,8,0,12,10
+2387172,2,Train,ECSTATIC,7,5,0,HAVU,6,0,0,12,6
+2387172,3,Overpass,ECSTATIC,6,6,6,HAVU,6,5,7,18,18
+2387179,1,Dust2,HubaBuba,6,6,0,Venom,7,5,0,12,12
+2387179,2,Train,HubaBuba,5,7,0,Venom,5,6,0,12,11
+2387179,3,Ancient,HubaBuba,6,6,0,Venom,1,7,0,12,8
+2387173,1,Dust2,1win,6,6,0,BASEMENT BOYS,4,7,0,12,11
+2387173,2,Ancient,1win,6,6,0,BASEMENT BOYS,7,4,0,12,11
+2387173,3,Mirage,1win,3,9,0,BASEMENT BOYS,3,4,0,12,7
+2387175,1,Train,SPARTA,7,5,0,Sangal,6,4,0,12,10
+2387175,2,Inferno,SPARTA,7,5,0,Sangal,0,8,0,12,8
+2387175,3,Nuke,SPARTA,5,7,0,Sangal,2,6,0,12,8
+2387357,1,Inferno,Keyd Stars,9,3,0,LP,4,8,0,12,12
+2387357,2,Dust2,Keyd Stars,7,5,0,LP,1,8,0,12,9
+2387357,3,Mirage,Keyd Stars,9,3,0,LP,4,0,0,12,4
+2386905,1,Mirage,VP.Prodigy,5,7,0,Fire Flux,8,2,0,12,10
+2386905,2,Train,VP.Prodigy,6,6,6,Fire Flux,6,4,1,18,11
+2387033,1,Mirage,Nuclear TigeRES,7,5,0,ENCE Academy,6,2,0,12,8
+2387033,2,Ancient,Nuclear TigeRES,8,4,0,ENCE Academy,5,2,0,12,7
+2387174,1,Inferno,33,6,6,0,Eternal Fire,7,5,0,12,12
+2387174,2,Train,33,7,5,0,Eternal Fire,6,2,0,12,8
+2387178,1,Train,RUBY,10,2,0,NOVAQ,3,6,0,12,9
+2387178,2,Nuke,RUBY,8,4,0,NOVAQ,5,4,0,12,9
+2387176,1,Ancient,Nemiga,10,2,0,Dziuseppe,3,0,0,12,3
+2387176,2,Train,Nemiga,5,7,0,Dziuseppe,8,1,0,12,9
+2387119,1,Overpass,BIG,6,6,0,Mousquetaires,7,2,0,12,9
+2387119,2,Nuke,BIG,8,4,0,Mousquetaires,5,7,0,12,12
+2387032,1,Inferno,ALLINNERS,4,8,0,UNiTY,3,5,0,12,8
+2387032,2,Mirage,ALLINNERS,7,5,0,UNiTY,6,1,0,12,7
+2387032,3,Ancient,ALLINNERS,2,10,0,UNiTY,4,3,0,12,7
+2386904,1,Inferno,ARCRED,6,6,0,33,3,7,0,12,10
+2386904,2,Mirage,ARCRED,6,6,0,33,7,5,0,12,12
+2386904,3,Ancient,ARCRED,1,11,0,33,2,2,0,12,4
+2387149,1,Dust2,GATERON,4,8,0,Legion,9,2,0,12,11
+2387149,2,Inferno,GATERON,5,7,0,Legion,6,6,0,12,12
+2387149,3,Mirage,GATERON,5,7,0,Legion,8,2,0,12,10
+2387145,1,Inferno,NomadS,6,6,0,ScarX,2,7,0,12,9
+2387145,2,Ancient,NomadS,8,4,0,ScarX,5,6,0,12,11
+2387145,3,Mirage,NomadS,5,7,0,ScarX,3,6,0,12,9
+2387143,1,Inferno,The QUBE,5,7,0,IHC,6,6,0,12,12
+2387143,2,Nuke,The QUBE,6,6,6,IHC,6,4,1,18,11
+2387143,3,Ancient,The QUBE,3,9,0,IHC,0,4,0,12,4
+2387146,1,Train,Kaleido,8,4,0,Arise,5,7,0,12,12
+2387146,2,Inferno,Kaleido,8,4,0,Arise,5,0,0,12,5
+2387142,1,Mirage,Chinggis Warriors,11,1,0,DQZS,2,0,0,12,2
+2387142,2,Nuke,Chinggis Warriors,6,6,0,DQZS,7,4,0,12,11
+2387144,1,Dust2,FengDa,7,5,0,BORING PLAYERS,6,4,0,12,10
+2387144,2,Ancient,FengDa,10,2,0,BORING PLAYERS,3,1,0,12,4
+2386903,1,Dust2,CYBERSHOKE,7,5,0,Washington,6,5,0,12,11
+2386903,2,Nuke,CYBERSHOKE,7,5,0,Washington,6,5,0,12,11
+2387031,1,Train,RUBY,12,0,0,NIP Impact,1,0,0,12,1
+2387031,2,Dust2,RUBY,10,2,0,NIP Impact,3,0,0,12,3
+2387129,1,Mirage,Vantage,5,7,0,Underground,3,6,0,12,9
+2387129,2,Nuke,Vantage,6,6,0,Underground,7,1,0,12,8
+2387129,3,Inferno,Vantage,7,5,5,Underground,7,7,4,17,18
+2387131,1,Nuke,Mindfreak,7,5,0,Rooster,6,6,0,12,12
+2387131,2,Dust2,Mindfreak,4,8,0,Rooster,4,5,0,12,9
+2387131,3,Ancient,Mindfreak,6,6,6,Rooster,6,4,2,18,12
+2387128,1,Mirage,SemperFi,8,4,0,Animus Victoria,5,0,0,12,5
+2387128,2,Nuke,SemperFi,5,7,0,Animus Victoria,2,6,0,12,8
+2387128,3,Overpass,SemperFi,9,3,0,Animus Victoria,4,1,0,12,5
+2387130,1,Ancient,Ground Zero,7,5,0,FURY,6,6,0,12,12
+2387130,2,Inferno,Ground Zero,9,3,0,FURY,4,3,0,12,7
+2386902,1,Nuke,Oramond,3,9,0,kONO,3,4,0,12,7
+2386902,2,Inferno,Oramond,2,10,0,kONO,0,3,0,12,3
+2387125,1,Ancient,regain,3,9,0,SportsBetExpert,7,4,0,12,11
+2387125,2,Dust2,regain,6,6,0,SportsBetExpert,1,7,0,12,8
+2387127,1,Mirage,Zomblers,5,7,0,anything else,8,3,0,12,11
+2387127,2,Ancient,Zomblers,8,4,0,anything else,5,5,0,12,10
+2387124,1,Ancient,InControl,6,6,0,Nocturnal,7,5,0,12,12
+2387124,2,Mirage,InControl,9,3,0,Nocturnal,4,1,0,12,5
+2387126,1,Mirage,Take Flyte,4,8,8,Outfit 49,4,4,0,20,8
+2387126,2,Nuke,Take Flyte,5,7,0,Outfit 49,8,2,0,12,10
+2387029,1,Inferno,ENCE Academy,10,2,0,NIP Impact,3,0,0,12,3
+2387029,2,Dust2,ENCE Academy,7,5,0,NIP Impact,6,5,0,12,11
+2387353,1,Inferno,ODDIK,2,10,0,LP,0,3,0,12,3
+2387353,2,Train,ODDIK,4,8,0,LP,2,5,0,12,7
+2387354,1,Dust2,Keyd Stars,8,4,0,Fake do Biru,5,4,0,12,9
+2387354,2,Mirage,Keyd Stars,5,7,0,Fake do Biru,8,3,0,12,11
+2387028,1,Dust2,RUBY,6,6,6,Nuclear TigeRES,6,4,0,18,10
+2387028,2,Ancient,RUBY,5,7,0,Nuclear TigeRES,4,6,0,12,10
+2387028,3,Nuke,RUBY,8,4,0,Nuclear TigeRES,2,9,0,12,11
+2387363,1,Nuke,Flame Sharks,5,7,0,Ursa,8,3,0,12,11
+2387363,2,Overpass,Flame Sharks,5,7,0,Ursa,8,3,0,12,11
+2387006,1,Mirage,33,8,4,0,Johnny Speeds,5,2,0,12,7
+2387006,2,Train,33,5,7,0,Johnny Speeds,8,4,0,12,12
+2386900,1,Train,VP.Prodigy,5,7,0,SPARTA,1,6,0,12,7
+2386900,2,Mirage,VP.Prodigy,5,7,0,SPARTA,1,6,0,12,7
+2387027,1,Mirage,HubaBuba,6,6,0,UNiTY,3,7,0,12,10
+2387027,2,Ancient,HubaBuba,5,7,0,UNiTY,5,6,0,12,11
+2387117,1,Inferno,MOLO,5,7,0,Mousquetaires,0,6,0,12,6
+2387117,2,Nuke,MOLO,7,5,5,Mousquetaires,7,7,5,17,19
+2387117,3,Dust2,MOLO,3,9,0,Mousquetaires,1,4,0,12,5
+2387005,1,Dust2,SPARTA,6,6,0,CYBERSHOKE,2,7,0,12,9
+2387005,2,Nuke,SPARTA,8,4,4,CYBERSHOKE,8,3,7,16,18
+2386899,1,Dust2,Oramond,3,9,0,Nexus,2,4,0,12,6
+2386899,2,Ancient,Oramond,2,10,0,Nexus,4,3,0,12,7
+2386898,1,Nuke,Betera,5,7,0,33,8,2,0,12,10
+2386898,2,Dust2,Betera,6,6,0,33,3,7,0,12,10
+2386898,3,Mirage,Betera,10,2,0,33,3,2,0,12,5
+2387026,1,Ancient,ALLINNERS,10,2,0,Dziuseppe,3,2,0,12,5
+2387026,2,Inferno,ALLINNERS,9,3,0,Dziuseppe,4,1,0,12,5
+2386877,1,Ancient,WOPA,3,9,0,Wildcard Academy,4,4,0,12,8
+2386877,2,Mirage,WOPA,6,6,0,Wildcard Academy,5,7,0,12,12
+2387123,1,Overpass,Shimmer,4,8,0,OverKnight,2,5,0,12,7
+2387123,2,Mirage,Shimmer,4,8,0,OverKnight,1,5,0,12,6
+2387122,1,Mirage,Phoenix,4,8,0,Money Crew,9,2,0,12,11
+2387122,2,Nuke,Phoenix,3,9,0,Money Crew,6,4,0,12,10
+2387122,3,Dust2,Phoenix,7,5,0,Money Crew,2,8,0,12,10
+2387121,1,Inferno,LAG,1,11,0,Marsborne,0,2,0,12,2
+2387121,2,Train,LAG,1,11,0,Marsborne,0,2,0,12,2
+2386897,1,Nuke,EYEBALLERS,9,3,0,kONO,4,8,0,12,12
+2386897,2,Overpass,EYEBALLERS,6,6,0,kONO,7,4,0,12,11
+2386896,1,Dust2,Zero Tenacity,11,1,0,Washington,2,3,0,12,5
+2386896,2,Nuke,Zero Tenacity,4,8,0,Washington,5,5,0,12,10
+2386896,3,Inferno,Zero Tenacity,8,4,0,Washington,5,1,0,12,6
+2387116,1,Inferno,BC.Game,6,6,6,NOVAQ,6,4,1,18,11
+2387116,2,Mirage,BC.Game,8,4,4,NOVAQ,8,4,7,16,19
+2387116,3,Dust2,BC.Game,2,10,0,NOVAQ,11,1,0,12,12
+2387113,1,Nuke,FUT,9,3,0,Mousquetaires,4,0,0,12,4
+2387113,2,Ancient,FUT,4,8,0,Mousquetaires,0,5,0,12,5
+2387113,3,Dust2,FUT,6,6,0,Mousquetaires,5,7,0,12,12
+2387115,1,Dust2,BIG,2,10,0,AM,6,3,0,12,9
+2387115,2,Inferno,BIG,8,4,0,AM,5,2,0,12,7
+2387115,3,Overpass,BIG,9,3,0,AM,4,5,0,12,9
+2387114,1,Nuke,MOLO,5,7,0,AaB,8,2,0,12,10
+2387114,2,Overpass,MOLO,3,9,0,AaB,0,4,0,12,4
+2387114,3,Mirage,MOLO,7,5,0,AaB,6,0,0,12,6
+2386999,1,Dust2,ECSTATIC,7,5,0,SPARTA,6,3,0,12,9
+2386999,2,Train,ECSTATIC,7,5,0,SPARTA,6,5,0,12,11
+2387106,1,Nuke,GenOne,10,2,2,Mousquetaires,10,5,7,14,22
+2386894,1,Overpass,Sashi,8,4,0,Fire Flux,5,5,0,12,10
+2386894,2,Dust2,Sashi,6,6,0,Fire Flux,5,7,0,12,12
+2386894,3,Ancient,Sashi,8,4,0,Fire Flux,5,3,0,12,8
+2387107,1,Ancient,AaB,10,2,0,illwill,3,8,0,12,11
+2387110,1,Ancient,Washington,8,4,0,AM,1,9,0,12,10
+2387112,1,Train,NOVAQ,10,2,0,JUMBO,3,2,0,12,5
+2387108,1,Nuke,Eternal Fire,5,7,0,MOLO,2,6,0,12,8
+2387111,1,Mirage,BC.Game,10,2,0,QUAZAR,3,4,0,12,7
+2386876,1,Overpass,Wildcard Academy,8,4,0,AM,3,9,0,12,12
+2386876,2,Ancient,Wildcard Academy,7,5,0,AM,6,4,0,12,10
+2386996,1,Inferno,Marsborne,9,3,0,Take Flyte,4,1,0,12,5
+2386996,2,Overpass,Marsborne,9,3,0,Take Flyte,4,1,0,12,5
+2386893,1,Overpass,AMKAL,4,8,8,Washington,4,4,7,20,15
+2386893,2,Inferno,AMKAL,6,6,6,Washington,6,2,4,18,12
+2386576,1,Overpass,Sangal,5,7,7,ESC,5,2,4,19,11
+2386576,2,Nuke,Sangal,6,6,0,ESC,3,7,0,12,10
+2386892,1,Inferno,kONO,6,6,6,VRSoholics,6,4,2,18,12
+2386892,2,Ancient,kONO,8,4,0,VRSoholics,5,1,0,12,6
+2386997,1,Dust2,Nemiga,8,4,0,33,5,5,0,12,10
+2386997,2,Inferno,Nemiga,8,4,0,33,5,1,0,12,6
+2386891,1,Nuke,FORZE Reload,7,5,0,SPARTA,1,8,0,12,9
+2386891,2,Ancient,FORZE Reload,3,9,0,SPARTA,3,4,0,12,7
+2386874,1,Mirage,WOPA,8,4,0,Wildcard Academy,5,1,0,12,6
+2386874,2,Ancient,WOPA,7,5,5,Wildcard Academy,7,6,10,17,23
+2386874,3,Overpass,WOPA,8,4,0,Wildcard Academy,5,1,0,12,6
+2386890,1,Mirage,Fire Flux,11,1,0,CPH Wolves,2,3,0,12,5
+2386890,2,Dust2,Fire Flux,4,8,0,CPH Wolves,0,5,0,12,5
+2386890,3,Ancient,Fire Flux,7,5,0,CPH Wolves,6,1,0,12,7
+2386636,1,Overpass,Rave,8,4,0,Wildcard,5,1,0,12,6
+2386636,2,Mirage,Rave,2,10,0,Wildcard,0,3,0,12,3
+2386636,3,Inferno,Rave,6,6,6,Wildcard,6,4,1,18,11
+2386889,1,Overpass,ALGO,3,9,9,Washington,3,4,0,21,7
+2386889,2,Inferno,ALGO,3,9,0,Washington,5,4,0,12,9
+2386889,3,Nuke,ALGO,7,5,0,Washington,4,8,0,12,12
+2386575,1,Nuke,Alliance,4,8,0,ESC,4,5,0,12,9
+2386575,2,Inferno,Alliance,6,6,0,ESC,7,0,0,12,7
+2386575,3,Ancient,Alliance,3,9,0,ESC,8,4,0,12,12
+2386888,1,Dust2,CPH Wolves,4,8,0,HubaBuba,0,5,0,12,5
+2386888,2,Mirage,CPH Wolves,9,3,0,HubaBuba,4,3,0,12,7
+2386888,3,Ancient,CPH Wolves,6,6,0,HubaBuba,7,5,0,12,12
+2386887,1,Ancient,RUBY,6,6,0,VRSoholics,5,7,0,12,12
+2386887,2,Overpass,RUBY,7,5,0,VRSoholics,6,5,0,12,11
+2386887,3,Nuke,RUBY,1,11,0,VRSoholics,5,2,0,12,7
+2386873,1,Inferno,G2 Ares,3,9,0,AM,3,4,0,12,7
+2386873,2,Overpass,G2 Ares,8,4,4,AM,8,2,4,16,14
+2386872,1,Nuke,MANA,3,9,0,MASONIC,2,4,0,12,6
+2386872,2,Mirage,MANA,7,5,0,MASONIC,6,3,0,12,9
+2386872,3,Inferno,MANA,6,6,0,MASONIC,7,1,0,12,8
+2386886,1,Nuke,SPARTA,6,6,0,NOVAQ,7,5,0,12,12
+2386886,2,Mirage,SPARTA,6,6,0,NOVAQ,7,5,0,12,12
+2386994,1,Ancient,Money Crew,4,8,0,anything else,1,5,0,12,6
+2386994,2,Mirage,Money Crew,8,4,0,anything else,5,7,0,12,12
+2386994,3,Nuke,Money Crew,5,7,0,anything else,8,4,0,12,12
+2386990,1,Ancient,Getting Info,3,9,0,regain,10,2,0,12,12
+2386990,2,Dust2,Getting Info,9,3,3,regain,9,4,1,15,14
+2386605,1,Inferno,Gaimin Gladiators,6,6,0,Dusty Roots,7,5,0,12,12
+2386605,2,Nuke,Gaimin Gladiators,8,4,0,Dusty Roots,5,7,0,12,12
+2386749,1,Train,ENCE,8,4,0,kONO,1,9,0,12,10
+2386749,2,Dust2,ENCE,5,7,7,kONO,5,4,1,19,10
+2386749,3,Ancient,ENCE,8,4,0,kONO,5,3,0,12,8
+2386971,1,Dust2,ENCE Academy,6,6,0,Skinsauna,4,7,0,12,11
+2386971,2,Nuke,ENCE Academy,4,8,0,Skinsauna,5,5,0,12,10
+2386574,1,Overpass,ESC,7,5,0,Sangal,4,8,0,12,12
+2386574,2,Nuke,ESC,9,3,0,Sangal,4,3,0,12,7
+2386574,3,Inferno,ESC,8,4,4,Sangal,8,4,7,16,19
+2386885,1,Ancient,Washington,6,6,0,FORZE Reload,4,7,0,12,11
+2386885,2,Overpass,Washington,1,11,0,FORZE Reload,4,2,0,12,6
+2386714,1,Mirage,Bounty Hunters,7,5,5,Keyd Stars,7,4,0,17,11
+2386714,2,Ancient,Bounty Hunters,10,2,2,Keyd Stars,10,0,4,14,14
+2386714,3,Dust2,Bounty Hunters,8,4,0,Keyd Stars,5,1,0,12,6
+2387025,1,Overpass,Truck Drivers,3,9,0,Raid,2,4,0,12,6
+2387025,2,Nuke,Truck Drivers,5,7,0,Raid,6,6,0,12,12
+2386970,1,Dust2,HAVU,5,7,0,Skinsauna,8,3,0,12,11
+2386970,2,Nuke,HAVU,6,6,0,Skinsauna,4,7,0,12,11
+2386970,3,Mirage,HAVU,10,2,2,Skinsauna,10,1,4,14,15
+2386882,1,Dust2,The Glecs,6,6,6,HubaBuba,6,0,4,18,10
+2386882,2,Overpass,The Glecs,6,6,0,HubaBuba,2,7,0,12,9
+2386747,1,Dust2,9INE,9,3,3,RUBY,9,4,2,15,15
+2386747,2,Ancient,9INE,5,7,7,RUBY,5,11,13,19,29
+2386747,3,Train,9INE,7,5,0,RUBY,6,0,0,12,6
+2386884,1,Overpass,ALGO,5,7,0,m1x,8,1,0,12,9
+2386884,2,Ancient,ALGO,4,8,0,m1x,4,5,0,12,9
+2386884,3,Train,ALGO,9,3,0,m1x,4,6,0,12,10
+2386871,1,Ancient,MASONIC,4,8,0,Wildcard Academy,9,3,0,12,12
+2386871,2,Train,MASONIC,6,6,6,Wildcard Academy,6,1,4,18,11
+2386871,3,Nuke,MASONIC,5,7,0,Wildcard Academy,0,6,0,12,6
+2386969,1,Mirage,ENCE Academy,5,7,0,TMVG,8,2,0,12,10
+2386969,2,Dust2,ENCE Academy,9,3,0,TMVG,4,7,0,12,11
+2386883,1,Nuke,CPH Wolves,5,7,0,kONO,6,6,0,12,12
+2386883,2,Dust2,CPH Wolves,4,8,0,kONO,1,5,0,12,6
+2386993,1,Overpass,InControl,7,5,5,SportsBetExpert,7,10,8,17,25
+2386993,2,Mirage,InControl,3,9,0,SportsBetExpert,2,4,0,12,6
+2386993,3,Ancient,InControl,2,10,0,SportsBetExpert,6,3,0,12,9
+2386995,1,Mirage,Nocturnal,3,9,0,OverKnight,1,4,0,12,5
+2386995,2,Nuke,Nocturnal,9,3,3,OverKnight,9,4,7,15,20
+2386712,1,Nuke,Yawara,1,11,0,Sharks,0,2,0,12,2
+2386712,2,Ancient,Yawara,5,7,0,Sharks,5,6,0,12,11
+2386604,1,Inferno,RED Canids,6,6,0,Dusty Roots,7,2,0,12,9
+2386604,2,Mirage,RED Canids,8,4,0,Dusty Roots,5,4,0,12,9
+2386991,1,Dust2,BOSS,8,4,0,Shimmer,5,0,0,12,5
+2386991,2,Ancient,BOSS,6,6,0,Shimmer,7,2,0,12,9
+2386711,1,Inferno,Fake do Biru,9,3,0,Players,4,3,0,12,7
+2386711,2,Dust2,Fake do Biru,6,6,0,Players,7,1,0,12,8
+2386867,1,Ancient,FORZE Reload,4,8,0,m1x,9,0,0,12,9
+2386867,2,Train,FORZE Reload,3,9,0,m1x,7,4,0,12,11
+2386867,3,Dust2,FORZE Reload,9,3,0,m1x,4,0,0,12,4
+2386805,1,Nuke,Aurora,10,2,0,Venom,3,0,0,12,3
+2386805,2,Overpass,Aurora,2,10,0,Venom,2,3,0,12,5
+2386805,3,Mirage,Aurora,6,6,0,Venom,7,0,0,12,7
+2386745,1,Overpass,Oramond,3,9,0,kONO,0,4,0,12,4
+2386745,2,Nuke,Oramond,4,8,0,kONO,7,5,0,12,12
+2386710,1,Mirage,Keyd Stars,8,4,4,FOLHA AMARELA,8,4,2,16,14
+2386710,2,Dust2,Keyd Stars,5,7,0,FOLHA AMARELA,8,0,0,12,8
+2386866,1,Train,Washington,10,2,0,ALGO,3,3,0,12,6
+2386866,2,Inferno,Washington,5,7,7,ALGO,5,4,1,19,10
+2386744,1,Ancient,500,1,11,0,Nuclear TigeRES,0,2,0,12,2
+2386744,2,Inferno,500,1,11,0,Nuclear TigeRES,4,2,0,12,6
+2386965,1,Ancient,Skinsauna,6,6,0,CSDIILIT,7,4,0,12,11
+2386965,2,Mirage,Skinsauna,7,5,0,CSDIILIT,6,1,0,12,7
+2386709,1,Nuke,Bounty Hunters,7,5,0,Dusty Roots,6,5,0,12,11
+2386709,2,Mirage,Bounty Hunters,10,2,0,Dusty Roots,3,2,0,12,5
+2386966,1,Nuke,AKA HERO KAJO,2,10,0,TMVG,1,3,0,12,4
+2386966,2,Train,AKA HERO KAJO,4,8,0,TMVG,0,5,0,12,5
+2386865,1,Inferno,HubaBuba,7,5,0,kONO,6,2,0,12,8
+2386865,2,Ancient,HubaBuba,7,5,5,kONO,7,7,10,17,24
+2386865,3,Dust2,HubaBuba,4,8,0,kONO,7,5,0,12,12
+2386743,1,Ancient,RUBY,3,9,0,m1x,0,4,0,12,4
+2386743,2,Train,RUBY,5,7,7,m1x,5,4,2,19,11
+2386743,3,Dust2,RUBY,9,3,3,m1x,9,4,1,15,14
+2386869,1,Dust2,AM,6,6,6,fish123,6,4,2,18,12
+2386869,2,Overpass,AM,8,4,0,fish123,5,1,0,12,6
+2386508,1,Overpass,SemperFi,7,5,5,Rooster,7,1,4,17,12
+2386508,2,Inferno,SemperFi,10,2,0,Rooster,3,3,0,12,6
+2386508,3,Nuke,SemperFi,7,5,0,Rooster,6,1,0,12,7
+2386963,1,Inferno,ENCE Academy,7,5,0,CSDIILIT,6,2,0,12,8
+2386963,2,Mirage,ENCE Academy,6,6,0,CSDIILIT,7,3,0,12,10
+2386964,1,Dust2,AKA HERO KAJO,3,9,0,HAVU,3,4,0,12,7
+2386964,2,Nuke,AKA HERO KAJO,4,8,0,HAVU,0,5,0,12,5
+2386864,1,Ancient,CPH Wolves,10,2,0,The Glecs,3,4,0,12,7
+2386864,2,Overpass,CPH Wolves,4,8,0,The Glecs,9,3,0,12,12
+2386868,1,Inferno,GANK,4,8,0,MANA,0,5,0,12,5
+2386868,2,Mirage,GANK,2,10,0,MANA,1,3,0,12,4
+2386633,1,Train,Wildcard,4,8,0,Getting Info,6,5,0,12,11
+2386633,2,Overpass,Wildcard,5,7,0,Getting Info,8,0,0,12,8
+2386633,3,Dust2,Wildcard,7,5,0,Getting Info,6,0,0,12,6
+2386989,1,Mirage,Zomblers,4,8,0,Outfit 49,3,5,0,12,8
+2386989,2,Inferno,Zomblers,5,7,0,Outfit 49,8,4,0,12,12
+2386989,3,Overpass,Zomblers,3,9,0,Outfit 49,6,4,0,12,10
+2386992,1,Ancient,LAG,7,5,0,Phoenix,6,3,0,12,9
+2386992,2,Nuke,LAG,7,5,0,Phoenix,6,3,0,12,9
+2386763,1,Ancient,Shimmer,9,3,0,wwaves,4,2,0,12,6
+2386763,2,Mirage,Shimmer,8,4,0,wwaves,5,2,0,12,7
+2386764,1,Dust2,Little Bocks,3,9,0,Black Mold,2,4,0,12,6
+2386764,2,Mirage,Little Bocks,3,9,0,Black Mold,1,4,0,12,5
+2386708,1,Ancient,Sharks,6,6,0,MIBR Academy,7,2,0,12,9
+2386708,2,Train,Sharks,9,3,0,MIBR Academy,4,0,0,12,4
+2386759,1,Mirage,Dusty Roses,8,4,0,CAPIVARAS,5,2,0,12,7
+2386759,2,Overpass,Dusty Roses,3,9,0,CAPIVARAS,10,2,0,12,12
+2386760,1,Dust2,thekillaz fe,1,11,0,Atrix,0,2,0,12,2
+2386760,2,Nuke,thekillaz fe,1,11,0,Atrix,0,2,0,12,2
+2386803,1,Train,Imperial,6,6,0,Venom,0,7,0,12,7
+2386803,2,Overpass,Imperial,7,5,0,Venom,6,0,0,12,6
+2386803,3,Dust2,Imperial,4,8,0,Venom,7,5,0,12,12
+2386707,1,Inferno,ShindeN,6,6,0,Players,3,7,0,12,10
+2386707,2,Mirage,ShindeN,2,10,10,Players,2,1,4,22,7
+2386948,1,Dust2,ECLOT,8,4,0,Flame Sharks,5,1,0,12,6
+2386948,2,Mirage,ECLOT,10,2,0,Flame Sharks,3,6,0,12,9
+2386755,1,Inferno,Flame Sharks fe,10,2,0,888aura,3,4,0,12,7
+2386755,2,Mirage,Flame Sharks fe,9,3,3,888aura,9,7,4,15,20
+2386756,1,Dust2,Overpeek,8,4,4,BIG EQUIPA,8,2,4,16,14
+2386756,2,Mirage,Overpeek,5,7,0,BIG EQUIPA,0,6,0,12,6
+2386571,1,Overpass,Partizan,5,7,0,Johnny Speeds,0,6,0,12,6
+2386571,2,Dust2,Partizan,8,4,0,Johnny Speeds,5,1,0,12,6
+2386571,3,Mirage,Partizan,1,11,0,Johnny Speeds,0,2,0,12,2
+2386572,1,Dust2,Alliance,8,4,0,Zero Tenacity,5,3,0,12,8
+2386572,2,Inferno,Alliance,9,3,0,Zero Tenacity,4,4,0,12,8
+2386881,1,Ancient,Fire Flux,7,5,0,RUBY,6,5,0,12,11
+2386881,2,Dust2,Fire Flux,8,4,0,RUBY,5,0,0,12,5
+2386706,1,Ancient,Gaimin Gladiators,4,8,0,Yawara,4,5,0,12,9
+2386706,2,Dust2,Gaimin Gladiators,4,8,0,Yawara,5,5,0,12,10
+2386947,1,Overpass,Flame Sharks,11,1,0,ALGO,2,3,0,12,5
+2386947,2,Nuke,Flame Sharks,8,4,0,ALGO,5,6,0,12,11
+2386870,1,Overpass,WOPA,3,9,0,G2 Ares,10,2,0,12,12
+2386870,2,Ancient,WOPA,3,9,0,G2 Ares,5,4,0,12,9
+2386870,3,Inferno,WOPA,8,4,0,G2 Ares,5,1,0,12,6
+2386741,1,Ancient,SPARTA,7,5,0,m1x,2,8,0,12,10
+2386741,2,Train,SPARTA,9,3,0,m1x,2,10,0,12,12
+2386529,1,Mirage,FengDa,7,5,0,Rare Atom,6,5,0,12,11
+2386529,2,Dust2,FengDa,5,7,0,Rare Atom,5,6,0,12,11
+2386529,3,Inferno,FengDa,4,8,8,Rare Atom,4,1,4,20,9
+2386946,1,Inferno,33,10,2,2,ECLOT,10,8,10,14,28
+2386946,2,Nuke,33,3,9,0,ECLOT,4,4,0,12,8
+2386858,1,Mirage,fish123,4,8,0,Wildcard Academy,9,2,0,12,11
+2386858,3,Dust2,fish123,6,6,0,Wildcard Academy,4,7,0,12,11
+2386880,1,Dust2,VRSoholics,7,5,0,ALLINNERS,6,5,0,12,11
+2386880,2,Mirage,VRSoholics,9,3,3,ALLINNERS,9,4,1,15,14
+2386739,1,Inferno,ARCRED,7,5,0,kONO,2,8,0,12,10
+2386739,2,Train,ARCRED,6,6,0,kONO,7,3,0,12,10
+2386739,3,Dust2,ARCRED,6,6,6,kONO,6,4,7,18,17
+2386507,1,Dust2,Rooster,9,3,0,Mindfreak,4,6,0,12,10
+2386507,2,Nuke,Rooster,6,6,6,Mindfreak,6,4,0,18,10
+2386795,1,Nuke,GenOne,4,8,0,fish123,4,5,0,12,9
+2386795,2,Ancient,GenOne,6,6,0,fish123,7,1,0,12,8
+2386795,3,Overpass,GenOne,5,7,0,fish123,3,6,0,12,9
+2386859,1,Ancient,AM,11,1,0,MASONIC,2,2,0,12,4
+2386859,2,Nuke,AM,8,4,0,MASONIC,3,9,0,12,12
+2386859,3,Overpass,AM,5,7,0,MASONIC,2,6,0,12,8
+2386878,1,Dust2,NIP Impact,3,9,0,NOVAQ,5,4,0,12,9
+2386878,2,Train,NIP Impact,3,9,0,NOVAQ,1,4,0,12,5
+2386815,1,Nuke,InControl,4,8,0,Take Flyte,9,3,0,12,12
+2386815,2,Overpass,InControl,4,8,8,Take Flyte,4,3,7,20,14
+2386815,3,Mirage,InControl,6,6,0,Take Flyte,3,7,0,12,10
+2386818,1,Dust2,Shimmer,10,2,0,Nocturnal,3,0,0,12,3
+2386818,2,Ancient,Shimmer,10,2,0,Nocturnal,3,4,0,12,7
+2386632,1,Mirage,Getting Info,8,4,0,BOSS,5,0,0,12,5
+2386632,2,Ancient,Getting Info,8,4,0,BOSS,5,7,0,12,12
+2386631,1,Ancient,Wildcard,10,2,0,regain,3,0,0,12,3
+2386631,2,Overpass,Wildcard,7,5,0,regain,6,0,0,12,6
+2386761,1,Train,Nocturnal,6,6,0,FlyQuest RED,2,7,0,12,9
+2386761,2,Mirage,Nocturnal,1,11,0,FlyQuest RED,3,2,0,12,5
+2386762,1,Ancient,Lotus fe,9,3,0,Ghost,4,1,0,12,5
+2386762,2,Overpass,Lotus fe,2,10,0,Ghost,2,3,0,12,5
+2386762,3,Dust2,Lotus fe,8,4,0,Ghost,5,0,0,12,5
+2386704,1,Overpass,Galorys,5,7,0,FOLHA AMARELA,8,3,0,12,11
+2386704,2,Dust2,Galorys,2,10,0,FOLHA AMARELA,3,3,0,12,6
+2386704,3,Ancient,Galorys,2,10,0,FOLHA AMARELA,0,3,0,12,3
+2386601,1,Dust2,Keyd Stars,8,4,0,Gaimin Gladiators,5,7,0,12,12
+2386601,2,Ancient,Keyd Stars,3,9,0,Gaimin Gladiators,8,4,0,12,12
+2386601,3,Inferno,Keyd Stars,1,11,0,Gaimin Gladiators,9,2,0,12,11
+2386758,1,Nuke,Four Magic fe,1,11,11,MIBR fe,1,0,4,23,5
+2386758,2,Mirage,Four Magic fe,9,3,3,MIBR fe,9,4,7,15,20
+2386757,1,Ancient,FURIA fe,8,4,0,Curralzinho,5,2,0,12,7
+2386757,2,Nuke,FURIA fe,10,2,0,Curralzinho,3,2,0,12,5
+2386754,1,Dust2,shinigami,3,9,9,Imperial Valkyries,3,4,1,21,8
+2386754,2,Mirage,shinigami,3,9,9,Imperial Valkyries,3,5,7,21,15
+2386754,3,Inferno,shinigami,1,11,0,Imperial Valkyries,1,2,0,12,3
+2386753,1,Nuke,hindsight,8,4,0,Let Her Cook,2,9,0,12,11
+2386753,2,Ancient,hindsight,6,6,0,Let Her Cook,7,3,0,12,10
+2386753,3,Mirage,hindsight,5,7,7,Let Her Cook,5,1,4,19,10
+2386703,1,Inferno,Fake do Biru,8,4,0,UnderDogs,5,3,0,12,8
+2386703,2,Dust2,Fake do Biru,11,1,0,UnderDogs,2,0,0,12,2
+2386945,1,Nuke,Nexus,10,2,0,ALGO,3,0,0,12,3
+2386945,2,Mirage,Nexus,3,9,0,ALGO,0,4,0,12,4
+2386945,3,Train,Nexus,4,8,0,ALGO,5,5,0,12,10
+2386799,1,Nuke,Aurora,6,6,0,Venom,7,5,0,12,12
+2386799,2,Overpass,Aurora,5,7,0,Venom,8,0,0,12,8
+2386863,1,Nuke,RUBY,10,2,0,ALLINNERS,3,4,0,12,7
+2386863,2,Ancient,RUBY,9,3,0,ALLINNERS,2,10,0,12,12
+2386863,3,Mirage,RUBY,10,2,0,ALLINNERS,3,0,0,12,3
+2386569,1,Nuke,ESC,4,8,0,Zero Tenacity,2,5,0,12,7
+2386569,2,Dust2,ESC,7,5,0,Zero Tenacity,6,6,0,12,12
+2386569,3,Inferno,ESC,8,4,0,Zero Tenacity,5,0,0,12,5
+2386702,1,Nuke,Dusty Roots,5,7,0,LP,8,2,0,12,10
+2386702,2,Inferno,Dusty Roots,2,10,0,LP,4,3,0,12,7
+2386702,3,Mirage,Dusty Roots,5,7,7,LP,5,4,2,19,11
+2386568,1,Dust2,Alliance,5,7,0,GUN5,8,2,0,12,10
+2386568,2,Inferno,Alliance,8,4,0,GUN5,5,5,0,12,10
+2386567,1,Dust2,Monte,3,9,0,Partizan,1,4,0,12,5
+2386567,2,Nuke,Monte,4,8,0,Partizan,4,5,0,12,9
+2386944,1,Nuke,Nuclear TigeRES,5,7,0,Flame Sharks,1,6,0,12,7
+2386944,2,Ancient,Nuclear TigeRES,5,7,7,Flame Sharks,5,2,4,19,11
+2386862,1,Inferno,VRSoholics,5,7,0,Fire Flux,2,6,0,12,8
+2386862,2,Train,VRSoholics,8,4,0,Fire Flux,5,5,0,12,10
+2386862,3,Overpass,VRSoholics,5,7,0,Fire Flux,6,6,0,12,12
+2386738,1,Train,Betera,6,6,0,SPARTA,3,7,0,12,10
+2386738,2,Ancient,Betera,5,7,0,SPARTA,8,2,0,12,10
+2386738,3,Nuke,Betera,2,10,0,SPARTA,6,3,0,12,9
+2386701,1,Mirage,Keyd Stars,8,4,0,Crashers,5,0,0,12,5
+2386701,2,Dust2,Keyd Stars,7,5,5,Crashers,7,7,4,17,18
+2386943,1,Inferno,ECLOT,8,4,0,AM,5,4,0,12,9
+2386943,2,Dust2,ECLOT,8,4,0,AM,5,2,0,12,7
+2386737,1,Inferno,ARCRED,3,9,0,500,0,4,0,12,4
+2386737,2,Mirage,ARCRED,9,3,3,500,9,4,2,15,15
+2386737,3,Ancient,ARCRED,3,9,0,500,2,4,0,12,6
+2386861,1,Inferno,NOVAQ,5,7,0,AMKAL,5,6,0,12,11
+2386861,2,Ancient,NOVAQ,7,5,5,AMKAL,7,2,4,17,13
+2386857,1,Dust2,G2 Ares,11,1,0,MANA,2,7,0,12,9
+2386857,2,Ancient,G2 Ares,3,9,0,MANA,0,4,0,12,4
+2386857,3,Inferno,G2 Ares,6,6,0,MANA,7,1,0,12,8
+2386942,1,Ancient,33,9,3,0,Preasy Mix,4,0,0,12,4
+2386942,2,Nuke,33,8,4,0,Preasy Mix,5,0,0,12,5
+2386736,1,Ancient,Nexus,6,6,0,UNiTY,2,7,0,12,9
+2386736,2,Dust2,Nexus,9,3,0,UNiTY,4,6,0,12,10
+2386736,3,Mirage,Nexus,5,7,0,UNiTY,6,6,0,12,12
+2386506,1,Dust2,SemperFi,10,2,0,Mindfreak,3,7,0,12,10
+2386506,2,Overpass,SemperFi,9,3,0,Mindfreak,4,0,0,12,4
+2386794,1,Overpass,Mousquetaires,4,8,0,fish123,1,5,0,12,6
+2386794,2,Ancient,Mousquetaires,6,6,0,fish123,5,7,0,12,12
+2386856,1,Nuke,WOPA,6,6,0,GANK,7,1,0,12,8
+2386856,2,Overpass,WOPA,10,2,0,GANK,3,3,0,12,6
+2386860,1,Mirage,SPARTA,10,2,0,NIP Impact,3,3,0,12,6
+2386860,2,Train,SPARTA,12,0,0,NIP Impact,1,0,0,12,1
+2386630,1,Overpass,BOSS,3,9,0,ex-Chicken Coop,4,4,0,12,8
+2386630,2,Ancient,BOSS,8,4,0,ex-Chicken Coop,5,5,0,12,10
+2386630,3,Inferno,BOSS,5,7,0,ex-Chicken Coop,8,0,0,12,8
+2386627,1,Ancient,Rave,4,8,0,Getting Info,7,5,0,12,12
+2386627,2,Dust2,Rave,7,5,0,Getting Info,6,4,0,12,10
+2386629,1,Mirage,regain,8,4,0,TSG,5,0,0,12,5
+2386629,2,Ancient,regain,8,4,0,TSG,5,6,0,12,11
+2386600,1,Inferno,ShindeN,10,2,0,Procyon,3,1,0,12,4
+2386600,2,Nuke,ShindeN,4,8,0,Procyon,0,5,0,12,5
+2386600,3,Ancient,ShindeN,7,5,0,Procyon,6,3,0,12,9
+2386598,1,Nuke,Keyd Stars,2,10,0,Dusty Roots,4,3,0,12,7
+2386598,2,Ancient,Keyd Stars,7,5,0,Dusty Roots,1,8,0,12,9
+2386564,1,Nuke,Partizan,9,3,0,33,4,7,0,12,11
+2386564,2,Inferno,Partizan,4,8,8,33,4,3,7,20,14
+2386564,3,Dust2,Partizan,10,2,0,33,3,0,0,12,3
+2386699,1,Dust2,Crashers,7,5,0,KRÜ,6,6,0,12,12
+2386699,2,Inferno,Crashers,5,7,7,KRÜ,5,4,0,19,9
+2386566,1,Dust2,GUN5,5,7,7,500,5,4,2,19,11
+2386566,2,Inferno,GUN5,6,6,6,500,6,4,2,18,12
+2386698,1,Mirage,Bounty Hunters,8,4,0,Vasco,5,3,0,12,8
+2386698,2,Overpass,Bounty Hunters,7,5,0,Vasco,6,5,0,12,11
+2386527,1,Nuke,FengDa,8,4,0,Kaleido,5,5,0,12,10
+2386527,2,Inferno,FengDa,4,8,0,Kaleido,3,5,0,12,8
+2386527,3,Dust2,FengDa,7,5,0,Kaleido,6,6,0,12,12
+2386735,1,Train,1win,7,5,0,Leo,6,2,0,12,8
+2386735,2,Dust2,1win,10,2,0,Leo,3,0,0,12,3
+2386734,1,Ancient,kONO,4,8,0,Nuclear TigeRES,1,5,0,12,6
+2386734,2,Dust2,kONO,7,5,0,Nuclear TigeRES,4,8,0,12,12
+2386793,1,Ancient,fish123,3,9,0,GenOne,4,4,0,12,8
+2386793,2,Overpass,fish123,7,5,0,GenOne,2,8,0,12,10
+2386505,2,Overpass,Rooster,6,6,0,FURY,7,1,0,12,8
+2386733,1,Ancient,FAVBET,9,3,0,m1x,4,8,0,12,12
+2386733,2,Inferno,FAVBET,5,7,0,m1x,8,3,0,12,11
+2386792,1,Ancient,Mousquetaires,6,6,6,G2 Ares,6,4,1,18,11
+2386792,2,Overpass,Mousquetaires,6,6,0,G2 Ares,7,3,0,12,10
+2386813,1,Mirage,BOSS,10,2,0,FULL SEND,3,0,0,12,3
+2386813,2,Ancient,BOSS,5,7,0,FULL SEND,1,6,0,12,7
+2386813,3,Overpass,BOSS,5,7,7,FULL SEND,5,7,5,19,17
+2386817,1,Inferno,Money Crew,5,7,0,regain,1,6,0,12,7
+2386817,2,Mirage,Money Crew,8,4,4,regain,8,1,4,16,13
+2386816,1,Ancient,Phoenix,6,6,0,Zomblers,7,4,0,12,11
+2386816,2,Nuke,Phoenix,9,3,0,Zomblers,4,1,0,12,5
+2386811,1,Inferno,Marsborne,7,5,0,SportsBetExpert,6,5,0,12,11
+2386811,2,Ancient,Marsborne,9,3,0,SportsBetExpert,4,0,0,12,4
+2386812,1,Mirage,Getting Info,11,1,0,anything else,2,2,0,12,4
+2386812,2,Overpass,Getting Info,9,3,0,anything else,4,4,0,12,8
+2386814,1,Inferno,LAG,7,5,0,Outfit 49,6,3,0,12,9
+2386814,2,Dust2,LAG,10,2,0,Outfit 49,3,0,0,12,3
+2386697,1,Nuke,KRÜ,3,9,0,LP,1,4,0,12,5
+2386697,2,Inferno,KRÜ,2,10,0,LP,2,3,0,12,5
+2386696,1,Nuke,GameHunters,4,8,0,UnderDogs,7,5,0,12,12
+2386696,2,Inferno,GameHunters,3,9,0,UnderDogs,8,4,0,12,12
+2386695,1,Mirage,Bounty Hunters,10,2,0,Players,3,0,0,12,3
+2386695,2,Dust2,Bounty Hunters,4,8,0,Players,7,5,0,12,12
+2386695,3,Ancient,Bounty Hunters,8,4,4,Players,8,5,7,16,20
+2386731,1,Ancient,Oramond,6,6,0,500,7,3,0,12,10
+2386731,2,Nuke,Oramond,6,6,0,500,3,7,0,12,10
+2386731,3,Mirage,Oramond,7,5,0,500,6,3,0,12,9
+2386790,1,Train,G2 Ares,7,5,0,MASONIC,6,5,0,12,11
+2386790,2,Mirage,G2 Ares,11,1,0,MASONIC,2,0,0,12,2
+2386432,1,Nuke,BetBoom,8,4,0,Spirit Academy,5,0,0,12,5
+2386432,2,Ancient,BetBoom,6,6,0,Spirit Academy,7,5,0,12,12
+2386791,1,Nuke,Mousquetaires,5,7,0,Aurora Young Blud,3,6,0,12,9
+2386791,2,Ancient,Mousquetaires,9,3,0,Aurora Young Blud,4,7,0,12,11
+2386791,3,Overpass,Mousquetaires,7,5,0,Aurora Young Blud,6,1,0,12,7
+2386729,1,Mirage,RUBY,7,5,0,m1x,6,1,0,12,7
+2386729,2,Train,RUBY,10,2,0,m1x,3,0,0,12,3
+2386854,1,Ancient,BIG EQUIPA,8,4,4,Peekaboo,8,4,2,16,14
+2386854,2,Inferno,BIG EQUIPA,7,5,0,Peekaboo,6,0,0,12,6
+2386693,1,Ancient,MIBR Academy,7,5,0,Procyon,6,2,0,12,8
+2386693,2,Nuke,MIBR Academy,8,4,0,Procyon,5,7,0,12,12
+2386346,1,Nuke,RUBY,6,6,6,BetBoom,6,7,4,18,17
+2386346,2,Dust2,RUBY,8,4,0,BetBoom,5,7,0,12,12
+2386853,1,Nuke,Peekaboo,9,3,0,confidence,4,6,0,12,10
+2386772,1,Train,Famalicão,6,6,0,Rebels,7,3,0,12,10
+2386772,2,Overpass,Famalicão,4,8,0,Rebels,1,5,0,12,6
+2386772,3,Ancient,Famalicão,6,6,6,Rebels,6,4,1,18,11
+2386772,4,Dust2,Famalicão,3,9,0,Rebels,6,4,0,12,10
+2386772,5,Inferno,Famalicão,3,9,0,Rebels,1,4,0,12,5
+2386692,1,Train,Crashers,7,5,0,VEXA,0,8,0,12,8
+2386692,2,Inferno,Crashers,9,3,0,VEXA,4,0,0,12,4
+2386692,3,Dust2,Crashers,8,4,0,VEXA,5,7,0,12,12
+2386852,1,Mirage,hindsight,8,4,0,confidence,3,9,0,12,12
+2386851,1,Mirage,Peekaboo,5,7,0,BIG EQUIPA,2,6,0,12,8
+2386430,1,Dust2,ECSTATIC,6,6,0,Eternal Fire,7,3,0,12,10
+2386430,2,Train,ECSTATIC,7,5,0,Eternal Fire,6,5,0,12,11
+2386429,1,Ancient,Betera,8,4,0,Spirit Academy,5,1,0,12,6
+2386429,2,Dust2,Betera,1,11,0,Spirit Academy,8,2,0,12,10
+2386429,3,Train,Betera,5,7,0,Spirit Academy,3,6,0,12,9
+2386344,1,Dust2,ESC,7,5,0,RUBY,2,8,0,12,10
+2386344,2,Nuke,ESC,8,4,0,RUBY,5,5,0,12,10
+2386344,3,Mirage,ESC,5,7,0,RUBY,6,6,0,12,12
+2386789,1,Mirage,GenOne,4,8,0,MASONIC,9,2,0,12,11
+2386789,2,Nuke,GenOne,8,4,0,MASONIC,5,5,0,12,10
+2386788,1,Dust2,fish123,11,1,0,Aurora Young Blud,2,0,0,12,2
+2386788,2,Nuke,fish123,6,6,0,Aurora Young Blud,7,1,0,12,8
+2386780,1,Nuke,BESTIA,6,6,0,Dusty Roots,5,7,0,12,12
+2386780,2,Ancient,BESTIA,11,1,0,Dusty Roots,2,0,0,12,2
+2386780,3,Inferno,BESTIA,7,5,0,Dusty Roots,6,3,0,12,9
+2386691,1,Ancient,Yawara,10,2,0,UnderDogs,3,0,0,12,3
+2386691,2,Mirage,Yawara,5,7,0,UnderDogs,8,2,0,12,10
+2386850,1,Overpass,Minsk House,5,7,0,OLD BASTARDS,8,3,0,12,11
+2386850,2,Inferno,Minsk House,4,8,8,OLD BASTARDS,4,1,4,20,9
+2386850,3,Dust2,Minsk House,7,5,5,OLD BASTARDS,7,2,4,17,13
+2386690,1,Nuke,GameHunters,5,7,7,FOLHA AMARELA,5,1,4,19,10
+2386690,2,Ancient,GameHunters,6,6,0,FOLHA AMARELA,1,7,0,12,8
+2386427,1,Inferno,Partizan,5,7,0,SINNERS,1,6,0,12,7
+2386427,2,Nuke,Partizan,9,3,3,SINNERS,9,10,8,15,27
+2386427,3,Mirage,Partizan,1,11,0,SINNERS,4,2,0,12,6
+2386779,1,Nuke,9z,7,5,0,R2,6,4,0,12,10
+2386779,2,Inferno,9z,9,3,0,R2,4,0,0,12,4
+2386689,1,Dust2,Players,11,1,0,Crashers,2,1,0,12,3
+2386689,2,Nuke,Players,7,5,5,Crashers,7,5,7,17,19
+2386689,3,Inferno,Players,6,6,0,Crashers,7,2,0,12,9
+2386343,1,Nuke,RUBY,7,5,0,Sashi,6,6,0,12,12
+2386343,2,Dust2,RUBY,8,4,0,Sashi,5,7,0,12,12
+2386849,1,Dust2,JiJieHao,6,6,0,Just Passing By,7,5,0,12,12
+2386849,2,Nuke,JiJieHao,9,3,0,Just Passing By,4,0,0,12,4
+2386771,1,Ancient,Rebels,4,8,8,One For All,4,4,1,20,9
+2386771,2,Nuke,Rebels,7,5,0,One For All,6,0,0,12,6
+2386426,1,Overpass,BC.Game,4,8,8,Eternal Fire,4,4,2,20,10
+2386426,2,Dust2,BC.Game,5,7,0,Eternal Fire,4,6,0,12,10
+2386426,3,Inferno,BC.Game,2,10,0,Eternal Fire,5,3,0,12,8
+2386675,1,Nuke,SINNERS,5,7,7,ECLOT,5,4,0,19,9
+2386675,2,Inferno,SINNERS,4,8,0,ECLOT,5,5,0,12,10
+2386675,3,Mirage,SINNERS,4,8,0,ECLOT,9,2,0,12,11
+2386675,4,Overpass,SINNERS,5,7,0,ECLOT,8,2,0,12,10
+2386342,1,Overpass,EYEBALLERS,3,9,0,ESC,8,4,0,12,12
+2386342,2,Ancient,EYEBALLERS,3,9,0,ESC,8,4,0,12,12
+2386688,1,Dust2,KRÜ,4,8,8,Vasco,4,4,0,20,8
+2386688,2,Overpass,KRÜ,9,3,0,Vasco,4,0,0,12,4
+2386770,1,Dust2,Famalicão,7,5,0,Leça,6,4,0,12,10
+2386770,2,Inferno,Famalicão,11,1,0,Leça,2,1,0,12,3
+2386341,1,Mirage,BetBoom,6,6,0,Partizan,7,3,0,12,10
+2386341,2,Nuke,BetBoom,4,8,0,Partizan,9,3,0,12,12
+2386787,1,Overpass,Mousquetaires,7,5,0,BIG Academy,6,2,0,12,8
+2386787,2,Nuke,Mousquetaires,10,2,0,BIG Academy,3,3,0,12,6
+2386424,1,Overpass,Spirit Academy,9,3,0,EYEBALLERS,4,2,0,12,6
+2386424,2,Dust2,Spirit Academy,3,9,0,EYEBALLERS,1,4,0,12,5
+2386424,3,Mirage,Spirit Academy,5,7,7,EYEBALLERS,5,7,5,19,17
+2386786,1,Mirage,ENCE Academy,10,2,0,G2 Ares,3,3,0,12,6
+2386786,2,Inferno,ENCE Academy,4,8,0,G2 Ares,1,5,0,12,6
+2386786,3,Ancient,ENCE Academy,4,8,0,G2 Ares,2,5,0,12,7
+2386674,1,Inferno,ECLOT,8,4,0,BRUTE,5,2,0,12,7
+2386674,2,Ancient,ECLOT,4,8,0,BRUTE,9,3,0,12,12
+2386778,1,Dust2,R2,5,7,0,ShindeN,8,4,0,12,12
+2386777,1,Mirage,Dusty Roots,10,2,0,KRÜ,3,6,0,12,9
+2386687,1,Ancient,Bounty Hunters,6,6,0,MAGICOS,7,0,0,12,7
+2386687,2,Mirage,Bounty Hunters,7,5,0,MAGICOS,6,0,0,12,6
+2386775,1,Inferno,9z,7,5,0,KRÜ,6,3,0,12,9
+2386686,1,Dust2,LP,9,3,0,MIBR Academy,4,6,0,12,10
+2386686,2,Mirage,LP,5,7,0,MIBR Academy,8,1,0,12,9
+2386559,1,Nuke,SINNERS,7,5,0,Zero Tenacity,6,4,0,12,10
+2386559,2,Inferno,SINNERS,6,6,0,Zero Tenacity,4,7,0,12,11
+2386559,3,Dust2,SINNERS,2,10,0,Zero Tenacity,4,3,0,12,7
+2386773,1,Dust2,Dusty Roots,4,8,0,KRÜ,4,5,0,12,9
+2386774,1,Nuke,ShindeN,5,7,0,R2,8,0,0,12,8
+2386562,1,Inferno,500,5,7,7,Sangal,5,2,4,19,11
+2386562,2,Overpass,500,8,4,4,Sangal,8,2,4,16,14
+2386339,1,Overpass,Venom,5,7,7,RUBY,5,2,4,19,11
+2386339,2,Dust2,Venom,4,8,0,RUBY,7,5,0,12,12
+2386672,1,Inferno,BRUTE,8,4,0,GLORE,5,4,0,12,9
+2386672,2,Mirage,BRUTE,8,4,0,GLORE,5,5,0,12,10
+2386560,1,Ancient,ESC,6,6,0,33,7,5,0,12,12
+2386560,2,Nuke,ESC,7,5,0,33,6,6,0,12,12
+2386558,1,Dust2,Insilio,3,9,0,GUN5,3,4,0,12,7
+2386558,2,Ancient,Insilio,4,8,0,GUN5,3,5,0,12,8
+2386556,1,Nuke,Partizan,5,7,0,Sashi,8,1,0,12,9
+2386556,2,Mirage,Partizan,11,1,0,Sashi,2,0,0,12,2
+2386728,1,Ancient,Nexus,10,2,0,FORZE Reload,3,0,0,12,3
+2386728,2,Mirage,Nexus,6,6,0,FORZE Reload,7,1,0,12,8
+2386769,1,Dust2,CarritoSpain,5,7,0,One For All,4,6,0,12,10
+2386769,2,Nuke,CarritoSpain,3,9,0,One For All,1,4,0,12,5
+2386810,1,Dust2,ALLINNERS,11,1,0,Omega,2,3,0,12,5
+2386810,2,Ancient,ALLINNERS,5,7,0,Omega,3,6,0,12,9
+2386810,3,Mirage,ALLINNERS,6,6,0,Omega,5,7,0,12,12
+2386810,4,Nuke,ALLINNERS,8,4,0,Omega,5,6,0,12,11
+2386810,5,Train,ALLINNERS,7,5,0,Omega,6,0,0,12,6
+2386727,1,Ancient,kONO,5,7,7,Leo,5,7,4,19,16
+2386727,2,Inferno,kONO,7,5,0,Leo,6,0,0,12,6
+2386684,1,Overpass,R2,2,10,0,VEXA,4,3,0,12,7
+2386684,2,Dust2,R2,8,4,0,VEXA,5,1,0,12,6
+2386684,3,Train,R2,5,7,7,VEXA,5,2,4,19,11
+2386673,1,Inferno,SINNERS,5,7,7,ECLOT,5,7,4,19,16
+2386673,2,Nuke,SINNERS,4,8,0,ECLOT,5,5,0,12,10
+2386673,3,Overpass,SINNERS,10,2,0,ECLOT,3,1,0,12,4
+2386768,1,Dust2,Leça,9,3,0,Rhyno YNG,4,1,0,12,5
+2386768,2,Inferno,Leça,2,10,0,Rhyno YNG,0,3,0,12,3
+2386768,3,Train,Leça,7,5,0,Rhyno YNG,6,4,0,12,10
+2386337,1,Nuke,Alliance,5,7,0,ESC,3,6,0,12,9
+2386337,2,Inferno,Alliance,7,5,5,ESC,7,7,4,17,18
+2386337,3,Ancient,Alliance,3,9,0,ESC,3,4,0,12,7
+2386726,1,Mirage,Betera,6,6,0,ARCRED,5,7,0,12,12
+2386726,2,Ancient,Betera,9,3,0,ARCRED,2,10,0,12,12
+2386421,1,Inferno,9INE,4,8,0,33,9,3,0,12,12
+2386421,2,Nuke,9INE,9,3,0,33,4,1,0,12,5
+2386785,1,Overpass,BIG Academy,2,10,0,MASONIC,6,3,0,12,9
+2386785,2,Train,BIG Academy,4,8,0,MASONIC,1,5,0,12,6
+2386420,1,Ancient,Monte,9,3,0,Betera,4,4,0,12,8
+2386420,2,Inferno,Monte,5,7,0,Betera,3,6,0,12,9
+2386420,3,Train,Monte,4,8,0,Betera,1,5,0,12,6
+2386336,1,Ancient,Partizan,7,5,0,GUN5,6,3,0,12,9
+2386336,2,Inferno,Partizan,6,6,6,GUN5,6,4,1,18,11
+2386725,1,Mirage,Tricked,4,8,0,SPARTA,3,5,0,12,8
+2386725,2,Nuke,Tricked,2,10,0,SPARTA,9,3,0,12,12
+2386784,1,Nuke,GenOne,7,5,0,Mousquetaires,6,2,0,12,8
+2386784,2,Overpass,GenOne,8,4,0,Mousquetaires,5,3,0,12,8
+2386625,1,Inferno,LAG,6,6,0,BOSS,7,1,0,12,8
+2386625,2,Ancient,LAG,8,4,0,BOSS,2,9,0,12,11
+2386625,3,Train,LAG,5,7,0,BOSS,5,6,0,12,11
+2386626,1,Overpass,ex-Chicken Coop,6,6,0,Take Flyte,7,3,0,12,10
+2386626,2,Nuke,ex-Chicken Coop,9,3,0,Take Flyte,4,1,0,12,5
+2386623,1,Mirage,regain,8,4,0,Mythic,5,4,0,12,9
+2386623,2,Ancient,regain,6,6,0,Mythic,7,4,0,12,11
+2386300,1,Mirage,Lotus fe,4,8,8,FlyQuest RED,4,2,4,20,10
+2386300,2,Train,Lotus fe,7,5,0,FlyQuest RED,2,8,0,12,10
+2386301,1,Ancient,Shimmer,10,2,0,Nocturnal,3,9,0,12,12
+2386301,2,Dust2,Shimmer,10,2,0,Nocturnal,3,3,0,12,6
+2386594,1,Nuke,2GAME,7,5,0,LP,3,8,0,12,11
+2386594,2,Dust2,2GAME,9,3,0,LP,4,6,0,12,10
+2386594,3,Mirage,2GAME,8,4,0,LP,5,6,0,12,11
+2386683,2,Dust2,KRÜ,3,9,0,FOLHA AMARELA,0,4,0,12,4
+2386593,1,Dust2,Gaimin Gladiators,8,4,0,Tropa do KinGui,5,6,0,12,11
+2386593,2,Inferno,Gaimin Gladiators,9,3,0,Tropa do KinGui,4,8,0,12,12
+2386296,1,Inferno,FURIA fe,4,8,0,Four Magic fe,9,2,0,12,11
+2386296,2,Dust2,FURIA fe,9,3,0,Four Magic fe,4,7,0,12,11
+2386596,1,Inferno,Sharks,8,4,0,Procyon,3,9,0,12,12
+2386596,2,Nuke,Sharks,5,7,0,Procyon,3,6,0,12,9
+2386297,1,Dust2,Atrix,8,4,0,CAPIVARAS,5,0,0,12,5
+2386297,2,Nuke,Atrix,9,3,0,CAPIVARAS,4,3,0,12,7
+2386766,1,Nuke,MANA,4,8,0,Phantom,1,5,0,12,6
+2386766,2,Mirage,MANA,6,6,0,Phantom,5,7,0,12,12
+2386766,3,Overpass,MANA,9,3,3,Phantom,9,4,2,15,15
+2386766,4,Dust2,MANA,3,9,0,Phantom,10,2,0,12,12
+2386766,5,Inferno,MANA,8,4,0,Phantom,5,1,0,12,6
+2386682,1,Ancient,Yawara,4,8,0,MIBR Academy,9,2,0,12,11
+2386682,2,Dust2,Yawara,9,3,0,MIBR Academy,4,4,0,12,8
+2386293,1,Inferno,Nemesis Impact,2,10,0,Peekaboo,3,3,0,12,6
+2386293,2,Mirage,Nemesis Impact,2,10,0,Peekaboo,3,3,0,12,6
+2386210,1,Inferno,GUN5,6,6,0,PARIVISION,1,7,0,12,8
+2386210,2,Ancient,GUN5,4,8,0,PARIVISION,3,5,0,12,8
+2386292,1,Train,NIP Impact,10,2,0,AKA HERO KAJO,3,4,0,12,7
+2386292,2,Inferno,NIP Impact,9,3,0,AKA HERO KAJO,4,3,0,12,7
+2386551,1,Dust2,ARCRED,4,8,0,RUBY,2,5,0,12,7
+2386551,2,Train,ARCRED,5,7,0,RUBY,8,3,0,12,11
+2386551,3,Mirage,ARCRED,7,5,0,RUBY,6,1,0,12,7
+2386724,1,Dust2,500,5,7,0,Leo,8,2,0,12,10
+2386724,2,Ancient,500,6,6,0,Leo,2,7,0,12,9
+2386724,3,Mirage,500,9,3,0,Leo,4,3,0,12,7
+2386549,1,Dust2,Sashi,2,10,0,SPARTA,3,3,0,12,6
+2386549,2,Nuke,Sashi,7,5,0,SPARTA,6,2,0,12,8
+2386549,3,Ancient,Sashi,6,6,0,SPARTA,7,4,0,12,11
+2386335,1,Ancient,BetBoom,9,3,0,Dziuseppe,4,3,0,12,7
+2386335,2,Mirage,BetBoom,9,3,0,Dziuseppe,4,4,0,12,8
+2386550,1,Mirage,BC.Game,7,5,0,Partizan,2,8,0,12,10
+2386550,2,Inferno,BC.Game,5,7,0,Partizan,3,6,0,12,9
+2386552,1,Mirage,Betera,2,10,0,NOVAQ,4,3,0,12,7
+2386552,2,Dust2,Betera,5,7,0,NOVAQ,6,6,0,12,12
+2386419,1,Dust2,Nexus,2,10,0,Oramond,0,3,0,12,3
+2386419,2,Ancient,Nexus,3,9,0,Oramond,0,4,0,12,4
+2386681,1,Mirage,GameHunters,4,8,0,Vasco,9,2,0,12,11
+2386681,2,Inferno,GameHunters,9,3,0,Vasco,4,3,0,12,7
+2386671,1,Dust2,ECLOT,6,6,6,GLORE,6,4,1,18,11
+2386671,2,Mirage,ECLOT,1,11,0,GLORE,0,2,0,12,2
+2386671,3,Inferno,ECLOT,6,6,0,GLORE,7,4,0,12,11
+2386418,1,Nuke,33,5,7,0,Betclic,8,4,0,12,12
+2386418,2,Ancient,33,5,7,7,Betclic,5,4,2,19,11
+2386333,1,Dust2,Spirit Academy,3,9,9,1win,3,2,4,21,9
+2386333,2,Ancient,Spirit Academy,5,7,0,1win,8,2,0,12,10
+2386333,3,Mirage,Spirit Academy,3,9,0,1win,1,4,0,12,5
+2386680,1,Dust2,Players,3,9,0,UnderDogs,4,4,0,12,8
+2386680,2,Ancient,Players,4,8,0,UnderDogs,5,5,0,12,10
+2386525,1,Ancient,Just Swing,2,10,0,Kaleido,0,3,0,12,3
+2386525,2,Inferno,Just Swing,5,7,0,Kaleido,2,6,0,12,8
+2386526,1,Dust2,DEPO,6,6,0,FengDa,3,7,0,12,10
+2386526,2,Mirage,DEPO,4,8,0,FengDa,0,5,0,12,5
+2386722,1,Overpass,kONO,7,5,0,FORZE Reload,6,3,0,12,9
+2386722,2,Nuke,kONO,4,8,8,FORZE Reload,4,2,4,20,10
+2386722,3,Dust2,kONO,9,3,0,FORZE Reload,4,3,0,12,7
+2386783,1,Ancient,G2 Ares,4,8,0,Aurora Young Blud,3,5,0,12,8
+2386783,2,Train,G2 Ares,5,7,0,Aurora Young Blud,8,1,0,12,9
+2386783,3,Dust2,G2 Ares,7,5,5,Aurora Young Blud,7,1,4,17,12
+2386670,1,Inferno,SINNERS,8,4,0,BRUTE,5,2,0,12,7
+2386670,2,Dust2,SINNERS,7,5,0,BRUTE,6,2,0,12,8
+2386228,1,Nuke,RUBY,3,9,0,Betera,2,4,0,12,6
+2386228,2,Dust2,RUBY,4,8,0,Betera,5,5,0,12,10
+2386229,1,Mirage,ESC,9,3,0,ECLOT,4,1,0,12,5
+2386229,2,Nuke,ESC,8,4,0,ECLOT,5,3,0,12,8
+2386782,1,Ancient,fish123,5,7,0,ENCE Academy,8,4,0,12,12
+2386782,2,Mirage,fish123,12,0,0,ENCE Academy,1,3,0,12,4
+2386721,1,Ancient,RUBY,5,7,0,Nuclear TigeRES,8,4,0,12,12
+2386721,2,Dust2,RUBY,12,0,0,Nuclear TigeRES,1,0,0,12,1
+2386616,1,Nuke,TSG,3,9,0,NuTorious,2,4,0,12,6
+2386616,2,Ancient,TSG,8,4,0,NuTorious,5,7,0,12,12
+2386616,3,Train,TSG,6,6,0,NuTorious,7,4,0,12,11
+2386621,1,Inferno,Marsborne,6,6,0,LAG,7,3,0,12,10
+2386621,2,Ancient,Marsborne,7,5,0,LAG,0,8,0,12,8
+2386621,3,Dust2,Marsborne,7,5,0,LAG,6,0,0,12,6
+2386617,1,Inferno,BOSS,8,4,0,Zomblers,5,5,0,12,10
+2386617,2,Mirage,BOSS,4,8,8,Zomblers,4,4,2,20,10
+2386619,1,Inferno,Rave,10,2,0,regain,3,2,0,12,5
+2386619,2,Dust2,Rave,10,2,0,regain,3,8,0,12,11
+2386622,1,Overpass,ex-Chicken Coop,4,8,0,Wildcard,2,5,0,12,7
+2386622,2,Inferno,ex-Chicken Coop,5,7,0,Wildcard,3,6,0,12,9
+2386615,1,Nuke,Shimmer,7,5,0,Mythic,1,8,0,12,9
+2386615,2,Dust2,Shimmer,5,7,0,Mythic,1,6,0,12,7
+2386618,1,Overpass,InControl,5,7,0,Take Flyte,0,6,0,12,6
+2386618,2,Nuke,InControl,3,9,0,Take Flyte,0,4,0,12,4
+2386620,1,Dust2,FULL SEND,1,11,0,Getting Info,5,2,0,12,7
+2386620,2,Ancient,FULL SEND,6,6,0,Getting Info,1,7,0,12,8
+2386299,1,Ancient,Little Bocks,5,7,0,wwaves,2,6,0,12,8
+2386299,2,Dust2,Little Bocks,5,7,0,wwaves,1,6,0,12,7
+2386314,1,Nuke,ex-Chicken Coop,6,6,0,Getting Info,7,4,0,12,11
+2386314,2,Ancient,ex-Chicken Coop,4,8,0,Getting Info,0,5,0,12,5
+2386314,3,Dust2,ex-Chicken Coop,5,7,0,Getting Info,3,6,0,12,9
+2386586,1,Dust2,Vasco,7,5,5,LP,7,16,19,17,42
+2386586,2,Ancient,Vasco,5,7,0,LP,1,6,0,12,7
+2386679,1,Train,Bounty Hunters,11,1,0,VEXA,2,6,0,12,8
+2386679,2,Mirage,Bounty Hunters,10,2,0,VEXA,3,3,0,12,6
+2386592,1,Nuke,Dusty Roots,5,7,0,Sharks,8,3,0,12,11
+2386592,2,Train,Dusty Roots,4,8,0,Sharks,0,5,0,12,5
+2386592,3,Mirage,Dusty Roots,7,5,0,Sharks,6,3,0,12,9
+2386585,1,Dust2,Tropa do KinGui,5,7,0,GameHunters,8,4,0,12,12
+2386585,2,Nuke,Tropa do KinGui,6,6,6,GameHunters,6,4,1,18,11
+2386588,1,Inferno,Procyon,8,4,0,UnderDogs,5,7,0,12,12
+2386588,2,Nuke,Procyon,9,3,0,UnderDogs,4,2,0,12,6
+2386587,1,Ancient,Yawara,3,9,0,KRÜ,8,4,0,12,12
+2386587,2,Dust2,Yawara,6,6,0,KRÜ,1,7,0,12,8
+2386590,1,Mirage,2GAME,4,8,0,RED Canids,1,5,0,12,6
+2386590,2,Nuke,2GAME,6,6,0,RED Canids,0,7,0,12,7
+2386591,1,Ancient,ShindeN,7,5,5,Keyd Stars,7,2,4,17,13
+2386591,2,Mirage,ShindeN,6,6,0,Keyd Stars,0,7,0,12,7
+2386295,1,Mirage,Dusty Roses,2,10,0,Curralzinho,1,3,0,12,4
+2386295,2,Dust2,Dusty Roses,8,4,0,Curralzinho,2,9,0,12,11
+2386294,1,Ancient,thekillaz fe,1,11,0,MIBR fe,0,2,0,12,2
+2386294,2,Inferno,thekillaz fe,2,10,0,MIBR fe,0,3,0,12,3
+2386678,1,Inferno,MAGICOS,9,3,0,R2,4,6,0,12,10
+2386678,2,Overpass,MAGICOS,7,5,0,R2,6,5,0,12,11
+2386290,1,Mirage,888aura,7,5,0,Let Her Cook,6,0,0,12,6
+2386290,2,Dust2,888aura,7,5,5,Let Her Cook,7,4,1,17,12
+2386291,1,Inferno,BIG EQUIPA,9,3,0,Imperial Valkyries,4,2,0,12,6
+2386291,2,Mirage,BIG EQUIPA,8,4,0,Imperial Valkyries,5,1,0,12,6
+2386545,1,Mirage,500,4,8,0,EYEBALLERS,1,5,0,12,6
+2386545,2,Inferno,500,10,2,0,EYEBALLERS,3,9,0,12,12
+2386545,3,Nuke,500,9,3,0,EYEBALLERS,4,6,0,12,10
+2386539,1,Dust2,SINNERS,7,5,0,Insilio,6,2,0,12,8
+2386539,2,Nuke,SINNERS,8,4,4,Insilio,8,4,1,16,13
+2386540,1,Inferno,JiJieHao,4,8,0,Zero Tenacity,0,5,0,12,5
+2386540,2,Nuke,JiJieHao,7,5,5,Zero Tenacity,7,2,4,17,13
+2386543,1,Nuke,Partizan,3,9,0,Johnny Speeds,5,4,0,12,9
+2386543,2,Inferno,Partizan,2,10,0,Johnny Speeds,7,3,0,12,10
+2386541,1,Mirage,33,6,6,6,NOVAQ,6,4,2,18,12
+2386541,2,Train,33,9,3,0,NOVAQ,4,0,0,12,4
+2386544,1,Nuke,Alliance,9,3,0,SPARTA,4,5,0,12,9
+2386544,2,Ancient,Alliance,9,3,0,SPARTA,4,5,0,12,9
+2386542,1,Dust2,ESC,8,4,0,RUBY,5,4,0,12,9
+2386542,2,Nuke,ESC,6,6,0,RUBY,7,3,0,12,10
+2386208,1,Dust2,Inner Circle,7,5,0,Eternal Fire,6,1,0,12,7
+2386208,2,Nuke,Inner Circle,8,4,0,Eternal Fire,5,4,0,12,9
+2386767,1,Inferno,Superior,4,8,0,WildLotus,1,5,0,12,6
+2386767,2,Mirage,Superior,4,8,0,WildLotus,2,5,0,12,7
+2386767,3,Overpass,Superior,4,8,0,WildLotus,2,5,0,12,7
+2386227,1,Mirage,Betera,5,7,0,ECLOT,5,6,0,12,11
+2386227,2,Dust2,Betera,7,5,0,ECLOT,6,2,0,12,8
+2386227,3,Nuke,Betera,4,8,0,ECLOT,6,5,0,12,11
+2386677,1,Dust2,Crashers,5,7,0,Procyon,8,1,0,12,9
+2386677,2,Nuke,Crashers,8,4,0,Procyon,5,0,0,12,5
+2386329,1,Ancient,SINNERS,4,8,0,Dziuseppe,7,5,0,12,12
+2386329,2,Nuke,SINNERS,5,7,7,Dziuseppe,5,0,4,19,9
+2386719,1,Dust2,ARCRED,8,4,0,Nexus,5,1,0,12,6
+2386719,2,Mirage,ARCRED,7,5,0,Nexus,6,5,0,12,11
+2386521,1,Inferno,Rare Atom,6,6,0,Kaleido,4,7,0,12,11
+2386521,2,Mirage,Rare Atom,8,4,0,Kaleido,5,3,0,12,8
+2386521,3,Dust2,Rare Atom,10,2,0,Kaleido,3,2,0,12,5
+2386416,1,Mirage,SPARTA,2,10,0,Oramond,5,3,0,12,8
+2386416,2,Ancient,SPARTA,3,9,0,Oramond,4,4,0,12,8
+2386523,1,Inferno,Just Swing,8,4,0,Chinggis Warriors,5,5,0,12,10
+2386523,2,Ancient,Just Swing,6,6,0,Chinggis Warriors,7,2,0,12,9
+2386524,1,Inferno,FengDa,8,4,0,Last Bullet,5,4,0,12,9
+2386524,2,Mirage,FengDa,6,6,0,Last Bullet,7,2,0,12,9
+2386522,1,Dust2,DEPO,2,10,0,The Huns,0,3,0,12,3
+2386522,2,Nuke,DEPO,4,8,0,The Huns,1,5,0,12,6
+2386676,1,Ancient,LP,9,3,0,JERSA,4,3,0,12,7
+2386676,2,Mirage,LP,10,2,0,JERSA,3,0,0,12,3
+2386226,1,Mirage,RUBY,5,7,7,ESC,5,4,7,19,16
+2386226,2,Nuke,RUBY,6,6,0,ESC,1,7,0,12,8
+2386206,1,Ancient,Gentle Mates,7,5,0,Anonymo,6,2,0,12,8
+2386206,2,Nuke,Gentle Mates,7,5,0,Anonymo,6,2,0,12,8
+2386718,1,Dust2,SPARTA,5,7,0,FAVBET,0,6,0,12,6
+2386718,2,Nuke,SPARTA,3,9,0,FAVBET,1,4,0,12,5
+2386204,1,Ancient,Nemiga,7,5,5,500,7,0,4,17,11
+2386204,2,Overpass,Nemiga,11,1,0,500,2,6,0,12,8
+2386204,3,Mirage,Nemiga,9,3,0,500,4,5,0,12,9
+2386717,1,Mirage,Betera,5,7,0,m1x,3,6,0,12,9
+2386717,2,Dust2,Betera,6,6,0,m1x,7,0,0,12,7
+2386717,3,Ancient,Betera,7,5,0,m1x,4,8,0,12,12
+2386331,1,Nuke,Zero Tenacity,2,10,0,RUBY,6,3,0,12,9
+2386331,2,Dust2,Zero Tenacity,4,8,0,RUBY,0,5,0,12,5
+2386610,1,Nuke,NuTorious,5,7,7,Green Tea Party,5,4,7,19,16
+2386610,2,Ancient,NuTorious,4,8,8,Green Tea Party,4,7,3,20,14
+2386610,3,Dust2,NuTorious,5,7,0,Green Tea Party,8,1,0,12,9
+2386611,1,Dust2,Zomblers,9,3,0,Nocturnal,4,1,0,12,5
+2386611,2,Ancient,Zomblers,9,3,0,Nocturnal,4,3,0,12,7
+2386609,1,Nuke,FlyQuest RED,3,9,0,TSG,0,4,0,12,4
+2386609,2,Train,FlyQuest RED,2,10,0,TSG,1,3,0,12,4
+2386313,1,Ancient,Getting Info,9,3,0,regain,4,4,0,12,8
+2386313,2,Dust2,Getting Info,9,3,0,regain,4,1,0,12,5
+2386583,1,Dust2,Procyon,7,5,0,Galorys,6,1,0,12,7
+2386583,2,Ancient,Procyon,5,7,0,Galorys,1,6,0,12,7
+2386583,3,Mirage,Procyon,6,6,6,Galorys,6,4,2,18,12
+2386312,1,Ancient,Zomblers,11,1,0,ex-Chicken Coop,2,0,0,12,2
+2386312,2,Nuke,Zomblers,4,8,0,ex-Chicken Coop,1,5,0,12,6
+2386312,3,Mirage,Zomblers,4,8,0,ex-Chicken Coop,3,5,0,12,8
+2386577,1,Inferno,Tropa do KinGui,7,5,0,Crashers,6,2,0,12,8
+2386577,2,Dust2,Tropa do KinGui,7,5,0,Crashers,6,1,0,12,7
+2386579,1,Inferno,MAGICOS,2,10,0,Vasco,0,3,0,12,3
+2386579,2,Dust2,MAGICOS,4,8,0,Vasco,1,5,0,12,6
+2386580,1,Dust2,MIBR Academy,1,11,0,LP,0,2,0,12,2
+2386580,2,Mirage,MIBR Academy,7,5,0,LP,1,8,0,12,9
+2386578,1,Overpass,JERSA,4,8,0,GameHunters,1,5,0,12,6
+2386578,2,Mirage,JERSA,2,10,0,GameHunters,0,3,0,12,3
+2386581,1,Nuke,Four Magic fe,3,9,0,Yawara,0,4,0,12,4
+2386581,2,Ancient,Four Magic fe,0,12,0,Yawara,1,1,0,12,2
+2386643,1,Ancient,UnderDogs,7,5,0,MAGICOS,6,5,0,12,11
+2386643,2,Inferno,UnderDogs,3,9,0,MAGICOS,1,4,0,12,5
+2386643,3,Mirage,UnderDogs,11,1,0,MAGICOS,2,2,0,12,4
+2386328,1,Mirage,Zero Tenacity,4,8,0,1win,3,5,0,12,8
+2386328,2,Dust2,Zero Tenacity,7,5,0,1win,4,8,0,12,12
+2386535,1,Ancient,HubaBuba,5,7,7,ARCRED,5,1,4,19,10
+2386535,2,Train,HubaBuba,8,4,0,ARCRED,3,9,0,12,12
+2386537,1,Ancient,VP.Prodigy,6,6,0,GUN5,5,7,0,12,12
+2386537,2,Dust2,VP.Prodigy,4,8,0,GUN5,4,5,0,12,9
+2386536,1,Ancient,CPH Wolves,7,5,0,Betera,3,8,0,12,11
+2386536,2,Train,CPH Wolves,4,8,0,Betera,3,5,0,12,8
+2386532,1,Overpass,Eternal Fire,2,10,0,FAVBET,2,3,0,12,5
+2386532,2,Dust2,Eternal Fire,7,5,0,FAVBET,1,8,0,12,9
+2386534,1,Dust2,Nexus,3,9,0,BC.Game,1,4,0,12,5
+2386534,2,Inferno,Nexus,2,10,0,BC.Game,2,3,0,12,5
+2386642,1,Inferno,GameHunters,10,2,0,VEXA,3,3,0,12,6
+2386642,2,Mirage,GameHunters,11,1,0,VEXA,2,5,0,12,7
+2386327,1,Dust2,CYBERSHOKE,2,10,0,RUBY,5,3,0,12,8
+2386327,2,Ancient,CYBERSHOKE,7,5,5,RUBY,7,10,6,17,23
+2386327,3,Mirage,CYBERSHOKE,7,5,0,RUBY,6,0,0,12,6
+2386651,1,Ancient,Nexus,6,6,0,Nuclear TigeRES,4,7,0,12,11
+2386651,2,Dust2,Nexus,9,3,0,Nuclear TigeRES,4,0,0,12,4
+2386651,3,Train,Nexus,2,10,0,Nuclear TigeRES,4,3,0,12,7
+2386519,1,Dust2,Last Bullet,5,7,0,NomadS,5,6,0,12,11
+2386519,2,Inferno,Last Bullet,8,4,0,NomadS,5,1,0,12,6
+2386519,3,Overpass,Last Bullet,9,3,0,NomadS,4,1,0,12,5
+2386202,1,Nuke,JiJieHao,6,6,0,Partizan,7,2,0,12,9
+2386202,2,Inferno,JiJieHao,4,8,0,Partizan,4,5,0,12,9
+2386202,3,Mirage,JiJieHao,8,4,4,Partizan,8,7,4,16,19
+2386517,1,Ancient,NSN,1,11,0,Chinggis Warriors,0,2,0,12,2
+2386517,2,Inferno,NSN,3,9,0,Chinggis Warriors,6,4,0,12,10
+2386518,1,Nuke,Just Swing,8,4,0,Legion,5,6,0,12,11
+2386518,2,Inferno,Just Swing,8,4,0,Legion,5,0,0,12,5
+2386641,1,Dust2,Crashers,5,7,0,MIBR Academy,0,6,0,12,6
+2386641,2,Nuke,Crashers,1,11,0,MIBR Academy,2,2,0,12,4
+2386520,1,Inferno,Eruption,1,11,0,FengDa,7,2,0,12,9
+2386520,2,Ancient,Eruption,5,7,0,FengDa,1,6,0,12,7
+2386412,1,Mirage,33,9,3,0,EYEBALLERS,0,10,0,12,10
+2386412,2,Nuke,33,6,6,6,EYEBALLERS,6,4,0,18,10
+2386412,3,Inferno,33,2,10,0,EYEBALLERS,4,3,0,12,7
+2386536,1,Ancient,CPH Wolves,7,5,0,Betera,3,8,0,12,11
+2386536,2,Train,CPH Wolves,4,8,0,Betera,3,5,0,12,8
+2386532,1,Overpass,Eternal Fire,2,10,0,FAVBET,2,3,0,12,5
+2386532,2,Dust2,Eternal Fire,7,5,0,FAVBET,1,8,0,12,9
+2386534,1,Dust2,Nexus,3,9,0,BC.Game,1,4,0,12,5
+2386534,2,Inferno,Nexus,2,10,0,BC.Game,2,3,0,12,5
+2386642,1,Inferno,GameHunters,10,2,0,VEXA,3,3,0,12,6
+2386642,2,Mirage,GameHunters,11,1,0,VEXA,2,5,0,12,7
+2386327,1,Dust2,CYBERSHOKE,2,10,0,RUBY,5,3,0,12,8
+2386327,2,Ancient,CYBERSHOKE,7,5,5,RUBY,7,10,6,17,23
+2386327,3,Mirage,CYBERSHOKE,7,5,0,RUBY,6,0,0,12,6
+2386651,1,Ancient,Nexus,6,6,0,Nuclear TigeRES,4,7,0,12,11
+2386651,2,Dust2,Nexus,9,3,0,Nuclear TigeRES,4,0,0,12,4
+2386651,3,Train,Nexus,2,10,0,Nuclear TigeRES,4,3,0,12,7
+2386519,1,Dust2,Last Bullet,5,7,0,NomadS,5,6,0,12,11
+2386519,2,Inferno,Last Bullet,8,4,0,NomadS,5,1,0,12,6
+2386519,3,Overpass,Last Bullet,9,3,0,NomadS,4,1,0,12,5
+2386202,1,Nuke,JiJieHao,6,6,0,Partizan,7,2,0,12,9
+2386202,2,Inferno,JiJieHao,4,8,0,Partizan,4,5,0,12,9
+2386202,3,Mirage,JiJieHao,8,4,4,Partizan,8,7,4,16,19
+2386517,1,Ancient,NSN,1,11,0,Chinggis Warriors,0,2,0,12,2
+2386517,2,Inferno,NSN,3,9,0,Chinggis Warriors,6,4,0,12,10
+2386518,1,Nuke,Just Swing,8,4,0,Legion,5,6,0,12,11
+2386518,2,Inferno,Just Swing,8,4,0,Legion,5,0,0,12,5
+2386641,1,Dust2,Crashers,5,7,0,MIBR Academy,0,6,0,12,6
+2386641,2,Nuke,Crashers,1,11,0,MIBR Academy,2,2,0,12,4
+2386520,1,Inferno,Eruption,1,11,0,FengDa,7,2,0,12,9
+2386520,2,Ancient,Eruption,5,7,0,FengDa,1,6,0,12,7
+2386412,1,Mirage,33,9,3,0,EYEBALLERS,0,10,0,12,10
+2386412,2,Nuke,33,6,6,6,EYEBALLERS,6,4,0,18,10
+2386412,3,Inferno,33,2,10,0,EYEBALLERS,4,3,0,12,7
+2386536,1,Ancient,CPH Wolves,7,5,0,Betera,3,8,0,12,11
+2386536,2,Train,CPH Wolves,4,8,0,Betera,3,5,0,12,8
+2386532,1,Overpass,Eternal Fire,2,10,0,FAVBET,2,3,0,12,5
+2386532,2,Dust2,Eternal Fire,7,5,0,FAVBET,1,8,0,12,9
+2386534,1,Dust2,Nexus,3,9,0,BC.Game,1,4,0,12,5
+2386534,2,Inferno,Nexus,2,10,0,BC.Game,2,3,0,12,5
+2386642,1,Inferno,GameHunters,10,2,0,VEXA,3,3,0,12,6
+2386642,2,Mirage,GameHunters,11,1,0,VEXA,2,5,0,12,7
+2386327,1,Dust2,CYBERSHOKE,2,10,0,RUBY,5,3,0,12,8
+2386327,2,Ancient,CYBERSHOKE,7,5,5,RUBY,7,10,6,17,23
+2386327,3,Mirage,CYBERSHOKE,7,5,0,RUBY,6,0,0,12,6
+2386651,1,Ancient,Nexus,6,6,0,Nuclear TigeRES,4,7,0,12,11
+2386651,2,Dust2,Nexus,9,3,0,Nuclear TigeRES,4,0,0,12,4
+2386651,3,Train,Nexus,2,10,0,Nuclear TigeRES,4,3,0,12,7
+2386519,1,Dust2,Last Bullet,5,7,0,NomadS,5,6,0,12,11
+2386519,2,Inferno,Last Bullet,8,4,0,NomadS,5,1,0,12,6
+2386519,3,Overpass,Last Bullet,9,3,0,NomadS,4,1,0,12,5
+2386202,1,Nuke,JiJieHao,6,6,0,Partizan,7,2,0,12,9
+2386202,2,Inferno,JiJieHao,4,8,0,Partizan,4,5,0,12,9
+2386202,3,Mirage,JiJieHao,8,4,4,Partizan,8,7,4,16,19
+2386517,1,Ancient,NSN,1,11,0,Chinggis Warriors,0,2,0,12,2
+2386517,2,Inferno,NSN,3,9,0,Chinggis Warriors,6,4,0,12,10
+2386518,1,Nuke,Just Swing,8,4,0,Legion,5,6,0,12,11
+2386518,2,Inferno,Just Swing,8,4,0,Legion,5,0,0,12,5
+2386641,1,Dust2,Crashers,5,7,0,MIBR Academy,0,6,0,12,6
+2386641,2,Nuke,Crashers,1,11,0,MIBR Academy,2,2,0,12,4
+2386520,1,Inferno,Eruption,1,11,0,FengDa,7,2,0,12,9
+2386520,2,Ancient,Eruption,5,7,0,FengDa,1,6,0,12,7
+2386412,1,Mirage,33,9,3,0,EYEBALLERS,0,10,0,12,10
+2386412,2,Nuke,33,6,6,6,EYEBALLERS,6,4,0,18,10
+2386412,3,Inferno,33,2,10,0,EYEBALLERS,4,3,0,12,7
+2386536,1,Ancient,CPH Wolves,7,5,0,Betera,3,8,0,12,11
+2386536,2,Train,CPH Wolves,4,8,0,Betera,3,5,0,12,8
+2386532,1,Overpass,Eternal Fire,2,10,0,FAVBET,2,3,0,12,5
+2386532,2,Dust2,Eternal Fire,7,5,0,FAVBET,1,8,0,12,9
+2386534,1,Dust2,Nexus,3,9,0,BC.Game,1,4,0,12,5
+2386534,2,Inferno,Nexus,2,10,0,BC.Game,2,3,0,12,5
+2386642,1,Inferno,GameHunters,10,2,0,VEXA,3,3,0,12,6
+2386642,2,Mirage,GameHunters,11,1,0,VEXA,2,5,0,12,7
+2386327,1,Dust2,CYBERSHOKE,2,10,0,RUBY,5,3,0,12,8
+2386327,2,Ancient,CYBERSHOKE,7,5,5,RUBY,7,10,6,17,23
+2386327,3,Mirage,CYBERSHOKE,7,5,0,RUBY,6,0,0,12,6
+2386651,1,Ancient,Nexus,6,6,0,Nuclear TigeRES,4,7,0,12,11
+2386651,2,Dust2,Nexus,9,3,0,Nuclear TigeRES,4,0,0,12,4
+2386651,3,Train,Nexus,2,10,0,Nuclear TigeRES,4,3,0,12,7
+2386519,1,Dust2,Last Bullet,5,7,0,NomadS,5,6,0,12,11
+2386519,2,Inferno,Last Bullet,8,4,0,NomadS,5,1,0,12,6
+2386519,3,Overpass,Last Bullet,9,3,0,NomadS,4,1,0,12,5
+2386202,1,Nuke,JiJieHao,6,6,0,Partizan,7,2,0,12,9
+2386202,2,Inferno,JiJieHao,4,8,0,Partizan,4,5,0,12,9
+2386202,3,Mirage,JiJieHao,8,4,4,Partizan,8,7,4,16,19
+2386517,1,Ancient,NSN,1,11,0,Chinggis Warriors,0,2,0,12,2
+2386517,2,Inferno,NSN,3,9,0,Chinggis Warriors,6,4,0,12,10
+2386518,1,Nuke,Just Swing,8,4,0,Legion,5,6,0,12,11
+2386518,2,Inferno,Just Swing,8,4,0,Legion,5,0,0,12,5
+2386641,1,Dust2,Crashers,5,7,0,MIBR Academy,0,6,0,12,6
+2386641,2,Nuke,Crashers,1,11,0,MIBR Academy,2,2,0,12,4
+2386520,1,Inferno,Eruption,1,11,0,FengDa,7,2,0,12,9
+2386520,2,Ancient,Eruption,5,7,0,FengDa,1,6,0,12,7
+2386412,1,Mirage,33,9,3,0,EYEBALLERS,0,10,0,12,10
+2386412,2,Nuke,33,6,6,6,EYEBALLERS,6,4,0,18,10
+2386412,3,Inferno,33,2,10,0,EYEBALLERS,4,3,0,12,7
+2386536,1,Ancient,CPH Wolves,7,5,0,Betera,3,8,0,12,11
+2386536,2,Train,CPH Wolves,4,8,0,Betera,3,5,0,12,8
+2386532,1,Overpass,Eternal Fire,2,10,0,FAVBET,2,3,0,12,5
+2386532,2,Dust2,Eternal Fire,7,5,0,FAVBET,1,8,0,12,9
+2386534,1,Dust2,Nexus,3,9,0,BC.Game,1,4,0,12,5
+2386534,2,Inferno,Nexus,2,10,0,BC.Game,2,3,0,12,5
+2386642,1,Inferno,GameHunters,10,2,0,VEXA,3,3,0,12,6
+2386642,2,Mirage,GameHunters,11,1,0,VEXA,2,5,0,12,7
+2386327,1,Dust2,CYBERSHOKE,2,10,0,RUBY,5,3,0,12,8
+2386327,2,Ancient,CYBERSHOKE,7,5,5,RUBY,7,10,6,17,23
+2386327,3,Mirage,CYBERSHOKE,7,5,0,RUBY,6,0,0,12,6
+2386651,1,Ancient,Nexus,6,6,0,Nuclear TigeRES,4,7,0,12,11
+2386651,2,Dust2,Nexus,9,3,0,Nuclear TigeRES,4,0,0,12,4
+2386651,3,Train,Nexus,2,10,0,Nuclear TigeRES,4,3,0,12,7
+2386519,1,Dust2,Last Bullet,5,7,0,NomadS,5,6,0,12,11
+2386519,2,Inferno,Last Bullet,8,4,0,NomadS,5,1,0,12,6
+2386519,3,Overpass,Last Bullet,9,3,0,NomadS,4,1,0,12,5
+2386202,1,Nuke,JiJieHao,6,6,0,Partizan,7,2,0,12,9
+2386202,2,Inferno,JiJieHao,4,8,0,Partizan,4,5,0,12,9
+2386202,3,Mirage,JiJieHao,8,4,4,Partizan,8,7,4,16,19
+2386517,1,Ancient,NSN,1,11,0,Chinggis Warriors,0,2,0,12,2
+2386517,2,Inferno,NSN,3,9,0,Chinggis Warriors,6,4,0,12,10
+2386518,1,Nuke,Just Swing,8,4,0,Legion,5,6,0,12,11
+2386518,2,Inferno,Just Swing,8,4,0,Legion,5,0,0,12,5
+2386641,1,Dust2,Crashers,5,7,0,MIBR Academy,0,6,0,12,6
+2386641,2,Nuke,Crashers,1,11,0,MIBR Academy,2,2,0,12,4
+2386520,1,Inferno,Eruption,1,11,0,FengDa,7,2,0,12,9
+2386520,2,Ancient,Eruption,5,7,0,FengDa,1,6,0,12,7
+2386412,1,Mirage,33,9,3,0,EYEBALLERS,0,10,0,12,10
+2386412,2,Nuke,33,6,6,6,EYEBALLERS,6,4,0,18,10
+2386412,3,Inferno,33,2,10,0,EYEBALLERS,4,3,0,12,7
+2386536,1,Ancient,CPH Wolves,7,5,0,Betera,3,8,0,12,11
+2386536,2,Train,CPH Wolves,4,8,0,Betera,3,5,0,12,8
+2386532,1,Overpass,Eternal Fire,2,10,0,FAVBET,2,3,0,12,5
+2386532,2,Dust2,Eternal Fire,7,5,0,FAVBET,1,8,0,12,9
+2386534,1,Dust2,Nexus,3,9,0,BC.Game,1,4,0,12,5
+2386534,2,Inferno,Nexus,2,10,0,BC.Game,2,3,0,12,5
+2386642,1,Inferno,GameHunters,10,2,0,VEXA,3,3,0,12,6
+2386642,2,Mirage,GameHunters,11,1,0,VEXA,2,5,0,12,7
+2386327,1,Dust2,CYBERSHOKE,2,10,0,RUBY,5,3,0,12,8
+2386327,2,Ancient,CYBERSHOKE,7,5,5,RUBY,7,10,6,17,23
+2386327,3,Mirage,CYBERSHOKE,7,5,0,RUBY,6,0,0,12,6
+2386651,1,Ancient,Nexus,6,6,0,Nuclear TigeRES,4,7,0,12,11
+2386651,2,Dust2,Nexus,9,3,0,Nuclear TigeRES,4,0,0,12,4
+2386651,3,Train,Nexus,2,10,0,Nuclear TigeRES,4,3,0,12,7
+2386519,1,Dust2,Last Bullet,5,7,0,NomadS,5,6,0,12,11
+2386519,2,Inferno,Last Bullet,8,4,0,NomadS,5,1,0,12,6
+2386519,3,Overpass,Last Bullet,9,3,0,NomadS,4,1,0,12,5
+2386202,1,Nuke,JiJieHao,6,6,0,Partizan,7,2,0,12,9
+2386202,2,Inferno,JiJieHao,4,8,0,Partizan,4,5,0,12,9
+2386202,3,Mirage,JiJieHao,8,4,4,Partizan,8,7,4,16,19
+2386517,1,Ancient,NSN,1,11,0,Chinggis Warriors,0,2,0,12,2
+2386517,2,Inferno,NSN,3,9,0,Chinggis Warriors,6,4,0,12,10
+2386518,1,Nuke,Just Swing,8,4,0,Legion,5,6,0,12,11
+2386518,2,Inferno,Just Swing,8,4,0,Legion,5,0,0,12,5
+2386641,1,Dust2,Crashers,5,7,0,MIBR Academy,0,6,0,12,6
+2386641,2,Nuke,Crashers,1,11,0,MIBR Academy,2,2,0,12,4
+2386520,1,Inferno,Eruption,1,11,0,FengDa,7,2,0,12,9
+2386520,2,Ancient,Eruption,5,7,0,FengDa,1,6,0,12,7
+2386412,1,Mirage,33,9,3,0,EYEBALLERS,0,10,0,12,10
+2386412,2,Nuke,33,6,6,6,EYEBALLERS,6,4,0,18,10
+2386412,3,Inferno,33,2,10,0,EYEBALLERS,4,3,0,12,7

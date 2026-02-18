@@ -9245,3 +9245,5469 @@ match_id,veto_order,team,action,map_name
 2387890,4,MOUZ NXT,removed,Overpass
 2387890,5,FUT Academy,removed,Inferno
 2387890,6,MOUZ NXT,removed,Ancient
+2387894,1,boomer demons,removed,Overpass
+2387894,2,BC.Game,removed,Train
+2387894,3,boomer demons,removed,Nuke
+2387894,4,BC.Game,removed,Inferno
+2387894,5,boomer demons,removed,Ancient
+2387894,6,BC.Game,removed,Mirage
+2387891,1,Falcons Force,removed,Overpass
+2387891,2,EYEBALLERS,removed,Inferno
+2387891,3,Falcons Force,removed,Nuke
+2387891,4,EYEBALLERS,removed,Ancient
+2387891,5,Falcons Force,removed,Dust2
+2387891,6,EYEBALLERS,removed,Mirage
+2387889,1,MASONIC,removed,Dust2
+2387889,2,ENCE,removed,Train
+2387889,3,MASONIC,removed,Mirage
+2387889,4,ENCE,removed,Nuke
+2387889,5,MASONIC,removed,Ancient
+2387889,6,ENCE,removed,Inferno
+2387884,1,Lilmix,removed,Nuke
+2387884,2,Betclic,removed,Inferno
+2387884,3,Lilmix,removed,Train
+2387884,4,Betclic,removed,Dust2
+2387884,5,Lilmix,removed,Mirage
+2387884,6,Betclic,removed,Overpass
+2387885,1,Boys N Da HUD,removed,Train
+2387885,2,Sashi,removed,Dust2
+2387885,3,Boys N Da HUD,removed,Nuke
+2387885,4,Sashi,removed,Inferno
+2387885,5,Boys N Da HUD,removed,Ancient
+2387885,6,Sashi,removed,Overpass
+2387886,1,Young Ninjas,removed,Nuke
+2387886,2,Inner Circle,removed,Inferno
+2387886,3,Young Ninjas,removed,Train
+2387886,4,Inner Circle,removed,Overpass
+2387886,5,Young Ninjas,removed,Mirage
+2387886,6,Inner Circle,removed,Ancient
+2387876,1,Metizport,removed,Dust2
+2387876,2,Johnny Speeds,removed,Ancient
+2387876,3,Metizport,removed,Train
+2387876,4,Johnny Speeds,removed,Mirage
+2387876,5,Metizport,removed,Overpass
+2387876,6,Johnny Speeds,removed,Nuke
+2387883,1,777,removed,Train
+2387883,2,BetBoom,removed,Inferno
+2387883,3,777,removed,Dust2
+2387883,4,BetBoom,removed,Overpass
+2387883,5,777,removed,Nuke
+2387883,6,BetBoom,removed,Ancient
+2387728,1,MIBR Academy,removed,Inferno
+2387728,2,RED Canids,removed,Dust2
+2387728,3,MIBR Academy,picked,Ancient
+2387728,4,RED Canids,picked,Nuke
+2387728,5,MIBR Academy,removed,Train
+2387728,6,RED Canids,removed,Overpass
+2387707,1,GANK,removed,Ancient
+2387707,2,YinYang,removed,Train
+2387707,3,GANK,picked,Dust2
+2387707,4,YinYang,picked,Nuke
+2387707,5,GANK,removed,Overpass
+2387707,6,YinYang,removed,Mirage
+2387877,1,FUT Academy,removed,Dust2
+2387877,2,ENCE,removed,Train
+2387877,3,FUT Academy,removed,Mirage
+2387877,4,ENCE,removed,Inferno
+2387877,5,FUT Academy,removed,Nuke
+2387877,6,ENCE,removed,Overpass
+2387882,1,AM,removed,Inferno
+2387882,2,BC.Game,removed,Nuke
+2387882,3,AM,removed,Mirage
+2387882,4,BC.Game,removed,Train
+2387882,5,AM,removed,Overpass
+2387882,6,BC.Game,removed,Dust2
+2387874,1,Acend,removed,Train
+2387874,2,Inner Circle,removed,Inferno
+2387874,3,Acend,removed,Nuke
+2387874,4,Inner Circle,removed,Overpass
+2387874,5,Acend,removed,Mirage
+2387874,6,Inner Circle,removed,Dust2
+2387878,1,Falcons Force,removed,Overpass
+2387878,2,MASONIC,removed,Dust2
+2387878,3,Falcons Force,removed,Ancient
+2387878,4,MASONIC,removed,Mirage
+2387878,5,Falcons Force,removed,Nuke
+2387878,6,MASONIC,removed,Inferno
+2387871,1,Lilmix,removed,Nuke
+2387871,2,BetBoom,removed,Inferno
+2387871,3,Lilmix,removed,Ancient
+2387871,4,BetBoom,removed,Dust2
+2387871,5,Lilmix,removed,Mirage
+2387871,6,BetBoom,removed,Overpass
+2387880,1,aimclub,removed,Ancient
+2387880,2,Alliance,removed,Mirage
+2387880,3,aimclub,removed,Dust2
+2387880,4,Alliance,removed,Train
+2387880,5,aimclub,removed,Overpass
+2387880,6,Alliance,removed,Nuke
+2387881,1,boomer demons,removed,Train
+2387881,2,WOPA,removed,Dust2
+2387881,3,boomer demons,removed,Nuke
+2387881,4,WOPA,removed,Mirage
+2387881,5,boomer demons,removed,Inferno
+2387881,6,WOPA,removed,Ancient
+2387875,1,Minkens finest,removed,Train
+2387875,2,Young Ninjas,removed,Nuke
+2387875,3,Minkens finest,removed,Overpass
+2387875,4,Young Ninjas,removed,Inferno
+2387875,5,Minkens finest,removed,Dust2
+2387875,6,Young Ninjas,removed,Mirage
+2387872,1,Boys N Da HUD,removed,Nuke
+2387872,2,777,removed,Train
+2387872,3,Boys N Da HUD,removed,Dust2
+2387872,4,777,removed,Inferno
+2387872,5,Boys N Da HUD,removed,Mirage
+2387872,6,777,removed,Overpass
+2387860,1,Lilmix,removed,Nuke
+2387860,2,Sashi,removed,Dust2
+2387860,3,Lilmix,removed,Train
+2387860,4,Sashi,removed,Inferno
+2387860,5,Lilmix,removed,Ancient
+2387860,6,Sashi,removed,Mirage
+2387552,1,Nemesis SEA,removed,Train
+2387552,2,BIG,removed,Ancient
+2387552,3,Nemesis SEA,picked,Nuke
+2387552,4,BIG,picked,Overpass
+2387552,5,BIG,removed,Inferno
+2387552,6,Nemesis SEA,removed,Dust2
+2387870,1,WOPA,removed,Dust2
+2387870,2,AM,removed,Train
+2387870,3,WOPA,removed,Mirage
+2387870,4,AM,removed,Inferno
+2387870,5,WOPA,removed,Ancient
+2387870,6,AM,removed,Nuke
+2387863,1,Acend,removed,Train
+2387863,2,Johnny Speeds,removed,Dust2
+2387863,3,Acend,removed,Nuke
+2387863,4,Johnny Speeds,removed,Overpass
+2387863,5,Acend,removed,Inferno
+2387863,6,Johnny Speeds,removed,Mirage
+2387774,1,ARCRED,removed,Nuke
+2387774,2,HAVU,removed,Ancient
+2387774,3,ARCRED,picked,Mirage
+2387774,4,HAVU,picked,Overpass
+2387774,5,ARCRED,removed,Inferno
+2387774,6,HAVU,removed,Train
+2387765,1,EGG,removed,Nuke
+2387765,2,GATERON,removed,Train
+2387765,3,EGG,picked,Overpass
+2387765,4,GATERON,picked,Inferno
+2387765,5,GATERON,removed,Mirage
+2387765,6,EGG,removed,Dust2
+2387865,1,Falcons Force,removed,Dust2
+2387865,2,ENCE,removed,Train
+2387865,3,Falcons Force,removed,Overpass
+2387865,4,ENCE,removed,Mirage
+2387865,5,Falcons Force,removed,Ancient
+2387865,6,ENCE,removed,Inferno
+2387087,1,CYBERSHOKE,removed,Inferno
+2387087,2,Betera,removed,Mirage
+2387087,3,CYBERSHOKE,picked,Train
+2387087,4,Betera,picked,Dust2
+2387087,5,CYBERSHOKE,removed,Ancient
+2387087,6,Betera,removed,Overpass
+2387861,1,777,removed,Dust2
+2387861,2,Betclic,removed,Inferno
+2387861,3,777,removed,Train
+2387861,4,Betclic,removed,Ancient
+2387861,5,777,removed,Mirage
+2387861,6,Betclic,removed,Nuke
+2387864,1,Young Ninjas,removed,Nuke
+2387864,2,Metizport,removed,Train
+2387864,3,Young Ninjas,removed,Inferno
+2387864,4,Metizport,removed,Dust2
+2387864,5,Young Ninjas,removed,Mirage
+2387864,6,Metizport,removed,Overpass
+2387868,1,boomer demons,removed,Train
+2387868,2,Alliance,removed,Mirage
+2387868,3,boomer demons,removed,Inferno
+2387868,4,Alliance,removed,Dust2
+2387868,5,boomer demons,removed,Ancient
+2387868,6,Alliance,removed,Overpass
+2387867,1,MASONIC,removed,Mirage
+2387867,2,MOUZ NXT,removed,Inferno
+2387867,3,MASONIC,removed,Dust2
+2387867,4,MOUZ NXT,removed,Train
+2387867,5,MASONIC,removed,Ancient
+2387867,6,MOUZ NXT,removed,Overpass
+2387706,1,ex-Maestro,removed,Nuke
+2387706,2,Wildcard Academy,removed,Inferno
+2387706,3,ex-Maestro,picked,Mirage
+2387706,4,Wildcard Academy,picked,Train
+2387706,5,ex-Maestro,removed,Overpass
+2387706,6,Wildcard Academy,removed,Dust2
+2387866,1,FUT Academy,removed,Mirage
+2387866,2,EYEBALLERS,removed,Ancient
+2387866,3,FUT Academy,removed,Dust2
+2387866,4,EYEBALLERS,removed,Inferno
+2387866,5,FUT Academy,removed,Train
+2387866,6,EYEBALLERS,removed,Nuke
+2387869,1,aimclub,removed,Overpass
+2387869,2,BC.Game,removed,Train
+2387869,3,aimclub,removed,Ancient
+2387869,4,BC.Game,removed,Nuke
+2387869,5,aimclub,removed,Dust2
+2387869,6,BC.Game,removed,Inferno
+2387862,1,Minkens finest,removed,Train
+2387862,2,Inner Circle,removed,Inferno
+2387862,3,Minkens finest,removed,Nuke
+2387862,4,Inner Circle,removed,Overpass
+2387862,5,Minkens finest,removed,Dust2
+2387862,6,Inner Circle,removed,Mirage
+2387859,1,Boys N Da HUD,removed,Nuke
+2387859,2,BetBoom,removed,Inferno
+2387859,3,Boys N Da HUD,removed,Dust2
+2387859,4,BetBoom,removed,Train
+2387859,5,Boys N Da HUD,removed,Mirage
+2387859,6,BetBoom,removed,Overpass
+2387764,1,UR,removed,Nuke
+2387764,2,BORING PLAYERS,removed,Mirage
+2387764,3,UR,picked,Ancient
+2387764,4,BORING PLAYERS,picked,Inferno
+2387764,5,BORING PLAYERS,removed,Train
+2387764,6,UR,removed,Overpass
+2387551,1,Mousquetaires,removed,Mirage
+2387551,2,Deep Cross,removed,Train
+2387551,3,Mousquetaires,picked,Dust2
+2387551,4,Deep Cross,picked,Inferno
+2387551,5,Deep Cross,removed,Overpass
+2387551,6,Mousquetaires,removed,Ancient
+2387744,1,Gaimin Gladiators,removed,Mirage
+2387744,2,Charrados,removed,Overpass
+2387744,3,Gaimin Gladiators,picked,Inferno
+2387744,4,Charrados,picked,Ancient
+2387744,5,Gaimin Gladiators,removed,Dust2
+2387744,6,Charrados,removed,Train
+2387659,1,KRÜ,removed,Train
+2387659,2,Galorys,removed,Inferno
+2387659,3,KRÜ,picked,Dust2
+2387659,4,Galorys,picked,Ancient
+2387659,5,KRÜ,removed,Overpass
+2387659,6,Galorys,removed,Mirage
+2387726,1,Charrados,removed,Overpass
+2387726,2,Fluxo,removed,Dust2
+2387726,3,Charrados,picked,Mirage
+2387726,4,Fluxo,picked,Ancient
+2387726,5,Charrados,removed,Train
+2387726,6,Fluxo,removed,Inferno
+2387946,1,LAG,removed,Mirage
+2387946,2,Fisher College,removed,Dust2
+2387946,3,LAG,picked,Inferno
+2387946,4,Fisher College,picked,Nuke
+2387946,5,LAG,removed,Ancient
+2387946,6,Fisher College,removed,Train
+2387933,1,33,removed,Overpass
+2387933,2,QUAZAR,removed,Ancient
+2387933,3,33,picked,Inferno
+2387933,4,QUAZAR,picked,Mirage
+2387933,5,33,removed,Dust2
+2387933,6,QUAZAR,removed,Train
+2387619,1,AMKAL,removed,Nuke
+2387619,2,JiJieHao,removed,Overpass
+2387619,3,AMKAL,picked,Ancient
+2387619,4,JiJieHao,picked,Dust2
+2387619,5,AMKAL,removed,Mirage
+2387619,6,JiJieHao,removed,Train
+2387742,1,Fake do Biru,removed,Ancient
+2387742,2,Galorys,removed,Inferno
+2387742,3,Fake do Biru,picked,Dust2
+2387742,4,Galorys,picked,Overpass
+2387742,5,Fake do Biru,removed,Train
+2387742,6,Galorys,removed,Mirage
+2387658,1,Dusty Roots,removed,Overpass
+2387658,2,Crashers,removed,Mirage
+2387658,3,Dusty Roots,picked,Nuke
+2387658,4,Crashers,picked,Inferno
+2387658,5,Dusty Roots,removed,Ancient
+2387658,6,Crashers,removed,Train
+2387938,1,FORZE Reload,removed,Train
+2387938,2,OLDBOYS,removed,Overpass
+2387938,3,FORZE Reload,picked,Nuke
+2387938,4,OLDBOYS,picked,Mirage
+2387938,5,FORZE Reload,removed,Inferno
+2387938,6,OLDBOYS,removed,Ancient
+2387781,1,HyperSpirit,removed,Overpass
+2387781,2,K27,removed,Inferno
+2387781,3,HyperSpirit,picked,Ancient
+2387781,4,K27,picked,Dust2
+2387781,5,HyperSpirit,removed,Train
+2387781,6,K27,removed,Nuke
+2387937,1,Wildcard Academy,removed,Inferno
+2387937,2,MOUZ NXT,removed,Train
+2387937,3,Wildcard Academy,picked,Overpass
+2387937,4,MOUZ NXT,picked,Ancient
+2387937,5,Wildcard Academy,removed,Mirage
+2387937,6,MOUZ NXT,removed,Nuke
+2387657,1,GameHunters,removed,Train
+2387657,2,LP,removed,Overpass
+2387657,3,GameHunters,picked,Mirage
+2387657,4,LP,picked,Inferno
+2387657,5,GameHunters,removed,Ancient
+2387657,6,LP,removed,Dust2
+2387740,1,Galorys,removed,Inferno
+2387740,2,Imperial,removed,Ancient
+2387740,3,Galorys,picked,Overpass
+2387740,4,Imperial,picked,Dust2
+2387740,5,Galorys,removed,Mirage
+2387740,6,Imperial,removed,Train
+2387714,1,confidence,removed,Ancient
+2387714,2,Imperial Valkyries,removed,Overpass
+2387714,3,confidence,picked,Nuke
+2387714,4,Imperial Valkyries,picked,Dust2
+2387714,5,confidence,removed,Inferno
+2387714,6,Imperial Valkyries,removed,Train
+2387741,1,ALZON,removed,Train
+2387741,2,Fake do Biru,removed,Ancient
+2387741,3,ALZON,picked,Inferno
+2387741,4,Fake do Biru,picked,Dust2
+2387741,5,ALZON,removed,Nuke
+2387741,6,Fake do Biru,removed,Overpass
+2387085,1,Oramond,removed,Inferno
+2387085,2,Zero Tenacity,removed,Ancient
+2387085,3,Oramond,picked,Nuke
+2387085,4,Zero Tenacity,picked,Dust2
+2387085,5,Oramond,removed,Overpass
+2387085,6,Zero Tenacity,removed,Train
+2387780,1,FORZE Reload,removed,Inferno
+2387780,2,NOVAQ,removed,Overpass
+2387780,3,FORZE Reload,picked,Nuke
+2387780,4,NOVAQ,picked,Dust2
+2387780,5,FORZE Reload,removed,Mirage
+2387780,6,NOVAQ,removed,Train
+2387618,1,ENCE Academy,removed,Train
+2387618,2,ARCRED,removed,Nuke
+2387618,3,ENCE Academy,picked,Ancient
+2387618,4,ARCRED,picked,Inferno
+2387618,5,ENCE Academy,removed,Mirage
+2387618,6,ARCRED,removed,Overpass
+2387932,1,aimclub,removed,Overpass
+2387932,2,9INE,removed,Mirage
+2387932,3,aimclub,picked,Dust2
+2387932,4,9INE,picked,Ancient
+2387932,5,aimclub,removed,Nuke
+2387932,6,9INE,removed,Inferno
+2387654,1,MIBR Academy,removed,Inferno
+2387654,2,Vasco,removed,Train
+2387654,3,MIBR Academy,picked,Ancient
+2387654,4,Vasco,picked,Dust2
+2387654,5,MIBR Academy,removed,Overpass
+2387654,6,Vasco,removed,Nuke
+2387931,1,Flame Sharks,removed,Inferno
+2387931,2,UNiTY,removed,Nuke
+2387931,3,Flame Sharks,picked,Train
+2387931,4,UNiTY,picked,Ancient
+2387931,5,Flame Sharks,removed,Mirage
+2387931,6,UNiTY,removed,Dust2
+2387725,1,Fake do Biru,removed,Ancient
+2387725,2,Galorys,removed,Inferno
+2387725,3,Fake do Biru,picked,Dust2
+2387725,4,Galorys,picked,Overpass
+2387725,5,Fake do Biru,removed,Train
+2387725,6,Galorys,removed,Mirage
+2387716,1,Fingers Crossed fe,removed,Inferno
+2387716,2,amateurs,removed,Train
+2387716,3,Fingers Crossed fe,picked,Dust2
+2387716,4,amateurs,picked,Ancient
+2387716,5,Fingers Crossed fe,removed,Overpass
+2387716,6,amateurs,removed,Nuke
+2387023,1,Sangal,removed,Dust2
+2387023,2,Spirit Academy,removed,Inferno
+2387023,3,Sangal,picked,Overpass
+2387023,4,Spirit Academy,picked,Train
+2387023,5,Sangal,removed,Ancient
+2387023,6,Spirit Academy,removed,Nuke
+2387724,1,ALZON,removed,Train
+2387724,2,Imperial,removed,Ancient
+2387724,3,ALZON,picked,Dust2
+2387724,4,Imperial,picked,Mirage
+2387724,5,ALZON,removed,Nuke
+2387724,6,Imperial,removed,Overpass
+2387084,1,JiJieHao,removed,Nuke
+2387084,2,GUN5,removed,Overpass
+2387084,3,JiJieHao,picked,Dust2
+2387084,4,GUN5,picked,Mirage
+2387084,5,JiJieHao,removed,Train
+2387084,6,GUN5,removed,Ancient
+2387617,1,SPARTA,removed,Ancient
+2387617,2,FORZE Reload,removed,Mirage
+2387617,3,SPARTA,picked,Train
+2387617,4,FORZE Reload,picked,Overpass
+2387617,5,SPARTA,removed,Dust2
+2387617,6,FORZE Reload,removed,Inferno
+2387705,1,BRUTE,removed,Train
+2387705,2,Lilmix,removed,Nuke
+2387705,3,BRUTE,picked,Ancient
+2387705,4,Lilmix,picked,Dust2
+2387705,5,BRUTE,removed,Overpass
+2387705,6,Lilmix,removed,Inferno
+2387779,1,Nuclear TigeRES,removed,Overpass
+2387779,2,AaB,removed,Train
+2387779,3,Nuclear TigeRES,picked,Ancient
+2387779,4,AaB,picked,Inferno
+2387779,5,Nuclear TigeRES,removed,Dust2
+2387779,6,AaB,removed,Nuke
+2387083,1,FAVBET,removed,Mirage
+2387083,2,VP.Prodigy,removed,Inferno
+2387083,3,FAVBET,picked,Overpass
+2387083,4,VP.Prodigy,picked,Dust2
+2387083,5,FAVBET,removed,Train
+2387083,6,VP.Prodigy,removed,Ancient
+2387930,1,HyperSpirit,removed,Inferno
+2387930,2,ECLOT,removed,Train
+2387930,3,HyperSpirit,picked,Ancient
+2387930,4,ECLOT,picked,Nuke
+2387930,5,HyperSpirit,removed,Overpass
+2387930,6,ECLOT,removed,Dust2
+2387763,1,EGG,removed,Nuke
+2387763,2,FengDa,removed,Overpass
+2387763,3,EGG,picked,Mirage
+2387763,4,FengDa,picked,Train
+2387763,5,FengDa,removed,Dust2
+2387763,6,EGG,removed,Inferno
+2387616,1,K27,removed,Inferno
+2387616,2,NOVAQ,removed,Overpass
+2387616,3,K27,picked,Nuke
+2387616,4,NOVAQ,picked,Dust2
+2387616,5,K27,removed,Mirage
+2387616,6,NOVAQ,removed,Train
+2387778,1,ALLINNERS,removed,Overpass
+2387778,2,Phantom,removed,Ancient
+2387778,3,ALLINNERS,picked,Mirage
+2387778,4,Phantom,picked,Nuke
+2387778,5,ALLINNERS,removed,Train
+2387778,6,Phantom,removed,Inferno
+2387762,1,Change The Game,removed,Nuke
+2387762,2,GATERON,removed,Train
+2387762,3,Change The Game,picked,Inferno
+2387762,4,GATERON,picked,Mirage
+2387762,5,GATERON,removed,Overpass
+2387762,6,Change The Game,removed,Ancient
+2387655,1,paiN Academy,removed,Train
+2387655,2,FURIA fe,removed,Overpass
+2387655,3,paiN Academy,picked,Ancient
+2387655,4,FURIA fe,picked,Dust2
+2387655,5,paiN Academy,removed,Inferno
+2387655,6,FURIA fe,removed,Mirage
+2387082,1,Nexus,removed,Inferno
+2387082,2,NOVAQ,removed,Nuke
+2387082,3,Nexus,picked,Ancient
+2387082,4,NOVAQ,picked,Mirage
+2387082,5,Nexus,removed,Dust2
+2387082,6,NOVAQ,removed,Overpass
+2387734,1,FORZE Reload,removed,Mirage
+2387734,2,DRGN,removed,Train
+2387734,3,FORZE Reload,picked,Overpass
+2387734,4,DRGN,picked,Dust2
+2387734,5,FORZE Reload,removed,Ancient
+2387734,6,DRGN,removed,Nuke
+2387656,1,Bounty Hunters,removed,Inferno
+2387656,2,Procyon,removed,Train
+2387656,3,Bounty Hunters,picked,Mirage
+2387656,4,Procyon,picked,Dust2
+2387656,5,Bounty Hunters,removed,Overpass
+2387656,6,Procyon,removed,Ancient
+2387773,1,AaB,removed,Train
+2387773,2,K27,removed,Inferno
+2387773,3,AaB,picked,Ancient
+2387773,4,K27,picked,Overpass
+2387773,5,AaB,removed,Mirage
+2387773,6,K27,removed,Nuke
+2387615,1,GenOne,removed,Mirage
+2387615,2,BASEMENT BOYS,removed,Overpass
+2387615,3,GenOne,picked,Dust2
+2387615,4,BASEMENT BOYS,picked,Train
+2387615,5,GenOne,removed,Inferno
+2387615,6,BASEMENT BOYS,removed,Nuke
+2387733,1,MINLATE,removed,Train
+2387733,2,MOUZ NXT,removed,Inferno
+2387733,3,MINLATE,picked,Nuke
+2387733,4,MOUZ NXT,picked,Mirage
+2387733,5,MINLATE,removed,Ancient
+2387733,6,MOUZ NXT,removed,Overpass
+2387732,1,Wildcard Academy,removed,Inferno
+2387732,2,Leo,removed,Nuke
+2387732,3,Wildcard Academy,picked,Mirage
+2387732,4,Leo,picked,Dust2
+2387732,5,Wildcard Academy,removed,Overpass
+2387732,6,Leo,removed,Ancient
+2387439,1,ECLOT,removed,Train
+2387439,2,GUN5,removed,Overpass
+2387439,3,ECLOT,picked,Inferno
+2387439,4,GUN5,picked,Dust2
+2387439,5,ECLOT,removed,Mirage
+2387439,6,GUN5,removed,Ancient
+2387735,1,UNiTY,removed,Nuke
+2387735,2,OLDBOYS,removed,Inferno
+2387735,3,UNiTY,picked,Ancient
+2387735,4,OLDBOYS,picked,Train
+2387735,5,UNiTY,removed,Dust2
+2387735,6,OLDBOYS,removed,Overpass
+2387772,1,HyperSpirit,removed,Inferno
+2387772,2,Nuclear TigeRES,removed,Overpass
+2387772,3,HyperSpirit,picked,Dust2
+2387772,4,Nuclear TigeRES,picked,Ancient
+2387772,5,HyperSpirit,removed,Train
+2387772,6,Nuclear TigeRES,removed,Mirage
+2387698,1,BIG EQUIPA,removed,Train
+2387698,2,Nemesis Impact,removed,Overpass
+2387698,3,BIG EQUIPA,picked,Inferno
+2387698,4,Nemesis Impact,picked,Ancient
+2387698,5,BIG EQUIPA,removed,Nuke
+2387698,6,Nemesis Impact,removed,Mirage
+2387614,1,Fire Flux,removed,Nuke
+2387614,2,9BOOMPRO,removed,Inferno
+2387614,3,Fire Flux,picked,Ancient
+2387614,4,9BOOMPRO,picked,Dust2
+2387614,5,Fire Flux,removed,Overpass
+2387614,6,9BOOMPRO,removed,Train
+2387438,1,kONO,removed,Mirage
+2387438,2,NOVAQ,removed,Overpass
+2387438,3,kONO,picked,Nuke
+2387438,4,NOVAQ,picked,Dust2
+2387438,5,kONO,removed,Ancient
+2387438,6,NOVAQ,removed,Train
+2387701,1,MASONIC,removed,Dust2
+2387701,2,Wildcard Academy,removed,Inferno
+2387701,3,MASONIC,picked,Nuke
+2387701,4,Wildcard Academy,picked,Mirage
+2387701,5,MASONIC,removed,Ancient
+2387701,6,Wildcard Academy,removed,Overpass
+2387081,1,500,removed,Train
+2387081,2,SPARTA,removed,Inferno
+2387081,3,500,picked,Ancient
+2387081,4,SPARTA,picked,Mirage
+2387081,5,500,removed,Nuke
+2387081,6,SPARTA,removed,Dust2
+2387653,1,Prison Breakers,removed,Nuke
+2387653,2,Tropa do KinGui,removed,Train
+2387653,3,Prison Breakers,picked,Mirage
+2387653,4,Tropa do KinGui,picked,Inferno
+2387653,5,Prison Breakers,removed,Ancient
+2387653,6,Tropa do KinGui,removed,Dust2
+2387080,1,AMKAL,removed,Nuke
+2387080,2,ARCRED,removed,Ancient
+2387080,3,AMKAL,picked,Dust2
+2387080,4,ARCRED,picked,Train
+2387080,5,AMKAL,removed,Mirage
+2387080,6,ARCRED,removed,Overpass
+2387771,1,FORZE Reload,removed,Inferno
+2387771,2,ALLINNERS,removed,Overpass
+2387771,3,FORZE Reload,picked,Train
+2387771,4,ALLINNERS,picked,Ancient
+2387771,5,FORZE Reload,removed,Mirage
+2387771,6,ALLINNERS,removed,Nuke
+2387652,1,MAGICOS,removed,Nuke
+2387652,2,Fuego,removed,Inferno
+2387652,3,MAGICOS,picked,Dust2
+2387652,4,Fuego,picked,Ancient
+2387652,5,MAGICOS,removed,Mirage
+2387652,6,Fuego,removed,Train
+2387703,1,YinYang,removed,Train
+2387703,2,Lilmix,removed,Nuke
+2387703,3,YinYang,picked,Ancient
+2387703,4,Lilmix,picked,Dust2
+2387703,5,YinYang,removed,Mirage
+2387703,6,Lilmix,removed,Overpass
+2387021,1,Spirit Academy,removed,Inferno
+2387021,2,SINNERS,removed,Train
+2387021,3,Spirit Academy,picked,Ancient
+2387021,4,SINNERS,picked,Nuke
+2387021,5,Spirit Academy,removed,Mirage
+2387021,6,SINNERS,removed,Overpass
+2387761,1,BORING PLAYERS,removed,Mirage
+2387761,2,Last Bullet,removed,Train
+2387761,3,BORING PLAYERS,picked,Ancient
+2387761,4,Last Bullet,picked,Dust2
+2387761,5,Last Bullet,removed,Overpass
+2387761,6,BORING PLAYERS,removed,Nuke
+2387702,1,GANK,removed,Nuke
+2387702,2,BRUTE,removed,Train
+2387702,3,GANK,picked,Dust2
+2387702,4,BRUTE,picked,Ancient
+2387702,5,GANK,removed,Overpass
+2387702,6,BRUTE,removed,Mirage
+2387770,1,NOVAQ,removed,Overpass
+2387770,2,Phantom,removed,Ancient
+2387770,3,NOVAQ,picked,Inferno
+2387770,4,Phantom,picked,Nuke
+2387770,5,NOVAQ,removed,Train
+2387770,6,Phantom,removed,Dust2
+2387612,1,Nuclear TigeRES,removed,Overpass
+2387612,2,CPH Wolves,removed,Inferno
+2387612,3,Nuclear TigeRES,picked,Ancient
+2387612,4,CPH Wolves,picked,Train
+2387612,5,Nuclear TigeRES,removed,Mirage
+2387612,6,CPH Wolves,removed,Dust2
+2387531,1,Tricked,removed,Dust2
+2387531,2,Wildcard Academy,removed,Inferno
+2387531,3,Tricked,picked,Overpass
+2387531,4,Wildcard Academy,picked,Mirage
+2387531,5,Tricked,removed,Ancient
+2387531,6,Wildcard Academy,removed,Nuke
+2387760,1,UR,removed,Nuke
+2387760,2,Kaleido,removed,Overpass
+2387760,3,UR,picked,Ancient
+2387760,4,Kaleido,picked,Inferno
+2387760,5,Kaleido,removed,Train
+2387760,6,UR,removed,Mirage
+2387513,1,SportsBetExpert,removed,Nuke
+2387513,2,Voca,removed,Inferno
+2387513,3,SportsBetExpert,picked,Dust2
+2387513,4,Voca,picked,Train
+2387513,5,SportsBetExpert,removed,Overpass
+2387513,6,Voca,removed,Ancient
+2387651,1,LP,removed,Overpass
+2387651,2,MIBR Academy,removed,Inferno
+2387651,3,LP,picked,Train
+2387651,4,MIBR Academy,picked,Nuke
+2387651,5,LP,removed,Ancient
+2387651,6,MIBR Academy,removed,Dust2
+2387650,1,FURIA fe,removed,Ancient
+2387650,2,Crashers,removed,Overpass
+2387650,3,FURIA fe,picked,Train
+2387650,4,Crashers,picked,Nuke
+2387650,5,FURIA fe,removed,Dust2
+2387650,6,Crashers,removed,Mirage
+2387079,1,Nuclear TigeRES,removed,Overpass
+2387079,2,500,removed,Train
+2387079,3,Nuclear TigeRES,picked,Ancient
+2387079,4,500,picked,Dust2
+2387079,5,Nuclear TigeRES,removed,Mirage
+2387079,6,500,removed,Nuke
+2387437,1,Fire Flux,removed,Nuke
+2387437,2,CPH Wolves,removed,Inferno
+2387437,3,Fire Flux,picked,Mirage
+2387437,4,CPH Wolves,picked,Train
+2387437,5,Fire Flux,removed,Overpass
+2387437,6,CPH Wolves,removed,Dust2
+2387596,1,SPARTA,removed,Inferno
+2387596,2,JiJieHao,removed,Overpass
+2387596,3,SPARTA,picked,Mirage
+2387596,4,JiJieHao,picked,Dust2
+2387596,5,SPARTA,removed,Ancient
+2387596,6,JiJieHao,removed,Train
+2387697,1,confidence,removed,Ancient
+2387697,2,Fingers Crossed fe,removed,Inferno
+2387697,3,confidence,picked,Nuke
+2387697,4,Fingers Crossed fe,picked,Dust2
+2387697,5,confidence,removed,Train
+2387697,6,Fingers Crossed fe,removed,Overpass
+2387078,1,SPARTA,removed,Inferno
+2387078,2,GUN5,removed,Overpass
+2387078,3,SPARTA,picked,Nuke
+2387078,4,GUN5,picked,Dust2
+2387078,5,SPARTA,removed,Ancient
+2387078,6,GUN5,removed,Train
+2387436,1,FORZE Reload,removed,Inferno
+2387436,2,MASONIC,removed,Dust2
+2387436,3,FORZE Reload,picked,Overpass
+2387436,4,MASONIC,picked,Nuke
+2387436,5,FORZE Reload,removed,Train
+2387436,6,MASONIC,removed,Mirage
+2387595,1,9BOOMPRO,removed,Train
+2387595,2,CPH Wolves,removed,Inferno
+2387595,3,9BOOMPRO,picked,Dust2
+2387595,4,CPH Wolves,picked,Ancient
+2387595,5,9BOOMPRO,removed,Mirage
+2387595,6,CPH Wolves,removed,Overpass
+2387649,1,Tropa do KinGui,removed,Train
+2387649,2,KRÜ,removed,Inferno
+2387649,3,Tropa do KinGui,picked,Overpass
+2387649,4,KRÜ,picked,Dust2
+2387649,5,Tropa do KinGui,removed,Mirage
+2387649,6,KRÜ,removed,Ancient
+2387648,1,Fuego,removed,Dust2
+2387648,2,Procyon,removed,Train
+2387648,3,Fuego,picked,Ancient
+2387648,4,Procyon,picked,Nuke
+2387648,5,Fuego,removed,Inferno
+2387648,6,Procyon,removed,Mirage
+2387077,1,NOVAQ,removed,Nuke
+2387077,2,Oramond,removed,Inferno
+2387077,3,NOVAQ,picked,Dust2
+2387077,4,Oramond,picked,Ancient
+2387077,5,NOVAQ,removed,Overpass
+2387077,6,Oramond,removed,Train
+2387696,1,amateurs,removed,Inferno
+2387696,2,Imperial Valkyries,removed,Overpass
+2387696,3,amateurs,picked,Ancient
+2387696,4,Imperial Valkyries,picked,Dust2
+2387696,5,amateurs,removed,Nuke
+2387696,6,Imperial Valkyries,removed,Train
+2387530,1,Alliance,removed,Mirage
+2387530,2,Wildcard Academy,removed,Inferno
+2387530,3,Alliance,picked,Train
+2387530,4,Wildcard Academy,picked,Ancient
+2387530,5,Alliance,removed,Dust2
+2387530,6,Wildcard Academy,removed,Nuke
+2387019,1,Betera,removed,Inferno
+2387019,2,Sangal,removed,Dust2
+2387019,3,Betera,picked,Ancient
+2387019,4,Sangal,picked,Overpass
+2387019,5,Betera,removed,Mirage
+2387019,6,Sangal,removed,Train
+2387699,1,NoKami,removed,Inferno
+2387699,2,NIP Impact,removed,Nuke
+2387699,3,NoKami,picked,Mirage
+2387699,4,NIP Impact,picked,Overpass
+2387699,5,NoKami,removed,Train
+2387699,6,NIP Impact,removed,Ancient
+2387529,1,Tricked,removed,Dust2
+2387529,2,WOPA,removed,Nuke
+2387529,3,Tricked,picked,Ancient
+2387529,4,WOPA,picked,Inferno
+2387529,5,Tricked,removed,Mirage
+2387529,6,WOPA,removed,Train
+2387700,1,ex-Maestro,removed,Overpass
+2387700,2,megoshort,removed,Dust2
+2387700,3,ex-Maestro,picked,Mirage
+2387700,4,megoshort,picked,Ancient
+2387700,5,ex-Maestro,removed,Train
+2387700,6,megoshort,removed,Nuke
+2387647,1,Bounty Hunters,removed,Inferno
+2387647,2,MAGICOS,removed,Nuke
+2387647,3,Bounty Hunters,picked,Mirage
+2387647,4,MAGICOS,picked,Ancient
+2387647,5,Bounty Hunters,removed,Overpass
+2387647,6,MAGICOS,removed,Train
+2387646,1,Dusty Roots,removed,Overpass
+2387646,2,paiN Academy,removed,Train
+2387646,3,Dusty Roots,picked,Nuke
+2387646,4,paiN Academy,picked,Mirage
+2387646,5,Dusty Roots,removed,Inferno
+2387646,6,paiN Academy,removed,Dust2
+2387592,1,Fire Flux,removed,Nuke
+2387592,2,BASEMENT BOYS,removed,Inferno
+2387592,3,Fire Flux,picked,Dust2
+2387592,4,BASEMENT BOYS,picked,Train
+2387592,5,Fire Flux,removed,Mirage
+2387592,6,BASEMENT BOYS,removed,Overpass
+2387435,1,Young Ninjas,removed,Nuke
+2387435,2,ECLOT,removed,Train
+2387435,3,Young Ninjas,picked,Dust2
+2387435,4,ECLOT,picked,Inferno
+2387435,5,Young Ninjas,removed,Mirage
+2387435,6,ECLOT,removed,Overpass
+2387076,1,AaB,removed,Train
+2387076,2,AMKAL,removed,Nuke
+2387076,3,AaB,picked,Inferno
+2387076,4,AMKAL,picked,Dust2
+2387076,5,AaB,removed,Ancient
+2387076,6,AMKAL,removed,Mirage
+2387559,1,Nuclear TigeRES,removed,Overpass
+2387559,2,ALGO,removed,Dust2
+2387559,3,Nuclear TigeRES,picked,Ancient
+2387559,4,ALGO,picked,Nuke
+2387559,5,Nuclear TigeRES,removed,Mirage
+2387559,6,ALGO,removed,Inferno
+2387645,1,Vasco,removed,Train
+2387645,2,GameHunters,removed,Overpass
+2387645,3,Vasco,picked,Dust2
+2387645,4,GameHunters,picked,Mirage
+2387645,5,Vasco,removed,Ancient
+2387645,6,GameHunters,removed,Inferno
+2387018,1,33,removed,Overpass
+2387018,2,Spirit Academy,removed,Inferno
+2387018,3,33,picked,Nuke
+2387018,4,Spirit Academy,picked,Dust2
+2387018,5,33,removed,Mirage
+2387018,6,Spirit Academy,removed,Train
+2387434,1,NOVAQ,removed,Overpass
+2387434,2,premdesant,removed,Train
+2387434,3,NOVAQ,picked,Inferno
+2387434,4,premdesant,picked,Mirage
+2387434,5,NOVAQ,removed,Nuke
+2387434,6,premdesant,removed,Dust2
+2387075,1,VRSoholics,removed,Train
+2387075,2,Nexus,removed,Overpass
+2387075,3,VRSoholics,picked,Nuke
+2387075,4,Nexus,picked,Ancient
+2387075,5,VRSoholics,removed,Mirage
+2387075,6,Nexus,removed,Inferno
+2387560,1,Flame Sharks,removed,Inferno
+2387560,2,WOPA,removed,Dust2
+2387560,3,Flame Sharks,picked,Train
+2387560,4,WOPA,picked,Overpass
+2387560,5,Flame Sharks,removed,Mirage
+2387560,6,WOPA,removed,Nuke
+2387591,1,GenOne,removed,Mirage
+2387591,2,AMKAL,removed,Nuke
+2387591,3,GenOne,picked,Overpass
+2387591,4,AMKAL,picked,Ancient
+2387591,5,GenOne,removed,Train
+2387591,6,AMKAL,removed,Inferno
+2387562,1,Fire Flux,removed,Nuke
+2387562,2,QUAZAR,removed,Ancient
+2387562,3,Fire Flux,picked,Dust2
+2387562,4,QUAZAR,picked,Overpass
+2387562,5,Fire Flux,removed,Mirage
+2387562,6,QUAZAR,removed,Inferno
+2387644,1,Prison Breakers,removed,Nuke
+2387644,2,Galorys,removed,Inferno
+2387644,3,Prison Breakers,picked,Dust2
+2387644,4,Galorys,picked,Overpass
+2387644,5,Prison Breakers,removed,Train
+2387644,6,Galorys,removed,Mirage
+2387074,1,ALLINNERS,removed,Train
+2387074,2,ARCRED,removed,Ancient
+2387074,3,ALLINNERS,picked,Inferno
+2387074,4,ARCRED,picked,Mirage
+2387074,5,ALLINNERS,removed,Overpass
+2387074,6,ARCRED,removed,Dust2
+2387590,1,ENCE Academy,removed,Train
+2387590,2,Nuclear TigeRES,removed,Overpass
+2387590,3,ENCE Academy,picked,Nuke
+2387590,4,Nuclear TigeRES,picked,Ancient
+2387590,5,ENCE Academy,removed,Inferno
+2387590,6,Nuclear TigeRES,removed,Mirage
+2387589,1,NOVAQ,removed,Overpass
+2387589,2,1win,removed,Nuke
+2387589,3,NOVAQ,picked,Mirage
+2387589,4,1win,picked,Dust2
+2387589,5,NOVAQ,removed,Train
+2387589,6,1win,removed,Ancient
+2387527,1,WOPA,removed,Dust2
+2387527,2,K27,removed,Inferno
+2387527,3,WOPA,picked,Nuke
+2387527,4,K27,picked,Train
+2387527,5,WOPA,removed,Overpass
+2387527,6,K27,removed,Mirage
+2387573,1,GenOne,removed,Mirage
+2387573,2,CPH Wolves,removed,Inferno
+2387573,3,GenOne,picked,Dust2
+2387573,4,CPH Wolves,picked,Ancient
+2387573,5,GenOne,removed,Train
+2387573,6,CPH Wolves,removed,Overpass
+2386941,1,Venom,removed,Inferno
+2386941,2,Nemiga,removed,Nuke
+2386941,3,Venom,picked,Train
+2386941,4,Nemiga,picked,Dust2
+2386941,5,Venom,removed,Mirage
+2386941,6,Nemiga,removed,Overpass
+2387580,1,XPERION NXT,removed,Inferno
+2387580,2,BIG Academy,removed,Ancient
+2387580,3,XPERION NXT,picked,Train
+2387580,4,BIG Academy,picked,Mirage
+2387580,5,XPERION NXT,removed,Dust2
+2387580,6,BIG Academy,removed,Nuke
+2387073,1,GUN5,removed,Overpass
+2387073,2,AaB,removed,Train
+2387073,3,GUN5,picked,Mirage
+2387073,4,AaB,picked,Inferno
+2387073,5,GUN5,removed,Ancient
+2387073,6,AaB,removed,Nuke
+2387433,1,Young Ninjas,removed,Nuke
+2387433,2,Dziuseppe,removed,Overpass
+2387433,3,Young Ninjas,picked,Dust2
+2387433,4,Dziuseppe,picked,Ancient
+2387433,5,Young Ninjas,removed,Inferno
+2387433,6,Dziuseppe,removed,Mirage
+2387072,1,CYBERSHOKE,removed,Inferno
+2387072,2,SPARTA,removed,Dust2
+2387072,3,CYBERSHOKE,picked,Ancient
+2387072,4,SPARTA,picked,Nuke
+2387072,5,CYBERSHOKE,removed,Train
+2387072,6,SPARTA,removed,Overpass
+2387572,1,NOVAQ,removed,Overpass
+2387572,2,ARCRED,removed,Inferno
+2387572,3,NOVAQ,picked,Dust2
+2387572,4,ARCRED,picked,Mirage
+2387572,5,NOVAQ,removed,Nuke
+2387572,6,ARCRED,removed,Ancient
+2387579,1,BIG Academy,removed,Ancient
+2387579,2,Wave,removed,Overpass
+2387579,3,BIG Academy,picked,Inferno
+2387579,4,Wave,picked,Dust2
+2387579,5,BIG Academy,removed,Train
+2387579,6,Wave,removed,Nuke
+2387432,1,ECLOT,removed,Train
+2387432,2,FORZE Reload,removed,Inferno
+2387432,3,ECLOT,picked,Mirage
+2387432,4,FORZE Reload,picked,Overpass
+2387432,5,ECLOT,removed,Nuke
+2387432,6,FORZE Reload,removed,Dust2
+2387611,1,Nemesis,removed,Dust2
+2387611,2,MINLATE,removed,Train
+2387611,3,Nemesis,picked,Overpass
+2387611,4,MINLATE,picked,Nuke
+2387611,5,Nemesis,removed,Ancient
+2387611,6,MINLATE,removed,Inferno
+2387588,1,Insilio,removed,Inferno
+2387588,2,Nuclear TigeRES,removed,Overpass
+2387588,3,Insilio,picked,Dust2
+2387588,4,Nuclear TigeRES,picked,Ancient
+2387588,5,Insilio,removed,Train
+2387588,6,Nuclear TigeRES,removed,Mirage
+2387695,1,Wicked,removed,Train
+2387695,2,Arise,removed,Mirage
+2387695,3,Wicked,picked,Ancient
+2387695,4,Arise,picked,Inferno
+2387695,5,Wicked,removed,Nuke
+2387695,6,Arise,removed,Overpass
+2387070,1,NOVAQ,removed,Overpass
+2387070,2,AMKAL,removed,Nuke
+2387070,3,NOVAQ,picked,Inferno
+2387070,4,AMKAL,picked,Dust2
+2387070,5,NOVAQ,removed,Ancient
+2387070,6,AMKAL,removed,Train
+2386939,1,ECSTATIC,removed,Mirage
+2386939,2,Venom,removed,Inferno
+2386939,3,ECSTATIC,picked,Train
+2386939,4,Venom,picked,Nuke
+2386939,5,ECSTATIC,removed,Overpass
+2386939,6,Venom,removed,Dust2
+2387587,1,Lazer Cats,removed,Train
+2387587,2,Insilio,removed,Inferno
+2387587,3,Lazer Cats,picked,Ancient
+2387587,4,Insilio,picked,Nuke
+2387587,5,Lazer Cats,removed,Overpass
+2387587,6,Insilio,removed,Dust2
+2387610,1,Nemesis,removed,Nuke
+2387610,2,Prestige,removed,Mirage
+2387610,3,Nemesis,picked,Inferno
+2387610,4,Prestige,picked,Train
+2387610,5,Nemesis,removed,Ancient
+2387610,6,Prestige,removed,Overpass
+2387570,1,ENCE Academy,removed,Train
+2387570,2,Oramond,removed,Overpass
+2387570,3,ENCE Academy,picked,Nuke
+2387570,4,Oramond,picked,Ancient
+2387570,5,ENCE Academy,removed,Mirage
+2387570,6,Oramond,removed,Inferno
+2387586,1,SPARTA,removed,Inferno
+2387586,2,Nuclear TigeRES,removed,Overpass
+2387586,3,SPARTA,picked,Mirage
+2387586,4,Nuclear TigeRES,picked,Ancient
+2387586,5,SPARTA,removed,Dust2
+2387586,6,Nuclear TigeRES,removed,Nuke
+2387511,1,SportsBetExpert,removed,Nuke
+2387511,2,Take Flyte,removed,Dust2
+2387511,3,SportsBetExpert,picked,Mirage
+2387511,4,Take Flyte,picked,Train
+2387511,5,SportsBetExpert,removed,Inferno
+2387511,6,Take Flyte,removed,Overpass
+2387694,1,AaB,removed,Train
+2387694,2,Alliance,removed,Mirage
+2387694,3,AaB,picked,Dust2
+2387694,4,Alliance,picked,Inferno
+2387694,5,AaB,removed,Nuke
+2387694,6,Alliance,removed,Overpass
+2387609,1,Phantom,removed,Ancient
+2387609,2,Nemesis,removed,Dust2
+2387609,3,Phantom,picked,Nuke
+2387609,4,Nemesis,picked,Inferno
+2387609,5,Phantom,removed,Train
+2387609,6,Nemesis,removed,Mirage
+2387431,1,premdesant,removed,Train
+2387431,2,ALLINNERS,removed,Overpass
+2387431,3,premdesant,picked,Mirage
+2387431,4,ALLINNERS,picked,Inferno
+2387431,5,premdesant,removed,Nuke
+2387431,6,ALLINNERS,removed,Dust2
+2387597,1,SportsBetExpert,removed,Nuke
+2387597,2,Imperial,removed,Ancient
+2387597,3,SportsBetExpert,picked,Dust2
+2387597,4,Imperial,picked,Mirage
+2387597,5,SportsBetExpert,removed,Inferno
+2387597,6,Imperial,removed,Train
+2386938,1,Spirit Academy,removed,Inferno
+2386938,2,Nemiga,removed,Nuke
+2386938,3,Spirit Academy,picked,Dust2
+2386938,4,Nemiga,picked,Ancient
+2386938,5,Spirit Academy,removed,Mirage
+2386938,6,Nemiga,removed,Overpass
+2387692,1,MASONIC,removed,Dust2
+2387692,2,Alliance,removed,Mirage
+2387692,3,MASONIC,picked,Overpass
+2387692,4,Alliance,picked,Inferno
+2387692,5,MASONIC,removed,Ancient
+2387692,6,Alliance,removed,Train
+2387569,1,SPARTA,removed,Inferno
+2387569,2,BASEMENT BOYS,removed,Overpass
+2387569,3,SPARTA,picked,Nuke
+2387569,4,BASEMENT BOYS,picked,Ancient
+2387569,5,SPARTA,removed,Dust2
+2387569,6,BASEMENT BOYS,removed,Mirage
+2387598,1,FlyQuest RED,removed,Overpass
+2387598,2,BIG,removed,Ancient
+2387598,3,FlyQuest RED,picked,Mirage
+2387598,4,BIG,picked,Train
+2387598,5,FlyQuest RED,removed,Inferno
+2387598,6,BIG,removed,Nuke
+2387600,1,Radford University,removed,Train
+2387600,2,M80,removed,Nuke
+2387600,3,Radford University,picked,Inferno
+2387600,4,M80,picked,Mirage
+2387600,5,Radford University,removed,Ancient
+2387600,6,M80,removed,Dust2
+2387599,1,Marsborne,removed,Mirage
+2387599,2,Ghost,removed,Train
+2387599,3,Marsborne,picked,Nuke
+2387599,4,Ghost,picked,Inferno
+2387599,5,Marsborne,removed,Dust2
+2387599,6,Ghost,removed,Ancient
+2387578,1,XPERION NXT,removed,Mirage
+2387578,2,ProCamp,removed,Train
+2387578,3,XPERION NXT,picked,Ancient
+2387578,4,ProCamp,picked,Dust2
+2387578,5,XPERION NXT,removed,Inferno
+2387578,6,ProCamp,removed,Nuke
+2387606,1,MINLATE,removed,Train
+2387606,2,Prestige,removed,Mirage
+2387606,3,MINLATE,picked,Dust2
+2387606,4,Prestige,picked,Inferno
+2387606,5,MINLATE,removed,Overpass
+2387606,6,Prestige,removed,Ancient
+2387608,1,Glitchtech,removed,Overpass
+2387608,2,Nemesis,removed,Dust2
+2387608,3,Glitchtech,picked,Train
+2387608,4,Nemesis,picked,Mirage
+2387608,5,Glitchtech,removed,Nuke
+2387608,6,Nemesis,removed,Ancient
+2387068,1,ALLINNERS,removed,Overpass
+2387068,2,500,removed,Train
+2387068,3,ALLINNERS,picked,Ancient
+2387068,4,500,picked,Nuke
+2387068,5,ALLINNERS,removed,Dust2
+2387068,6,500,removed,Mirage
+2387607,1,8Sins,removed,Overpass
+2387607,2,Phantom,removed,Ancient
+2387607,3,8Sins,picked,Train
+2387607,4,Phantom,picked,Nuke
+2387607,5,8Sins,removed,Dust2
+2387607,6,Phantom,removed,Inferno
+2387693,1,YinYang,removed,Nuke
+2387693,2,AaB,removed,Train
+2387693,3,YinYang,picked,Ancient
+2387693,4,AaB,picked,Inferno
+2387693,5,YinYang,removed,Mirage
+2387693,6,AaB,removed,Dust2
+2387430,1,NOVAQ,removed,Overpass
+2387430,2,Fire Flux,removed,Nuke
+2387430,3,NOVAQ,picked,Train
+2387430,4,Fire Flux,picked,Ancient
+2387430,5,NOVAQ,removed,Dust2
+2387430,6,Fire Flux,removed,Inferno
+2387576,1,Reveal,removed,Nuke
+2387576,2,BIG Academy,removed,Ancient
+2387576,3,Reveal,picked,Dust2
+2387576,4,BIG Academy,picked,Inferno
+2387576,5,Reveal,removed,Train
+2387576,6,BIG Academy,removed,Overpass
+2387605,1,MINLATE,removed,Train
+2387605,2,Nemesis,removed,Dust2
+2387605,3,MINLATE,picked,Nuke
+2387605,4,Nemesis,picked,Overpass
+2387605,5,MINLATE,removed,Inferno
+2387605,6,Nemesis,removed,Ancient
+2387585,1,ARCRED,removed,Dust2
+2387585,2,Insilio,removed,Inferno
+2387585,3,ARCRED,picked,Train
+2387585,4,Insilio,picked,Nuke
+2387585,5,ARCRED,removed,Overpass
+2387585,6,Insilio,removed,Ancient
+2387604,1,Phantom,removed,Ancient
+2387604,2,Prestige,removed,Mirage
+2387604,3,Phantom,picked,Nuke
+2387604,4,Prestige,picked,Train
+2387604,5,Phantom,removed,Inferno
+2387604,6,Prestige,removed,Dust2
+2387577,1,6GPA,removed,Dust2
+2387577,2,Wave,removed,Overpass
+2387577,3,6GPA,picked,Ancient
+2387577,4,Wave,picked,Inferno
+2387577,5,6GPA,removed,Train
+2387577,6,Wave,removed,Nuke
+2386936,1,Venom,removed,Dust2
+2386936,2,CYBERSHOKE,removed,Train
+2386936,3,Venom,picked,Nuke
+2386936,4,CYBERSHOKE,picked,Mirage
+2386936,5,Venom,removed,Overpass
+2386936,6,CYBERSHOKE,removed,Inferno
+2387584,1,SPARTA,removed,Inferno
+2387584,2,NOVAQ,removed,Overpass
+2387584,3,SPARTA,picked,Nuke
+2387584,4,NOVAQ,picked,Ancient
+2387584,5,SPARTA,removed,Dust2
+2387584,6,NOVAQ,removed,Train
+2387567,1,Fire Flux,removed,Nuke
+2387567,2,JiJieHao,removed,Overpass
+2387567,3,Fire Flux,picked,Ancient
+2387567,4,JiJieHao,picked,Dust2
+2387567,5,Fire Flux,removed,Inferno
+2387567,6,JiJieHao,removed,Train
+2387561,1,Bushido Wildcats,removed,Ancient
+2387561,2,MANA,removed,Train
+2387561,3,Bushido Wildcats,picked,Nuke
+2387561,4,MANA,picked,Mirage
+2387561,5,Bushido Wildcats,removed,Overpass
+2387561,6,MANA,removed,Dust2
+2387066,1,VRSoholics,removed,Train
+2387066,2,CPH Wolves,removed,Inferno
+2387066,3,VRSoholics,picked,Dust2
+2387066,4,CPH Wolves,picked,Ancient
+2387066,5,VRSoholics,removed,Overpass
+2387066,6,CPH Wolves,removed,Nuke
+2386935,1,Partizan,removed,Train
+2386935,2,FUT,removed,Inferno
+2386935,3,Partizan,picked,Dust2
+2386935,4,FUT,picked,Mirage
+2386935,5,Partizan,removed,Ancient
+2386935,6,FUT,removed,Overpass
+2387351,1,GamerLegion,removed,Train
+2387351,2,SAW,removed,Mirage
+2387351,3,GamerLegion,picked,Overpass
+2387351,4,SAW,picked,Inferno
+2387351,5,SAW,removed,Ancient
+2387351,6,GamerLegion,removed,Dust2
+2387566,1,AMKAL,removed,Nuke
+2387566,2,9BOOMPRO,removed,Train
+2387566,3,AMKAL,picked,Overpass
+2387566,4,9BOOMPRO,picked,Dust2
+2387566,5,AMKAL,removed,Mirage
+2387566,6,9BOOMPRO,removed,Inferno
+2387523,1,K27,removed,Inferno
+2387523,2,Preasy Mix,removed,Overpass
+2387523,3,K27,picked,Train
+2387523,4,Preasy Mix,picked,Ancient
+2387523,5,K27,removed,Mirage
+2387523,6,Preasy Mix,removed,Dust2
+2387583,1,Lazer Cats,removed,Train
+2387583,2,QWENTRY,removed,Ancient
+2387583,3,Lazer Cats,picked,Inferno
+2387583,4,QWENTRY,picked,Nuke
+2387583,5,Lazer Cats,removed,Overpass
+2387583,6,QWENTRY,removed,Mirage
+2387065,1,Oramond,removed,Overpass
+2387065,2,AMKAL,removed,Nuke
+2387065,3,Oramond,picked,Ancient
+2387065,4,AMKAL,picked,Dust2
+2387065,5,Oramond,removed,Inferno
+2387065,6,AMKAL,removed,Train
+2387541,1,FOLHA AMARELA,removed,Train
+2387541,2,LP,removed,Overpass
+2387541,3,FOLHA AMARELA,picked,Ancient
+2387541,4,LP,picked,Inferno
+2387541,5,FOLHA AMARELA,removed,Mirage
+2387541,6,LP,removed,Nuke
+2386934,1,Nemiga,removed,Nuke
+2386934,2,Nexus,removed,Overpass
+2386934,3,Nemiga,picked,Ancient
+2386934,4,Nexus,picked,Mirage
+2386934,5,Nemiga,removed,Dust2
+2386934,6,Nexus,removed,Inferno
+2387575,1,BIG Academy,removed,Ancient
+2387575,2,ProCamp,removed,Inferno
+2387575,3,BIG Academy,picked,Overpass
+2387575,4,ProCamp,picked,Mirage
+2387575,5,BIG Academy,removed,Dust2
+2387575,6,ProCamp,removed,Nuke
+2387422,1,FORZE Reload,removed,Inferno
+2387422,2,Young Ninjas,removed,Nuke
+2387422,3,FORZE Reload,picked,Overpass
+2387422,4,Young Ninjas,picked,Dust2
+2387422,5,FORZE Reload,removed,Mirage
+2387422,6,Young Ninjas,removed,Train
+2387538,1,ALLINNERS,removed,Overpass
+2387538,2,Fire Flux,removed,Nuke
+2387538,3,ALLINNERS,picked,Ancient
+2387538,4,Fire Flux,picked,Dust2
+2387538,5,ALLINNERS,removed,Train
+2387538,6,Fire Flux,removed,Inferno
+2387574,1,Wave,removed,Overpass
+2387574,2,XPERION NXT,removed,Inferno
+2387574,3,Wave,picked,Dust2
+2387574,4,XPERION NXT,picked,Ancient
+2387574,5,Wave,removed,Train
+2387574,6,XPERION NXT,removed,Mirage
+2387350,1,Legacy,removed,Train
+2387350,2,SAW,removed,Mirage
+2387350,3,Legacy,picked,Inferno
+2387350,4,SAW,picked,Nuke
+2387350,5,SAW,removed,Dust2
+2387350,6,Legacy,removed,Overpass
+2387016,1,JiJieHao,removed,Overpass
+2387016,2,Metizport,removed,Train
+2387016,3,JiJieHao,picked,Dust2
+2387016,4,Metizport,picked,Inferno
+2387016,5,JiJieHao,removed,Ancient
+2387016,6,Metizport,removed,Mirage
+2387537,1,AaB,removed,Train
+2387537,2,SPARTA,removed,Inferno
+2387537,3,AaB,picked,Ancient
+2387537,4,SPARTA,picked,Mirage
+2387537,5,AaB,removed,Nuke
+2387537,6,SPARTA,removed,Overpass
+2387421,1,Dziuseppe,removed,Overpass
+2387421,2,ECLOT,removed,Train
+2387421,3,Dziuseppe,picked,Ancient
+2387421,4,ECLOT,picked,Inferno
+2387421,5,Dziuseppe,removed,Dust2
+2387421,6,ECLOT,removed,Mirage
+2387063,1,CYBERSHOKE,removed,Inferno
+2387063,2,GUN5,removed,Overpass
+2387063,3,CYBERSHOKE,picked,Train
+2387063,4,GUN5,picked,Mirage
+2387063,5,CYBERSHOKE,removed,Nuke
+2387063,6,GUN5,removed,Ancient
+2386932,1,kONO,removed,Train
+2386932,2,ECSTATIC,removed,Dust2
+2386932,3,kONO,picked,Overpass
+2386932,4,ECSTATIC,picked,Mirage
+2386932,5,kONO,removed,Ancient
+2386932,6,ECSTATIC,removed,Nuke
+2387015,1,Betera,removed,Inferno
+2387015,2,AaB,removed,Train
+2387015,3,Betera,picked,Dust2
+2387015,4,AaB,picked,Ancient
+2387015,5,Betera,removed,Overpass
+2387015,6,AaB,removed,Mirage
+2387348,1,Liquid,removed,Overpass
+2387348,2,SAW,removed,Mirage
+2387348,3,Liquid,picked,Ancient
+2387348,4,SAW,picked,Train
+2387348,5,SAW,removed,Dust2
+2387348,6,Liquid,removed,Nuke
+2386931,1,Betera,removed,Train
+2386931,2,Venom,removed,Inferno
+2386931,3,Betera,picked,Dust2
+2386931,4,Venom,picked,Nuke
+2386931,5,Betera,removed,Overpass
+2386931,6,Venom,removed,Mirage
+2387062,1,SPARTA,removed,Inferno
+2387062,2,AaB,removed,Train
+2387062,3,SPARTA,picked,Mirage
+2387062,4,AaB,picked,Ancient
+2387062,5,SPARTA,removed,Overpass
+2387062,6,AaB,removed,Nuke
+2387521,1,G2 Ares,removed,Nuke
+2387521,2,WOPA,removed,Dust2
+2387521,3,G2 Ares,picked,Ancient
+2387521,4,WOPA,picked,Overpass
+2387521,5,G2 Ares,removed,Train
+2387521,6,WOPA,removed,Mirage
+2387540,1,MIBR Academy,removed,Inferno
+2387540,2,LP,removed,Overpass
+2387540,3,MIBR Academy,picked,Ancient
+2387540,4,LP,picked,Train
+2387540,5,MIBR Academy,removed,Dust2
+2387540,6,LP,removed,Nuke
+2387510,1,Voca,removed,Inferno
+2387510,2,regain,removed,Nuke
+2387510,3,Voca,picked,Train
+2387510,4,regain,picked,Ancient
+2387510,5,Voca,removed,Overpass
+2387510,6,regain,removed,Mirage
+2387539,1,Procyon,removed,Train
+2387539,2,FOLHA AMARELA,removed,Overpass
+2387539,3,Procyon,picked,Dust2
+2387539,4,FOLHA AMARELA,picked,Ancient
+2387539,5,Procyon,removed,Mirage
+2387539,6,FOLHA AMARELA,removed,Inferno
+2386930,1,Sangal,removed,Dust2
+2386930,2,Partizan,removed,Train
+2386930,3,Sangal,picked,Overpass
+2386930,4,Partizan,picked,Inferno
+2386930,5,Sangal,removed,Mirage
+2386930,6,Partizan,removed,Nuke
+2387061,1,CPH Wolves,removed,Inferno
+2387061,2,ALLINNERS,removed,Overpass
+2387061,3,CPH Wolves,picked,Ancient
+2387061,4,ALLINNERS,picked,Mirage
+2387061,5,CPH Wolves,removed,Dust2
+2387061,6,ALLINNERS,removed,Train
+2387420,1,NOVAQ,removed,Overpass
+2387420,2,premdesant,removed,Train
+2387420,3,NOVAQ,picked,Inferno
+2387420,4,premdesant,picked,Mirage
+2387420,5,NOVAQ,removed,Nuke
+2387420,6,premdesant,removed,Ancient
+2386929,1,FUT,removed,Train
+2386929,2,33,removed,Overpass
+2386929,3,FUT,picked,Dust2
+2386929,4,33,picked,Ancient
+2386929,5,FUT,removed,Inferno
+2386929,6,33,removed,Mirage
+2387419,1,ALLINNERS,removed,Overpass
+2387419,2,Fire Flux,removed,Nuke
+2387419,3,ALLINNERS,picked,Mirage
+2387419,4,Fire Flux,picked,Dust2
+2387419,5,ALLINNERS,removed,Train
+2387419,6,Fire Flux,removed,Inferno
+2387522,1,Wildcard Academy,removed,Inferno
+2387522,2,MASONIC,removed,Dust2
+2387522,3,Wildcard Academy,picked,Mirage
+2387522,4,MASONIC,picked,Train
+2387522,5,Wildcard Academy,removed,Overpass
+2387522,6,MASONIC,removed,Ancient
+2387534,1,ENCE Academy,removed,Train
+2387534,2,Eternal Fire,removed,Ancient
+2387534,3,ENCE Academy,picked,Nuke
+2387534,4,Eternal Fire,picked,Dust2
+2387534,5,ENCE Academy,removed,Inferno
+2387534,6,Eternal Fire,removed,Overpass
+2387059,1,VRSoholics,removed,Inferno
+2387059,2,NOVAQ,removed,Overpass
+2387059,3,VRSoholics,picked,Nuke
+2387059,4,NOVAQ,picked,Mirage
+2387059,5,VRSoholics,removed,Train
+2387059,6,NOVAQ,removed,Dust2
+2387520,1,Alliance,removed,Mirage
+2387520,2,Preasy Mix,removed,Inferno
+2387520,3,Alliance,picked,Train
+2387520,4,Preasy Mix,picked,Dust2
+2387520,5,Alliance,removed,Overpass
+2387520,6,Preasy Mix,removed,Ancient
+2387013,1,Betera,removed,Train
+2387013,2,Spirit Academy,removed,Inferno
+2387013,3,Betera,picked,Ancient
+2387013,4,Spirit Academy,picked,Mirage
+2387013,5,Betera,removed,Dust2
+2387013,6,Spirit Academy,removed,Nuke
+2386927,1,Spirit Academy,removed,Inferno
+2386927,2,Sashi,removed,Mirage
+2386927,3,Spirit Academy,picked,Dust2
+2386927,4,Sashi,picked,Nuke
+2386927,5,Spirit Academy,removed,Ancient
+2386927,6,Sashi,removed,Overpass
+2387058,1,Nexus,removed,Ancient
+2387058,2,Nuclear TigeRES,removed,Mirage
+2387058,3,Nexus,picked,Dust2
+2387058,4,Nuclear TigeRES,picked,Train
+2387058,5,Nexus,removed,Overpass
+2387058,6,Nuclear TigeRES,removed,Nuke
+2387533,1,Mousquetaires,removed,Mirage
+2387533,2,AaB,removed,Train
+2387533,3,Mousquetaires,picked,Inferno
+2387533,4,AaB,picked,Ancient
+2387533,5,Mousquetaires,removed,Overpass
+2387533,6,AaB,removed,Nuke
+2387509,1,BOSS,removed,Nuke
+2387509,2,LAG,removed,Mirage
+2387509,3,BOSS,picked,Ancient
+2387509,4,LAG,picked,Inferno
+2387509,5,BOSS,removed,Overpass
+2387509,6,LAG,removed,Dust2
+2387518,1,ENCE Academy,removed,Inferno
+2387518,2,GenOne,removed,Mirage
+2387518,3,ENCE Academy,picked,Nuke
+2387518,4,GenOne,picked,Overpass
+2387518,5,ENCE Academy,removed,Ancient
+2387518,6,GenOne,removed,Train
+2387429,1,CPH Wolves,removed,Inferno
+2387429,2,illwill,removed,Overpass
+2387429,3,CPH Wolves,picked,Train
+2387429,4,illwill,picked,Dust2
+2387429,5,CPH Wolves,removed,Mirage
+2387429,6,illwill,removed,Nuke
+2386926,1,33,removed,Overpass
+2386926,2,Zero Tenacity,removed,Ancient
+2386926,3,33,picked,Train
+2386926,4,Zero Tenacity,picked,Inferno
+2386926,5,33,removed,Dust2
+2386926,6,Zero Tenacity,removed,Mirage
+2387057,1,AMKAL,removed,Nuke
+2387057,2,Nexus,removed,Overpass
+2387057,3,AMKAL,picked,Ancient
+2387057,4,Nexus,picked,Train
+2387057,5,AMKAL,removed,Inferno
+2387057,6,Nexus,removed,Mirage
+2387056,1,CYBERSHOKE,removed,Inferno
+2387056,2,ALLINNERS,removed,Overpass
+2387056,3,CYBERSHOKE,picked,Train
+2387056,4,ALLINNERS,picked,Mirage
+2387056,5,CYBERSHOKE,removed,Ancient
+2387056,6,ALLINNERS,removed,Nuke
+2387428,1,ENCE Academy,removed,Train
+2387428,2,MASONIC,removed,Dust2
+2387428,3,ENCE Academy,picked,Ancient
+2387428,4,MASONIC,picked,Overpass
+2387428,5,ENCE Academy,removed,Nuke
+2387428,6,MASONIC,removed,Mirage
+2387517,1,HAVU,removed,Inferno
+2387517,2,Eternal Fire,removed,Ancient
+2387517,3,HAVU,picked,Nuke
+2387517,4,Eternal Fire,picked,Mirage
+2387517,5,HAVU,removed,Dust2
+2387517,6,Eternal Fire,removed,Train
+2387012,1,Metizport,removed,Train
+2387012,2,Nexus,removed,Overpass
+2387012,3,Metizport,picked,Nuke
+2387012,4,Nexus,picked,Dust2
+2387012,5,Metizport,removed,Inferno
+2387012,6,Nexus,removed,Mirage
+2386925,1,kONO,removed,Mirage
+2386925,2,ARCRED,removed,Overpass
+2386925,3,kONO,picked,Inferno
+2386925,4,ARCRED,picked,Train
+2386925,5,kONO,removed,Ancient
+2386925,6,ARCRED,removed,Dust2
+2387055,1,500,removed,Train
+2387055,2,GUN5,removed,Overpass
+2387055,3,500,picked,Inferno
+2387055,4,GUN5,picked,Dust2
+2387055,5,500,removed,Nuke
+2387055,6,GUN5,removed,Ancient
+2387011,1,AaB,removed,Train
+2387011,2,ARCRED,removed,Ancient
+2387011,3,AaB,picked,Overpass
+2387011,4,ARCRED,picked,Mirage
+2387011,5,AaB,removed,Inferno
+2387011,6,ARCRED,removed,Dust2
+2386924,1,Nexus,removed,Overpass
+2386924,2,Johnny Speeds,removed,Ancient
+2386924,3,Nexus,picked,Dust2
+2386924,4,Johnny Speeds,picked,Inferno
+2386924,5,Nexus,removed,Nuke
+2386924,6,Johnny Speeds,removed,Train
+2387516,1,Mousquetaires,removed,Mirage
+2387516,2,Fire Flux,removed,Nuke
+2387516,3,Mousquetaires,picked,Inferno
+2387516,4,Fire Flux,picked,Ancient
+2387516,5,Mousquetaires,removed,Train
+2387516,6,Fire Flux,removed,Overpass
+2387054,1,SPARTA,removed,Ancient
+2387054,2,CPH Wolves,removed,Inferno
+2387054,3,SPARTA,picked,Train
+2387054,4,CPH Wolves,picked,Overpass
+2387054,5,SPARTA,removed,Dust2
+2387054,6,CPH Wolves,removed,Mirage
+2387336,1,SAW,removed,Mirage
+2387336,2,Aurora,removed,Ancient
+2387336,3,SAW,picked,Nuke
+2387336,4,Aurora,picked,Inferno
+2387336,5,Aurora,removed,Dust2
+2387336,6,SAW,removed,Overpass
+2387515,1,Washington,removed,Mirage
+2387515,2,AaB,removed,Train
+2387515,3,Washington,picked,Nuke
+2387515,4,AaB,picked,Ancient
+2387515,5,Washington,removed,Dust2
+2387515,6,AaB,removed,Inferno
+2387508,1,OverKnight,removed,Inferno
+2387508,2,Marsborne,removed,Mirage
+2387508,3,OverKnight,picked,Ancient
+2387508,4,Marsborne,picked,Nuke
+2387508,5,OverKnight,removed,Train
+2387508,6,Marsborne,removed,Dust2
+2387213,1,Nemiga,removed,Nuke
+2387213,2,Venom,removed,Inferno
+2387213,3,Nemiga,picked,Dust2
+2387213,4,Venom,picked,Train
+2387213,5,Nemiga,removed,Overpass
+2387213,6,Venom,removed,Mirage
+2387053,1,FAVBET,removed,Mirage
+2387053,2,VRSoholics,removed,Inferno
+2387053,3,FAVBET,picked,Dust2
+2387053,4,VRSoholics,picked,Overpass
+2387053,5,FAVBET,removed,Ancient
+2387053,6,VRSoholics,removed,Nuke
+2387217,1,ALLINNERS,removed,Train
+2387217,2,Nexus,removed,Inferno
+2387217,3,ALLINNERS,picked,Mirage
+2387217,4,Nexus,picked,Dust2
+2387217,5,ALLINNERS,removed,Nuke
+2387217,6,Nexus,removed,Overpass
+2387219,1,9BOOMPRO,removed,Train
+2387219,2,Sangal,removed,Dust2
+2387219,3,9BOOMPRO,picked,Mirage
+2387219,4,Sangal,picked,Overpass
+2387219,5,9BOOMPRO,removed,Inferno
+2387219,6,Sangal,removed,Ancient
+2387427,1,CPH Wolves,removed,Inferno
+2387427,2,The Glecs,removed,Nuke
+2387427,3,CPH Wolves,picked,Train
+2387427,4,The Glecs,picked,Ancient
+2387427,5,CPH Wolves,removed,Dust2
+2387427,6,The Glecs,removed,Mirage
+2387216,1,Eternal Fire,removed,Ancient
+2387216,2,1win,removed,Nuke
+2387216,3,Eternal Fire,picked,Dust2
+2387216,4,1win,picked,Train
+2387216,5,Eternal Fire,removed,Overpass
+2387216,6,1win,removed,Mirage
+2386923,1,kONO,removed,Mirage
+2386923,2,Sashi,removed,Dust2
+2386923,3,kONO,picked,Inferno
+2386923,4,Sashi,picked,Nuke
+2386923,5,kONO,removed,Ancient
+2386923,6,Sashi,removed,Train
+2387212,1,BASEMENT BOYS,removed,Inferno
+2387212,2,33,removed,Overpass
+2387212,3,BASEMENT BOYS,picked,Ancient
+2387212,4,33,picked,Train
+2387212,5,BASEMENT BOYS,removed,Dust2
+2387212,6,33,removed,Mirage
+2387392,1,Fire Flux,removed,Nuke
+2387392,2,Washington,removed,Mirage
+2387392,3,Fire Flux,picked,Ancient
+2387392,4,Washington,picked,Train
+2387392,5,Fire Flux,removed,Inferno
+2387392,6,Washington,removed,Dust2
+2387214,1,SINNERS,removed,Train
+2387214,2,500,removed,Nuke
+2387214,3,SINNERS,picked,Dust2
+2387214,4,500,picked,Ancient
+2387214,5,SINNERS,removed,Overpass
+2387214,6,500,removed,Mirage
+2387426,1,kONO,removed,Mirage
+2387426,2,illwill,removed,Inferno
+2387426,3,kONO,picked,Overpass
+2387426,4,illwill,picked,Dust2
+2387426,5,kONO,removed,Ancient
+2387426,6,illwill,removed,Train
+2387391,1,HAVU,removed,Ancient
+2387391,2,GenOne,removed,Train
+2387391,3,HAVU,picked,Nuke
+2387391,4,GenOne,picked,Inferno
+2387391,5,HAVU,removed,Mirage
+2387391,6,GenOne,removed,Overpass
+2386922,1,Nexus,removed,Overpass
+2386922,2,Betera,removed,Inferno
+2386922,3,Nexus,picked,Train
+2386922,4,Betera,picked,Ancient
+2386922,5,Nexus,removed,Nuke
+2386922,6,Betera,removed,Mirage
+2387004,1,JiJieHao,removed,Overpass
+2387004,2,Metizport,removed,Train
+2387004,3,JiJieHao,picked,Dust2
+2387004,4,Metizport,picked,Nuke
+2387004,5,JiJieHao,removed,Inferno
+2387004,6,Metizport,removed,Mirage
+2387051,1,NOVAQ,removed,Nuke
+2387051,2,ARCRED,removed,Dust2
+2387051,3,NOVAQ,picked,Inferno
+2387051,4,ARCRED,picked,Train
+2387051,5,NOVAQ,removed,Overpass
+2387051,6,ARCRED,removed,Ancient
+2387390,1,Mousquetaires,removed,Mirage
+2387390,2,AaB,removed,Train
+2387390,3,Mousquetaires,picked,Dust2
+2387390,4,AaB,picked,Ancient
+2387390,5,Mousquetaires,removed,Overpass
+2387390,6,AaB,removed,Inferno
+2387003,1,Nexus,removed,Overpass
+2387003,2,EYEBALLERS,removed,Dust2
+2387003,3,Nexus,picked,Nuke
+2387003,4,EYEBALLERS,picked,Mirage
+2387003,5,Nexus,removed,Inferno
+2387003,6,EYEBALLERS,removed,Ancient
+2387050,1,Washington,removed,Mirage
+2387050,2,AaB,removed,Train
+2387050,3,Washington,picked,Nuke
+2387050,4,AaB,picked,Ancient
+2387050,5,Washington,removed,Overpass
+2387050,6,AaB,removed,Inferno
+2387329,1,SAW,removed,Mirage
+2387329,2,GamerLegion,removed,Train
+2387329,3,SAW,picked,Nuke
+2387329,4,GamerLegion,picked,Inferno
+2387329,5,GamerLegion,removed,Dust2
+2387329,6,SAW,removed,Overpass
+2387389,1,Eternal Fire,removed,Ancient
+2387389,2,ENCE Academy,removed,Train
+2387389,3,Eternal Fire,picked,Dust2
+2387389,4,ENCE Academy,picked,Nuke
+2387389,5,Eternal Fire,removed,Inferno
+2387389,6,ENCE Academy,removed,Overpass
+2387309,1,OverKnight,removed,Nuke
+2387309,2,Phoenix,removed,Ancient
+2387309,3,OverKnight,picked,Mirage
+2387309,4,Phoenix,picked,Train
+2387309,5,OverKnight,removed,Inferno
+2387309,6,Phoenix,removed,Dust2
+2387307,1,TSG,removed,Inferno
+2387307,2,Mythic,removed,Ancient
+2387307,3,TSG,picked,Nuke
+2387307,4,Mythic,picked,Overpass
+2387307,5,TSG,removed,Train
+2387307,6,Mythic,removed,Mirage
+2387308,1,Aether,removed,Inferno
+2387308,2,BOSS,removed,Nuke
+2387308,3,Aether,picked,Dust2
+2387308,4,BOSS,picked,Ancient
+2387308,5,Aether,removed,Mirage
+2387308,6,BOSS,removed,Overpass
+2387306,1,Zomblers,removed,Train
+2387306,2,InControl,removed,Dust2
+2387306,3,Zomblers,picked,Inferno
+2387306,4,InControl,picked,Nuke
+2387306,5,Zomblers,removed,Overpass
+2387306,6,InControl,removed,Ancient
+2387266,1,LP,removed,Overpass
+2387266,2,Gaimin Gladiators,removed,Mirage
+2387266,3,LP,picked,Ancient
+2387266,4,Gaimin Gladiators,picked,Train
+2387266,5,LP,removed,Dust2
+2387266,6,Gaimin Gladiators,removed,Nuke
+2387497,1,regain,removed,Nuke
+2387497,2,InControl,removed,Inferno
+2387497,3,regain,picked,Dust2
+2387497,4,InControl,picked,Train
+2387497,5,regain,removed,Overpass
+2387497,6,InControl,removed,Ancient
+2387264,1,Galorys,removed,Inferno
+2387264,2,Dusty Roots,removed,Overpass
+2387264,3,Galorys,picked,Ancient
+2387264,4,Dusty Roots,picked,Nuke
+2387264,5,Galorys,removed,Dust2
+2387264,6,Dusty Roots,removed,Mirage
+2387265,1,Bounty Hunters,removed,Inferno
+2387265,2,Keyd Stars,removed,Train
+2387265,3,Bounty Hunters,picked,Nuke
+2387265,4,Keyd Stars,picked,Ancient
+2387265,5,Bounty Hunters,removed,Overpass
+2387265,6,Keyd Stars,removed,Dust2
+2387049,1,Nuclear TigeRES,removed,Overpass
+2387049,2,Leo,removed,Nuke
+2387049,3,Nuclear TigeRES,picked,Mirage
+2387049,4,Leo,picked,Dust2
+2387049,5,Nuclear TigeRES,removed,Inferno
+2387049,6,Leo,removed,Ancient
+2387208,1,ARCRED,removed,Dust2
+2387208,2,RUBY,removed,Inferno
+2387208,3,ARCRED,picked,Train
+2387208,4,RUBY,picked,Nuke
+2387208,5,ARCRED,removed,Ancient
+2387208,6,RUBY,removed,Mirage
+2387206,1,Dziuseppe,removed,Dust2
+2387206,2,Nexus,removed,Overpass
+2387206,3,Dziuseppe,picked,Ancient
+2387206,4,Nexus,picked,Mirage
+2387206,5,Dziuseppe,removed,Inferno
+2387206,6,Nexus,removed,Nuke
+2387207,1,ALLINNERS,removed,Train
+2387207,2,NOVAQ,removed,Overpass
+2387207,3,ALLINNERS,picked,Ancient
+2387207,4,NOVAQ,picked,Inferno
+2387207,5,ALLINNERS,removed,Dust2
+2387207,6,NOVAQ,removed,Nuke
+2387211,1,HAVU,removed,Ancient
+2387211,2,9BOOMPRO,removed,Train
+2387211,3,HAVU,picked,Nuke
+2387211,4,9BOOMPRO,picked,Mirage
+2387211,5,HAVU,removed,Inferno
+2387211,6,9BOOMPRO,removed,Overpass
+2387210,1,ECLOT,removed,Train
+2387210,2,Sangal,removed,Dust2
+2387210,3,ECLOT,picked,Mirage
+2387210,4,Sangal,picked,Overpass
+2387210,5,ECLOT,removed,Ancient
+2387210,6,Sangal,removed,Inferno
+2387205,1,Eternal Fire,removed,Ancient
+2387205,2,AaB,removed,Train
+2387205,3,Eternal Fire,picked,Mirage
+2387205,4,AaB,picked,Nuke
+2387205,5,Eternal Fire,removed,Inferno
+2387205,6,AaB,removed,Dust2
+2386920,1,Zero Tenacity,removed,Ancient
+2386920,2,SPARTA,removed,Inferno
+2386920,3,Zero Tenacity,picked,Dust2
+2386920,4,SPARTA,picked,Mirage
+2386920,5,Zero Tenacity,removed,Overpass
+2386920,6,SPARTA,removed,Nuke
+2387209,1,Washington,removed,Mirage
+2387209,2,FORZE Reload,removed,Inferno
+2387209,3,Washington,picked,Nuke
+2387209,4,FORZE Reload,picked,Overpass
+2387209,5,Washington,removed,Dust2
+2387209,6,FORZE Reload,removed,Ancient
+2387424,1,GUN5,removed,Overpass
+2387424,2,ENCE Academy,removed,Train
+2387424,3,GUN5,picked,Dust2
+2387424,4,ENCE Academy,picked,Mirage
+2387424,5,GUN5,removed,Nuke
+2387424,6,ENCE Academy,removed,Ancient
+2387048,1,ALLINNERS,removed,Overpass
+2387048,2,The Glecs,removed,Nuke
+2387048,3,ALLINNERS,picked,Dust2
+2387048,4,The Glecs,picked,Ancient
+2387048,5,ALLINNERS,removed,Train
+2387048,6,The Glecs,removed,Mirage
+2387425,1,MASONIC,removed,Mirage
+2387425,2,ALGO,removed,Ancient
+2387425,3,MASONIC,picked,Train
+2387425,4,ALGO,picked,Nuke
+2387425,5,MASONIC,removed,Dust2
+2387425,6,ALGO,removed,Inferno
+2387002,1,Betera,removed,Inferno
+2387002,2,ARCRED,removed,Dust2
+2387002,3,Betera,picked,Ancient
+2387002,4,ARCRED,picked,Mirage
+2387002,5,Betera,removed,Train
+2387002,6,ARCRED,removed,Overpass
+2386919,1,VP.Prodigy,removed,Inferno
+2386919,2,33,removed,Overpass
+2386919,3,VP.Prodigy,picked,Dust2
+2386919,4,33,picked,Train
+2386919,5,VP.Prodigy,removed,Mirage
+2386919,6,33,removed,Nuke
+2387047,1,RUBY,removed,Inferno
+2387047,2,AMKAL,removed,Nuke
+2387047,3,RUBY,picked,Dust2
+2387047,4,AMKAL,picked,Overpass
+2387047,5,RUBY,removed,Train
+2387047,6,AMKAL,removed,Mirage
+2387166,1,The QUBE,removed,Dust2
+2387166,2,FengDa,removed,Overpass
+2387166,3,The QUBE,picked,Nuke
+2387166,4,FengDa,picked,Mirage
+2387166,5,The QUBE,removed,Train
+2387166,6,FengDa,removed,Inferno
+2387167,1,Change The Game,removed,Nuke
+2387167,2,Eruption,removed,Inferno
+2387167,3,Change The Game,picked,Dust2
+2387167,4,Eruption,picked,Train
+2387167,5,Change The Game,removed,Overpass
+2387167,6,Eruption,removed,Mirage
+2387501,1,MOUZ NXT,removed,Inferno
+2387501,2,Phantom,removed,Ancient
+2387501,3,MOUZ NXT,picked,Mirage
+2387501,4,Phantom,picked,Nuke
+2387501,5,MOUZ NXT,removed,Dust2
+2387501,6,Phantom,removed,Train
+2387001,1,AaB,removed,Train
+2387001,2,Spirit Academy,removed,Inferno
+2387001,3,AaB,picked,Ancient
+2387001,4,Spirit Academy,picked,Dust2
+2387001,5,AaB,removed,Mirage
+2387001,6,Spirit Academy,removed,Nuke
+2386918,1,Fire Flux,removed,Nuke
+2386918,2,ARCRED,removed,Overpass
+2386918,3,Fire Flux,picked,Dust2
+2386918,4,ARCRED,picked,Train
+2386918,5,Fire Flux,removed,Mirage
+2386918,6,ARCRED,removed,Ancient
+2387323,1,Ninjas in Pyjamas,removed,Dust2
+2387323,2,SAW,removed,Mirage
+2387323,3,Ninjas in Pyjamas,picked,Ancient
+2387323,4,SAW,picked,Nuke
+2387323,5,SAW,removed,Overpass
+2387323,6,Ninjas in Pyjamas,removed,Inferno
+2387500,1,ALLINNERS,removed,Overpass
+2387500,2,HubaBuba,removed,Nuke
+2387500,3,ALLINNERS,picked,Mirage
+2387500,4,HubaBuba,picked,Train
+2387500,5,ALLINNERS,removed,Dust2
+2387500,6,HubaBuba,removed,Inferno
+2387046,1,UNiTY,removed,Nuke
+2387046,2,NOVAQ,removed,Overpass
+2387046,3,UNiTY,picked,Ancient
+2387046,4,NOVAQ,picked,Inferno
+2387046,5,UNiTY,removed,Dust2
+2387046,6,NOVAQ,removed,Train
+2387301,1,Phoenix,removed,Inferno
+2387301,2,Marsborne,removed,Mirage
+2387301,3,Phoenix,picked,Nuke
+2387301,4,Marsborne,picked,Train
+2387301,5,Phoenix,removed,Overpass
+2387301,6,Marsborne,removed,Dust2
+2387299,1,Mythic,removed,Inferno
+2387299,2,LAG,removed,Mirage
+2387299,3,Mythic,picked,Nuke
+2387299,4,LAG,picked,Train
+2387299,5,Mythic,removed,Ancient
+2387299,6,LAG,removed,Overpass
+2387300,1,Aether,removed,Ancient
+2387300,2,Voca,removed,Inferno
+2387300,3,Aether,picked,Train
+2387300,4,Voca,picked,Mirage
+2387300,5,Aether,removed,Overpass
+2387300,6,Voca,removed,Dust2
+2387302,1,Zomblers,removed,Train
+2387302,2,FlyQuest RED,removed,Ancient
+2387302,3,Zomblers,picked,Inferno
+2387302,4,FlyQuest RED,picked,Mirage
+2387302,5,Zomblers,removed,Nuke
+2387302,6,FlyQuest RED,removed,Overpass
+2387303,1,TSG,removed,Inferno
+2387303,2,regain,removed,Nuke
+2387303,3,TSG,picked,Dust2
+2387303,4,regain,picked,Ancient
+2387303,5,TSG,removed,Overpass
+2387303,6,regain,removed,Train
+2387304,1,Ghost,removed,Mirage
+2387304,2,BOSS,removed,Nuke
+2387304,3,Ghost,picked,Inferno
+2387304,4,BOSS,picked,Ancient
+2387304,5,Ghost,removed,Dust2
+2387304,6,BOSS,removed,Overpass
+2387305,1,OverKnight,removed,Nuke
+2387305,2,Shimmer,removed,Ancient
+2387305,3,OverKnight,picked,Mirage
+2387305,4,Shimmer,picked,Overpass
+2387305,5,OverKnight,removed,Inferno
+2387305,6,Shimmer,removed,Train
+2387496,1,Take Flyte,removed,Inferno
+2387496,2,Money Crew,removed,Overpass
+2387496,3,Take Flyte,picked,Ancient
+2387496,4,Money Crew,picked,Mirage
+2387496,5,Take Flyte,removed,Dust2
+2387496,6,Money Crew,removed,Train
+2387498,1,OverKnight,removed,Inferno
+2387498,2,Outfit 49,removed,Nuke
+2387498,3,OverKnight,picked,Mirage
+2387498,4,Outfit 49,picked,Overpass
+2387498,5,OverKnight,removed,Train
+2387498,6,Outfit 49,removed,Dust2
+2387256,1,KRÜ,removed,Train
+2387256,2,Dusty Roots,removed,Overpass
+2387256,3,KRÜ,picked,Dust2
+2387256,4,Dusty Roots,picked,Nuke
+2387256,5,KRÜ,removed,Inferno
+2387256,6,Dusty Roots,removed,Ancient
+2387257,1,Keyd Stars,removed,Train
+2387257,2,9z,removed,Mirage
+2387257,3,Keyd Stars,picked,Ancient
+2387257,4,9z,picked,Nuke
+2387257,5,Keyd Stars,removed,Overpass
+2387257,6,9z,removed,Dust2
+2387260,1,Procyon,removed,Train
+2387260,2,Galorys,removed,Inferno
+2387260,3,Procyon,picked,Dust2
+2387260,4,Galorys,picked,Ancient
+2387260,5,Procyon,removed,Mirage
+2387260,6,Galorys,removed,Nuke
+2387261,1,UnderDogs,removed,Train
+2387261,2,Bounty Hunters,removed,Inferno
+2387261,3,UnderDogs,picked,Nuke
+2387261,4,Bounty Hunters,picked,Mirage
+2387261,5,UnderDogs,removed,Overpass
+2387261,6,Bounty Hunters,removed,Ancient
+2387263,1,Tropa do KinGui,removed,Nuke
+2387263,2,Fake do Biru,removed,Ancient
+2387263,3,Tropa do KinGui,picked,Inferno
+2387263,4,Fake do Biru,picked,Dust2
+2387263,5,Tropa do KinGui,removed,Train
+2387263,6,Fake do Biru,removed,Overpass
+2387262,1,LP,removed,Overpass
+2387262,2,GameHunters,removed,Train
+2387262,3,LP,picked,Inferno
+2387262,4,GameHunters,picked,Dust2
+2387262,5,LP,removed,Mirage
+2387262,6,GameHunters,removed,Ancient
+2386980,1,Flame Sharks fe,removed,Nuke
+2386980,2,Let Her Cook,removed,Train
+2386980,3,Flame Sharks fe,picked,Inferno
+2386980,4,Let Her Cook,picked,Dust2
+2386980,5,Flame Sharks fe,removed,Mirage
+2386980,6,Let Her Cook,removed,Overpass
+2387201,1,Nexus,removed,Overpass
+2387201,2,500,removed,Train
+2387201,3,Nexus,picked,Dust2
+2387201,4,500,picked,Inferno
+2387201,5,Nexus,removed,Nuke
+2387201,6,500,removed,Mirage
+2387045,1,NOVAQ,removed,Overpass
+2387045,2,ALGO,removed,Dust2
+2387045,3,NOVAQ,picked,Inferno
+2387045,4,ALGO,picked,Nuke
+2387045,5,NOVAQ,removed,Ancient
+2387045,6,ALGO,removed,Train
+2387375,1,Marsborne,removed,Mirage
+2387375,2,Rave,removed,Train
+2387375,3,Marsborne,picked,Nuke
+2387375,4,Rave,picked,Dust2
+2387375,5,Marsborne,removed,Overpass
+2387375,6,Rave,removed,Ancient
+2387196,1,HAVU,removed,Ancient
+2387196,2,BASEMENT BOYS,removed,Overpass
+2387196,3,HAVU,picked,Nuke
+2387196,4,BASEMENT BOYS,picked,Inferno
+2387196,5,HAVU,removed,Mirage
+2387196,6,BASEMENT BOYS,removed,Dust2
+2387418,1,kONO,removed,Mirage
+2387418,2,The Glecs,removed,Nuke
+2387418,3,kONO,picked,Dust2
+2387418,4,The Glecs,picked,Inferno
+2387418,5,kONO,removed,Ancient
+2387418,6,The Glecs,removed,Train
+2387199,1,RUBY,removed,Train
+2387199,2,Venom,removed,Inferno
+2387199,3,RUBY,picked,Dust2
+2387199,4,Venom,picked,Ancient
+2387199,5,RUBY,removed,Overpass
+2387199,6,Venom,removed,Mirage
+2387495,1,MOUZ NXT,removed,Inferno
+2387495,2,Dziuseppe,removed,Overpass
+2387495,3,MOUZ NXT,picked,Train
+2387495,4,Dziuseppe,picked,Ancient
+2387495,5,MOUZ NXT,removed,Mirage
+2387495,6,Dziuseppe,removed,Dust2
+2387197,1,33,removed,Overpass
+2387197,2,Sangal,removed,Dust2
+2387197,3,33,picked,Train
+2387197,4,Sangal,picked,Mirage
+2387197,5,33,removed,Inferno
+2387197,6,Sangal,removed,Ancient
+2387202,1,AaB,removed,Train
+2387202,2,K27,removed,Inferno
+2387202,3,AaB,picked,Ancient
+2387202,4,K27,picked,Dust2
+2387202,5,AaB,removed,Overpass
+2387202,6,K27,removed,Mirage
+2386916,1,Betera,removed,Inferno
+2386916,2,EYEBALLERS,removed,Ancient
+2386916,3,Betera,picked,Nuke
+2386916,4,EYEBALLERS,picked,Mirage
+2386916,5,Betera,removed,Overpass
+2386916,6,EYEBALLERS,removed,Dust2
+2387200,1,ALLINNERS,removed,Overpass
+2387200,2,SINNERS,removed,Train
+2387200,3,ALLINNERS,picked,Mirage
+2387200,4,SINNERS,picked,Nuke
+2387200,5,ALLINNERS,removed,Inferno
+2387200,6,SINNERS,removed,Ancient
+2387502,1,Raid,removed,Train
+2387502,2,hypewrld,removed,Overpass
+2387502,3,Raid,picked,Nuke
+2387502,4,hypewrld,picked,Dust2
+2387502,5,Raid,removed,Mirage
+2387502,6,hypewrld,removed,Ancient
+2387361,1,Fake do Biru,removed,Ancient
+2387361,2,LP,removed,Overpass
+2387361,3,Fake do Biru,picked,Dust2
+2387361,4,LP,picked,Inferno
+2387361,5,Fake do Biru,removed,Nuke
+2387361,6,LP,removed,Mirage
+2387417,1,CPH Wolves,removed,Inferno
+2387417,2,illwill,removed,Overpass
+2387417,3,CPH Wolves,picked,Train
+2387417,4,illwill,picked,Dust2
+2387417,5,CPH Wolves,removed,Ancient
+2387417,6,illwill,removed,Nuke
+2387494,1,Phantom,removed,Ancient
+2387494,2,kONO,removed,Mirage
+2387494,3,Phantom,picked,Overpass
+2387494,4,kONO,picked,Inferno
+2387494,5,Phantom,removed,Dust2
+2387494,6,kONO,removed,Nuke
+2387044,1,FORZE Reload,removed,Inferno
+2387044,2,Leo,removed,Nuke
+2387044,3,FORZE Reload,picked,Overpass
+2387044,4,Leo,picked,Ancient
+2387044,5,FORZE Reload,removed,Dust2
+2387044,6,Leo,removed,Mirage
+2387493,1,HubaBuba,removed,Inferno
+2387493,2,HyperSpirit,removed,Nuke
+2387493,3,HubaBuba,picked,Ancient
+2387493,4,HyperSpirit,picked,Train
+2387493,5,HubaBuba,removed,Overpass
+2387493,6,HyperSpirit,removed,Mirage
+2387102,1,SAW,removed,Inferno
+2387102,2,3DMAX,removed,Mirage
+2387102,3,SAW,picked,Ancient
+2387102,4,3DMAX,picked,Nuke
+2387102,5,3DMAX,removed,Train
+2387102,6,SAW,removed,Overpass
+2387163,1,Eruption,removed,Inferno
+2387163,2,Kaleido,removed,Overpass
+2387163,3,Eruption,picked,Train
+2387163,4,Kaleido,picked,Mirage
+2387163,5,Eruption,removed,Nuke
+2387163,6,Kaleido,removed,Dust2
+2387164,1,BORING PLAYERS,removed,Mirage
+2387164,2,The QUBE,removed,Dust2
+2387164,3,BORING PLAYERS,picked,Ancient
+2387164,4,The QUBE,picked,Overpass
+2387164,5,BORING PLAYERS,removed,Train
+2387164,6,The QUBE,removed,Inferno
+2387162,1,FengDa,removed,Overpass
+2387162,2,Chinggis Warriors,removed,Dust2
+2387162,3,FengDa,picked,Mirage
+2387162,4,Chinggis Warriors,picked,Nuke
+2387162,5,FengDa,removed,Train
+2387162,6,Chinggis Warriors,removed,Ancient
+2387165,1,Change The Game,removed,Nuke
+2387165,2,Just Swing,removed,Train
+2387165,3,Change The Game,picked,Inferno
+2387165,4,Just Swing,picked,Mirage
+2387165,5,Change The Game,removed,Overpass
+2387165,6,Just Swing,removed,Ancient
+2387043,1,ENCE Academy,removed,Train
+2387043,2,RUBY,removed,Inferno
+2387043,3,ENCE Academy,picked,Nuke
+2387043,4,RUBY,picked,Dust2
+2387043,5,ENCE Academy,removed,Ancient
+2387043,6,RUBY,removed,Overpass
+2386917,1,CYBERSHOKE,removed,Inferno
+2386917,2,SPARTA,removed,Ancient
+2386917,3,CYBERSHOKE,picked,Dust2
+2386917,4,SPARTA,picked,Nuke
+2386917,5,CYBERSHOKE,removed,Train
+2386917,6,SPARTA,removed,Overpass
+2387042,1,HubaBuba,removed,Nuke
+2387042,2,ALLINNERS,removed,Overpass
+2387042,3,HubaBuba,picked,Train
+2387042,4,ALLINNERS,picked,Inferno
+2387042,5,HubaBuba,removed,Ancient
+2387042,6,ALLINNERS,removed,Dust2
+2386914,1,Nexus,removed,Overpass
+2386914,2,VP.Prodigy,removed,Inferno
+2386914,3,Nexus,picked,Mirage
+2386914,4,VP.Prodigy,picked,Train
+2386914,5,Nexus,removed,Nuke
+2386914,6,VP.Prodigy,removed,Ancient
+2387499,1,Wicked,removed,Train
+2387499,2,OxinGame,removed,Inferno
+2387499,3,Wicked,picked,Ancient
+2387499,4,OxinGame,picked,Dust2
+2387499,5,Wicked,removed,Nuke
+2387499,6,OxinGame,removed,Overpass
+2387365,1,OverKnight,removed,Inferno
+2387365,2,LAG,removed,Mirage
+2387365,3,OverKnight,picked,Ancient
+2387365,4,LAG,picked,Train
+2387365,5,OverKnight,removed,Nuke
+2387365,6,LAG,removed,Overpass
+2387292,1,Zomblers,removed,Ancient
+2387292,2,Nocturnal,removed,Inferno
+2387292,3,Zomblers,picked,Mirage
+2387292,4,Nocturnal,picked,Nuke
+2387292,5,Zomblers,removed,Train
+2387292,6,Nocturnal,removed,Overpass
+2387297,1,NYX,removed,Mirage
+2387297,2,OverKnight,removed,Inferno
+2387297,3,NYX,picked,Overpass
+2387297,4,OverKnight,picked,Dust2
+2387297,5,NYX,removed,Nuke
+2387297,6,OverKnight,removed,Train
+2387296,1,Ghost,removed,Mirage
+2387296,2,Wanted Goons,removed,Inferno
+2387296,3,Ghost,picked,Ancient
+2387296,4,Wanted Goons,picked,Dust2
+2387296,5,Ghost,removed,Train
+2387296,6,Wanted Goons,removed,Overpass
+2387368,1,Outfit 49,removed,Dust2
+2387368,2,Shimmer,removed,Train
+2387368,3,Outfit 49,picked,Ancient
+2387368,4,Shimmer,picked,Nuke
+2387368,5,Outfit 49,removed,Mirage
+2387368,6,Shimmer,removed,Inferno
+2387255,1,Tropa do KinGui,removed,Ancient
+2387255,2,ODDIK,removed,Mirage
+2387255,3,Tropa do KinGui,picked,Inferno
+2387255,4,ODDIK,picked,Train
+2387255,5,Tropa do KinGui,removed,Overpass
+2387255,6,ODDIK,removed,Nuke
+2387372,1,LAG,removed,Mirage
+2387372,2,Marsborne,removed,Ancient
+2387372,3,LAG,picked,Inferno
+2387372,4,Marsborne,picked,Train
+2387372,5,LAG,removed,Overpass
+2387372,6,Marsborne,removed,Dust2
+2387249,1,Crashers,removed,Overpass
+2387249,2,Procyon,removed,Train
+2387249,3,Crashers,picked,Nuke
+2387249,4,Procyon,picked,Dust2
+2387249,5,Crashers,removed,Mirage
+2387249,6,Procyon,removed,Ancient
+2387251,1,MIBR Academy,removed,Inferno
+2387251,2,UnderDogs,removed,Train
+2387251,3,MIBR Academy,picked,Overpass
+2387251,4,UnderDogs,picked,Nuke
+2387251,5,MIBR Academy,removed,Dust2
+2387251,6,UnderDogs,removed,Mirage
+2387252,1,LP,removed,Overpass
+2387252,2,Yawara,removed,Inferno
+2387252,3,LP,picked,Nuke
+2387252,4,Yawara,picked,Ancient
+2387252,5,LP,removed,Mirage
+2387252,6,Yawara,removed,Train
+2387254,1,R2,removed,Mirage
+2387254,2,Fake do Biru,removed,Ancient
+2387254,3,R2,picked,Overpass
+2387254,4,Fake do Biru,picked,Dust2
+2387254,5,R2,removed,Train
+2387254,6,Fake do Biru,removed,Nuke
+2387373,1,Kiri,removed,Inferno
+2387373,2,Rave,removed,Train
+2387373,3,Kiri,picked,Ancient
+2387373,4,Rave,picked,Dust2
+2387373,5,Kiri,removed,Nuke
+2387373,6,Rave,removed,Mirage
+2387253,1,MAGICOS,removed,Ancient
+2387253,2,GameHunters,removed,Train
+2387253,3,MAGICOS,picked,Inferno
+2387253,4,GameHunters,picked,Dust2
+2387253,5,MAGICOS,removed,Nuke
+2387253,6,GameHunters,removed,Overpass
+2387371,1,SKDC,removed,Ancient
+2387371,2,NRG,removed,Overpass
+2387371,3,SKDC,picked,Inferno
+2387371,4,NRG,picked,Mirage
+2387371,5,SKDC,removed,Train
+2387371,6,NRG,removed,Dust2
+2387193,1,Washington,removed,Mirage
+2387193,2,AMKAL,removed,Nuke
+2387193,3,Washington,picked,Inferno
+2387193,4,AMKAL,picked,Dust2
+2387193,5,Washington,removed,Overpass
+2387193,6,AMKAL,removed,Train
+2386913,1,Zero Tenacity,removed,Ancient
+2386913,2,kONO,removed,Mirage
+2386913,3,Zero Tenacity,picked,Dust2
+2386913,4,kONO,picked,Overpass
+2386913,5,Zero Tenacity,removed,Nuke
+2386913,6,kONO,removed,Train
+2387360,1,Bounty Hunters,removed,Inferno
+2387360,2,Dusty Roots,removed,Overpass
+2387360,3,Bounty Hunters,picked,Mirage
+2387360,4,Dusty Roots,picked,Train
+2387360,5,Bounty Hunters,removed,Ancient
+2387360,6,Dusty Roots,removed,Nuke
+2387416,1,ALGO,removed,Dust2
+2387416,2,ENCE Academy,removed,Train
+2387416,3,ALGO,picked,Ancient
+2387416,4,ENCE Academy,picked,Nuke
+2387416,5,ALGO,removed,Overpass
+2387416,6,ENCE Academy,removed,Inferno
+2386979,1,Let Her Cook,removed,Train
+2386979,2,Imperial Valkyries,removed,Overpass
+2386979,3,Let Her Cook,picked,Mirage
+2386979,4,Imperial Valkyries,picked,Nuke
+2386979,5,Let Her Cook,removed,Inferno
+2386979,6,Imperial Valkyries,removed,Ancient
+2387191,1,HubaBuba,removed,Nuke
+2387191,2,NOVAQ,removed,Overpass
+2387191,3,HubaBuba,picked,Train
+2387191,4,NOVAQ,picked,Inferno
+2387191,5,HubaBuba,removed,Dust2
+2387191,6,NOVAQ,removed,Mirage
+2387189,1,Eternal Fire,removed,Ancient
+2387189,2,SPARTA,removed,Inferno
+2387189,3,Eternal Fire,picked,Dust2
+2387189,4,SPARTA,picked,Train
+2387189,5,Eternal Fire,removed,Nuke
+2387189,6,SPARTA,removed,Overpass
+2387194,1,ECLOT,removed,Train
+2387194,2,VP.Prodigy,removed,Inferno
+2387194,3,ECLOT,picked,Mirage
+2387194,4,VP.Prodigy,picked,Dust2
+2387194,5,ECLOT,removed,Overpass
+2387194,6,VP.Prodigy,removed,Nuke
+2387195,1,Phantom,removed,Ancient
+2387195,2,9BOOMPRO,removed,Train
+2387195,3,Phantom,picked,Nuke
+2387195,4,9BOOMPRO,picked,Dust2
+2387195,5,Phantom,removed,Inferno
+2387195,6,9BOOMPRO,removed,Mirage
+2386978,1,Overpeek,removed,Inferno
+2386978,2,Flame Sharks fe,removed,Nuke
+2386978,3,Overpeek,picked,Dust2
+2386978,4,Flame Sharks fe,picked,Mirage
+2386978,5,Overpeek,removed,Overpass
+2386978,6,Flame Sharks fe,removed,Train
+2387040,1,FORZE Reload,removed,Inferno
+2387040,2,Mousquetaires,removed,Mirage
+2387040,3,FORZE Reload,picked,Ancient
+2387040,4,Mousquetaires,picked,Dust2
+2387040,5,FORZE Reload,removed,Nuke
+2387040,6,Mousquetaires,removed,Overpass
+2387160,1,ScarX,removed,Nuke
+2387160,2,Just Swing,removed,Train
+2387160,3,ScarX,picked,Overpass
+2387160,4,Just Swing,picked,Dust2
+2387160,5,ScarX,removed,Ancient
+2387160,6,Just Swing,removed,Mirage
+2387415,1,GUN5,removed,Overpass
+2387415,2,MASONIC,removed,Dust2
+2387415,3,GUN5,picked,Mirage
+2387415,4,MASONIC,picked,Train
+2387415,5,GUN5,removed,Nuke
+2387415,6,MASONIC,removed,Ancient
+2387387,1,Phantom,removed,Ancient
+2387387,2,Dziuseppe,removed,Overpass
+2387387,3,Phantom,picked,Nuke
+2387387,4,Dziuseppe,picked,Train
+2387387,5,Phantom,removed,Inferno
+2387387,6,Dziuseppe,removed,Dust2
+2387423,1,StoichkovPeek,removed,Train
+2387423,2,Betclic,removed,Inferno
+2387423,3,StoichkovPeek,picked,Dust2
+2387423,4,Betclic,picked,Overpass
+2387423,5,StoichkovPeek,removed,Nuke
+2387423,6,Betclic,removed,Mirage
+2387491,1,Honvéd,removed,Inferno
+2387491,2,WiLD,removed,Mirage
+2387491,3,Honvéd,picked,Dust2
+2387491,4,WiLD,picked,Overpass
+2387491,5,Honvéd,removed,Nuke
+2387491,6,WiLD,removed,Train
+2386911,1,Washington,removed,Mirage
+2386911,2,ARCRED,removed,Overpass
+2386911,3,Washington,picked,Inferno
+2386911,4,ARCRED,picked,Train
+2386911,5,Washington,removed,Dust2
+2386911,6,ARCRED,removed,Nuke
+2387159,1,BORING PLAYERS,removed,Mirage
+2387159,2,Last Bullet,removed,Train
+2387159,3,BORING PLAYERS,picked,Nuke
+2387159,4,Last Bullet,picked,Dust2
+2387159,5,BORING PLAYERS,removed,Overpass
+2387159,6,Last Bullet,removed,Inferno
+2387161,1,Change The Game,removed,Nuke
+2387161,2,IHC,removed,Overpass
+2387161,3,Change The Game,picked,Dust2
+2387161,4,IHC,picked,Ancient
+2387161,5,Change The Game,removed,Train
+2387161,6,IHC,removed,Mirage
+2387158,1,The QUBE,removed,Dust2
+2387158,2,GATERON,removed,Train
+2387158,3,The QUBE,picked,Nuke
+2387158,4,GATERON,picked,Ancient
+2387158,5,The QUBE,removed,Mirage
+2387158,6,GATERON,removed,Overpass
+2387490,1,WiLD,removed,Train
+2387490,2,mXm,removed,Dust2
+2387490,3,WiLD,removed,Ancient
+2387490,4,mXm,removed,Nuke
+2387490,5,WiLD,removed,Mirage
+2387490,6,mXm,removed,Overpass
+2387386,1,HyperSpirit,removed,Train
+2387386,2,SPARTA,removed,Overpass
+2387386,3,HyperSpirit,picked,Ancient
+2387386,4,SPARTA,picked,Mirage
+2387386,5,HyperSpirit,removed,Nuke
+2387386,6,SPARTA,removed,Inferno
+2387039,1,ALGO,removed,Dust2
+2387039,2,Square Sausages,removed,Train
+2387039,3,ALGO,picked,Nuke
+2387039,4,Square Sausages,picked,Ancient
+2387039,5,ALGO,removed,Inferno
+2387039,6,Square Sausages,removed,Mirage
+2386912,1,Johnny Speeds,removed,Ancient
+2386912,2,33,removed,Overpass
+2386912,3,Johnny Speeds,picked,Inferno
+2386912,4,33,picked,Train
+2386912,5,Johnny Speeds,removed,Mirage
+2386912,6,33,removed,Dust2
+2387488,1,Honvéd,removed,Inferno
+2387488,2,mXm,removed,Dust2
+2387488,3,Honvéd,picked,Mirage
+2387488,4,mXm,picked,Ancient
+2387488,5,Honvéd,removed,Train
+2387488,6,mXm,removed,Nuke
+2387489,1,NaturPeek,removed,Overpass
+2387489,2,WiLD,removed,Train
+2387489,3,NaturPeek,removed,Nuke
+2387489,4,WiLD,removed,Ancient
+2387489,5,NaturPeek,removed,Dust2
+2387489,6,WiLD,removed,Inferno
+2387136,1,Animus Victoria,removed,Inferno
+2387136,2,Mindfreak,removed,Ancient
+2387136,3,Animus Victoria,picked,Mirage
+2387136,4,Mindfreak,picked,Dust2
+2387136,5,Animus Victoria,removed,Train
+2387136,6,Mindfreak,removed,Overpass
+2387038,1,Leo,removed,Nuke
+2387038,2,AMKAL,removed,Train
+2387038,3,Leo,picked,Dust2
+2387038,4,AMKAL,picked,Mirage
+2387038,5,Leo,removed,Overpass
+2387038,6,AMKAL,removed,Inferno
+2387137,1,Vantage,removed,Train
+2387137,2,Rooster,removed,Ancient
+2387137,3,Vantage,picked,Overpass
+2387137,4,Rooster,picked,Mirage
+2387137,5,Vantage,removed,Nuke
+2387137,6,Rooster,removed,Inferno
+2387385,1,MOUZ NXT,removed,Inferno
+2387385,2,kONO,removed,Mirage
+2387385,3,MOUZ NXT,picked,Train
+2387385,4,kONO,picked,Dust2
+2387385,5,MOUZ NXT,removed,Overpass
+2387385,6,kONO,removed,Ancient
+2386910,1,Oramond,removed,Inferno
+2386910,2,Fire Flux,removed,Nuke
+2386910,3,Oramond,picked,Mirage
+2386910,4,Fire Flux,picked,Dust2
+2386910,5,Oramond,removed,Overpass
+2386910,6,Fire Flux,removed,Train
+2387287,1,Mythic,removed,Inferno
+2387287,2,BOSS,removed,Nuke
+2387287,3,Mythic,picked,Mirage
+2387287,4,BOSS,picked,Ancient
+2387287,5,Mythic,removed,Train
+2387287,6,BOSS,removed,Overpass
+2387290,1,FlyQuest RED,removed,Ancient
+2387290,2,Phoenix,removed,Inferno
+2387290,3,FlyQuest RED,picked,Mirage
+2387290,4,Phoenix,picked,Nuke
+2387290,5,FlyQuest RED,removed,Overpass
+2387290,6,Phoenix,removed,Train
+2387285,1,InControl,removed,Dust2
+2387285,2,Shimmer,removed,Train
+2387285,3,InControl,picked,Nuke
+2387285,4,Shimmer,picked,Overpass
+2387285,5,InControl,removed,Ancient
+2387285,6,Shimmer,removed,Mirage
+2387288,1,TSG,removed,Overpass
+2387288,2,Voca,removed,Inferno
+2387288,3,TSG,picked,Nuke
+2387288,4,Voca,picked,Ancient
+2387288,5,TSG,removed,Train
+2387288,6,Voca,removed,Dust2
+2386987,1,Ghost,removed,Mirage
+2386987,2,Nocturnal,removed,Inferno
+2386987,3,Ghost,picked,Overpass
+2386987,4,Nocturnal,picked,Train
+2386987,5,Ghost,removed,Dust2
+2386987,6,Nocturnal,removed,Nuke
+2387366,1,Take Flyte,removed,Inferno
+2387366,2,SportsBetExpert,removed,Nuke
+2387366,3,Take Flyte,picked,Overpass
+2387366,4,SportsBetExpert,picked,Dust2
+2387366,5,Take Flyte,removed,Train
+2387366,6,SportsBetExpert,removed,Mirage
+2386985,1,FlyQuest RED,removed,Ancient
+2386985,2,Shimmer,removed,Train
+2386985,3,FlyQuest RED,picked,Mirage
+2386985,4,Shimmer,picked,Nuke
+2386985,5,FlyQuest RED,removed,Overpass
+2386985,6,Shimmer,removed,Inferno
+2387247,1,Galorys,removed,Inferno
+2387247,2,ShindeN,removed,Train
+2387247,3,Galorys,picked,Overpass
+2387247,4,ShindeN,picked,Mirage
+2387247,5,Galorys,removed,Dust2
+2387247,6,ShindeN,removed,Ancient
+2387369,1,regain,removed,Nuke
+2387369,2,Zomblers,removed,Train
+2387369,3,regain,picked,Ancient
+2387369,4,Zomblers,picked,Inferno
+2387369,5,regain,removed,Overpass
+2387369,6,Zomblers,removed,Dust2
+2386982,1,CAPIVARAS,removed,Mirage
+2386982,2,Curralzinho,removed,Train
+2386982,3,CAPIVARAS,picked,Overpass
+2386982,4,Curralzinho,picked,Ancient
+2386982,5,CAPIVARAS,removed,Inferno
+2386982,6,Curralzinho,removed,Dust2
+2387364,1,Money Crew,removed,Train
+2387364,2,BOSS,removed,Nuke
+2387364,3,Money Crew,picked,Mirage
+2387364,4,BOSS,picked,Inferno
+2387364,5,Money Crew,removed,Overpass
+2387364,6,BOSS,removed,Dust2
+2386981,1,MIBR fe,removed,Train
+2386981,2,FURIA fe,removed,Overpass
+2386981,3,MIBR fe,picked,Ancient
+2386981,4,FURIA fe,picked,Mirage
+2386981,5,MIBR fe,removed,Nuke
+2386981,6,FURIA fe,removed,Dust2
+2387241,1,KRÜ,removed,Train
+2387241,2,ODDIK,removed,Mirage
+2387241,3,KRÜ,picked,Dust2
+2387241,4,ODDIK,picked,Ancient
+2387241,5,KRÜ,removed,Inferno
+2387241,6,ODDIK,removed,Overpass
+2386983,1,Four Magic fe,removed,Train
+2386983,2,Atrix,removed,Ancient
+2386983,3,Four Magic fe,picked,Inferno
+2386983,4,Atrix,picked,Mirage
+2386983,5,Four Magic fe,removed,Overpass
+2386983,6,Atrix,removed,Nuke
+2387242,1,Dusty Roots,removed,Overpass
+2387242,2,Fake do Biru,removed,Ancient
+2387242,3,Dusty Roots,picked,Nuke
+2387242,4,Fake do Biru,picked,Dust2
+2387242,5,Dusty Roots,removed,Mirage
+2387242,6,Fake do Biru,removed,Train
+2387244,1,Yawara,removed,Inferno
+2387244,2,9z,removed,Mirage
+2387244,3,Yawara,picked,Ancient
+2387244,4,9z,picked,Nuke
+2387244,5,Yawara,removed,Train
+2387244,6,9z,removed,Overpass
+2386984,1,Dusty Roses,removed,Inferno
+2386984,2,thekillaz fe,removed,Train
+2386984,3,Dusty Roses,picked,Dust2
+2386984,4,thekillaz fe,picked,Ancient
+2386984,5,Dusty Roses,removed,Nuke
+2386984,6,thekillaz fe,removed,Overpass
+2387243,1,GameHunters,removed,Train
+2387243,2,Keyd Stars,removed,Dust2
+2387243,3,GameHunters,picked,Mirage
+2387243,4,Keyd Stars,picked,Ancient
+2387243,5,GameHunters,removed,Overpass
+2387243,6,Keyd Stars,removed,Inferno
+2387245,1,UnderDogs,removed,Train
+2387245,2,Sharks,removed,Dust2
+2387245,3,UnderDogs,picked,Inferno
+2387245,4,Sharks,picked,Nuke
+2387245,5,UnderDogs,removed,Overpass
+2387245,6,Sharks,removed,Mirage
+2387248,1,Procyon,removed,Ancient
+2387248,2,BESTIA,removed,Train
+2387248,3,Procyon,picked,Dust2
+2387248,4,BESTIA,picked,Overpass
+2387248,5,Procyon,removed,Mirage
+2387248,6,BESTIA,removed,Nuke
+2386973,1,888aura,removed,Inferno
+2386973,2,AKA HERO KAJO,removed,Mirage
+2386973,3,888aura,picked,Ancient
+2386973,4,AKA HERO KAJO,picked,Nuke
+2386973,5,888aura,removed,Train
+2386973,6,AKA HERO KAJO,removed,Overpass
+2386909,1,Sangal,removed,Dust2
+2386909,2,Zero Tenacity,removed,Ancient
+2386909,3,Sangal,picked,Overpass
+2386909,4,Zero Tenacity,picked,Inferno
+2386909,5,Sangal,removed,Train
+2386909,6,Zero Tenacity,removed,Mirage
+2387187,1,Phantom,removed,Ancient
+2387187,2,Monte,removed,Inferno
+2387187,3,Phantom,picked,Train
+2387187,4,Monte,picked,Nuke
+2387187,5,Phantom,removed,Dust2
+2387187,6,Monte,removed,Overpass
+2386975,1,Imperial Valkyries,removed,Overpass
+2386975,2,Nemesis Impact,removed,Train
+2386975,3,Imperial Valkyries,picked,Dust2
+2386975,4,Nemesis Impact,picked,Inferno
+2386975,5,Imperial Valkyries,removed,Nuke
+2386975,6,Nemesis Impact,removed,Mirage
+2386974,1,Flame Sharks fe,removed,Nuke
+2386974,2,hindsight,removed,Train
+2386974,3,Flame Sharks fe,picked,Dust2
+2386974,4,hindsight,picked,Ancient
+2386974,5,Flame Sharks fe,removed,Mirage
+2386974,6,hindsight,removed,Overpass
+2386972,1,Let Her Cook,removed,Train
+2386972,2,NIP Impact,removed,Nuke
+2386972,3,Let Her Cook,picked,Mirage
+2386972,4,NIP Impact,picked,Overpass
+2386972,5,Let Her Cook,removed,Inferno
+2386972,6,NIP Impact,removed,Dust2
+2386976,1,BIG EQUIPA,removed,Train
+2386976,2,Peekaboo,removed,Inferno
+2386976,3,BIG EQUIPA,picked,Mirage
+2386976,4,Peekaboo,picked,Ancient
+2386976,5,BIG EQUIPA,removed,Nuke
+2386976,6,Peekaboo,removed,Dust2
+2387037,1,ALGO,removed,Ancient
+2387037,2,The Glecs,removed,Nuke
+2387037,3,ALGO,picked,Train
+2387037,4,The Glecs,picked,Inferno
+2387037,5,ALGO,removed,Mirage
+2387037,6,The Glecs,removed,Dust2
+2387186,1,9BOOMPRO,removed,Train
+2387186,2,JiJieHao,removed,Overpass
+2387186,3,9BOOMPRO,picked,Dust2
+2387186,4,JiJieHao,picked,Nuke
+2387186,5,9BOOMPRO,removed,Inferno
+2387186,6,JiJieHao,removed,Ancient
+2387184,1,AaB,removed,Train
+2387184,2,VP.Prodigy,removed,Inferno
+2387184,3,AaB,picked,Ancient
+2387184,4,VP.Prodigy,picked,Dust2
+2387184,5,AaB,removed,Mirage
+2387184,6,VP.Prodigy,removed,Overpass
+2387185,1,K27,removed,Inferno
+2387185,2,ECLOT,removed,Train
+2387185,3,K27,picked,Dust2
+2387185,4,ECLOT,picked,Nuke
+2387185,5,K27,removed,Mirage
+2387185,6,ECLOT,removed,Overpass
+2387182,1,AMKAL,removed,Nuke
+2387182,2,Nexus,removed,Overpass
+2387182,3,AMKAL,picked,Ancient
+2387182,4,Nexus,picked,Train
+2387182,5,AMKAL,removed,Mirage
+2387182,6,Nexus,removed,Inferno
+2387356,1,Dusty Roots,removed,Overpass
+2387356,2,Sharks,removed,Dust2
+2387356,3,Dusty Roots,picked,Nuke
+2387356,4,Sharks,picked,Train
+2387356,5,Dusty Roots,removed,Ancient
+2387356,6,Sharks,removed,Mirage
+2386908,1,Betera,removed,Inferno
+2386908,2,Johnny Speeds,removed,Ancient
+2386908,3,Betera,picked,Dust2
+2386908,4,Johnny Speeds,picked,Overpass
+2386908,5,Betera,removed,Mirage
+2386908,6,Johnny Speeds,removed,Train
+2387180,1,Johnny Speeds,removed,Ancient
+2387180,2,ALLINNERS,removed,Overpass
+2387180,3,Johnny Speeds,picked,Train
+2387180,4,ALLINNERS,picked,Dust2
+2387180,5,Johnny Speeds,removed,Inferno
+2387180,6,ALLINNERS,removed,Nuke
+2387010,1,33,removed,Overpass
+2387010,2,Nemiga,removed,Nuke
+2387010,3,33,picked,Ancient
+2387010,4,Nemiga,picked,Dust2
+2387010,5,33,removed,Inferno
+2387010,6,Nemiga,removed,Mirage
+2387152,1,Last Bullet,removed,Train
+2387152,2,Kaleido,removed,Overpass
+2387152,3,Last Bullet,picked,Mirage
+2387152,4,Kaleido,picked,Inferno
+2387152,5,Last Bullet,removed,Dust2
+2387152,6,Kaleido,removed,Nuke
+2387151,1,ScarX,removed,Nuke
+2387151,2,FengDa,removed,Overpass
+2387151,3,ScarX,picked,Inferno
+2387151,4,FengDa,picked,Dust2
+2387151,5,ScarX,removed,Ancient
+2387151,6,FengDa,removed,Train
+2387036,1,Square Sausages,removed,Dust2
+2387036,2,NOVAQ,removed,Overpass
+2387036,3,Square Sausages,picked,Mirage
+2387036,4,NOVAQ,picked,Train
+2387036,5,Square Sausages,removed,Inferno
+2387036,6,NOVAQ,removed,Nuke
+2387153,1,GATERON,removed,Train
+2387153,2,Eruption,removed,Inferno
+2387153,3,GATERON,picked,Ancient
+2387153,4,Eruption,picked,Dust2
+2387153,5,GATERON,removed,Nuke
+2387153,6,Eruption,removed,Overpass
+2387155,1,BORING PLAYERS,removed,Mirage
+2387155,2,NomadS,removed,Train
+2387155,3,BORING PLAYERS,picked,Ancient
+2387155,4,NomadS,picked,Inferno
+2387155,5,BORING PLAYERS,removed,Dust2
+2387155,6,NomadS,removed,Overpass
+2387157,1,Change The Game,removed,Nuke
+2387157,2,Legion,removed,Ancient
+2387157,3,Change The Game,picked,Inferno
+2387157,4,Legion,picked,Dust2
+2387157,5,Change The Game,removed,Train
+2387157,6,Legion,removed,Overpass
+2387156,1,Arise,removed,Mirage
+2387156,2,Just Swing,removed,Train
+2387156,3,Arise,picked,Ancient
+2387156,4,Just Swing,picked,Dust2
+2387156,5,Arise,removed,Nuke
+2387156,6,Just Swing,removed,Overpass
+2387150,1,IHC,removed,Overpass
+2387150,2,Chinggis Warriors,removed,Train
+2387150,3,IHC,picked,Inferno
+2387150,4,Chinggis Warriors,picked,Nuke
+2387150,5,IHC,removed,Mirage
+2387150,6,Chinggis Warriors,removed,Dust2
+2387154,1,DQZS,removed,Dust2
+2387154,2,The QUBE,removed,Train
+2387154,3,DQZS,picked,Ancient
+2387154,4,The QUBE,picked,Overpass
+2387154,5,DQZS,removed,Mirage
+2387154,6,The QUBE,removed,Inferno
+2387035,1,Mousquetaires,removed,Mirage
+2387035,2,AMKAL,removed,Nuke
+2387035,3,Mousquetaires,picked,Inferno
+2387035,4,AMKAL,picked,Ancient
+2387035,5,Mousquetaires,removed,Train
+2387035,6,AMKAL,removed,Overpass
+2386907,1,EYEBALLERS,removed,Dust2
+2386907,2,Nexus,removed,Overpass
+2386907,3,EYEBALLERS,picked,Inferno
+2386907,4,Nexus,picked,Nuke
+2386907,5,EYEBALLERS,removed,Mirage
+2386907,6,Nexus,removed,Ancient
+2387133,1,Mindfreak,removed,Ancient
+2387133,2,Ground Zero,removed,Overpass
+2387133,3,Mindfreak,picked,Nuke
+2387133,4,Ground Zero,picked,Inferno
+2387133,5,Mindfreak,removed,Mirage
+2387133,6,Ground Zero,removed,Dust2
+2387034,1,Leo,removed,Nuke
+2387034,2,FORZE Reload,removed,Inferno
+2387034,3,Leo,picked,Ancient
+2387034,4,FORZE Reload,picked,Overpass
+2387034,5,Leo,removed,Mirage
+2387034,6,FORZE Reload,removed,Dust2
+2386906,1,SPARTA,removed,Inferno
+2386906,2,Sashi,removed,Mirage
+2386906,3,SPARTA,picked,Train
+2386906,4,Sashi,picked,Nuke
+2386906,5,SPARTA,removed,Overpass
+2386906,6,Sashi,removed,Dust2
+2387135,1,FURY,removed,Mirage
+2387135,2,Rooster,removed,Ancient
+2387135,3,FURY,picked,Train
+2387135,4,Rooster,picked,Overpass
+2387135,5,FURY,removed,Dust2
+2387135,6,Rooster,removed,Inferno
+2387134,1,Animus Victoria,removed,Inferno
+2387134,2,Underground,removed,Train
+2387134,3,Animus Victoria,picked,Mirage
+2387134,4,Underground,picked,Nuke
+2387134,5,Animus Victoria,removed,Ancient
+2387134,6,Underground,removed,Dust2
+2387132,1,Vantage,removed,Ancient
+2387132,2,SemperFi,removed,Train
+2387132,3,Vantage,picked,Mirage
+2387132,4,SemperFi,picked,Overpass
+2387132,5,Vantage,removed,Inferno
+2387132,6,SemperFi,removed,Dust2
+2387367,1,InControl,removed,Dust2
+2387367,2,Phoenix,removed,Ancient
+2387367,3,InControl,picked,Nuke
+2387367,4,Phoenix,picked,Train
+2387367,5,InControl,removed,Overpass
+2387367,6,Phoenix,removed,Inferno
+2387278,1,OverKnight,removed,Inferno
+2387278,2,Zomblers,removed,Train
+2387278,3,OverKnight,picked,Mirage
+2387278,4,Zomblers,picked,Ancient
+2387278,5,OverKnight,removed,Nuke
+2387278,6,Zomblers,removed,Dust2
+2387282,1,Ghost,removed,Mirage
+2387282,2,regain,removed,Nuke
+2387282,3,Ghost,picked,Inferno
+2387282,4,regain,picked,Ancient
+2387282,5,Ghost,removed,Dust2
+2387282,6,regain,removed,Overpass
+2387283,1,NYX,removed,Train
+2387283,2,Nocturnal,removed,Inferno
+2387283,3,NYX,picked,Overpass
+2387283,4,Nocturnal,picked,Mirage
+2387283,5,NYX,removed,Dust2
+2387283,6,Nocturnal,removed,Nuke
+2387281,1,TSG,removed,Mirage
+2387281,2,Arrival Seven,removed,Train
+2387281,3,TSG,picked,Nuke
+2387281,4,Arrival Seven,picked,Ancient
+2387281,5,TSG,removed,Inferno
+2387281,6,Arrival Seven,removed,Dust2
+2387279,1,anything else,removed,Inferno
+2387279,2,Wanted Goons,removed,Overpass
+2387279,3,anything else,picked,Dust2
+2387279,4,Wanted Goons,picked,Nuke
+2387279,5,anything else,removed,Ancient
+2387279,6,Wanted Goons,removed,Mirage
+2387234,1,Crashers,removed,Overpass
+2387234,2,KRÜ,removed,Train
+2387234,3,Crashers,picked,Inferno
+2387234,4,KRÜ,picked,Dust2
+2387234,5,Crashers,removed,Mirage
+2387234,6,KRÜ,removed,Nuke
+2387237,1,UnderDogs,removed,Train
+2387237,2,LP,removed,Overpass
+2387237,3,UnderDogs,picked,Nuke
+2387237,4,LP,picked,Inferno
+2387237,5,UnderDogs,removed,Ancient
+2387237,6,LP,removed,Mirage
+2387240,1,Procyon,removed,Ancient
+2387240,2,Tropa do KinGui,removed,Train
+2387240,3,Procyon,picked,Dust2
+2387240,4,Tropa do KinGui,picked,Inferno
+2387240,5,Procyon,removed,Overpass
+2387240,6,Tropa do KinGui,removed,Mirage
+2387239,1,R2,removed,Mirage
+2387239,2,Galorys,removed,Inferno
+2387239,3,R2,picked,Overpass
+2387239,4,Galorys,picked,Ancient
+2387239,5,R2,removed,Dust2
+2387239,6,Galorys,removed,Train
+2387235,1,Vasco,removed,Train
+2387235,2,GameHunters,removed,Overpass
+2387235,3,Vasco,picked,Dust2
+2387235,4,GameHunters,picked,Mirage
+2387235,5,Vasco,removed,Ancient
+2387235,6,GameHunters,removed,Nuke
+2387236,1,MIBR Academy,removed,Train
+2387236,2,Yawara,removed,Nuke
+2387236,3,MIBR Academy,picked,Mirage
+2387236,4,Yawara,picked,Ancient
+2387236,5,MIBR Academy,removed,Inferno
+2387236,6,Yawara,removed,Overpass
+2387238,1,MAGICOS,removed,Nuke
+2387238,2,Bounty Hunters,removed,Inferno
+2387238,3,MAGICOS,picked,Ancient
+2387238,4,Bounty Hunters,picked,Mirage
+2387238,5,MAGICOS,removed,Train
+2387238,6,Bounty Hunters,removed,Overpass
+2387172,1,HAVU,removed,Ancient
+2387172,2,ECSTATIC,removed,Dust2
+2387172,3,HAVU,picked,Nuke
+2387172,4,ECSTATIC,picked,Train
+2387172,5,HAVU,removed,Inferno
+2387172,6,ECSTATIC,removed,Mirage
+2387179,1,HubaBuba,removed,Nuke
+2387179,2,Venom,removed,Inferno
+2387179,3,HubaBuba,picked,Dust2
+2387179,4,Venom,picked,Train
+2387179,5,HubaBuba,removed,Overpass
+2387179,6,Venom,removed,Mirage
+2387173,1,1win,removed,Nuke
+2387173,2,BASEMENT BOYS,removed,Inferno
+2387173,3,1win,picked,Dust2
+2387173,4,BASEMENT BOYS,picked,Ancient
+2387173,5,1win,removed,Overpass
+2387173,6,BASEMENT BOYS,removed,Train
+2387175,1,SPARTA,removed,Overpass
+2387175,2,Sangal,removed,Dust2
+2387175,3,SPARTA,picked,Train
+2387175,4,Sangal,picked,Inferno
+2387175,5,SPARTA,removed,Ancient
+2387175,6,Sangal,removed,Mirage
+2387357,1,LP,removed,Overpass
+2387357,2,Keyd Stars,removed,Train
+2387357,3,LP,picked,Inferno
+2387357,4,Keyd Stars,picked,Dust2
+2387357,5,LP,removed,Ancient
+2387357,6,Keyd Stars,removed,Nuke
+2386905,1,Fire Flux,removed,Nuke
+2386905,2,VP.Prodigy,removed,Inferno
+2386905,3,Fire Flux,picked,Mirage
+2386905,4,VP.Prodigy,picked,Train
+2386905,5,Fire Flux,removed,Overpass
+2386905,6,VP.Prodigy,removed,Dust2
+2387033,1,ENCE Academy,removed,Train
+2387033,2,Nuclear TigeRES,removed,Overpass
+2387033,3,ENCE Academy,picked,Mirage
+2387033,4,Nuclear TigeRES,picked,Ancient
+2387033,5,ENCE Academy,removed,Dust2
+2387033,6,Nuclear TigeRES,removed,Nuke
+2387174,1,Eternal Fire,removed,Ancient
+2387174,2,33,removed,Overpass
+2387174,3,Eternal Fire,picked,Inferno
+2387174,4,33,picked,Train
+2387174,5,Eternal Fire,removed,Nuke
+2387174,6,33,removed,Dust2
+2387178,1,NOVAQ,removed,Overpass
+2387178,2,RUBY,removed,Inferno
+2387178,3,NOVAQ,picked,Train
+2387178,4,RUBY,picked,Nuke
+2387178,5,NOVAQ,removed,Dust2
+2387178,6,RUBY,removed,Ancient
+2387176,1,Dziuseppe,removed,Overpass
+2387176,2,Nemiga,removed,Nuke
+2387176,3,Dziuseppe,picked,Ancient
+2387176,4,Nemiga,picked,Train
+2387176,5,Dziuseppe,removed,Dust2
+2387176,6,Nemiga,removed,Inferno
+2387119,1,BIG,removed,Ancient
+2387119,2,Mousquetaires,removed,Mirage
+2387119,3,BIG,picked,Overpass
+2387119,4,Mousquetaires,picked,Nuke
+2387119,5,Mousquetaires,removed,Train
+2387119,6,BIG,removed,Dust2
+2387032,1,ALLINNERS,removed,Overpass
+2387032,2,UNiTY,removed,Nuke
+2387032,3,ALLINNERS,picked,Inferno
+2387032,4,UNiTY,picked,Mirage
+2387032,5,ALLINNERS,removed,Train
+2387032,6,UNiTY,removed,Dust2
+2386904,1,33,removed,Overpass
+2386904,2,ARCRED,removed,Nuke
+2386904,3,33,picked,Inferno
+2386904,4,ARCRED,picked,Mirage
+2386904,5,33,removed,Train
+2386904,6,ARCRED,removed,Dust2
+2387149,1,Legion,removed,Ancient
+2387149,2,GATERON,removed,Train
+2387149,3,Legion,picked,Dust2
+2387149,4,GATERON,picked,Inferno
+2387149,5,Legion,removed,Overpass
+2387149,6,GATERON,removed,Nuke
+2387145,1,ScarX,removed,Nuke
+2387145,2,NomadS,removed,Train
+2387145,3,ScarX,picked,Inferno
+2387145,4,NomadS,picked,Ancient
+2387145,5,ScarX,removed,Dust2
+2387145,6,NomadS,removed,Overpass
+2387143,1,IHC,removed,Overpass
+2387143,2,The QUBE,removed,Dust2
+2387143,3,IHC,picked,Inferno
+2387143,4,The QUBE,picked,Nuke
+2387143,5,IHC,removed,Mirage
+2387143,6,The QUBE,removed,Train
+2387146,1,Arise,removed,Mirage
+2387146,2,Kaleido,removed,Overpass
+2387146,3,Arise,picked,Train
+2387146,4,Kaleido,picked,Inferno
+2387146,5,Arise,removed,Nuke
+2387146,6,Kaleido,removed,Dust2
+2387142,1,DQZS,removed,Dust2
+2387142,2,Chinggis Warriors,removed,Train
+2387142,3,DQZS,picked,Mirage
+2387142,4,Chinggis Warriors,picked,Nuke
+2387142,5,DQZS,removed,Inferno
+2387142,6,Chinggis Warriors,removed,Overpass
+2387144,1,BORING PLAYERS,removed,Mirage
+2387144,2,FengDa,removed,Overpass
+2387144,3,BORING PLAYERS,picked,Dust2
+2387144,4,FengDa,picked,Ancient
+2387144,5,BORING PLAYERS,removed,Train
+2387144,6,FengDa,removed,Inferno
+2387148,1,Change The Game,removed,Inferno
+2387148,2,Eruption,removed,Nuke
+2387148,3,Change The Game,picked,Train
+2387148,4,Eruption,picked,Dust2
+2387148,5,Change The Game,removed,Overpass
+2387148,6,Eruption,removed,Ancient
+2387147,1,Just Swing,removed,Overpass
+2387147,2,Last Bullet,removed,Train
+2387147,3,Just Swing,picked,Inferno
+2387147,4,Last Bullet,picked,Mirage
+2387147,5,Just Swing,removed,Ancient
+2387147,6,Last Bullet,removed,Nuke
+2386903,1,CYBERSHOKE,removed,Inferno
+2386903,2,Washington,removed,Mirage
+2386903,3,CYBERSHOKE,picked,Dust2
+2386903,4,Washington,picked,Nuke
+2386903,5,CYBERSHOKE,removed,Train
+2386903,6,Washington,removed,Overpass
+2387031,1,NIP Impact,removed,Nuke
+2387031,2,RUBY,removed,Inferno
+2387031,3,NIP Impact,picked,Train
+2387031,4,RUBY,picked,Dust2
+2387031,5,NIP Impact,removed,Mirage
+2387031,6,RUBY,removed,Overpass
+2387129,1,Vantage,removed,Train
+2387129,2,Underground,removed,Dust2
+2387129,3,Vantage,picked,Mirage
+2387129,4,Underground,picked,Nuke
+2387129,5,Vantage,removed,Ancient
+2387129,6,Underground,removed,Overpass
+2387131,1,Rooster,removed,Inferno
+2387131,2,Mindfreak,removed,Mirage
+2387131,3,Rooster,picked,Nuke
+2387131,4,Mindfreak,picked,Dust2
+2387131,5,Rooster,removed,Train
+2387131,6,Mindfreak,removed,Overpass
+2387128,1,Animus Victoria,removed,Dust2
+2387128,2,SemperFi,removed,Train
+2387128,3,Animus Victoria,picked,Mirage
+2387128,4,SemperFi,picked,Nuke
+2387128,5,Animus Victoria,removed,Inferno
+2387128,6,SemperFi,removed,Ancient
+2387130,1,FURY,removed,Mirage
+2387130,2,Ground Zero,removed,Overpass
+2387130,3,FURY,picked,Ancient
+2387130,4,Ground Zero,picked,Inferno
+2387130,5,FURY,removed,Dust2
+2387130,6,Ground Zero,removed,Train
+2386902,1,Oramond,removed,Overpass
+2386902,2,kONO,removed,Mirage
+2386902,3,Oramond,picked,Nuke
+2386902,4,kONO,picked,Inferno
+2386902,5,Oramond,removed,Dust2
+2386902,6,kONO,removed,Train
+2387125,1,regain,removed,Nuke
+2387125,2,SportsBetExpert,removed,Inferno
+2387125,3,regain,picked,Ancient
+2387125,4,SportsBetExpert,picked,Dust2
+2387125,5,regain,removed,Overpass
+2387125,6,SportsBetExpert,removed,Train
+2387127,1,anything else,removed,Inferno
+2387127,2,Zomblers,removed,Train
+2387127,3,anything else,picked,Mirage
+2387127,4,Zomblers,picked,Ancient
+2387127,5,anything else,removed,Overpass
+2387127,6,Zomblers,removed,Dust2
+2387124,1,Nocturnal,removed,Overpass
+2387124,2,InControl,removed,Dust2
+2387124,3,Nocturnal,picked,Ancient
+2387124,4,InControl,picked,Mirage
+2387124,5,Nocturnal,removed,Inferno
+2387124,6,InControl,removed,Train
+2387126,1,Outfit 49,removed,Ancient
+2387126,2,Take Flyte,removed,Inferno
+2387126,3,Outfit 49,picked,Mirage
+2387126,4,Take Flyte,picked,Nuke
+2387126,5,Outfit 49,removed,Train
+2387126,6,Take Flyte,removed,Dust2
+2387029,1,NIP Impact,removed,Nuke
+2387029,2,ENCE Academy,removed,Train
+2387029,3,NIP Impact,picked,Inferno
+2387029,4,ENCE Academy,picked,Dust2
+2387029,5,NIP Impact,removed,Mirage
+2387029,6,ENCE Academy,removed,Ancient
+2387353,1,LP,removed,Overpass
+2387353,2,ODDIK,removed,Mirage
+2387353,3,LP,picked,Inferno
+2387353,4,ODDIK,picked,Train
+2387353,5,LP,removed,Ancient
+2387353,6,ODDIK,removed,Nuke
+2387354,1,Fake do Biru,removed,Ancient
+2387354,2,Keyd Stars,removed,Train
+2387354,3,Fake do Biru,picked,Dust2
+2387354,4,Keyd Stars,picked,Mirage
+2387354,5,Fake do Biru,removed,Overpass
+2387354,6,Keyd Stars,removed,Nuke
+2387028,1,RUBY,removed,Inferno
+2387028,2,Nuclear TigeRES,removed,Overpass
+2387028,3,RUBY,picked,Dust2
+2387028,4,Nuclear TigeRES,picked,Ancient
+2387028,5,RUBY,removed,Train
+2387028,6,Nuclear TigeRES,removed,Mirage
+2387363,1,Flame Sharks,removed,Inferno
+2387363,2,Ursa,removed,Ancient
+2387363,3,Flame Sharks,picked,Nuke
+2387363,4,Ursa,picked,Overpass
+2387363,5,Flame Sharks,removed,Dust2
+2387363,6,Ursa,removed,Train
+2387006,1,Johnny Speeds,removed,Ancient
+2387006,2,33,removed,Overpass
+2387006,3,Johnny Speeds,picked,Mirage
+2387006,4,33,picked,Train
+2387006,5,Johnny Speeds,removed,Dust2
+2387006,6,33,removed,Inferno
+2386900,1,VP.Prodigy,removed,Inferno
+2386900,2,SPARTA,removed,Dust2
+2386900,3,VP.Prodigy,picked,Train
+2386900,4,SPARTA,picked,Mirage
+2386900,5,VP.Prodigy,removed,Nuke
+2386900,6,SPARTA,removed,Overpass
+2387027,1,HubaBuba,removed,Nuke
+2387027,2,UNiTY,removed,Dust2
+2387027,3,HubaBuba,picked,Mirage
+2387027,4,UNiTY,picked,Ancient
+2387027,5,HubaBuba,removed,Overpass
+2387027,6,UNiTY,removed,Inferno
+2387117,1,Mousquetaires,removed,Mirage
+2387117,2,MOLO,removed,Train
+2387117,3,Mousquetaires,picked,Inferno
+2387117,4,MOLO,picked,Nuke
+2387117,5,MOLO,removed,Overpass
+2387117,6,Mousquetaires,removed,Ancient
+2387005,1,CYBERSHOKE,removed,Inferno
+2387005,2,SPARTA,removed,Ancient
+2387005,3,CYBERSHOKE,picked,Dust2
+2387005,4,SPARTA,picked,Nuke
+2387005,5,CYBERSHOKE,removed,Train
+2387005,6,SPARTA,removed,Overpass
+2386899,1,Nexus,removed,Overpass
+2386899,2,Oramond,removed,Train
+2386899,3,Nexus,picked,Dust2
+2386899,4,Oramond,picked,Ancient
+2386899,5,Nexus,removed,Nuke
+2386899,6,Oramond,removed,Inferno
+2386898,1,33,removed,Overpass
+2386898,2,Betera,removed,Inferno
+2386898,3,33,picked,Nuke
+2386898,4,Betera,picked,Dust2
+2386898,5,33,removed,Ancient
+2386898,6,Betera,removed,Train
+2387026,1,Dziuseppe,removed,Dust2
+2387026,2,ALLINNERS,removed,Overpass
+2387026,3,Dziuseppe,picked,Ancient
+2387026,4,ALLINNERS,picked,Inferno
+2387026,5,Dziuseppe,removed,Mirage
+2387026,6,ALLINNERS,removed,Train
+2386877,1,Wildcard Academy,removed,Inferno
+2386877,2,WOPA,removed,Dust2
+2386877,3,Wildcard Academy,picked,Ancient
+2386877,4,WOPA,picked,Mirage
+2386877,5,Wildcard Academy,removed,Overpass
+2386877,6,WOPA,removed,Train
+2387123,1,Shimmer,removed,Ancient
+2387123,2,OverKnight,removed,Nuke
+2387123,3,Shimmer,picked,Overpass
+2387123,4,OverKnight,picked,Mirage
+2387123,5,Shimmer,removed,Train
+2387123,6,OverKnight,removed,Inferno
+2387122,1,Money Crew,removed,Train
+2387122,2,Phoenix,removed,Ancient
+2387122,3,Money Crew,picked,Mirage
+2387122,4,Phoenix,picked,Nuke
+2387122,5,Money Crew,removed,Overpass
+2387122,6,Phoenix,removed,Inferno
+2387121,1,LAG,removed,Mirage
+2387121,2,Marsborne,removed,Dust2
+2387121,3,LAG,picked,Inferno
+2387121,4,Marsborne,picked,Train
+2387121,5,LAG,removed,Overpass
+2387121,6,Marsborne,removed,Ancient
+2386897,1,kONO,removed,Mirage
+2386897,2,EYEBALLERS,removed,Inferno
+2386897,3,kONO,picked,Nuke
+2386897,4,EYEBALLERS,picked,Overpass
+2386897,5,kONO,removed,Train
+2386897,6,EYEBALLERS,removed,Ancient
+2386896,1,Zero Tenacity,removed,Ancient
+2386896,2,Washington,removed,Mirage
+2386896,3,Zero Tenacity,picked,Dust2
+2386896,4,Washington,picked,Nuke
+2386896,5,Zero Tenacity,removed,Overpass
+2386896,6,Washington,removed,Train
+2387116,1,NOVAQ,removed,Overpass
+2387116,2,BC.Game,removed,Train
+2387116,3,NOVAQ,picked,Inferno
+2387116,4,BC.Game,picked,Mirage
+2387116,5,NOVAQ,removed,Nuke
+2387116,6,BC.Game,removed,Ancient
+2387113,1,Mousquetaires,removed,Mirage
+2387113,2,FUT,removed,Train
+2387113,3,Mousquetaires,picked,Nuke
+2387113,4,FUT,picked,Ancient
+2387113,5,FUT,removed,Inferno
+2387113,6,Mousquetaires,removed,Overpass
+2387115,1,AM,removed,Train
+2387115,2,BIG,removed,Ancient
+2387115,3,AM,picked,Dust2
+2387115,4,BIG,picked,Inferno
+2387115,5,AM,removed,Nuke
+2387115,6,BIG,removed,Mirage
+2387114,1,MOLO,removed,Inferno
+2387114,2,AaB,removed,Train
+2387114,3,MOLO,picked,Nuke
+2387114,4,AaB,picked,Overpass
+2387114,5,AaB,removed,Dust2
+2387114,6,MOLO,removed,Ancient
+2386999,1,SPARTA,removed,Inferno
+2386999,2,ECSTATIC,removed,Mirage
+2386999,3,SPARTA,picked,Dust2
+2386999,4,ECSTATIC,picked,Train
+2386999,5,SPARTA,removed,Overpass
+2386999,6,ECSTATIC,removed,Ancient
+2387106,1,GenOne,removed,Train
+2387106,2,GenOne,removed,Inferno
+2387106,3,Mousquetaires,removed,Mirage
+2387106,4,Mousquetaires,removed,Ancient
+2387106,5,Mousquetaires,removed,Overpass
+2387106,6,GenOne,removed,Dust2
+2386894,1,Sashi,removed,Mirage
+2386894,2,Fire Flux,removed,Nuke
+2386894,3,Sashi,picked,Overpass
+2386894,4,Fire Flux,picked,Dust2
+2386894,5,Sashi,removed,Inferno
+2386894,6,Fire Flux,removed,Train
+2387107,1,illwill,removed,Inferno
+2387107,2,illwill,removed,Overpass
+2387107,3,AaB,removed,Dust2
+2387107,4,AaB,removed,Mirage
+2387107,5,AaB,removed,Train
+2387107,6,illwill,removed,Nuke
+2387110,1,Washington,removed,Mirage
+2387110,2,Washington,removed,Dust2
+2387110,3,AM,removed,Inferno
+2387110,4,AM,removed,Nuke
+2387110,5,AM,removed,Train
+2387110,6,Washington,removed,Overpass
+2387112,1,JUMBO,removed,Mirage
+2387112,2,JUMBO,removed,Inferno
+2387112,3,NOVAQ,removed,Overpass
+2387112,4,NOVAQ,removed,Nuke
+2387112,5,NOVAQ,removed,Ancient
+2387112,6,JUMBO,removed,Dust2
+2387108,1,Eternal Fire,removed,Ancient
+2387108,2,Eternal Fire,removed,Train
+2387108,3,MOLO,removed,Overpass
+2387108,4,MOLO,removed,Dust2
+2387108,5,MOLO,removed,Inferno
+2387108,6,Eternal Fire,removed,Mirage
+2387111,1,QUAZAR,removed,Ancient
+2387111,2,QUAZAR,removed,Dust2
+2387111,3,BC.Game,removed,Train
+2387111,4,BC.Game,removed,Overpass
+2387111,5,BC.Game,removed,Nuke
+2387111,6,QUAZAR,removed,Inferno
+2386876,1,AM,removed,Train
+2386876,2,Wildcard Academy,removed,Inferno
+2386876,3,AM,picked,Overpass
+2386876,4,Wildcard Academy,picked,Ancient
+2386876,5,AM,removed,Nuke
+2386876,6,Wildcard Academy,removed,Dust2
+2386996,1,Marsborne,removed,Mirage
+2386996,2,Take Flyte,removed,Train
+2386996,3,Marsborne,picked,Inferno
+2386996,4,Take Flyte,picked,Overpass
+2386996,5,Marsborne,removed,Dust2
+2386996,6,Take Flyte,removed,Nuke
+2386893,1,AMKAL,removed,Nuke
+2386893,2,Washington,removed,Mirage
+2386893,3,AMKAL,picked,Overpass
+2386893,4,Washington,picked,Inferno
+2386893,5,AMKAL,removed,Train
+2386893,6,Washington,removed,Dust2
+2386576,1,Sangal,removed,Dust2
+2386576,2,ESC,removed,Train
+2386576,3,Sangal,picked,Overpass
+2386576,4,ESC,picked,Nuke
+2386576,5,Sangal,removed,Ancient
+2386576,6,ESC,removed,Inferno
+2386892,1,kONO,removed,Mirage
+2386892,2,VRSoholics,removed,Dust2
+2386892,3,kONO,picked,Inferno
+2386892,4,VRSoholics,picked,Ancient
+2386892,5,kONO,removed,Overpass
+2386892,6,VRSoholics,removed,Train
+2386997,1,Nemiga,removed,Nuke
+2386997,2,33,removed,Overpass
+2386997,3,Nemiga,picked,Dust2
+2386997,4,33,picked,Inferno
+2386997,5,Nemiga,removed,Ancient
+2386997,6,33,removed,Mirage
+2386891,1,SPARTA,removed,Overpass
+2386891,2,FORZE Reload,removed,Mirage
+2386891,3,SPARTA,picked,Nuke
+2386891,4,FORZE Reload,picked,Ancient
+2386891,5,SPARTA,removed,Dust2
+2386891,6,FORZE Reload,removed,Inferno
+2386874,1,WOPA,removed,Dust2
+2386874,2,Wildcard Academy,removed,Inferno
+2386874,3,WOPA,picked,Mirage
+2386874,4,Wildcard Academy,picked,Ancient
+2386874,5,WOPA,removed,Train
+2386874,6,Wildcard Academy,removed,Nuke
+2386890,1,CPH Wolves,removed,Inferno
+2386890,2,Fire Flux,removed,Nuke
+2386890,3,CPH Wolves,picked,Mirage
+2386890,4,Fire Flux,picked,Dust2
+2386890,5,CPH Wolves,removed,Overpass
+2386890,6,Fire Flux,removed,Train
+2386636,1,Wildcard,removed,Dust2
+2386636,2,Rave,removed,Train
+2386636,3,Wildcard,picked,Overpass
+2386636,4,Rave,picked,Mirage
+2386636,5,Wildcard,removed,Ancient
+2386636,6,Rave,removed,Nuke
+2386889,1,ALGO,removed,Dust2
+2386889,2,Washington,removed,Mirage
+2386889,3,ALGO,picked,Overpass
+2386889,4,Washington,picked,Inferno
+2386889,5,ALGO,removed,Train
+2386889,6,Washington,removed,Ancient
+2386575,1,ESC,removed,Train
+2386575,2,Alliance,removed,Mirage
+2386575,3,ESC,picked,Nuke
+2386575,4,Alliance,picked,Inferno
+2386575,5,ESC,removed,Overpass
+2386575,6,Alliance,removed,Dust2
+2386888,1,HubaBuba,removed,Nuke
+2386888,2,CPH Wolves,removed,Inferno
+2386888,3,HubaBuba,picked,Dust2
+2386888,4,CPH Wolves,picked,Mirage
+2386888,5,HubaBuba,removed,Overpass
+2386888,6,CPH Wolves,removed,Train
+2386887,1,RUBY,removed,Inferno
+2386887,2,VRSoholics,removed,Dust2
+2386887,3,RUBY,picked,Ancient
+2386887,4,VRSoholics,picked,Overpass
+2386887,5,RUBY,removed,Train
+2386887,6,VRSoholics,removed,Mirage
+2386873,1,G2 Ares,removed,Nuke
+2386873,2,AM,removed,Train
+2386873,3,G2 Ares,picked,Inferno
+2386873,4,AM,picked,Overpass
+2386873,5,G2 Ares,removed,Dust2
+2386873,6,AM,removed,Mirage
+2386872,1,MASONIC,removed,Dust2
+2386872,2,MANA,removed,Train
+2386872,3,MASONIC,picked,Nuke
+2386872,4,MANA,picked,Mirage
+2386872,5,MASONIC,removed,Ancient
+2386872,6,MANA,removed,Overpass
+2386886,1,SPARTA,removed,Inferno
+2386886,2,NOVAQ,removed,Overpass
+2386886,3,SPARTA,picked,Nuke
+2386886,4,NOVAQ,picked,Mirage
+2386886,5,SPARTA,removed,Ancient
+2386886,6,NOVAQ,removed,Train
+2386994,1,Money Crew,removed,Train
+2386994,2,anything else,removed,Inferno
+2386994,3,Money Crew,picked,Ancient
+2386994,4,anything else,picked,Mirage
+2386994,5,Money Crew,removed,Overpass
+2386994,6,anything else,removed,Dust2
+2386990,1,Getting Info,removed,Inferno
+2386990,2,regain,removed,Nuke
+2386990,3,Getting Info,picked,Ancient
+2386990,4,regain,picked,Dust2
+2386990,5,Getting Info,removed,Overpass
+2386990,6,regain,removed,Train
+2386605,1,Gaimin Gladiators,removed,Mirage
+2386605,2,Dusty Roots,removed,Overpass
+2386605,3,Gaimin Gladiators,picked,Inferno
+2386605,4,Dusty Roots,picked,Nuke
+2386605,5,Gaimin Gladiators,removed,Ancient
+2386605,6,Dusty Roots,removed,Train
+2386749,1,kONO,removed,Mirage
+2386749,2,ENCE,removed,Inferno
+2386749,3,kONO,picked,Train
+2386749,4,ENCE,picked,Dust2
+2386749,5,kONO,removed,Overpass
+2386749,6,ENCE,removed,Nuke
+2386971,1,Skinsauna,removed,Overpass
+2386971,2,ENCE Academy,removed,Train
+2386971,3,Skinsauna,picked,Dust2
+2386971,4,ENCE Academy,picked,Nuke
+2386971,5,ENCE Academy,removed,Inferno
+2386971,6,Skinsauna,removed,Mirage
+2386574,1,Sangal,removed,Dust2
+2386574,2,ESC,removed,Train
+2386574,3,Sangal,picked,Overpass
+2386574,4,ESC,picked,Nuke
+2386574,5,Sangal,removed,Ancient
+2386574,6,ESC,removed,Mirage
+2386885,1,Washington,removed,Mirage
+2386885,2,FORZE Reload,removed,Inferno
+2386885,3,Washington,picked,Ancient
+2386885,4,FORZE Reload,picked,Overpass
+2386885,5,Washington,removed,Dust2
+2386885,6,FORZE Reload,removed,Nuke
+2386714,1,Bounty Hunters,removed,Inferno
+2386714,2,Keyd Stars,removed,Train
+2386714,3,Bounty Hunters,picked,Mirage
+2386714,4,Keyd Stars,picked,Ancient
+2386714,5,Bounty Hunters,removed,Overpass
+2386714,6,Keyd Stars,removed,Nuke
+2387025,1,Truck Drivers,removed,Inferno
+2387025,2,Raid,removed,Train
+2387025,3,Truck Drivers,picked,Overpass
+2387025,4,Raid,picked,Nuke
+2387025,5,Truck Drivers,removed,Ancient
+2387025,6,Raid,removed,Dust2
+2386970,1,Skinsauna,removed,Train
+2386970,2,HAVU,removed,Ancient
+2386970,3,Skinsauna,picked,Dust2
+2386970,4,HAVU,picked,Nuke
+2386970,5,HAVU,removed,Inferno
+2386970,6,Skinsauna,removed,Overpass
+2386882,1,HubaBuba,removed,Nuke
+2386882,2,The Glecs,removed,Inferno
+2386882,3,HubaBuba,picked,Dust2
+2386882,4,The Glecs,picked,Overpass
+2386882,5,HubaBuba,removed,Ancient
+2386882,6,The Glecs,removed,Mirage
+2386747,1,RUBY,removed,Inferno
+2386747,2,9INE,removed,Mirage
+2386747,3,RUBY,picked,Dust2
+2386747,4,9INE,picked,Ancient
+2386747,5,RUBY,removed,Overpass
+2386747,6,9INE,removed,Nuke
+2386884,1,ALGO,removed,Dust2
+2386884,2,m1x,removed,Nuke
+2386884,3,ALGO,picked,Overpass
+2386884,4,m1x,picked,Ancient
+2386884,5,ALGO,removed,Mirage
+2386884,6,m1x,removed,Inferno
+2386871,1,Wildcard Academy,removed,Inferno
+2386871,2,MASONIC,removed,Dust2
+2386871,3,Wildcard Academy,picked,Ancient
+2386871,4,MASONIC,picked,Train
+2386871,5,Wildcard Academy,removed,Overpass
+2386871,6,MASONIC,removed,Mirage
+2386969,1,ENCE Academy,removed,Train
+2386969,2,TMVG,removed,Overpass
+2386969,3,ENCE Academy,picked,Mirage
+2386969,4,TMVG,picked,Dust2
+2386969,5,TMVG,removed,Nuke
+2386969,6,ENCE Academy,removed,Inferno
+2386883,1,CPH Wolves,removed,Inferno
+2386883,2,kONO,removed,Mirage
+2386883,3,CPH Wolves,picked,Nuke
+2386883,4,kONO,picked,Dust2
+2386883,5,CPH Wolves,removed,Train
+2386883,6,kONO,removed,Overpass
+2386993,1,SportsBetExpert,removed,Nuke
+2386993,2,InControl,removed,Dust2
+2386993,3,SportsBetExpert,picked,Overpass
+2386993,4,InControl,picked,Mirage
+2386993,5,SportsBetExpert,removed,Train
+2386993,6,InControl,removed,Inferno
+2386995,1,OverKnight,removed,Train
+2386995,2,Nocturnal,removed,Inferno
+2386995,3,OverKnight,picked,Mirage
+2386995,4,Nocturnal,picked,Nuke
+2386995,5,OverKnight,removed,Overpass
+2386995,6,Nocturnal,removed,Ancient
+2386712,1,Sharks,removed,Dust2
+2386712,2,Yawara,removed,Inferno
+2386712,3,Sharks,picked,Nuke
+2386712,4,Yawara,picked,Ancient
+2386712,5,Sharks,removed,Mirage
+2386712,6,Yawara,removed,Train
+2386604,1,Dusty Roots,removed,Overpass
+2386604,2,RED Canids,removed,Dust2
+2386604,3,Dusty Roots,picked,Inferno
+2386604,4,RED Canids,picked,Mirage
+2386604,5,Dusty Roots,removed,Ancient
+2386604,6,RED Canids,removed,Train
+2386991,1,Shimmer,removed,Train
+2386991,2,BOSS,removed,Nuke
+2386991,3,Shimmer,picked,Dust2
+2386991,4,BOSS,picked,Ancient
+2386991,5,Shimmer,removed,Inferno
+2386991,6,BOSS,removed,Overpass
+2386711,1,Players,removed,Train
+2386711,2,Fake do Biru,removed,Ancient
+2386711,3,Players,picked,Inferno
+2386711,4,Fake do Biru,picked,Dust2
+2386711,5,Players,removed,Overpass
+2386711,6,Fake do Biru,removed,Nuke
+2386867,1,m1x,removed,Nuke
+2386867,2,FORZE Reload,removed,Inferno
+2386867,3,m1x,picked,Ancient
+2386867,4,FORZE Reload,picked,Train
+2386867,5,m1x,removed,Overpass
+2386867,6,FORZE Reload,removed,Mirage
+2386805,1,Venom,removed,Inferno
+2386805,2,Aurora,removed,Ancient
+2386805,3,Venom,picked,Nuke
+2386805,4,Aurora,picked,Overpass
+2386805,5,Venom,removed,Dust2
+2386805,6,Aurora,removed,Train
+2386745,1,kONO,removed,Mirage
+2386745,2,Oramond,removed,Inferno
+2386745,3,kONO,picked,Overpass
+2386745,4,Oramond,picked,Nuke
+2386745,5,kONO,removed,Train
+2386745,6,Oramond,removed,Dust2
+2386968,1,HAVU,removed,Ancient
+2386968,2,TMVG,removed,Overpass
+2386968,3,HAVU,picked,Nuke
+2386968,4,TMVG,picked,Dust2
+2386968,5,TMVG,removed,Mirage
+2386968,6,HAVU,removed,Inferno
+2386710,1,Keyd Stars,removed,Nuke
+2386710,2,FOLHA AMARELA,removed,Overpass
+2386710,3,Keyd Stars,picked,Mirage
+2386710,4,FOLHA AMARELA,picked,Dust2
+2386710,5,Keyd Stars,removed,Inferno
+2386710,6,FOLHA AMARELA,removed,Train
+2386967,1,ENCE Academy,removed,Train
+2386967,2,Skinsauna,removed,Overpass
+2386967,3,ENCE Academy,picked,Nuke
+2386967,4,Skinsauna,picked,Dust2
+2386967,5,Skinsauna,removed,Mirage
+2386967,6,ENCE Academy,removed,Inferno
+2386866,1,ALGO,removed,Dust2
+2386866,2,Washington,removed,Mirage
+2386866,3,ALGO,picked,Train
+2386866,4,Washington,picked,Inferno
+2386866,5,ALGO,removed,Ancient
+2386866,6,Washington,removed,Overpass
+2386744,1,Nuclear TigeRES,removed,Overpass
+2386744,2,500,removed,Train
+2386744,3,Nuclear TigeRES,picked,Ancient
+2386744,4,500,picked,Inferno
+2386744,5,Nuclear TigeRES,removed,Mirage
+2386744,6,500,removed,Dust2
+2386965,1,CSDIILIT,removed,Dust2
+2386965,2,Skinsauna,removed,Train
+2386965,3,CSDIILIT,picked,Ancient
+2386965,4,Skinsauna,picked,Mirage
+2386965,5,Skinsauna,removed,Overpass
+2386965,6,CSDIILIT,removed,Nuke
+2386709,1,Dusty Roots,removed,Overpass
+2386709,2,Bounty Hunters,removed,Inferno
+2386709,3,Dusty Roots,picked,Nuke
+2386709,4,Bounty Hunters,picked,Mirage
+2386709,5,Dusty Roots,removed,Ancient
+2386709,6,Bounty Hunters,removed,Train
+2386966,1,TMVG,removed,Inferno
+2386966,2,AKA HERO KAJO,removed,Mirage
+2386966,3,TMVG,picked,Nuke
+2386966,4,AKA HERO KAJO,picked,Train
+2386966,5,AKA HERO KAJO,removed,Overpass
+2386966,6,TMVG,removed,Ancient
+2386865,1,kONO,removed,Mirage
+2386865,2,HubaBuba,removed,Nuke
+2386865,3,kONO,picked,Inferno
+2386865,4,HubaBuba,picked,Ancient
+2386865,5,kONO,removed,Train
+2386865,6,HubaBuba,removed,Overpass
+2386743,1,m1x,removed,Nuke
+2386743,2,RUBY,removed,Inferno
+2386743,3,m1x,picked,Ancient
+2386743,4,RUBY,picked,Train
+2386743,5,m1x,removed,Overpass
+2386743,6,RUBY,removed,Mirage
+2386869,1,AM,removed,Train
+2386869,2,fish123,removed,Ancient
+2386869,3,AM,picked,Dust2
+2386869,4,fish123,picked,Overpass
+2386869,5,AM,removed,Inferno
+2386869,6,fish123,removed,Nuke
+2386508,1,Rooster,removed,Ancient
+2386508,2,SemperFi,removed,Train
+2386508,3,Rooster,picked,Overpass
+2386508,4,SemperFi,picked,Inferno
+2386508,5,Rooster,removed,Dust2
+2386508,6,SemperFi,removed,Mirage
+2386963,1,CSDIILIT,removed,Dust2
+2386963,2,ENCE Academy,removed,Train
+2386963,3,CSDIILIT,picked,Inferno
+2386963,4,ENCE Academy,picked,Mirage
+2386963,5,ENCE Academy,removed,Ancient
+2386963,6,CSDIILIT,removed,Overpass
+2386964,1,HAVU,removed,Ancient
+2386964,2,AKA HERO KAJO,removed,Mirage
+2386964,3,HAVU,picked,Dust2
+2386964,4,AKA HERO KAJO,picked,Nuke
+2386964,5,AKA HERO KAJO,removed,Overpass
+2386964,6,HAVU,removed,Inferno
+2386864,1,The Glecs,removed,Nuke
+2386864,2,CPH Wolves,removed,Inferno
+2386864,3,The Glecs,picked,Ancient
+2386864,4,CPH Wolves,picked,Overpass
+2386864,5,The Glecs,removed,Mirage
+2386864,6,CPH Wolves,removed,Dust2
+2386868,1,GANK,removed,Ancient
+2386868,2,MANA,removed,Train
+2386868,3,GANK,picked,Inferno
+2386868,4,MANA,picked,Mirage
+2386868,5,GANK,removed,Nuke
+2386868,6,MANA,removed,Overpass
+2386633,1,Getting Info,removed,Inferno
+2386633,2,Wildcard,removed,Mirage
+2386633,3,Getting Info,picked,Train
+2386633,4,Wildcard,picked,Overpass
+2386633,5,Getting Info,removed,Nuke
+2386633,6,Wildcard,removed,Ancient
+2386989,1,Outfit 49,removed,Nuke
+2386989,2,Zomblers,removed,Train
+2386989,3,Outfit 49,picked,Mirage
+2386989,4,Zomblers,picked,Inferno
+2386989,5,Outfit 49,removed,Ancient
+2386989,6,Zomblers,removed,Dust2
+2386992,1,LAG,removed,Mirage
+2386992,2,Phoenix,removed,Inferno
+2386992,3,LAG,picked,Ancient
+2386992,4,Phoenix,picked,Nuke
+2386992,5,LAG,removed,Overpass
+2386992,6,Phoenix,removed,Train
+2386763,1,wwaves,removed,Nuke
+2386763,2,Shimmer,removed,Train
+2386763,3,wwaves,picked,Ancient
+2386763,4,Shimmer,picked,Mirage
+2386763,5,wwaves,removed,Overpass
+2386763,6,Shimmer,removed,Inferno
+2386764,1,Little Bocks,removed,Train
+2386764,2,Black Mold,removed,Ancient
+2386764,3,Little Bocks,picked,Dust2
+2386764,4,Black Mold,picked,Mirage
+2386764,5,Little Bocks,removed,Overpass
+2386764,6,Black Mold,removed,Nuke
+2386708,1,MIBR Academy,removed,Inferno
+2386708,2,Sharks,removed,Dust2
+2386708,3,MIBR Academy,picked,Ancient
+2386708,4,Sharks,picked,Train
+2386708,5,MIBR Academy,removed,Nuke
+2386708,6,Sharks,removed,Mirage
+2386759,1,CAPIVARAS,removed,Ancient
+2386759,2,Dusty Roses,removed,Inferno
+2386759,3,CAPIVARAS,picked,Mirage
+2386759,4,Dusty Roses,picked,Overpass
+2386759,5,CAPIVARAS,removed,Train
+2386759,6,Dusty Roses,removed,Nuke
+2386760,1,thekillaz fe,removed,Train
+2386760,2,Atrix,removed,Ancient
+2386760,3,thekillaz fe,picked,Dust2
+2386760,4,Atrix,picked,Nuke
+2386760,5,thekillaz fe,removed,Overpass
+2386760,6,Atrix,removed,Mirage
+2386803,1,Venom,removed,Inferno
+2386803,2,Imperial,removed,Ancient
+2386803,3,Venom,picked,Train
+2386803,4,Imperial,picked,Overpass
+2386803,5,Venom,removed,Mirage
+2386803,6,Imperial,removed,Nuke
+2386707,1,Players,removed,Train
+2386707,2,ShindeN,removed,Dust2
+2386707,3,Players,picked,Inferno
+2386707,4,ShindeN,picked,Mirage
+2386707,5,Players,removed,Nuke
+2386707,6,ShindeN,removed,Overpass
+2386948,1,Flame Sharks,removed,Inferno
+2386948,2,ECLOT,removed,Train
+2386948,3,Flame Sharks,picked,Dust2
+2386948,4,ECLOT,picked,Mirage
+2386948,5,Flame Sharks,removed,Ancient
+2386948,6,ECLOT,removed,Overpass
+2386755,1,Flame Sharks fe,removed,Nuke
+2386755,2,888aura,removed,Train
+2386755,3,Flame Sharks fe,picked,Inferno
+2386755,4,888aura,picked,Mirage
+2386755,5,Flame Sharks fe,removed,Ancient
+2386755,6,888aura,removed,Dust2
+2386756,1,Overpeek,removed,Inferno
+2386756,2,BIG EQUIPA,removed,Train
+2386756,3,Overpeek,picked,Dust2
+2386756,4,BIG EQUIPA,picked,Mirage
+2386756,5,Overpeek,removed,Ancient
+2386756,6,BIG EQUIPA,removed,Overpass
+2386571,1,Johnny Speeds,removed,Ancient
+2386571,2,Partizan,removed,Train
+2386571,3,Johnny Speeds,picked,Overpass
+2386571,4,Partizan,picked,Dust2
+2386571,5,Johnny Speeds,removed,Inferno
+2386571,6,Partizan,removed,Nuke
+2386572,1,Zero Tenacity,removed,Ancient
+2386572,2,Alliance,removed,Mirage
+2386572,3,Zero Tenacity,picked,Dust2
+2386572,4,Alliance,picked,Inferno
+2386572,5,Zero Tenacity,removed,Overpass
+2386572,6,Alliance,removed,Nuke
+2386881,1,Fire Flux,removed,Nuke
+2386881,2,RUBY,removed,Inferno
+2386881,3,Fire Flux,picked,Ancient
+2386881,4,RUBY,picked,Dust2
+2386881,5,Fire Flux,removed,Mirage
+2386881,6,RUBY,removed,Overpass
+2386706,1,Yawara,removed,Inferno
+2386706,2,Gaimin Gladiators,removed,Mirage
+2386706,3,Yawara,picked,Ancient
+2386706,4,Gaimin Gladiators,picked,Dust2
+2386706,5,Yawara,removed,Nuke
+2386706,6,Gaimin Gladiators,removed,Overpass
+2386947,1,ALGO,removed,Dust2
+2386947,2,Flame Sharks,removed,Inferno
+2386947,3,ALGO,picked,Overpass
+2386947,4,Flame Sharks,picked,Nuke
+2386947,5,ALGO,removed,Ancient
+2386947,6,Flame Sharks,removed,Mirage
+2386870,1,WOPA,removed,Dust2
+2386870,2,G2 Ares,removed,Nuke
+2386870,3,WOPA,picked,Overpass
+2386870,4,G2 Ares,picked,Ancient
+2386870,5,WOPA,removed,Train
+2386870,6,G2 Ares,removed,Mirage
+2386741,1,m1x,removed,Nuke
+2386741,2,SPARTA,removed,Inferno
+2386741,3,m1x,picked,Ancient
+2386741,4,SPARTA,picked,Train
+2386741,5,m1x,removed,Overpass
+2386741,6,SPARTA,removed,Dust2
+2386529,1,FengDa,removed,Overpass
+2386529,2,Rare Atom,removed,Nuke
+2386529,3,FengDa,picked,Mirage
+2386529,4,Rare Atom,picked,Dust2
+2386529,5,FengDa,removed,Train
+2386529,6,Rare Atom,removed,Ancient
+2386946,1,ECLOT,removed,Train
+2386946,2,33,removed,Overpass
+2386946,3,ECLOT,picked,Inferno
+2386946,4,33,picked,Nuke
+2386946,5,ECLOT,removed,Dust2
+2386946,6,33,removed,Mirage
+2386858,1,fish123,removed,Ancient
+2386858,2,Wildcard Academy,removed,Inferno
+2386858,3,fish123,picked,Mirage
+2386858,4,Wildcard Academy,picked,Train
+2386858,5,fish123,removed,Overpass
+2386858,6,Wildcard Academy,removed,Nuke
+2386880,1,ALLINNERS,removed,Overpass
+2386880,2,VRSoholics,removed,Ancient
+2386880,3,ALLINNERS,picked,Dust2
+2386880,4,VRSoholics,picked,Mirage
+2386880,5,ALLINNERS,removed,Nuke
+2386880,6,VRSoholics,removed,Inferno
+2386739,1,kONO,removed,Mirage
+2386739,2,ARCRED,removed,Overpass
+2386739,3,kONO,picked,Inferno
+2386739,4,ARCRED,picked,Train
+2386739,5,kONO,removed,Ancient
+2386739,6,ARCRED,removed,Nuke
+2386507,1,Mindfreak,removed,Overpass
+2386507,2,Rooster,removed,Ancient
+2386507,3,Mindfreak,picked,Dust2
+2386507,4,Rooster,picked,Nuke
+2386507,5,Mindfreak,removed,Mirage
+2386507,6,Rooster,removed,Train
+2386795,1,GenOne,removed,Train
+2386795,2,fish123,removed,Inferno
+2386795,3,GenOne,picked,Nuke
+2386795,4,fish123,picked,Ancient
+2386795,5,GenOne,removed,Mirage
+2386795,6,fish123,removed,Dust2
+2386859,1,AM,removed,Train
+2386859,2,MASONIC,removed,Dust2
+2386859,3,AM,picked,Ancient
+2386859,4,MASONIC,picked,Nuke
+2386859,5,AM,removed,Inferno
+2386859,6,MASONIC,removed,Mirage
+2386878,1,NOVAQ,removed,Overpass
+2386878,2,NIP Impact,removed,Nuke
+2386878,3,NOVAQ,picked,Dust2
+2386878,4,NIP Impact,picked,Train
+2386878,5,NOVAQ,removed,Inferno
+2386878,6,NIP Impact,removed,Mirage
+2386815,1,InControl,removed,Dust2
+2386815,2,Take Flyte,removed,Train
+2386815,3,InControl,picked,Nuke
+2386815,4,Take Flyte,picked,Overpass
+2386815,5,InControl,removed,Ancient
+2386815,6,Take Flyte,removed,Inferno
+2386818,1,Shimmer,removed,Train
+2386818,2,Nocturnal,removed,Mirage
+2386818,3,Shimmer,picked,Dust2
+2386818,4,Nocturnal,picked,Ancient
+2386818,5,Shimmer,removed,Inferno
+2386818,6,Nocturnal,removed,Nuke
+2386632,1,BOSS,removed,Nuke
+2386632,2,Getting Info,removed,Inferno
+2386632,3,BOSS,picked,Mirage
+2386632,4,Getting Info,picked,Ancient
+2386632,5,BOSS,removed,Overpass
+2386632,6,Getting Info,removed,Dust2
+2386631,1,regain,removed,Nuke
+2386631,2,Wildcard,removed,Mirage
+2386631,3,regain,picked,Ancient
+2386631,4,Wildcard,picked,Overpass
+2386631,5,regain,removed,Train
+2386631,6,Wildcard,removed,Dust2
+2386761,1,Nocturnal,removed,Inferno
+2386761,2,FlyQuest RED,removed,Ancient
+2386761,3,Nocturnal,picked,Train
+2386761,4,FlyQuest RED,picked,Mirage
+2386761,5,Nocturnal,removed,Nuke
+2386761,6,FlyQuest RED,removed,Overpass
+2386762,1,Lotus fe,removed,Inferno
+2386762,2,Ghost,removed,Mirage
+2386762,3,Lotus fe,picked,Ancient
+2386762,4,Ghost,picked,Overpass
+2386762,5,Lotus fe,removed,Nuke
+2386762,6,Ghost,removed,Train
+2386704,1,Galorys,removed,Inferno
+2386704,2,FOLHA AMARELA,removed,Train
+2386704,3,Galorys,picked,Overpass
+2386704,4,FOLHA AMARELA,picked,Dust2
+2386704,5,Galorys,removed,Mirage
+2386704,6,FOLHA AMARELA,removed,Nuke
+2386601,1,Gaimin Gladiators,removed,Mirage
+2386601,2,Keyd Stars,removed,Train
+2386601,3,Gaimin Gladiators,picked,Dust2
+2386601,4,Keyd Stars,picked,Ancient
+2386601,5,Gaimin Gladiators,removed,Nuke
+2386601,6,Keyd Stars,removed,Overpass
+2386758,1,Four Magic fe,removed,Overpass
+2386758,2,MIBR fe,removed,Train
+2386758,3,Four Magic fe,picked,Nuke
+2386758,4,MIBR fe,picked,Mirage
+2386758,5,Four Magic fe,removed,Dust2
+2386758,6,MIBR fe,removed,Inferno
+2386757,1,Curralzinho,removed,Inferno
+2386757,2,FURIA fe,removed,Mirage
+2386757,3,Curralzinho,picked,Ancient
+2386757,4,FURIA fe,picked,Nuke
+2386757,5,Curralzinho,removed,Overpass
+2386757,6,FURIA fe,removed,Dust2
+2386754,1,shinigami,removed,Ancient
+2386754,2,Imperial Valkyries,removed,Overpass
+2386754,3,shinigami,picked,Dust2
+2386754,4,Imperial Valkyries,picked,Mirage
+2386754,5,shinigami,removed,Train
+2386754,6,Imperial Valkyries,removed,Nuke
+2386753,1,hindsight,removed,Dust2
+2386753,2,Let Her Cook,removed,Inferno
+2386753,3,hindsight,picked,Nuke
+2386753,4,Let Her Cook,picked,Ancient
+2386753,5,hindsight,removed,Train
+2386753,6,Let Her Cook,removed,Overpass
+2386703,1,UnderDogs,removed,Train
+2386703,2,Fake do Biru,removed,Ancient
+2386703,3,UnderDogs,picked,Inferno
+2386703,4,Fake do Biru,picked,Dust2
+2386703,5,UnderDogs,removed,Overpass
+2386703,6,Fake do Biru,removed,Nuke
+2386945,1,ALGO,removed,Dust2
+2386945,2,Nexus,removed,Overpass
+2386945,3,ALGO,picked,Nuke
+2386945,4,Nexus,picked,Mirage
+2386945,5,ALGO,removed,Ancient
+2386945,6,Nexus,removed,Inferno
+2386799,1,Venom,removed,Inferno
+2386799,2,Aurora,removed,Ancient
+2386799,3,Venom,picked,Nuke
+2386799,4,Aurora,picked,Overpass
+2386799,5,Venom,removed,Dust2
+2386799,6,Aurora,removed,Train
+2386863,1,RUBY,removed,Inferno
+2386863,2,ALLINNERS,removed,Overpass
+2386863,3,RUBY,picked,Nuke
+2386863,4,ALLINNERS,picked,Ancient
+2386863,5,RUBY,removed,Dust2
+2386863,6,ALLINNERS,removed,Train
+2386569,1,ESC,removed,Train
+2386569,2,Zero Tenacity,removed,Ancient
+2386569,3,ESC,picked,Nuke
+2386569,4,Zero Tenacity,picked,Dust2
+2386569,5,ESC,removed,Overpass
+2386569,6,Zero Tenacity,removed,Mirage
+2386702,1,Dusty Roots,removed,Overpass
+2386702,2,LP,removed,Dust2
+2386702,3,Dusty Roots,picked,Nuke
+2386702,4,LP,picked,Inferno
+2386702,5,Dusty Roots,removed,Ancient
+2386702,6,LP,removed,Train
+2386568,1,GUN5,removed,Overpass
+2386568,2,Alliance,removed,Mirage
+2386568,3,GUN5,picked,Dust2
+2386568,4,Alliance,picked,Inferno
+2386568,5,GUN5,removed,Train
+2386568,6,Alliance,removed,Nuke
+2386567,1,Partizan,removed,Train
+2386567,2,Monte,removed,Inferno
+2386567,3,Partizan,picked,Dust2
+2386567,4,Monte,picked,Nuke
+2386567,5,Partizan,removed,Overpass
+2386567,6,Monte,removed,Mirage
+2386944,1,Flame Sharks,removed,Inferno
+2386944,2,Nuclear TigeRES,removed,Overpass
+2386944,3,Flame Sharks,picked,Nuke
+2386944,4,Nuclear TigeRES,picked,Ancient
+2386944,5,Flame Sharks,removed,Train
+2386944,6,Nuclear TigeRES,removed,Mirage
+2386862,1,VRSoholics,removed,Ancient
+2386862,2,Fire Flux,removed,Nuke
+2386862,3,VRSoholics,picked,Inferno
+2386862,4,Fire Flux,picked,Train
+2386862,5,VRSoholics,removed,Dust2
+2386862,6,Fire Flux,removed,Mirage
+2386738,1,SPARTA,removed,Dust2
+2386738,2,Betera,removed,Mirage
+2386738,3,SPARTA,picked,Train
+2386738,4,Betera,picked,Ancient
+2386738,5,SPARTA,removed,Overpass
+2386738,6,Betera,removed,Inferno
+2386701,1,Keyd Stars,removed,Train
+2386701,2,Crashers,removed,Overpass
+2386701,3,Keyd Stars,picked,Mirage
+2386701,4,Crashers,picked,Dust2
+2386701,5,Keyd Stars,removed,Nuke
+2386701,6,Crashers,removed,Ancient
+2386943,1,ECLOT,removed,Train
+2386943,2,AM,removed,Nuke
+2386943,3,ECLOT,picked,Inferno
+2386943,4,AM,picked,Dust2
+2386943,5,ECLOT,removed,Mirage
+2386943,6,AM,removed,Ancient
+2386737,1,500,removed,Train
+2386737,2,ARCRED,removed,Overpass
+2386737,3,500,picked,Inferno
+2386737,4,ARCRED,picked,Mirage
+2386737,5,500,removed,Nuke
+2386737,6,ARCRED,removed,Dust2
+2386861,1,NOVAQ,removed,Overpass
+2386861,2,AMKAL,removed,Nuke
+2386861,3,NOVAQ,picked,Inferno
+2386861,4,AMKAL,picked,Ancient
+2386861,5,NOVAQ,removed,Dust2
+2386861,6,AMKAL,removed,Train
+2386857,1,MANA,removed,Train
+2386857,2,G2 Ares,removed,Nuke
+2386857,3,MANA,picked,Dust2
+2386857,4,G2 Ares,picked,Ancient
+2386857,5,MANA,removed,Overpass
+2386857,6,G2 Ares,removed,Mirage
+2386942,1,Preasy Mix,removed,Train
+2386942,2,33,removed,Overpass
+2386942,3,Preasy Mix,picked,Ancient
+2386942,4,33,picked,Nuke
+2386942,5,Preasy Mix,removed,Dust2
+2386942,6,33,removed,Mirage
+2386736,1,UNiTY,removed,Nuke
+2386736,2,Nexus,removed,Overpass
+2386736,3,UNiTY,picked,Ancient
+2386736,4,Nexus,picked,Dust2
+2386736,5,UNiTY,removed,Inferno
+2386736,6,Nexus,removed,Train
+2386506,1,Mindfreak,removed,Ancient
+2386506,2,SemperFi,removed,Train
+2386506,3,Mindfreak,picked,Dust2
+2386506,4,SemperFi,picked,Overpass
+2386506,5,Mindfreak,removed,Mirage
+2386506,6,SemperFi,removed,Inferno
+2386794,1,Mousquetaires,removed,Mirage
+2386794,2,fish123,removed,Train
+2386794,3,Mousquetaires,picked,Overpass
+2386794,4,fish123,picked,Ancient
+2386794,5,Mousquetaires,removed,Inferno
+2386794,6,fish123,removed,Dust2
+2386856,1,WOPA,removed,Dust2
+2386856,2,GANK,removed,Ancient
+2386856,3,WOPA,picked,Nuke
+2386856,4,GANK,picked,Overpass
+2386856,5,WOPA,removed,Train
+2386856,6,GANK,removed,Inferno
+2386860,1,SPARTA,removed,Inferno
+2386860,2,NIP Impact,removed,Nuke
+2386860,3,SPARTA,picked,Mirage
+2386860,4,NIP Impact,picked,Train
+2386860,5,SPARTA,removed,Overpass
+2386860,6,NIP Impact,removed,Ancient
+2386630,1,ex-Chicken Coop,removed,Mirage
+2386630,2,BOSS,removed,Nuke
+2386630,3,ex-Chicken Coop,picked,Overpass
+2386630,4,BOSS,picked,Ancient
+2386630,5,ex-Chicken Coop,removed,Train
+2386630,6,BOSS,removed,Dust2
+2386627,1,Getting Info,removed,Inferno
+2386627,2,Rave,removed,Train
+2386627,3,Getting Info,picked,Ancient
+2386627,4,Rave,picked,Dust2
+2386627,5,Getting Info,removed,Nuke
+2386627,6,Rave,removed,Mirage
+2386629,1,TSG,removed,Inferno
+2386629,2,regain,removed,Nuke
+2386629,3,TSG,picked,Mirage
+2386629,4,regain,picked,Ancient
+2386629,5,TSG,removed,Overpass
+2386629,6,regain,removed,Train
+2386600,1,Procyon,removed,Mirage
+2386600,2,ShindeN,removed,Train
+2386600,3,Procyon,picked,Inferno
+2386600,4,ShindeN,picked,Nuke
+2386600,5,Procyon,removed,Overpass
+2386600,6,ShindeN,removed,Dust2
+2386598,1,Dusty Roots,removed,Overpass
+2386598,2,Keyd Stars,removed,Train
+2386598,3,Dusty Roots,picked,Nuke
+2386598,4,Keyd Stars,picked,Ancient
+2386598,5,Dusty Roots,removed,Inferno
+2386598,6,Keyd Stars,removed,Dust2
+2386564,1,33,removed,Overpass
+2386564,2,Partizan,removed,Train
+2386564,3,33,picked,Nuke
+2386564,4,Partizan,picked,Inferno
+2386564,5,33,removed,Mirage
+2386564,6,Partizan,removed,Ancient
+2386699,1,KRÜ,removed,Train
+2386699,2,Crashers,removed,Overpass
+2386699,3,KRÜ,picked,Dust2
+2386699,4,Crashers,picked,Inferno
+2386699,5,KRÜ,removed,Mirage
+2386699,6,Crashers,removed,Ancient
+2386566,1,GUN5,removed,Overpass
+2386566,2,500,removed,Train
+2386566,3,GUN5,picked,Dust2
+2386566,4,500,picked,Inferno
+2386566,5,GUN5,removed,Mirage
+2386566,6,500,removed,Nuke
+2386698,1,Bounty Hunters,removed,Inferno
+2386698,2,Vasco,removed,Train
+2386698,3,Bounty Hunters,picked,Mirage
+2386698,4,Vasco,picked,Overpass
+2386698,5,Bounty Hunters,removed,Ancient
+2386698,6,Vasco,removed,Nuke
+2386527,1,FengDa,removed,Overpass
+2386527,2,Kaleido,removed,Train
+2386527,3,FengDa,picked,Nuke
+2386527,4,Kaleido,picked,Inferno
+2386527,5,FengDa,removed,Mirage
+2386527,6,Kaleido,removed,Ancient
+2386735,1,Leo,removed,Inferno
+2386735,2,1win,removed,Ancient
+2386735,3,Leo,picked,Train
+2386735,4,1win,picked,Dust2
+2386735,5,Leo,removed,Mirage
+2386735,6,1win,removed,Nuke
+2386734,1,Nuclear TigeRES,removed,Overpass
+2386734,2,kONO,removed,Mirage
+2386734,3,Nuclear TigeRES,picked,Ancient
+2386734,4,kONO,picked,Dust2
+2386734,5,Nuclear TigeRES,removed,Nuke
+2386734,6,kONO,removed,Train
+2386793,1,fish123,removed,Inferno
+2386793,2,GenOne,removed,Train
+2386793,3,fish123,picked,Ancient
+2386793,4,GenOne,picked,Overpass
+2386793,5,fish123,removed,Mirage
+2386793,6,GenOne,removed,Dust2
+2386505,1,FURY,removed,Mirage
+2386505,2,Rooster,removed,Ancient
+2386505,3,FURY,picked,Train
+2386505,4,Rooster,picked,Overpass
+2386505,5,FURY,removed,Dust2
+2386505,6,Rooster,removed,Inferno
+2386733,1,m1x,removed,Nuke
+2386733,2,FAVBET,removed,Mirage
+2386733,3,m1x,picked,Ancient
+2386733,4,FAVBET,picked,Inferno
+2386733,5,m1x,removed,Overpass
+2386733,6,FAVBET,removed,Dust2
+2386792,1,G2 Ares,removed,Nuke
+2386792,2,Mousquetaires,removed,Mirage
+2386792,3,G2 Ares,picked,Ancient
+2386792,4,Mousquetaires,picked,Overpass
+2386792,5,G2 Ares,removed,Dust2
+2386792,6,Mousquetaires,removed,Train
+2386813,1,FULL SEND,removed,Inferno
+2386813,2,BOSS,removed,Dust2
+2386813,3,FULL SEND,picked,Mirage
+2386813,4,BOSS,picked,Ancient
+2386813,5,FULL SEND,removed,Train
+2386813,6,BOSS,removed,Nuke
+2386817,1,regain,removed,Nuke
+2386817,2,Money Crew,removed,Train
+2386817,3,regain,picked,Inferno
+2386817,4,Money Crew,picked,Mirage
+2386817,5,regain,removed,Overpass
+2386817,6,Money Crew,removed,Dust2
+2386816,1,Zomblers,removed,Train
+2386816,2,Phoenix,removed,Inferno
+2386816,3,Zomblers,picked,Ancient
+2386816,4,Phoenix,picked,Nuke
+2386816,5,Zomblers,removed,Dust2
+2386816,6,Phoenix,removed,Overpass
+2386811,1,Marsborne,removed,Mirage
+2386811,2,SportsBetExpert,removed,Nuke
+2386811,3,Marsborne,picked,Inferno
+2386811,4,SportsBetExpert,picked,Ancient
+2386811,5,Marsborne,removed,Dust2
+2386811,6,SportsBetExpert,removed,Train
+2386812,1,anything else,removed,Ancient
+2386812,2,Getting Info,removed,Inferno
+2386812,3,anything else,picked,Mirage
+2386812,4,Getting Info,picked,Overpass
+2386812,5,anything else,removed,Dust2
+2386812,6,Getting Info,removed,Train
+2386814,1,LAG,removed,Mirage
+2386814,2,Outfit 49,removed,Ancient
+2386814,3,LAG,picked,Inferno
+2386814,4,Outfit 49,picked,Dust2
+2386814,5,LAG,removed,Overpass
+2386814,6,Outfit 49,removed,Train
+2386697,1,KRÜ,removed,Train
+2386697,2,LP,removed,Overpass
+2386697,3,KRÜ,picked,Nuke
+2386697,4,LP,picked,Inferno
+2386697,5,KRÜ,removed,Mirage
+2386697,6,LP,removed,Dust2
+2386696,1,GameHunters,removed,Train
+2386696,2,UnderDogs,removed,Mirage
+2386696,3,GameHunters,picked,Nuke
+2386696,4,UnderDogs,picked,Inferno
+2386696,5,GameHunters,removed,Ancient
+2386696,6,UnderDogs,removed,Overpass
+2386695,1,Bounty Hunters,removed,Inferno
+2386695,2,Players,removed,Train
+2386695,3,Bounty Hunters,picked,Mirage
+2386695,4,Players,picked,Dust2
+2386695,5,Bounty Hunters,removed,Overpass
+2386695,6,Players,removed,Nuke
+2386731,1,500,removed,Train
+2386731,2,Oramond,removed,Overpass
+2386731,3,500,picked,Ancient
+2386731,4,Oramond,picked,Nuke
+2386731,5,500,removed,Dust2
+2386731,6,Oramond,removed,Inferno
+2386790,1,MASONIC,removed,Dust2
+2386790,2,G2 Ares,removed,Nuke
+2386790,3,MASONIC,picked,Train
+2386790,4,G2 Ares,picked,Mirage
+2386790,5,MASONIC,removed,Ancient
+2386790,6,G2 Ares,removed,Overpass
+2386432,1,BetBoom,removed,Inferno
+2386432,2,Spirit Academy,removed,Overpass
+2386432,3,BetBoom,picked,Nuke
+2386432,4,Spirit Academy,picked,Ancient
+2386432,5,BetBoom,removed,Train
+2386432,6,Spirit Academy,removed,Mirage
+2386791,1,Mousquetaires,removed,Mirage
+2386791,2,Aurora Young Blud,removed,Inferno
+2386791,3,Mousquetaires,picked,Nuke
+2386791,4,Aurora Young Blud,picked,Ancient
+2386791,5,Mousquetaires,removed,Train
+2386791,6,Aurora Young Blud,removed,Dust2
+2386729,1,m1x,removed,Nuke
+2386729,2,RUBY,removed,Inferno
+2386729,3,m1x,picked,Mirage
+2386729,4,RUBY,picked,Train
+2386729,5,m1x,removed,Overpass
+2386729,6,RUBY,removed,Ancient
+2386854,1,Peekaboo,removed,Overpass
+2386854,2,BIG EQUIPA,removed,Train
+2386854,3,Peekaboo,picked,Ancient
+2386854,4,BIG EQUIPA,picked,Inferno
+2386854,5,Peekaboo,removed,Dust2
+2386854,6,BIG EQUIPA,removed,Nuke
+2386693,1,MIBR Academy,removed,Inferno
+2386693,2,Procyon,removed,Train
+2386693,3,MIBR Academy,picked,Ancient
+2386693,4,Procyon,picked,Nuke
+2386693,5,MIBR Academy,removed,Dust2
+2386693,6,Procyon,removed,Overpass
+2386346,1,BetBoom,removed,Inferno
+2386346,2,RUBY,removed,Train
+2386346,3,BetBoom,picked,Nuke
+2386346,4,RUBY,picked,Dust2
+2386346,5,BetBoom,removed,Overpass
+2386346,6,RUBY,removed,Ancient
+2386853,1,confidence,removed,Ancient
+2386853,2,Peekaboo,removed,Dust2
+2386853,3,confidence,removed,Inferno
+2386853,4,Peekaboo,removed,Mirage
+2386853,5,confidence,removed,Train
+2386853,6,Peekaboo,removed,Overpass
+2386772,1,Famalicão,removed,Nuke
+2386772,2,Rebels,removed,Mirage
+2386772,3,Famalicão,picked,Train
+2386772,4,Rebels,picked,Overpass
+2386772,5,Famalicão,picked,Ancient
+2386772,6,Rebels,picked,Dust2
+2386692,1,VEXA,removed,Nuke
+2386692,2,Crashers,removed,Overpass
+2386692,3,VEXA,picked,Train
+2386692,4,Crashers,picked,Inferno
+2386692,5,VEXA,removed,Mirage
+2386692,6,Crashers,removed,Ancient
+2386852,1,confidence,removed,Ancient
+2386852,2,hindsight,removed,Overpass
+2386852,3,confidence,removed,Inferno
+2386852,4,hindsight,removed,Dust2
+2386852,5,confidence,removed,Train
+2386852,6,hindsight,removed,Nuke
+2386851,1,Peekaboo,removed,Dust2
+2386851,2,BIG EQUIPA,removed,Train
+2386851,3,Peekaboo,removed,Overpass
+2386851,4,BIG EQUIPA,removed,Nuke
+2386851,5,Peekaboo,removed,Inferno
+2386851,6,BIG EQUIPA,removed,Ancient
+2386430,1,Eternal Fire,removed,Ancient
+2386430,2,ECSTATIC,removed,Mirage
+2386430,3,Eternal Fire,picked,Dust2
+2386430,4,ECSTATIC,picked,Train
+2386430,5,Eternal Fire,removed,Nuke
+2386430,6,ECSTATIC,removed,Overpass
+2386429,1,Spirit Academy,removed,Inferno
+2386429,2,Betera,removed,Mirage
+2386429,3,Spirit Academy,picked,Ancient
+2386429,4,Betera,picked,Dust2
+2386429,5,Spirit Academy,removed,Nuke
+2386429,6,Betera,removed,Overpass
+2386344,1,RUBY,removed,Inferno
+2386344,2,ESC,removed,Train
+2386344,3,RUBY,picked,Dust2
+2386344,4,ESC,picked,Nuke
+2386344,5,RUBY,removed,Ancient
+2386344,6,ESC,removed,Overpass
+2386789,1,GenOne,removed,Train
+2386789,2,MASONIC,removed,Dust2
+2386789,3,GenOne,picked,Mirage
+2386789,4,MASONIC,picked,Nuke
+2386789,5,GenOne,removed,Inferno
+2386789,6,MASONIC,removed,Ancient
+2386788,1,Aurora Young Blud,removed,Inferno
+2386788,2,fish123,removed,Train
+2386788,3,Aurora Young Blud,picked,Dust2
+2386788,4,fish123,picked,Nuke
+2386788,5,Aurora Young Blud,removed,Mirage
+2386788,6,fish123,removed,Overpass
+2386780,1,Dusty Roots,removed,Overpass
+2386780,2,BESTIA,removed,Train
+2386780,3,Dusty Roots,picked,Nuke
+2386780,4,BESTIA,picked,Ancient
+2386780,5,Dusty Roots,removed,Dust2
+2386780,6,BESTIA,removed,Mirage
+2386691,1,UnderDogs,removed,Overpass
+2386691,2,Yawara,removed,Inferno
+2386691,3,UnderDogs,picked,Ancient
+2386691,4,Yawara,picked,Mirage
+2386691,5,UnderDogs,removed,Train
+2386691,6,Yawara,removed,Nuke
+2386850,1,Minsk House,removed,Nuke
+2386850,2,OLD BASTARDS,removed,Ancient
+2386850,3,Minsk House,picked,Overpass
+2386850,4,OLD BASTARDS,picked,Inferno
+2386850,5,Minsk House,removed,Train
+2386850,6,OLD BASTARDS,removed,Mirage
+2386690,1,GameHunters,removed,Train
+2386690,2,FOLHA AMARELA,removed,Overpass
+2386690,3,GameHunters,picked,Nuke
+2386690,4,FOLHA AMARELA,picked,Ancient
+2386690,5,GameHunters,removed,Dust2
+2386690,6,FOLHA AMARELA,removed,Inferno
+2386427,1,Partizan,removed,Train
+2386427,2,SINNERS,removed,Ancient
+2386427,3,Partizan,picked,Inferno
+2386427,4,SINNERS,picked,Nuke
+2386427,5,Partizan,removed,Overpass
+2386427,6,SINNERS,removed,Dust2
+2386779,1,R2,removed,Mirage
+2386779,2,9z,removed,Overpass
+2386779,3,R2,picked,Nuke
+2386779,4,9z,picked,Inferno
+2386779,5,R2,removed,Train
+2386779,6,9z,removed,Dust2
+2386689,1,Players,removed,Train
+2386689,2,Crashers,removed,Overpass
+2386689,3,Players,picked,Dust2
+2386689,4,Crashers,picked,Nuke
+2386689,5,Players,removed,Ancient
+2386689,6,Crashers,removed,Mirage
+2386343,1,Sashi,removed,Mirage
+2386343,2,RUBY,removed,Inferno
+2386343,3,Sashi,picked,Nuke
+2386343,4,RUBY,picked,Dust2
+2386343,5,Sashi,removed,Train
+2386343,6,RUBY,removed,Overpass
+2386849,1,Just Passing By,removed,Ancient
+2386849,2,JiJieHao,removed,Overpass
+2386849,3,Just Passing By,picked,Dust2
+2386849,4,JiJieHao,picked,Nuke
+2386849,5,Just Passing By,removed,Inferno
+2386849,6,JiJieHao,removed,Train
+2386771,1,One For All,removed,Overpass
+2386771,2,Rebels,removed,Mirage
+2386771,3,One For All,picked,Ancient
+2386771,4,Rebels,picked,Nuke
+2386771,5,One For All,removed,Inferno
+2386771,6,Rebels,removed,Train
+2386426,1,Eternal Fire,removed,Ancient
+2386426,2,BC.Game,removed,Train
+2386426,3,Eternal Fire,picked,Overpass
+2386426,4,BC.Game,picked,Dust2
+2386426,5,Eternal Fire,removed,Mirage
+2386426,6,BC.Game,removed,Nuke
+2386675,1,SINNERS,removed,Ancient
+2386675,2,ECLOT,removed,Dust2
+2386675,3,SINNERS,picked,Nuke
+2386675,4,ECLOT,picked,Inferno
+2386675,5,SINNERS,picked,Mirage
+2386675,6,ECLOT,picked,Overpass
+2386342,1,EYEBALLERS,removed,Nuke
+2386342,2,ESC,removed,Train
+2386342,3,EYEBALLERS,picked,Overpass
+2386342,4,ESC,picked,Ancient
+2386342,5,EYEBALLERS,removed,Inferno
+2386342,6,ESC,removed,Dust2
+2386688,1,KRÜ,removed,Train
+2386688,2,Vasco,removed,Ancient
+2386688,3,KRÜ,picked,Dust2
+2386688,4,Vasco,picked,Overpass
+2386688,5,KRÜ,removed,Inferno
+2386688,6,Vasco,removed,Nuke
+2386770,1,Leça,removed,Overpass
+2386770,2,Famalicão,removed,Mirage
+2386770,3,Leça,picked,Dust2
+2386770,4,Famalicão,picked,Inferno
+2386770,5,Leça,removed,Train
+2386770,6,Famalicão,removed,Nuke
+2386341,1,Partizan,removed,Train
+2386341,2,BetBoom,removed,Inferno
+2386341,3,Partizan,picked,Mirage
+2386341,4,BetBoom,picked,Nuke
+2386341,5,Partizan,removed,Ancient
+2386341,6,BetBoom,removed,Overpass
+2386787,1,BIG Academy,removed,Ancient
+2386787,2,Mousquetaires,removed,Mirage
+2386787,3,BIG Academy,picked,Overpass
+2386787,4,Mousquetaires,picked,Nuke
+2386787,5,BIG Academy,removed,Train
+2386787,6,Mousquetaires,removed,Dust2
+2386424,1,EYEBALLERS,removed,Ancient
+2386424,2,Spirit Academy,removed,Inferno
+2386424,3,EYEBALLERS,picked,Overpass
+2386424,4,Spirit Academy,picked,Dust2
+2386424,5,EYEBALLERS,removed,Nuke
+2386424,6,Spirit Academy,removed,Train
+2386786,1,ENCE Academy,removed,Train
+2386786,2,G2 Ares,removed,Nuke
+2386786,3,ENCE Academy,picked,Mirage
+2386786,4,G2 Ares,picked,Inferno
+2386786,5,ENCE Academy,removed,Dust2
+2386786,6,G2 Ares,removed,Overpass
+2386674,1,BRUTE,removed,Nuke
+2386674,2,ECLOT,removed,Train
+2386674,3,BRUTE,picked,Inferno
+2386674,4,ECLOT,picked,Ancient
+2386674,5,BRUTE,removed,Dust2
+2386674,6,ECLOT,removed,Overpass
+2386340,1,JiJieHao,removed,Overpass
+2386340,2,1win,removed,Nuke
+2386340,3,JiJieHao,picked,Dust2
+2386340,4,1win,picked,Inferno
+2386340,5,JiJieHao,removed,Train
+2386340,6,1win,removed,Ancient
+2386778,1,R2,removed,Mirage
+2386778,2,ShindeN,removed,Inferno
+2386778,3,R2,removed,Nuke
+2386778,4,ShindeN,removed,Overpass
+2386778,5,R2,removed,Ancient
+2386778,6,ShindeN,removed,Train
+2386777,1,KRÜ,removed,Train
+2386777,2,Dusty Roots,removed,Overpass
+2386777,3,KRÜ,removed,Inferno
+2386777,4,Dusty Roots,removed,Dust2
+2386777,5,KRÜ,removed,Nuke
+2386777,6,Dusty Roots,removed,Ancient
+2386687,1,MAGICOS,removed,Nuke
+2386687,2,Bounty Hunters,removed,Inferno
+2386687,3,MAGICOS,picked,Ancient
+2386687,4,Bounty Hunters,picked,Mirage
+2386687,5,MAGICOS,removed,Train
+2386687,6,Bounty Hunters,removed,Overpass
+2386775,1,KRÜ,removed,Train
+2386775,2,9z,removed,Mirage
+2386775,3,KRÜ,removed,Overpass
+2386775,4,9z,removed,Dust2
+2386775,5,KRÜ,removed,Ancient
+2386775,6,9z,removed,Nuke
+2386686,1,MIBR Academy,removed,Inferno
+2386686,2,LP,removed,Overpass
+2386686,3,MIBR Academy,picked,Dust2
+2386686,4,LP,picked,Mirage
+2386686,5,MIBR Academy,removed,Nuke
+2386686,6,LP,removed,Train
+2386559,1,SINNERS,removed,Train
+2386559,2,Zero Tenacity,removed,Ancient
+2386559,3,SINNERS,picked,Nuke
+2386559,4,Zero Tenacity,picked,Inferno
+2386559,5,SINNERS,removed,Mirage
+2386559,6,Zero Tenacity,removed,Overpass
+2386773,1,KRÜ,removed,Train
+2386773,2,Dusty Roots,removed,Overpass
+2386773,3,KRÜ,removed,Inferno
+2386773,4,Dusty Roots,removed,Ancient
+2386773,5,KRÜ,removed,Nuke
+2386773,6,Dusty Roots,removed,Mirage
+2386774,1,R2,removed,Mirage
+2386774,2,ShindeN,removed,Inferno
+2386774,3,R2,removed,Dust2
+2386774,4,ShindeN,removed,Train
+2386774,5,R2,removed,Ancient
+2386774,6,ShindeN,removed,Overpass
+2386562,1,500,removed,Train
+2386562,2,Sangal,removed,Dust2
+2386562,3,500,picked,Inferno
+2386562,4,Sangal,picked,Overpass
+2386562,5,500,removed,Nuke
+2386562,6,Sangal,removed,Ancient
+2386339,1,Venom,removed,Inferno
+2386339,2,RUBY,removed,Train
+2386339,3,Venom,picked,Overpass
+2386339,4,RUBY,picked,Dust2
+2386339,5,Venom,removed,Ancient
+2386339,6,RUBY,removed,Nuke
+2386672,1,BRUTE,removed,Dust2
+2386672,2,GLORE,removed,Nuke
+2386672,3,BRUTE,picked,Inferno
+2386672,4,GLORE,picked,Mirage
+2386672,5,BRUTE,removed,Train
+2386672,6,GLORE,removed,Ancient
+2386560,1,33,removed,Overpass
+2386560,2,ESC,removed,Train
+2386560,3,33,picked,Ancient
+2386560,4,ESC,picked,Nuke
+2386560,5,33,removed,Dust2
+2386560,6,ESC,removed,Inferno
+2386558,1,Insilio,removed,Inferno
+2386558,2,GUN5,removed,Overpass
+2386558,3,Insilio,picked,Dust2
+2386558,4,GUN5,picked,Ancient
+2386558,5,Insilio,removed,Train
+2386558,6,GUN5,removed,Mirage
+2386556,1,Sashi,removed,Overpass
+2386556,2,Partizan,removed,Train
+2386556,3,Sashi,picked,Nuke
+2386556,4,Partizan,picked,Mirage
+2386556,5,Sashi,removed,Dust2
+2386556,6,Partizan,removed,Ancient
+2386728,1,FORZE Reload,removed,Inferno
+2386728,2,Nexus,removed,Overpass
+2386728,3,FORZE Reload,picked,Ancient
+2386728,4,Nexus,picked,Mirage
+2386728,5,FORZE Reload,removed,Dust2
+2386728,6,Nexus,removed,Train
+2386769,1,One For All,removed,Train
+2386769,2,CarritoSpain,removed,Inferno
+2386769,3,One For All,picked,Dust2
+2386769,4,CarritoSpain,picked,Nuke
+2386769,5,One For All,removed,Mirage
+2386769,6,CarritoSpain,removed,Overpass
+2386810,1,ALLINNERS,removed,Overpass
+2386810,2,Omega,removed,Inferno
+2386810,3,ALLINNERS,picked,Dust2
+2386810,4,Omega,picked,Ancient
+2386810,5,ALLINNERS,picked,Mirage
+2386810,6,Omega,picked,Nuke
+2386557,1,NOVAQ,removed,Inferno
+2386557,2,ARCRED,removed,Dust2
+2386557,3,NOVAQ,picked,Nuke
+2386557,4,ARCRED,picked,Train
+2386557,5,NOVAQ,removed,Mirage
+2386557,6,ARCRED,removed,Overpass
+2386727,1,Leo,removed,Nuke
+2386727,2,kONO,removed,Mirage
+2386727,3,Leo,picked,Ancient
+2386727,4,kONO,picked,Inferno
+2386727,5,Leo,removed,Dust2
+2386727,6,kONO,removed,Train
+2386684,1,R2,removed,Mirage
+2386684,2,VEXA,removed,Nuke
+2386684,3,R2,picked,Overpass
+2386684,4,VEXA,picked,Dust2
+2386684,5,R2,removed,Inferno
+2386684,6,VEXA,removed,Ancient
+2386673,1,ECLOT,removed,Dust2
+2386673,2,SINNERS,removed,Ancient
+2386673,3,ECLOT,picked,Inferno
+2386673,4,SINNERS,picked,Nuke
+2386673,5,ECLOT,removed,Mirage
+2386673,6,SINNERS,removed,Train
+2386768,1,Leça,removed,Nuke
+2386768,2,Rhyno YNG,removed,Mirage
+2386768,3,Leça,picked,Dust2
+2386768,4,Rhyno YNG,picked,Inferno
+2386768,5,Rhyno YNG,removed,Overpass
+2386768,6,Leça,removed,Ancient
+2386337,1,ESC,removed,Train
+2386337,2,Alliance,removed,Mirage
+2386337,3,ESC,picked,Nuke
+2386337,4,Alliance,picked,Inferno
+2386337,5,ESC,removed,Overpass
+2386337,6,Alliance,removed,Dust2
+2386726,1,ARCRED,removed,Dust2
+2386726,2,Betera,removed,Inferno
+2386726,3,ARCRED,picked,Mirage
+2386726,4,Betera,picked,Ancient
+2386726,5,ARCRED,removed,Nuke
+2386726,6,Betera,removed,Train
+2386421,1,9INE,removed,Mirage
+2386421,2,33,removed,Overpass
+2386421,3,9INE,picked,Inferno
+2386421,4,33,picked,Nuke
+2386421,5,9INE,removed,Train
+2386421,6,33,removed,Dust2
+2386785,1,BIG Academy,removed,Ancient
+2386785,2,MASONIC,removed,Mirage
+2386785,3,BIG Academy,picked,Overpass
+2386785,4,MASONIC,picked,Train
+2386785,5,BIG Academy,removed,Nuke
+2386785,6,MASONIC,removed,Dust2
+2386420,1,Betera,removed,Nuke
+2386420,2,Monte,removed,Dust2
+2386420,3,Betera,picked,Ancient
+2386420,4,Monte,picked,Inferno
+2386420,5,Betera,removed,Mirage
+2386420,6,Monte,removed,Overpass
+2386336,1,GUN5,removed,Overpass
+2386336,2,Partizan,removed,Train
+2386336,3,GUN5,picked,Ancient
+2386336,4,Partizan,picked,Inferno
+2386336,5,GUN5,removed,Dust2
+2386336,6,Partizan,removed,Nuke
+2386725,1,SPARTA,removed,Inferno
+2386725,2,Tricked,removed,Dust2
+2386725,3,SPARTA,picked,Mirage
+2386725,4,Tricked,picked,Nuke
+2386725,5,SPARTA,removed,Overpass
+2386725,6,Tricked,removed,Train
+2386784,1,Mousquetaires,removed,Mirage
+2386784,2,GenOne,removed,Train
+2386784,3,Mousquetaires,picked,Nuke
+2386784,4,GenOne,picked,Overpass
+2386784,5,Mousquetaires,removed,Dust2
+2386784,6,GenOne,removed,Inferno
+2386625,1,LAG,removed,Mirage
+2386625,2,BOSS,removed,Nuke
+2386625,3,LAG,picked,Inferno
+2386625,4,BOSS,picked,Ancient
+2386625,5,LAG,removed,Overpass
+2386625,6,BOSS,removed,Dust2
+2386626,1,Take Flyte,removed,Train
+2386626,2,ex-Chicken Coop,removed,Ancient
+2386626,3,Take Flyte,picked,Overpass
+2386626,4,ex-Chicken Coop,picked,Nuke
+2386626,5,Take Flyte,removed,Inferno
+2386626,6,ex-Chicken Coop,removed,Mirage
+2386623,1,Mythic,removed,Inferno
+2386623,2,regain,removed,Nuke
+2386623,3,Mythic,picked,Mirage
+2386623,4,regain,picked,Ancient
+2386623,5,Mythic,removed,Train
+2386623,6,regain,removed,Overpass
+2386300,1,Lotus fe,removed,Inferno
+2386300,2,FlyQuest RED,removed,Ancient
+2386300,3,Lotus fe,picked,Mirage
+2386300,4,FlyQuest RED,picked,Train
+2386300,5,Lotus fe,removed,Dust2
+2386300,6,FlyQuest RED,removed,Overpass
+2386301,1,Nocturnal,removed,Nuke
+2386301,2,Shimmer,removed,Train
+2386301,3,Nocturnal,picked,Ancient
+2386301,4,Shimmer,picked,Dust2
+2386301,5,Nocturnal,removed,Mirage
+2386301,6,Shimmer,removed,Inferno
+2386624,1,TSG,removed,Inferno
+2386624,2,FULL SEND,removed,Mirage
+2386624,3,TSG,picked,Ancient
+2386624,4,FULL SEND,picked,Overpass
+2386624,5,TSG,removed,Dust2
+2386624,6,FULL SEND,removed,Nuke
+2386594,1,LP,removed,Overpass
+2386594,2,2GAME,removed,Ancient
+2386594,3,LP,picked,Nuke
+2386594,4,2GAME,picked,Dust2
+2386594,5,LP,removed,Train
+2386594,6,2GAME,removed,Inferno
+2386683,1,FOLHA AMARELA,removed,Train
+2386683,2,KRÜ,removed,Inferno
+2386683,3,FOLHA AMARELA,picked,Ancient
+2386683,4,KRÜ,picked,Dust2
+2386683,5,FOLHA AMARELA,removed,Overpass
+2386683,6,KRÜ,removed,Mirage
+2386593,1,Tropa do KinGui,removed,Ancient
+2386593,2,Gaimin Gladiators,removed,Mirage
+2386593,3,Tropa do KinGui,picked,Dust2
+2386593,4,Gaimin Gladiators,picked,Inferno
+2386593,5,Tropa do KinGui,removed,Overpass
+2386593,6,Gaimin Gladiators,removed,Nuke
+2386296,1,Four Magic fe,removed,Train
+2386296,2,FURIA fe,removed,Nuke
+2386296,3,Four Magic fe,picked,Inferno
+2386296,4,FURIA fe,picked,Dust2
+2386296,5,Four Magic fe,removed,Overpass
+2386296,6,FURIA fe,removed,Ancient
+2386596,1,Procyon,removed,Train
+2386596,2,Sharks,removed,Dust2
+2386596,3,Procyon,picked,Inferno
+2386596,4,Sharks,picked,Nuke
+2386596,5,Procyon,removed,Ancient
+2386596,6,Sharks,removed,Mirage
+2386297,1,CAPIVARAS,removed,Inferno
+2386297,2,Atrix,removed,Ancient
+2386297,3,CAPIVARAS,picked,Dust2
+2386297,4,Atrix,picked,Nuke
+2386297,5,CAPIVARAS,removed,Train
+2386297,6,Atrix,removed,Mirage
+2386766,1,Phantom,removed,Ancient
+2386766,2,MANA,removed,Train
+2386766,3,Phantom,picked,Nuke
+2386766,4,MANA,picked,Mirage
+2386766,5,Phantom,picked,Overpass
+2386766,6,MANA,picked,Dust2
+2386682,1,Yawara,removed,Nuke
+2386682,2,MIBR Academy,removed,Inferno
+2386682,3,Yawara,picked,Ancient
+2386682,4,MIBR Academy,picked,Dust2
+2386682,5,Yawara,removed,Train
+2386682,6,MIBR Academy,removed,Overpass
+2386293,1,Peekaboo,removed,Overpass
+2386293,2,Nemesis Impact,removed,Train
+2386293,3,Peekaboo,picked,Inferno
+2386293,4,Nemesis Impact,picked,Mirage
+2386293,5,Peekaboo,removed,Dust2
+2386293,6,Nemesis Impact,removed,Ancient
+2386210,1,PARIVISION,removed,Nuke
+2386210,2,GUN5,removed,Overpass
+2386210,3,PARIVISION,picked,Inferno
+2386210,4,GUN5,picked,Ancient
+2386210,5,PARIVISION,removed,Dust2
+2386210,6,GUN5,removed,Train
+2386292,1,AKA HERO KAJO,removed,Mirage
+2386292,2,NIP Impact,removed,Nuke
+2386292,3,AKA HERO KAJO,picked,Train
+2386292,4,NIP Impact,picked,Inferno
+2386292,5,AKA HERO KAJO,removed,Overpass
+2386292,6,NIP Impact,removed,Dust2
+2386551,1,RUBY,removed,Inferno
+2386551,2,ARCRED,removed,Nuke
+2386551,3,RUBY,picked,Dust2
+2386551,4,ARCRED,picked,Train
+2386551,5,RUBY,removed,Overpass
+2386551,6,ARCRED,removed,Ancient
+2386724,1,Leo,removed,Nuke
+2386724,2,500,removed,Train
+2386724,3,Leo,picked,Dust2
+2386724,4,500,picked,Ancient
+2386724,5,Leo,removed,Overpass
+2386724,6,500,removed,Inferno
+2386549,1,SPARTA,removed,Inferno
+2386549,2,Sashi,removed,Mirage
+2386549,3,SPARTA,picked,Dust2
+2386549,4,Sashi,picked,Nuke
+2386549,5,SPARTA,removed,Overpass
+2386549,6,Sashi,removed,Train
+2386335,1,Dziuseppe,removed,Overpass
+2386335,2,BetBoom,removed,Inferno
+2386335,3,Dziuseppe,picked,Ancient
+2386335,4,BetBoom,picked,Mirage
+2386335,5,Dziuseppe,removed,Dust2
+2386335,6,BetBoom,removed,Train
+2386550,1,BC.Game,removed,Train
+2386550,2,Partizan,removed,Nuke
+2386550,3,BC.Game,picked,Mirage
+2386550,4,Partizan,picked,Inferno
+2386550,5,BC.Game,removed,Overpass
+2386550,6,Partizan,removed,Ancient
+2386552,1,NOVAQ,removed,Overpass
+2386552,2,Betera,removed,Inferno
+2386552,3,NOVAQ,picked,Mirage
+2386552,4,Betera,picked,Dust2
+2386552,5,NOVAQ,removed,Train
+2386552,6,Betera,removed,Ancient
+2386419,1,Nexus,removed,Overpass
+2386419,2,Oramond,removed,Inferno
+2386419,3,Nexus,picked,Dust2
+2386419,4,Oramond,picked,Ancient
+2386419,5,Nexus,removed,Train
+2386419,6,Oramond,removed,Mirage
+2386681,1,GameHunters,removed,Train
+2386681,2,Vasco,removed,Ancient
+2386681,3,GameHunters,picked,Mirage
+2386681,4,Vasco,picked,Inferno
+2386681,5,GameHunters,removed,Overpass
+2386681,6,Vasco,removed,Nuke
+2386553,1,GUN5,removed,Overpass
+2386553,2,JiJieHao,removed,Train
+2386553,3,GUN5,picked,Ancient
+2386553,4,JiJieHao,picked,Dust2
+2386553,5,GUN5,removed,Inferno
+2386553,6,JiJieHao,removed,Mirage
+2386671,1,GLORE,removed,Nuke
+2386671,2,ECLOT,removed,Train
+2386671,3,GLORE,picked,Dust2
+2386671,4,ECLOT,picked,Mirage
+2386671,5,GLORE,removed,Ancient
+2386671,6,ECLOT,removed,Overpass
+2386418,1,33,removed,Overpass
+2386418,2,Betclic,removed,Inferno
+2386418,3,33,picked,Nuke
+2386418,4,Betclic,picked,Ancient
+2386418,5,33,removed,Dust2
+2386418,6,Betclic,removed,Mirage
+2386333,1,1win,removed,Nuke
+2386333,2,Spirit Academy,removed,Inferno
+2386333,3,1win,picked,Dust2
+2386333,4,Spirit Academy,picked,Ancient
+2386333,5,1win,removed,Overpass
+2386333,6,Spirit Academy,removed,Train
+2386680,1,Players,removed,Train
+2386680,2,UnderDogs,removed,Overpass
+2386680,3,Players,picked,Dust2
+2386680,4,UnderDogs,picked,Ancient
+2386680,5,Players,removed,Nuke
+2386680,6,UnderDogs,removed,Mirage
+2386525,1,Just Swing,removed,Train
+2386525,2,Kaleido,removed,Overpass
+2386525,3,Just Swing,picked,Ancient
+2386525,4,Kaleido,picked,Inferno
+2386525,5,Just Swing,removed,Nuke
+2386525,6,Kaleido,removed,Dust2
+2386526,1,DEPO,removed,Inferno
+2386526,2,FengDa,removed,Overpass
+2386526,3,DEPO,picked,Dust2
+2386526,4,FengDa,picked,Mirage
+2386526,5,DEPO,removed,Nuke
+2386526,6,FengDa,removed,Train
+2386722,1,FORZE Reload,removed,Inferno
+2386722,2,kONO,removed,Mirage
+2386722,3,FORZE Reload,picked,Overpass
+2386722,4,kONO,picked,Nuke
+2386722,5,FORZE Reload,removed,Train
+2386722,6,kONO,removed,Ancient
+2386783,1,Aurora Young Blud,removed,Inferno
+2386783,2,G2 Ares,removed,Nuke
+2386783,3,Aurora Young Blud,picked,Ancient
+2386783,4,G2 Ares,picked,Train
+2386783,5,Aurora Young Blud,removed,Mirage
+2386783,6,G2 Ares,removed,Overpass
+2386670,1,BRUTE,removed,Nuke
+2386670,2,SINNERS,removed,Train
+2386670,3,BRUTE,picked,Inferno
+2386670,4,SINNERS,picked,Dust2
+2386670,5,BRUTE,removed,Mirage
+2386670,6,SINNERS,removed,Ancient
+2386228,1,RUBY,removed,Inferno
+2386228,2,Betera,removed,Mirage
+2386228,3,RUBY,picked,Nuke
+2386228,4,Betera,picked,Dust2
+2386228,5,RUBY,removed,Ancient
+2386228,6,Betera,removed,Train
+2386229,1,ECLOT,removed,Train
+2386229,2,ESC,removed,Overpass
+2386229,3,ECLOT,picked,Mirage
+2386229,4,ESC,picked,Nuke
+2386229,5,ECLOT,removed,Dust2
+2386229,6,ESC,removed,Inferno
+2386782,1,fish123,removed,Train
+2386782,2,ENCE Academy,removed,Dust2
+2386782,3,fish123,picked,Ancient
+2386782,4,ENCE Academy,picked,Mirage
+2386782,5,fish123,removed,Overpass
+2386782,6,ENCE Academy,removed,Nuke
+2386721,1,Nuclear TigeRES,removed,Overpass
+2386721,2,RUBY,removed,Inferno
+2386721,3,Nuclear TigeRES,picked,Ancient
+2386721,4,RUBY,picked,Dust2
+2386721,5,Nuclear TigeRES,removed,Nuke
+2386721,6,RUBY,removed,Train
+2386616,1,TSG,removed,Overpass
+2386616,2,NuTorious,removed,Inferno
+2386616,3,TSG,picked,Nuke
+2386616,4,NuTorious,picked,Ancient
+2386616,5,TSG,removed,Mirage
+2386616,6,NuTorious,removed,Dust2
+2386621,1,LAG,removed,Train
+2386621,2,Marsborne,removed,Mirage
+2386621,3,LAG,picked,Inferno
+2386621,4,Marsborne,picked,Ancient
+2386621,5,LAG,removed,Nuke
+2386621,6,Marsborne,removed,Overpass
+2386617,1,Zomblers,removed,Train
+2386617,2,BOSS,removed,Nuke
+2386617,3,Zomblers,picked,Inferno
+2386617,4,BOSS,picked,Mirage
+2386617,5,Zomblers,removed,Dust2
+2386617,6,BOSS,removed,Ancient
+2386619,1,regain,removed,Nuke
+2386619,2,Rave,removed,Train
+2386619,3,regain,picked,Inferno
+2386619,4,Rave,picked,Dust2
+2386619,5,regain,removed,Overpass
+2386619,6,Rave,removed,Mirage
+2386622,1,ex-Chicken Coop,removed,Mirage
+2386622,2,Wildcard,removed,Dust2
+2386622,3,ex-Chicken Coop,picked,Overpass
+2386622,4,Wildcard,picked,Inferno
+2386622,5,ex-Chicken Coop,removed,Train
+2386622,6,Wildcard,removed,Ancient
+2386615,1,Mythic,removed,Inferno
+2386615,2,Shimmer,removed,Train
+2386615,3,Mythic,picked,Nuke
+2386615,4,Shimmer,picked,Dust2
+2386615,5,Mythic,removed,Mirage
+2386615,6,Shimmer,removed,Ancient
+2386618,1,Take Flyte,removed,Train
+2386618,2,InControl,removed,Ancient
+2386618,3,Take Flyte,picked,Overpass
+2386618,4,InControl,picked,Nuke
+2386618,5,Take Flyte,removed,Inferno
+2386618,6,InControl,removed,Dust2
+2386620,1,FULL SEND,removed,Overpass
+2386620,2,Getting Info,removed,Inferno
+2386620,3,FULL SEND,picked,Dust2
+2386620,4,Getting Info,picked,Ancient
+2386620,5,FULL SEND,removed,Nuke
+2386620,6,Getting Info,removed,Train
+2386299,1,Little Bocks,removed,Train
+2386299,2,wwaves,removed,Nuke
+2386299,3,Little Bocks,picked,Ancient
+2386299,4,wwaves,picked,Dust2
+2386299,5,Little Bocks,removed,Overpass
+2386299,6,wwaves,removed,Inferno
+2386314,1,ex-Chicken Coop,removed,Mirage
+2386314,2,Getting Info,removed,Inferno
+2386314,3,ex-Chicken Coop,picked,Nuke
+2386314,4,Getting Info,picked,Ancient
+2386314,5,ex-Chicken Coop,removed,Overpass
+2386314,6,Getting Info,removed,Train
+2386586,1,Vasco,removed,Train
+2386586,2,LP,removed,Overpass
+2386586,3,Vasco,picked,Dust2
+2386586,4,LP,picked,Ancient
+2386586,5,Vasco,removed,Nuke
+2386586,6,LP,removed,Inferno
+2386679,1,VEXA,removed,Nuke
+2386679,2,Bounty Hunters,removed,Inferno
+2386679,3,VEXA,picked,Train
+2386679,4,Bounty Hunters,picked,Mirage
+2386679,5,VEXA,removed,Dust2
+2386679,6,Bounty Hunters,removed,Overpass
+2386592,1,Dusty Roots,removed,Overpass
+2386592,2,Sharks,removed,Dust2
+2386592,3,Dusty Roots,picked,Nuke
+2386592,4,Sharks,picked,Train
+2386592,5,Dusty Roots,removed,Ancient
+2386592,6,Sharks,removed,Inferno
+2386585,1,Tropa do KinGui,removed,Ancient
+2386585,2,GameHunters,removed,Train
+2386585,3,Tropa do KinGui,picked,Dust2
+2386585,4,GameHunters,picked,Nuke
+2386585,5,Tropa do KinGui,removed,Overpass
+2386585,6,GameHunters,removed,Inferno
+2386588,1,Procyon,removed,Ancient
+2386588,2,UnderDogs,removed,Dust2
+2386588,3,Procyon,picked,Inferno
+2386588,4,UnderDogs,picked,Nuke
+2386588,5,Procyon,removed,Overpass
+2386588,6,UnderDogs,removed,Train
+2386587,1,Yawara,removed,Nuke
+2386587,2,KRÜ,removed,Train
+2386587,3,Yawara,picked,Ancient
+2386587,4,KRÜ,picked,Dust2
+2386587,5,Yawara,removed,Inferno
+2386587,6,KRÜ,removed,Overpass
+2386590,1,2GAME,removed,Ancient
+2386590,2,RED Canids,removed,Dust2
+2386590,3,2GAME,picked,Mirage
+2386590,4,RED Canids,picked,Nuke
+2386590,5,2GAME,removed,Train
+2386590,6,RED Canids,removed,Inferno
+2386591,1,Keyd Stars,removed,Nuke
+2386591,2,ShindeN,removed,Overpass
+2386591,3,Keyd Stars,picked,Ancient
+2386591,4,ShindeN,picked,Mirage
+2386591,5,Keyd Stars,removed,Dust2
+2386591,6,ShindeN,removed,Train
+2386295,1,Curralzinho,removed,Overpass
+2386295,2,Dusty Roses,removed,Inferno
+2386295,3,Curralzinho,picked,Mirage
+2386295,4,Dusty Roses,picked,Dust2
+2386295,5,Curralzinho,removed,Ancient
+2386295,6,Dusty Roses,removed,Train
+2386294,1,thekillaz fe,removed,Dust2
+2386294,2,MIBR fe,removed,Train
+2386294,3,thekillaz fe,picked,Ancient
+2386294,4,MIBR fe,picked,Inferno
+2386294,5,thekillaz fe,removed,Overpass
+2386294,6,MIBR fe,removed,Nuke
+2386678,1,MAGICOS,removed,Nuke
+2386678,2,R2,removed,Mirage
+2386678,3,MAGICOS,picked,Inferno
+2386678,4,R2,picked,Overpass
+2386678,5,MAGICOS,removed,Train
+2386678,6,R2,removed,Ancient
+2386290,1,888aura,removed,Inferno
+2386290,2,Let Her Cook,removed,Train
+2386290,3,888aura,picked,Mirage
+2386290,4,Let Her Cook,picked,Dust2
+2386290,5,888aura,removed,Nuke
+2386290,6,Let Her Cook,removed,Overpass
+2386291,1,BIG EQUIPA,removed,Train
+2386291,2,Imperial Valkyries,removed,Overpass
+2386291,3,BIG EQUIPA,picked,Inferno
+2386291,4,Imperial Valkyries,picked,Mirage
+2386291,5,BIG EQUIPA,removed,Nuke
+2386291,6,Imperial Valkyries,removed,Ancient
+2386545,1,500,removed,Train
+2386545,2,EYEBALLERS,removed,Ancient
+2386545,3,500,picked,Mirage
+2386545,4,EYEBALLERS,picked,Inferno
+2386545,5,500,removed,Dust2
+2386545,6,EYEBALLERS,removed,Overpass
+2386539,1,Insilio,removed,Inferno
+2386539,2,SINNERS,removed,Train
+2386539,3,Insilio,picked,Dust2
+2386539,4,SINNERS,picked,Nuke
+2386539,5,Insilio,removed,Overpass
+2386539,6,SINNERS,removed,Ancient
+2386540,1,Zero Tenacity,removed,Ancient
+2386540,2,JiJieHao,removed,Overpass
+2386540,3,Zero Tenacity,picked,Inferno
+2386540,4,JiJieHao,picked,Nuke
+2386540,5,Zero Tenacity,removed,Dust2
+2386540,6,JiJieHao,removed,Train
+2386543,1,Johnny Speeds,removed,Ancient
+2386543,2,Partizan,removed,Train
+2386543,3,Johnny Speeds,picked,Nuke
+2386543,4,Partizan,picked,Inferno
+2386543,5,Johnny Speeds,removed,Dust2
+2386543,6,Partizan,removed,Overpass
+2386541,1,NOVAQ,removed,Nuke
+2386541,2,33,removed,Dust2
+2386541,3,NOVAQ,picked,Mirage
+2386541,4,33,picked,Train
+2386541,5,NOVAQ,removed,Inferno
+2386541,6,33,removed,Overpass
+2386544,1,SPARTA,removed,Inferno
+2386544,2,Alliance,removed,Mirage
+2386544,3,SPARTA,picked,Nuke
+2386544,4,Alliance,picked,Ancient
+2386544,5,SPARTA,removed,Overpass
+2386544,6,Alliance,removed,Dust2
+2386542,1,RUBY,removed,Inferno
+2386542,2,ESC,removed,Train
+2386542,3,RUBY,picked,Dust2
+2386542,4,ESC,picked,Nuke
+2386542,5,RUBY,removed,Overpass
+2386542,6,ESC,removed,Mirage
+2386208,1,Inner Circle,removed,Inferno
+2386208,2,Eternal Fire,removed,Ancient
+2386208,3,Inner Circle,picked,Dust2
+2386208,4,Eternal Fire,picked,Nuke
+2386208,5,Inner Circle,removed,Overpass
+2386208,6,Eternal Fire,removed,Train
+2386767,1,Superior,removed,Dust2
+2386767,2,WildLotus,removed,Train
+2386767,3,Superior,picked,Inferno
+2386767,4,WildLotus,picked,Mirage
+2386767,5,Superior,picked,Overpass
+2386767,6,WildLotus,picked,Ancient
+2386227,1,ECLOT,removed,Train
+2386227,2,Betera,removed,Inferno
+2386227,3,ECLOT,picked,Mirage
+2386227,4,Betera,picked,Dust2
+2386227,5,ECLOT,removed,Ancient
+2386227,6,Betera,removed,Overpass
+2386677,1,Procyon,removed,Train
+2386677,2,Crashers,removed,Overpass
+2386677,3,Procyon,picked,Dust2
+2386677,4,Crashers,picked,Nuke
+2386677,5,Procyon,removed,Ancient
+2386677,6,Crashers,removed,Mirage
+2386329,1,Dziuseppe,removed,Overpass
+2386329,2,SINNERS,removed,Train
+2386329,3,Dziuseppe,picked,Ancient
+2386329,4,SINNERS,picked,Nuke
+2386329,5,Dziuseppe,removed,Dust2
+2386329,6,SINNERS,removed,Mirage
+2386719,1,Nexus,removed,Overpass
+2386719,2,ARCRED,removed,Nuke
+2386719,3,Nexus,picked,Dust2
+2386719,4,ARCRED,picked,Mirage
+2386719,5,Nexus,removed,Train
+2386719,6,ARCRED,removed,Ancient
+2386521,1,Kaleido,removed,Overpass
+2386521,2,Rare Atom,removed,Nuke
+2386521,3,Kaleido,picked,Inferno
+2386521,4,Rare Atom,picked,Mirage
+2386521,5,Kaleido,removed,Train
+2386521,6,Rare Atom,removed,Ancient
+2386416,1,SPARTA,removed,Inferno
+2386416,2,Oramond,removed,Overpass
+2386416,3,SPARTA,picked,Mirage
+2386416,4,Oramond,picked,Ancient
+2386416,5,SPARTA,removed,Nuke
+2386416,6,Oramond,removed,Dust2
+2386523,1,Just Swing,removed,Train
+2386523,2,Chinggis Warriors,removed,Dust2
+2386523,3,Just Swing,picked,Inferno
+2386523,4,Chinggis Warriors,picked,Ancient
+2386523,5,Just Swing,removed,Overpass
+2386523,6,Chinggis Warriors,removed,Mirage
+2386524,1,FengDa,removed,Overpass
+2386524,2,Last Bullet,removed,Train
+2386524,3,FengDa,picked,Inferno
+2386524,4,Last Bullet,picked,Mirage
+2386524,5,FengDa,removed,Dust2
+2386524,6,Last Bullet,removed,Nuke
+2386522,1,DEPO,removed,Inferno
+2386522,2,The Huns,removed,Train
+2386522,3,DEPO,picked,Dust2
+2386522,4,The Huns,picked,Nuke
+2386522,5,DEPO,removed,Overpass
+2386522,6,The Huns,removed,Mirage
+2386676,1,JERSA,removed,Nuke
+2386676,2,LP,removed,Overpass
+2386676,3,JERSA,picked,Ancient
+2386676,4,LP,picked,Mirage
+2386676,5,JERSA,removed,Inferno
+2386676,6,LP,removed,Train
+2386226,1,RUBY,removed,Inferno
+2386226,2,ESC,removed,Train
+2386226,3,RUBY,picked,Mirage
+2386226,4,ESC,picked,Nuke
+2386226,5,RUBY,removed,Overpass
+2386226,6,ESC,removed,Dust2
+2386206,1,Anonymo,removed,Inferno
+2386206,2,Gentle Mates,removed,Dust2
+2386206,3,Anonymo,picked,Ancient
+2386206,4,Gentle Mates,picked,Nuke
+2386206,5,Anonymo,removed,Overpass
+2386206,6,Gentle Mates,removed,Mirage
+2386718,1,FAVBET,removed,Mirage
+2386718,2,SPARTA,removed,Inferno
+2386718,3,FAVBET,picked,Dust2
+2386718,4,SPARTA,picked,Nuke
+2386718,5,FAVBET,removed,Train
+2386718,6,SPARTA,removed,Overpass
+2386204,1,Nemiga,removed,Nuke
+2386204,2,500,removed,Train
+2386204,3,Nemiga,picked,Ancient
+2386204,4,500,picked,Overpass
+2386204,5,Nemiga,removed,Inferno
+2386204,6,500,removed,Dust2
+2386717,1,m1x,removed,Nuke
+2386717,2,Betera,removed,Inferno
+2386717,3,m1x,picked,Mirage
+2386717,4,Betera,picked,Dust2
+2386717,5,m1x,removed,Overpass
+2386717,6,Betera,removed,Train
+2386331,1,Zero Tenacity,removed,Ancient
+2386331,2,RUBY,removed,Inferno
+2386331,3,Zero Tenacity,picked,Nuke
+2386331,4,RUBY,picked,Dust2
+2386331,5,Zero Tenacity,removed,Mirage
+2386331,6,RUBY,removed,Overpass
+2386610,1,Green Tea Party,removed,Train
+2386610,2,NuTorious,removed,Inferno
+2386610,3,Green Tea Party,picked,Nuke
+2386610,4,NuTorious,picked,Ancient
+2386610,5,Green Tea Party,removed,Mirage
+2386610,6,NuTorious,removed,Overpass
+2386611,1,Nocturnal,removed,Inferno
+2386611,2,Zomblers,removed,Train
+2386611,3,Nocturnal,picked,Dust2
+2386611,4,Zomblers,picked,Ancient
+2386611,5,Nocturnal,removed,Overpass
+2386611,6,Zomblers,removed,Mirage
+2386609,1,TSG,removed,Inferno
+2386609,2,FlyQuest RED,removed,Ancient
+2386609,3,TSG,picked,Nuke
+2386609,4,FlyQuest RED,picked,Train
+2386609,5,TSG,removed,Overpass
+2386609,6,FlyQuest RED,removed,Dust2
+2386313,1,Getting Info,removed,Inferno
+2386313,2,regain,removed,Nuke
+2386313,3,Getting Info,picked,Ancient
+2386313,4,regain,picked,Dust2
+2386313,5,Getting Info,removed,Train
+2386313,6,regain,removed,Overpass
+2386607,1,Mythic,removed,Train
+2386607,2,Wanted Goons,removed,Inferno
+2386607,3,Mythic,picked,Nuke
+2386607,4,Wanted Goons,picked,Mirage
+2386607,5,Mythic,removed,Overpass
+2386607,6,Wanted Goons,removed,Ancient
+2386583,1,Procyon,removed,Train
+2386583,2,Galorys,removed,Inferno
+2386583,3,Procyon,picked,Dust2
+2386583,4,Galorys,picked,Ancient
+2386583,5,Procyon,removed,Overpass
+2386583,6,Galorys,removed,Nuke
+2386312,1,Zomblers,removed,Train
+2386312,2,ex-Chicken Coop,removed,Inferno
+2386312,3,Zomblers,picked,Ancient
+2386312,4,ex-Chicken Coop,picked,Nuke
+2386312,5,Zomblers,removed,Dust2
+2386312,6,ex-Chicken Coop,removed,Overpass
+2386577,1,Crashers,removed,Overpass
+2386577,2,Tropa do KinGui,removed,Ancient
+2386577,3,Crashers,picked,Inferno
+2386577,4,Tropa do KinGui,picked,Dust2
+2386577,5,Crashers,removed,Mirage
+2386577,6,Tropa do KinGui,removed,Nuke
+2386579,1,MAGICOS,removed,Nuke
+2386579,2,Vasco,removed,Train
+2386579,3,MAGICOS,picked,Inferno
+2386579,4,Vasco,picked,Dust2
+2386579,5,MAGICOS,removed,Overpass
+2386579,6,Vasco,removed,Ancient
+2386580,1,MIBR Academy,removed,Inferno
+2386580,2,LP,removed,Overpass
+2386580,3,MIBR Academy,picked,Dust2
+2386580,4,LP,picked,Mirage
+2386580,5,MIBR Academy,removed,Train
+2386580,6,LP,removed,Nuke
+2386578,1,JERSA,removed,Nuke
+2386578,2,GameHunters,removed,Train
+2386578,3,JERSA,picked,Overpass
+2386578,4,GameHunters,picked,Mirage
+2386578,5,JERSA,removed,Inferno
+2386578,6,GameHunters,removed,Ancient
+2386581,1,Four Magic fe,removed,Train
+2386581,2,Yawara,removed,Inferno
+2386581,3,Four Magic fe,picked,Nuke
+2386581,4,Yawara,picked,Ancient
+2386581,5,Four Magic fe,removed,Overpass
+2386581,6,Yawara,removed,Dust2
+2386643,1,UnderDogs,removed,Nuke
+2386643,2,MAGICOS,removed,Train
+2386643,3,UnderDogs,picked,Ancient
+2386643,4,MAGICOS,picked,Inferno
+2386643,5,UnderDogs,removed,Dust2
+2386643,6,MAGICOS,removed,Overpass
+2386328,1,Zero Tenacity,removed,Ancient
+2386328,2,1win,removed,Nuke
+2386328,3,Zero Tenacity,picked,Mirage
+2386328,4,1win,picked,Dust2
+2386328,5,Zero Tenacity,removed,Inferno
+2386328,6,1win,removed,Overpass
+2386535,1,HubaBuba,removed,Nuke
+2386535,2,ARCRED,removed,Overpass
+2386535,3,HubaBuba,picked,Ancient
+2386535,4,ARCRED,picked,Train
+2386535,5,HubaBuba,removed,Dust2
+2386535,6,ARCRED,removed,Mirage
+2386537,1,GUN5,removed,Overpass
+2386537,2,VP.Prodigy,removed,Inferno
+2386537,3,GUN5,picked,Ancient
+2386537,4,VP.Prodigy,picked,Dust2
+2386537,5,GUN5,removed,Train
+2386537,6,VP.Prodigy,removed,Mirage
+2386536,1,CPH Wolves,removed,Dust2
+2386536,2,Betera,removed,Mirage
+2386536,3,CPH Wolves,picked,Ancient
+2386536,4,Betera,picked,Train
+2386536,5,CPH Wolves,removed,Nuke
+2386536,6,Betera,removed,Inferno
+2386532,1,Eternal Fire,removed,Ancient
+2386532,2,FAVBET,removed,Mirage
+2386532,3,Eternal Fire,picked,Overpass
+2386532,4,FAVBET,picked,Dust2
+2386532,5,Eternal Fire,removed,Train
+2386532,6,FAVBET,removed,Nuke
+2386534,1,Nexus,removed,Ancient
+2386534,2,BC.Game,removed,Train
+2386534,3,Nexus,picked,Dust2
+2386534,4,BC.Game,picked,Inferno
+2386534,5,Nexus,removed,Overpass
+2386534,6,BC.Game,removed,Nuke
+2386642,1,VEXA,removed,Nuke
+2386642,2,GameHunters,removed,Train
+2386642,3,VEXA,picked,Inferno
+2386642,4,GameHunters,picked,Mirage
+2386642,5,VEXA,removed,Dust2
+2386642,6,GameHunters,removed,Ancient
+2386327,1,RUBY,removed,Inferno
+2386327,2,CYBERSHOKE,removed,Nuke
+2386327,3,RUBY,picked,Dust2
+2386327,4,CYBERSHOKE,picked,Ancient
+2386327,5,RUBY,removed,Overpass
+2386327,6,CYBERSHOKE,removed,Train
+2386651,1,Nuclear TigeRES,removed,Nuke
+2386651,2,Nexus,removed,Inferno
+2386651,3,Nuclear TigeRES,picked,Ancient
+2386651,4,Nexus,picked,Dust2
+2386651,5,Nuclear TigeRES,removed,Mirage
+2386651,6,Nexus,removed,Overpass
+2386519,1,Last Bullet,removed,Nuke
+2386519,2,NomadS,removed,Mirage
+2386519,3,Last Bullet,picked,Dust2
+2386519,4,NomadS,picked,Inferno
+2386519,5,Last Bullet,removed,Train
+2386519,6,NomadS,removed,Ancient
+2386202,1,JiJieHao,removed,Overpass
+2386202,2,Partizan,removed,Train
+2386202,3,JiJieHao,picked,Nuke
+2386202,4,Partizan,picked,Inferno
+2386202,5,JiJieHao,removed,Dust2
+2386202,6,Partizan,removed,Ancient
+2386225,1,JiJieHao,removed,Overpass
+2386225,2,ESC,removed,Train
+2386225,3,JiJieHao,picked,Dust2
+2386225,4,ESC,picked,Nuke
+2386225,5,JiJieHao,removed,Inferno
+2386225,6,ESC,removed,Mirage
+2386517,1,NSN,removed,Nuke
+2386517,2,Chinggis Warriors,removed,Dust2
+2386517,3,NSN,picked,Ancient
+2386517,4,Chinggis Warriors,picked,Inferno
+2386517,5,NSN,removed,Train
+2386517,6,Chinggis Warriors,removed,Overpass
+2386518,1,Legion,removed,Ancient
+2386518,2,Just Swing,removed,Train
+2386518,3,Legion,picked,Nuke
+2386518,4,Just Swing,picked,Inferno
+2386518,5,Legion,removed,Mirage
+2386518,6,Just Swing,removed,Overpass
+2386641,1,MIBR Academy,removed,Inferno
+2386641,2,Crashers,removed,Overpass
+2386641,3,MIBR Academy,picked,Dust2
+2386641,4,Crashers,picked,Nuke
+2386641,5,MIBR Academy,removed,Train
+2386641,6,Crashers,removed,Mirage
+2386520,1,FengDa,removed,Overpass
+2386520,2,Eruption,removed,Nuke
+2386520,3,FengDa,picked,Inferno
+2386520,4,Eruption,picked,Ancient
+2386520,5,FengDa,removed,Train
+2386520,6,Eruption,removed,Mirage
+2386412,1,EYEBALLERS,removed,Ancient
+2386412,2,33,removed,Overpass
+2386412,3,EYEBALLERS,picked,Mirage
+2386412,4,33,picked,Nuke
+2386412,5,EYEBALLERS,removed,Train
+2386412,6,33,removed,Dust2
+2386536,1,CPH Wolves,removed,Dust2
+2386536,2,Betera,removed,Mirage
+2386536,3,CPH Wolves,picked,Ancient
+2386536,4,Betera,picked,Train
+2386536,5,CPH Wolves,removed,Nuke
+2386536,6,Betera,removed,Inferno
+2386532,1,Eternal Fire,removed,Ancient
+2386532,2,FAVBET,removed,Mirage
+2386532,3,Eternal Fire,picked,Overpass
+2386532,4,FAVBET,picked,Dust2
+2386532,5,Eternal Fire,removed,Train
+2386532,6,FAVBET,removed,Nuke
+2386534,1,Nexus,removed,Ancient
+2386534,2,BC.Game,removed,Train
+2386534,3,Nexus,picked,Dust2
+2386534,4,BC.Game,picked,Inferno
+2386534,5,Nexus,removed,Overpass
+2386534,6,BC.Game,removed,Nuke
+2386642,1,VEXA,removed,Nuke
+2386642,2,GameHunters,removed,Train
+2386642,3,VEXA,picked,Inferno
+2386642,4,GameHunters,picked,Mirage
+2386642,5,VEXA,removed,Dust2
+2386642,6,GameHunters,removed,Ancient
+2386327,1,RUBY,removed,Inferno
+2386327,2,CYBERSHOKE,removed,Nuke
+2386327,3,RUBY,picked,Dust2
+2386327,4,CYBERSHOKE,picked,Ancient
+2386327,5,RUBY,removed,Overpass
+2386327,6,CYBERSHOKE,removed,Train
+2386651,1,Nuclear TigeRES,removed,Nuke
+2386651,2,Nexus,removed,Inferno
+2386651,3,Nuclear TigeRES,picked,Ancient
+2386651,4,Nexus,picked,Dust2
+2386651,5,Nuclear TigeRES,removed,Mirage
+2386651,6,Nexus,removed,Overpass
+2386519,1,Last Bullet,removed,Nuke
+2386519,2,NomadS,removed,Mirage
+2386519,3,Last Bullet,picked,Dust2
+2386519,4,NomadS,picked,Inferno
+2386519,5,Last Bullet,removed,Train
+2386519,6,NomadS,removed,Ancient
+2386202,1,JiJieHao,removed,Overpass
+2386202,2,Partizan,removed,Train
+2386202,3,JiJieHao,picked,Nuke
+2386202,4,Partizan,picked,Inferno
+2386202,5,JiJieHao,removed,Dust2
+2386202,6,Partizan,removed,Ancient
+2386225,1,JiJieHao,removed,Overpass
+2386225,2,ESC,removed,Train
+2386225,3,JiJieHao,picked,Dust2
+2386225,4,ESC,picked,Nuke
+2386225,5,JiJieHao,removed,Inferno
+2386225,6,ESC,removed,Mirage
+2386517,1,NSN,removed,Nuke
+2386517,2,Chinggis Warriors,removed,Dust2
+2386517,3,NSN,picked,Ancient
+2386517,4,Chinggis Warriors,picked,Inferno
+2386517,5,NSN,removed,Train
+2386517,6,Chinggis Warriors,removed,Overpass
+2386518,1,Legion,removed,Ancient
+2386518,2,Just Swing,removed,Train
+2386518,3,Legion,picked,Nuke
+2386518,4,Just Swing,picked,Inferno
+2386518,5,Legion,removed,Mirage
+2386518,6,Just Swing,removed,Overpass
+2386641,1,MIBR Academy,removed,Inferno
+2386641,2,Crashers,removed,Overpass
+2386641,3,MIBR Academy,picked,Dust2
+2386641,4,Crashers,picked,Nuke
+2386641,5,MIBR Academy,removed,Train
+2386641,6,Crashers,removed,Mirage
+2386520,1,FengDa,removed,Overpass
+2386520,2,Eruption,removed,Nuke
+2386520,3,FengDa,picked,Inferno
+2386520,4,Eruption,picked,Ancient
+2386520,5,FengDa,removed,Train
+2386520,6,Eruption,removed,Mirage
+2386412,1,EYEBALLERS,removed,Ancient
+2386412,2,33,removed,Overpass
+2386412,3,EYEBALLERS,picked,Mirage
+2386412,4,33,picked,Nuke
+2386412,5,EYEBALLERS,removed,Train
+2386412,6,33,removed,Dust2
+2386536,1,CPH Wolves,removed,Dust2
+2386536,2,Betera,removed,Mirage
+2386536,3,CPH Wolves,picked,Ancient
+2386536,4,Betera,picked,Train
+2386536,5,CPH Wolves,removed,Nuke
+2386536,6,Betera,removed,Inferno
+2386532,1,Eternal Fire,removed,Ancient
+2386532,2,FAVBET,removed,Mirage
+2386532,3,Eternal Fire,picked,Overpass
+2386532,4,FAVBET,picked,Dust2
+2386532,5,Eternal Fire,removed,Train
+2386532,6,FAVBET,removed,Nuke
+2386534,1,Nexus,removed,Ancient
+2386534,2,BC.Game,removed,Train
+2386534,3,Nexus,picked,Dust2
+2386534,4,BC.Game,picked,Inferno
+2386534,5,Nexus,removed,Overpass
+2386534,6,BC.Game,removed,Nuke
+2386642,1,VEXA,removed,Nuke
+2386642,2,GameHunters,removed,Train
+2386642,3,VEXA,picked,Inferno
+2386642,4,GameHunters,picked,Mirage
+2386642,5,VEXA,removed,Dust2
+2386642,6,GameHunters,removed,Ancient
+2386327,1,RUBY,removed,Inferno
+2386327,2,CYBERSHOKE,removed,Nuke
+2386327,3,RUBY,picked,Dust2
+2386327,4,CYBERSHOKE,picked,Ancient
+2386327,5,RUBY,removed,Overpass
+2386327,6,CYBERSHOKE,removed,Train
+2386651,1,Nuclear TigeRES,removed,Nuke
+2386651,2,Nexus,removed,Inferno
+2386651,3,Nuclear TigeRES,picked,Ancient
+2386651,4,Nexus,picked,Dust2
+2386651,5,Nuclear TigeRES,removed,Mirage
+2386651,6,Nexus,removed,Overpass
+2386519,1,Last Bullet,removed,Nuke
+2386519,2,NomadS,removed,Mirage
+2386519,3,Last Bullet,picked,Dust2
+2386519,4,NomadS,picked,Inferno
+2386519,5,Last Bullet,removed,Train
+2386519,6,NomadS,removed,Ancient
+2386202,1,JiJieHao,removed,Overpass
+2386202,2,Partizan,removed,Train
+2386202,3,JiJieHao,picked,Nuke
+2386202,4,Partizan,picked,Inferno
+2386202,5,JiJieHao,removed,Dust2
+2386202,6,Partizan,removed,Ancient
+2386225,1,JiJieHao,removed,Overpass
+2386225,2,ESC,removed,Train
+2386225,3,JiJieHao,picked,Dust2
+2386225,4,ESC,picked,Nuke
+2386225,5,JiJieHao,removed,Inferno
+2386225,6,ESC,removed,Mirage
+2386517,1,NSN,removed,Nuke
+2386517,2,Chinggis Warriors,removed,Dust2
+2386517,3,NSN,picked,Ancient
+2386517,4,Chinggis Warriors,picked,Inferno
+2386517,5,NSN,removed,Train
+2386517,6,Chinggis Warriors,removed,Overpass
+2386518,1,Legion,removed,Ancient
+2386518,2,Just Swing,removed,Train
+2386518,3,Legion,picked,Nuke
+2386518,4,Just Swing,picked,Inferno
+2386518,5,Legion,removed,Mirage
+2386518,6,Just Swing,removed,Overpass
+2386641,1,MIBR Academy,removed,Inferno
+2386641,2,Crashers,removed,Overpass
+2386641,3,MIBR Academy,picked,Dust2
+2386641,4,Crashers,picked,Nuke
+2386641,5,MIBR Academy,removed,Train
+2386641,6,Crashers,removed,Mirage
+2386520,1,FengDa,removed,Overpass
+2386520,2,Eruption,removed,Nuke
+2386520,3,FengDa,picked,Inferno
+2386520,4,Eruption,picked,Ancient
+2386520,5,FengDa,removed,Train
+2386520,6,Eruption,removed,Mirage
+2386412,1,EYEBALLERS,removed,Ancient
+2386412,2,33,removed,Overpass
+2386412,3,EYEBALLERS,picked,Mirage
+2386412,4,33,picked,Nuke
+2386412,5,EYEBALLERS,removed,Train
+2386412,6,33,removed,Dust2
+2386536,1,CPH Wolves,removed,Dust2
+2386536,2,Betera,removed,Mirage
+2386536,3,CPH Wolves,picked,Ancient
+2386536,4,Betera,picked,Train
+2386536,5,CPH Wolves,removed,Nuke
+2386536,6,Betera,removed,Inferno
+2386532,1,Eternal Fire,removed,Ancient
+2386532,2,FAVBET,removed,Mirage
+2386532,3,Eternal Fire,picked,Overpass
+2386532,4,FAVBET,picked,Dust2
+2386532,5,Eternal Fire,removed,Train
+2386532,6,FAVBET,removed,Nuke
+2386534,1,Nexus,removed,Ancient
+2386534,2,BC.Game,removed,Train
+2386534,3,Nexus,picked,Dust2
+2386534,4,BC.Game,picked,Inferno
+2386534,5,Nexus,removed,Overpass
+2386534,6,BC.Game,removed,Nuke
+2386642,1,VEXA,removed,Nuke
+2386642,2,GameHunters,removed,Train
+2386642,3,VEXA,picked,Inferno
+2386642,4,GameHunters,picked,Mirage
+2386642,5,VEXA,removed,Dust2
+2386642,6,GameHunters,removed,Ancient
+2386327,1,RUBY,removed,Inferno
+2386327,2,CYBERSHOKE,removed,Nuke
+2386327,3,RUBY,picked,Dust2
+2386327,4,CYBERSHOKE,picked,Ancient
+2386327,5,RUBY,removed,Overpass
+2386327,6,CYBERSHOKE,removed,Train
+2386651,1,Nuclear TigeRES,removed,Nuke
+2386651,2,Nexus,removed,Inferno
+2386651,3,Nuclear TigeRES,picked,Ancient
+2386651,4,Nexus,picked,Dust2
+2386651,5,Nuclear TigeRES,removed,Mirage
+2386651,6,Nexus,removed,Overpass
+2386519,1,Last Bullet,removed,Nuke
+2386519,2,NomadS,removed,Mirage
+2386519,3,Last Bullet,picked,Dust2
+2386519,4,NomadS,picked,Inferno
+2386519,5,Last Bullet,removed,Train
+2386519,6,NomadS,removed,Ancient
+2386202,1,JiJieHao,removed,Overpass
+2386202,2,Partizan,removed,Train
+2386202,3,JiJieHao,picked,Nuke
+2386202,4,Partizan,picked,Inferno
+2386202,5,JiJieHao,removed,Dust2
+2386202,6,Partizan,removed,Ancient
+2386225,1,JiJieHao,removed,Overpass
+2386225,2,ESC,removed,Train
+2386225,3,JiJieHao,picked,Dust2
+2386225,4,ESC,picked,Nuke
+2386225,5,JiJieHao,removed,Inferno
+2386225,6,ESC,removed,Mirage
+2386517,1,NSN,removed,Nuke
+2386517,2,Chinggis Warriors,removed,Dust2
+2386517,3,NSN,picked,Ancient
+2386517,4,Chinggis Warriors,picked,Inferno
+2386517,5,NSN,removed,Train
+2386517,6,Chinggis Warriors,removed,Overpass
+2386518,1,Legion,removed,Ancient
+2386518,2,Just Swing,removed,Train
+2386518,3,Legion,picked,Nuke
+2386518,4,Just Swing,picked,Inferno
+2386518,5,Legion,removed,Mirage
+2386518,6,Just Swing,removed,Overpass
+2386641,1,MIBR Academy,removed,Inferno
+2386641,2,Crashers,removed,Overpass
+2386641,3,MIBR Academy,picked,Dust2
+2386641,4,Crashers,picked,Nuke
+2386641,5,MIBR Academy,removed,Train
+2386641,6,Crashers,removed,Mirage
+2386520,1,FengDa,removed,Overpass
+2386520,2,Eruption,removed,Nuke
+2386520,3,FengDa,picked,Inferno
+2386520,4,Eruption,picked,Ancient
+2386520,5,FengDa,removed,Train
+2386520,6,Eruption,removed,Mirage
+2386412,1,EYEBALLERS,removed,Ancient
+2386412,2,33,removed,Overpass
+2386412,3,EYEBALLERS,picked,Mirage
+2386412,4,33,picked,Nuke
+2386412,5,EYEBALLERS,removed,Train
+2386412,6,33,removed,Dust2
+2386536,1,CPH Wolves,removed,Dust2
+2386536,2,Betera,removed,Mirage
+2386536,3,CPH Wolves,picked,Ancient
+2386536,4,Betera,picked,Train
+2386536,5,CPH Wolves,removed,Nuke
+2386536,6,Betera,removed,Inferno
+2386532,1,Eternal Fire,removed,Ancient
+2386532,2,FAVBET,removed,Mirage
+2386532,3,Eternal Fire,picked,Overpass
+2386532,4,FAVBET,picked,Dust2
+2386532,5,Eternal Fire,removed,Train
+2386532,6,FAVBET,removed,Nuke
+2386534,1,Nexus,removed,Ancient
+2386534,2,BC.Game,removed,Train
+2386534,3,Nexus,picked,Dust2
+2386534,4,BC.Game,picked,Inferno
+2386534,5,Nexus,removed,Overpass
+2386534,6,BC.Game,removed,Nuke
+2386642,1,VEXA,removed,Nuke
+2386642,2,GameHunters,removed,Train
+2386642,3,VEXA,picked,Inferno
+2386642,4,GameHunters,picked,Mirage
+2386642,5,VEXA,removed,Dust2
+2386642,6,GameHunters,removed,Ancient
+2386327,1,RUBY,removed,Inferno
+2386327,2,CYBERSHOKE,removed,Nuke
+2386327,3,RUBY,picked,Dust2
+2386327,4,CYBERSHOKE,picked,Ancient
+2386327,5,RUBY,removed,Overpass
+2386327,6,CYBERSHOKE,removed,Train
+2386651,1,Nuclear TigeRES,removed,Nuke
+2386651,2,Nexus,removed,Inferno
+2386651,3,Nuclear TigeRES,picked,Ancient
+2386651,4,Nexus,picked,Dust2
+2386651,5,Nuclear TigeRES,removed,Mirage
+2386651,6,Nexus,removed,Overpass
+2386519,1,Last Bullet,removed,Nuke
+2386519,2,NomadS,removed,Mirage
+2386519,3,Last Bullet,picked,Dust2
+2386519,4,NomadS,picked,Inferno
+2386519,5,Last Bullet,removed,Train
+2386519,6,NomadS,removed,Ancient
+2386202,1,JiJieHao,removed,Overpass
+2386202,2,Partizan,removed,Train
+2386202,3,JiJieHao,picked,Nuke
+2386202,4,Partizan,picked,Inferno
+2386202,5,JiJieHao,removed,Dust2
+2386202,6,Partizan,removed,Ancient
+2386225,1,JiJieHao,removed,Overpass
+2386225,2,ESC,removed,Train
+2386225,3,JiJieHao,picked,Dust2
+2386225,4,ESC,picked,Nuke
+2386225,5,JiJieHao,removed,Inferno
+2386225,6,ESC,removed,Mirage
+2386517,1,NSN,removed,Nuke
+2386517,2,Chinggis Warriors,removed,Dust2
+2386517,3,NSN,picked,Ancient
+2386517,4,Chinggis Warriors,picked,Inferno
+2386517,5,NSN,removed,Train
+2386517,6,Chinggis Warriors,removed,Overpass
+2386518,1,Legion,removed,Ancient
+2386518,2,Just Swing,removed,Train
+2386518,3,Legion,picked,Nuke
+2386518,4,Just Swing,picked,Inferno
+2386518,5,Legion,removed,Mirage
+2386518,6,Just Swing,removed,Overpass
+2386641,1,MIBR Academy,removed,Inferno
+2386641,2,Crashers,removed,Overpass
+2386641,3,MIBR Academy,picked,Dust2
+2386641,4,Crashers,picked,Nuke
+2386641,5,MIBR Academy,removed,Train
+2386641,6,Crashers,removed,Mirage
+2386520,1,FengDa,removed,Overpass
+2386520,2,Eruption,removed,Nuke
+2386520,3,FengDa,picked,Inferno
+2386520,4,Eruption,picked,Ancient
+2386520,5,FengDa,removed,Train
+2386520,6,Eruption,removed,Mirage
+2386412,1,EYEBALLERS,removed,Ancient
+2386412,2,33,removed,Overpass
+2386412,3,EYEBALLERS,picked,Mirage
+2386412,4,33,picked,Nuke
+2386412,5,EYEBALLERS,removed,Train
+2386412,6,33,removed,Dust2
+2386536,1,CPH Wolves,removed,Dust2
+2386536,2,Betera,removed,Mirage
+2386536,3,CPH Wolves,picked,Ancient
+2386536,4,Betera,picked,Train
+2386536,5,CPH Wolves,removed,Nuke
+2386536,6,Betera,removed,Inferno
+2386532,1,Eternal Fire,removed,Ancient
+2386532,2,FAVBET,removed,Mirage
+2386532,3,Eternal Fire,picked,Overpass
+2386532,4,FAVBET,picked,Dust2
+2386532,5,Eternal Fire,removed,Train
+2386532,6,FAVBET,removed,Nuke
+2386534,1,Nexus,removed,Ancient
+2386534,2,BC.Game,removed,Train
+2386534,3,Nexus,picked,Dust2
+2386534,4,BC.Game,picked,Inferno
+2386534,5,Nexus,removed,Overpass
+2386534,6,BC.Game,removed,Nuke
+2386642,1,VEXA,removed,Nuke
+2386642,2,GameHunters,removed,Train
+2386642,3,VEXA,picked,Inferno
+2386642,4,GameHunters,picked,Mirage
+2386642,5,VEXA,removed,Dust2
+2386642,6,GameHunters,removed,Ancient
+2386327,1,RUBY,removed,Inferno
+2386327,2,CYBERSHOKE,removed,Nuke
+2386327,3,RUBY,picked,Dust2
+2386327,4,CYBERSHOKE,picked,Ancient
+2386327,5,RUBY,removed,Overpass
+2386327,6,CYBERSHOKE,removed,Train
+2386651,1,Nuclear TigeRES,removed,Nuke
+2386651,2,Nexus,removed,Inferno
+2386651,3,Nuclear TigeRES,picked,Ancient
+2386651,4,Nexus,picked,Dust2
+2386651,5,Nuclear TigeRES,removed,Mirage
+2386651,6,Nexus,removed,Overpass
+2386519,1,Last Bullet,removed,Nuke
+2386519,2,NomadS,removed,Mirage
+2386519,3,Last Bullet,picked,Dust2
+2386519,4,NomadS,picked,Inferno
+2386519,5,Last Bullet,removed,Train
+2386519,6,NomadS,removed,Ancient
+2386202,1,JiJieHao,removed,Overpass
+2386202,2,Partizan,removed,Train
+2386202,3,JiJieHao,picked,Nuke
+2386202,4,Partizan,picked,Inferno
+2386202,5,JiJieHao,removed,Dust2
+2386202,6,Partizan,removed,Ancient
+2386225,1,JiJieHao,removed,Overpass
+2386225,2,ESC,removed,Train
+2386225,3,JiJieHao,picked,Dust2
+2386225,4,ESC,picked,Nuke
+2386225,5,JiJieHao,removed,Inferno
+2386225,6,ESC,removed,Mirage
+2386517,1,NSN,removed,Nuke
+2386517,2,Chinggis Warriors,removed,Dust2
+2386517,3,NSN,picked,Ancient
+2386517,4,Chinggis Warriors,picked,Inferno
+2386517,5,NSN,removed,Train
+2386517,6,Chinggis Warriors,removed,Overpass
+2386518,1,Legion,removed,Ancient
+2386518,2,Just Swing,removed,Train
+2386518,3,Legion,picked,Nuke
+2386518,4,Just Swing,picked,Inferno
+2386518,5,Legion,removed,Mirage
+2386518,6,Just Swing,removed,Overpass
+2386641,1,MIBR Academy,removed,Inferno
+2386641,2,Crashers,removed,Overpass
+2386641,3,MIBR Academy,picked,Dust2
+2386641,4,Crashers,picked,Nuke
+2386641,5,MIBR Academy,removed,Train
+2386641,6,Crashers,removed,Mirage
+2386520,1,FengDa,removed,Overpass
+2386520,2,Eruption,removed,Nuke
+2386520,3,FengDa,picked,Inferno
+2386520,4,Eruption,picked,Ancient
+2386520,5,FengDa,removed,Train
+2386520,6,Eruption,removed,Mirage
+2386412,1,EYEBALLERS,removed,Ancient
+2386412,2,33,removed,Overpass
+2386412,3,EYEBALLERS,picked,Mirage
+2386412,4,33,picked,Nuke
+2386412,5,EYEBALLERS,removed,Train
+2386412,6,33,removed,Dust2
