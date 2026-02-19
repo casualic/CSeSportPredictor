@@ -71,7 +71,7 @@ def process_batch(json_path):
             continue
 
         orig_row = orig.get(match_id, {})
-        map_names = [m["map"] for m in data.get("maps", [])]
+        map_names = [m.get("mapName") or m.get("map") or "" for m in data.get("maps", [])]
         n_maps = len(map_names)
 
         if n_maps == 1:
@@ -101,7 +101,7 @@ def process_batch(json_path):
         for p in data.get("players", []):
             append_csv(PLAYER_STATS_CSV, [{
                 "match_id": match_id, "match_url": url,
-                "team": p["team"], "player": p["player"],
+                "team": p.get("team", ""), "player": p.get("player") or p.get("name", ""),
                 "kills": p["kills"], "deaths": p["deaths"],
                 "adr": p["adr"], "kast": p["kast"], "rating": p["rating"],
                 "date": data.get("date", ""), "event": data.get("event", ""),
@@ -111,49 +111,75 @@ def process_batch(json_path):
         for v in data.get("vetos", []):
             append_csv(VETO_CSV, [{
                 "match_id": match_id, "veto_order": v["order"],
-                "team": v["team"], "action": v["action"], "map_name": v["map"],
+                "team": v["team"], "action": v["action"], "map_name": v.get("map") or v.get("mapName", ""),
             }], VETO_FIELDS)
             counts["vetos"] += 1
 
         maps_list = data.get("maps", [])
-        for hs in data.get("halfScores", []):
-            mi = hs.get("mapIdx", 0)
-            nums = hs.get("numbers", [])
-            map_name = maps_list[mi]["map"] if mi < len(maps_list) else ""
-            vals = [n["val"] for n in nums]
-            if len(vals) >= 4:
-                if len(vals) == 4:
-                    t1_ct, t1_t, t2_ct, t2_t = vals[0], vals[1], vals[2], vals[3]
-                    t1_ot, t2_ot = 0, 0
-                elif len(vals) == 6:
-                    t1_ct, t1_t, t1_ot = vals[0], vals[1], vals[2]
-                    t2_ct, t2_t, t2_ot = vals[3], vals[4], vals[5]
-                else:
-                    mid_pt = len(vals) // 2
-                    t1_ct = vals[0]
-                    t1_t = vals[1] if len(vals) > 1 else 0
-                    t1_ot = vals[2] if mid_pt > 2 else 0
-                    t2_ct = vals[mid_pt] if len(vals) > mid_pt else 0
-                    t2_t = vals[mid_pt + 1] if len(vals) > mid_pt + 1 else 0
-                    t2_ot = vals[mid_pt + 2] if len(vals) > mid_pt + 2 else 0
-                t1_total = t1_ct + t1_t + t1_ot
-                t2_total = t2_ct + t2_t + t2_ot
-                append_csv(HALF_SCORES_CSV, [{
-                    "match_id": match_id, "map_number": mi + 1, "map_name": map_name,
-                    "team1": data.get("team1", ""),
-                    "team1_ct_half": t1_ct, "team1_t_half": t1_t, "team1_ot": t1_ot,
-                    "team2": data.get("team2", ""),
-                    "team2_ct_half": t2_ct, "team2_t_half": t2_t, "team2_ot": t2_ot,
-                    "team1_total": t1_total, "team2_total": t2_total,
-                }], HALF_SCORES_FIELDS)
-                counts["halfs"] += 1
+        half_scores_raw = data.get("halfScores", [])
+        if half_scores_raw and "half" in half_scores_raw[0]:
+            # New format: [{half:'ct1_t2', score1, score2}, {half:'t1_ct2', score1, score2}, ...]
+            hs_by_half = {h["half"]: h for h in half_scores_raw}
+            ct1 = hs_by_half.get("ct1_t2", {})
+            t1 = hs_by_half.get("t1_ct2", {})
+            ot = hs_by_half.get("ot", {})
+            t1_ct = int(ct1.get("score1", 0) or 0)
+            t1_t = int(t1.get("score1", 0) or 0)
+            t1_ot = int(ot.get("score1", 0) or 0)
+            t2_ct = int(ct1.get("score2", 0) or 0)
+            t2_t = int(t1.get("score2", 0) or 0)
+            t2_ot = int(ot.get("score2", 0) or 0)
+            map_name = (maps_list[0].get("mapName") or maps_list[0].get("map", "")) if maps_list else ""
+            append_csv(HALF_SCORES_CSV, [{
+                "match_id": match_id, "map_number": 1, "map_name": map_name,
+                "team1": data.get("team1", ""),
+                "team1_ct_half": t1_ct, "team1_t_half": t1_t, "team1_ot": t1_ot,
+                "team2": data.get("team2", ""),
+                "team2_ct_half": t2_ct, "team2_t_half": t2_t, "team2_ot": t2_ot,
+                "team1_total": t1_ct + t1_t + t1_ot, "team2_total": t2_ct + t2_t + t2_ot,
+            }], HALF_SCORES_FIELDS)
+            counts["halfs"] += 1
+        else:
+            # Old format: [{mapIdx, numbers: [{val}]}]
+            for hs in half_scores_raw:
+                mi = hs.get("mapIdx", 0)
+                nums = hs.get("numbers", [])
+                map_name = (maps_list[mi].get("mapName") or maps_list[mi].get("map", "")) if mi < len(maps_list) else ""
+                vals = [n["val"] for n in nums]
+                if len(vals) >= 4:
+                    if len(vals) == 4:
+                        t1_ct, t1_t, t2_ct, t2_t = vals[0], vals[1], vals[2], vals[3]
+                        t1_ot, t2_ot = 0, 0
+                    elif len(vals) == 6:
+                        t1_ct, t1_t, t1_ot = vals[0], vals[1], vals[2]
+                        t2_ct, t2_t, t2_ot = vals[3], vals[4], vals[5]
+                    else:
+                        mid_pt = len(vals) // 2
+                        t1_ct = vals[0]
+                        t1_t = vals[1] if len(vals) > 1 else 0
+                        t1_ot = vals[2] if mid_pt > 2 else 0
+                        t2_ct = vals[mid_pt] if len(vals) > mid_pt else 0
+                        t2_t = vals[mid_pt + 1] if len(vals) > mid_pt + 1 else 0
+                        t2_ot = vals[mid_pt + 2] if len(vals) > mid_pt + 2 else 0
+                    t1_total = t1_ct + t1_t + t1_ot
+                    t2_total = t2_ct + t2_t + t2_ot
+                    append_csv(HALF_SCORES_CSV, [{
+                        "match_id": match_id, "map_number": mi + 1, "map_name": map_name,
+                        "team1": data.get("team1", ""),
+                        "team1_ct_half": t1_ct, "team1_t_half": t1_t, "team1_ot": t1_ot,
+                        "team2": data.get("team2", ""),
+                        "team2_ct_half": t2_ct, "team2_t_half": t2_t, "team2_ot": t2_ot,
+                        "team1_total": t1_total, "team2_total": t2_total,
+                    }], HALF_SCORES_FIELDS)
+                    counts["halfs"] += 1
 
         for mps in data.get("mapPlayerStats", []):
-            mi = mps.get("mapIdx", 1)
-            map_name = maps_list[mi - 1]["map"] if (mi - 1) < len(maps_list) else ""
+            mi = mps.get("mapIdx") or mps.get("mapNumber", 1)
+            idx = mi - 1
+            map_name = (maps_list[idx].get("mapName") or maps_list[idx].get("map", "")) if 0 <= idx < len(maps_list) else ""
             append_csv(MAP_PLAYER_STATS_CSV, [{
                 "match_id": match_id, "map_number": mi, "map_name": map_name,
-                "team": mps["team"], "player": mps["player"],
+                "team": mps.get("team", ""), "player": mps.get("player") or mps.get("name", ""),
                 "kills": mps["kills"], "deaths": mps["deaths"],
                 "adr": mps["adr"], "kast": mps["kast"], "rating": mps["rating"],
             }], MAP_PLAYER_STATS_FIELDS)

@@ -13,7 +13,12 @@
 - Top 100 filtered: 1647 matches
 - Unique teams: 99
 - Source: HLTV results pages (60 pages)
-- Per-player stats from match detail pages
+- **Match detail pages**: ALL 6,000 matches scraped (completed 2026-02-19)
+  - match_details.csv: 6,000 rows
+  - player_stats.csv: 74,979 rows
+  - half_scores.csv: 7,296 rows
+  - map_player_stats.csv: 133,470 rows
+  - veto_data.csv: 15,858 rows
 - Map results: 3,818 map results from 1,608 matches (extracted from batch JSONs)
 - Rankings history: 2,907 rows, 29 weekly snapshots (Jul 21 2025 - Feb 9 2026)
 - Pistol rounds: 3,808 rows from 1,608 matches (scraped via CDP/MCP browser)
