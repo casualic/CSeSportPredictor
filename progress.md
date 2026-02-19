@@ -1,12 +1,16 @@
 # Training Progress
 
 ## Current State
-- **Iteration**: 13 (completed)
-- **Status**: Full player data (6,000 match detail pages scraped)
+- **Iteration**: 15 (completed)
+- **Status**: Full player data + Fuzzy SVM + conditional ensembles
 - **Best Test Model**: XGB_tuned_lean at 66.50% (test)
+- **Best WF Single Model**: FSVM_time_lean at 65.50% (+5.55% edge)
+- **Best WF Ensemble**: Ens_FSVM_XGB_w0.7 at 66.36% (+6.41% edge) — **all-time best**
+- **Target**: 70% accuracy (3.64pp remaining)
+
+### Pre-FSVM Best (Iteration 14 — XGBoost only)
 - **Best WF Model**: XGB_tuned_lean (d=5) at 64.86% (+4.91% edge)
 - **Best WF Ensemble**: Ens_rank_blend_a0.1 at 65.36% (+5.41% edge)
-- **Target**: 70% accuracy
 
 ## Dataset
 - Total scraped: 6000 matches from HLTV
@@ -224,3 +228,41 @@
   coverage, roster experience and chemistry are among the most important features.
   The walk-forward edge of +5.41% over rank-only baseline is highly significant.
   Still 4.64pp from the 70% target.
+
+### Iteration 15 — Fuzzy SVM + confusion matrix analysis + conditional ensembles
+- **New model**: Fuzzy SVM (Lin & Wang, 2002) — SVM with per-sample fuzzy membership weights.
+  Primal: `min (1/2)||w||^2 + C * SUM(s_i * xi_i)` where s_i = membership value.
+  Implemented via `FuzzySVM` class in `train_model_fsvm.py` using sklearn's `SVC.fit(sample_weight=s)`.
+- **Membership strategies**: class_center (distance from centroid), time_decay (exponential recency),
+  confidence (KNN entropy), hybrid (combination). 11 FSVM configs tested.
+- **Best FSVM test**: FSVM_time_lean at **64.92%** (log_loss=0.6328, C=1.0, lambda=0.001)
+- **Best overall test**: XGB_tuned_lean at **66.50%** (log_loss=0.6105, unchanged)
+- **Walk-forward (top 4 + forced FSVM)**:
+  - **FSVM_time_lean: 65.50%** (edge: +5.55%) — **new all-time best single model**
+  - XGB_tuned_lean: 64.86% (edge: +4.91%)
+  - LGBM_lean_d6: 63.59% (edge: +3.64%)
+  - XGB_lean_d15: 63.32% (edge: +3.37%)
+  - Rank baseline (dynamic): 59.95%
+- **Confusion matrix analysis (FSVM vs XGB)**:
+  - FSVM excels at "Expected" outcomes: 80.0% vs XGB 74.7%
+  - XGB excels at "Upsets": 40.6% vs FSVM 29.7%
+  - FSVM better for large rank gaps (30-60 diff): 69.2% vs 65.1%
+  - FSVM better for BO3: 65.9% vs 64.6%; XGB better for BO1/BO5
+  - FSVM better at low-confidence predictions: 56.1% vs 53.9%
+  - Agreement rate: 79.5% (349/439); when both agree, 75.4% correct
+- **Conditional ensemble strategies tested**: conf_routing, rank_routing (20/30/50),
+  rank_adaptive_blend, upset_routing, fixed weight blends (w0.3–w0.7)
+- **Walk-forward ensembles**:
+  - **Ens_FSVM_XGB_w0.7: 66.36%** (edge: +6.41%) — **ALL-TIME BEST**
+  - Ens_FSVM_XGB_w0.6: 66.18% (edge: +6.23%)
+  - Ens_rank_adaptive_blend: 65.77% (edge: +5.82%)
+  - Ens_conf_routing: 65.73% (edge: +5.78%)
+  - Ens_XGB_tune+FSVM_tim: 65.73% (edge: +5.78%)
+  - Ens_rank_blend_a0.1: 65.00% (edge: +5.05%)
+- **Finding**: Fuzzy SVM and XGBoost have deeply complementary strengths. FSVM dominates on
+  predictable/expected outcomes (where the favorite wins), large rank gaps, and BO3 format.
+  XGB dominates on upsets, BO1/BO5, and high-confidence predictions. A 70/30 FSVM/XGB
+  probability blend (Ens_FSVM_XGB_w0.7) captures the best of both worlds at 66.36% WF
+  accuracy — a +1.00pp improvement over the previous best ensemble (65.36%) and +6.41%
+  edge over rank-only baseline. This is the strongest honest result in the project.
+  Still 3.64pp from the 70% target.
