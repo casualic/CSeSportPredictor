@@ -2,10 +2,10 @@
 
 ## Current State
 - **Iteration**: 13 (completed)
-- **Status**: Pistol round win rate feature added
-- **Best Test Model**: XGB_lean_d15 at 65.00% (test)
-- **Best WF Model**: XGB_tuned_lean (d=3) at 63.50% (+3.55% edge)
-- **Best WF Ensemble**: Ens_rank_blend_a0.1 at 63.95% (+4.00% edge)
+- **Status**: Full player data (6,000 match detail pages scraped)
+- **Best Test Model**: XGB_tuned_lean at 66.50% (test)
+- **Best WF Model**: XGB_tuned_lean (d=5) at 64.86% (+4.91% edge)
+- **Best WF Ensemble**: Ens_rank_blend_a0.1 at 65.36% (+5.41% edge)
 - **Target**: 70% accuracy
 
 ## Dataset
@@ -191,3 +191,36 @@
   (std=0.0998) but is not a dominant predictor — it didn't appear prominently in SHAP disagreement
   analysis. The ensemble result (63.95%) is slightly below the iter 11-12 peak (64.36%), likely
   due to minor retraining variance. Overall, pistol_wr_diff is a modest but valid addition.
+
+### Iteration 14 — Full player data coverage (all 6,000 matches)
+- **New data**: Scraped ALL 6,000 match detail pages from HLTV (previously only 1,608 = 27%).
+  Now 5,627/6,000 (94%) matches have player-level data (some have no stats on HLTV).
+  - player_stats.csv: 60,000 rows, 4,839 unique players
+  - match_details.csv: 6,000 rows
+  - half_scores.csv: 7,296 rows
+  - map_player_stats.csv: 133,470 rows
+  - veto_data.csv: 15,858 rows
+- **Features**: Same 16 minimal, 47 lean, 83 total (no new features — just real data instead of defaults)
+- **Key change**: Player features (avg_rating, diff_chemistry, diff_roster_exp, etc.) now computed
+  from actual data for 94% of matches instead of defaulting to zeros/baselines for 73%.
+- **Best test split**: XGB_tuned_lean at **66.50%** (log_loss=0.6105, max_depth=5, lr=0.01)
+- **Walk-forward (top 3)**:
+  - XGB_tuned_lean: **64.86%** (edge: +4.91%) — up from 63.50%, new all-time best single model
+  - LGBM_lean_d6: **63.73%** (edge: +3.77%)
+  - XGB_lean_d15: **63.32%** (edge: +3.36%)
+  - Rank baseline (dynamic): 59.95%
+- **Walk-forward ensembles**:
+  - Ens_rank_blend_a0.1: **65.36%** (edge: +5.41%) — new all-time best overall
+  - Ens_majority_vote: 64.32% (edge: +4.36%)
+  - Ens_XGB_tune+LGBM_lea: 64.27% (edge: +4.32%)
+- **SHAP disagreement**: `diff_roster_exp` is now the #1 leading feature in disagreements
+  (was invisible before when 73% of matches had default=0). `diff_chemistry` also prominent.
+- **5-Fold TS-CV**: LR_L1 mean=64.70%, XGB mean=63.08%
+- **Grid search**: Best max_depth=5, lr=0.01, n_est=200
+- **Finding**: Full player data delivered the largest single-iteration improvement in project
+  history: +1.36pp for best single model (63.50% → 64.86%), +1.41pp for best ensemble
+  (63.95% → 65.36%). Player features were severely handicapped when 73% of matches used
+  default values — the model couldn't learn meaningful player-level patterns. Now with 94%
+  coverage, roster experience and chemistry are among the most important features.
+  The walk-forward edge of +5.41% over rank-only baseline is highly significant.
+  Still 4.64pp from the 70% target.

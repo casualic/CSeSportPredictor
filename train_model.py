@@ -594,6 +594,9 @@ def load_player_stats():
         return None
     df = pd.read_csv(path)
     df["match_id"] = df["match_id"].astype(str)
+    for col in ["kills", "deaths", "adr", "kast", "rating"]:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
     return df
 
 
