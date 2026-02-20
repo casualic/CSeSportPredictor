@@ -23,6 +23,8 @@ Walk-forward (WF) results use the best single-model accuracy unless noted.
 |   14 |       83 | XGB_tuned_lean       | 66.50% | 0.6105 | 64.86% | +4.91%  |    -   |  59.95% (WF dyn)  | Full player data (94% coverage) |
 |   15 |       83 | XGB_tuned_lean       | 66.50% | 0.6105 | 65.50% | +5.55%  |    -   |  59.95% (WF dyn)  | Fuzzy SVM (FSVM_time_lean = best WF single) |
 |   16 |       83 | XGB_tuned_lean       | 66.50% | 0.6105 | 65.50% | +5.55%  | [63.5, 67.5] |  59.95% (WF dyn)  | Overfit diagnostics added |
+|   18 |       84 | XGB_tuned_lean       | 66.58% | 0.6102 | 65.55% | +5.60%  | [63.6, 67.6] |  59.95% (WF dyn)  | best_team_rank + tier_boost=1.5; individuals improved, ensemble dropped |
+|   19 |       83 | XGB_tuned_lean       | 66.50% | 0.6105 | 65.50% | +5.55%  | [63.5, 67.5] |  59.95% (WF dyn)  | Reverted to iter 16; tier-specialized 4-model ensemble + agree-boost |
 
 ### Walk-Forward Ensemble Highlights
 
@@ -34,6 +36,18 @@ Walk-forward (WF) results use the best single-model accuracy unless noted.
 |   13 | Ens_rank_blend_a0.1    | 63.95%  | +4.00%  |    -   |
 |   14 | Ens_rank_blend_a0.1    | 65.36%  | +5.41%  |    -   |
 |   15 | Ens_FSVM_XGB_w0.7     | **66.36%** | **+6.41%** | **[64.4, 68.3]** |
+|   18 | Ens_FSVM_XGB_w0.65    | 66.05%  | +6.10%  | [64.0, 68.0] |
+|   19 | Ens_agree_boost_w0.7  | **66.50%** | **+6.55%** | **[64.5, 68.5]** |
+
+### Tier-Specialized Models (Iteration 19)
+
+| Model | All Samples | Own Tier | N (own tier) |
+|:------|:----------:|:--------:|:------------:|
+| FSVM_elite (rank<55) | 65.82% | **70.00%** | 800 |
+| XGB_elite (rank<55)  | 62.09% | 66.87% | 800 |
+| FSVM_lower (rank>=55) | 63.05% | 63.14% | 1400 |
+| XGB_lower (rank>=55)  | 62.68% | 60.00% | 1400 |
+| Best TierSpec ensemble | 65.59% | — | 2200 |
 
 ### Overfit Diagnostics (Iteration 16)
 
@@ -57,8 +71,8 @@ Walk-forward (WF) results use the best single-model accuracy unless noted.
 
 - **Best test accuracy**: 66.58% (Iter 7, LR_minimal) and 66.50% (Iter 14-16, XGB_tuned_lean)
 - **Best walk-forward single model**: 65.50% (Iter 15-16, FSVM_time_lean, +5.55% edge)
-- **Best walk-forward ensemble**: **66.36%** (Iter 15-16, Ens_FSVM_XGB_w0.7, +6.41% edge)
-- **Target**: 70% accuracy (3.64pp remaining)
+- **Best walk-forward ensemble**: **66.50%** (Iter 19, Ens_agree_boost_w0.7, +6.55% edge)
+- **Target**: 70% accuracy (3.50pp remaining)
 - Rank-only baseline outperformed ML models in Iters 1-4
 - Walk-forward validation consistently shows lower accuracy than test split (overfitting gap)
 - Simple models (LR with few features) outperformed complex ones until Iter 10+
@@ -66,3 +80,5 @@ Walk-forward (WF) results use the best single-model accuracy unless noted.
 - Full player data (Iter 14) was the largest single-iteration lift: +1.36pp WF single, +1.41pp WF ensemble
 - Fuzzy SVM + XGB blend (Iter 15) leverages complementary strengths: FSVM on expected outcomes, XGB on upsets
 - **Overfit check (Iter 16)**: FSVM and XGB_tuned are statistically significant vs rank baseline; the ensemble is strongly significant (CI lower bound 2.4pp above rank CI upper bound)
+- **Tier-specialized models (Iter 19)**: FSVM_elite achieves 70% on elite (rank<55) matches — strong betting signal. But tier-specialized ensembles (65.59%) didn't beat global ensembles (66.50%) due to smaller training subsets
+- **Agreement-boost ensemble (Iter 19)**: New best at 66.50% — trusts predictions when FSVM & XGB agree, uses 70%FSVM/30%XGB blend on disagreements

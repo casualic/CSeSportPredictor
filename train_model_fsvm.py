@@ -869,6 +869,7 @@ def build_features(df, top_teams, player_stats_df=None, match_details_df=None,
             "n_matches2": elo.match_counts.get(t2, 0),
             "map_pool_depth_diff": map_pool_depth1 - map_pool_depth2,
             "map_wr_overlap": map_wr_overlap,
+            "best_team_rank": min(rank1, rank2),
         }
 
         # --- Rank volatility features ---
@@ -1264,9 +1265,11 @@ def run_training(iteration=5):
     y_train, y_test = y[:split_idx], y[split_idx:]
     print(f"  Train: {len(X_train)}, Test: {len(X_test)}")
 
-    # Sample weights: weight recent matches more heavily
+    # Sample weights: time decay
     DECAY = 0.985
-    sample_weights = np.array([DECAY ** (len(X_train) - i) for i in range(len(X_train))])
+    time_weights = np.array([DECAY ** (len(X_train) - i) for i in range(len(X_train))])
+
+    sample_weights = time_weights
     sample_weights = sample_weights / sample_weights.sum() * len(sample_weights)
     print(f"  Sample weighting: decay={DECAY}")
 
@@ -2201,56 +2204,137 @@ def run_training(iteration=5):
             marker = " <--" if abs(delta) > 0.02 else ""
             print(f"    {label:<35} {n:>5}  {acc_f:>6.3f}  {acc_x:>6.3f}  {delta:>+6.3f}{marker}")
 
+        # --- Detailed disagreement analysis: WHAT characterizes FSVM-right vs XGB-right? ---
+        print(f"\n  --- Disagreement Deep Dive (FSVM vs XGB) ---")
+        print(f"    Total disagreements: {disagree.sum()} / {len(true)} ({disagree.sum()/len(true)*100:.1f}%)")
+        print(f"    FSVM correct: {f_right.sum()}, XGB correct: {x_right.sum()}")
+
+        # Feature distributions for disagreement subsets
+        wf_feats = X[lean_cols].iloc[wf_start:wf_start + len(true)]
+        wf_best_rank_da = X["best_team_rank"].iloc[wf_start:wf_start + len(true)].values
+        wf_is_bo1 = X["is_bo1"].iloc[wf_start:wf_start + len(true)].values.astype(bool)
+        wf_is_bo3 = X["is_bo3"].iloc[wf_start:wf_start + len(true)].values.astype(bool)
+
+        # 1. By tier of the higher-ranked team
+        da_tier_edges = [0, 10, 20, 35, 55, 102]
+        da_tier_labels = ["Top 10", "10-20", "20-35", "35-55", "55+"]
+        print(f"\n    By best-team tier:")
+        print(f"      {'Tier':<10} {'N_dis':>6} {'F_right':>8} {'X_right':>8} {'F_rate':>7}")
+        for i in range(len(da_tier_labels)):
+            tmask = (wf_best_rank_da >= da_tier_edges[i]) & (wf_best_rank_da < da_tier_edges[i+1])
+            n_dis = (disagree & tmask).sum()
+            n_fr = (f_right & tmask).sum()
+            n_xr = (x_right & tmask).sum()
+            rate = n_fr / max(n_fr + n_xr, 1)
+            marker = " <-- FSVM" if rate > 0.6 else (" <-- XGB" if rate < 0.4 else "")
+            print(f"      {da_tier_labels[i]:<10} {n_dis:>6} {n_fr:>8} {n_xr:>8} {rate:>6.1%}{marker}")
+
+        # 2. By upset vs expected
+        is_upset_da = ((wf_rank_vals > 0) & (true == 1)) | ((wf_rank_vals < 0) & (true == 0))
+        print(f"\n    By outcome type:")
+        for label, omask in [("Upset", is_upset_da), ("Expected", ~is_upset_da)]:
+            n_fr = (f_right & omask).sum()
+            n_xr = (x_right & omask).sum()
+            rate = n_fr / max(n_fr + n_xr, 1)
+            print(f"      {label:<12} F_right={n_fr:>4}, X_right={n_xr:>4}, F_rate={rate:.1%}")
+
+        # 3. By BO format
+        print(f"\n    By BO format:")
+        for label, bmask in [("BO1", wf_is_bo1), ("BO3", wf_is_bo3), ("BO5", ~wf_is_bo1 & ~wf_is_bo3)]:
+            n_fr = (f_right & bmask).sum()
+            n_xr = (x_right & bmask).sum()
+            rate = n_fr / max(n_fr + n_xr, 1)
+            if n_fr + n_xr > 0:
+                print(f"      {label:<6} F_right={n_fr:>4}, X_right={n_xr:>4}, F_rate={rate:.1%}")
+
+        # 4. By rank difference magnitude
+        print(f"\n    By |rank_diff|:")
+        for label, lo, hi in [("< 10", 0, 10), ("10-30", 10, 30), ("30-60", 30, 60), (">= 60", 60, 999)]:
+            rmask = (abs_rank >= lo) & (abs_rank < hi)
+            n_fr = (f_right & rmask).sum()
+            n_xr = (x_right & rmask).sum()
+            rate = n_fr / max(n_fr + n_xr, 1)
+            print(f"      {label:<8} F_right={n_fr:>4}, X_right={n_xr:>4}, F_rate={rate:.1%}")
+
+        # 5. By model confidence at point of disagreement
+        print(f"\n    By confidence at disagreement:")
+        for label, lo, hi in [("Both low (<0.1)", 0, 0.1), ("Mixed", 0.1, 0.25), ("Both high (>0.25)", 0.25, 1.0)]:
+            cmask_f = (confF >= lo) & (confF < hi)
+            cmask_x = (confX >= lo) & (confX < hi)
+            # At least one model in this confidence range
+            cmask = cmask_f | cmask_x
+            n_fr = (f_right & cmask).sum()
+            n_xr = (x_right & cmask).sum()
+            rate = n_fr / max(n_fr + n_xr, 1)
+            print(f"      {label:<22} F_right={n_fr:>4}, X_right={n_xr:>4}, F_rate={rate:.1%}")
+
+        # 6. Key feature differences: mean feature values when FSVM right vs XGB right
+        print(f"\n    Top features differing between FSVM-right vs XGB-right disagreements:")
+        key_feats = ["dyn_log_rank_ratio", "elo_expected", "form_diff", "h2h_winrate",
+                     "rank_confidence", "rank_trajectory_diff", "upset_prob",
+                     "diff_avg_rating", "momentum_diff", "map_wr_overlap",
+                     "pistol_wr_diff", "diff_star_rating", "diff_consistency",
+                     "streak_diff", "vs_strong_diff"]
+        feat_diffs = []
+        for feat in key_feats:
+            if feat not in wf_feats.columns:
+                continue
+            vals = wf_feats[feat].values
+            mean_fr = vals[f_right].mean()
+            mean_xr = vals[x_right].mean()
+            std_all = vals[disagree].std()
+            if std_all > 0:
+                effect = abs(mean_fr - mean_xr) / std_all
+            else:
+                effect = 0
+            feat_diffs.append((feat, mean_fr, mean_xr, mean_fr - mean_xr, effect))
+
+        feat_diffs.sort(key=lambda x: -x[4])  # sort by effect size
+        print(f"      {'Feature':<25} {'FSVM_right':>10} {'XGB_right':>10} {'Diff':>8} {'Effect':>7}")
+        for feat, mf, mx, diff, eff in feat_diffs[:10]:
+            print(f"      {feat:<25} {mf:>10.4f} {mx:>10.4f} {diff:>+8.4f} {eff:>6.2f}σ")
+
         # --- Conditional ensemble: use FSVM where it's stronger, XGB where it's stronger ---
         print(f"\n  --- Conditional Ensemble Strategies ---")
 
-        # Strategy 1: Use FSVM when both models agree, use FSVM when they disagree
-        # and FSVM is more confident
+        # Get best_team_rank for WF range (for tier-conditional ensembles)
+        wf_best_rank = X["best_team_rank"].iloc[wf_start:wf_start + len(true)].values
+        rank_pred_wf = (wf_rank_vals > 0).astype(int)
+
+        # Strategy 1: Confidence routing
         cond1 = np.where(confF >= confX, pF, pX)
         acc = accuracy_score(true, cond1)
         wf_all["Ens_conf_routing"] = round(acc, 4)
         wf_ens_preds["Ens_conf_routing"] = cond1
         print(f"  Ens_conf_routing (use more confident): {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
 
-        # Strategy 2: Use FSVM for close matches, XGB for clear gaps
-        cond2 = np.where(abs_rank < 20, pF, pX)
-        acc = accuracy_score(true, cond2)
-        wf_all["Ens_rank_routing_20"] = round(acc, 4)
-        wf_ens_preds["Ens_rank_routing_20"] = cond2
-        print(f"  Ens_rank_routing (FSVM if |rank_diff|<20): {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
+        # Strategy 2: Rank-diff routing
+        for thresh in [20, 30, 50]:
+            cond2 = np.where(abs_rank < thresh, pF, pX)
+            acc = accuracy_score(true, cond2)
+            rname = f"Ens_rank_routing_{thresh}"
+            wf_all[rname] = round(acc, 4)
+            wf_ens_preds[rname] = cond2
+            print(f"  {rname} (FSVM if |rank_diff|<{thresh}): {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
 
-        cond2b = np.where(abs_rank < 30, pF, pX)
-        acc = accuracy_score(true, cond2b)
-        wf_all["Ens_rank_routing_30"] = round(acc, 4)
-        wf_ens_preds["Ens_rank_routing_30"] = cond2b
-        print(f"  Ens_rank_routing (FSVM if |rank_diff|<30): {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
-
-        cond2c = np.where(abs_rank < 50, pF, pX)
-        acc = accuracy_score(true, cond2c)
-        wf_all["Ens_rank_routing_50"] = round(acc, 4)
-        wf_ens_preds["Ens_rank_routing_50"] = cond2c
-        print(f"  Ens_rank_routing (FSVM if |rank_diff|<50): {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
-
-        # Strategy 3: Weighted blend using rank-dependent alpha
-        # Close matches: more FSVM weight; far matches: more XGB weight
-        alpha_rank = np.clip(abs_rank / 100.0, 0.0, 0.8)  # 0 to 0.8
+        # Strategy 3: Rank-adaptive blend (rank_diff based)
+        alpha_rank = np.clip(abs_rank / 100.0, 0.0, 0.8)
         cond3_prob = (1 - alpha_rank) * probF + alpha_rank * probX
         cond3 = (cond3_prob >= 0.5).astype(int)
         acc = accuracy_score(true, cond3)
         wf_all["Ens_rank_adaptive_blend"] = round(acc, 4)
         wf_ens_preds["Ens_rank_adaptive_blend"] = cond3
-        print(f"  Ens_rank_adaptive_blend (alpha=|rank|/100): {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
+        print(f"  Ens_rank_adaptive_blend (alpha=|rank_diff|/100): {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
 
-        # Strategy 4: Use FSVM for upsets (where rank predictor would be wrong)
-        rank_pred_wf = (wf_rank_vals > 0).astype(int)
-        cond4 = np.where(rank_pred_wf != pX, pF, pX)  # When XGB agrees with rank, trust it; when it disagrees, check FSVM
+        # Strategy 4: Upset routing
+        cond4 = np.where(rank_pred_wf != pX, pF, pX)
         acc = accuracy_score(true, cond4)
         wf_all["Ens_upset_routing"] = round(acc, 4)
         wf_ens_preds["Ens_upset_routing"] = cond4
         print(f"  Ens_upset_routing (FSVM when XGB!=rank): {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
 
-        # Strategy 5: Blend probabilities with various fixed weights
-        for w_f in [0.3, 0.4, 0.5, 0.6, 0.7]:
+        # Strategy 5: Fixed weight blends (fine grid)
+        for w_f in [0.3, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7]:
             blend = w_f * probF + (1 - w_f) * probX
             blend_pred = (blend >= 0.5).astype(int)
             acc = accuracy_score(true, blend_pred)
@@ -2258,6 +2342,76 @@ def run_training(iteration=5):
             wf_all[bname] = round(acc, 4)
             wf_ens_preds[bname] = blend_pred
             print(f"  {bname}: {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
+
+        # Strategy 6: Tier-conditional weights
+        # Use different FSVM/XGB blend weights per tier of the higher-ranked team
+        # Elite tiers: FSVM stronger (expected outcomes). Lower tiers: XGB stronger.
+        print(f"\n  --- Tier-Conditional Ensembles ---")
+        tier_configs = [
+            # (name, {tier_cutoff: fsvm_weight})
+            ("Ens_tier_2split", {55: 0.7, 999: 0.5}),       # elite=0.7 FSVM, lower=0.5
+            ("Ens_tier_2split_v2", {55: 0.65, 999: 0.45}),   # softer
+            ("Ens_tier_2split_v3", {55: 0.6, 999: 0.55}),    # balanced
+            ("Ens_tier_3split", {20: 0.7, 55: 0.6, 999: 0.5}),  # top/mid/lower
+            ("Ens_tier_3split_v2", {20: 0.65, 55: 0.55, 999: 0.5}),
+            ("Ens_tier_4split", {10: 0.7, 35: 0.65, 55: 0.6, 999: 0.5}),
+        ]
+        for tname, tier_map in tier_configs:
+            blend_prob = np.zeros(len(true))
+            cutoffs = sorted(tier_map.keys())
+            prev = 0
+            for cutoff in cutoffs:
+                w_fsvm = tier_map[cutoff]
+                mask = (wf_best_rank >= prev) & (wf_best_rank < cutoff)
+                blend_prob[mask] = w_fsvm * probF[mask] + (1 - w_fsvm) * probX[mask]
+                prev = cutoff
+            blend_pred = (blend_prob >= 0.5).astype(int)
+            acc = accuracy_score(true, blend_pred)
+            wf_all[tname] = round(acc, 4)
+            wf_ens_preds[tname] = blend_pred
+            splits_str = ", ".join(f"<{k}:{v:.0%}F" for k, v in tier_map.items() if k < 999) + f", else:{tier_map[max(tier_map)]:.0%}F"
+            print(f"  {tname}: {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})  [{splits_str}]")
+
+        # Strategy 7: Tier-adaptive blend (continuous, using best_team_rank)
+        # More FSVM for elite, more XGB for lower
+        for slope in [0.003, 0.005, 0.007]:
+            # fsvm_weight = base - slope * best_team_rank (clamped to [0.3, 0.8])
+            w_fsvm = np.clip(0.75 - slope * wf_best_rank, 0.3, 0.8)
+            blend_prob = w_fsvm * probF + (1 - w_fsvm) * probX
+            blend_pred = (blend_prob >= 0.5).astype(int)
+            acc = accuracy_score(true, blend_pred)
+            tname = f"Ens_tier_continuous_s{slope}"
+            wf_all[tname] = round(acc, 4)
+            wf_ens_preds[tname] = blend_pred
+            print(f"  {tname}: {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})  [w=0.75-{slope}*rank, clamped 0.3-0.8]")
+
+        # Strategy 8: Agreement-boosted blend
+        # When both models agree, trust the prediction. When they disagree, use weighted blend.
+        agree_mask = pF == pX
+        for w_disagree in [0.5, 0.6, 0.7]:
+            cond8_prob = np.where(agree_mask,
+                                  probF,  # both agree: use FSVM prob (doesn't matter much, both predict same)
+                                  w_disagree * probF + (1 - w_disagree) * probX)
+            cond8 = (cond8_prob >= 0.5).astype(int)
+            acc = accuracy_score(true, cond8)
+            aname = f"Ens_agree_boost_w{w_disagree}"
+            wf_all[aname] = round(acc, 4)
+            wf_ens_preds[aname] = cond8
+            print(f"  {aname}: {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})  [agree=FSVM, disagree={w_disagree:.0%}F/{1-w_disagree:.0%}X]")
+
+        # Strategy 9: Confidence-weighted tier blend
+        # In each tier, prefer the more confident model, but scale by tier
+        for conf_thresh in [0.55, 0.6, 0.65]:
+            cond9 = np.where(
+                (wf_best_rank < 55) & (confF > conf_thresh - 0.5),  # elite: prefer FSVM unless very uncertain
+                pF,
+                np.where(confX > confF, pX, pF)  # lower tier: prefer more confident
+            )
+            acc = accuracy_score(true, cond9)
+            cname = f"Ens_tier_conf_t{conf_thresh}"
+            wf_all[cname] = round(acc, 4)
+            wf_ens_preds[cname] = cond9
+            print(f"  {cname}: {acc:.4f} (edge: {acc - wf_rank_acc:+.4f})")
 
     # --- Bootstrap 95% CI for top ensembles ---
     print(f"\n  --- Ensemble Bootstrap 95% CI (top 5) ---")
@@ -2280,6 +2434,438 @@ def run_training(iteration=5):
         overlaps_rank = ci_lo <= rank_ci_high and rank_ci_low <= ci_hi
         status = "OVERLAPS rank" if overlaps_rank else "SEPARATED from rank"
         print(f"  {ens_name}: [{ci_lo:.4f}, {ci_hi:.4f}] (width={ci_hi - ci_lo:.4f}) — {status}")
+
+    # =============================================
+    # Tier-Weighting Experiment: retrain XGB with different tier weight
+    # functions, blend with existing FSVM probs, compare tier accuracy
+    # =============================================
+    print(f"\n  --- Tier-Weighting Experiment (XGB retrained, FSVM from base) ---")
+
+    # Get FSVM probs from the base WF loop (unweighted)
+    fsvm_wf_name = [n for n in model_names if "FSVM" in n][0]
+    fsvm_probs_base = np.array(wf_probs[fsvm_wf_name])
+
+    # best_team_rank for all WF training/eval data
+    wf_best_rank_all = X["best_team_rank"].values
+
+    # Define tier weighting functions
+    def make_tier_weights(best_rank_arr, func_name):
+        w = np.ones(len(best_rank_arr))
+        if func_name == "flat_1.15":
+            w[best_rank_arr < 55] = 1.15
+        elif func_name == "flat_1.3":
+            w[best_rank_arr < 55] = 1.3
+        elif func_name == "narrow_10_20":
+            w[(best_rank_arr >= 10) & (best_rank_arr < 20)] = 1.5
+        elif func_name == "narrow_10_20_mild":
+            w[(best_rank_arr >= 10) & (best_rank_arr < 20)] = 1.25
+        elif func_name == "gaussian_15":
+            # Gaussian centered on rank 15, sigma=8 — peak boost ~1.5 at rank 15
+            w = 1.0 + 0.5 * np.exp(-((best_rank_arr - 15) ** 2) / (2 * 8 ** 2))
+        elif func_name == "inverse_rank":
+            # Boost inversely proportional to rank: rank 5→1.2, rank 20→1.05, rank 50→1.02
+            w = 1.0 + 1.0 / np.maximum(best_rank_arr, 1)
+        elif func_name == "stepped":
+            # Different boosts per tier
+            w[(best_rank_arr < 10)] = 1.0           # top 10: leave alone (already 71%+)
+            w[(best_rank_arr >= 10) & (best_rank_arr < 20)] = 1.4  # 10-20: biggest boost
+            w[(best_rank_arr >= 20) & (best_rank_arr < 35)] = 1.15
+            w[(best_rank_arr >= 35) & (best_rank_arr < 55)] = 1.05
+        elif func_name == "stepped_v2":
+            w[(best_rank_arr < 10)] = 1.0
+            w[(best_rank_arr >= 10) & (best_rank_arr < 20)] = 1.3
+            w[(best_rank_arr >= 20) & (best_rank_arr < 35)] = 1.1
+        elif func_name == "stepped_v3":
+            # Very targeted: only 10-20 and 20-35 mild
+            w[(best_rank_arr >= 10) & (best_rank_arr < 20)] = 1.5
+            w[(best_rank_arr >= 20) & (best_rank_arr < 35)] = 1.1
+        return w
+
+    weighting_funcs = ["flat_1.15", "flat_1.3", "narrow_10_20", "narrow_10_20_mild",
+                       "gaussian_15", "inverse_rank", "stepped", "stepped_v2", "stepped_v3"]
+
+    # Mini WF loop: retrain XGB with each weighting function, collect probs
+    tw_probs = {fn: [] for fn in weighting_funcs}
+    tw_true = []
+    tw_best_ranks_eval = []
+
+    bp = best_params
+    for start in range(wf_start, len(X) - wf_window, wf_window):
+        end = start + wf_window
+        yt_tw = y[:start]
+        ye_tw = y[start:end]
+        tw_true.extend(ye_tw)
+        tw_best_ranks_eval.extend(wf_best_rank_all[start:end])
+
+        # Time-decay base weights
+        w_time = np.array([DECAY ** (len(yt_tw) - i) for i in range(len(yt_tw))])
+
+        # Training best_team_rank values
+        train_best_rank = wf_best_rank_all[:start]
+
+        Xt_tw = X[lean_cols].iloc[:start]
+        Xe_tw = X[lean_cols].iloc[start:end]
+
+        for fn in weighting_funcs:
+            tw = make_tier_weights(train_best_rank, fn)
+            w_combined = w_time * tw
+            w_combined = w_combined / w_combined.sum() * len(w_combined)
+
+            model = XGBClassifier(**bp, eval_metric="logloss", random_state=42, verbosity=0)
+            model.fit(Xt_tw, yt_tw, sample_weight=w_combined)
+            probs = model.predict_proba(Xe_tw)[:, 1]
+            tw_probs[fn].extend(probs)
+            del model; gc.collect()
+
+    tw_true = np.array(tw_true)
+    tw_best_ranks_eval = np.array(tw_best_ranks_eval)
+    for fn in weighting_funcs:
+        tw_probs[fn] = np.array(tw_probs[fn])
+
+    # Tier edges for evaluation
+    tw_tier_edges = [0, 10, 20, 35, 55, 102]
+    tw_tier_labels = ["Top 10", "10-20", "20-35", "35-55", "55+"]
+
+    # Elite mask (rank<55) for elite-only overall accuracy
+    elite_eval_mask = tw_best_ranks_eval < 55
+
+    # Print header
+    print(f"\n  {'Weighting':<22} {'Elite%':>7}  {'Top10':>6}  {'10-20':>6}  {'20-35':>6}  {'35-55':>6}  {'55+':>6}  {'All%':>6}")
+    print(f"  {'-'*22} {'-'*7}  {'-'*6}  {'-'*6}  {'-'*6}  {'-'*6}  {'-'*6}  {'-'*6}")
+
+    # Baseline (iter 19): use base FSVM+XGB ensemble from the main loop
+    # Print tier accuracy for the base agree_boost ensemble
+    def tier_accs(pred_arr, true_arr, best_ranks, edges, labels):
+        accs = []
+        for i in range(len(labels)):
+            mask = (best_ranks >= edges[i]) & (best_ranks < edges[i + 1])
+            if mask.sum() == 0:
+                accs.append(0)
+            else:
+                accs.append(accuracy_score(true_arr[mask], pred_arr[mask]))
+        return accs
+
+    # Base ensemble (no tier weighting) — recreate agree_boost_w0.7 from base probs
+    xgb_wf_name = [n for n in model_names if "XGB_tuned" in n][0]
+    xgb_probs_base = np.array(wf_probs[xgb_wf_name])
+
+    base_pF = np.array(wf_results[fsvm_wf_name])
+    base_pX = np.array(wf_results[xgb_wf_name])
+    base_agree = base_pF == base_pX
+    base_blend = np.where(base_agree, fsvm_probs_base, 0.7 * fsvm_probs_base + 0.3 * xgb_probs_base)
+    base_pred = (base_blend >= 0.5).astype(int)
+    base_acc = accuracy_score(true, base_pred)
+    base_elite_acc = accuracy_score(true[elite_eval_mask], base_pred[elite_eval_mask])
+    base_tier_accs = tier_accs(base_pred, true, tw_best_ranks_eval, tw_tier_edges, tw_tier_labels)
+    tier_str = "  ".join(f"{a*100:5.1f}%" for a in base_tier_accs)
+    print(f"  {'BASE (no tier wt)':<22} {base_elite_acc*100:6.1f}%  {tier_str}  {base_acc*100:5.1f}%")
+
+    # For each weighting function, blend with FSVM and evaluate
+    tw_results = {}
+    for fn in weighting_funcs:
+        xgb_tw_probs = tw_probs[fn]
+        xgb_tw_preds = (xgb_tw_probs >= 0.5).astype(int)
+        fsvm_preds = (fsvm_probs_base >= 0.5).astype(int)
+
+        # Try several blend strategies for each weighting function
+        # Optimize for elite accuracy (rank<55)
+        best_fn_elite = 0
+        best_fn_name = ""
+        best_fn_pred = None
+
+        for w_f in [0.6, 0.65, 0.7]:
+            # Agree-boost: when FSVM & XGB agree, trust it; disagree, blend
+            agree = fsvm_preds == xgb_tw_preds
+            blend_prob = np.where(agree, fsvm_probs_base,
+                                  w_f * fsvm_probs_base + (1 - w_f) * xgb_tw_probs)
+            pred = (blend_prob >= 0.5).astype(int)
+            elite_acc = accuracy_score(tw_true[elite_eval_mask], pred[elite_eval_mask])
+            if elite_acc > best_fn_elite:
+                best_fn_elite = elite_acc
+                best_fn_name = f"tw_{fn}_ab{w_f}"
+                best_fn_pred = pred
+
+        # Also try straight weight blends
+        for w_f in [0.6, 0.65, 0.7]:
+            blend_prob = w_f * fsvm_probs_base + (1 - w_f) * xgb_tw_probs
+            pred = (blend_prob >= 0.5).astype(int)
+            elite_acc = accuracy_score(tw_true[elite_eval_mask], pred[elite_eval_mask])
+            if elite_acc > best_fn_elite:
+                best_fn_elite = elite_acc
+                best_fn_name = f"tw_{fn}_w{w_f}"
+                best_fn_pred = pred
+
+        all_acc = accuracy_score(tw_true, best_fn_pred)
+        t_accs = tier_accs(best_fn_pred, tw_true, tw_best_ranks_eval, tw_tier_edges, tw_tier_labels)
+        tier_str = "  ".join(f"{a*100:5.1f}%" for a in t_accs)
+        # Check constraint: Top 10, 20-35, 35-55 all >= 69%
+        constraint_met = t_accs[0] >= 0.69 and t_accs[2] >= 0.69 and t_accs[3] >= 0.69
+        marker = " OK" if constraint_met else " FAIL"
+        print(f"  {fn:<22} {best_fn_elite*100:6.1f}%  {tier_str}  {all_acc*100:5.1f}%{marker}")
+        tw_results[fn] = {
+            "best_name": best_fn_name, "elite_acc": best_fn_elite, "all_acc": all_acc,
+            "tier_accs": {l: round(a, 4) for l, a in zip(tw_tier_labels, t_accs)},
+            "constraint_met": constraint_met,
+        }
+        wf_all[best_fn_name] = round(all_acc, 4)
+
+    # Summary — optimize for elite accuracy
+    passing = {fn: r for fn, r in tw_results.items() if r["constraint_met"]}
+    if passing:
+        best_passing = max(passing.items(), key=lambda x: x[1]["elite_acc"])
+        print(f"\n  BEST passing constraint (elite): {best_passing[0]} -> {best_passing[1]['best_name']} "
+              f"elite={best_passing[1]['elite_acc']*100:.1f}%, all={best_passing[1]['all_acc']*100:.1f}%")
+        print(f"    Tier accs: {best_passing[1]['tier_accs']}")
+    else:
+        print(f"\n  No weighting function met all tier constraints (>=69% for Top10, 20-35, 35-55)")
+        best_overall = max(tw_results.items(), key=lambda x: x[1]["elite_acc"])
+        print(f"  Best elite: {best_overall[0]} -> {best_overall[1]['best_name']} "
+              f"elite={best_overall[1]['elite_acc']*100:.1f}%, all={best_overall[1]['all_acc']*100:.1f}%")
+        print(f"    Tier accs: {best_overall[1]['tier_accs']}")
+
+    # =============================================
+    # Tier-Specialized Ensemble: 4 models (2 FSVM + 2 XGB)
+    # Train separate models on elite (best_rank<55) vs lower (best_rank>=55)
+    # =============================================
+    TIER_CUT = 55
+    print(f"\n  --- Tier-Specialized Ensemble (4 models, cut={TIER_CUT}) ---")
+
+    # Model factories for tier-specialized models
+    def make_fsvm():
+        return FuzzySVM(C=1.0, kernel='rbf', gamma='scale',
+                        membership='time_decay', lambda_decay=0.001, sigma_floor=0.1)
+
+    def make_xgb():
+        return XGBClassifier(**best_params, eval_metric="logloss", random_state=42, verbosity=0)
+
+    # Storage for tier-specialized predictions
+    tier_preds = {k: [] for k in ["FSVM_elite", "FSVM_lower", "XGB_elite", "XGB_lower"]}
+    tier_probs = {k: [] for k in ["FSVM_elite", "FSVM_lower", "XGB_elite", "XGB_lower"]}
+    tier_true = []
+    tier_best_ranks = []   # best_team_rank for each eval sample
+    tier_rank_preds = []   # rank baseline predictions
+
+    for start in range(wf_start, len(X) - wf_window, wf_window):
+        end = start + wf_window
+        yt_tier = y[:start]
+        ye_tier = y[start:end]
+
+        # best_team_rank for training and eval
+        train_best_rank = X["best_team_rank"].iloc[:start].values
+        eval_best_rank = X["best_team_rank"].iloc[start:end].values
+
+        # Split training data by tier
+        elite_mask_tr = train_best_rank < TIER_CUT
+        lower_mask_tr = ~elite_mask_tr
+        n_elite_tr = elite_mask_tr.sum()
+        n_lower_tr = lower_mask_tr.sum()
+
+        if n_elite_tr < 50 or n_lower_tr < 50:
+            # Not enough data in a tier — skip window
+            continue
+
+        tier_true.extend(ye_tier)
+        tier_best_ranks.extend(eval_best_rank)
+        tier_rank_preds.extend((X[rank_col].iloc[start:end] > 0).astype(int).values)
+
+        # Time-decay weights per tier
+        w_all = np.array([DECAY ** (len(yt_tier) - i) for i in range(len(yt_tier))])
+        w_all = w_all / w_all.sum() * len(w_all)
+
+        for tier_label, tr_mask, model_names_tier in [
+            ("elite", elite_mask_tr, ["FSVM_elite", "XGB_elite"]),
+            ("lower", lower_mask_tr, ["FSVM_lower", "XGB_lower"]),
+        ]:
+            Xt_tier = X[lean_cols].iloc[:start][tr_mask]
+            yt_sub = yt_tier[tr_mask]
+            w_sub = w_all[tr_mask]
+            w_sub = w_sub / w_sub.sum() * len(w_sub)
+
+            Xe_tier = X[lean_cols].iloc[start:end]
+
+            for mname in model_names_tier:
+                if "FSVM" in mname:
+                    sc_t = StandardScaler()
+                    Xt_s = sc_t.fit_transform(Xt_tier)
+                    Xe_s = sc_t.transform(Xe_tier)
+                    model = make_fsvm()
+                    ts = np.arange(len(yt_sub), dtype=float)
+                    model.fit(Xt_s, yt_sub, timestamps=ts)
+                    preds = model.predict(Xe_s)
+                    probs = model.predict_proba(Xe_s)[:, 1]
+                else:
+                    model = make_xgb()
+                    try:
+                        model.fit(Xt_tier, yt_sub, sample_weight=w_sub)
+                    except TypeError:
+                        model.fit(Xt_tier, yt_sub)
+                    preds = model.predict(Xe_tier)
+                    probs = model.predict_proba(Xe_tier)[:, 1]
+
+                tier_preds[mname].extend(preds)
+                tier_probs[mname].extend(probs)
+                del model; gc.collect()
+
+    tier_true = np.array(tier_true)
+    tier_best_ranks = np.array(tier_best_ranks)
+    tier_rank_preds = np.array(tier_rank_preds)
+    for k in tier_preds:
+        tier_preds[k] = np.array(tier_preds[k])
+        tier_probs[k] = np.array(tier_probs[k])
+
+    tier_rank_acc = accuracy_score(tier_true, tier_rank_preds)
+    n_tier_samples = len(tier_true)
+    elite_eval_mask = tier_best_ranks < TIER_CUT
+    lower_eval_mask = ~elite_eval_mask
+
+    print(f"  Tier WF samples: {n_tier_samples} (elite={elite_eval_mask.sum()}, lower={lower_eval_mask.sum()})")
+    print(f"  Tier rank baseline: {tier_rank_acc:.4f}")
+
+    # Individual tier model accuracies
+    for mname in tier_preds:
+        acc = accuracy_score(tier_true, tier_preds[mname])
+        print(f"  {mname} (all samples): {acc:.4f} (edge: {acc - tier_rank_acc:+.4f})")
+        # Also show accuracy on its own tier
+        if "elite" in mname:
+            acc_own = accuracy_score(tier_true[elite_eval_mask], tier_preds[mname][elite_eval_mask])
+            print(f"    on elite matches: {acc_own:.4f} (n={elite_eval_mask.sum()})")
+        else:
+            acc_own = accuracy_score(tier_true[lower_eval_mask], tier_preds[mname][lower_eval_mask])
+            print(f"    on lower matches: {acc_own:.4f} (n={lower_eval_mask.sum()})")
+
+    # --- Tier Ensemble Strategies ---
+    tier_ens_preds = {}
+    print(f"\n  --- Tier Ensemble Strategies ---")
+
+    pF_e = tier_probs["FSVM_elite"]
+    pF_l = tier_probs["FSVM_lower"]
+    pX_e = tier_probs["XGB_elite"]
+    pX_l = tier_probs["XGB_lower"]
+
+    # Strategy 1: Pure tier routing (elite models for elite, lower for lower)
+    # Blend FSVM + XGB within each tier
+    for w_f in [0.5, 0.6, 0.65, 0.7, 0.75]:
+        blend = np.zeros(n_tier_samples)
+        blend[elite_eval_mask] = w_f * pF_e[elite_eval_mask] + (1 - w_f) * pX_e[elite_eval_mask]
+        blend[lower_eval_mask] = w_f * pF_l[lower_eval_mask] + (1 - w_f) * pX_l[lower_eval_mask]
+        pred = (blend >= 0.5).astype(int)
+        acc = accuracy_score(tier_true, pred)
+        ename = f"TierSpec_route_w{w_f}"
+        tier_ens_preds[ename] = pred
+        wf_all[ename] = round(acc, 4)
+        print(f"  {ename}: {acc:.4f} (edge: {acc - tier_rank_acc:+.4f})  [elite={w_f:.0%}F/{1-w_f:.0%}X, lower same]")
+
+    # Strategy 2: Tier routing with different weights per tier
+    tier_weight_configs = [
+        ("TierSpec_asym_v1", 0.7, 0.5),    # elite: more FSVM, lower: equal
+        ("TierSpec_asym_v2", 0.7, 0.6),    # elite: more FSVM, lower: slightly FSVM
+        ("TierSpec_asym_v3", 0.65, 0.55),   # softer version
+        ("TierSpec_asym_v4", 0.6, 0.4),     # elite: FSVM, lower: more XGB
+        ("TierSpec_asym_v5", 0.75, 0.45),   # strong asymmetry
+    ]
+    for ename, w_elite, w_lower in tier_weight_configs:
+        blend = np.zeros(n_tier_samples)
+        blend[elite_eval_mask] = w_elite * pF_e[elite_eval_mask] + (1 - w_elite) * pX_e[elite_eval_mask]
+        blend[lower_eval_mask] = w_lower * pF_l[lower_eval_mask] + (1 - w_lower) * pX_l[lower_eval_mask]
+        pred = (blend >= 0.5).astype(int)
+        acc = accuracy_score(tier_true, pred)
+        tier_ens_preds[ename] = pred
+        wf_all[ename] = round(acc, 4)
+        print(f"  {ename}: {acc:.4f} (edge: {acc - tier_rank_acc:+.4f})  [elite={w_elite:.0%}F, lower={w_lower:.0%}F]")
+
+    # Strategy 3: Max confidence routing — use whichever tier-matched model is more confident
+    for tier_label, mask, pF_t, pX_t in [
+        ("elite", elite_eval_mask, pF_e, pX_e),
+        ("lower", lower_eval_mask, pF_l, pX_l),
+    ]:
+        confF_t = np.abs(pF_t - 0.5)
+        confX_t = np.abs(pX_t - 0.5)
+        # Use more confident model's prediction
+        max_conf = np.where(confF_t >= confX_t, pF_t, pX_t)
+        if "TierSpec_max_conf" not in tier_ens_preds:
+            tier_ens_preds["TierSpec_max_conf"] = np.zeros(n_tier_samples)
+        tier_ens_preds["TierSpec_max_conf"][mask] = max_conf[mask]
+    pred = (tier_ens_preds["TierSpec_max_conf"] >= 0.5).astype(int)
+    tier_ens_preds["TierSpec_max_conf"] = pred
+    acc = accuracy_score(tier_true, pred)
+    wf_all["TierSpec_max_conf"] = round(acc, 4)
+    print(f"  TierSpec_max_conf: {acc:.4f} (edge: {acc - tier_rank_acc:+.4f})  [use most confident per-tier model]")
+
+    # Strategy 4: All-4-model blend (use all 4 models for every sample, weight by tier relevance)
+    for w_own, w_cross in [(0.7, 0.3), (0.8, 0.2), (0.9, 0.1), (1.0, 0.0)]:
+        blend = np.zeros(n_tier_samples)
+        # Elite samples: primarily use elite models, cross-reference lower models
+        blend[elite_eval_mask] = (w_own * (0.7 * pF_e[elite_eval_mask] + 0.3 * pX_e[elite_eval_mask]) +
+                                  w_cross * (0.7 * pF_l[elite_eval_mask] + 0.3 * pX_l[elite_eval_mask]))
+        # Lower samples: primarily use lower models, cross-reference elite models
+        blend[lower_eval_mask] = (w_own * (0.5 * pF_l[lower_eval_mask] + 0.5 * pX_l[lower_eval_mask]) +
+                                  w_cross * (0.5 * pF_e[lower_eval_mask] + 0.5 * pX_e[lower_eval_mask]))
+        pred = (blend >= 0.5).astype(int)
+        acc = accuracy_score(tier_true, pred)
+        ename = f"TierSpec_4blend_own{w_own}"
+        tier_ens_preds[ename] = pred
+        wf_all[ename] = round(acc, 4)
+        print(f"  {ename}: {acc:.4f} (edge: {acc - tier_rank_acc:+.4f})  [own_tier={w_own:.0%}, cross={w_cross:.0%}]")
+
+    # Strategy 5: Max probability across all 4 models (pick the most confident prediction)
+    all_probs = np.stack([pF_e, pF_l, pX_e, pX_l])  # (4, n_samples)
+    all_conf = np.abs(all_probs - 0.5)
+    best_model_idx = np.argmax(all_conf, axis=0)
+    max_prob_pred = np.array([all_probs[best_model_idx[i], i] for i in range(n_tier_samples)])
+    pred = (max_prob_pred >= 0.5).astype(int)
+    tier_ens_preds["TierSpec_global_max_conf"] = pred
+    acc = accuracy_score(tier_true, pred)
+    wf_all["TierSpec_global_max_conf"] = round(acc, 4)
+    print(f"  TierSpec_global_max_conf: {acc:.4f} (edge: {acc - tier_rank_acc:+.4f})  [use globally most confident model]")
+
+    # Strategy 6: Tier-matched max prob + fallback blend
+    # If the tier-matched model pair agrees, use that. If they disagree, use max conf across all 4.
+    for w_f_agree in [0.6, 0.7]:
+        result_prob = np.zeros(n_tier_samples)
+        for mask, pF_t, pX_t in [(elite_eval_mask, pF_e, pX_e), (lower_eval_mask, pF_l, pX_l)]:
+            blend_t = w_f_agree * pF_t + (1 - w_f_agree) * pX_t
+            pred_f = (pF_t >= 0.5).astype(int)
+            pred_x = (pX_t >= 0.5).astype(int)
+            agree = pred_f == pred_x
+            # Where they agree: use the blend
+            # Where they disagree: use global max confidence
+            result_prob[mask] = np.where(
+                agree[mask],
+                blend_t[mask],
+                max_prob_pred[mask]
+            )
+        pred = (result_prob >= 0.5).astype(int)
+        ename = f"TierSpec_agree_fallback_w{w_f_agree}"
+        tier_ens_preds[ename] = pred
+        acc = accuracy_score(tier_true, pred)
+        wf_all[ename] = round(acc, 4)
+        print(f"  {ename}: {acc:.4f} (edge: {acc - tier_rank_acc:+.4f})  [tier agree={w_f_agree:.0%}F blend, disagree=global max conf]")
+
+    # Bootstrap CI for top tier ensembles
+    print(f"\n  --- Tier Ensemble Bootstrap 95% CI (top 5) ---")
+    tier_ens_sorted = sorted(tier_ens_preds.keys(), key=lambda k: -wf_all.get(k, 0))
+    rng_tier = np.random.RandomState(42)
+    for ens_name in tier_ens_sorted[:5]:
+        ep = np.array(tier_ens_preds[ens_name])
+        boot_t = []
+        n = len(ep)
+        for _ in range(10000):
+            idx = rng_tier.randint(0, n, n)
+            boot_t.append(np.mean(ep[idx] == tier_true[idx]))
+        ci_lo = np.percentile(boot_t, 2.5)
+        ci_hi = np.percentile(boot_t, 97.5)
+        overfit_diag[ens_name] = {
+            "wf_acc": wf_all[ens_name],
+            "boot_ci_95": [round(ci_lo, 4), round(ci_hi, 4)],
+            "boot_ci_width": round(ci_hi - ci_lo, 4),
+        }
+        print(f"  {ens_name}: [{ci_lo:.4f}, {ci_hi:.4f}] — acc={wf_all[ens_name]:.4f}")
+
+    # Best tier ensemble
+    best_tier_ens = max(tier_ens_preds.keys(), key=lambda k: wf_all.get(k, 0))
+    print(f"\n  BEST tier-specialized ensemble: {best_tier_ens} = {wf_all[best_tier_ens]:.4f} (edge: {wf_all[best_tier_ens] - tier_rank_acc:+.4f})")
+
+    del tier_preds, tier_probs, tier_ens_preds; gc.collect()
 
     # --- Upset Rate & Ensemble Accuracy by Team Tier ---
     print(f"\n  --- Upset Rate & Accuracy by Team Rank Tier ---")

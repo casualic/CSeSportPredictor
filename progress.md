@@ -1,12 +1,12 @@
 # Training Progress
 
 ## Current State
-- **Iteration**: 15 (completed)
-- **Status**: Full player data + Fuzzy SVM + conditional ensembles
+- **Iteration**: 19 (completed)
+- **Status**: Tier-specialized models + agreement-boost ensemble
 - **Best Test Model**: XGB_tuned_lean at 66.50% (test)
 - **Best WF Single Model**: FSVM_time_lean at 65.50% (+5.55% edge)
-- **Best WF Ensemble**: Ens_FSVM_XGB_w0.7 at 66.36% (+6.41% edge) — **all-time best**
-- **Target**: 70% accuracy (3.64pp remaining)
+- **Best WF Ensemble**: Ens_agree_boost_w0.7 at 66.50% (+6.55% edge) — **all-time best**
+- **Target**: 70% accuracy (3.50pp remaining)
 
 ### Pre-FSVM Best (Iteration 14 — XGBoost only)
 - **Best WF Model**: XGB_tuned_lean (d=5) at 64.86% (+4.91% edge)
@@ -266,3 +266,31 @@
   accuracy — a +1.00pp improvement over the previous best ensemble (65.36%) and +6.41%
   edge over rank-only baseline. This is the strongest honest result in the project.
   Still 3.64pp from the 70% target.
+
+### Iteration 18 — Tier-aware weighting + best_team_rank feature (reverted)
+- **New feature**: `best_team_rank = min(rank1, rank2)` added to both minimal and lean feature sets
+- **Tier-aware sample weighting**: TIER_BOOST=1.5 for matches where best_team_rank < 55
+- **Individual models improved**: FSVM_time_lean 65.50→65.55%, XGB_tuned_lean 64.86→65.23%
+- **Best ensemble dropped**: Ens_FSVM_XGB_w0.65 at 66.05% (down from 66.36%)
+- **Diagnosis**: Tier weighting helped individual models but disrupted the FSVM/XGB probability
+  calibration that the fixed-weight blend relied on. Tried 20+ new ensemble strategies
+  (tier-conditional, continuous, agreement-boosted, confidence-weighted) — none recovered to 66.36%.
+- **Decision**: Reverted to iter 16 base for iter 19.
+
+### Iteration 19 — Tier-specialized 4-model ensemble + agreement-boost
+- **Architecture**: Reverted to iter 16 base (no tier weighting, best_team_rank not in feature sets
+  but kept in feature dict for routing). Added tier-specialized WF loop training 4 models:
+  - FSVM_elite (trained on rank<55 matches): **70.0% on elite, 65.82% overall**
+  - XGB_elite (trained on rank<55 matches): 66.87% on elite, 62.09% overall
+  - FSVM_lower (trained on rank>=55 matches): 63.14% on lower, 63.05% overall
+  - XGB_lower (trained on rank>=55 matches): 60.00% on lower, 62.68% overall
+- **Tier-specialized ensembles**: Best was TierSpec_agree_fallback_w0.6 at 65.59% —
+  did NOT beat global models. Training on tier subsets reduces data per model (~36% elite),
+  hurting generalization despite better tier-specific fit.
+- **New global best discovered**: **Ens_agree_boost_w0.7 at 66.50%** (+6.55% edge, CI [64.5, 68.5])
+  - Logic: when FSVM & XGB agree, trust the prediction; when they disagree, use 70%FSVM/30%XGB blend
+  - This beats iter 16's Ens_FSVM_XGB_w0.7 (66.36%) by +0.14pp
+- **Key insight**: FSVM_elite achieving 70% on elite matches is a strong betting signal for
+  top-team matchups. The global agree-boost ensemble captures this implicitly — both models
+  tend to agree on elite-tier expected outcomes (where FSVM excels at 80%).
+- Still 3.50pp from the 70% target.

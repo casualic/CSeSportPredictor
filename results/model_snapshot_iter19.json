@@ -1,0 +1,75 @@
+{
+  "description": "Snapshot of model configuration at iteration 19 — tier-specialized ensemble + agree-boost",
+  "timestamp": "2026-02-20",
+  "best_single_model": {
+    "name": "FSVM_time_lean",
+    "wf_accuracy": 0.6550,
+    "wf_edge": 0.0555,
+    "boot_ci_95": [0.6350, 0.6750],
+    "config": {
+      "type": "FuzzySVM",
+      "membership": "time_decay",
+      "C": 1.0,
+      "kernel": "rbf",
+      "gamma": "scale",
+      "lambda_decay": 0.001,
+      "sigma_floor": 0.1
+    }
+  },
+  "best_ensemble": {
+    "name": "Ens_agree_boost_w0.7",
+    "wf_accuracy": 0.6650,
+    "wf_edge": 0.0655,
+    "boot_ci_95": [0.6450, 0.6850],
+    "config": {
+      "type": "agreement_boosted_blend",
+      "when_agree": "use FSVM prediction",
+      "when_disagree": "0.7 * FSVM + 0.3 * XGB probability blend"
+    }
+  },
+  "xgb_tuned": {
+    "name": "XGB_tuned_lean",
+    "wf_accuracy": 0.6486,
+    "wf_edge": 0.0491,
+    "boot_ci_95": [0.6286, 0.6686],
+    "config": {
+      "colsample_bytree": 0.8,
+      "learning_rate": 0.01,
+      "max_depth": 5,
+      "n_estimators": 200,
+      "subsample": 0.8
+    }
+  },
+  "sample_weighting": {
+    "type": "time_decay_only",
+    "decay": 0.985,
+    "tier_weighting": "none"
+  },
+  "features": {
+    "n_minimal": 16,
+    "n_lean": 47,
+    "n_total": 83,
+    "note": "best_team_rank in feature dict for routing but NOT in minimal_cols or lean_cols"
+  },
+  "walk_forward": {
+    "window_size": 200,
+    "start_index": 3600,
+    "n_samples": 2200,
+    "rank_baseline": 0.5995
+  },
+  "tier_accuracy_best_ensemble": {
+    "Top 10": {"n": 118, "acc": 0.712},
+    "10-20": {"n": 96, "acc": 0.667},
+    "20-35": {"n": 195, "acc": 0.697},
+    "35-55": {"n": 391, "acc": 0.724},
+    "55+": {"n": 1400, "acc": 0.640},
+    "elite_combined": {"n": 800, "acc": 0.709}
+  },
+  "tier_specialized_models": {
+    "FSVM_elite": {"all_acc": 0.6582, "own_tier_acc": 0.7000, "n_own": 800},
+    "XGB_elite": {"all_acc": 0.6209, "own_tier_acc": 0.6687, "n_own": 800},
+    "FSVM_lower": {"all_acc": 0.6305, "own_tier_acc": 0.6314, "n_own": 1400},
+    "XGB_lower": {"all_acc": 0.6268, "own_tier_acc": 0.6000, "n_own": 1400},
+    "best_tier_ensemble": {"name": "TierSpec_agree_fallback_w0.6", "acc": 0.6559}
+  }
+}
