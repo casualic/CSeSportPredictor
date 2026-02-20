@@ -21,6 +21,10 @@ from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
 from sklearn.metrics import accuracy_score, log_loss
 from sklearn.preprocessing import StandardScaler
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mticker
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -2276,6 +2280,139 @@ def run_training(iteration=5):
         overlaps_rank = ci_lo <= rank_ci_high and rank_ci_low <= ci_hi
         status = "OVERLAPS rank" if overlaps_rank else "SEPARATED from rank"
         print(f"  {ens_name}: [{ci_lo:.4f}, {ci_hi:.4f}] (width={ci_hi - ci_lo:.4f}) — {status}")
+
+    # --- Upset Rate & Ensemble Accuracy by Team Tier ---
+    print(f"\n  --- Upset Rate & Accuracy by Team Rank Tier ---")
+    # Get rank columns for the WF evaluation range
+    wf_end = wf_start + len(true)
+    wf_rank1 = X["rank1"].iloc[wf_start:wf_end].values
+    wf_rank2 = X["rank2"].iloc[wf_start:wf_end].values
+    wf_avg_rank = (wf_rank1 + wf_rank2) / 2.0
+    wf_best_rank = np.minimum(wf_rank1, wf_rank2)  # the higher-ranked team (lower number)
+    wf_rank_diff_abs = np.abs(X["rank_diff"].iloc[wf_start:wf_end].values)
+    wf_true = np.array(true)
+
+    # Determine which team was favored (rank_diff > 0 means team1 is lower-ranked = team2 favored)
+    wf_rank_diff_raw = X["rank_diff"].iloc[wf_start:wf_end].values
+    is_upset = ((wf_rank_diff_raw > 0) & (wf_true == 1)) | ((wf_rank_diff_raw < 0) & (wf_true == 0))
+
+    # Best ensemble predictions
+    best_ens_name = max(wf_ens_preds.keys(), key=lambda k: wf_all.get(k, 0))
+    best_ens_pred = np.array(wf_ens_preds[best_ens_name])
+
+    # --- Tier buckets based on average rank ---
+    avg_tier_edges = [0, 15, 30, 50, 75, 102]
+    avg_tier_labels = ["Top 15", "15-30", "30-50", "50-75", "75+"]
+
+    # --- Tier buckets based on best (higher-ranked) team ---
+    best_tier_edges = [0, 10, 20, 35, 55, 102]
+    best_tier_labels = ["Top 10", "10-20", "20-35", "35-55", "55+"]
+
+    def compute_tier_stats(tier_vals, edges, labels):
+        upset_rates, accuracies, counts = [], [], []
+        for i in range(len(labels)):
+            mask = (tier_vals >= edges[i]) & (tier_vals < edges[i + 1])
+            n = mask.sum()
+            counts.append(n)
+            if n == 0:
+                upset_rates.append(0)
+                accuracies.append(0)
+                continue
+            upset_rates.append(is_upset[mask].mean())
+            accuracies.append(accuracy_score(wf_true[mask], best_ens_pred[mask]))
+        return upset_rates, accuracies, counts
+
+    # Compute for average rank tiers
+    avg_upsets, avg_accs, avg_counts = compute_tier_stats(wf_avg_rank, avg_tier_edges, avg_tier_labels)
+    # Compute for best-team rank tiers
+    best_upsets, best_accs, best_counts = compute_tier_stats(wf_best_rank, best_tier_edges, best_tier_labels)
+
+    print(f"\n  By average rank of both teams (best ensemble: {best_ens_name}):")
+    print(f"    {'Tier':<12} {'N':>5}  {'Upset%':>7}  {'Acc':>7}")
+    for i, label in enumerate(avg_tier_labels):
+        print(f"    {label:<12} {avg_counts[i]:>5}  {avg_upsets[i]:>6.1%}  {avg_accs[i]:>6.1%}")
+
+    print(f"\n  By best (higher-ranked) team:")
+    print(f"    {'Tier':<12} {'N':>5}  {'Upset%':>7}  {'Acc':>7}")
+    for i, label in enumerate(best_tier_labels):
+        print(f"    {label:<12} {best_counts[i]:>5}  {best_upsets[i]:>6.1%}  {best_accs[i]:>6.1%}")
+
+    # --- Generate plots ---
+    fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+    fig.suptitle("Upset Rate & Ensemble Accuracy by Team Rank Tier", fontsize=14, fontweight="bold")
+
+    bar_width = 0.6
+    colors_upset = "#e74c3c"
+    colors_acc = "#2ecc71"
+
+    # Plot 1: Upset rate by avg rank tier
+    ax = axes[0, 0]
+    x = np.arange(len(avg_tier_labels))
+    bars = ax.bar(x, [u * 100 for u in avg_upsets], bar_width, color=colors_upset, alpha=0.85, edgecolor="white")
+    ax.set_xlabel("Average Rank Tier (both teams)")
+    ax.set_ylabel("Upset Rate (%)")
+    ax.set_title("Upset Rate by Avg Rank Tier")
+    ax.set_xticks(x)
+    ax.set_xticklabels([f"{l}\n(n={c})" for l, c in zip(avg_tier_labels, avg_counts)])
+    ax.set_ylim(0, 55)
+    for bar, val in zip(bars, avg_upsets):
+        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.8, f"{val:.1%}",
+                ha="center", va="bottom", fontsize=10, fontweight="bold")
+    ax.axhline(y=is_upset.mean() * 100, color="gray", linestyle="--", alpha=0.5, label=f"Overall: {is_upset.mean():.1%}")
+    ax.legend(fontsize=9)
+
+    # Plot 2: Ensemble accuracy by avg rank tier
+    ax = axes[0, 1]
+    bars = ax.bar(x, [a * 100 for a in avg_accs], bar_width, color=colors_acc, alpha=0.85, edgecolor="white")
+    ax.set_xlabel("Average Rank Tier (both teams)")
+    ax.set_ylabel("Ensemble Accuracy (%)")
+    ax.set_title(f"Accuracy by Avg Rank Tier ({best_ens_name})")
+    ax.set_xticks(x)
+    ax.set_xticklabels([f"{l}\n(n={c})" for l, c in zip(avg_tier_labels, avg_counts)])
+    ax.set_ylim(50, 80)
+    for bar, val in zip(bars, avg_accs):
+        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5, f"{val:.1%}",
+                ha="center", va="bottom", fontsize=10, fontweight="bold")
+    overall_acc = accuracy_score(wf_true, best_ens_pred)
+    ax.axhline(y=overall_acc * 100, color="gray", linestyle="--", alpha=0.5, label=f"Overall: {overall_acc:.1%}")
+    ax.legend(fontsize=9)
+
+    # Plot 3: Upset rate by best-team rank tier
+    ax = axes[1, 0]
+    x2 = np.arange(len(best_tier_labels))
+    bars = ax.bar(x2, [u * 100 for u in best_upsets], bar_width, color=colors_upset, alpha=0.85, edgecolor="white")
+    ax.set_xlabel("Best (Higher-Ranked) Team Tier")
+    ax.set_ylabel("Upset Rate (%)")
+    ax.set_title("Upset Rate by Higher-Ranked Team Tier")
+    ax.set_xticks(x2)
+    ax.set_xticklabels([f"{l}\n(n={c})" for l, c in zip(best_tier_labels, best_counts)])
+    ax.set_ylim(0, 55)
+    for bar, val in zip(bars, best_upsets):
+        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.8, f"{val:.1%}",
+                ha="center", va="bottom", fontsize=10, fontweight="bold")
+    ax.axhline(y=is_upset.mean() * 100, color="gray", linestyle="--", alpha=0.5, label=f"Overall: {is_upset.mean():.1%}")
+    ax.legend(fontsize=9)
+
+    # Plot 4: Ensemble accuracy by best-team rank tier
+    ax = axes[1, 1]
+    bars = ax.bar(x2, [a * 100 for a in best_accs], bar_width, color=colors_acc, alpha=0.85, edgecolor="white")
+    ax.set_xlabel("Best (Higher-Ranked) Team Tier")
+    ax.set_ylabel("Ensemble Accuracy (%)")
+    ax.set_title(f"Accuracy by Higher-Ranked Team Tier ({best_ens_name})")
+    ax.set_xticks(x2)
+    ax.set_xticklabels([f"{l}\n(n={c})" for l, c in zip(best_tier_labels, best_counts)])
+    ax.set_ylim(50, 80)
+    for bar, val in zip(bars, best_accs):
+        ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.5, f"{val:.1%}",
+                ha="center", va="bottom", fontsize=10, fontweight="bold")
+    ax.axhline(y=overall_acc * 100, color="gray", linestyle="--", alpha=0.5, label=f"Overall: {overall_acc:.1%}")
+    ax.legend(fontsize=9)
+
+    plt.tight_layout()
+    plot_path = os.path.join(RESULTS_DIR, "upset_accuracy_by_tier.png")
+    plt.savefig(plot_path, dpi=150, bbox_inches="tight")
+    plt.close()
+    print(f"\n  Plot saved: {plot_path}")
 
     del wf_ens_preds
     del wf_results, wf_probs, wf_contribs, wf_true_labels, wf_rank_preds; gc.collect()
