@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}{{ p.team1 }} vs {{ p.team2 }} - CS2 Predictor{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Dashboard</a></li>
+        <li class="breadcrumb-item active">{{ p.team1 }} vs {{ p.team2 }}</li>
+    </ol>
+</nav>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <div class="d-flex justify-content-between">
+            <span>{{ p.event or 'Match' }}</span>
+            <span class="badge bg-secondary">{{ p.bo_format or 'BO3' }}</span>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="row text-center mb-4">
+            <div class="col-5">
+                <h3 class="{% if p.predicted_winner == p.team1 %}text-success{% endif %}">{{ p.team1 }}</h3>
+                {% if p.odds_t1 %}<div class="text-muted">Odds: {{ "%.2f"|format(p.odds_t1) }}</div>{% endif %}
+            </div>
+            <div class="col-2 d-flex align-items-center justify-content-center">
+                <span class="fs-4 text-muted">vs</span>
+            </div>
+            <div class="col-5">
+                <h3 class="{% if p.predicted_winner == p.team2 %}text-success{% endif %}">{{ p.team2 }}</h3>
+                {% if p.odds_t2 %}<div class="text-muted">Odds: {{ "%.2f"|format(p.odds_t2) }}</div>{% endif %}
+            </div>
+        </div>
+
+        <!-- Probability bar -->
+        <div class="prob-bar mb-4" style="height: 40px; font-size: 1.1rem;">
+            <div class="prob-fill-t1" style="width: {{ (p.t1_win_prob * 100)|round(1) }}%">
+                {{ p.team1 }} {{ (p.t1_win_prob * 100)|round(1) }}%
+            </div>
+            <div class="prob-fill-t2" style="width: {{ ((1 - p.t1_win_prob) * 100)|round(1) }}%">
+                {{ ((1 - p.t1_win_prob) * 100)|round(1) }}% {{ p.team2 }}
+            </div>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-md-6">
+                <table class="table table-sm">
+                    <tr><th>Predicted Winner</th><td>{{ p.predicted_winner }}</td></tr>
+                    <tr><th>FSVM Probability (T1)</th><td>{{ (p.fsvm_prob * 100)|round(1) }}%</td></tr>
+                    <tr><th>XGB Probability (T1)</th><td>{{ (p.xgb_prob * 100)|round(1) }}%</td></tr>
+                    <tr><th>Ensemble (T1)</th><td>{{ (p.t1_win_prob * 100)|round(1) }}%</td></tr>
+                    <tr><th>Models Agree</th><td>{{ "Yes" if p.models_agree else "No" }}</td></tr>
+                    <tr><th>Confidence</th><td>{{ (p.confidence * 100)|round(0) }}%</td></tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <table class="table table-sm">
+                    {% if p.odds_t1 %}
+                    <tr><th>Implied Prob T1</th><td>{{ (p.implied_prob_t1 * 100)|round(1) if p.implied_prob_t1 else '-' }}%</td></tr>
+                    <tr><th>Implied Prob T2</th><td>{{ (p.implied_prob_t2 * 100)|round(1) if p.implied_prob_t2 else '-' }}%</td></tr>
+                    <tr><th>Edge</th><td class="{% if p.edge and p.edge > 0 %}text-success{% elif p.edge %}text-danger{% endif %}">
+                        {{ (p.edge * 100)|round(1) if p.edge else '-' }}%
+                    </td></tr>
+                    {% endif %}
+                    {% if p.actual_winner %}
+                    <tr><th>Actual Winner</th><td>{{ p.actual_winner }}</td></tr>
+                    <tr><th>Result</th><td>
+                        {% if p.prediction_correct %}
+                        <span class="badge bg-success">Correct</span>
+                        {% else %}
+                        <span class="badge bg-danger">Wrong</span>
+                        {% endif %}
+                    </td></tr>
+                    {% endif %}
+                </table>
+            </div>
+        </div>
+
+        {% if not p.actual_winner %}
+        <hr>
+        <h5>Resolve Prediction</h5>
+        <form method="POST" action="/api/resolve/{{ p.id }}" class="d-flex gap-2">
+            <button type="submit" name="winner" value="{{ p.team1 }}" class="btn btn-outline-success">
+                {{ p.team1 }} Won
+            </button>
+            <button type="submit" name="winner" value="{{ p.team2 }}" class="btn btn-outline-danger">
+                {{ p.team2 }} Won
+            </button>
+        </form>
+        {% endif %}
+    </div>
+</div>
+
+{% if p.match_url %}
+<a href="{{ p.match_url }}" target="_blank" class="btn btn-outline-secondary btn-sm">View on HLTV</a>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}Results - CS2 Predictor{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">Prediction Results</h2>
+
+<!-- Stats cards -->
+<div class="row g-3 mb-4">
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title text-muted">Total Resolved</h5>
+                <div class="fs-2 fw-bold">{{ stats.total }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title text-muted">Correct</h5>
+                <div class="fs-2 fw-bold text-success">{{ stats.correct }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title text-muted">Accuracy</h5>
+                <div class="fs-2 fw-bold">{{ "%.1f"|format(stats.accuracy * 100) }}%</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title text-muted">Models Agree Acc</h5>
+                <div class="fs-2 fw-bold">{{ "%.1f"|format(stats.agreed_accuracy * 100) }}%</div>
+                <small class="text-muted">{{ stats.agreed_correct }}/{{ stats.agreed }}</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if predictions %}
+<div class="table-responsive">
+    <table class="table table-hover align-middle">
+        <thead>
+            <tr>
+                <th>Match</th>
+                <th>Event</th>
+                <th>Predicted</th>
+                <th>Actual</th>
+                <th>T1 Prob</th>
+                <th>Agree</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in predictions %}
+            <tr>
+                <td>
+                    <a href="/match/{{ p.id }}" class="text-decoration-none">
+                        {{ p.team1 }} vs {{ p.team2 }}
+                    </a>
+                </td>
+                <td><small class="text-muted">{{ p.event or '' }}</small></td>
+                <td>{{ p.predicted_winner }}</td>
+                <td>{{ p.actual_winner }}</td>
+                <td>{{ (p.t1_win_prob * 100)|round(1) }}%</td>
+                <td>{{ "Yes" if p.models_agree else "No" }}</td>
+                <td>
+                    {% if p.prediction_correct %}
+                    <span class="badge bg-success">Correct</span>
+                    {% else %}
+                    <span class="badge bg-danger">Wrong</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<div class="text-center text-muted py-5">
+    <p class="fs-5">No resolved predictions yet.</p>
+</div>
+{% endif %}
+{% endblock %}

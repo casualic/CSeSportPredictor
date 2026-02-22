@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% block title %}Dashboard - CS2 Predictor{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Upcoming Predictions</h2>
+    <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#addModal">
+        + Add Prediction
+    </button>
+</div>
+
+{% if predictions %}
+<div class="row g-3">
+    {% for p in predictions %}
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 match-card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <small class="text-muted">{{ p.event or 'Unknown Event' }}</small>
+                <span class="badge bg-secondary">{{ p.bo_format or 'BO3' }}</span>
+            </div>
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="text-center flex-fill">
+                        <div class="fw-bold fs-5 {% if p.predicted_winner == p.team1 %}text-success{% endif %}">
+                            {{ p.team1 }}
+                        </div>
+                        {% if p.odds_t1 %}
+                        <small class="text-muted">{{ "%.2f"|format(p.odds_t1) }}</small>
+                        {% endif %}
+                    </div>
+                    <div class="text-center px-3">
+                        <span class="text-muted">vs</span>
+                    </div>
+                    <div class="text-center flex-fill">
+                        <div class="fw-bold fs-5 {% if p.predicted_winner == p.team2 %}text-success{% endif %}">
+                            {{ p.team2 }}
+                        </div>
+                        {% if p.odds_t2 %}
+                        <small class="text-muted">{{ "%.2f"|format(p.odds_t2) }}</small>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <!-- Probability bar -->
+                <div class="prob-bar mb-2">
+                    <div class="prob-fill-t1" style="width: {{ (p.t1_win_prob * 100)|round(1) }}%">
+                        {{ (p.t1_win_prob * 100)|round(1) }}%
+                    </div>
+                    <div class="prob-fill-t2" style="width: {{ ((1 - p.t1_win_prob) * 100)|round(1) }}%">
+                        {{ ((1 - p.t1_win_prob) * 100)|round(1) }}%
+                    </div>
+                </div>
+
+                <div class="row text-center small">
+                    <div class="col-4">
+                        <div class="text-muted">FSVM</div>
+                        <div>{{ (p.fsvm_prob * 100)|round(1) }}%</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="text-muted">XGB</div>
+                        <div>{{ (p.xgb_prob * 100)|round(1) }}%</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="text-muted">Agree</div>
+                        <div>{{ "Yes" if p.models_agree else "No" }}</div>
+                    </div>
+                </div>
+
+                {% if p.edge %}
+                <div class="text-center mt-2">
+                    <span class="badge {% if p.edge > 0.05 %}bg-success{% elif p.edge > 0 %}bg-warning text-dark{% else %}bg-danger{% endif %}">
+                        Edge: {{ (p.edge * 100)|round(1) }}%
+                    </span>
+                    <span class="badge bg-info">
+                        Conf: {{ (p.confidence * 100)|round(0) }}%
+                    </span>
+                </div>
+                {% endif %}
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+                <small class="text-muted">{{ p.match_time or '' }}</small>
+                <a href="/match/{{ p.id }}" class="btn btn-sm btn-outline-light">Details</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="text-center text-muted py-5">
+    <p class="fs-5">No upcoming predictions yet.</p>
+    <p>Use MCP Playwright to scrape upcoming HLTV matches, or add predictions manually.</p>
+</div>
+{% endif %}
+
+<!-- Add Prediction Modal -->
+<div class="modal fade" id="addModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form method="POST" action="/api/add-prediction">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Prediction</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label class="form-label">Team 1</label>
+                        <input type="text" name="team1" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Team 2</label>
+                        <input type="text" name="team2" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Event</label>
+                        <input type="text" name="event" class="form-control">
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <label class="form-label">BO Format</label>
+                            <select name="bo_format" class="form-select">
+                                <option value="BO3">BO3</option>
+                                <option value="BO1">BO1</option>
+                                <option value="BO5">BO5</option>
+                            </select>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label class="form-label">Match URL</label>
+                            <input type="text" name="match_url" class="form-control" placeholder="Optional">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <label class="form-label">Odds Team 1</label>
+                            <input type="number" step="0.01" name="odds_t1" class="form-control" placeholder="e.g. 1.85">
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label class="form-label">Odds Team 2</label>
+                            <input type="number" step="0.01" name="odds_t2" class="form-control" placeholder="e.g. 2.10">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Predict & Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

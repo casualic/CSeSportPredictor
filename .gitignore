@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+website/.env
+web/.env.local
+web/.env
+
+# SQLite
+*.db
+
+# Tracker state
+*.dat
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+web/.next/
+web/out/
+
+# Playwright MCP
+.playwright-mcp/

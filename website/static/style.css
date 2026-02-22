@@ -1,0 +1,38 @@
+/* CS2 Predictor custom styles */
+
+.match-card {
+    transition: transform 0.15s ease;
+}
+.match-card:hover {
+    transform: translateY(-2px);
+}
+
+.prob-bar {
+    display: flex;
+    height: 28px;
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.prob-fill-t1 {
+    background: linear-gradient(135deg, #198754, #157347);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+}
+.prob-fill-t2 {
+    background: linear-gradient(135deg, #dc3545, #bb2d3b);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+}
+
+.table th {
+    font-weight: 500;
+    white-space: nowrap;
+}

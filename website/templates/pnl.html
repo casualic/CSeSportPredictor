@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+{% block title %}P&L - CS2 Predictor{% endblock %}
+
+{% block head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<h2 class="mb-4">Profit & Loss</h2>
+
+<!-- Summary cards -->
+<div class="row g-3 mb-4">
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title text-muted">Total Bets</h5>
+                <div class="fs-2 fw-bold">{{ pnl.total_bets }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title text-muted">Win Rate</h5>
+                <div class="fs-2 fw-bold">{{ "%.1f"|format(pnl.win_rate * 100) if pnl.total_bets else 0 }}%</div>
+                <small class="text-muted">{{ pnl.wins }}/{{ pnl.total_bets }}</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title text-muted">Total P&L</h5>
+                <div class="fs-2 fw-bold {% if pnl.total_pnl > 0 %}text-success{% elif pnl.total_pnl < 0 %}text-danger{% endif %}">
+                    ${{ "%.2f"|format(pnl.total_pnl) }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title text-muted">ROI</h5>
+                <div class="fs-2 fw-bold {% if pnl.roi > 0 %}text-success{% elif pnl.roi < 0 %}text-danger{% endif %}">
+                    {{ "%.1f"|format(pnl.roi) }}%
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chart -->
+{% if pnl.cumulative %}
+<div class="card mb-4">
+    <div class="card-body">
+        <canvas id="pnlChart" height="100"></canvas>
+    </div>
+</div>
+{% endif %}
+
+<!-- Bets table -->
+{% if bets %}
+<h4 class="mb-3">Bet History</h4>
+<div class="table-responsive">
+    <table class="table table-hover align-middle">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Team</th>
+                <th>Odds</th>
+                <th>Model Prob</th>
+                <th>Edge</th>
+                <th>Result</th>
+                <th>P&L</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for b in bets %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ b.bet_team }}</td>
+                <td>{{ "%.2f"|format(b.bet_odds) if b.bet_odds else '-' }}</td>
+                <td>{{ "%.1f"|format(b.model_prob * 100) if b.model_prob else '-' }}%</td>
+                <td>{{ "%.1f"|format(b.edge * 100) if b.edge else '-' }}%</td>
+                <td>
+                    {% if b.won %}
+                    <span class="badge bg-success">Won</span>
+                    {% else %}
+                    <span class="badge bg-danger">Lost</span>
+                    {% endif %}
+                </td>
+                <td class="{% if b.pnl > 0 %}text-success{% else %}text-danger{% endif %}">
+                    ${{ "%.2f"|format(b.pnl) }}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<div class="text-center text-muted py-5">
+    <p class="fs-5">No bets recorded yet.</p>
+    <p>Bets are created when predictions with positive edge are resolved.</p>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if pnl.cumulative %}
+<script>
+const ctx = document.getElementById('pnlChart').getContext('2d');
+new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: Array.from({length: {{ pnl.cumulative | length }}}, (_, i) => i + 1),
+        datasets: [{
+            label: 'Cumulative P&L ($)',
+            data: {{ pnl.cumulative | tojson }},
+            borderColor: '#198754',
+            backgroundColor: 'rgba(25, 135, 84, 0.1)',
+            fill: true,
+            tension: 0.3,
+            pointRadius: 2
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: { display: true, position: 'top' }
+        },
+        scales: {
+            x: { title: { display: true, text: 'Bet #' } },
+            y: { title: { display: true, text: 'P&L ($)' } }
+        }
+    }
+});
+</script>
+{% endif %}
+{% endblock %}
