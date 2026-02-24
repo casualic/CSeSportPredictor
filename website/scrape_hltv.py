@@ -19,6 +19,10 @@ Usage:
   # 4. Both in one run:
   python -m website.scrape_hltv all
 
+  # 5. Backfill missed matches from HLTV results:
+  python -m website.scrape_hltv backfill           # last ~100 results
+  python -m website.scrape_hltv backfill --pages 3  # last ~300 results
+
   # Optional: specify CDP port (default: auto-detect)
   python -m website.scrape_hltv upcoming --port 9222
 """
@@ -37,7 +41,7 @@ from playwright.async_api import async_playwright
 
 from website.config import TRACKER_STATE_PATH
 from website.scraper import (
-    EXTRACT_UPCOMING_JS, EXTRACT_MATCH_RESULT_JS,
+    EXTRACT_UPCOMING_JS, EXTRACT_MATCH_RESULT_JS, EXTRACT_RESULTS_JS,
     parse_odds, implied_probability, compute_edge, parse_bo_format,
 )
 from website import database as db
@@ -306,6 +310,183 @@ async def resolve_matches(page):
     return resolved
 
 
+async def backfill_matches(page, num_pages=1):
+    """Scrape HLTV results pages and backfill missed matches."""
+    print("\n=== Backfilling Matches from Results ===\n")
+
+    db.init_db()
+    bundle = _get_bundle()
+    total_added = 0
+
+    for page_idx in range(num_pages):
+        offset = page_idx * 100
+        url = f"https://www.hltv.org/results?offset={offset}"
+        print(f"Scraping results page {page_idx + 1}/{num_pages} (offset={offset})...")
+
+        await page.goto(url, timeout=30000, wait_until="domcontentloaded")
+        await asyncio.sleep(3)
+
+        raw = await page.evaluate(EXTRACT_RESULTS_JS)
+        matches = json.loads(raw)
+        print(f"  Found {len(matches)} results on page")
+
+        if not matches:
+            print("  No results found, stopping pagination.")
+            break
+
+        for m in matches:
+            match_url = m.get("match_url", "")
+            team1, team2 = m["team1"], m["team2"]
+            score1, score2 = m["score1"], m["score2"]
+
+            # Skip if no valid match URL
+            if not match_url or not match_url.startswith("http"):
+                continue
+
+            # Skip if already in DB
+            from website.database import _get_client
+            existing = (
+                _get_client()
+                .table("predictions")
+                .select("id")
+                .eq("match_url", match_url)
+                .execute()
+            ).data
+            if existing:
+                continue
+
+            # Infer BO format from scores
+            max_score = max(score1, score2)
+            if max_score <= 1:
+                bo_format = "BO1"
+            elif max_score <= 3:
+                bo_format = "BO3"
+            else:
+                bo_format = "BO5"
+
+            # Generate prediction
+            try:
+                pred = _make_prediction(team1, team2, m.get("event", ""), bo_format)
+            except Exception as e:
+                print(f"  Prediction failed for {team1} vs {team2}: {e}")
+                continue
+
+            # Navigate to match detail page for full result
+            try:
+                await page.goto(match_url, timeout=20000, wait_until="domcontentloaded")
+                await asyncio.sleep(2)
+
+                result_raw = await page.evaluate(EXTRACT_MATCH_RESULT_JS)
+                result_data = json.loads(result_raw)
+            except Exception as e:
+                print(f"  Failed to scrape detail for {team1} vs {team2}: {e}")
+                continue
+
+            winner = result_data.get("winner", "")
+            if not winner:
+                continue
+
+            # Try to scrape odds
+            odds_t1, odds_t2 = None, None
+            try:
+                odds_raw = await page.evaluate("""
+                    () => {
+                        const odds = document.querySelectorAll('.provider-odds .odds-cell');
+                        if (odds.length >= 2) {
+                            return JSON.stringify({
+                                t1: odds[0]?.textContent?.trim() || '',
+                                t2: odds[1]?.textContent?.trim() || ''
+                            });
+                        }
+                        return '{}';
+                    }
+                """)
+                odds_data = json.loads(odds_raw)
+                odds_t1 = parse_odds(odds_data.get("t1"))
+                odds_t2 = parse_odds(odds_data.get("t2"))
+            except Exception:
+                pass
+
+            # Compute edge
+            implied_t1 = implied_probability(odds_t1)
+            implied_t2 = implied_probability(odds_t2)
+            model_prob_winner = pred["t1_win_prob"] if pred["predicted_winner"] == team1 else 1 - pred["t1_win_prob"]
+            implied_winner = implied_t1 if pred["predicted_winner"] == team1 else implied_t2
+            edge = compute_edge(model_prob_winner, implied_winner)
+
+            # Parse match date
+            match_date = _parse_hltv_date(m.get("date", "")) or _parse_hltv_date(result_data.get("date", ""))
+
+            data = {
+                "match_url": match_url,
+                "team1": team1,
+                "team2": team2,
+                "event": m.get("event", "") or result_data.get("event", ""),
+                "bo_format": bo_format,
+                "match_time": "",
+                "match_date": match_date,
+                "predicted_winner": pred["predicted_winner"],
+                "t1_win_prob": pred["t1_win_prob"],
+                "fsvm_prob": pred["fsvm_prob"],
+                "xgb_prob": pred["xgb_prob"],
+                "models_agree": pred["models_agree"],
+                "confidence": pred["confidence"],
+                "odds_t1": odds_t1,
+                "odds_t2": odds_t2,
+                "implied_prob_t1": implied_t1,
+                "implied_prob_t2": implied_t2,
+                "edge": edge,
+                "t1_rank": pred.get("t1_rank"),
+                "t2_rank": pred.get("t2_rank"),
+            }
+            db.insert_prediction(data)
+
+            # Fetch back to get ID, then resolve
+            try:
+                pred_row = db.get_prediction_by_url(match_url)
+                if pred_row:
+                    db.resolve_prediction(pred_row["id"], winner)
+
+                    # Update tracker bundle
+                    match_dict = {
+                        "team1": team1,
+                        "team2": team2,
+                        "winner": winner,
+                        "event": data["event"],
+                        "bo_format": bo_format,
+                        "players": result_data.get("players", []),
+                        "maps": result_data.get("maps", []),
+                    }
+                    bundle.update_with_result(match_dict)
+            except Exception as e:
+                print(f"  Failed to resolve {team1} vs {team2}: {e}")
+
+            correct = "CORRECT" if winner == pred["predicted_winner"] else "WRONG"
+            winner_prob = pred["t1_win_prob"] if pred["predicted_winner"] == team1 else 1 - pred["t1_win_prob"]
+            print(f"  + {team1} vs {team2} -> {winner} [{correct}] (pred: {pred['predicted_winner']} {winner_prob*100:.1f}%)"
+                  f"{'  edge: ' + f'{edge*100:.1f}%' if edge else ''}")
+            total_added += 1
+
+            await asyncio.sleep(1.5)
+
+    # Save bundle
+    if total_added > 0:
+        bundle.save()
+        print(f"\nBackfilled {total_added} matches, tracker state saved.")
+    else:
+        print("\nNo new matches to backfill.")
+
+    # Log scrape
+    from website.database import _get_client
+    _get_client().table("scrape_log").insert({
+        "scrape_type": "backfill",
+        "matches_found": total_added,
+        "status": f"backfilled {total_added}",
+    }).execute()
+
+    return total_added
+
+
 async def main_async(args):
     port = args.port
     if port is None:
@@ -330,13 +511,18 @@ async def main_async(args):
         if args.command in ("resolve", "all"):
             await resolve_matches(page)
 
+        if args.command == "backfill":
+            await backfill_matches(page, args.pages)
+
 
 def main():
     parser = argparse.ArgumentParser(description="HLTV scraper for CS2 prediction website")
-    parser.add_argument("command", choices=["upcoming", "resolve", "all"],
-                        help="upcoming: scrape new matches | resolve: check results | all: both")
+    parser.add_argument("command", choices=["upcoming", "resolve", "all", "backfill"],
+                        help="upcoming: scrape new matches | resolve: check results | all: both | backfill: backfill from results")
     parser.add_argument("--port", type=int, default=None,
                         help="Chrome CDP port (default: auto-detect)")
+    parser.add_argument("--pages", type=int, default=1,
+                        help="Number of results pages to backfill (default: 1, ~100 matches per page)")
     args = parser.parse_args()
     asyncio.run(main_async(args))
 

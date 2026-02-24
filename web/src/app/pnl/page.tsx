@@ -102,12 +102,12 @@ export default async function PnL({ searchParams }: { searchParams: Promise<{ ti
                     <td className="py-2 px-2">{b.edge ? `${(b.edge * 100).toFixed(1)}%` : "-"}</td>
                     <td className="py-2 px-2">
                       {b.won ? (
-                        <span className="text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded">Won</span>
+                        <span className="text-xs bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded">Won</span>
                       ) : (
-                        <span className="text-xs bg-red-500/20 text-red-400 px-2 py-0.5 rounded">Lost</span>
+                        <span className="text-xs bg-rose-500/20 text-rose-400 px-2 py-0.5 rounded">Lost</span>
                       )}
                     </td>
-                    <td className={`py-2 px-2 font-medium ${b.pnl > 0 ? "text-green-500" : "text-red-500"}`}>
+                    <td className={`py-2 px-2 font-medium ${b.pnl > 0 ? "text-emerald-500" : "text-rose-500"}`}>
                       ${b.pnl.toFixed(2)}
                     </td>
                   </tr>

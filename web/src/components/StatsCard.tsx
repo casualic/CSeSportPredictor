@@ -7,7 +7,7 @@ interface StatsCardProps {
 
 export default function StatsCard({ title, value, subtitle, color = "default" }: StatsCardProps) {
   const colorClass =
-    color === "green" ? "text-green-500" : color === "red" ? "text-red-500" : "text-white";
+    color === "green" ? "text-emerald-500" : color === "red" ? "text-rose-500" : "text-white";
 
   return (
     <div className="bg-gray-900 rounded-lg border border-gray-800 p-4 text-center">

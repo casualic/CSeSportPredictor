@@ -154,3 +154,32 @@ EXTRACT_MATCH_RESULT_JS = """
     return JSON.stringify(data);
 }
 """
+
+EXTRACT_RESULTS_JS = """
+() => {
+    const results = [];
+    document.querySelectorAll('.result-con').forEach(el => {
+        const teams = el.querySelectorAll('.team');
+        const score = el.querySelector('.result-score');
+        const event = el.querySelector('.event-name');
+        const link = el.querySelector('a.a-reset');
+        if (teams.length >= 2 && score) {
+            const scoreText = score.textContent.trim();
+            const parts = scoreText.split('-').map(s => parseInt(s.trim()));
+            if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+                const dateHolder = el.closest('.results-sublist');
+                const dateEl = dateHolder ? dateHolder.querySelector('.standard-headline') : null;
+                results.push({
+                    team1: teams[0].textContent.trim(),
+                    team2: teams[1].textContent.trim(),
+                    score1: parts[0], score2: parts[1],
+                    event: event ? event.textContent.trim() : '',
+                    date: dateEl ? dateEl.textContent.trim() : '',
+                    match_url: link ? link.href : ''
+                });
+            }
+        }
+    });
+    return JSON.stringify(results);
+}
+"""

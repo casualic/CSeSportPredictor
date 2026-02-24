@@ -26,8 +26,8 @@ export default function PnlChart({ cumulative }: PnlChartProps) {
       {
         label: "Cumulative P&L ($)",
         data: cumulative,
-        borderColor: "#22c55e",
-        backgroundColor: "rgba(34, 197, 94, 0.1)",
+        borderColor: "#10b981",
+        backgroundColor: "rgba(16, 185, 129, 0.1)",
         fill: true,
         tension: 0.3,
         pointRadius: 2,

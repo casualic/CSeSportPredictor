@@ -4,6 +4,7 @@ import { Prediction } from "@/lib/types";
 import { filterByTier } from "@/lib/tier";
 import PredictionCard from "@/components/PredictionCard";
 import TierFilter from "@/components/TierFilter";
+import ColumnToggle from "@/components/ColumnToggle";
 
 export const revalidate = 0;
 
@@ -21,15 +22,17 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
     <>
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-2xl font-bold">Upcoming Predictions</h2>
-        <Suspense><TierFilter /></Suspense>
+        <div className="flex items-center">
+          <Suspense><TierFilter /></Suspense>
+        </div>
       </div>
 
       {items.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <ColumnToggle>
           {items.map((p) => (
             <PredictionCard key={p.id} prediction={p} />
           ))}
-        </div>
+        </ColumnToggle>
       ) : (
         <div className="text-center text-gray-500 py-16">
           <p className="text-lg">No upcoming predictions yet.</p>

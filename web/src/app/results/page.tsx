@@ -16,7 +16,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
     .not("actual_winner", "is", null)
     .order("resolved_at", { ascending: false });
 
-  const items = filterByTier((predictions ?? []) as Prediction[], tier ?? null);
+  const items = filterByTier((predictions ?? []) as Prediction[], tier ?? "all");
 
   const total = items.length;
   const correct = items.filter((p) => p.prediction_correct).length;
@@ -72,11 +72,11 @@ export default async function Results({ searchParams }: { searchParams: Promise<
                   <td className="py-2 px-2">{p.models_agree ? "Yes" : "No"}</td>
                   <td className="py-2 px-2">
                     {p.prediction_correct ? (
-                      <span className="text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded">
+                      <span className="text-xs bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded">
                         Correct
                       </span>
                     ) : (
-                      <span className="text-xs bg-red-500/20 text-red-400 px-2 py-0.5 rounded">
+                      <span className="text-xs bg-rose-500/20 text-rose-400 px-2 py-0.5 rounded">
                         Wrong
                       </span>
                     )}

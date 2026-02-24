@@ -20,14 +20,14 @@ export default function PredictionCard({ prediction: p }: PredictionCardProps) {
       <div className="p-4">
         <div className="flex justify-between items-center mb-3">
           <div className="text-center flex-1">
-            <div className={`font-bold text-lg ${p.predicted_winner === p.team1 ? "text-green-500" : "text-white"}`}>
+            <div className={`font-bold text-lg ${p.predicted_winner === p.team1 ? "text-emerald-500" : "text-white"}`}>
               {p.team1}
             </div>
             {p.odds_t1 && <span className="text-xs text-gray-500">{p.odds_t1.toFixed(2)}</span>}
           </div>
           <div className="px-3 text-gray-500">vs</div>
           <div className="text-center flex-1">
-            <div className={`font-bold text-lg ${p.predicted_winner === p.team2 ? "text-green-500" : "text-white"}`}>
+            <div className={`font-bold text-lg ${p.predicted_winner === p.team2 ? "text-rose-500" : "text-white"}`}>
               {p.team2}
             </div>
             {p.odds_t2 && <span className="text-xs text-gray-500">{p.odds_t2.toFixed(2)}</span>}
@@ -56,10 +56,10 @@ export default function PredictionCard({ prediction: p }: PredictionCardProps) {
             <span
               className={`text-xs px-2 py-0.5 rounded font-medium ${
                 p.edge! > 0.05
-                  ? "bg-green-500/20 text-green-400"
+                  ? "bg-emerald-500/20 text-emerald-400"
                   : p.edge! > 0
                     ? "bg-yellow-500/20 text-yellow-400"
-                    : "bg-red-500/20 text-red-400"
+                    : "bg-rose-500/20 text-rose-400"
               }`}
             >
               Edge: {edgePct}%

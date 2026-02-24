@@ -46,14 +46,14 @@ export default async function MatchDetail({ params }: { params: Promise<{ id: st
         <div className="p-6">
           <div className="grid grid-cols-5 items-center text-center mb-6">
             <div className="col-span-2">
-              <h3 className={`text-2xl font-bold ${p.predicted_winner === p.team1 ? "text-green-500" : "text-white"}`}>
+              <h3 className={`text-2xl font-bold ${p.predicted_winner === p.team1 ? "text-emerald-500" : "text-white"}`}>
                 {p.team1}
               </h3>
               {p.odds_t1 && <div className="text-gray-500 text-sm">Odds: {p.odds_t1.toFixed(2)}</div>}
             </div>
             <div className="text-xl text-gray-500">vs</div>
             <div className="col-span-2">
-              <h3 className={`text-2xl font-bold ${p.predicted_winner === p.team2 ? "text-green-500" : "text-white"}`}>
+              <h3 className={`text-2xl font-bold ${p.predicted_winner === p.team2 ? "text-rose-500" : "text-white"}`}>
                 {p.team2}
               </h3>
               {p.odds_t2 && <div className="text-gray-500 text-sm">Odds: {p.odds_t2.toFixed(2)}</div>}
@@ -90,7 +90,7 @@ export default async function MatchDetail({ params }: { params: Promise<{ id: st
                       <Row
                         label="Edge"
                         value={p.edge !== null ? `${(p.edge * 100).toFixed(1)}%` : "-"}
-                        valueClass={p.edge && p.edge > 0 ? "text-green-500" : p.edge ? "text-red-500" : ""}
+                        valueClass={p.edge && p.edge > 0 ? "text-emerald-500" : p.edge ? "text-rose-500" : ""}
                       />
                     </>
                   )}
@@ -100,7 +100,7 @@ export default async function MatchDetail({ params }: { params: Promise<{ id: st
                       <Row
                         label="Result"
                         value={p.prediction_correct ? "Correct" : "Wrong"}
-                        valueClass={p.prediction_correct ? "text-green-500" : "text-red-500"}
+                        valueClass={p.prediction_correct ? "text-emerald-500" : "text-rose-500"}
                       />
                     </>
                   )}

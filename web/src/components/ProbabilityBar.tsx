@@ -12,13 +12,13 @@ export default function ProbabilityBar({ t1Prob, team1, team2, height = "h-7" }:
   return (
     <div className={`flex ${height} rounded-md overflow-hidden text-xs font-semibold`}>
       <div
-        className="bg-gradient-to-r from-green-600 to-green-500 flex items-center justify-center text-white min-w-[30px]"
+        className="bg-gradient-to-r from-emerald-600 to-emerald-500 flex items-center justify-center text-white min-w-[30px]"
         style={{ width: `${t1Pct}%` }}
       >
         {team1} {t1Pct}%
       </div>
       <div
-        className="bg-gradient-to-r from-red-500 to-red-600 flex items-center justify-center text-white min-w-[30px]"
+        className="bg-gradient-to-r from-rose-500 to-rose-600 flex items-center justify-center text-white min-w-[30px]"
         style={{ width: `${t2Pct}%` }}
       >
         {t2Pct}% {team2}

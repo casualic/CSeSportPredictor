@@ -37,6 +37,11 @@ cd "$(dirname "$0")"
 /opt/anaconda3/bin/python -m website.scrape_hltv all --port $PORT
 echo "Scraper exit code: $?"
 
+# Backfill any missed matches from results page
+echo "Running backfill..."
+/opt/anaconda3/bin/python -m website.scrape_hltv backfill --port $PORT
+echo "Backfill exit code: $?"
+
 # Kill CDP Chrome
 kill $CHROME_PID 2>/dev/null
 echo "Done."

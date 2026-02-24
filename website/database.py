@@ -167,6 +167,19 @@ def get_stats():
     }
 
 
+def get_prediction_by_url(match_url):
+    """Fetch a prediction by its match_url."""
+    resp = (
+        _get_client()
+        .table("predictions")
+        .select("*")
+        .eq("match_url", match_url)
+        .single()
+        .execute()
+    )
+    return resp.data
+
+
 def get_pnl_stats():
     """Get aggregate P&L stats."""
     resp = (
