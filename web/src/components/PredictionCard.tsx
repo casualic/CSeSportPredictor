@@ -23,14 +23,14 @@ export default function PredictionCard({ prediction: p }: PredictionCardProps) {
             <div className={`font-bold text-lg ${p.predicted_winner === p.team1 ? "text-emerald-500" : "text-white"}`}>
               {p.team1}
             </div>
-            {p.odds_t1 && <span className="text-xs text-gray-500">{p.odds_t1.toFixed(2)}</span>}
+            <span className="text-xs text-gray-500">{(1 / p.t1_win_prob).toFixed(2)}</span>
           </div>
           <div className="px-3 text-gray-500">vs</div>
           <div className="text-center flex-1">
             <div className={`font-bold text-lg ${p.predicted_winner === p.team2 ? "text-rose-500" : "text-white"}`}>
               {p.team2}
             </div>
-            {p.odds_t2 && <span className="text-xs text-gray-500">{p.odds_t2.toFixed(2)}</span>}
+            <span className="text-xs text-gray-500">{(1 / (1 - p.t1_win_prob)).toFixed(2)}</span>
           </div>
         </div>
 

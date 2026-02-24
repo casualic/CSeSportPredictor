@@ -52,6 +52,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
                 <th className="text-left py-3 px-2 font-medium">Event</th>
                 <th className="text-left py-3 px-2 font-medium">Predicted</th>
                 <th className="text-left py-3 px-2 font-medium">Actual</th>
+                <th className="text-left py-3 px-2 font-medium">Model Odds</th>
                 <th className="text-left py-3 px-2 font-medium">T1 Prob</th>
                 <th className="text-left py-3 px-2 font-medium">Agree</th>
                 <th className="text-left py-3 px-2 font-medium">Result</th>
@@ -68,6 +69,9 @@ export default async function Results({ searchParams }: { searchParams: Promise<
                   <td className="py-2 px-2 text-gray-500 text-xs">{p.event || ""}</td>
                   <td className="py-2 px-2">{p.predicted_winner}</td>
                   <td className="py-2 px-2">{p.actual_winner}</td>
+                  <td className="py-2 px-2 text-gray-400 text-xs">
+                    {(1 / p.t1_win_prob).toFixed(2)} / {(1 / (1 - p.t1_win_prob)).toFixed(2)}
+                  </td>
                   <td className="py-2 px-2">{(p.t1_win_prob * 100).toFixed(1)}%</td>
                   <td className="py-2 px-2">{p.models_agree ? "Yes" : "No"}</td>
                   <td className="py-2 px-2">
