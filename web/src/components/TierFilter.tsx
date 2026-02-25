@@ -22,12 +22,12 @@ export default function TierFilter({ defaultTier = "all" }: { defaultTier?: stri
   }
 
   return (
-    <div className="flex items-center gap-1.5">
+    <div className="flex items-center gap-1 sm:gap-1.5 flex-wrap">
       {TIERS.map((t) => (
         <button
           key={t.value}
           onClick={() => setTier(t.value)}
-          className={`text-xs font-medium px-3.5 py-1.5 rounded-[4px] border transition-all duration-150 cursor-pointer ${
+          className={`text-[11px] sm:text-xs font-medium px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-[4px] border transition-all duration-150 cursor-pointer ${
             current === t.value
               ? "bg-blue-600 border-blue-600 text-white"
               : "bg-white border-slate-200 text-slate-600 hover:border-blue-600 hover:text-blue-600"

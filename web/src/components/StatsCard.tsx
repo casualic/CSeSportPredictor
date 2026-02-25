@@ -16,15 +16,15 @@ export default function StatsCard({ title, value, subtitle, color = "default" }:
           : "text-slate-900";
 
   return (
-    <div className="bg-white border border-slate-200 rounded-[6px] px-5 py-4 animate-[fadeIn_0.35s_ease_both]">
-      <div className="text-[11px] font-medium text-slate-400 uppercase tracking-[0.5px] mb-1.5">
+    <div className="bg-white border border-slate-200 rounded-[6px] px-3 py-3 sm:px-5 sm:py-4 animate-[fadeIn_0.35s_ease_both]">
+      <div className="text-[10px] sm:text-[11px] font-medium text-slate-400 uppercase tracking-[0.5px] mb-1 sm:mb-1.5">
         {title}
       </div>
-      <div className={`font-serif text-[28px] font-semibold leading-none ${colorClass}`}>
+      <div className={`font-serif text-[22px] sm:text-[28px] font-semibold leading-none ${colorClass}`}>
         {value}
       </div>
       {subtitle && (
-        <div className="text-xs text-slate-400 mt-[3px]">{subtitle}</div>
+        <div className="text-[11px] sm:text-xs text-slate-400 mt-[3px]">{subtitle}</div>
       )}
     </div>
   );

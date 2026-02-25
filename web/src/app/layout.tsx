@@ -37,8 +37,8 @@ export default function RootLayout({
         className={`${sourceSerif.variable} ${ibmPlexSans.variable} ${ibmPlexMono.variable} antialiased bg-slate-50 text-slate-900`}
       >
         <Navbar />
-        <main className="max-w-[1120px] mx-auto px-7 py-8">{children}</main>
-        <footer className="max-w-[1120px] mx-auto px-7 py-[18px] mt-9 border-t border-slate-200 flex justify-between text-xs text-slate-400">
+        <main className="max-w-[1120px] mx-auto px-4 sm:px-7 py-5 sm:py-8">{children}</main>
+        <footer className="max-w-[1120px] mx-auto px-4 sm:px-7 py-4 sm:py-[18px] mt-6 sm:mt-9 border-t border-slate-200 flex flex-col sm:flex-row gap-1 sm:gap-0 justify-between text-[11px] sm:text-xs text-slate-400">
           <span>CS2 Predictor &mdash; FSVM + XGB Ensemble</span>
           <span>Last updated: {new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</span>
         </footer>

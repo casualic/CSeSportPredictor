@@ -42,7 +42,7 @@ export default async function MatchDetail({ params }: { params: Promise<{ id: st
       {/* Result banner if resolved */}
       {p.actual_winner && (
         <div
-          className={`rounded-[6px] border px-5 py-3 mb-5 flex items-center justify-between ${
+          className={`rounded-[6px] border px-3 sm:px-5 py-3 mb-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-0 ${
             p.prediction_correct
               ? "bg-green-50 border-green-200"
               : "bg-red-50 border-red-200"
@@ -76,7 +76,7 @@ export default async function MatchDetail({ params }: { params: Promise<{ id: st
       {/* Header card */}
       <div className="bg-white border border-slate-200 rounded-[6px] overflow-hidden">
         {/* Event header */}
-        <div className="px-6 py-3 border-b border-slate-200 flex justify-between items-center bg-slate-50">
+        <div className="px-4 sm:px-6 py-3 border-b border-slate-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-1 sm:gap-0 bg-slate-50">
           <span className="text-slate-600 text-sm font-medium">
             {p.event || "Match"}
           </span>
@@ -90,15 +90,15 @@ export default async function MatchDetail({ params }: { params: Promise<{ id: st
           </div>
         </div>
 
-        <div className="p-6">
+        <div className="p-4 sm:p-6">
           {/* Two-column grid */}
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-6 sm:gap-8">
             {/* Left: Team matchup + probability */}
             <div>
               <div className="flex items-center justify-between mb-5">
                 <div className="text-center flex-1">
                   <h3
-                    className={`text-2xl font-bold font-serif ${
+                    className={`text-xl sm:text-2xl font-bold font-serif ${
                       p.predicted_winner === p.team1 ? "text-blue-600" : "text-slate-900"
                     }`}
                   >
@@ -116,7 +116,7 @@ export default async function MatchDetail({ params }: { params: Promise<{ id: st
                 <div className="text-lg text-slate-400 font-medium px-4">vs</div>
                 <div className="text-center flex-1">
                   <h3
-                    className={`text-2xl font-bold font-serif ${
+                    className={`text-xl sm:text-2xl font-bold font-serif ${
                       p.predicted_winner === p.team2 ? "text-blue-600" : "text-slate-900"
                     }`}
                   >
@@ -252,11 +252,11 @@ function Row({
 }) {
   return (
     <tr className="border-b border-slate-100 last:border-b-0">
-      <th className="text-left py-2.5 px-4 text-slate-600 font-medium text-[13px]">
+      <th className="text-left py-2.5 px-3 sm:px-4 text-slate-600 font-medium text-[12px] sm:text-[13px]">
         {label}
       </th>
       <td
-        className={`text-right py-2.5 px-4 font-mono text-[13px] ${
+        className={`text-right py-2.5 px-3 sm:px-4 font-mono text-[12px] sm:text-[13px] ${
           highlight ? "text-blue-600 font-semibold" : valueClass || "text-slate-900"
         }`}
       >

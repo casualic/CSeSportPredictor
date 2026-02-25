@@ -25,9 +25,9 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
   return (
     <>
       {/* Header */}
-      <div className="flex justify-between items-end mb-7">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-3 mb-5 sm:mb-7">
         <div>
-          <h1 className="font-serif text-[26px] font-semibold text-slate-900 tracking-[-0.5px] mb-[3px]">
+          <h1 className="font-serif text-[22px] sm:text-[26px] font-semibold text-slate-900 tracking-[-0.5px] mb-[3px]">
             Upcoming Predictions
           </h1>
           <p className="text-[13px] text-slate-400">
@@ -40,7 +40,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
       </div>
 
       {/* Stats row */}
-      <div className="grid grid-cols-2 gap-3.5 mb-7">
+      <div className="grid grid-cols-2 gap-2.5 sm:gap-3.5 mb-5 sm:mb-7">
         <StatsCard title="Active" value={String(active)} subtitle="predictions pending" />
         <StatsCard
           title="Models Agree"
@@ -52,32 +52,32 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
 
       {/* Table */}
       {items.length > 0 ? (
-        <div className="bg-white border border-slate-400 rounded-[6px] overflow-hidden">
-          <table className="w-full border-collapse">
+        <div className="bg-white border border-slate-400 rounded-[6px] overflow-x-auto -mx-4 sm:mx-0 border-x-0 sm:border-x rounded-none sm:rounded-[6px]">
+          <table className="w-full border-collapse min-w-[700px]">
             <thead>
               <tr>
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-left border-b-2 border-slate-300 bg-slate-50">
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-left border-b-2 border-slate-300 bg-slate-50">
                   Match
                 </th>
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-left border-b-2 border-slate-300 bg-slate-50">
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-left border-b-2 border-slate-300 bg-slate-50">
                   Event
                 </th>
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-left border-b-2 border-slate-300 bg-slate-50">
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-left border-b-2 border-slate-300 bg-slate-50">
                   Probability
                 </th>
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-center border-b-2 border-slate-300 bg-slate-50">
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-center border-b-2 border-slate-300 bg-slate-50">
                   FSVM
                 </th>
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-center border-b-2 border-slate-300 bg-slate-50">
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-center border-b-2 border-slate-300 bg-slate-50">
                   XGB
                 </th>
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-center border-b-2 border-slate-300 bg-slate-50">
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-center border-b-2 border-slate-300 bg-slate-50">
                   Agree
                 </th>
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-center border-b-2 border-slate-300 bg-slate-50">
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-center border-b-2 border-slate-300 bg-slate-50">
                   Edge
                 </th>
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-left border-b-2 border-slate-300 bg-slate-50" />
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-left border-b-2 border-slate-300 bg-slate-50" />
               </tr>
             </thead>
             <tbody>
@@ -99,7 +99,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
                     className="border-b border-slate-300 last:border-b-0 hover:bg-blue-50 transition-colors duration-100 animate-[rowIn_0.3s_ease_both]"
                   >
                     {/* Match */}
-                    <td className="py-3.5 px-[18px] align-middle">
+                    <td className="py-3.5 px-3 sm:px-[18px] align-middle">
                       <div className="flex items-center gap-2">
                         <span
                           className={`font-semibold text-sm ${
@@ -130,7 +130,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
                     </td>
 
                     {/* Event */}
-                    <td className="py-3.5 px-[18px] align-middle text-slate-600 text-[13px]">
+                    <td className="py-3.5 px-3 sm:px-[18px] align-middle text-slate-600 text-[13px]">
                       {p.event || ""}
                       {p.bo_format && (
                         <span className="inline-block text-[11px] font-semibold text-slate-400 bg-slate-50 border border-slate-200 px-2 py-[1px] rounded-[3px] ml-2">
@@ -140,8 +140,8 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
                     </td>
 
                     {/* Probability bar */}
-                    <td className="py-3.5 px-[18px] align-middle">
-                      <div className="w-[180px]">
+                    <td className="py-3.5 px-3 sm:px-[18px] align-middle">
+                      <div className="w-[120px] sm:w-[180px]">
                         <div className="flex h-1.5 rounded-[3px] overflow-hidden ring-1 ring-blue-600">
                           <div
                             className="bg-emerald-500 rounded-l-[3px] transition-[width] duration-600"
@@ -157,17 +157,17 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
                     </td>
 
                     {/* FSVM */}
-                    <td className="py-3.5 px-[18px] align-middle font-mono text-[13px] text-slate-600 text-center">
+                    <td className="py-3.5 px-3 sm:px-[18px] align-middle font-mono text-[13px] text-slate-600 text-center">
                       {(p.fsvm_prob * 100).toFixed(1)}%
                     </td>
 
                     {/* XGB */}
-                    <td className="py-3.5 px-[18px] align-middle font-mono text-[13px] text-slate-600 text-center">
+                    <td className="py-3.5 px-3 sm:px-[18px] align-middle font-mono text-[13px] text-slate-600 text-center">
                       {(p.xgb_prob * 100).toFixed(1)}%
                     </td>
 
                     {/* Agree */}
-                    <td className="py-3.5 px-[18px] align-middle text-center">
+                    <td className="py-3.5 px-3 sm:px-[18px] align-middle text-center">
                       <span
                         className={`text-[11px] font-semibold px-2 py-[2px] rounded-[3px] ${
                           p.models_agree
@@ -181,14 +181,14 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
 
                     {/* Edge */}
                     <td
-                      className={`py-3.5 px-[18px] align-middle text-center font-mono text-[13px] font-medium ${edgeColor}`}
+                      className={`py-3.5 px-3 sm:px-[18px] align-middle text-center font-mono text-[13px] font-medium ${edgeColor}`}
                     >
                       {edgeVal >= 0 ? "+" : ""}
                       {edgePct}%
                     </td>
 
                     {/* Action */}
-                    <td className="py-3.5 px-[18px] align-middle">
+                    <td className="py-3.5 px-3 sm:px-[18px] align-middle">
                       <Link
                         href={`/match/${p.id}`}
                         className="text-xs font-medium text-blue-600 no-underline px-2.5 py-1 border border-blue-100 rounded-[4px] hover:bg-blue-50 hover:border-blue-500 transition-all duration-150"

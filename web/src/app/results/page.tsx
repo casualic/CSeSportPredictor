@@ -28,9 +28,9 @@ export default async function Results({ searchParams }: { searchParams: Promise<
   return (
     <>
       {/* Header */}
-      <div className="flex justify-between items-end mb-7">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-3 mb-5 sm:mb-7">
         <div>
-          <h1 className="font-serif text-[26px] font-semibold text-slate-900 tracking-[-0.5px] mb-[3px]">
+          <h1 className="font-serif text-[22px] sm:text-[26px] font-semibold text-slate-900 tracking-[-0.5px] mb-[3px]">
             Prediction Results
           </h1>
           <p className="text-[13px] text-slate-400">
@@ -43,7 +43,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
       </div>
 
       {/* Stats row */}
-      <div className="grid grid-cols-4 gap-3.5 mb-7">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3.5 mb-5 sm:mb-7">
         <StatsCard title="Total Resolved" value={String(total)} subtitle="matches completed" />
         <StatsCard title="Correct" value={String(correct)} subtitle={`of ${total} total`} color="green" />
         <StatsCard
@@ -62,21 +62,21 @@ export default async function Results({ searchParams }: { searchParams: Promise<
 
       {/* Table */}
       {items.length > 0 ? (
-        <div className="bg-white border border-slate-400 rounded-[6px] overflow-hidden">
-          <table className="w-full border-collapse">
+        <div className="bg-white border border-slate-400 rounded-[6px] overflow-x-auto -mx-4 sm:mx-0 border-x-0 sm:border-x rounded-none sm:rounded-[6px]">
+          <table className="w-full border-collapse min-w-[650px]">
             <thead>
               <tr>
                 {["Match", "Event", "Predicted", "Actual", "Model Prob", "Agree", "Result"].map(
                   (header) => (
                     <th
                       key={header}
-                      className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-left border-b-2 border-slate-300 bg-slate-50"
+                      className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-left border-b-2 border-slate-300 bg-slate-50"
                     >
                       {header}
                     </th>
                   )
                 )}
-                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-left border-b-2 border-slate-300 bg-slate-50" />
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-3 sm:px-[18px] text-left border-b-2 border-slate-300 bg-slate-50" />
               </tr>
             </thead>
             <tbody>
@@ -86,7 +86,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
                   className="border-b border-slate-300 last:border-b-0 hover:bg-blue-50 transition-colors duration-100 animate-[rowIn_0.3s_ease_both]"
                 >
                   {/* Match */}
-                  <td className="py-3.5 px-[18px] align-middle">
+                  <td className="py-3.5 px-3 sm:px-[18px] align-middle">
                     <div className="flex items-center gap-2">
                       <span
                         className={`font-semibold text-sm ${
@@ -113,7 +113,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
                   </td>
 
                   {/* Event */}
-                  <td className="py-3.5 px-[18px] align-middle text-slate-600 text-[13px]">
+                  <td className="py-3.5 px-3 sm:px-[18px] align-middle text-slate-600 text-[13px]">
                     {p.event || ""}
                     {p.bo_format && (
                       <span className="inline-block text-[11px] font-semibold text-slate-400 bg-slate-50 border border-slate-200 px-2 py-[1px] rounded-[3px] ml-2">
@@ -123,22 +123,22 @@ export default async function Results({ searchParams }: { searchParams: Promise<
                   </td>
 
                   {/* Predicted */}
-                  <td className="py-3.5 px-[18px] align-middle text-sm font-medium text-slate-900">
+                  <td className="py-3.5 px-3 sm:px-[18px] align-middle text-sm font-medium text-slate-900">
                     {p.predicted_winner}
                   </td>
 
                   {/* Actual */}
-                  <td className="py-3.5 px-[18px] align-middle text-sm font-medium text-slate-900">
+                  <td className="py-3.5 px-3 sm:px-[18px] align-middle text-sm font-medium text-slate-900">
                     {p.actual_winner}
                   </td>
 
                   {/* Model Prob */}
-                  <td className="py-3.5 px-[18px] align-middle font-mono text-[13px] text-slate-600">
+                  <td className="py-3.5 px-3 sm:px-[18px] align-middle font-mono text-[13px] text-slate-600">
                     {(p.t1_win_prob * 100).toFixed(1)}%
                   </td>
 
                   {/* Agree */}
-                  <td className="py-3.5 px-[18px] align-middle text-center">
+                  <td className="py-3.5 px-3 sm:px-[18px] align-middle text-center">
                     <span
                       className={`text-[11px] font-semibold px-2 py-[2px] rounded-[3px] ${
                         p.models_agree
@@ -151,7 +151,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
                   </td>
 
                   {/* Result */}
-                  <td className="py-3.5 px-[18px] align-middle">
+                  <td className="py-3.5 px-3 sm:px-[18px] align-middle">
                     {p.prediction_correct ? (
                       <span className="text-[11px] font-semibold px-2 py-[2px] rounded-[3px] bg-green-50 text-green-600">
                         Correct
@@ -164,7 +164,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
                   </td>
 
                   {/* Action */}
-                  <td className="py-3.5 px-[18px] align-middle">
+                  <td className="py-3.5 px-3 sm:px-[18px] align-middle">
                     <Link
                       href={`/match/${p.id}`}
                       className="text-xs font-medium text-blue-600 no-underline px-2.5 py-1 border border-blue-100 rounded-[4px] hover:bg-blue-50 hover:border-blue-500 transition-all duration-150"
