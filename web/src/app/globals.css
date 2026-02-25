@@ -1,13 +1,7 @@
 @import "tailwindcss";
 
-/* Force light mode even when OS prefers dark */
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: light !important;
-    --color-background: #f8fafc !important;
-    --color-foreground: #0f172a !important;
-  }
-}
+/* Switch dark mode to class-based so OS dark preference has no effect */
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: #f8fafc;

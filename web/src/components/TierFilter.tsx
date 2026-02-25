@@ -17,11 +17,7 @@ export default function TierFilter({ defaultTier = "all" }: { defaultTier?: stri
 
   function setTier(value: string) {
     const params = new URLSearchParams(searchParams.toString());
-    if (value === "all") {
-      params.delete("tier");
-    } else {
-      params.set("tier", value);
-    }
+    params.set("tier", value);
     router.push(`${pathname}?${params.toString()}`);
   }
 

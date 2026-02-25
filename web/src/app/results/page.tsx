@@ -16,7 +16,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
     .not("actual_winner", "is", null)
     .order("resolved_at", { ascending: false });
 
-  const items = filterByTier((predictions ?? []) as Prediction[], tier ?? "all");
+  const items = filterByTier((predictions ?? []) as Prediction[], tier ?? "30");
 
   const total = items.length;
   const correct = items.filter((p) => p.prediction_correct).length;
@@ -38,7 +38,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
           </p>
         </div>
         <Suspense>
-          <TierFilter />
+          <TierFilter defaultTier="30" />
         </Suspense>
       </div>
 
