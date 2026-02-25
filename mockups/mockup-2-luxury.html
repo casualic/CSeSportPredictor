@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS2 Predictor — Luxury Sportsbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #c9a84c;
+    --gold-light: #e8d48b;
+    --gold-dim: rgba(201,168,76,0.15);
+    --gold-glow: rgba(201,168,76,0.08);
+    --win: #4ade80;
+    --lose: #f87171;
+    --bg: #0c0b0e;
+    --bg-card: #13121a;
+    --bg-elevated: #1a1924;
+    --border: #24222e;
+    --border-light: #2e2c3a;
+    --text: #e8e5f0;
+    --text-secondary: #9490a6;
+    --text-muted: #5c586e;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    background-image: radial-gradient(circle at 20% 0%, rgba(201,168,76,0.04) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 100%, rgba(201,168,76,0.03) 0%, transparent 50%);
+  }
+
+  /* Subtle noise texture */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* ── NAV ── */
+  nav {
+    border-bottom: 1px solid var(--border);
+    background: rgba(12,11,14,0.9);
+    backdrop-filter: blur(20px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--gold);
+    text-decoration: none;
+    letter-spacing: -0.5px;
+  }
+
+  .nav-brand em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--text-secondary);
+    font-size: 18px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 4px;
+  }
+
+  .nav-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 18px;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    letter-spacing: 0.3px;
+  }
+
+  .nav-links a:hover { color: var(--text); background: var(--bg-elevated); }
+
+  .nav-links a.active {
+    color: var(--gold);
+    background: var(--gold-dim);
+  }
+
+  .nav-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    background: var(--bg-elevated);
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+
+  .nav-meta .acc { color: var(--gold); font-weight: 500; }
+
+  /* ── MAIN ── */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 32px;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 36px;
+  }
+
+  .header-left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin-bottom: 4px;
+  }
+
+  .header-left h1 span {
+    color: var(--gold);
+  }
+
+  .header-left p {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .tier-pills {
+    display: flex;
+    gap: 6px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 4px;
+  }
+
+  .tier-pill {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 7px 18px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background: transparent;
+    color: var(--text-muted);
+  }
+
+  .tier-pill:hover { color: var(--text); }
+
+  .tier-pill.active {
+    background: var(--gold);
+    color: var(--bg);
+    box-shadow: 0 2px 12px rgba(201,168,76,0.3);
+  }
+
+  /* ── SUMMARY ROW ── */
+  .summary-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 36px;
+  }
+
+  .summary-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px 24px;
+    position: relative;
+    overflow: hidden;
+    animation: cardIn 0.5s ease both;
+  }
+
+  .summary-card:nth-child(1) { animation-delay: 0s; }
+  .summary-card:nth-child(2) { animation-delay: 0.08s; }
+  .summary-card:nth-child(3) { animation-delay: 0.16s; }
+  .summary-card:nth-child(4) { animation-delay: 0.24s; }
+
+  @keyframes cardIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .summary-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    opacity: 0.4;
+  }
+
+  .summary-card .label {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .summary-card .big {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  .summary-card .big.gold { color: var(--gold); }
+  .summary-card .big.green { color: var(--win); }
+
+  .summary-card .sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  /* ── PREDICTION CARDS ── */
+  .predictions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .pred-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    animation: cardIn 0.5s ease both;
+  }
+
+  .pred-card:nth-child(1) { animation-delay: 0.05s; }
+  .pred-card:nth-child(2) { animation-delay: 0.1s; }
+  .pred-card:nth-child(3) { animation-delay: 0.15s; }
+  .pred-card:nth-child(4) { animation-delay: 0.2s; }
+  .pred-card:nth-child(5) { animation-delay: 0.25s; }
+  .pred-card:nth-child(6) { animation-delay: 0.3s; }
+
+  .pred-card:hover {
+    border-color: var(--gold-dim);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4), 0 0 0 1px var(--gold-dim);
+  }
+
+  .pred-header {
+    padding: 16px 22px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pred-event {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-weight: 500;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .pred-meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .pred-format {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: var(--bg-elevated);
+    padding: 3px 10px;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+  }
+
+  .pred-date {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: 'DM Mono', monospace;
+  }
+
+  /* Team matchup area */
+  .pred-matchup {
+    padding: 8px 22px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pred-team {
+    flex: 1;
+    text-align: center;
+  }
+
+  .pred-team .name {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    transition: color 0.2s;
+  }
+
+  .pred-team .name.favored { color: var(--gold); }
+
+  .pred-team .rank {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: 'DM Mono', monospace;
+  }
+
+  .pred-team .odds {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 6px;
+    background: var(--bg-elevated);
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 6px;
+  }
+
+  .pred-vs {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--text-muted);
+    padding: 0 16px;
+  }
+
+  /* Probability section */
+  .pred-prob {
+    padding: 0 22px;
+    margin-bottom: 16px;
+  }
+
+  .prob-track {
+    display: flex;
+    height: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .prob-track .left {
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    border-radius: 8px 0 0 8px;
+    transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .prob-track .right {
+    background: var(--bg-elevated);
+    border-radius: 0 8px 8px 0;
+    flex: 1;
+  }
+
+  .prob-numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+  }
+
+  .prob-numbers .left-num { color: var(--gold); }
+  .prob-numbers .right-num { color: var(--text-muted); }
+
+  /* Model detail row */
+  .pred-models {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 22px;
+    border-top: 1px solid var(--border);
+    background: rgba(26,25,36,0.5);
+  }
+
+  .model-item {
+    text-align: center;
+    flex: 1;
+  }
+
+  .model-item .m-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 2px;
+  }
+
+  .model-item .m-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .model-item .m-value.agree-yes { color: var(--win); }
+
+  /* Edge badge */
+  .pred-edge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+  }
+
+  .edge-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+  }
+
+  .edge-dot.hot {
+    background: var(--gold);
+    box-shadow: 0 0 8px var(--gold);
+  }
+
+  .edge-dot.warm {
+    background: var(--gold);
+    opacity: 0.5;
+  }
+
+  .edge-dot.cold {
+    background: var(--lose);
+    opacity: 0.6;
+  }
+
+  .model-item .m-value.edge-hot { color: var(--gold); }
+  .model-item .m-value.edge-cold { color: var(--lose); }
+
+  /* ── FOOTER ── */
+  footer {
+    max-width: 1200px;
+    margin: 48px auto 0;
+    padding: 24px 32px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .left {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  footer .left em { color: var(--gold); font-style: italic; }
+
+  footer .right {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: 'DM Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">CS2 <em>Predictor</em></a>
+    <div class="nav-links">
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Results</a>
+      <a href="#">P&L</a>
+    </div>
+    <div class="nav-meta">
+      FSVM+XGB &middot; <span class="acc">66.5%</span> WF
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="header">
+    <div class="header-left">
+      <h1>Upcoming <span>Predictions</span></h1>
+      <p>Model-driven match forecasts with edge analysis</p>
+    </div>
+    <div class="tier-pills">
+      <button class="tier-pill active">All</button>
+      <button class="tier-pill">Top 15</button>
+      <button class="tier-pill">Top 30</button>
+      <button class="tier-pill">Top 50</button>
+    </div>
+  </div>
+
+  <div class="summary-row">
+    <div class="summary-card">
+      <div class="label">Active Predictions</div>
+      <div class="big">6</div>
+      <div class="sub">Awaiting resolution</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Models Agree</div>
+      <div class="big green">4</div>
+      <div class="sub">of 6 predictions</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Average Edge</div>
+      <div class="big gold">+4.2%</div>
+      <div class="sub">vs bookmaker lines</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">High Confidence</div>
+      <div class="big">3</div>
+      <div class="sub">Edge above 5%</div>
+    </div>
+  </div>
+
+  <div class="predictions-grid">
+
+    <!-- Card 1 -->
+    <div class="pred-card">
+      <div class="pred-header">
+        <span class="pred-event">IEM Katowice 2026</span>
+        <div class="pred-meta">
+          <span class="pred-format">BO3</span>
+          <span class="pred-date">Feb 25 &middot; 14:30</span>
+        </div>
+      </div>
+      <div class="pred-matchup">
+        <div class="pred-team">
+          <div class="name favored">Natus Vincere</div>
+          <div class="rank">#2</div>
+          <div class="odds">1.61</div>
+        </div>
+        <div class="pred-vs">vs</div>
+        <div class="pred-team">
+          <div class="name">FaZe</div>
+          <div class="rank">#5</div>
+          <div class="odds">2.65</div>
+        </div>
+      </div>
+      <div class="pred-prob">
+        <div class="prob-track">
+          <div class="left" style="width: 62.3%"></div>
+          <div class="right"></div>
+        </div>
+        <div class="prob-numbers">
+          <span class="left-num">62.3%</span>
+          <span class="right-num">37.7%</span>
+        </div>
+      </div>
+      <div class="pred-models">
+        <div class="model-item">
+          <div class="m-label">FSVM</div>
+          <div class="m-value">64.1%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">XGB</div>
+          <div class="m-value">58.2%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Agree</div>
+          <div class="m-value agree-yes">Yes</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Edge</div>
+          <div class="pred-edge">
+            <span class="edge-dot hot"></span>
+            <span class="m-value edge-hot">+7.3%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="pred-card">
+      <div class="pred-header">
+        <span class="pred-event">IEM Katowice 2026</span>
+        <div class="pred-meta">
+          <span class="pred-format">BO3</span>
+          <span class="pred-date">Feb 25 &middot; 17:00</span>
+        </div>
+      </div>
+      <div class="pred-matchup">
+        <div class="pred-team">
+          <div class="name favored">G2</div>
+          <div class="rank">#3</div>
+          <div class="odds">1.82</div>
+        </div>
+        <div class="pred-vs">vs</div>
+        <div class="pred-team">
+          <div class="name">Vitality</div>
+          <div class="rank">#1</div>
+          <div class="odds">2.10</div>
+        </div>
+      </div>
+      <div class="pred-prob">
+        <div class="prob-track">
+          <div class="left" style="width: 54.8%"></div>
+          <div class="right"></div>
+        </div>
+        <div class="prob-numbers">
+          <span class="left-num">54.8%</span>
+          <span class="right-num">45.2%</span>
+        </div>
+      </div>
+      <div class="pred-models">
+        <div class="model-item">
+          <div class="m-label">FSVM</div>
+          <div class="m-value">56.2%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">XGB</div>
+          <div class="m-value">51.9%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Agree</div>
+          <div class="m-value agree-yes">Yes</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Edge</div>
+          <div class="pred-edge">
+            <span class="edge-dot warm"></span>
+            <span class="m-value">+2.1%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="pred-card">
+      <div class="pred-header">
+        <span class="pred-event">BLAST Premier Spring 2026</span>
+        <div class="pred-meta">
+          <span class="pred-format">BO3</span>
+          <span class="pred-date">Feb 26 &middot; 11:00</span>
+        </div>
+      </div>
+      <div class="pred-matchup">
+        <div class="pred-team">
+          <div class="name">MOUZ</div>
+          <div class="rank">#4</div>
+          <div class="odds">2.32</div>
+        </div>
+        <div class="pred-vs">vs</div>
+        <div class="pred-team">
+          <div class="name favored">Spirit</div>
+          <div class="rank">#6</div>
+          <div class="odds">1.76</div>
+        </div>
+      </div>
+      <div class="pred-prob">
+        <div class="prob-track">
+          <div class="left" style="width: 43.1%"></div>
+          <div class="right"></div>
+        </div>
+        <div class="prob-numbers">
+          <span class="left-num">43.1%</span>
+          <span class="right-num">56.9%</span>
+        </div>
+      </div>
+      <div class="pred-models">
+        <div class="model-item">
+          <div class="m-label">FSVM</div>
+          <div class="m-value">41.0%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">XGB</div>
+          <div class="m-value">47.8%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Agree</div>
+          <div class="m-value agree-yes">Yes</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Edge</div>
+          <div class="pred-edge">
+            <span class="edge-dot hot"></span>
+            <span class="m-value edge-hot">+5.6%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="pred-card">
+      <div class="pred-header">
+        <span class="pred-event">BLAST Premier Spring 2026</span>
+        <div class="pred-meta">
+          <span class="pred-format">BO1</span>
+          <span class="pred-date">Feb 26 &middot; 14:00</span>
+        </div>
+      </div>
+      <div class="pred-matchup">
+        <div class="pred-team">
+          <div class="name favored">Liquid</div>
+          <div class="rank">#8</div>
+          <div class="odds">1.70</div>
+        </div>
+        <div class="pred-vs">vs</div>
+        <div class="pred-team">
+          <div class="name">HEROIC</div>
+          <div class="rank">#12</div>
+          <div class="odds">2.42</div>
+        </div>
+      </div>
+      <div class="pred-prob">
+        <div class="prob-track">
+          <div class="left" style="width: 58.7%"></div>
+          <div class="right"></div>
+        </div>
+        <div class="prob-numbers">
+          <span class="left-num">58.7%</span>
+          <span class="right-num">41.3%</span>
+        </div>
+      </div>
+      <div class="pred-models">
+        <div class="model-item">
+          <div class="m-label">FSVM</div>
+          <div class="m-value">60.3%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">XGB</div>
+          <div class="m-value">55.0%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Agree</div>
+          <div class="m-value agree-yes">Yes</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Edge</div>
+          <div class="pred-edge">
+            <span class="edge-dot warm"></span>
+            <span class="m-value">+3.1%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="pred-card">
+      <div class="pred-header">
+        <span class="pred-event">ESL Challenger S21</span>
+        <div class="pred-meta">
+          <span class="pred-format">BO3</span>
+          <span class="pred-date">Feb 26 &middot; 16:30</span>
+        </div>
+      </div>
+      <div class="pred-matchup">
+        <div class="pred-team">
+          <div class="name favored">Complexity</div>
+          <div class="rank">#18</div>
+          <div class="odds">1.65</div>
+        </div>
+        <div class="pred-vs">vs</div>
+        <div class="pred-team">
+          <div class="name">paiN</div>
+          <div class="rank">#22</div>
+          <div class="odds">2.53</div>
+        </div>
+      </div>
+      <div class="pred-prob">
+        <div class="prob-track">
+          <div class="left" style="width: 60.5%"></div>
+          <div class="right"></div>
+        </div>
+        <div class="prob-numbers">
+          <span class="left-num">60.5%</span>
+          <span class="right-num">39.5%</span>
+        </div>
+      </div>
+      <div class="pred-models">
+        <div class="model-item">
+          <div class="m-label">FSVM</div>
+          <div class="m-value">58.8%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">XGB</div>
+          <div class="m-value">64.5%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Agree</div>
+          <div class="m-value" style="color: var(--lose)">No</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Edge</div>
+          <div class="pred-edge">
+            <span class="edge-dot cold"></span>
+            <span class="m-value edge-cold">-1.2%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="pred-card">
+      <div class="pred-header">
+        <span class="pred-event">ESL Challenger S21</span>
+        <div class="pred-meta">
+          <span class="pred-format">BO1</span>
+          <span class="pred-date">Feb 27 &middot; 10:00</span>
+        </div>
+      </div>
+      <div class="pred-matchup">
+        <div class="pred-team">
+          <div class="name">GamerLegion</div>
+          <div class="rank">#14</div>
+          <div class="odds">2.26</div>
+        </div>
+        <div class="pred-vs">vs</div>
+        <div class="pred-team">
+          <div class="name favored">BIG</div>
+          <div class="rank">#10</div>
+          <div class="odds">1.79</div>
+        </div>
+      </div>
+      <div class="pred-prob">
+        <div class="prob-track">
+          <div class="left" style="width: 44.2%"></div>
+          <div class="right"></div>
+        </div>
+        <div class="prob-numbers">
+          <span class="left-num">44.2%</span>
+          <span class="right-num">55.8%</span>
+        </div>
+      </div>
+      <div class="pred-models">
+        <div class="model-item">
+          <div class="m-label">FSVM</div>
+          <div class="m-value">42.9%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">XGB</div>
+          <div class="m-value">47.1%</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Agree</div>
+          <div class="m-value" style="color: var(--lose)">No</div>
+        </div>
+        <div class="model-item">
+          <div class="m-label">Edge</div>
+          <div class="pred-edge">
+            <span class="edge-dot hot"></span>
+            <span class="m-value edge-hot">+4.8%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="left">CS2 <em>Predictor</em> &mdash; Ensemble Intelligence</div>
+  <div class="right">Last scrape: 2026-02-25 08:14 UTC</div>
+</footer>
+
+</body>
+</html>

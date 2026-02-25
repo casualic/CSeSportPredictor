@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS2 Predictor — Minimal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --blue-700: #1d4ed8;
+    --blue-600: #2563eb;
+    --blue-500: #3b82f6;
+    --blue-200: #bfdbfe;
+    --blue-100: #dbeafe;
+    --blue-50: #eff6ff;
+    --gray-900: #111827;
+    --gray-800: #1f2937;
+    --gray-600: #4b5563;
+    --gray-500: #6b7280;
+    --gray-400: #9ca3af;
+    --gray-300: #d1d5db;
+    --gray-200: #e5e7eb;
+    --gray-100: #f3f4f6;
+    --gray-50: #f9fafb;
+    --white: #ffffff;
+    --green: #059669;
+    --green-bg: #ecfdf5;
+    --red: #dc2626;
+    --red-bg: #fef2f2;
+    --orange: #d97706;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--white);
+    color: var(--gray-900);
+    font-family: 'Manrope', -apple-system, sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    border-bottom: 1px solid var(--gray-200);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--white);
+  }
+
+  .nav-inner {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 32px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+
+  .nav-brand {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--gray-900);
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 28px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gray-400);
+    text-decoration: none;
+    transition: color 0.15s;
+    letter-spacing: 0.2px;
+  }
+
+  .nav-links a:hover { color: var(--gray-600); }
+  .nav-links a.active { color: var(--blue-600); }
+
+  .nav-right {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--gray-400);
+  }
+
+  .nav-right strong {
+    color: var(--blue-600);
+    font-weight: 500;
+  }
+
+  /* ── MAIN ── */
+  main {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 36px 32px;
+  }
+
+  /* ── HEADER ── */
+  .page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 32px;
+  }
+
+  .page-top h1 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--gray-900);
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+  }
+
+  .page-top .subtitle {
+    font-size: 14px;
+    color: var(--gray-500);
+    margin-top: 4px;
+    font-weight: 400;
+  }
+
+  .tier-row {
+    display: flex;
+    gap: 6px;
+    margin-top: 4px;
+  }
+
+  .t-btn {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border: 1.5px solid var(--gray-200);
+    border-radius: 4px;
+    background: var(--white);
+    color: var(--gray-500);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .t-btn:hover {
+    border-color: var(--blue-500);
+    color: var(--blue-600);
+  }
+
+  .t-btn.active {
+    border-color: var(--blue-600);
+    background: var(--blue-50);
+    color: var(--blue-700);
+  }
+
+  /* ── STATS ── */
+  .kpi-row {
+    display: flex;
+    gap: 0;
+    margin-bottom: 36px;
+    border: 1px solid var(--gray-200);
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--white);
+  }
+
+  .kpi {
+    flex: 1;
+    padding: 18px 22px;
+    border-right: 1px solid var(--gray-200);
+    animation: kIn 0.3s ease both;
+  }
+
+  .kpi:last-child { border-right: none; }
+
+  .kpi:nth-child(1) { animation-delay: 0s; }
+  .kpi:nth-child(2) { animation-delay: 0.04s; }
+  .kpi:nth-child(3) { animation-delay: 0.08s; }
+  .kpi:nth-child(4) { animation-delay: 0.12s; }
+
+  @keyframes kIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .kpi .k-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gray-400);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 6px;
+  }
+
+  .kpi .k-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--gray-900);
+  }
+
+  .kpi .k-val.blue { color: var(--blue-600); }
+  .kpi .k-val.green { color: var(--green); }
+
+  /* ── PREDICTION LIST ── */
+  .predictions {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid var(--gray-200);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .p-item {
+    display: grid;
+    grid-template-columns: 2fr 1.4fr 2.2fr 1fr 1fr 0.7fr;
+    align-items: center;
+    padding: 16px 22px;
+    border-bottom: 1px solid var(--gray-100);
+    background: var(--white);
+    transition: background 0.1s;
+    animation: rowFade 0.3s ease both;
+  }
+
+  .p-item:nth-child(1) { animation-delay: 0.04s; }
+  .p-item:nth-child(2) { animation-delay: 0.07s; }
+  .p-item:nth-child(3) { animation-delay: 0.1s; }
+  .p-item:nth-child(4) { animation-delay: 0.13s; }
+  .p-item:nth-child(5) { animation-delay: 0.16s; }
+  .p-item:nth-child(6) { animation-delay: 0.19s; }
+
+  @keyframes rowFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .p-item:last-child { border-bottom: none; }
+  .p-item:hover { background: var(--gray-50); }
+
+  /* Column header */
+  .p-head {
+    display: grid;
+    grid-template-columns: 2fr 1.4fr 2.2fr 1fr 1fr 0.7fr;
+    padding: 10px 22px;
+    background: var(--gray-50);
+    border-bottom: 1px solid var(--gray-200);
+  }
+
+  .p-head span {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--gray-400);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .p-head span:nth-child(n+4) { text-align: center; }
+
+  /* Match cell */
+  .match-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .match-teams {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .m-team {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .m-team.pick { color: var(--blue-600); }
+
+  .m-rank {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--gray-400);
+  }
+
+  .m-vs {
+    color: var(--gray-300);
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .match-date {
+    font-size: 11px;
+    color: var(--gray-400);
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  /* Event cell */
+  .event-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .ev-name {
+    font-size: 13px;
+    color: var(--gray-600);
+    font-weight: 500;
+  }
+
+  .ev-format {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gray-400);
+  }
+
+  /* Probability */
+  .prob-cell { padding-right: 16px; }
+
+  .mini-bar {
+    height: 4px;
+    display: flex;
+    border-radius: 2px;
+    overflow: hidden;
+    background: var(--gray-100);
+    margin-bottom: 5px;
+  }
+
+  .mini-bar .fill {
+    background: var(--blue-500);
+    border-radius: 2px;
+    transition: width 0.6s ease;
+  }
+
+  .mini-labels {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+  }
+
+  .mini-labels .l { color: var(--blue-600); font-weight: 500; }
+  .mini-labels .r { color: var(--gray-400); }
+
+  /* Model + Agree + Edge */
+  .center-cell {
+    text-align: center;
+  }
+
+  .model-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--gray-600);
+  }
+
+  .model-sub {
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--gray-400);
+    letter-spacing: 0.5px;
+  }
+
+  /* Agree & edge inline */
+  .agree-edge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .a-tag {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 1px 8px;
+    border-radius: 3px;
+  }
+
+  .a-tag.y { background: var(--green-bg); color: var(--green); }
+  .a-tag.n { background: var(--red-bg); color: var(--red); }
+
+  .e-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .e-val.pos { color: var(--green); }
+  .e-val.mid { color: var(--orange); }
+  .e-val.neg { color: var(--red); }
+
+  /* Action */
+  .action-cell { text-align: right; }
+
+  .det-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--blue-600);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s;
+  }
+
+  .det-link:hover {
+    border-bottom-color: var(--blue-600);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    max-width: 1060px;
+    margin: 40px auto 0;
+    padding: 20px 32px;
+    border-top: 1px solid var(--gray-200);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--gray-400);
+  }
+
+  footer a {
+    color: var(--blue-600);
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-left">
+      <a href="#" class="nav-brand">CS2 Predictor</a>
+      <div class="nav-links">
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">Results</a>
+        <a href="#">P&L</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      FSVM+XGB &middot; <strong>66.5%</strong> walk-forward
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="page-top">
+    <div>
+      <h1>Upcoming Predictions</h1>
+      <div class="subtitle">6 unresolved match forecasts</div>
+    </div>
+    <div class="tier-row">
+      <button class="t-btn active">All</button>
+      <button class="t-btn">Top 15</button>
+      <button class="t-btn">Top 30</button>
+      <button class="t-btn">Top 50</button>
+    </div>
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="k-label">Active</div>
+      <div class="k-val">6</div>
+    </div>
+    <div class="kpi">
+      <div class="k-label">Agree</div>
+      <div class="k-val green">4 / 6</div>
+    </div>
+    <div class="kpi">
+      <div class="k-label">Avg Edge</div>
+      <div class="k-val blue">+4.2%</div>
+    </div>
+    <div class="kpi">
+      <div class="k-label">High Conf.</div>
+      <div class="k-val">3</div>
+    </div>
+  </div>
+
+  <div class="predictions">
+    <div class="p-head">
+      <span>Match</span>
+      <span>Event</span>
+      <span>Probability</span>
+      <span style="text-align:center">Models</span>
+      <span style="text-align:center">Signal</span>
+      <span></span>
+    </div>
+
+    <div class="p-item">
+      <div class="match-cell">
+        <div class="match-teams">
+          <span class="m-team pick">Natus Vincere</span>
+          <span class="m-rank">#2</span>
+          <span class="m-vs">vs</span>
+          <span class="m-team">FaZe</span>
+          <span class="m-rank">#5</span>
+        </div>
+        <div class="match-date">Feb 25 &middot; 14:30</div>
+      </div>
+      <div class="event-cell">
+        <div class="ev-name">IEM Katowice 2026</div>
+        <div class="ev-format">BO3</div>
+      </div>
+      <div class="prob-cell">
+        <div class="mini-bar"><div class="fill" style="width:62.3%"></div></div>
+        <div class="mini-labels"><span class="l">62.3%</span><span class="r">37.7%</span></div>
+      </div>
+      <div class="center-cell">
+        <div class="model-val">64.1 / 58.2</div>
+        <div class="model-sub">FSVM / XGB</div>
+      </div>
+      <div class="center-cell">
+        <div class="agree-edge">
+          <span class="a-tag y">Agree</span>
+          <span class="e-val pos">+7.3%</span>
+        </div>
+      </div>
+      <div class="action-cell"><a href="#" class="det-link">Details</a></div>
+    </div>
+
+    <div class="p-item">
+      <div class="match-cell">
+        <div class="match-teams">
+          <span class="m-team pick">G2</span>
+          <span class="m-rank">#3</span>
+          <span class="m-vs">vs</span>
+          <span class="m-team">Vitality</span>
+          <span class="m-rank">#1</span>
+        </div>
+        <div class="match-date">Feb 25 &middot; 17:00</div>
+      </div>
+      <div class="event-cell">
+        <div class="ev-name">IEM Katowice 2026</div>
+        <div class="ev-format">BO3</div>
+      </div>
+      <div class="prob-cell">
+        <div class="mini-bar"><div class="fill" style="width:54.8%"></div></div>
+        <div class="mini-labels"><span class="l">54.8%</span><span class="r">45.2%</span></div>
+      </div>
+      <div class="center-cell">
+        <div class="model-val">56.2 / 51.9</div>
+        <div class="model-sub">FSVM / XGB</div>
+      </div>
+      <div class="center-cell">
+        <div class="agree-edge">
+          <span class="a-tag y">Agree</span>
+          <span class="e-val mid">+2.1%</span>
+        </div>
+      </div>
+      <div class="action-cell"><a href="#" class="det-link">Details</a></div>
+    </div>
+
+    <div class="p-item">
+      <div class="match-cell">
+        <div class="match-teams">
+          <span class="m-team">MOUZ</span>
+          <span class="m-rank">#4</span>
+          <span class="m-vs">vs</span>
+          <span class="m-team pick">Spirit</span>
+          <span class="m-rank">#6</span>
+        </div>
+        <div class="match-date">Feb 26 &middot; 11:00</div>
+      </div>
+      <div class="event-cell">
+        <div class="ev-name">BLAST Premier Spring</div>
+        <div class="ev-format">BO3</div>
+      </div>
+      <div class="prob-cell">
+        <div class="mini-bar"><div class="fill" style="width:43.1%"></div></div>
+        <div class="mini-labels"><span class="l">43.1%</span><span class="r">56.9%</span></div>
+      </div>
+      <div class="center-cell">
+        <div class="model-val">41.0 / 47.8</div>
+        <div class="model-sub">FSVM / XGB</div>
+      </div>
+      <div class="center-cell">
+        <div class="agree-edge">
+          <span class="a-tag y">Agree</span>
+          <span class="e-val pos">+5.6%</span>
+        </div>
+      </div>
+      <div class="action-cell"><a href="#" class="det-link">Details</a></div>
+    </div>
+
+    <div class="p-item">
+      <div class="match-cell">
+        <div class="match-teams">
+          <span class="m-team pick">Liquid</span>
+          <span class="m-rank">#8</span>
+          <span class="m-vs">vs</span>
+          <span class="m-team">HEROIC</span>
+          <span class="m-rank">#12</span>
+        </div>
+        <div class="match-date">Feb 26 &middot; 14:00</div>
+      </div>
+      <div class="event-cell">
+        <div class="ev-name">BLAST Premier Spring</div>
+        <div class="ev-format">BO1</div>
+      </div>
+      <div class="prob-cell">
+        <div class="mini-bar"><div class="fill" style="width:58.7%"></div></div>
+        <div class="mini-labels"><span class="l">58.7%</span><span class="r">41.3%</span></div>
+      </div>
+      <div class="center-cell">
+        <div class="model-val">60.3 / 55.0</div>
+        <div class="model-sub">FSVM / XGB</div>
+      </div>
+      <div class="center-cell">
+        <div class="agree-edge">
+          <span class="a-tag y">Agree</span>
+          <span class="e-val mid">+3.1%</span>
+        </div>
+      </div>
+      <div class="action-cell"><a href="#" class="det-link">Details</a></div>
+    </div>
+
+    <div class="p-item">
+      <div class="match-cell">
+        <div class="match-teams">
+          <span class="m-team pick">Complexity</span>
+          <span class="m-rank">#18</span>
+          <span class="m-vs">vs</span>
+          <span class="m-team">paiN</span>
+          <span class="m-rank">#22</span>
+        </div>
+        <div class="match-date">Feb 26 &middot; 16:30</div>
+      </div>
+      <div class="event-cell">
+        <div class="ev-name">ESL Challenger S21</div>
+        <div class="ev-format">BO3</div>
+      </div>
+      <div class="prob-cell">
+        <div class="mini-bar"><div class="fill" style="width:60.5%"></div></div>
+        <div class="mini-labels"><span class="l">60.5%</span><span class="r">39.5%</span></div>
+      </div>
+      <div class="center-cell">
+        <div class="model-val">58.8 / 64.5</div>
+        <div class="model-sub">FSVM / XGB</div>
+      </div>
+      <div class="center-cell">
+        <div class="agree-edge">
+          <span class="a-tag n">Split</span>
+          <span class="e-val neg">-1.2%</span>
+        </div>
+      </div>
+      <div class="action-cell"><a href="#" class="det-link">Details</a></div>
+    </div>
+
+    <div class="p-item">
+      <div class="match-cell">
+        <div class="match-teams">
+          <span class="m-team">GamerLegion</span>
+          <span class="m-rank">#14</span>
+          <span class="m-vs">vs</span>
+          <span class="m-team pick">BIG</span>
+          <span class="m-rank">#10</span>
+        </div>
+        <div class="match-date">Feb 27 &middot; 10:00</div>
+      </div>
+      <div class="event-cell">
+        <div class="ev-name">ESL Challenger S21</div>
+        <div class="ev-format">BO1</div>
+      </div>
+      <div class="prob-cell">
+        <div class="mini-bar"><div class="fill" style="width:44.2%"></div></div>
+        <div class="mini-labels"><span class="l">44.2%</span><span class="r">55.8%</span></div>
+      </div>
+      <div class="center-cell">
+        <div class="model-val">42.9 / 47.1</div>
+        <div class="model-sub">FSVM / XGB</div>
+      </div>
+      <div class="center-cell">
+        <div class="agree-edge">
+          <span class="a-tag n">Split</span>
+          <span class="e-val pos">+4.8%</span>
+        </div>
+      </div>
+      <div class="action-cell"><a href="#" class="det-link">Details</a></div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <span>CS2 Predictor &mdash; Ensemble Model</span>
+  <span>Updated Feb 25, 2026</span>
+</footer>
+
+</body>
+</html>

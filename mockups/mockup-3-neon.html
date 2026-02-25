@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS2 Predictor — Neon Arcade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cyan: #00f0ff;
+    --cyan-dim: rgba(0,240,255,0.15);
+    --cyan-glow: rgba(0,240,255,0.4);
+    --magenta: #ff00aa;
+    --magenta-dim: rgba(255,0,170,0.15);
+    --magenta-glow: rgba(255,0,170,0.4);
+    --electric: #7b61ff;
+    --electric-dim: rgba(123,97,255,0.15);
+    --yellow: #ffe600;
+    --yellow-dim: rgba(255,230,0,0.12);
+    --win: #00ff88;
+    --lose: #ff3366;
+    --bg: #08060e;
+    --bg-card: #0f0c18;
+    --bg-surface: #140f22;
+    --border: #1e1833;
+    --border-glow: #2a2244;
+    --text: #e0ddf0;
+    --text-dim: #706899;
+    --text-muted: #4a4466;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Rajdhani', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Animated gradient mesh background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 600px 400px at 15% 20%, rgba(0,240,255,0.06), transparent),
+      radial-gradient(ellipse 500px 500px at 85% 80%, rgba(255,0,170,0.05), transparent),
+      radial-gradient(ellipse 400px 300px at 50% 50%, rgba(123,97,255,0.04), transparent);
+    animation: meshDrift 20s ease-in-out infinite alternate;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  @keyframes meshDrift {
+    0% { transform: scale(1) translate(0, 0); }
+    100% { transform: scale(1.1) translate(-20px, -10px); }
+  }
+
+  /* Grid lines */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(123,97,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(123,97,255,0.04) 1px, transparent 1px);
+    background-size: 80px 80px;
+    mask-image: radial-gradient(ellipse 60% 60% at center, black 20%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  nav, main, footer { position: relative; z-index: 1; }
+
+  /* ── NAV ── */
+  nav {
+    border-bottom: 1px solid var(--border);
+    background: rgba(8,6,14,0.85);
+    backdrop-filter: blur(24px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 28px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    background: linear-gradient(135deg, var(--cyan), var(--magenta));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  .nav-brand::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--cyan), var(--magenta));
+    opacity: 0.6;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 3px;
+  }
+
+  .nav-links a {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: all 0.25s;
+    position: relative;
+  }
+
+  .nav-links a:hover {
+    color: var(--cyan);
+    border-color: var(--border-glow);
+  }
+
+  .nav-links a.active {
+    color: var(--cyan);
+    border-color: var(--cyan-dim);
+    background: var(--cyan-dim);
+    box-shadow: 0 0 15px var(--cyan-dim), inset 0 0 15px rgba(0,240,255,0.05);
+  }
+
+  .nav-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Fira Code', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 6px 14px;
+    border-radius: 2px;
+    background: var(--bg-card);
+  }
+
+  .nav-badge .pct {
+    font-weight: 500;
+    background: linear-gradient(135deg, var(--cyan), var(--electric));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* ── MAIN ── */
+  main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 32px 28px;
+  }
+
+  /* ── HERO HEADER ── */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero-left h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+
+  .hero-left h1 .glow {
+    background: linear-gradient(135deg, var(--cyan), var(--electric));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+  }
+
+  .hero-left .sub {
+    font-size: 14px;
+    color: var(--text-dim);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+
+  /* Tier filter */
+  .tier-bar {
+    display: flex;
+    gap: 3px;
+  }
+
+  .tier-btn {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s;
+    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .tier-btn:hover {
+    border-color: var(--electric-dim);
+    color: var(--text);
+    background: var(--electric-dim);
+  }
+
+  .tier-btn.active {
+    background: linear-gradient(135deg, var(--cyan-dim), var(--electric-dim));
+    border-color: var(--cyan);
+    color: var(--cyan);
+    box-shadow: 0 0 20px var(--cyan-dim);
+  }
+
+  /* ── STAT STRIP ── */
+  .stat-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 32px;
+  }
+
+  .stat-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 18px 20px;
+    position: relative;
+    overflow: hidden;
+    animation: statIn 0.5s ease both;
+  }
+
+  .stat-box:nth-child(1) { animation-delay: 0s; }
+  .stat-box:nth-child(2) { animation-delay: 0.08s; }
+  .stat-box:nth-child(3) { animation-delay: 0.16s; }
+  .stat-box:nth-child(4) { animation-delay: 0.24s; }
+
+  @keyframes statIn {
+    from { opacity: 0; transform: translateY(10px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  .stat-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+  }
+
+  .stat-box:nth-child(1)::before { background: var(--cyan); box-shadow: 0 0 12px var(--cyan-glow); }
+  .stat-box:nth-child(2)::before { background: var(--win); box-shadow: 0 0 12px rgba(0,255,136,0.4); }
+  .stat-box:nth-child(3)::before { background: var(--magenta); box-shadow: 0 0 12px var(--magenta-glow); }
+  .stat-box:nth-child(4)::before { background: var(--electric); box-shadow: 0 0 12px rgba(123,97,255,0.4); }
+
+  .stat-box .s-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+
+  .stat-box .s-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .stat-box:nth-child(1) .s-value { color: var(--cyan); }
+  .stat-box:nth-child(2) .s-value { color: var(--win); }
+  .stat-box:nth-child(3) .s-value { color: var(--magenta); }
+  .stat-box:nth-child(4) .s-value { color: var(--electric); }
+
+  .stat-box .s-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  /* ── PREDICTION CARDS ── */
+  .pred-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .pred-row {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 2.5fr 1.2fr 2fr 0.8fr 0.8fr 0.8fr 1fr 0.5fr;
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.25s;
+    animation: rowSlide 0.4s ease both;
+  }
+
+  .pred-row:nth-child(1) { animation-delay: 0.05s; }
+  .pred-row:nth-child(2) { animation-delay: 0.1s; }
+  .pred-row:nth-child(3) { animation-delay: 0.15s; }
+  .pred-row:nth-child(4) { animation-delay: 0.2s; }
+  .pred-row:nth-child(5) { animation-delay: 0.25s; }
+  .pred-row:nth-child(6) { animation-delay: 0.3s; }
+
+  @keyframes rowSlide {
+    from { opacity: 0; transform: translateX(-12px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  .pred-row:hover {
+    border-color: var(--electric-dim);
+    background: var(--bg-surface);
+    box-shadow: 0 0 20px rgba(123,97,255,0.08), inset 0 0 30px rgba(123,97,255,0.03);
+  }
+
+  .pred-row > div {
+    padding: 16px 18px;
+  }
+
+  /* Matchup */
+  .pr-matchup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .pr-team {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  .pr-team.fav {
+    background: linear-gradient(135deg, var(--cyan), var(--electric));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .pr-rank {
+    font-family: 'Fira Code', monospace;
+    font-size: 10px;
+    color: var(--text-muted);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 1px 6px;
+    border-radius: 2px;
+  }
+
+  .pr-vs {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 3px;
+  }
+
+  /* Event */
+  .pr-event {
+    font-size: 13px;
+    color: var(--text-dim);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .pr-event .format-tag {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 2px 8px;
+    margin-left: 8px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+  }
+
+  /* Probability bar (big, dramatic) */
+  .pr-prob {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .prob-row {
+    display: flex;
+    height: 28px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .prob-row .p-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, var(--cyan-dim), rgba(0,240,255,0.25));
+    border-right: 2px solid var(--bg);
+    font-family: 'Fira Code', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--cyan);
+    min-width: 48px;
+    transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .prob-row .p-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255,0,170,0.15), var(--magenta-dim));
+    font-family: 'Fira Code', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--magenta);
+    flex: 1;
+    min-width: 48px;
+  }
+
+  /* Model values */
+  .pr-model {
+    font-family: 'Fira Code', monospace;
+    font-size: 13px;
+    color: var(--text);
+    text-align: center;
+  }
+
+  .pr-model .m-head {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8px;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    margin-bottom: 2px;
+  }
+
+  /* Agree */
+  .pr-agree {
+    text-align: center;
+  }
+
+  .agree-badge {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+
+  .agree-badge.yes {
+    background: rgba(0,255,136,0.12);
+    border: 1px solid rgba(0,255,136,0.25);
+    color: var(--win);
+    box-shadow: 0 0 8px rgba(0,255,136,0.1);
+  }
+
+  .agree-badge.no {
+    background: rgba(255,51,102,0.1);
+    border: 1px solid rgba(255,51,102,0.2);
+    color: var(--lose);
+  }
+
+  /* Edge */
+  .pr-edge {
+    text-align: center;
+  }
+
+  .edge-val {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .edge-val.hot {
+    color: var(--yellow);
+    text-shadow: 0 0 12px var(--yellow-dim);
+  }
+
+  .edge-val.warm {
+    color: var(--cyan);
+  }
+
+  .edge-val.cold {
+    color: var(--lose);
+  }
+
+  .edge-label {
+    font-size: 9px;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  /* View link */
+  .pr-action {
+    text-align: center;
+  }
+
+  .view-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 2px;
+    transition: all 0.2s;
+  }
+
+  .view-btn:hover {
+    border-color: var(--cyan);
+    color: var(--cyan);
+    box-shadow: 0 0 12px var(--cyan-dim);
+    background: var(--cyan-dim);
+  }
+
+  /* Column headers */
+  .col-headers {
+    display: grid;
+    grid-template-columns: 2.5fr 1.2fr 2fr 0.8fr 0.8fr 0.8fr 1fr 0.5fr;
+    padding: 0 18px;
+    margin-bottom: 6px;
+  }
+
+  .col-headers span {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 4px 0;
+  }
+
+  .col-headers span:nth-child(n+4) {
+    text-align: center;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    max-width: 1300px;
+    margin: 40px auto 0;
+    padding: 20px 28px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .f-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    background: linear-gradient(135deg, var(--cyan), var(--magenta));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  footer .f-meta {
+    font-family: 'Fira Code', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-brand">CS2 Predictor</a>
+    <div class="nav-links">
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Results</a>
+      <a href="#">P&L</a>
+    </div>
+    <div class="nav-badge">
+      FSVM+XGB <span class="pct">66.5%</span> WF
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="hero">
+    <div class="hero-left">
+      <h1>Live <span class="glow">Predictions</span></h1>
+      <div class="sub">Ensemble model forecasts &middot; Upcoming matches</div>
+    </div>
+    <div class="tier-bar">
+      <button class="tier-btn active">All</button>
+      <button class="tier-btn">Top 15</button>
+      <button class="tier-btn">Top 30</button>
+      <button class="tier-btn">Top 50</button>
+    </div>
+  </div>
+
+  <div class="stat-strip">
+    <div class="stat-box">
+      <div class="s-label">Active</div>
+      <div class="s-value">6</div>
+      <div class="s-sub">predictions queued</div>
+    </div>
+    <div class="stat-box">
+      <div class="s-label">Models Agree</div>
+      <div class="s-value">4</div>
+      <div class="s-sub">high conviction</div>
+    </div>
+    <div class="stat-box">
+      <div class="s-label">Avg Edge</div>
+      <div class="s-value">+4.2%</div>
+      <div class="s-sub">vs bookmaker</div>
+    </div>
+    <div class="stat-box">
+      <div class="s-label">Confidence</div>
+      <div class="s-value">0.71</div>
+      <div class="s-sub">mean score</div>
+    </div>
+  </div>
+
+  <div class="col-headers">
+    <span>Match</span>
+    <span>Event</span>
+    <span>Probability</span>
+    <span>FSVM</span>
+    <span>XGB</span>
+    <span>Agree</span>
+    <span>Edge</span>
+    <span></span>
+  </div>
+
+  <div class="pred-list">
+
+    <div class="pred-row">
+      <div class="pr-matchup">
+        <span class="pr-team fav">Natus Vincere</span>
+        <span class="pr-rank">#2</span>
+        <span class="pr-vs">VS</span>
+        <span class="pr-team">FaZe</span>
+        <span class="pr-rank">#5</span>
+      </div>
+      <div class="pr-event">IEM Katowice <span class="format-tag">BO3</span></div>
+      <div class="pr-prob">
+        <div class="prob-row">
+          <div class="p-left" style="width:62.3%">62.3%</div>
+          <div class="p-right">37.7%</div>
+        </div>
+      </div>
+      <div class="pr-model">
+        <div class="m-head">FSVM</div>
+        64.1%
+      </div>
+      <div class="pr-model">
+        <div class="m-head">XGB</div>
+        58.2%
+      </div>
+      <div class="pr-agree">
+        <span class="agree-badge yes">YES</span>
+      </div>
+      <div class="pr-edge">
+        <div class="edge-val hot">+7.3%</div>
+        <div class="edge-label">EDGE</div>
+      </div>
+      <div class="pr-action">
+        <a href="#" class="view-btn">&rarr;</a>
+      </div>
+    </div>
+
+    <div class="pred-row">
+      <div class="pr-matchup">
+        <span class="pr-team fav">G2</span>
+        <span class="pr-rank">#3</span>
+        <span class="pr-vs">VS</span>
+        <span class="pr-team">Vitality</span>
+        <span class="pr-rank">#1</span>
+      </div>
+      <div class="pr-event">IEM Katowice <span class="format-tag">BO3</span></div>
+      <div class="pr-prob">
+        <div class="prob-row">
+          <div class="p-left" style="width:54.8%">54.8%</div>
+          <div class="p-right">45.2%</div>
+        </div>
+      </div>
+      <div class="pr-model">
+        <div class="m-head">FSVM</div>
+        56.2%
+      </div>
+      <div class="pr-model">
+        <div class="m-head">XGB</div>
+        51.9%
+      </div>
+      <div class="pr-agree">
+        <span class="agree-badge yes">YES</span>
+      </div>
+      <div class="pr-edge">
+        <div class="edge-val warm">+2.1%</div>
+        <div class="edge-label">EDGE</div>
+      </div>
+      <div class="pr-action">
+        <a href="#" class="view-btn">&rarr;</a>
+      </div>
+    </div>
+
+    <div class="pred-row">
+      <div class="pr-matchup">
+        <span class="pr-team">MOUZ</span>
+        <span class="pr-rank">#4</span>
+        <span class="pr-vs">VS</span>
+        <span class="pr-team fav">Spirit</span>
+        <span class="pr-rank">#6</span>
+      </div>
+      <div class="pr-event">BLAST Premier <span class="format-tag">BO3</span></div>
+      <div class="pr-prob">
+        <div class="prob-row">
+          <div class="p-left" style="width:43.1%">43.1%</div>
+          <div class="p-right">56.9%</div>
+        </div>
+      </div>
+      <div class="pr-model">
+        <div class="m-head">FSVM</div>
+        41.0%
+      </div>
+      <div class="pr-model">
+        <div class="m-head">XGB</div>
+        47.8%
+      </div>
+      <div class="pr-agree">
+        <span class="agree-badge yes">YES</span>
+      </div>
+      <div class="pr-edge">
+        <div class="edge-val hot">+5.6%</div>
+        <div class="edge-label">EDGE</div>
+      </div>
+      <div class="pr-action">
+        <a href="#" class="view-btn">&rarr;</a>
+      </div>
+    </div>
+
+    <div class="pred-row">
+      <div class="pr-matchup">
+        <span class="pr-team fav">Liquid</span>
+        <span class="pr-rank">#8</span>
+        <span class="pr-vs">VS</span>
+        <span class="pr-team">HEROIC</span>
+        <span class="pr-rank">#12</span>
+      </div>
+      <div class="pr-event">BLAST Premier <span class="format-tag">BO1</span></div>
+      <div class="pr-prob">
+        <div class="prob-row">
+          <div class="p-left" style="width:58.7%">58.7%</div>
+          <div class="p-right">41.3%</div>
+        </div>
+      </div>
+      <div class="pr-model">
+        <div class="m-head">FSVM</div>
+        60.3%
+      </div>
+      <div class="pr-model">
+        <div class="m-head">XGB</div>
+        55.0%
+      </div>
+      <div class="pr-agree">
+        <span class="agree-badge yes">YES</span>
+      </div>
+      <div class="pr-edge">
+        <div class="edge-val warm">+3.1%</div>
+        <div class="edge-label">EDGE</div>
+      </div>
+      <div class="pr-action">
+        <a href="#" class="view-btn">&rarr;</a>
+      </div>
+    </div>
+
+    <div class="pred-row">
+      <div class="pr-matchup">
+        <span class="pr-team fav">Complexity</span>
+        <span class="pr-rank">#18</span>
+        <span class="pr-vs">VS</span>
+        <span class="pr-team">paiN</span>
+        <span class="pr-rank">#22</span>
+      </div>
+      <div class="pr-event">ESL Challenger <span class="format-tag">BO3</span></div>
+      <div class="pr-prob">
+        <div class="prob-row">
+          <div class="p-left" style="width:60.5%">60.5%</div>
+          <div class="p-right">39.5%</div>
+        </div>
+      </div>
+      <div class="pr-model">
+        <div class="m-head">FSVM</div>
+        58.8%
+      </div>
+      <div class="pr-model">
+        <div class="m-head">XGB</div>
+        64.5%
+      </div>
+      <div class="pr-agree">
+        <span class="agree-badge no">NO</span>
+      </div>
+      <div class="pr-edge">
+        <div class="edge-val cold">-1.2%</div>
+        <div class="edge-label">EDGE</div>
+      </div>
+      <div class="pr-action">
+        <a href="#" class="view-btn">&rarr;</a>
+      </div>
+    </div>
+
+    <div class="pred-row">
+      <div class="pr-matchup">
+        <span class="pr-team">GamerLegion</span>
+        <span class="pr-rank">#14</span>
+        <span class="pr-vs">VS</span>
+        <span class="pr-team fav">BIG</span>
+        <span class="pr-rank">#10</span>
+      </div>
+      <div class="pr-event">ESL Challenger <span class="format-tag">BO1</span></div>
+      <div class="pr-prob">
+        <div class="prob-row">
+          <div class="p-left" style="width:44.2%">44.2%</div>
+          <div class="p-right">55.8%</div>
+        </div>
+      </div>
+      <div class="pr-model">
+        <div class="m-head">FSVM</div>
+        42.9%
+      </div>
+      <div class="pr-model">
+        <div class="m-head">XGB</div>
+        47.1%
+      </div>
+      <div class="pr-agree">
+        <span class="agree-badge no">NO</span>
+      </div>
+      <div class="pr-edge">
+        <div class="edge-val hot">+4.8%</div>
+        <div class="edge-label">EDGE</div>
+      </div>
+      <div class="pr-action">
+        <a href="#" class="view-btn">&rarr;</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="f-brand">CS2 PREDICTOR // ENSEMBLE INTELLIGENCE</div>
+  <div class="f-meta">Last scrape: 2026-02-25 08:14 UTC</div>
+</footer>
+
+</body>
+</html>

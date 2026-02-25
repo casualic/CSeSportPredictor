@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CS2 Predictor — Clean Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --blue-600: #2563eb;
+    --blue-500: #3b82f6;
+    --blue-400: #60a5fa;
+    --blue-100: #dbeafe;
+    --blue-50: #eff6ff;
+    --slate-900: #0f172a;
+    --slate-700: #334155;
+    --slate-500: #64748b;
+    --slate-400: #94a3b8;
+    --slate-300: #cbd5e1;
+    --slate-200: #e2e8f0;
+    --slate-100: #f1f5f9;
+    --slate-50: #f8fafc;
+    --white: #ffffff;
+    --green-600: #16a34a;
+    --green-100: #dcfce7;
+    --green-50: #f0fdf4;
+    --red-600: #dc2626;
+    --red-100: #fee2e2;
+    --red-50: #fef2f2;
+    --amber-600: #d97706;
+    --amber-50: #fffbeb;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-md: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--slate-50);
+    color: var(--slate-900);
+    font-family: 'Instrument Sans', -apple-system, sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    background: var(--white);
+    border-bottom: 1px solid var(--slate-200);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .nav-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .nav-brand {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--slate-900);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .nav-brand .icon {
+    width: 24px;
+    height: 24px;
+    background: var(--blue-600);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .nav-tabs {
+    display: flex;
+    gap: 0;
+    height: 52px;
+    align-items: stretch;
+  }
+
+  .nav-tabs a {
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    color: var(--slate-400);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all 0.15s;
+  }
+
+  .nav-tabs a:hover { color: var(--slate-700); }
+
+  .nav-tabs a.active {
+    color: var(--blue-600);
+    border-bottom-color: var(--blue-600);
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .model-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--slate-500);
+    background: var(--slate-100);
+    padding: 4px 12px;
+    border-radius: 4px;
+  }
+
+  .model-chip .dot {
+    width: 6px;
+    height: 6px;
+    background: var(--green-600);
+    border-radius: 50%;
+  }
+
+  .model-chip .pct {
+    font-family: 'Geist Mono', monospace;
+    font-weight: 600;
+    color: var(--blue-600);
+  }
+
+  /* ── MAIN ── */
+  main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 28px 24px;
+  }
+
+  /* ── HEADER ── */
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .page-header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--slate-900);
+    letter-spacing: -0.3px;
+  }
+
+  .page-header h1 .count {
+    font-family: 'Geist Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--slate-400);
+    margin-left: 6px;
+  }
+
+  .filter-bar {
+    display: flex;
+    gap: 4px;
+    background: var(--white);
+    border: 1px solid var(--slate-200);
+    border-radius: 6px;
+    padding: 3px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .f-btn {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--slate-400);
+    transition: all 0.12s;
+  }
+
+  .f-btn:hover { color: var(--slate-700); background: var(--slate-50); }
+
+  .f-btn.active {
+    color: var(--white);
+    background: var(--blue-600);
+    box-shadow: 0 1px 3px rgba(37,99,235,0.3);
+  }
+
+  /* ── STATS ── */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .s-card {
+    background: var(--white);
+    border: 1px solid var(--slate-200);
+    border-radius: 6px;
+    padding: 16px 18px;
+    box-shadow: var(--shadow-sm);
+    animation: appear 0.3s ease both;
+  }
+
+  .s-card:nth-child(1) { animation-delay: 0s; }
+  .s-card:nth-child(2) { animation-delay: 0.04s; }
+  .s-card:nth-child(3) { animation-delay: 0.08s; }
+  .s-card:nth-child(4) { animation-delay: 0.12s; }
+
+  @keyframes appear {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .s-card .sc-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .s-card .sc-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--slate-500);
+  }
+
+  .s-card .sc-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+  }
+
+  .s-card:nth-child(1) .sc-icon { background: var(--blue-50); color: var(--blue-600); }
+  .s-card:nth-child(2) .sc-icon { background: var(--green-50); color: var(--green-600); }
+  .s-card:nth-child(3) .sc-icon { background: var(--blue-50); color: var(--blue-600); }
+  .s-card:nth-child(4) .sc-icon { background: var(--amber-50); color: var(--amber-600); }
+
+  .s-card .sc-value {
+    font-family: 'Geist Mono', monospace;
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--slate-900);
+    line-height: 1;
+  }
+
+  .s-card .sc-sub {
+    font-size: 11px;
+    color: var(--slate-400);
+    margin-top: 3px;
+  }
+
+  /* ── CARDS GRID ── */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .p-card {
+    background: var(--white);
+    border: 1px solid var(--slate-200);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s;
+    animation: appear 0.35s ease both;
+  }
+
+  .p-card:nth-child(1) { animation-delay: 0.05s; }
+  .p-card:nth-child(2) { animation-delay: 0.08s; }
+  .p-card:nth-child(3) { animation-delay: 0.11s; }
+  .p-card:nth-child(4) { animation-delay: 0.14s; }
+  .p-card:nth-child(5) { animation-delay: 0.17s; }
+  .p-card:nth-child(6) { animation-delay: 0.2s; }
+
+  .p-card:hover {
+    border-color: var(--blue-400);
+    box-shadow: var(--shadow-md), 0 0 0 1px var(--blue-100);
+    transform: translateY(-2px);
+  }
+
+  /* Card header */
+  .pc-header {
+    padding: 12px 16px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--slate-100);
+  }
+
+  .pc-event {
+    font-size: 12px;
+    color: var(--slate-500);
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 180px;
+  }
+
+  .pc-tags {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .pc-format {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--slate-500);
+    background: var(--slate-100);
+    padding: 2px 7px;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+  }
+
+  .pc-time {
+    font-family: 'Geist Mono', monospace;
+    font-size: 11px;
+    color: var(--slate-400);
+  }
+
+  /* Card matchup */
+  .pc-matchup {
+    padding: 14px 16px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .pc-team {
+    text-align: center;
+    flex: 1;
+  }
+
+  .pc-team .name {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--slate-900);
+    margin-bottom: 2px;
+  }
+
+  .pc-team .name.picked { color: var(--blue-600); }
+
+  .pc-team .meta {
+    font-family: 'Geist Mono', monospace;
+    font-size: 11px;
+    color: var(--slate-400);
+  }
+
+  .pc-team .odds {
+    font-family: 'Geist Mono', monospace;
+    font-size: 12px;
+    color: var(--slate-500);
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 3px;
+    margin-top: 6px;
+  }
+
+  .pc-vs {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--slate-300);
+    padding: 0 10px;
+  }
+
+  /* Prob bar */
+  .pc-prob {
+    padding: 0 16px 12px;
+  }
+
+  .pc-bar {
+    height: 6px;
+    display: flex;
+    border-radius: 3px;
+    overflow: hidden;
+    background: var(--slate-100);
+  }
+
+  .pc-bar .fill {
+    background: linear-gradient(90deg, var(--blue-600), var(--blue-400));
+    border-radius: 3px;
+    transition: width 0.7s ease;
+  }
+
+  .pc-bar-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-family: 'Geist Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .pc-bar-labels .t1 { color: var(--blue-600); }
+  .pc-bar-labels .t2 { color: var(--slate-400); }
+
+  /* Model row */
+  .pc-models {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid var(--slate-100);
+    background: var(--slate-50);
+  }
+
+  .pc-m {
+    text-align: center;
+    padding: 10px 8px;
+  }
+
+  .pc-m:not(:last-child) {
+    border-right: 1px solid var(--slate-100);
+  }
+
+  .pc-m .label {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--slate-400);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 2px;
+  }
+
+  .pc-m .val {
+    font-family: 'Geist Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--slate-700);
+  }
+
+  .pc-m .val.agree-y { color: var(--green-600); font-weight: 600; }
+  .pc-m .val.agree-n { color: var(--red-600); }
+  .pc-m .val.edge-pos { color: var(--green-600); font-weight: 600; }
+  .pc-m .val.edge-mid { color: var(--amber-600); }
+  .pc-m .val.edge-neg { color: var(--red-600); }
+
+  /* Card footer */
+  .pc-footer {
+    padding: 8px 16px;
+    border-top: 1px solid var(--slate-100);
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .pc-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--blue-600);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: gap 0.15s;
+  }
+
+  .pc-link:hover { gap: 6px; }
+
+  .pc-link .arr { font-size: 14px; }
+
+  /* ── FOOTER ── */
+  footer {
+    max-width: 1180px;
+    margin: 32px auto 0;
+    padding: 16px 24px;
+    border-top: 1px solid var(--slate-200);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--slate-400);
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-left">
+      <a href="#" class="nav-brand">
+        <span class="icon">P</span>
+        CS2 Predictor
+      </a>
+      <div class="nav-tabs">
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">Results</a>
+        <a href="#">P&L</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <div class="model-chip">
+        <span class="dot"></span>
+        FSVM+XGB
+        <span class="pct">66.5%</span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="page-header">
+    <h1>Upcoming Predictions <span class="count">(6)</span></h1>
+    <div class="filter-bar">
+      <button class="f-btn active">All</button>
+      <button class="f-btn">Top 15</button>
+      <button class="f-btn">Top 30</button>
+      <button class="f-btn">Top 50</button>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="s-card">
+      <div class="sc-top">
+        <span class="sc-label">Active</span>
+        <div class="sc-icon">&#9654;</div>
+      </div>
+      <div class="sc-value">6</div>
+      <div class="sc-sub">predictions pending</div>
+    </div>
+    <div class="s-card">
+      <div class="sc-top">
+        <span class="sc-label">Models Agree</span>
+        <div class="sc-icon">&#10003;</div>
+      </div>
+      <div class="sc-value">4</div>
+      <div class="sc-sub">high conviction picks</div>
+    </div>
+    <div class="s-card">
+      <div class="sc-top">
+        <span class="sc-label">Avg Edge</span>
+        <div class="sc-icon">%</div>
+      </div>
+      <div class="sc-value">+4.2%</div>
+      <div class="sc-sub">vs bookmaker odds</div>
+    </div>
+    <div class="s-card">
+      <div class="sc-top">
+        <span class="sc-label">Next Match</span>
+        <div class="sc-icon">&#9200;</div>
+      </div>
+      <div class="sc-value">14:30</div>
+      <div class="sc-sub">Feb 25 UTC</div>
+    </div>
+  </div>
+
+  <div class="cards-grid">
+
+    <div class="p-card">
+      <div class="pc-header">
+        <span class="pc-event">IEM Katowice 2026</span>
+        <div class="pc-tags">
+          <span class="pc-format">BO3</span>
+          <span class="pc-time">14:30</span>
+        </div>
+      </div>
+      <div class="pc-matchup">
+        <div class="pc-team">
+          <div class="name picked">Natus Vincere</div>
+          <div class="meta">#2</div>
+          <div class="odds">1.61</div>
+        </div>
+        <div class="pc-vs">vs</div>
+        <div class="pc-team">
+          <div class="name">FaZe</div>
+          <div class="meta">#5</div>
+          <div class="odds">2.65</div>
+        </div>
+      </div>
+      <div class="pc-prob">
+        <div class="pc-bar"><div class="fill" style="width:62.3%"></div></div>
+        <div class="pc-bar-labels"><span class="t1">62.3%</span><span class="t2">37.7%</span></div>
+      </div>
+      <div class="pc-models">
+        <div class="pc-m"><div class="label">FSVM</div><div class="val">64.1%</div></div>
+        <div class="pc-m"><div class="label">XGB</div><div class="val">58.2%</div></div>
+        <div class="pc-m"><div class="label">Agree</div><div class="val agree-y">Yes</div></div>
+        <div class="pc-m"><div class="label">Edge</div><div class="val edge-pos">+7.3%</div></div>
+      </div>
+      <div class="pc-footer"><a href="#" class="pc-link">View details <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div class="p-card">
+      <div class="pc-header">
+        <span class="pc-event">IEM Katowice 2026</span>
+        <div class="pc-tags">
+          <span class="pc-format">BO3</span>
+          <span class="pc-time">17:00</span>
+        </div>
+      </div>
+      <div class="pc-matchup">
+        <div class="pc-team">
+          <div class="name picked">G2</div>
+          <div class="meta">#3</div>
+          <div class="odds">1.82</div>
+        </div>
+        <div class="pc-vs">vs</div>
+        <div class="pc-team">
+          <div class="name">Vitality</div>
+          <div class="meta">#1</div>
+          <div class="odds">2.10</div>
+        </div>
+      </div>
+      <div class="pc-prob">
+        <div class="pc-bar"><div class="fill" style="width:54.8%"></div></div>
+        <div class="pc-bar-labels"><span class="t1">54.8%</span><span class="t2">45.2%</span></div>
+      </div>
+      <div class="pc-models">
+        <div class="pc-m"><div class="label">FSVM</div><div class="val">56.2%</div></div>
+        <div class="pc-m"><div class="label">XGB</div><div class="val">51.9%</div></div>
+        <div class="pc-m"><div class="label">Agree</div><div class="val agree-y">Yes</div></div>
+        <div class="pc-m"><div class="label">Edge</div><div class="val edge-mid">+2.1%</div></div>
+      </div>
+      <div class="pc-footer"><a href="#" class="pc-link">View details <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div class="p-card">
+      <div class="pc-header">
+        <span class="pc-event">BLAST Premier Spring</span>
+        <div class="pc-tags">
+          <span class="pc-format">BO3</span>
+          <span class="pc-time">11:00</span>
+        </div>
+      </div>
+      <div class="pc-matchup">
+        <div class="pc-team">
+          <div class="name">MOUZ</div>
+          <div class="meta">#4</div>
+          <div class="odds">2.32</div>
+        </div>
+        <div class="pc-vs">vs</div>
+        <div class="pc-team">
+          <div class="name picked">Spirit</div>
+          <div class="meta">#6</div>
+          <div class="odds">1.76</div>
+        </div>
+      </div>
+      <div class="pc-prob">
+        <div class="pc-bar"><div class="fill" style="width:43.1%"></div></div>
+        <div class="pc-bar-labels"><span class="t1">43.1%</span><span class="t2">56.9%</span></div>
+      </div>
+      <div class="pc-models">
+        <div class="pc-m"><div class="label">FSVM</div><div class="val">41.0%</div></div>
+        <div class="pc-m"><div class="label">XGB</div><div class="val">47.8%</div></div>
+        <div class="pc-m"><div class="label">Agree</div><div class="val agree-y">Yes</div></div>
+        <div class="pc-m"><div class="label">Edge</div><div class="val edge-pos">+5.6%</div></div>
+      </div>
+      <div class="pc-footer"><a href="#" class="pc-link">View details <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div class="p-card">
+      <div class="pc-header">
+        <span class="pc-event">BLAST Premier Spring</span>
+        <div class="pc-tags">
+          <span class="pc-format">BO1</span>
+          <span class="pc-time">14:00</span>
+        </div>
+      </div>
+      <div class="pc-matchup">
+        <div class="pc-team">
+          <div class="name picked">Liquid</div>
+          <div class="meta">#8</div>
+          <div class="odds">1.70</div>
+        </div>
+        <div class="pc-vs">vs</div>
+        <div class="pc-team">
+          <div class="name">HEROIC</div>
+          <div class="meta">#12</div>
+          <div class="odds">2.42</div>
+        </div>
+      </div>
+      <div class="pc-prob">
+        <div class="pc-bar"><div class="fill" style="width:58.7%"></div></div>
+        <div class="pc-bar-labels"><span class="t1">58.7%</span><span class="t2">41.3%</span></div>
+      </div>
+      <div class="pc-models">
+        <div class="pc-m"><div class="label">FSVM</div><div class="val">60.3%</div></div>
+        <div class="pc-m"><div class="label">XGB</div><div class="val">55.0%</div></div>
+        <div class="pc-m"><div class="label">Agree</div><div class="val agree-y">Yes</div></div>
+        <div class="pc-m"><div class="label">Edge</div><div class="val edge-mid">+3.1%</div></div>
+      </div>
+      <div class="pc-footer"><a href="#" class="pc-link">View details <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div class="p-card">
+      <div class="pc-header">
+        <span class="pc-event">ESL Challenger S21</span>
+        <div class="pc-tags">
+          <span class="pc-format">BO3</span>
+          <span class="pc-time">16:30</span>
+        </div>
+      </div>
+      <div class="pc-matchup">
+        <div class="pc-team">
+          <div class="name picked">Complexity</div>
+          <div class="meta">#18</div>
+          <div class="odds">1.65</div>
+        </div>
+        <div class="pc-vs">vs</div>
+        <div class="pc-team">
+          <div class="name">paiN</div>
+          <div class="meta">#22</div>
+          <div class="odds">2.53</div>
+        </div>
+      </div>
+      <div class="pc-prob">
+        <div class="pc-bar"><div class="fill" style="width:60.5%"></div></div>
+        <div class="pc-bar-labels"><span class="t1">60.5%</span><span class="t2">39.5%</span></div>
+      </div>
+      <div class="pc-models">
+        <div class="pc-m"><div class="label">FSVM</div><div class="val">58.8%</div></div>
+        <div class="pc-m"><div class="label">XGB</div><div class="val">64.5%</div></div>
+        <div class="pc-m"><div class="label">Agree</div><div class="val agree-n">No</div></div>
+        <div class="pc-m"><div class="label">Edge</div><div class="val edge-neg">-1.2%</div></div>
+      </div>
+      <div class="pc-footer"><a href="#" class="pc-link">View details <span class="arr">&rarr;</span></a></div>
+    </div>
+
+    <div class="p-card">
+      <div class="pc-header">
+        <span class="pc-event">ESL Challenger S21</span>
+        <div class="pc-tags">
+          <span class="pc-format">BO1</span>
+          <span class="pc-time">10:00</span>
+        </div>
+      </div>
+      <div class="pc-matchup">
+        <div class="pc-team">
+          <div class="name">GamerLegion</div>
+          <div class="meta">#14</div>
+          <div class="odds">2.26</div>
+        </div>
+        <div class="pc-vs">vs</div>
+        <div class="pc-team">
+          <div class="name picked">BIG</div>
+          <div class="meta">#10</div>
+          <div class="odds">1.79</div>
+        </div>
+      </div>
+      <div class="pc-prob">
+        <div class="pc-bar"><div class="fill" style="width:44.2%"></div></div>
+        <div class="pc-bar-labels"><span class="t1">44.2%</span><span class="t2">55.8%</span></div>
+      </div>
+      <div class="pc-models">
+        <div class="pc-m"><div class="label">FSVM</div><div class="val">42.9%</div></div>
+        <div class="pc-m"><div class="label">XGB</div><div class="val">47.1%</div></div>
+        <div class="pc-m"><div class="label">Agree</div><div class="val agree-n">No</div></div>
+        <div class="pc-m"><div class="label">Edge</div><div class="val edge-pos">+4.8%</div></div>
+      </div>
+      <div class="pc-footer"><a href="#" class="pc-link">View details <span class="arr">&rarr;</span></a></div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <span>CS2 Predictor &mdash; FSVM + XGB Ensemble</span>
+  <span>Last updated Feb 25, 2026 08:14 UTC</span>
+</footer>
+
+</body>
+</html>
