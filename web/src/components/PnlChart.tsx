@@ -26,11 +26,12 @@ export default function PnlChart({ cumulative }: PnlChartProps) {
       {
         label: "Cumulative P&L ($)",
         data: cumulative,
-        borderColor: "#10b981",
-        backgroundColor: "rgba(16, 185, 129, 0.1)",
+        borderColor: "#2563eb",
+        backgroundColor: "rgba(37, 99, 235, 0.06)",
         fill: true,
         tension: 0.3,
         pointRadius: 2,
+        pointBackgroundColor: "#2563eb",
       },
     ],
   };
@@ -38,18 +39,22 @@ export default function PnlChart({ cumulative }: PnlChartProps) {
   const options = {
     responsive: true,
     plugins: {
-      legend: { display: true, position: "top" as const, labels: { color: "#9ca3af" } },
+      legend: {
+        display: true,
+        position: "top" as const,
+        labels: { color: "#475569", font: { size: 12 } },
+      },
     },
     scales: {
       x: {
-        title: { display: true, text: "Bet #", color: "#9ca3af" },
-        ticks: { color: "#6b7280" },
-        grid: { color: "#1f2937" },
+        title: { display: true, text: "Bet #", color: "#94a3b8" },
+        ticks: { color: "#94a3b8" },
+        grid: { color: "#f1f5f9" },
       },
       y: {
-        title: { display: true, text: "P&L ($)", color: "#9ca3af" },
-        ticks: { color: "#6b7280" },
-        grid: { color: "#1f2937" },
+        title: { display: true, text: "P&L ($)", color: "#94a3b8" },
+        ticks: { color: "#94a3b8" },
+        grid: { color: "#f1f5f9" },
       },
     },
   };

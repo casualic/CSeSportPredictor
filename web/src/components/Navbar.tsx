@@ -13,29 +13,34 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="border-b border-gray-800 bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-        <Link href="/" className="font-bold text-lg text-white hover:text-green-400 transition-colors">
-          CS2 Predictor
+    <nav className="bg-white border-b border-slate-200 sticky top-0 z-50">
+      <div className="max-w-[1120px] mx-auto px-7 h-14 flex items-center justify-between">
+        <Link
+          href="/"
+          className="font-serif text-lg font-semibold text-slate-900 no-underline tracking-[-0.3px]"
+        >
+          CS2 <span className="text-blue-600">Predictor</span>
         </Link>
-        <div className="flex items-center gap-1">
+
+        <div className="flex gap-[1px] bg-slate-100 rounded-[6px] p-[3px]">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+              className={`text-[13px] font-medium px-4 py-1.5 rounded-[4px] no-underline transition-all duration-150 ${
                 pathname === link.href
-                  ? "bg-gray-800 text-white"
-                  : "text-gray-400 hover:text-white hover:bg-gray-800/50"
+                  ? "text-blue-600 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.06)]"
+                  : "text-slate-400 hover:text-slate-600"
               }`}
             >
               {link.label}
             </Link>
           ))}
         </div>
-        <span className="text-xs text-gray-500 hidden sm:block">
-          FSVM+XGB | 66.5% WF
-        </span>
+
+        <div className="font-mono text-xs text-slate-400 flex items-center gap-1.5">
+          FSVM+XGB &middot; <span className="text-blue-600 font-medium">66.5%</span> WF
+        </div>
       </div>
     </nav>
   );

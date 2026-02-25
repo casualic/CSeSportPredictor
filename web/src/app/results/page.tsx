@@ -27,63 +27,150 @@ export default async function Results({ searchParams }: { searchParams: Promise<
 
   return (
     <>
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold">Prediction Results</h2>
-        <Suspense><TierFilter /></Suspense>
+      {/* Header */}
+      <div className="flex justify-between items-end mb-7">
+        <div>
+          <h1 className="font-serif text-[26px] font-semibold text-slate-900 tracking-[-0.5px] mb-[3px]">
+            Prediction Results
+          </h1>
+          <p className="text-[13px] text-slate-400">
+            Resolved match outcomes and model accuracy
+          </p>
+        </div>
+        <Suspense>
+          <TierFilter />
+        </Suspense>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
-        <StatsCard title="Total Resolved" value={String(total)} />
-        <StatsCard title="Correct" value={String(correct)} color="green" />
-        <StatsCard title="Accuracy" value={`${(accuracy * 100).toFixed(1)}%`} />
+      {/* Stats row */}
+      <div className="grid grid-cols-4 gap-3.5 mb-7">
+        <StatsCard title="Total Resolved" value={String(total)} subtitle="matches completed" />
+        <StatsCard title="Correct" value={String(correct)} subtitle={`of ${total} total`} color="green" />
+        <StatsCard
+          title="Accuracy"
+          value={`${(accuracy * 100).toFixed(1)}%`}
+          subtitle="overall hit rate"
+          color="blue"
+        />
         <StatsCard
           title="Models Agree Acc"
           value={`${(agreedAccuracy * 100).toFixed(1)}%`}
           subtitle={`${agreedCorrect}/${agreed}`}
+          color="green"
         />
       </div>
 
+      {/* Table */}
       {items.length > 0 ? (
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm">
+        <div className="bg-white border border-slate-400 rounded-[6px] overflow-hidden">
+          <table className="w-full border-collapse">
             <thead>
-              <tr className="border-b border-gray-800 text-gray-400">
-                <th className="text-left py-3 px-2 font-medium">Match</th>
-                <th className="text-left py-3 px-2 font-medium">Event</th>
-                <th className="text-left py-3 px-2 font-medium">Predicted</th>
-                <th className="text-left py-3 px-2 font-medium">Actual</th>
-                <th className="text-left py-3 px-2 font-medium">Model Odds</th>
-                <th className="text-left py-3 px-2 font-medium">T1 Prob</th>
-                <th className="text-left py-3 px-2 font-medium">Agree</th>
-                <th className="text-left py-3 px-2 font-medium">Result</th>
+              <tr>
+                {["Match", "Event", "Predicted", "Actual", "Model Prob", "Agree", "Result"].map(
+                  (header) => (
+                    <th
+                      key={header}
+                      className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-left border-b-2 border-slate-300 bg-slate-50"
+                    >
+                      {header}
+                    </th>
+                  )
+                )}
+                <th className="text-[11px] font-semibold text-slate-400 uppercase tracking-[0.5px] py-3 px-[18px] text-left border-b-2 border-slate-300 bg-slate-50" />
               </tr>
             </thead>
             <tbody>
               {items.map((p) => (
-                <tr key={p.id} className="border-b border-gray-800/50 hover:bg-gray-900/50">
-                  <td className="py-2 px-2">
-                    <Link href={`/match/${p.id}`} className="text-blue-400 hover:text-blue-300">
-                      {p.team1} vs {p.team2}
-                    </Link>
+                <tr
+                  key={p.id}
+                  className="border-b border-slate-300 last:border-b-0 hover:bg-blue-50 transition-colors duration-100 animate-[rowIn_0.3s_ease_both]"
+                >
+                  {/* Match */}
+                  <td className="py-3.5 px-[18px] align-middle">
+                    <div className="flex items-center gap-2">
+                      <span
+                        className={`font-semibold text-sm ${
+                          p.predicted_winner === p.team1 ? "text-blue-600" : "text-slate-900"
+                        }`}
+                      >
+                        {p.team1}
+                      </span>
+                      {p.t1_rank && (
+                        <span className="font-mono text-[11px] text-slate-400">#{p.t1_rank}</span>
+                      )}
+                      <span className="text-[11px] text-slate-400 font-medium">vs</span>
+                      <span
+                        className={`font-semibold text-sm ${
+                          p.predicted_winner === p.team2 ? "text-blue-600" : "text-slate-900"
+                        }`}
+                      >
+                        {p.team2}
+                      </span>
+                      {p.t2_rank && (
+                        <span className="font-mono text-[11px] text-slate-400">#{p.t2_rank}</span>
+                      )}
+                    </div>
                   </td>
-                  <td className="py-2 px-2 text-gray-500 text-xs">{p.event || ""}</td>
-                  <td className="py-2 px-2">{p.predicted_winner}</td>
-                  <td className="py-2 px-2">{p.actual_winner}</td>
-                  <td className="py-2 px-2 text-gray-400 text-xs">
-                    {(1 / p.t1_win_prob).toFixed(2)} / {(1 / (1 - p.t1_win_prob)).toFixed(2)}
+
+                  {/* Event */}
+                  <td className="py-3.5 px-[18px] align-middle text-slate-600 text-[13px]">
+                    {p.event || ""}
+                    {p.bo_format && (
+                      <span className="inline-block text-[11px] font-semibold text-slate-400 bg-slate-50 border border-slate-200 px-2 py-[1px] rounded-[3px] ml-2">
+                        {p.bo_format}
+                      </span>
+                    )}
                   </td>
-                  <td className="py-2 px-2">{(p.t1_win_prob * 100).toFixed(1)}%</td>
-                  <td className="py-2 px-2">{p.models_agree ? "Yes" : "No"}</td>
-                  <td className="py-2 px-2">
+
+                  {/* Predicted */}
+                  <td className="py-3.5 px-[18px] align-middle text-sm font-medium text-slate-900">
+                    {p.predicted_winner}
+                  </td>
+
+                  {/* Actual */}
+                  <td className="py-3.5 px-[18px] align-middle text-sm font-medium text-slate-900">
+                    {p.actual_winner}
+                  </td>
+
+                  {/* Model Prob */}
+                  <td className="py-3.5 px-[18px] align-middle font-mono text-[13px] text-slate-600">
+                    {(p.t1_win_prob * 100).toFixed(1)}%
+                  </td>
+
+                  {/* Agree */}
+                  <td className="py-3.5 px-[18px] align-middle text-center">
+                    <span
+                      className={`text-[11px] font-semibold px-2 py-[2px] rounded-[3px] ${
+                        p.models_agree
+                          ? "bg-green-50 text-green-600"
+                          : "bg-red-50 text-red-600"
+                      }`}
+                    >
+                      {p.models_agree ? "Yes" : "No"}
+                    </span>
+                  </td>
+
+                  {/* Result */}
+                  <td className="py-3.5 px-[18px] align-middle">
                     {p.prediction_correct ? (
-                      <span className="text-xs bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded">
+                      <span className="text-[11px] font-semibold px-2 py-[2px] rounded-[3px] bg-green-50 text-green-600">
                         Correct
                       </span>
                     ) : (
-                      <span className="text-xs bg-rose-500/20 text-rose-400 px-2 py-0.5 rounded">
+                      <span className="text-[11px] font-semibold px-2 py-[2px] rounded-[3px] bg-red-50 text-red-600">
                         Wrong
                       </span>
                     )}
+                  </td>
+
+                  {/* Action */}
+                  <td className="py-3.5 px-[18px] align-middle">
+                    <Link
+                      href={`/match/${p.id}`}
+                      className="text-xs font-medium text-blue-600 no-underline px-2.5 py-1 border border-blue-100 rounded-[4px] hover:bg-blue-50 hover:border-blue-500 transition-all duration-150"
+                    >
+                      Details
+                    </Link>
                   </td>
                 </tr>
               ))}
@@ -91,7 +178,7 @@ export default async function Results({ searchParams }: { searchParams: Promise<
           </table>
         </div>
       ) : (
-        <div className="text-center text-gray-500 py-16">
+        <div className="text-center text-slate-400 py-16">
           <p className="text-lg">No resolved predictions yet.</p>
         </div>
       )}

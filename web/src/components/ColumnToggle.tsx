@@ -15,10 +15,10 @@ export default function ColumnToggle({ children }: ColumnToggleProps) {
         <div className="flex items-center gap-1">
           <button
             onClick={() => setCols(2)}
-            className={`p-2 rounded-md transition-colors ${
+            className={`p-2 rounded-[4px] transition-colors border ${
               cols === 2
-                ? "bg-emerald-600 text-white ring-2 ring-emerald-400/50"
-                : "text-gray-400 bg-gray-800/50 hover:text-white hover:bg-gray-700"
+                ? "bg-blue-600 text-white border-blue-600"
+                : "text-slate-400 bg-white border-slate-200 hover:text-slate-600 hover:border-blue-600"
             }`}
             aria-label="Two columns"
           >
@@ -31,10 +31,10 @@ export default function ColumnToggle({ children }: ColumnToggleProps) {
           </button>
           <button
             onClick={() => setCols(1)}
-            className={`p-2 rounded-md transition-colors ${
+            className={`p-2 rounded-[4px] transition-colors border ${
               cols === 1
-                ? "bg-emerald-600 text-white ring-2 ring-emerald-400/50"
-                : "text-gray-400 bg-gray-800/50 hover:text-white hover:bg-gray-700"
+                ? "bg-blue-600 text-white border-blue-600"
+                : "text-slate-400 bg-white border-slate-200 hover:text-slate-600 hover:border-blue-600"
             }`}
             aria-label="One column"
           >
