@@ -16,3 +16,9 @@
 - Always update `progress.md` before and after each iteration
 - Log all metrics to `results/metrics.json`
 - Commit after each successful training run
+
+### Deployment
+- Frontend is a Next.js app in the `web/` folder
+- Deploy to Vercel from `web/` directory: `cd web && vercel --prod`
+- Vercel project name: `cs2predict`
+- Tailwind CSS 4 — dark mode disabled via `@custom-variant dark (&:is(.dark *))` in globals.css
