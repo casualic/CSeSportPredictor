@@ -42,6 +42,7 @@ from playwright.async_api import async_playwright
 from website.config import TRACKER_STATE_PATH
 from website.scraper import (
     EXTRACT_UPCOMING_JS, EXTRACT_MATCH_RESULT_JS, EXTRACT_RESULTS_JS,
+    EXTRACT_ODDS_JS,
     parse_odds, implied_probability, compute_edge, parse_bo_format,
 )
 from website import database as db
@@ -163,23 +164,14 @@ async def scrape_upcoming(page):
             try:
                 await page.goto(match_url, timeout=20000, wait_until="domcontentloaded")
                 await asyncio.sleep(2)
-                odds_raw = await page.evaluate("""
-                    () => {
-                        const odds = document.querySelectorAll('.provider-odds .odds-cell');
-                        if (odds.length >= 2) {
-                            return JSON.stringify({
-                                t1: odds[0]?.textContent?.trim() || '',
-                                t2: odds[1]?.textContent?.trim() || ''
-                            });
-                        }
-                        return '{}';
-                    }
-                """)
+                odds_raw = await page.evaluate(EXTRACT_ODDS_JS)
                 odds_data = json.loads(odds_raw)
                 odds_t1 = parse_odds(odds_data.get("t1"))
                 odds_t2 = parse_odds(odds_data.get("t2"))
-            except Exception:
-                pass
+                if odds_t1 or odds_t2:
+                    print(f"    Odds: {odds_t1} / {odds_t2}")
+            except Exception as e:
+                print(f"    Odds scrape failed for {team1} vs {team2}: {e}")
 
         # Compute edge
         implied_t1 = implied_probability(odds_t1)
@@ -274,6 +266,40 @@ async def resolve_matches(page):
             winner = data.get("winner", "")
             if not winner:
                 continue
+
+            # Backfill odds if they were missing when the match was first scraped
+            if not p.get("odds_t1") or not p.get("odds_t2"):
+                try:
+                    odds_raw = await page.evaluate(EXTRACT_ODDS_JS)
+                    odds_data = json.loads(odds_raw)
+                    new_odds_t1 = parse_odds(odds_data.get("t1"))
+                    new_odds_t2 = parse_odds(odds_data.get("t2"))
+                    if new_odds_t1 or new_odds_t2:
+                        from website.database import _get_client
+                        update_data = {}
+                        if new_odds_t1:
+                            update_data["odds_t1"] = new_odds_t1
+                            update_data["implied_prob_t1"] = implied_probability(new_odds_t1)
+                        if new_odds_t2:
+                            update_data["odds_t2"] = new_odds_t2
+                            update_data["implied_prob_t2"] = implied_probability(new_odds_t2)
+                        # Recompute edge with updated odds
+                        if new_odds_t1 and new_odds_t2:
+                            model_prob_winner = (
+                                p["t1_win_prob"]
+                                if p["predicted_winner"] == p["team1"]
+                                else 1 - p["t1_win_prob"]
+                            )
+                            implied_winner = (
+                                implied_probability(new_odds_t1)
+                                if p["predicted_winner"] == p["team1"]
+                                else implied_probability(new_odds_t2)
+                            )
+                            update_data["edge"] = compute_edge(model_prob_winner, implied_winner)
+                        _get_client().table("predictions").update(update_data).eq("id", p["id"]).execute()
+                        print(f"    Updated odds: {new_odds_t1} / {new_odds_t2}")
+                except Exception:
+                    pass
 
             # Resolve in DB
             success = db.resolve_prediction(p["id"], winner)
@@ -389,18 +415,7 @@ async def backfill_matches(page, num_pages=1):
             # Try to scrape odds
             odds_t1, odds_t2 = None, None
             try:
-                odds_raw = await page.evaluate("""
-                    () => {
-                        const odds = document.querySelectorAll('.provider-odds .odds-cell');
-                        if (odds.length >= 2) {
-                            return JSON.stringify({
-                                t1: odds[0]?.textContent?.trim() || '',
-                                t2: odds[1]?.textContent?.trim() || ''
-                            });
-                        }
-                        return '{}';
-                    }
-                """)
+                odds_raw = await page.evaluate(EXTRACT_ODDS_JS)
                 odds_data = json.loads(odds_raw)
                 odds_t1 = parse_odds(odds_data.get("t1"))
                 odds_t2 = parse_odds(odds_data.get("t2"))

@@ -155,6 +155,48 @@ EXTRACT_MATCH_RESULT_JS = """
 }
 """
 
+EXTRACT_ODDS_JS = """
+() => {
+    // Extract bookmaker odds from HLTV match detail pages.
+    // DOM structure (as of Feb 2025):
+    //   .betting-section
+    //     table.table
+    //       tr (header): .team-cell elements with team names
+    //       tr.provider: .odds-cell elements with decimal odds (or .noOdds if unavailable)
+    //
+    // Returns JSON: {t1: "<odds>", t2: "<odds>"} or {t1: "", t2: ""} when unavailable.
+
+    const bettingSection = document.querySelector('.betting-section');
+    if (!bettingSection) {
+        return JSON.stringify({t1: '', t2: ''});
+    }
+
+    // Strategy 1: Get odds from the first provider row that has .odds-cell elements
+    const providers = bettingSection.querySelectorAll('tr.provider');
+    for (const provider of providers) {
+        const oddsCells = provider.querySelectorAll('.odds-cell');
+        if (oddsCells.length >= 2) {
+            return JSON.stringify({
+                t1: oddsCells[0]?.textContent?.trim() || '',
+                t2: oddsCells[1]?.textContent?.trim() || ''
+            });
+        }
+    }
+
+    // Strategy 2: Fall back to any .odds-cell in the betting section
+    const allOdds = bettingSection.querySelectorAll('.odds-cell');
+    if (allOdds.length >= 2) {
+        return JSON.stringify({
+            t1: allOdds[0]?.textContent?.trim() || '',
+            t2: allOdds[1]?.textContent?.trim() || ''
+        });
+    }
+
+    // No odds found (betting section exists but provider has .noOdds or no rows)
+    return JSON.stringify({t1: '', t2: ''});
+}
+"""
+
 EXTRACT_RESULTS_JS = """
 () => {
     const results = [];
