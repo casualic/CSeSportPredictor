@@ -49,7 +49,7 @@ EXTRACT_RANKINGS_JS = """
 """
 
 
-def generate_monday_dates(start_date_str="2025-07-21", end_date_str="2026-02-09"):
+def generate_monday_dates(start_date_str="2025-07-21", end_date_str="2026-02-28"):
     """Generate Monday dates for HLTV ranking URLs."""
     start = datetime.strptime(start_date_str, "%Y-%m-%d")
     end = datetime.strptime(end_date_str, "%Y-%m-%d")

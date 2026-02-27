@@ -5,6 +5,7 @@ import { Prediction } from "@/lib/types";
 import { filterByTier } from "@/lib/tier";
 import StatsCard from "@/components/StatsCard";
 import TierFilter from "@/components/TierFilter";
+import { RankingsProvider, RankingsButton, RankingsDropdown } from "@/components/RankingsPanel";
 
 export const revalidate = 0;
 
@@ -23,7 +24,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
   const modelsAgree = items.filter((p) => p.models_agree).length;
 
   return (
-    <>
+    <RankingsProvider>
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-3 mb-5 sm:mb-7">
         <div>
@@ -34,10 +35,15 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
             Unresolved match forecasts from the ensemble model
           </p>
         </div>
-        <Suspense>
-          <TierFilter />
-        </Suspense>
+        <div className="flex items-center gap-2">
+          <RankingsButton />
+          <Suspense>
+            <TierFilter />
+          </Suspense>
+        </div>
       </div>
+
+      <RankingsDropdown />
 
       {/* Stats row */}
       <div className="grid grid-cols-2 gap-2.5 sm:gap-3.5 mb-5 sm:mb-7">
@@ -210,6 +216,6 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
           </p>
         </div>
       )}
-    </>
+    </RankingsProvider>
   );
 }

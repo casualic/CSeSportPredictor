@@ -180,6 +180,11 @@ def get_prediction_by_url(match_url):
     return resp.data
 
 
+def upsert_rankings(rows):
+    """Upsert a batch of ranking rows. Each row: {date, team, rank, points}."""
+    _get_client().table("rankings").upsert(rows, on_conflict="date,team").execute()
+
+
 def get_pnl_stats():
     """Get aggregate P&L stats."""
     resp = (
