@@ -35,7 +35,7 @@ const components: Components = {
 
 export default function WriteupPage() {
   const md = fs.readFileSync(
-    path.join(process.cwd(), "..", "PROJECT_WRITEUP.md"),
+    path.join(process.cwd(), "PROJECT_WRITEUP.md"),
     "utf-8"
   );
 
