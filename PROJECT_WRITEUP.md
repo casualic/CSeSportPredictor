@@ -4,7 +4,7 @@
 
 CS2 Predictor is a machine learning system that predicts professional Counter-Strike 2 match outcomes using a hybrid **Fuzzy Support Vector Machine (FSVM) + XGBoost** ensemble. The system scrapes match data from HLTV.org, engineers 47 features across eight statistical tracking domains, and evaluates predictions using strict walk-forward validation.
 
-The project achieves **66.50% walk-forward accuracy** with a **+6.55% edge** over a rank-only baseline — statistically significant at the 95% confidence level (bootstrap CI: [64.5%, 68.5%]).
+The project achieves **66.50% walk-forward accuracy** with a **+6.55% edge** over a rank-only baseline — statistically significant at the 95% confidence level (bootstrap CI: [64.5%, 68.5%]). Throughout this writeup, **edge** refers to the percentage-point improvement in accuracy over the naive rank baseline (i.e., always predicting the higher-ranked team to win). A positive edge means the model is extracting predictive signal beyond what team ranking alone provides.
 
 ![Dashboard](screenshot-dashboard.png)
 
@@ -37,7 +37,7 @@ All data was scraped from HLTV.org across multiple scraping phases using Playwri
 | Rankings history | 2,907 | 29 weekly snapshots (Jul 2025 - Feb 2026) |
 | Map results | 3,818 | From 1,608 matches |
 
-From this raw data, the system maintains **eight real-time statistical trackers** that replay the full match history chronologically to reconstruct the state of the competitive landscape at any point in time:
+From this raw data, we engineer a set of derived features **eight real-time statistical trackers** that replay the full match history chronologically to reconstruct the state of the competitive landscape at any point in time:
 
 1. **Elo System** (K=32) — Dynamic rating with momentum tracking
 2. **Form Tracker** — 10-match rolling win rate and streaks
@@ -47,6 +47,8 @@ From this raw data, the system maintains **eight real-time statistical trackers*
 6. **Pistol Tracker** — Pistol round win rates (30-match window)
 7. **Chemistry Tracker** — Pairwise roster tenure (days played together)
 8. **Upset Detector** — Internal logistic regression predicting P(upset), retrained every 100 matches
+
+The player and individual team performances can be depenendent on recent form, team chemistry, play/team momentum and many other factors - which we construct in the above feature set. 
 
 ---
 
@@ -236,6 +238,11 @@ An attempt to exploit these tier differences by training separate models per tie
 
 FSVM_elite achieves **70.00%** accuracy on elite-tier matches alone — a strong signal. But the tier-specialized ensemble (65.59%) fell short of the global ensemble (66.50%). The problem: training on tier subsets reduces data per model (~36% for elite), hurting generalization despite better tier-specific fit. The global model with implicit tier awareness (via rank features and interactions) outperforms explicit tier splitting.
 
+
+**Note on tiered model for future research:**
+
+That being said this ought to be explored in future iterations - we can train using flexible and overlapping tier bands (since the teams move across the tiers over time regardless), to expand the data set in a way that's feasible. For the time being  - we leave the fixed band approach for later. 
+
 ---
 
 ## Key Findings
@@ -253,22 +260,6 @@ FSVM_elite achieves **70.00%** accuracy on elite-tier matches alone — a strong
 6. **Deeper trees overfit temporally** — deeper XGBoost variants (d10, d15, d20) improve test-split accuracy by up to +1.83pp but provide negligible walk-forward improvement. They memorize temporal patterns in the training window that don't persist forward. Walk-forward validation is essential for honest evaluation; test-split results are misleading.
 
 7. **Simple beats complex — until it doesn't** — Logistic Regression with 9 features outperformed all models through Iteration 7. It wasn't until Iteration 10+ that XGBoost with richer features began to consistently beat both LR and the rank baseline in walk-forward. The lesson: added complexity only pays off once data richness and feature quality cross a threshold.
-
----
-
-## Project Timeline
-
-| Date | Milestone |
-|:-----|:----------|
-| Feb 12, 2026 | Project setup, initial data pipeline |
-| Feb 14 | Pistol round data scraping |
-| Feb 18-19 | Full player data scraping (6,000 matches) |
-| Feb 19 | Player features integrated, +1.36pp lift (Iter 14) |
-| Feb 20 | Fuzzy SVM breakthrough, Iter 19 complete (66.50%) |
-| Feb 22 | FSVM production fix |
-| Feb 24 | Web UI, odds scraping integration |
-| Feb 25 | Frontend redesign, Vercel deployment |
-| Feb 27 | Mobile responsive fixes, production deploy |
 
 ---
 
