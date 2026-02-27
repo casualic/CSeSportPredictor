@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* Switch dark mode to class-based so OS dark preference has no effect */
 @custom-variant dark (&:is(.dark *));

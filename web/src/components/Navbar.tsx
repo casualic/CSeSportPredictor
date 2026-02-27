@@ -7,6 +7,7 @@ const links = [
   { href: "/", label: "Dashboard" },
   { href: "/results", label: "Results" },
   { href: "/pnl", label: "P&L" },
+  { href: "/about", label: "About" },
 ];
 
 export default function Navbar() {
