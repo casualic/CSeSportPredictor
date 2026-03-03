@@ -4,7 +4,10 @@
 
 CS2 Predictor is a machine learning system that predicts professional Counter-Strike 2 match outcomes using a hybrid **Fuzzy Support Vector Machine (FSVM) + XGBoost** ensemble. The system scrapes match data from HLTV.org, engineers 47 features across eight statistical tracking domains, and evaluates predictions using strict walk-forward validation.
 
-The project achieves **66.50% walk-forward accuracy** with a **+6.55% edge** over a rank-only baseline — statistically significant at the 95% confidence level (bootstrap CI: [64.5%, 68.5%]). Throughout this writeup, **edge** refers to the percentage-point improvement in accuracy over the naive rank baseline (i.e., always predicting the higher-ranked team to win). A positive edge means the model is extracting predictive signal beyond what team ranking alone provides.
+The project achieves **66.50% walk-forward accuracy** with a **+6.55% edge** over a rank-only baseline — statistically significant at the 95% confidence level (bootstrap CI: [64.5%, 68.5%]). 
+
+Throughout this writeup, **edge** refers to the percentage-point improvement in accuracy over the naive rank baseline (i.e., always predicting the higher-ranked team to win). A positive edge means the model is extracting predictive signal beyond what team ranking alone provides. The ranking is constructed based on a rolling ELO point system, which has been initialised with HLTV rankings at the start of the training period (and so may slightly diverge over HLTV rankings over time. )
+
 
 ![Dashboard](screenshot-dashboard.png)
 
@@ -13,6 +16,7 @@ The project achieves **66.50% walk-forward accuracy** with a **+6.55% edge** ove
 ## Motivation & Background
 
 This project draws inspiration from the approach outlined in *"Machine learning approaches to predict basketball game outcome"* (Horvat & Job, 2018), published in the *International Journal of Computer Science in Sport*, which systematically reviews ML techniques for sports outcome prediction. The paper highlights how SVMs and ensemble methods can outperform traditional statistical models when provided with sufficiently rich feature sets — particularly when temporal patterns and team dynamics are captured. In particular we borrow the approach using a Fuzzy Support Vector Machine (which introduces fuzzy membership of inputs, which ultimately allows for more flexible class membership weighting — which becomes particularly useful for solving a SVM problem with multiple dimensions and bases, like esports data.)
+
 Original Paper: https://ieeexplore.ieee.org/document/991432
 
 CS2 esports presents a uniquely data-rich environment for applying these ideas. Unlike traditional sports with seasonal schedules and limited games, professional CS2 teams compete in dozens of matches per month across international tournaments. HLTV.org — the definitive stat tracker for competitive Counter-Strike — provides granular data at the player, map, and round level. This created an opportunity to build feature sets far richer than what's typically available in traditional sports prediction: per-player kill/death ratios, ADR (average damage per round), KAST percentages, pistol round win rates, map pool depth, veto patterns, and more.
