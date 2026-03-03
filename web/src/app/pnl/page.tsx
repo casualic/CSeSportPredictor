@@ -58,7 +58,7 @@ export default async function PnL({ searchParams }: { searchParams: Promise<{ ti
             Profit &amp; Loss
           </h1>
           <p className="text-[13px] text-slate-400">
-            Strategy: bet when model edge &ge; 5% vs bookmaker implied probability
+            Strategy: bet when model edge &ge; 5% — positive or negative — vs bookmaker odds
           </p>
         </div>
         <Suspense>

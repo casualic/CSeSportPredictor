@@ -73,9 +73,10 @@ def resolve_prediction(pred_id, actual_winner):
         "resolved_at": now,
     }).eq("id", pred_id).execute()
 
-    # Create bet record if there was positive edge
+    # Create bet record if there is an edge (positive or negative)
     edge = pred["edge"]
     if edge and edge > 0:
+        # Positive edge: bet on the predicted winner
         bet_team = pred["predicted_winner"]
         bet_odds = pred["odds_t1"] if bet_team == pred["team1"] else pred["odds_t2"]
         if bet_odds and bet_odds > 0:
@@ -88,6 +89,24 @@ def resolve_prediction(pred_id, actual_winner):
                 "bet_odds": bet_odds,
                 "model_prob": model_prob,
                 "edge": edge,
+                "stake": 1.0,
+                "won": won,
+                "pnl": pnl,
+            }).execute()
+    elif edge and edge < -0.05:
+        # Negative edge: the other team is undervalued, bet against predicted winner
+        other_team = pred["team2"] if pred["predicted_winner"] == pred["team1"] else pred["team1"]
+        bet_odds = pred["odds_t1"] if other_team == pred["team1"] else pred["odds_t2"]
+        if bet_odds and bet_odds > 0:
+            won = actual_winner == other_team
+            pnl = (bet_odds - 1) * 1.0 if won else -1.0
+            model_prob = pred["t1_win_prob"] if other_team == pred["team1"] else 1 - pred["t1_win_prob"]
+            client.table("bets").insert({
+                "prediction_id": pred_id,
+                "bet_team": other_team,
+                "bet_odds": bet_odds,
+                "model_prob": model_prob,
+                "edge": abs(edge),
                 "stake": 1.0,
                 "won": won,
                 "pnl": pnl,
